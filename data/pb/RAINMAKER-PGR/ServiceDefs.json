@@ -31,102 +31,102 @@
       "menuPath": "Animals"
     },
     {
-      "serviceCode": "RequestSprayOp",
+      "serviceCode": "RequestSprayOperation",
       "keywords": "spray,Mosquitoes",
       "department": "NA",
       "slaHours": 12,
       "menuPath": "Mosquitoes"
     },
     {
-      "serviceCode": "RequestSmokeOp",
-      "keywords": "smoke,Mosquitoes",
+      "serviceCode": "RequestSmokeOrFogOperation",
+      "keywords": "smoke,Mosquitoes,Fog",
       "department": "NA",
       "slaHours": 12,
       "menuPath": "Mosquitoes"
     },
     {
-      "serviceCode": "RemoveGarbageOrWater",
-      "keywords": "garbage,water,Mosquitoes",
+      "serviceCode": "RemoveGarbageOrStagnantWater",
+      "keywords": "garbage,StagnantWater,Mosquitoes",
       "department": "NA",
       "slaHours": 12,
       "menuPath": "Mosquitoes"
     },
     {
-      "serviceCode": "IllegalFootpathShop",
+      "serviceCode": "IllegalShopsOnFootPath",
       "keywords": "foot,path,shop,footpath",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "LandViolation"
+      "menuPath": "LandViolations"
     },
     {
-      "serviceCode": "IllegalConstruction",
-      "keywords": "construction",
+      "serviceCode": "IllegalConstructions",
+      "keywords": "constructions",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "LandViolation"
+      "menuPath": "LandViolations"
     },
     {
-      "serviceCode": "Encroachment",
-      "keywords": "encroachment",
+      "serviceCode": "EncroachmentOnPublicProperty",
+      "keywords": "encroachment,publicproperty",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "LandViolation"
+      "menuPath": "LandViolations"
     },
     {
       "serviceCode": "IllegalParking",
       "keywords": "parking",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "LandViolation"
+      "menuPath": "LandViolations"
     },
     {
-      "serviceCode": "VacantLand",
+      "serviceCode": "DumpedOnVacantLand",
       "keywords": "land,Garbage",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Dumping"
+      "menuPath": "Garbage"
     },
     {
-      "serviceCode": "Roadscodee",
+      "serviceCode": "DumpedOnRoadSide",
       "keywords": "road,Garbage",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Dumping"
+      "menuPath": "Garbage"
     },
     {
       "serviceCode": "BinNotEmpty",
       "keywords": "bin,Garbage",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Service"
+      "menuPath": "Garbage"
     },
     {
       "serviceCode": "PoorSweeping",
       "keywords": "sweeping",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Service"
+      "menuPath": "Garbage"
     },
     {
       "serviceCode": "EmployeeAbsent",
       "keywords": "employee",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Service"
+      "menuPath": "Garbage"
     },
     {
-      "serviceCode": "RequestNew",
+      "serviceCode": "RequestNewBin",
       "keywords": "bin",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Bins"
+      "menuPath": "Garbage"
     },
     {
       "serviceCode": "BrokenBin",
       "keywords": "bin",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "Garbage.Bins"
+      "menuPath": "Garbage"
     },
     {
       "serviceCode": "Burning",
@@ -164,7 +164,7 @@
       "menuPath": "Drains"
     },
     {
-      "serviceCode": "ShortSupply",
+      "serviceCode": "SupplyShortage",
       "keywords": "water",
       "department": "NA",
       "slaHours": 12,
@@ -178,7 +178,7 @@
       "menuPath": "Water"
     },
     {
-      "serviceCode": "BadSupply",
+      "serviceCode": "SupplyDirty",
       "keywords": "water",
       "department": "NA",
       "slaHours": 12,
@@ -210,112 +210,112 @@
       "keywords": "road",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Roads"
+      "menuPath": "Roads"
     },
     {
       "serviceCode": "DebrisOrSilt",
       "keywords": "road",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Roads"
+      "menuPath": "Roads"
     },
     {
       "serviceCode": "Damaged",
       "keywords": "road",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Roads"
+      "menuPath": "Roads"
     },
     {
       "serviceCode": "WaterLogged",
       "keywords": "road",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Roads"
+      "menuPath": "Roads"
     },
     {
-      "serviceCode": "ManholeIssue",
+      "serviceCode": "ManholeNotCovered",
       "keywords": "Road",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Roads"
+      "menuPath": "Roads"
+    },
+    {
+      "serviceCode": "ManholeCoverDamaged",
+      "keywords": "Road",
+      "department": "NA",
+      "slaHours": 12,
+      "menuPath": "Roads"
     },
     {
       "serviceCode": "Damaged",
       "keywords": "Footpath",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Footpaths"
+      "menuPath": "Footpaths"
     },
     {
       "serviceCode": "IllegalShops",
       "keywords": "footpath",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Footpaths"
+      "menuPath": "Footpaths"
     },
     {
-      "serviceCode": "BadStreetlight",
+      "serviceCode": "Damaged",
       "keywords": "light",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Lights"
+      "menuPath": "StreetLights"
     },
     {
-      "serviceCode": "PoleOrLightDamage",
+      "serviceCode": "NotLitAtNight",
       "keywords": "light",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Lights"
+      "menuPath": "StreetLights"
     },
     {
-      "serviceCode": "BadTrafficLight",
+      "serviceCode": "DamagedTelephonePole",
       "keywords": "light",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath.Lights"
+      "menuPath": "StreetLights"
     },
     {
-      "serviceCode": "IllegalHoarding",
-      "keywords": "hoarding",
+      "serviceCode": "TrafficSignalNotWorking",
+      "keywords": "light",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "RoadOrFootpath"
+      "menuPath": "StreetLights"
     },
     {
-      "serviceCode": "SlowProgress",
-      "keywords": "",
-      "department": "NA",
-      "slaHours": 12,
-      "menuPath": "RoadOrFootpath"
-    },
-    {
-      "serviceCode": "OpenLand",
+      "serviceCode": "IllegalDischargeOnOpenLand",
       "keywords": "land",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "SewageEffluents.IllegalDischarge"
+      "menuPath": "Sewage"
     },
     {
-      "serviceCode": "WaterBody",
+      "serviceCode": "IllegalDischargeInWaterBody",
       "keywords": "water",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "SewageEffluents.IllegalDischarge"
+      "menuPath": "Sewage"
     },
     {
-      "serviceCode": "StormWaterDrain",
+      "serviceCode": "IllegalDischargeInDrain",
       "keywords": "water",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "SewageEffluents.IllegalDischarge"
+      "menuPath": "Sewage"
     },
     {
-      "serviceCode": "BrokenOrDamagedPipe",
+      "serviceCode": "BrokenOrLeakingPipe",
       "keywords": "water",
       "department": "NA",
       "slaHours": 12,
-      "menuPath": "SewageEffluents"
+      "menuPath": "Sewage"
     },
     {
       "serviceCode": "DirtyOrSmelly",
@@ -346,22 +346,15 @@
       "menuPath": "Trees"
     },
     {
-      "serviceCode": "RequestTrimming",
+      "serviceCode": "PosesDangerOrRequestTrimming",
       "keywords": "tree",
       "department": "NA",
       "slaHours": 12,
       "menuPath": "Trees"
     },
     {
-      "serviceCode": "BrokenGuard",
-      "keywords": "tree",
-      "department": "NA",
-      "slaHours": 12,
-      "menuPath": "Trees"
-    },
-    {
-      "serviceCode": "OpenDefacation",
-      "keywords": "defacation",
+      "serviceCode": "OpenDefecation",
+      "keywords": "defecation",
       "department": "NA",
       "slaHours": 12,
       "menuPath": ""
