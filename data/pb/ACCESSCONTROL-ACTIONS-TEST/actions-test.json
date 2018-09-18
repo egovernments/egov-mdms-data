@@ -17693,7 +17693,7 @@
 {
    "id": 2067,
    "name": "Create Contractor",
-   "url": "",
+   "url": "/services/EGF/contractor/newform",
    "parentModule": "",
    "displayName": "Create Contractor",
    "orderNumber": 1,
@@ -17706,7 +17706,7 @@
 {
    "id": 2068,
    "name": "View Contractor",
-   "url": "",
+   "url": "/services/EGF/contractor/search/view",
    "parentModule": "",
    "displayName": "View Contractor",
    "orderNumber": 2,
@@ -17719,7 +17719,7 @@
 {
    "id": 2069,
    "name": "Modify Contractor",
-   "url": "",
+   "url": "/services/EGF/contractor/search/edit",
    "parentModule": "",
    "displayName": "Modify Contractor",
    "orderNumber": 3,
@@ -17732,7 +17732,7 @@
 {
    "id": 2070,
    "name": "Create Supplier",
-   "url": "",
+   "url": "/services/EGF/supplier/newform",
    "parentModule": "",
    "displayName": "Create Supplier",
    "orderNumber": 1,
@@ -17745,7 +17745,7 @@
 {
    "id": 2071,
    "name": "View Supplier",
-   "url": "",
+   "url": "/services/EGF/supplier/search/view",
    "parentModule": "",
    "displayName": "View Supplier",
    "orderNumber": 2,
@@ -17758,7 +17758,7 @@
 {
    "id": 2072,
    "name": "Modify Supplier",
-   "url": "",
+   "url": "/services/EGF/supplier/search/edit",
    "parentModule": "",
    "displayName": "Modify Supplier",
    "orderNumber": 3,
@@ -17771,7 +17771,7 @@
 {
    "id": 2073,
    "name": "Create Mis Receipts",
-   "url": "",
+   "url": "/services/collection/receipts/receipt-newform.action?Receipt=Misc#no-back-button",
    "parentModule": "",
    "displayName": "Miscellaneous Receipts",
    "orderNumber": 1,
