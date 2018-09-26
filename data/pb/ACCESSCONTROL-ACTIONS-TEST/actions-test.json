@@ -18756,6 +18756,39 @@
    "code": "null",
    "path": ""
    
- }
+ },
+ {
+    "id": 2149,
+    "name": "Create TradeLicence v1",
+    "url": "tl-services/v1/_create",
+    "displayName": "Create TradeLicense",
+    "orderNumber": 1,
+    "enabled": false,
+    "serviceCode": "tl-services",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 2150,
+    "name": "Update TradeLicence v1",
+    "url": "tl-services/v1/_update",
+    "displayName": "Update TradeLicense",
+    "orderNumber": 1,
+    "enabled": false,
+    "serviceCode": "tl-services",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 2151,
+    "name": "Search TradeLicence v1",
+    "url": "tl-services/v1/_search",
+    "displayName": "Search TradeLicense",
+    "orderNumber": 1,
+    "enabled": false,
+    "serviceCode": "tl-services",
+    "code": "null",
+    "path": ""
+  }
   ]
 }
