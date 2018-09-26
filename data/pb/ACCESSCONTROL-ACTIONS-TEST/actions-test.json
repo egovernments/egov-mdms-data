@@ -11554,93 +11554,17 @@
     {
       "id": 1593,
       "name": "Financial Expense bill create",
-      "navigationURL": "EGF/expensebill/newform",
+      "navigationURL": "services/EGF/expensebill/newform",
       "url": "url",
       "parentModule": "EGF",
-      "displayName": "Create Expense Bill",
+      "displayName": "Expense Bill",
       "orderNumber": 1,
       "enabled": true,
-      "serviceCode": "Bills Accounting",
+      "serviceCode": "FinanceBill",
       "code": "null",
-      "path": "EGF.Bills Accounting.Create Expense Bill"
+      "path": "Finance.Bills Accounting.Expense Bill"
     },
-    {
-      "id": 1594,
-      "name": "Financial getnetpayable code ",
-      "url": "/EGF/common/getnetpayablecodesbyaccountdetailtype",
-      "displayName": "getNetPayableCode",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1595,
-      "name": "Financial getnetpayable code ",
-      "url": "/EGF/common/ajaxfunctionnames",
-      "displayName": "getFunctionNames",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1596,
-      "name": "Financial getnetpayable code ",
-      "url": "/EGF/common/ajaxfunctionnames",
-      "displayName": "getFunctionNames",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1597,
-      "name": "Financial accountcode by detail type",
-      "url": "/EGF/common/getaccountcodesforaccountdetailtype",
-      "displayName": "getAccountCode",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1598,
-      "name": "Financial checklist",
-      "url": "/EGF/common/getchecklistbybillsubtype",
-      "displayName": "getCheckList",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1599,
-      "name": "Financial expense bill success",
-      "url": "/EGF/expensebill/success",
-      "displayName": "expensebill_success",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1600,
-      "name": "Financial expense bill success",
-      "url": "/EGF/expensebill/create",
-      "displayName": "expensebill_success",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Bills Accounting",
-      "code": "null",
-      "path": ""
-    },
+    
     {
       "id": 1601,
       "name": "DesignationSearch",
