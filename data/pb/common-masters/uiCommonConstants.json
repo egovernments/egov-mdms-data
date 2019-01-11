@@ -11,6 +11,22 @@
           }
         }
       },
+      "tradelicense": {
+        "iframe-routes": {
+          "search-preview": {
+            "routePath": "/employee-tradelicence/mihy-ui-framework/tradelicence/search-preview",
+            "isOrigin": true
+          }
+        }
+      },
+       "tradelicense": {
+        "iframe-routes": {
+          "apply": {
+            "routePath": "/employee-tradelicence/mihy-ui-framework/tradelicence/apply",
+            "isOrigin": true
+          }
+        }
+      },
       "dashboard": {
         "iframe-routes": {
           "pgr": {
