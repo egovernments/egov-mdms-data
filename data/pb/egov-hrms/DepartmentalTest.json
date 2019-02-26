@@ -1,0 +1,21 @@
+{
+  "tenantId": "pb",
+  "moduleName": "egov-hrms",
+  "DepartmentalTest": [
+    {
+      "status": "Prelims",
+      "code": "PRELIMS",
+      "active": true
+    },
+    {
+      "status": "Aptitude Test",
+      "code": "APTITUDE TEST",
+      "active": true
+    },
+    {
+      "status": "Mains",
+      "code": "MAINS",
+      "active": true
+    }
+  ]
+} 
