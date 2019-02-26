@@ -1,0 +1,16 @@
+{
+  "tenantId": "pb",
+  "moduleName": "egov-hrms",
+  "Specalization": [
+    {
+      "status": "Arts",
+      "code": "ARTS",
+      "active": true
+    },
+    {
+      "status": "Science",
+      "code": "SCIENCE",
+      "active": true
+    }
+  ]
+}
