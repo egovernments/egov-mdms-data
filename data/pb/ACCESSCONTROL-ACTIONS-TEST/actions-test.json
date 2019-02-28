@@ -13706,6 +13706,18 @@
       "leftIcon": "",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 1767,
+      "name": "Apportion Service",
+      "url": "/apportion-service/v1/_apportion",
+      "displayName": "Apportion",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "APPORTION",
+      "code": "null",
+      "path": ""
     }
   ]
 }
