@@ -1,0 +1,28 @@
+{
+  "tenantId": "pb",
+  "moduleName": "firenoc",
+  "Documents": [
+    {
+      "code": "IDENTITYPROOF",
+      "required": true,
+      "active": true,
+      "options": [
+        { "code": "AADHAAR", "active": true },
+        { "code": "VOTERID", "active": true },
+        { "code": "DRIVING", "active": true }
+      ],
+      "description": "IDENTITYPROOF_DESCRIPTION"
+    },
+    {
+      "code": "ADDRESS",
+      "required": true,
+      "active": true,
+      "options": [
+        { "code": "ELECTRICITYBILL", "active": true },
+        { "code": "DL", "active": true },
+        { "code": "VOTERID", "active": true }
+      ],
+      "description": "ADDRESSPROOF_DESCRIPTION"
+    }
+  ]
+}
