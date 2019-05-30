@@ -14258,6 +14258,18 @@
       "navigationURL": "uc/search",
       "path": "",
       "leftIcon": "image:collections-bookmark"
+    },
+    {
+      "id": 1803,
+      "name": "CollectionRegister",
+      "url": "url",
+      "displayName": "Collection Register",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "COLLECTIONS",
+      "code": "null",
+      "navigationURL": "report/rainmaker-common/CollectionRegister",
+      "path": "Reports.Collection Register"
     }
   ]
 }
