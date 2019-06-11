@@ -13933,7 +13933,7 @@
       "code": "",
       "path": "",
       "navigationURL": "all-complaints",
-      "leftIcon": "action:announcement",
+      "leftIcon": "custom:comment-plus",
       "rightIcon": "",
       "queryParams": ""
     },
@@ -13949,7 +13949,7 @@
       "code": "",
       "path": "",
       "navigationURL": "property-tax",
-      "leftIcon": "action:store",
+      "leftIcon": "custom:home-city-outline",
       "rightIcon": "",
       "queryParams": ""
     },
@@ -13981,7 +13981,7 @@
       "code": "",
       "path": "",
       "navigationURL": "tradelicence/search",
-      "leftIcon": "places:business-center",
+      "leftIcon": "custom:trade-license",
       "rightIcon": "",
       "queryParams": ""
     },
@@ -14241,7 +14241,7 @@
       "code": "",
       "path": "",
       "navigationURL": "fire-noc/search",
-      "leftIcon": "social:people",
+      "leftIcon": "custom:fire",
       "rightIcon": "",
       "queryParams": ""
     },
@@ -14309,7 +14309,7 @@
       "queryParams": "",
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "",  
+      "serviceCode": "",
       "path": "Property Tax",
       "navigationURL": "property-tax",
       "leftIcon": "communication:business",
@@ -14330,7 +14330,7 @@
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
-     {
+    {
       "id": 1808,
       "name": "CollectionRegister",
       "url": "url",
@@ -14342,7 +14342,7 @@
       "navigationURL": "report/rainmaker-common/CollectionRegister",
       "path": "Reports.Collection Register"
     },
-   {
+    {
       "id": 1809,
       "name": "CollectionReport",
       "url": "url",
