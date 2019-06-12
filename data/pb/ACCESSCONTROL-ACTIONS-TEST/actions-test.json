@@ -14329,6 +14329,66 @@
       "path": "TradeLicense",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 1808,
+      "name": "Get Bill",
+      "url": "/firenoc-calculator/v1/_getbill",
+      "parentModule": "",
+      "displayName": "Get Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1809,
+      "name": "Calculate",
+      "url": "/firenoc-calculator/v1/_calculate",
+      "parentModule": "",
+      "displayName": "Calculate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1810,
+      "name": "billing slab create",
+      "url": "/firenoc-calculator/billingslab/_create",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1811,
+      "name": "billing slab update",
+      "url": "/firenoc-calculator/billingslab/_update",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+        {
+      "id": 1812,
+      "name": "billing slab search",
+      "url": "/firenoc-calculator/billingslab/_search",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
