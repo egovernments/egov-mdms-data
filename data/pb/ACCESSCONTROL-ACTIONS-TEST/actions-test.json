@@ -14566,6 +14566,20 @@
       "serviceCode": "FIRENOCREPORTS",
       "code": "null",
       "path": "FIRENOC Metadata "
+    },
+    {
+      "id": 1826,
+      "name": "Universal Bill",
+      "url": "url",
+      "displayName": "Universal Bill",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "abg/groupBills",
+      "path": "BG",
+      "leftIcon": "image:collections-bookmark"
     }
   ]
 }
