@@ -9,9 +9,7 @@
         "DD"
       ],
       "partPaymentAllowed": true,
-      "isAdvanceAllowed": true,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": true
+      "isAdvanceAllowed": true
     },
     {
       "businessService": "WaterCharges",
@@ -20,9 +18,7 @@
         "DD"
       ],
       "partPaymentAllowed": false,
-      "isAdvanceAllowed": true,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false
+      "isAdvanceAllowed": true
     },
     {
       "businessService": "TradeLicense",
@@ -31,9 +27,7 @@
         "DD"
       ],
       "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
+      "isAdvanceAllowed": false
     },
     {
       "businessService": "WaterCharges.Metered",
@@ -43,8 +37,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": true,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
       "type": "Adhoc"
     },
     {
@@ -55,8 +47,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": true,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
       "type": "Adhoc"
     },
     {
@@ -67,7 +57,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -79,7 +68,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "type": "Adhoc"
     },
     {
@@ -90,7 +78,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": true,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
       "type": "Adhoc"
     },
@@ -102,7 +89,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -114,7 +100,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -126,7 +111,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -138,7 +122,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -150,7 +133,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -162,7 +144,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -174,7 +155,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -186,7 +166,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -198,7 +177,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -210,7 +188,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -222,7 +199,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -234,7 +210,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -246,7 +221,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -258,7 +232,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -270,7 +243,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -282,7 +254,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -294,7 +265,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -306,7 +276,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -318,7 +287,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -330,7 +298,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -342,7 +309,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -354,7 +320,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -366,7 +331,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -378,7 +342,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -390,7 +353,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -402,7 +364,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -414,7 +375,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -426,7 +386,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -438,7 +397,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -450,7 +408,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -462,7 +419,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -474,7 +430,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -486,7 +441,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -498,7 +452,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -510,7 +463,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -522,7 +474,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -534,7 +485,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -546,7 +496,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -558,7 +507,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -570,7 +518,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -582,7 +529,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -594,7 +540,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -606,7 +551,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -618,7 +562,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -630,7 +573,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -642,7 +584,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -654,7 +595,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -666,7 +606,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -678,7 +617,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -690,7 +628,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -702,7 +639,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -714,7 +650,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -726,7 +661,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -738,7 +672,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -750,7 +683,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -762,7 +694,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -774,7 +705,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -786,7 +716,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -798,7 +727,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -810,7 +738,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -822,7 +749,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -834,7 +760,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -846,7 +771,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -858,7 +782,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -870,7 +793,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -882,7 +804,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -894,7 +815,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -906,7 +826,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -918,7 +837,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -930,7 +848,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -942,7 +859,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Adhoc"
     },
@@ -954,7 +870,6 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
       "isActive": true
     }
   ]
