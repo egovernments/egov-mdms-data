@@ -1,0 +1,2298 @@
+{
+  "tenantId": "pb.ahmedgarh",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Ahmedgarh",
+        "localname": "Ahmedgarh",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pb.ahmedgarh",
+        "children": [
+          {
+            "id": "0ff0f89b-c1e1-44ba-80c0-dfc8cea46394",
+            "boundaryNum": 1,
+            "name": "AHMEDGARH",
+            "localname": "AHMEDGARH",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "AHHZN1",
+            "children": [
+              {
+                "id": "0abb7893-0191-4a7e-901f-50711ac64406",
+                "boundaryNum": 1,
+                "name": "WARD_1",
+                "localname": "WARD_1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD1",
+                "children": [
+                  {
+                    "id": "dec04ef0-e2bf-471b-bc35-49058966935a",
+                    "boundaryNum": 1,
+                    "name": "Pohir Road swastik colony And Near Colonies - WARD_1",
+                    "localname": "Pohir Road swastik colony And Near Colonies - WARD_1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD3",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7896c137-bccf-4861-b68c-71b7a1be59c4",
+                "boundaryNum": 1,
+                "name": "WARD_2",
+                "localname": "WARD_2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD2",
+                "children": [
+                  {
+                    "id": "03fd507c-87f8-42c7-8d51-58ce3aa2233c",
+                    "boundaryNum": 1,
+                    "name": "Area for white House - WARD_2",
+                    "localname": "Area for white House - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD1",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "1c9bf72d-0726-4c49-801c-2970be8d5d73",
+                    "boundaryNum": 1,
+                    "name": "Gadown Jagara road - WARD_2",
+                    "localname": "Gadown Jagara road - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD2",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "33a5387d-ac52-48de-99b4-26c8d4b77a2a",
+                    "boundaryNum": 1,
+                    "name": "Area for shakti Industries - WARD_2",
+                    "localname": "Area for shakti Industries - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD5",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "29be5178-37ee-4553-adf2-d28a04e0aa91",
+                    "boundaryNum": 1,
+                    "name": "Railway Jagera road to new tempo union opp railway station colony road - WARD_2",
+                    "localname": "Railway Jagera road to new tempo union opp railway station colony road - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD6",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "fca92f3b-aa47-4d7c-a57a-4905f403635d",
+                    "boundaryNum": 1,
+                    "name": "J subhash kohallu. De nal jagara road - WARD_2",
+                    "localname": "J subhash kohallu. De nal jagara road - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD7",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "62ba5c13-1250-4970-b5d5-84e398b56eef",
+                    "boundaryNum": 1,
+                    "name": "Near railway line Colony F.C.I. - WARD_2",
+                    "localname": "Near railway line Colony F.C.I. - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD8",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2b005d33-374e-43b2-8988-1d9476dc404c",
+                "boundaryNum": 1,
+                "name": "WARD_3",
+                "localname": "WARD_3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD3",
+                "children": [
+                  {
+                    "id": "db4e91c7-8fd9-49f7-848a-8cc20e7488b8",
+                    "boundaryNum": 1,
+                    "name": "Jagara road near back bye pass left and right side - WARD_3",
+                    "localname": "Jagara road near back bye pass left and right side - WARD_3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD4",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "52cb5e8e-47f5-43a7-af69-92d7cd940455",
+                "boundaryNum": 1,
+                "name": "WARD_4",
+                "localname": "WARD_4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD4",
+                "children": [
+                  {
+                    "id": "b025170c-6a61-4585-9ee4-edde7e14b7c2",
+                    "boundaryNum": 1,
+                    "name": "Jandali Crossing upto sond cinema about right side - WARD_4",
+                    "localname": "Jandali Crossing upto sond cinema about right side - WARD_4",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD43",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "ec7fe0ea-a5d4-4ae7-a935-f224da4193a2",
+                    "boundaryNum": 1,
+                    "name": "Sond Cinema to left side channa road  about chhanna chowk - WARD_4",
+                    "localname": "Sond Cinema to left side channa road  about chhanna chowk - WARD_4",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD44",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "333bb388-8a0f-4296-b8bb-205f1fd8e243",
+                    "boundaryNum": 1,
+                    "name": "Guru Ravidass road both side - WARD_4",
+                    "localname": "Guru Ravidass road both side - WARD_4",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD52",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "927572a9-3065-4486-865f-df49d79fa20f",
+                    "boundaryNum": 1,
+                    "name": "swalia transfer back side Area - WARD_4",
+                    "localname": "swalia transfer back side Area - WARD_4",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD53",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "06295d6f-7336-406c-8642-a78c992fcf21",
+                "boundaryNum": 1,
+                "name": "WARD_5",
+                "localname": "WARD_5",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD5",
+                "children": [
+                  {
+                    "id": "269987f8-6241-4022-a90b-0b20779d4fa3",
+                    "boundaryNum": 1,
+                    "name": "old Dahleez octrio area upto village chhanna - WARD_5",
+                    "localname": "old Dahleez octrio area upto village chhanna - WARD_5",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD47",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "a2e2c240-1cf2-480e-a356-bfd2a07cc5a4",
+                    "boundaryNum": 1,
+                    "name": "Near kushi Diary Wala Area - WARD_5",
+                    "localname": "Near kushi Diary Wala Area - WARD_5",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD54",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a5128ed9-bfcb-4422-891a-8da92ed7f73b",
+                "boundaryNum": 1,
+                "name": "WARD_6",
+                "localname": "WARD_6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD6",
+                "children": [
+                  {
+                    "id": "97375ace-83c5-41f5-bff0-733908be1d14",
+                    "boundaryNum": 1,
+                    "name": "Pansari Bazar - WARD_6",
+                    "localname": "Pansari Bazar - WARD_6",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD36",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "0b30095b-db89-4e76-bfb1-2802ef95c4b1",
+                    "boundaryNum": 1,
+                    "name": "Ashok Puri Mohalla - WARD_6",
+                    "localname": "Ashok Puri Mohalla - WARD_6",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD40",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a253073d-495c-427d-af2b-ef6a095e3782",
+                "boundaryNum": 1,
+                "name": "WARD_7",
+                "localname": "WARD_7",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD7",
+                "children": [
+                  {
+                    "id": "df5ea258-eea0-4b28-af13-8dad16dab699",
+                    "boundaryNum": 1,
+                    "name": "Left side bajrang akhara road upto mukhtiar Singh poltary form - WARD_7",
+                    "localname": "Left side bajrang akhara road upto mukhtiar Singh poltary form - WARD_7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD46",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "00c8395c-4a21-4e55-9029-4de165103b53",
+                    "boundaryNum": 1,
+                    "name": "Yakub streets - WARD_7",
+                    "localname": "Yakub streets - WARD_7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD48",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "d23fb5cb-01ab-462a-ac7f-a9379f4b2ef7",
+                    "boundaryNum": 1,
+                    "name": "sodhi streets - WARD_7",
+                    "localname": "sodhi streets - WARD_7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD49",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "6cb4c021-3620-4e07-a489-e67ee4f6d82a",
+                    "boundaryNum": 1,
+                    "name": "Pandit khohi wali street - WARD_7",
+                    "localname": "Pandit khohi wali street - WARD_7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD50",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "48ee43ff-b154-4ec4-bf66-83f77628dea1",
+                    "boundaryNum": 1,
+                    "name": "Dahleez octria murdghat wal Area - WARD_7",
+                    "localname": "Dahleez octria murdghat wal Area - WARD_7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD51",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a83ed5eb-f746-46dd-9735-fee70eb0747f",
+                "boundaryNum": 1,
+                "name": "WARD_8",
+                "localname": "WARD_8",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD8",
+                "children": [
+                  {
+                    "id": "d107fe55-93fd-491d-8955-1c06f993e315",
+                    "boundaryNum": 1,
+                    "name": "Mohalla chaudhary brij lal - WARD_8",
+                    "localname": "Mohalla chaudhary brij lal - WARD_8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD32",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "13449480-eb49-4127-9747-bef414d94b62",
+                    "boundaryNum": 1,
+                    "name": "Area Nav Bahar - WARD_8",
+                    "localname": "Area Nav Bahar - WARD_8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD33",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "b98382f7-90ef-4ddf-b60f-0f5cbf95c6d5",
+                    "boundaryNum": 1,
+                    "name": "Shiv Puri Mohalla street - WARD_8",
+                    "localname": "Shiv Puri Mohalla street - WARD_8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD34",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ec7040dc-0693-4b3c-8710-6a04f563a4e8",
+                "boundaryNum": 1,
+                "name": "WARD_9",
+                "localname": "WARD_9",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD9",
+                "children": [
+                  {
+                    "id": "abf9c8be-3ce8-452e-a5cc-1d2cdbc092cb",
+                    "boundaryNum": 1,
+                    "name": "Railway road right side gurudwara singh Sabha up to Jain School road - WARD_9",
+                    "localname": "Railway road right side gurudwara singh Sabha up to Jain School road - WARD_9",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD27",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "e86ee84a-dd64-451f-bba2-964ef989eb71",
+                    "boundaryNum": 1,
+                    "name": "Batta Bagh - WARD_9",
+                    "localname": "Batta Bagh - WARD_9",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD28",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "b6e4f101-e2a1-46a3-a5dc-15670122307e",
+                    "boundaryNum": 1,
+                    "name": "Tagore Nagar - WARD_9",
+                    "localname": "Tagore Nagar - WARD_9",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD29",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "f9a49649-2cdf-495d-9185-f86ce74d748b",
+                    "boundaryNum": 1,
+                    "name": "Jawahar Nagar - WARD_9",
+                    "localname": "Jawahar Nagar - WARD_9",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD30",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "b5657d6b-acbd-4c34-8671-b9b0e1f48a41",
+                    "boundaryNum": 1,
+                    "name": "Mohalla kaser wala - WARD_9",
+                    "localname": "Mohalla kaser wala - WARD_9",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD31",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "055441a2-721a-4170-95d9-0110bd5a3bd7",
+                "boundaryNum": 1,
+                "name": "WARD_10",
+                "localname": "WARD_10",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD10",
+                "children": [
+                  {
+                    "id": "5c7d45db-2111-44d2-aca1-299c37f5cbfd",
+                    "boundaryNum": 1,
+                    "name": "Gala Mandi - WARD_10",
+                    "localname": "Gala Mandi - WARD_10",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD35",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "6090e016-738b-44be-a8ef-8bd7a4756a39",
+                    "boundaryNum": 1,
+                    "name": "Sarfa Bazar - WARD_10",
+                    "localname": "Sarfa Bazar - WARD_10",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD37",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "4798933e-ed0b-41f7-bdf7-77060c54eea0",
+                    "boundaryNum": 1,
+                    "name": "Sabji Mandi - WARD_10",
+                    "localname": "Sabji Mandi - WARD_10",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD38",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "f7e421ad-7013-4684-baf6-e93f9c8d52d1",
+                    "boundaryNum": 1,
+                    "name": "Bali Ram da hatta - WARD_10",
+                    "localname": "Bali Ram da hatta - WARD_10",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD41",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "62aaf367-316b-4947-92ad-1ed1e53110c9",
+                "boundaryNum": 1,
+                "name": "WARD_11",
+                "localname": "WARD_11",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD11",
+                "children": [
+                  {
+                    "id": "ee7e40a7-7f45-41ff-9ab5-3b9eca823ed6",
+                    "boundaryNum": 1,
+                    "name": "Sheller wali colony back side shajada - WARD_11",
+                    "localname": "Sheller wali colony back side shajada - WARD_11",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD39",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "ffd5bd08-3e3f-4916-bfca-6094c760b1b6",
+                    "boundaryNum": 1,
+                    "name": "Gandhi school chowk to mahesh sharam house left side - WARD_11",
+                    "localname": "Gandhi school chowk to mahesh sharam house left side - WARD_11",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD42",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "89ac17cb-365e-46a5-a3f9-8d7022d4616a",
+                "boundaryNum": 1,
+                "name": "WARD_12",
+                "localname": "WARD_12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD12",
+                "children": [
+                  {
+                    "id": "d46a1e79-cd5c-4995-a521-ae124d2d8a16",
+                    "boundaryNum": 1,
+                    "name": "Municipal council nal wali street from upto new tahsil. - WARD_12",
+                    "localname": "Municipal council nal wali street from upto new tahsil. - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD12",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "75590cf3-03a4-40c1-8f67-ad29ece6cbf0",
+                    "boundaryNum": 1,
+                    "name": "Hind hospital - WARD_12",
+                    "localname": "Hind hospital - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD20",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "fc9ea621-ed30-45c7-8bac-31f0c85a9453",
+                    "boundaryNum": 1,
+                    "name": "Ram sharnam Ashram to right side yash painter Area - WARD_12",
+                    "localname": "Ram sharnam Ashram to right side yash painter Area - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD21",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "64f914f4-748a-494e-85b2-0f6c7718afd5",
+                    "boundaryNum": 1,
+                    "name": "Model town - WARD_12",
+                    "localname": "Model town - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD22",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "a094ddac-c688-4bc3-ac30-2dc39b659057",
+                    "boundaryNum": 1,
+                    "name": "Right side gainy upto gandhi school Area - WARD_12",
+                    "localname": "Right side gainy upto gandhi school Area - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD23",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "e26e8fac-860e-48df-b54d-b32bca3dae88",
+                    "boundaryNum": 1,
+                    "name": "Datta Ram schools streets - WARD_12",
+                    "localname": "Datta Ram schools streets - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD24",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "cff13fd6-dabc-4e73-9f77-a54b656277a5",
+                    "boundaryNum": 1,
+                    "name": "Railway road left side up to thana road - WARD_12",
+                    "localname": "Railway road left side up to thana road - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD25",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "e0b38759-5c4e-40cf-8d25-2a1a14e9246c",
+                    "boundaryNum": 1,
+                    "name": "Back side Bhai Vir singh Area - WARD_12",
+                    "localname": "Back side Bhai Vir singh Area - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD26",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "fd9cc19a-95de-4d2d-8f4e-20482d39f238",
+                "boundaryNum": 1,
+                "name": "WARD_13",
+                "localname": "WARD_13",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD13",
+                "children": [
+                  {
+                    "id": "e5f73096-0790-4702-8ce0-9143889caa73",
+                    "boundaryNum": 1,
+                    "name": "Left and right side old truck union - WARD_13",
+                    "localname": "Left and right side old truck union - WARD_13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD9",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "36dcd1e1-1978-43fd-a247-8f6516d84025",
+                    "boundaryNum": 1,
+                    "name": "Back side central bank and hari chand baba streets - WARD_13",
+                    "localname": "Back side central bank and hari chand baba streets - WARD_13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD10",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "3a745f5c-10b7-4ac4-aa90-4181d24438d2",
+                    "boundaryNum": 1,
+                    "name": "Both side charua Bazar - WARD_13",
+                    "localname": "Both side charua Bazar - WARD_13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD13",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "df5a52d8-0d78-4857-b5f4-a2db31ffc117",
+                    "boundaryNum": 1,
+                    "name": "Main bazar - WARD_13",
+                    "localname": "Main bazar - WARD_13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD14",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "3247689c-b06e-48f5-80c6-6bc30ed1c539",
+                    "boundaryNum": 1,
+                    "name": "grain market both sides 30 foot deeply - WARD_13",
+                    "localname": "grain market both sides 30 foot deeply - WARD_13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD15",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "73da5cf3-b4e7-426e-8553-e9cc12e94d58",
+                "boundaryNum": 1,
+                "name": "WARD_14",
+                "localname": "WARD_14",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD14",
+                "children": [
+                  {
+                    "id": "c2c154f5-bb63-4c43-bfa7-028c3ec3c8ee",
+                    "boundaryNum": 1,
+                    "name": "Mahavir road right side Jeet Boot house upto 30 foot deeply - WARD_14",
+                    "localname": "Mahavir road right side Jeet Boot house upto 30 foot deeply - WARD_14",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD11",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "eaeec238-738d-4a70-b728-debe1d103c57",
+                    "boundaryNum": 1,
+                    "name": "Kunan lal hospital road upto limit - WARD_14",
+                    "localname": "Kunan lal hospital road upto limit - WARD_14",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD16",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "d22cbd9c-f03c-44b2-ae8f-61d6df278f54",
+                    "boundaryNum": 1,
+                    "name": "Green Avenue - WARD_14",
+                    "localname": "Green Avenue - WARD_14",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD17",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "dab1a0be-67bb-40c9-b8d8-168d396e176d",
+                    "boundaryNum": 1,
+                    "name": "Lakashmi Narayan mandir 's streets.-b7 - WARD_14",
+                    "localname": "Lakashmi Narayan mandir 's streets.-b7 - WARD_14",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD19",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "1e703ecd-d121-4086-a107-6ba379d36d2f",
+                    "boundaryNum": 1,
+                    "name": "Dhank basti Area - WARD_14",
+                    "localname": "Dhank basti Area - WARD_14",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD45",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9ce2ae03-6018-4ddd-9158-f563d24bcb59",
+                "boundaryNum": 1,
+                "name": "WARD_15",
+                "localname": "WARD_15",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD15",
+                "children": [
+                  {
+                    "id": "c836ab38-7c4e-4fcc-af3f-54f170f207c9",
+                    "boundaryNum": 1,
+                    "name": "Area dr. Kundan Lal hospital, - WARD_15",
+                    "localname": "Area dr. Kundan Lal hospital, - WARD_15",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD18",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1bd686de-7c31-44ea-a581-8de06b86135b",
+                "boundaryNum": 1,
+                "name": "WARD_16",
+                "localname": "WARD_16",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD16",
+                "children": [
+                  {
+                    "id": "77c8f085-27b2-49ee-86f4-e223189aa9c7",
+                    "boundaryNum": 1,
+                    "name": "Right side Ludhiana Malerkotla road - WARD_16",
+                    "localname": "Right side Ludhiana Malerkotla road - WARD_16",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AHD55",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Ahmedgarh",
+        "localname": "Ahmedgarh",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pb.ahmedgarh",
+        "children": [
+          {
+            "id": "f72793dc-1a25-41ce-8013-4ec41103886f",
+            "boundaryNum": 1,
+            "name": "Zone 1",
+            "localname": "Zone 1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z1",
+            "children": [
+              {
+                "id": "7e580787-336c-4f16-98f2-840e8a9b53dd",
+                "boundaryNum": 1,
+                "name": "Block 1A",
+                "localname": "Block 1A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B1A",
+                "children": [
+                  {
+                    "id": "27234512-719a-446d-9ec5-3b8ceaf0d914",
+                    "boundaryNum": 1,
+                    "name": "Jagara Railway crossing to left side to jagara octria. Block 1A - B1A - A1",
+                    "localname": "Jagara Railway crossing to left side to jagara octria. Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_1",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "82d231db-a8e4-443e-b0bd-edbd2e5bad57",
+                    "boundaryNum": 1,
+                    "name": "Pohir Octrci to railway crossing left and right side Guru Nanak Nagar Pohir Road Block 1A - B1A - A1",
+                    "localname": "Pohir Octrci to railway crossing left and right side Guru Nanak Nagar Pohir Road Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_2",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "2581cfcd-7c19-4fae-91c5-220dd9d9665c",
+                    "boundaryNum": 1,
+                    "name": "Shakti Industirs New tellphone exchange left and right side. Block 1A - B1A - A1",
+                    "localname": "Shakti Industirs New tellphone exchange left and right side. Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_3",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "5163c3db-9108-4524-87bc-bc56b6617287",
+                    "boundaryNum": 1,
+                    "name": "Bus stand to Opposite Gadown Area, Bus stand Nal wali Road Block 1A - B1A - A1",
+                    "localname": "Bus stand to Opposite Gadown Area, Bus stand Nal wali Road Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_4",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "de885559-90bc-463c-8658-7650fe782964",
+                    "boundaryNum": 1,
+                    "name": "Jagara Road to pohir road bye pass main road to away from 30 feet Block 1A - B1A - A1",
+                    "localname": "Jagara Road to pohir road bye pass main road to away from 30 feet Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_5",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "382cdd52-7b48-420f-9303-a07c7500e6ae",
+                    "boundaryNum": 1,
+                    "name": "Area for white House, Gadown Jagara road, Pohir Road swastik colony. And Near Colonies Block 1A - B1A - A1",
+                    "localname": "Area for white House, Gadown Jagara road, Pohir Road swastik colony. And Near Colonies Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_6",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "e21e07b5-8b15-467c-b644-1ae866969189",
+                    "boundaryNum": 1,
+                    "name": "Jagara road near back bye pass left and right side, Area for shakti Industries, Block 1A - B1A - A1",
+                    "localname": "Jagara road near back bye pass left and right side, Area for shakti Industries, Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_7",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "4543c755-7e86-4748-91ba-c1aba76d5691",
+                    "boundaryNum": 1,
+                    "name": "Railway Jagera road to new tempo union opp railway station colony road, Block 1A - B1A - A1",
+                    "localname": "Railway Jagera road to new tempo union opp railway station colony road, Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_8",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "497421d5-4301-481e-b7cb-73953c91d50d",
+                    "boundaryNum": 1,
+                    "name": "subhash kohallu. De nal jagara road, Near railway line Colony F.C.I. Block 1A - B1A - A1",
+                    "localname": "subhash kohallu. De nal jagara road, Near railway line Colony F.C.I. Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_9",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "918d2177-be34-46da-befe-3bd28c19e7a6",
+                    "boundaryNum": 1,
+                    "name": "Back side Gadown Bhatti sewak. Block 1A - B1A - A1",
+                    "localname": "Back side Gadown Bhatti sewak. Block 1A - B1A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_10",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "aa7b1541-1128-4bf0-9872-9267ef2d1333",
+                "boundaryNum": 1,
+                "name": "Block 2A",
+                "localname": "Block 2A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B2A",
+                "children": [
+                  {
+                    "id": "21664f98-3500-4776-bab0-2ae277b0401b",
+                    "boundaryNum": 1,
+                    "name": "Second side link road Jandali both side about 400 meter to (Jandali side) Area 200 foot about deeply. Block 2A - B2A - A1",
+                    "localname": "Second side link road Jandali both side about 400 meter to (Jandali side) Area 200 foot about deeply. Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_11",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "39d6f42d-85a3-4efd-b0b8-d13030b761ba",
+                    "boundaryNum": 1,
+                    "name": "Ludhiana Malerkotla road left and right side, Malerkotla to ludhiana road, link road left and right side Block 2A - B2A - A1",
+                    "localname": "Ludhiana Malerkotla road left and right side, Malerkotla to ludhiana road, link road left and right side Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_12",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "c9dc137f-42d8-4bc5-8720-637cb7f82103",
+                    "boundaryNum": 1,
+                    "name": "momnabad road upto ahmedgarh Limit. Every comm and indus Area Block 2A - B2A - A1",
+                    "localname": "momnabad road upto ahmedgarh Limit. Every comm and indus Area Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_13",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "604862b7-51bf-4cff-a50a-b6258071c65a",
+                    "boundaryNum": 1,
+                    "name": "Right side Ludhiana malerkotla road about 300 foot deeply.  Block 2A - B2A - A1",
+                    "localname": "Right side Ludhiana malerkotla road about 300 foot deeply.  Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_14",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "17b30355-874d-4e77-bec7-98ba61edeb15",
+                    "boundaryNum": 1,
+                    "name": "Shryans Industries Area, Octrio Jagara Opposite Main road away from 30 feet back side area. Block 2A - B2A - A1",
+                    "localname": "Shryans Industries Area, Octrio Jagara Opposite Main road away from 30 feet back side area. Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_15",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "f58e0cfb-2b61-45e6-a770-4fca12d86491",
+                    "boundaryNum": 1,
+                    "name": "Jagera railway crossing to octria Jagera right side. Block 2A - B2A - A1",
+                    "localname": "Jagera railway crossing to octria Jagera right side. Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_16",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "d98b8ce3-9138-47d4-8013-4a2caed3af93",
+                    "boundaryNum": 1,
+                    "name": "Link road Jandali 400 meter away from main road both side approximate 300 foot deeply up to BEPO office. Block 2A - B2A - A1",
+                    "localname": "Link road Jandali 400 meter away from main road both side approximate 300 foot deeply up to BEPO office. Block 2A - B2A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_17",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ded84eff-cb9b-4951-a3fc-46f4ec169952",
+                "boundaryNum": 1,
+                "name": "Block 3",
+                "localname": "Block 3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B3",
+                "children": [
+                  {
+                    "id": "1bec5d4b-d8de-4262-a82c-e56ae5cdfe7e",
+                    "boundaryNum": 1,
+                    "name": "Right side railway crossing to Aruvrat chowk  Block 3 - B3 - A1",
+                    "localname": "Right side railway crossing to Aruvrat chowk  Block 3 - B3 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_18",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "7ac55863-bfff-49ef-9c0f-6751480df1c1",
+                    "boundaryNum": 1,
+                    "name": "Dhurkot Chowk upto limit durkot octri right side. Block 3 - B3 - A1",
+                    "localname": "Dhurkot Chowk upto limit durkot octri right side. Block 3 - B3 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_19",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "cd59b7ef-e5be-430f-ba8a-257f1b225d6b",
+                    "boundaryNum": 1,
+                    "name": "Ujjagar Petrol Pump to Jaga scootra wala both side durkot road, Bhagwan Nagar streets  Block 3 - B3 - A1",
+                    "localname": "Ujjagar Petrol Pump to Jaga scootra wala both side durkot road, Bhagwan Nagar streets  Block 3 - B3 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_20",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "a468ba64-b4d3-405c-8634-099cc7778fa8",
+                    "boundaryNum": 1,
+                    "name": "Amarpura Mohalla Every street, Kamal Rice mill Area, Joga Scooter wall streets. Block 3 - B3 - A1",
+                    "localname": "Amarpura Mohalla Every street, Kamal Rice mill Area, Joga Scooter wall streets. Block 3 - B3 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_21",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9b43d3b4-62b8-4267-8d25-5ffcb0d96131",
+                "boundaryNum": 1,
+                "name": "Block 4",
+                "localname": "Block 4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B4",
+                "children": [
+                  {
+                    "id": "fa252e6d-d1ac-481a-838f-8ff14aaf27cb",
+                    "boundaryNum": 1,
+                    "name": "Dhurkot Chowk upto Octria dhurkot Left side, Every streets Dashmesh nagar, Nahar Singh gadown. Block 4 - B4 - A1",
+                    "localname": "Dhurkot Chowk upto Octria dhurkot Left side, Every streets Dashmesh nagar, Nahar Singh gadown. Block 4 - B4 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_22",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "dd845851-48de-4e3a-829b-70723a1abe84",
+                "boundaryNum": 1,
+                "name": "Block 5",
+                "localname": "Block 5",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B5",
+                "children": [
+                  {
+                    "id": "2176e447-e3ec-41d4-802f-e96a47b52cb6",
+                    "boundaryNum": 1,
+                    "name": "Railway crossing to anuwrat chowk left side. Block 5 - B5 - A1",
+                    "localname": "Railway crossing to anuwrat chowk left side. Block 5 - B5 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_23",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "e2228f8f-a5a4-491f-abf4-676ad016d0d4",
+                    "boundaryNum": 1,
+                    "name": "Anuvrat chowk to railway chowk both side. Block 5 - B5 - A1",
+                    "localname": "Anuvrat chowk to railway chowk both side. Block 5 - B5 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_24",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "a05c748f-61ba-4a1e-aba5-3457bddef35c",
+                    "boundaryNum": 1,
+                    "name": "Left and right side old truck union, Back side central bank and hari chand baba streets. Block 5 - B5 - A1",
+                    "localname": "Left and right side old truck union, Back side central bank and hari chand baba streets. Block 5 - B5 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_25",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "2208cfb0-2cdc-41d4-ab79-bfb6f656331d",
+                    "boundaryNum": 1,
+                    "name": "Mahavir road right side Jeet Boot house upto 30 foot deeply. Block 5 - B5 - A1",
+                    "localname": "Mahavir road right side Jeet Boot house upto 30 foot deeply. Block 5 - B5 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_26",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "5f432b01-3199-479b-bb70-3c745ffe46c1",
+                    "boundaryNum": 1,
+                    "name": "Vijay tandan side, sanjav sharma wali street. Block 5 - B5 - A1",
+                    "localname": "Vijay tandan side, sanjav sharma wali street. Block 5 - B5 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_27",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c15d40b3-e342-4e83-bc3b-4dbb4b713ae5",
+                "boundaryNum": 1,
+                "name": "Block 6",
+                "localname": "Block 6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B6",
+                "children": [
+                  {
+                    "id": "d40efc05-3561-40a5-b45f-1c9a7ea46200",
+                    "boundaryNum": 1,
+                    "name": "Municipal council nal wali street from upto new tahsil. Block 6 - B6 - A1",
+                    "localname": "Municipal council nal wali street from upto new tahsil. Block 6 - B6 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_28",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "5eb8a7c0-f5c4-4a8c-8517-61fd1889f972",
+                    "boundaryNum": 1,
+                    "name": "Both side charua Bazar, Main bazar, grain market both sides 30 foot deeply.  Block 6 - B6 - A1",
+                    "localname": "Both side charua Bazar, Main bazar, grain market both sides 30 foot deeply.  Block 6 - B6 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_29",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "3dd2d41d-6462-429d-9395-15e51e271225",
+                    "boundaryNum": 1,
+                    "name": "Kaku electronic chowk. Block 6 - B6 - A1",
+                    "localname": "Kaku electronic chowk. Block 6 - B6 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_30",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "34dc6e44-ae55-4b1b-b7d7-123e2a14835d",
+                    "boundaryNum": 1,
+                    "name": "Bank road right side Block 6 - B6 - A1",
+                    "localname": "Bank road right side Block 6 - B6 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_31",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "587a3d6c-7615-4d90-b034-2c1eb2a49ba7",
+                    "boundaryNum": 1,
+                    "name": "Jagara crossing upto Guru Dhwara Singh sabha,  right side chowk. Block 6 - B6 - A1",
+                    "localname": "Jagara crossing upto Guru Dhwara Singh sabha,  right side chowk. Block 6 - B6 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_32",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "12c9994d-b16a-4903-af6c-e84b3ce67392",
+                    "boundaryNum": 1,
+                    "name": "Tempo Adda to B.R. Amadakar chowk upto both side 30 foot deeply guru teg bahadur market. Block 6 - B6 - A1",
+                    "localname": "Tempo Adda to B.R. Amadakar chowk upto both side 30 foot deeply guru teg bahadur market. Block 6 - B6 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_33",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "0d4f9f9d-a844-407f-ad14-9f8113206358",
+                "boundaryNum": 1,
+                "name": "Block 7",
+                "localname": "Block 7",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B7",
+                "children": [
+                  {
+                    "id": "4f16b02a-15e6-4ff3-98cc-918c04330eee",
+                    "boundaryNum": 1,
+                    "name": "Bank road left side. Block 7 - B7 - A1",
+                    "localname": "Bank road left side. Block 7 - B7 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_34",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "b20b45e1-dd93-49e7-ad03-c7504e2898ef",
+                    "boundaryNum": 1,
+                    "name": "Mahavir road left side Jeet Boot house upto 30 foot deeply. Block 7 - B7 - A1",
+                    "localname": "Mahavir road left side Jeet Boot house upto 30 foot deeply. Block 7 - B7 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_35",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "31c14c8c-5509-4c37-8b52-e365c2f4ab19",
+                    "boundaryNum": 1,
+                    "name": "Kunan lal hospital road upto limit, Green Avenue Block 7 - B7 - A1",
+                    "localname": "Kunan lal hospital road upto limit, Green Avenue Block 7 - B7 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_36",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "8e682ed2-e6ea-41b1-bdb0-4c472351b579",
+                    "boundaryNum": 1,
+                    "name": "Area dr. Kundan Lal hospital, Lakashmi Narayan mandir 's streets. Block 7 - B7 - A1",
+                    "localname": "Area dr. Kundan Lal hospital, Lakashmi Narayan mandir 's streets. Block 7 - B7 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_37",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "e56eecf7-8679-4734-bbf8-16231730a672",
+                    "boundaryNum": 1,
+                    "name": "T.W. No 2 de opposite Area, Mahavir road back side Area. Block 7 - B7 - A1",
+                    "localname": "T.W. No 2 de opposite Area, Mahavir road back side Area. Block 7 - B7 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_38",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "59ffbce2-70bf-42b8-9458-e5d19d5f1c1c",
+                "boundaryNum": 1,
+                "name": "Block 8",
+                "localname": "Block 8",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B8",
+                "children": [
+                  {
+                    "id": "b013aa34-0134-4ac6-9ece-d8c26e0e0a8f",
+                    "boundaryNum": 1,
+                    "name": "Hind hospital, Ram sharnam Ashram to right side yash painter Area Block 8 - B8 - A1",
+                    "localname": "Hind hospital, Ram sharnam Ashram to right side yash painter Area Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_39",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "4ae5f58a-4383-45dc-87c5-f9cc8fde3c22",
+                    "boundaryNum": 1,
+                    "name": "Model town, Right side gainy upto gandhi school Area, Datta Ram schools streets. Block 8 - B8 - A1",
+                    "localname": "Model town, Right side gainy upto gandhi school Area, Datta Ram schools streets. Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_40",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "20ef0095-9195-4c15-aec1-974825cf950c",
+                    "boundaryNum": 1,
+                    "name": "Railway road left side up to thana road. Block 8 - B8 - A1",
+                    "localname": "Railway road left side up to thana road. Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_41",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "936d43e8-4629-4271-b778-d869f210f345",
+                    "boundaryNum": 1,
+                    "name": "Jagara crossing to Gurudwara singh Sabha upto left side chownk. Block 8 - B8 - A1",
+                    "localname": "Jagara crossing to Gurudwara singh Sabha upto left side chownk. Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_42",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "79ef1bcc-1872-43cf-a4ef-f2825326e3bc",
+                    "boundaryNum": 1,
+                    "name": "Gurudwara Bhai vir Singh Road to hind hospital Both side. Block 8 - B8 - A1",
+                    "localname": "Gurudwara Bhai vir Singh Road to hind hospital Both side. Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_43",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "624a3cee-5e99-4a57-8434-dbd678b76f8e",
+                    "boundaryNum": 1,
+                    "name": "Back side Bhai Vir singh Area. Block 8 - B8 - A1",
+                    "localname": "Back side Bhai Vir singh Area. Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_44",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "230590be-8744-46e4-a65d-befa282afaed",
+                    "boundaryNum": 1,
+                    "name": "Colony thana road, Near lakhshmi ice factory, right side Area , Thana road. Block 8 - B8 - A1",
+                    "localname": "Colony thana road, Near lakhshmi ice factory, right side Area , Thana road. Block 8 - B8 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_45",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "18ca5a6e-a770-485a-aebe-e66bed86234c",
+                "boundaryNum": 1,
+                "name": "Block 9A",
+                "localname": "Block 9A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B9A",
+                "children": [
+                  {
+                    "id": "799ee76a-250d-48a6-8de6-6d298dfdfd65",
+                    "boundaryNum": 1,
+                    "name": "Railway road right side gurudwara singh Sabha up to Jain School road Block 9A - B9A - A1",
+                    "localname": "Railway road right side gurudwara singh Sabha up to Jain School road Block 9A - B9A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_46",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "3a414d4a-6875-4e6e-9af0-2d27653251a2",
+                    "boundaryNum": 1,
+                    "name": "Batta Bagh, Tagore Nagar, Jawahar Nagar, Mohalla kaser wala. Block 9A - B9A - A1",
+                    "localname": "Batta Bagh, Tagore Nagar, Jawahar Nagar, Mohalla kaser wala. Block 9A - B9A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_47",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5c56d096-b9c0-451c-b8c7-41ed6c70c6fd",
+                "boundaryNum": 1,
+                "name": "Block 10A",
+                "localname": "Block 10A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B10A",
+                "children": [
+                  {
+                    "id": "27d2148d-d44e-4f71-9f1d-2513679cf0f3",
+                    "boundaryNum": 1,
+                    "name": "Bhagat Singh Chownk to Gandhi Chownk Both side Block 10A - B10A - A1",
+                    "localname": "Bhagat Singh Chownk to Gandhi Chownk Both side Block 10A - B10A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_48",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "6f19c7b2-0f75-4716-9a18-d68fd26f2f81",
+                    "boundaryNum": 1,
+                    "name": "Tahsil Chowk both side, Gandhi Chowk up to old tahsil chowk Block 10A - B10A - A1",
+                    "localname": "Tahsil Chowk both side, Gandhi Chowk up to old tahsil chowk Block 10A - B10A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_49",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "7cde4747-23c8-4b64-b3de-d9048f8d44f7",
+                    "boundaryNum": 1,
+                    "name": "Area inspector piarye lal house. Block 10A - B10A - A1",
+                    "localname": "Area inspector piarye lal house. Block 10A - B10A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_50",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "72aed67f-3ae3-485a-9914-3a859c54f67b",
+                    "boundaryNum": 1,
+                    "name": "Mohalla chaudhary brij lal, Area Nav Bahar, Shiv Puri Mohalla street. Block 10A - B10A - A1",
+                    "localname": "Mohalla chaudhary brij lal, Area Nav Bahar, Shiv Puri Mohalla street. Block 10A - B10A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_51",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c0a90dd4-68f5-4513-a564-d771fe37b129",
+                "boundaryNum": 1,
+                "name": "Block 11A",
+                "localname": "Block 11A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B11A",
+                "children": [
+                  {
+                    "id": "3f0c7331-4fe2-43b4-adaf-999f74af9ae0",
+                    "boundaryNum": 1,
+                    "name": "Opposite Bajrang Akhara colony Area. Block 11A - B11A - A1",
+                    "localname": "Opposite Bajrang Akhara colony Area. Block 11A - B11A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_52",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9246f200-7dcf-4b13-ab02-58286cb6aaf6",
+                "boundaryNum": 1,
+                "name": "Block 12",
+                "localname": "Block 12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B12",
+                "children": [
+                  {
+                    "id": "3ebf05e2-dace-4ff6-b921-cce8b7bada70",
+                    "boundaryNum": 1,
+                    "name": "Both side Gala Mandi, Pansari Bazar, Sarfa Bazar, Sabji Mandi Block 12 - B12 - A1",
+                    "localname": "Both side Gala Mandi, Pansari Bazar, Sarfa Bazar, Sabji Mandi Block 12 - B12 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_53",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "97746e91-8ea7-495e-a5a9-3606054276e2",
+                    "boundaryNum": 1,
+                    "name": "Sheller wali colony back side shajada Block 12 - B12 - A1",
+                    "localname": "Sheller wali colony back side shajada Block 12 - B12 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_54",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "8111a4b1-d6cb-47cb-a68e-5a2673ce4d16",
+                    "boundaryNum": 1,
+                    "name": "Ashok Puri Mohalla, Bali Ram da hatta. Block 12 - B12 - A1",
+                    "localname": "Ashok Puri Mohalla, Bali Ram da hatta. Block 12 - B12 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_55",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "5456d6ec-2c47-4b39-aac0-9c5af15846d5",
+                    "boundaryNum": 1,
+                    "name": "Janta College chowk upto chand cienma right side upto 20 foot deeply. Block 12 - B12 - A1",
+                    "localname": "Janta College chowk upto chand cienma right side upto 20 foot deeply. Block 12 - B12 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_56",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "6fab164a-b417-4aa4-ad9a-4069b5c477ad",
+                "boundaryNum": 1,
+                "name": "Block 13A",
+                "localname": "Block 13A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B13A",
+                "children": [
+                  {
+                    "id": "9188c3bc-c6f2-4fb9-a80b-4eecea8e1d43",
+                    "boundaryNum": 1,
+                    "name": "Gandhi School Chowk upto right side mahesh sharam house. Block 13A - B13A - A1",
+                    "localname": "Gandhi School Chowk upto right side mahesh sharam house. Block 13A - B13A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_57",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "6596a6e1-e5b1-4996-9c7b-3f8d5df0bd4a",
+                    "boundaryNum": 1,
+                    "name": "Janta College chowk upto chand cienma right side upto 20 foot deeply Block 13A - B13A - A1",
+                    "localname": "Janta College chowk upto chand cienma right side upto 20 foot deeply Block 13A - B13A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_58",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "468e0f6f-2d9c-4ef8-851c-fde6808f0c23",
+                    "boundaryNum": 1,
+                    "name": "Back side streets Janta college road, OPP. Gandhi School upto Ram Mandir Streets. Block 13A - B13A - A1",
+                    "localname": "Back side streets Janta college road, OPP. Gandhi School upto Ram Mandir Streets. Block 13A - B13A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_59",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "ef60c5b4-01b7-413f-85f3-cf5b87821732",
+                    "boundaryNum": 1,
+                    "name": "Baba Namdev walia streets, Saniara mohalla. Block 13A - B13A - A1",
+                    "localname": "Baba Namdev walia streets, Saniara mohalla. Block 13A - B13A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_60",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "7e1098df-2328-4112-ac3d-18c4ecf85dd6",
+                    "boundaryNum": 1,
+                    "name": "Dahleez road Mahesh sharma house upto right side Octria. Block 13A - B13A - A1",
+                    "localname": "Dahleez road Mahesh sharma house upto right side Octria. Block 13A - B13A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_61",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "3337aec5-78d5-4f7c-a611-67e5cb7be382",
+                "boundaryNum": 1,
+                "name": "Block 14A",
+                "localname": "Block 14A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B14A",
+                "children": [
+                  {
+                    "id": "b6c22e30-1ad4-4984-83e7-b6a8ef4bb060",
+                    "boundaryNum": 1,
+                    "name": "Sond cinema to channa road upto channa chowk. Block 14A - B14A - A1",
+                    "localname": "Sond cinema to channa road upto channa chowk. Block 14A - B14A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_62",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "27ab375c-cca5-4f4c-a97f-daf2c1b9ea76",
+                    "boundaryNum": 1,
+                    "name": "Gandhi school chowk to mahesh sharam house left side. Block 14A - B14A - A1",
+                    "localname": "Gandhi school chowk to mahesh sharam house left side. Block 14A - B14A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_63",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "8de6c8dd-07ee-456a-8e09-a8fcb671a968",
+                    "boundaryNum": 1,
+                    "name": "Back side Area sood hospital Block 14A - B14A - A1",
+                    "localname": "Back side Area sood hospital Block 14A - B14A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_64",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "0b7eb73c-e392-4195-a50b-7591b076ab53",
+                    "boundaryNum": 1,
+                    "name": "Dahleez road to house of mahesh sharma upto left side octria. Block 14A - B14A - A1",
+                    "localname": "Dahleez road to house of mahesh sharma upto left side octria. Block 14A - B14A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_65",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "481bd3db-22b9-4917-8410-c978edcf2d99",
+                "boundaryNum": 1,
+                "name": "Block 15",
+                "localname": "Block 15",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B15",
+                "children": [
+                  {
+                    "id": "bda27e0d-07f3-4598-947f-99d8facc6878",
+                    "boundaryNum": 1,
+                    "name": "Jandali Crossing upto sond cinema about right side. Block 15 - B15 - A1",
+                    "localname": "Jandali Crossing upto sond cinema about right side. Block 15 - B15 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_66",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "85f8c64c-c29e-460f-b621-170cc9f70e7e",
+                    "boundaryNum": 1,
+                    "name": "Lakhashmi ice factory. Block 15 - B15 - A1",
+                    "localname": "Lakhashmi ice factory. Block 15 - B15 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_67",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "2033852c-320e-4b15-93b5-6604d8db354a",
+                    "boundaryNum": 1,
+                    "name": "All streets of krishna mandir Area, Near hind Hospital . Block 15 - B15 - A1",
+                    "localname": "All streets of krishna mandir Area, Near hind Hospital . Block 15 - B15 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_68",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "fa246780-5cc6-4427-bc98-1fca2ea08c63",
+                "boundaryNum": 1,
+                "name": "Block 16A",
+                "localname": "Block 16A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B16A",
+                "children": [
+                  {
+                    "id": "2e668be0-8998-4e42-9c15-bf76e58e3d8f",
+                    "boundaryNum": 1,
+                    "name": "Jandali Crossing upto sond cinema about left side. Block 16A - B16A - A1",
+                    "localname": "Jandali Crossing upto sond cinema about left side. Block 16A - B16A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_69",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "e7a73c27-2e14-412a-a39c-59dcc39dde38",
+                    "boundaryNum": 1,
+                    "name": "Sond Cinema to left side channa road  about chhanna chowk. Block 16A - B16A - A1",
+                    "localname": "Sond Cinema to left side channa road  about chhanna chowk. Block 16A - B16A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_70",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "c2512379-c27c-4cdd-a6d2-850c3ba443b7",
+                    "boundaryNum": 1,
+                    "name": "Green Valley School Block 16A - B16A - A1",
+                    "localname": "Green Valley School Block 16A - B16A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_71",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "97e8bd76-e1c1-4487-a1cc-8ea1471a8049",
+                    "boundaryNum": 1,
+                    "name": "Kaki Mata mandir Area. Block 16A - B16A - A1",
+                    "localname": "Kaki Mata mandir Area. Block 16A - B16A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_72",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "f8128b20-381f-4441-9dc1-f1922f9b017f",
+            "boundaryNum": 1,
+            "name": "Zone 2",
+            "localname": "Zone 2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z2",
+            "children": [
+              {
+                "id": "be7aec13-a893-475d-85ff-10de60afe4dd",
+                "boundaryNum": 1,
+                "name": "Block 1B",
+                "localname": "Block 1B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B1B",
+                "children": [
+                  {
+                    "id": "73b257cf-3a29-4ae2-a542-ba45bffdcf86",
+                    "boundaryNum": 1,
+                    "name": "Area Dr. B.R. Ambedakar Block 1B - B1B - A2",
+                    "localname": "Area Dr. B.R. Ambedakar Block 1B - B1B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_73",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "b70638e2-162e-4d9c-b9e6-148865ffbbbe",
+                    "boundaryNum": 1,
+                    "name": "Swastik Colony back side Area. Block 1B - B1B - A2",
+                    "localname": "Swastik Colony back side Area. Block 1B - B1B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_74",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "0a33214f-bc33-4038-ba16-7cc59000fb30",
+                    "boundaryNum": 1,
+                    "name": "Back  side bus stand and white house Area opposite Block 1B - B1B - A2",
+                    "localname": "Back  side bus stand and white house Area opposite Block 1B - B1B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_75",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7221c3bc-8f0f-4f7b-a261-14559a26a961",
+                "boundaryNum": 1,
+                "name": "Block 2B",
+                "localname": "Block 2B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B2B",
+                "children": [
+                  {
+                    "id": "7a0d6fdf-f493-4917-9cd3-573e2e393134",
+                    "boundaryNum": 1,
+                    "name": "Link road Jandali Jandali Kurad Area (Malikpur) with  for W.No 4 Block 2B - B2B - A2",
+                    "localname": "Link road Jandali Jandali Kurad Area (Malikpur) with  for W.No 4 Block 2B - B2B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_76",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "a8e444f0-7431-46a2-b910-595e1fa5f32d",
+                    "boundaryNum": 1,
+                    "name": "Jagera crossing upto sheyans papers mill, from Jandali Canal to with is for Area W No 4 Area upto turn off Block 2B - B2B - A2",
+                    "localname": "Jagera crossing upto sheyans papers mill, from Jandali Canal to with is for Area W No 4 Area upto turn off Block 2B - B2B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_77",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "2007032e-8f63-4ca3-a42d-5dbcea5661a7",
+                    "boundaryNum": 1,
+                    "name": "Area attached with railway boundry, from ludhiana octria limit upto jandali link road Away from 200 feet back side area upto limit (river) - B2B - A2",
+                    "localname": "Area attached with railway boundry, from ludhiana octria limit upto jandali link road Away from 200 feet back side area upto limit (river) - B2B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_78",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "0209d024-7638-405e-a7b4-a80f6cb265db",
+                    "boundaryNum": 1,
+                    "name": "Ludhiana malerkotla road comm and industry back side upto limit, Harjindra Marriage Palace bank side upto (limit)  Block 2B - B2B - A2",
+                    "localname": "Ludhiana malerkotla road comm and industry back side upto limit, Harjindra Marriage Palace bank side upto (limit)  Block 2B - B2B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_79",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "313ba12f-3030-4ab7-96b4-1ed3e8e5cf56",
+                    "boundaryNum": 1,
+                    "name": "Jagera road up to murdghat back side Area, Luvkus colony Area. Block 2B - B2B - A2",
+                    "localname": "Jagera road up to murdghat back side Area, Luvkus colony Area. Block 2B - B2B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_80",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1e515e53-e281-465e-aae7-7d3dda6ea3ab",
+                "boundaryNum": 1,
+                "name": "Block 9B",
+                "localname": "Block 9B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B9B",
+                "children": [
+                  {
+                    "id": "fe0053b3-f48d-4da0-80af-55dbd93030a2",
+                    "boundaryNum": 1,
+                    "name": "Dhank basti Area. Block 9B - B9B - A2",
+                    "localname": "Dhank basti Area. Block 9B - B9B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_81",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "cde819a5-4e36-4f8d-be24-b6cf751855d0",
+                "boundaryNum": 1,
+                "name": "Block 10B",
+                "localname": "Block 10B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B10B",
+                "children": [
+                  {
+                    "id": "a908d287-1d05-4f9e-8368-f9f557c348fd",
+                    "boundaryNum": 1,
+                    "name": "Bajrang Akhara road right side, chappar road , Som nath wal  Area Block 10B - B10B - A2",
+                    "localname": "Bajrang Akhara road right side, chappar road , Som nath wal  Area Block 10B - B10B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_82",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "0b191d40-a866-4471-abe2-97e0d413c85c",
+                    "boundaryNum": 1,
+                    "name": "All Area end of upto Tahsil road Block 10B - B10B - A2",
+                    "localname": "All Area end of upto Tahsil road Block 10B - B10B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_83",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "61e63127-1eab-4f8b-912f-99e7d7f828be",
+                "boundaryNum": 1,
+                "name": "Block 11B",
+                "localname": "Block 11B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B11B",
+                "children": [
+                  {
+                    "id": "05c74383-0107-4ccb-aab7-7ed487d63e8a",
+                    "boundaryNum": 1,
+                    "name": "Balmik basti som nath area. Block 11B - B11B - A2",
+                    "localname": "Balmik basti som nath area. Block 11B - B11B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_84",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "159259dc-d357-4a0e-b8d9-da952e5e5c64",
+                    "boundaryNum": 1,
+                    "name": "Left side bajrang akhara road upto mukhtiar Singh poltary form Block Area 11B - B11B - A2",
+                    "localname": "Left side bajrang akhara road upto mukhtiar Singh poltary form Block Area 11B - B11B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_85",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "abde7f81-14a8-4720-82dc-1ace57ff6f28",
+                    "boundaryNum": 1,
+                    "name": "old Dahleez octrio area upto village chhanna. Block 11B - B11B - A2",
+                    "localname": "old Dahleez octrio area upto village chhanna. Block 11B - B11B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_86",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "332f3379-3056-4119-84b6-b6208f321319",
+                "boundaryNum": 1,
+                "name": "Block 13B",
+                "localname": "Block 13B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B13B",
+                "children": [
+                  {
+                    "id": "84700802-9b29-49e3-bf0c-c7cb0b2363f3",
+                    "boundaryNum": 1,
+                    "name": "Yakub streets, sodhi streets, Pandit khohi wali street, Dahleez octria murdghat wal Area. Block 13B - B13B - A2",
+                    "localname": "Yakub streets, sodhi streets, Pandit khohi wali street, Dahleez octria murdghat wal Area. Block 13B - B13B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_87",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "e6a43d11-a1ed-4f4b-be20-93b9d975b1d4",
+                "boundaryNum": 1,
+                "name": "Block 14B",
+                "localname": "Block 14B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B14B",
+                "children": [
+                  {
+                    "id": "62ddc115-bca7-49b5-b671-2abcc88d90f8",
+                    "boundaryNum": 1,
+                    "name": "Aala Masjid Area , streets of hari chand verma. Block 14B - B14B - A2",
+                    "localname": "Aala Masjid Area , streets of hari chand verma. Block 14B - B14B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_88",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9f99f223-25cb-424e-a24a-29b98ea1d7da",
+                "boundaryNum": 1,
+                "name": "Block 16B",
+                "localname": "Block 16B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B16B",
+                "children": [
+                  {
+                    "id": "20a6716b-3327-46f4-b4f2-1f2cc01c9bda",
+                    "boundaryNum": 1,
+                    "name": "Guru Ravidass road both side, swalia transfer back side Area, Near kushi Diary Wala Area. Block 16B - B16B - A2",
+                    "localname": "Guru Ravidass road both side, swalia transfer back side Area, Near kushi Diary Wala Area. Block 16B - B16B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_89",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "26c9cff8-2d9a-4145-a6c1-23099d380af7",
+                    "boundaryNum": 1,
+                    "name": "Jandali Fatak upto going to village Chhanna right side Area and Jandali Octria wal Area  Block 16B - B16B - A2",
+                    "localname": "Jandali Fatak upto going to village Chhanna right side Area and Jandali Octria wal Area  Block 16B - B16B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "Ahd_90",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1950 @@
+{
+  "tenantId": "pb.ajnala",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Ajnala",
+        "localname": "Ajnala",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pb.ajnala",
+        "children": [
+          {
+            "id": "1ce50cdc-6e4e-45bb-ba6f-97d5486693ca",
+            "boundaryNum": 1,
+            "name": "Zone 1",
+            "localname": "Zone 1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z1",
+            "children": [
+              {
+                "id": "652a136d-7a73-48f0-b1d5-8d509187abe2",
+                "boundaryNum": 1,
+                "name": "Ward 1",
+                "localname": "Ward 1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 1",
+                "children": [
+                  {
+                    "id": "cd5b541a-08be-471f-8587-b5e493ea0f41",
+                    "boundaryNum": 1,
+                    "name": "Dera Road  Ward 1 - W 1 - A1",
+                    "localname": "Dera Road  Ward 1 - W 1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_14",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "ce0cdd96-bfbe-4080-a2ea-4c124f989aa6",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh,Dera Road  Ward 1B - W 1 - A1",
+                    "localname": "By Pass Fatehgarh,Dera Road  Ward 1B - W 1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_25",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "705be7a4-c351-4add-bc72-80ec42d302d6",
+                    "boundaryNum": 1,
+                    "name": "Gandhi Nagar Ward 1 - W 1 - A2",
+                    "localname": "Gandhi Nagar Ward 1 - W 1 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_39",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ae1ec3f8-7b58-4299-8c35-ec502d15974a",
+                "boundaryNum": 1,
+                "name": "Ward 2",
+                "localname": "Ward 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 2",
+                "children": [
+                  {
+                    "id": "3d75cdef-dba4-48bb-813d-9050f649473d",
+                    "boundaryNum": 1,
+                    "name": "Dera Road  Ward 2 - W 2 - A1",
+                    "localname": "Dera Road  Ward 2 - W 2 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_15",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ed0f1a45-5d09-4ebc-b733-4057ba555005",
+                "boundaryNum": 1,
+                "name": "Ward 3",
+                "localname": "Ward 3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 3",
+                "children": [
+                  {
+                    "id": "35baa51e-fae0-4997-8bf5-d0264a155c4e",
+                    "boundaryNum": 1,
+                    "name": "Area Central Gurdwara Ward 3 - W 3 - A2",
+                    "localname": "Area Central Gurdwara Ward 3 - W 3 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_40",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "dafb3264-8a1a-4e59-91f5-465044e6c45d",
+                "boundaryNum": 1,
+                "name": "Ward 4A",
+                "localname": "Ward 4A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 4A",
+                "children": [
+                  {
+                    "id": "eafadc14-84f0-4dde-9597-14e9a48e3ef6",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh,Dera Road  Ward 4A - W 4A - A1",
+                    "localname": "By Pass Fatehgarh,Dera Road  Ward 4A - W 4A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_26",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "fe3da408-16fb-4546-8cb7-0a9ac58f187f",
+                "boundaryNum": 1,
+                "name": "Ward 4B",
+                "localname": "Ward 4B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 4B",
+                "children": [
+                  {
+                    "id": "fa88aa42-0bec-4265-b9f4-f496a1b0997e",
+                    "boundaryNum": 1,
+                    "name": "Area Shiv Mandir Ward 4B - W 4B - A2",
+                    "localname": "Area Shiv Mandir Ward 4B - W 4B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_41",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "bf37e97d-d0c3-4c2c-9684-e661039c0ddf",
+                "boundaryNum": 1,
+                "name": "Ward 4C",
+                "localname": "Ward 4C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 4C",
+                "children": [
+                  {
+                    "id": "ccf43e7b-1223-46da-9090-9d9f77894e8e",
+                    "boundaryNum": 1,
+                    "name": "Area Gurdwara Kalgidhar Ward 4C - W 4C - A2",
+                    "localname": "Area Gurdwara Kalgidhar Ward 4C - W 4C - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_42",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5f07aa75-ea1a-4f11-8b5b-18f75256dda0",
+                "boundaryNum": 1,
+                "name": "Ward 4D",
+                "localname": "Ward 4D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 4D",
+                "children": [
+                  {
+                    "id": "1930ba55-8848-48d1-9062-4191a986703e",
+                    "boundaryNum": 1,
+                    "name": "Adrash Nagar Ward 4D - W 4D - A2",
+                    "localname": "Adrash Nagar Ward 4D - W 4D - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_44",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "890aa364-3900-40cf-9543-5f7d44f0722c",
+                "boundaryNum": 1,
+                "name": "Ward 5A",
+                "localname": "Ward 5A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 5A",
+                "children": [
+                  {
+                    "id": "9fc3b80f-380b-41fb-a441-121b62776da1",
+                    "boundaryNum": 1,
+                    "name": "Fatehgarh Road  Ward 5A - W 5A - A1",
+                    "localname": "Fatehgarh Road  Ward 5A - W 5A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_6",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7c1a6954-df2b-492d-abc5-a2306868ca2d",
+                "boundaryNum": 1,
+                "name": "Ward 5B",
+                "localname": "Ward 5B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 5B",
+                "children": [
+                  {
+                    "id": "1b2a2ea5-613e-4db6-a63f-68403707e433",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh,Dera Road  Ward 5B - W 5B - A1",
+                    "localname": "By Pass Fatehgarh,Dera Road  Ward 5B - W 5B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_27",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5e6e7ffa-00ed-4a82-8fb6-273544ea88e0",
+                "boundaryNum": 1,
+                "name": "Ward 5C",
+                "localname": "Ward 5C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 5C",
+                "children": [
+                  {
+                    "id": "4db0b6e4-a210-4901-a862-714a0cfb85dc",
+                    "boundaryNum": 1,
+                    "name": "Area BLD School Ward 5C - W 5C - A1",
+                    "localname": "Area BLD School Ward 5C - W 5C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_35",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "06b68237-3452-457d-ae13-3be003fc2e35",
+                "boundaryNum": 1,
+                "name": "Ward 5D",
+                "localname": "Ward 5D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 5D",
+                "children": [
+                  {
+                    "id": "e5a4f15e-9065-4f9e-b26b-cab2d07894bb",
+                    "boundaryNum": 1,
+                    "name": "Back Side N.P Ajnala Ward 5D - W 5D - A2",
+                    "localname": "Back Side N.P Ajnala Ward 5D - W 5D - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_47",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "aed1842b-4d9a-48af-b531-ac5fc687a74d",
+                "boundaryNum": 1,
+                "name": "Ward 5E",
+                "localname": "Ward 5E",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 5E",
+                "children": [
+                  {
+                    "id": "ffe93acc-ede5-4271-9fec-716901181535",
+                    "boundaryNum": 1,
+                    "name": "Area Back Side  Bijlighar (Electricity Powerhouse) Ward 5E - W 5E - A2",
+                    "localname": "Area Back Side  Bijlighar (Electricity Powerhouse) Ward 5E - W 5E - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_48",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5b619526-9f86-482f-8dc9-36e361b222f4",
+                "boundaryNum": 1,
+                "name": "Ward 6A",
+                "localname": "Ward 6A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 6A",
+                "children": [
+                  {
+                    "id": "3dcf939e-86c7-4385-b208-3bf72ffd5f8e",
+                    "boundaryNum": 1,
+                    "name": "Fatehgarh Road  Ward 6A - W 6A - A1",
+                    "localname": "Fatehgarh Road  Ward 6A - W 6A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_7",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "4ba874b7-8d34-4f14-8675-4ad01c9628ed",
+                "boundaryNum": 1,
+                "name": "Ward 6B",
+                "localname": "Ward 6B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 6B",
+                "children": [
+                  {
+                    "id": "41d1f849-9190-4cee-8c5f-2657ae0b8ec6",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh,Dera Road  Ward 6B - W 6B - A1",
+                    "localname": "By Pass Fatehgarh,Dera Road  Ward 6B - W 6B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_28",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5cdd0804-a2de-4791-bf8c-4da7f35c9240",
+                "boundaryNum": 1,
+                "name": "Ward 6C",
+                "localname": "Ward 6C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 6C",
+                "children": [
+                  {
+                    "id": "90fb2c78-91cc-4800-9d76-b0bd005f83fa",
+                    "boundaryNum": 1,
+                    "name": "Beant Nagar  Ward 6C - W 6C - A1",
+                    "localname": "Beant Nagar  Ward 6C - W 6C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_37",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "adaada37-3411-41fa-b4ad-f77880e48132",
+                "boundaryNum": 1,
+                "name": "Ward 6D",
+                "localname": "Ward 6D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 6D",
+                "children": [
+                  {
+                    "id": "0ae1d50d-88af-41ea-840f-4d7788438b77",
+                    "boundaryNum": 1,
+                    "name": "Adrash Nagar Ward 6D - W 6D - A2",
+                    "localname": "Adrash Nagar Ward 6D - W 6D - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_45",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "5412fd2f-7511-4bd7-b8f1-5bc4cc67e949",
+                    "boundaryNum": 1,
+                    "name": "Green Avenue Ward 6D - W 6D - A2",
+                    "localname": "Green Avenue Ward 6D - W 6D - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_46",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "226ce23b-d10d-4386-950d-b16f7e93caf4",
+                "boundaryNum": 1,
+                "name": "Ward 6E",
+                "localname": "Ward 6E",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 6E",
+                "children": [
+                  {
+                    "id": "347f613a-52db-4334-8930-5eb0fc378bd3",
+                    "boundaryNum": 1,
+                    "name": "Near Sangam Palace ,Asr. Road.(GILL Restorent) Ward 6E - W 6E - A2",
+                    "localname": "Near Sangam Palace ,Asr. Road.(GILL Restorent) Ward 6E - W 6E - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_49",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "46b52e27-37c2-4632-9eff-f523610704c4",
+                "boundaryNum": 1,
+                "name": "Ward 7A",
+                "localname": "Ward 7A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 7A",
+                "children": [
+                  {
+                    "id": "71fddc34-3b2b-45ff-a9a5-993c6774fa79",
+                    "boundaryNum": 1,
+                    "name": "Fatehgarh Road  Ward 7A - W 7A - A1",
+                    "localname": "Fatehgarh Road  Ward 7A - W 7A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_8",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a59cef89-0277-450a-b3c0-99ef52e336a3",
+                "boundaryNum": 1,
+                "name": "Ward 7B",
+                "localname": "Ward 7B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 7B",
+                "children": [
+                  {
+                    "id": "430359c2-5bf5-49ee-8bad-d1a0e03ab215",
+                    "boundaryNum": 1,
+                    "name": "Navi Abadi Ward 7B - W 7B - A2",
+                    "localname": "Navi Abadi Ward 7B - W 7B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_51",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "670ff97c-cb65-4ea6-b150-da3a87a8e509",
+                "boundaryNum": 1,
+                "name": "Ward 8A",
+                "localname": "Ward 8A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 8A",
+                "children": [
+                  {
+                    "id": "70dbae92-2ef4-4b6f-a002-8d95fe138de4",
+                    "boundaryNum": 1,
+                    "name": "Amritsar Road  Ward 8A - W 8A - A1",
+                    "localname": "Amritsar Road  Ward 8A - W 8A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_1",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "fa2a5abe-b1aa-46a2-a7e4-8c50e175ce3b",
+                "boundaryNum": 1,
+                "name": "Ward 8B",
+                "localname": "Ward 8B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 8B",
+                "children": [
+                  {
+                    "id": "d1156366-a912-4eb0-864a-d4e6d6c4c8dc",
+                    "boundaryNum": 1,
+                    "name": "Fatehgarh Road  Ward 8B - W 8B - A1",
+                    "localname": "Fatehgarh Road  Ward 8B - W 8B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_9",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "298ea361-c0af-49e7-97fb-01cfcf5a86b3",
+                "boundaryNum": 1,
+                "name": "Ward 8C",
+                "localname": "Ward 8C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 8C",
+                "children": [
+                  {
+                    "id": "408a2bd3-890f-4eca-878d-13f3b52788f1",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh Road  Ward 8C - W 8C - A1",
+                    "localname": "By Pass Fatehgarh Road  Ward 8C - W 8C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_17",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "85c01bcd-ff7b-421e-a898-b74955b5c2f5",
+                "boundaryNum": 1,
+                "name": "Ward 8D",
+                "localname": "Ward 8D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 8D",
+                "children": [
+                  {
+                    "id": "468ab97e-5883-4f14-96d2-7a138dff255e",
+                    "boundaryNum": 1,
+                    "name": "Back Side Court Ward 8D - W 8D - A1",
+                    "localname": "Back Side Court Ward 8D - W 8D - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_30",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9264bb5c-0e0f-4aa2-9853-e98d8b0267ed",
+                "boundaryNum": 1,
+                "name": "Ward 8E",
+                "localname": "Ward 8E",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 8E",
+                "children": [
+                  {
+                    "id": "60df41ad-5ef3-4d05-92ee-4d5bac4ccaa7",
+                    "boundaryNum": 1,
+                    "name": "Area Gurdwara Kalgidhar Ward 8E - W 8E - A2",
+                    "localname": "Area Gurdwara Kalgidhar Ward 8E - W 8E - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_43",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "81b8c5b7-7d46-41e7-8db8-85b5bdd86c83",
+                "boundaryNum": 1,
+                "name": "Ward 8F",
+                "localname": "Ward 8F",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 8F",
+                "children": [
+                  {
+                    "id": "2a9ff0b5-1753-40af-b433-362415f10156",
+                    "boundaryNum": 1,
+                    "name": "Navi Abadi Ward 8F - W 8F - A2",
+                    "localname": "Navi Abadi Ward 8F - W 8F - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_52",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "7fb7d260-f869-4626-9136-6ae9a011786d",
+                "boundaryNum": 1,
+                "name": "Ward 9A",
+                "localname": "Ward 9A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9A",
+                "children": [
+                  {
+                    "id": "a109fc7d-5a55-4c97-889b-ba93fdac036e",
+                    "boundaryNum": 1,
+                    "name": "Amritsar Road  Ward 9A - W 9A - A1",
+                    "localname": "Amritsar Road  Ward 9A - W 9A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_2",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2833e8de-02ae-4272-a25d-18e4f27a764a",
+                "boundaryNum": 1,
+                "name": "Ward 9B",
+                "localname": "Ward 9B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9B",
+                "children": [
+                  {
+                    "id": "76cf209c-dc2b-4ce2-8410-9c584ad38851",
+                    "boundaryNum": 1,
+                    "name": "Fatehgarh Road  Ward 9B - W 9B - A1",
+                    "localname": "Fatehgarh Road  Ward 9B - W 9B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_10",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "f0ed7340-ee8f-403a-b9df-cd784ef334b3",
+                "boundaryNum": 1,
+                "name": "Ward 9C",
+                "localname": "Ward 9C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9C",
+                "children": [
+                  {
+                    "id": "e5d269a7-9697-4221-8d3e-9580be00a969",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh Road  Ward 9C - W 9C - A1",
+                    "localname": "By Pass Fatehgarh Road  Ward 9C - W 9C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_18",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "f2df6735-b887-4992-b87b-acfb21962e63",
+                "boundaryNum": 1,
+                "name": "Ward 9D",
+                "localname": "Ward 9D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9D",
+                "children": [
+                  {
+                    "id": "aa534c4c-ae97-4463-a506-8913062ae9eb",
+                    "boundaryNum": 1,
+                    "name": "Area Patwarkhana Ward 9D - W 9D - A1",
+                    "localname": "Area Patwarkhana Ward 9D - W 9D - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_34",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1d7be2bc-d17c-43a0-9336-bae187777647",
+                "boundaryNum": 1,
+                "name": "Ward 9E",
+                "localname": "Ward 9E",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9E",
+                "children": [
+                  {
+                    "id": "f96a2226-bdaa-460b-923d-1bffa3fde750",
+                    "boundaryNum": 1,
+                    "name": "Area BLD School Ward 9E - W 9E - A1",
+                    "localname": "Area BLD School Ward 9E - W 9E - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_36",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "49c3d340-c50b-4a65-9cec-37f2d1aedbab",
+                "boundaryNum": 1,
+                "name": "Ward 9F",
+                "localname": "Ward 9F",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9F",
+                "children": [
+                  {
+                    "id": "023ecc3f-3eb6-42cc-976e-3704e4306625",
+                    "boundaryNum": 1,
+                    "name": "Near Sangam Palace ,Asr. Road.(GILL Restorent) Ward 9F - W 9F - A2",
+                    "localname": "Near Sangam Palace ,Asr. Road.(GILL Restorent) Ward 9F - W 9F - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_50",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c6e88e89-22d1-4f65-910e-4a02f9e973f6",
+                "boundaryNum": 1,
+                "name": "Ward 9G",
+                "localname": "Ward 9G",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9G",
+                "children": [
+                  {
+                    "id": "1997b378-72f5-4042-9b29-daf17ab64719",
+                    "boundaryNum": 1,
+                    "name": "Bhakha Tara Singh Ward 9G - W 9G - A2",
+                    "localname": "Bhakha Tara Singh Ward 9G - W 9G - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_62",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "be159ea1-f1b4-4611-b796-4c4d3243b453",
+                "boundaryNum": 1,
+                "name": "Ward 9H",
+                "localname": "Ward 9H",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9H",
+                "children": [
+                  {
+                    "id": "80826c70-2fe0-490d-994d-e7e98bae37e4",
+                    "boundaryNum": 1,
+                    "name": "Karaangarh Ward 9H - W 9H - A2",
+                    "localname": "Karaangarh Ward 9H - W 9H - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_64",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "941c7179-2ff9-4110-b12c-b249015c84a8",
+                "boundaryNum": 1,
+                "name": "Ward 9I",
+                "localname": "Ward 9I",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 9I",
+                "children": [
+                  {
+                    "id": "c84fb995-0ae1-4891-ae86-3c7ddd91e865",
+                    "boundaryNum": 1,
+                    "name": "Opp. Harikhrishan School,Asr. Road Ward 9I - W 9I - A2",
+                    "localname": "Opp. Harikhrishan School,Asr. Road Ward 9I - W 9I - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_66",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "56dd2ef9-ca48-47f6-a05b-39088888b20c",
+                "boundaryNum": 1,
+                "name": "Ward 10",
+                "localname": "Ward 10",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 10",
+                "children": [
+                  {
+                    "id": "ecce3f1b-5aff-42fd-bcfe-083a67e968fd",
+                    "boundaryNum": 1,
+                    "name": "Amritsar Road  Ward 10 - W 10 - A1",
+                    "localname": "Amritsar Road  Ward 10 - W 10 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_3",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2a7419cc-dc7a-4f9b-b6c2-5e8bafe67458",
+                "boundaryNum": 1,
+                "name": "Ward 10A",
+                "localname": "Ward 10A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 10A",
+                "children": [
+                  {
+                    "id": "b72f6bb3-e737-4859-a3ea-657a9f175504",
+                    "boundaryNum": 1,
+                    "name": "Bhakha Tara Singh Ward 10A - W 10A - A2",
+                    "localname": "Bhakha Tara Singh Ward 10A - W 10A - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_63",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1642cc9e-d3f6-49b1-ae49-4bc62c02f0e5",
+                "boundaryNum": 1,
+                "name": "Ward 10B",
+                "localname": "Ward 10B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 10B",
+                "children": [
+                  {
+                    "id": "d610aae4-0e94-4141-9ffa-0943e2374162",
+                    "boundaryNum": 1,
+                    "name": "Karaangarh Ward 10B - W 10B - A2",
+                    "localname": "Karaangarh Ward 10B - W 10B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_65",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "30e22019-bba7-4b41-acb5-3f96647437a4",
+                "boundaryNum": 1,
+                "name": "Ward 11A",
+                "localname": "Ward 11A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11A",
+                "children": [
+                  {
+                    "id": "036cab3d-5753-4d3e-9f5b-3993c949d306",
+                    "boundaryNum": 1,
+                    "name": "Amritsar Road  Ward 11A - W 11A - A1",
+                    "localname": "Amritsar Road  Ward 11A - W 11A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_4",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ec0cbe34-7236-4eaa-bc15-530e5b7f71dc",
+                "boundaryNum": 1,
+                "name": "Ward 11B",
+                "localname": "Ward 11B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11B",
+                "children": [
+                  {
+                    "id": "b16d7c6a-f9db-4cde-8201-bed197959f47",
+                    "boundaryNum": 1,
+                    "name": "By Pass Fatehgarh Road  Ward 11B - W 11B - A1",
+                    "localname": "By Pass Fatehgarh Road  Ward 11B - W 11B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_19",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5bafd590-81d9-4251-8999-9f60ca6ce056",
+                "boundaryNum": 1,
+                "name": "Ward 11C",
+                "localname": "Ward 11C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11C",
+                "children": [
+                  {
+                    "id": "7e777f9b-4679-4a98-95e4-37e59588b49b",
+                    "boundaryNum": 1,
+                    "name": "By Pass  BSF Chogawan Road  Ward 11C - W 11C - A1",
+                    "localname": "By Pass  BSF Chogawan Road  Ward 11C - W 11C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_20",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "75685a65-b1f6-4649-9d60-f672b9a26cb8",
+                "boundaryNum": 1,
+                "name": "Ward 11D",
+                "localname": "Ward 11D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11D",
+                "children": [
+                  {
+                    "id": "766c5ac1-1ce5-4a7e-a080-b2418118ae07",
+                    "boundaryNum": 1,
+                    "name": "Bhagat Naam Dev Colony  Ward 11D - W 11D - A1",
+                    "localname": "Bhagat Naam Dev Colony  Ward 11D - W 11D - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_29",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5ef86320-f517-4054-920e-53008c9c9c2e",
+                "boundaryNum": 1,
+                "name": "Ward 11E",
+                "localname": "Ward 11E",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11E",
+                "children": [
+                  {
+                    "id": "125087c5-a40b-4899-97e3-0333e44cfce1",
+                    "boundaryNum": 1,
+                    "name": "Back Side Court Ward 11E - W 11E - A1",
+                    "localname": "Back Side Court Ward 11E - W 11E - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_31",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "8d408f22-4b0a-4aba-8bd4-edae986bebaf",
+                "boundaryNum": 1,
+                "name": "Ward 11F",
+                "localname": "Ward 11F",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11F",
+                "children": [
+                  {
+                    "id": "697fd793-88bc-4502-be56-d13888e4fdee",
+                    "boundaryNum": 1,
+                    "name": "Harikrishan Avenue Ward 11F - W 11F - A1",
+                    "localname": "Harikrishan Avenue Ward 11F - W 11F - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_33",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "210fe465-96b6-44d6-a828-6f68e7b9a956",
+                "boundaryNum": 1,
+                "name": "Ward 11G",
+                "localname": "Ward 11G",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 11G",
+                "children": [
+                  {
+                    "id": "0abe9c89-71cb-4695-aa2e-7cd01e50a977",
+                    "boundaryNum": 1,
+                    "name": "Parveen Nagar Ward 11G - W 11G - A1",
+                    "localname": "Parveen Nagar Ward 11G - W 11G - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_38",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "6f8c17c6-f028-4162-a91b-c3020981e675",
+                "boundaryNum": 1,
+                "name": "Ward 12",
+                "localname": "Ward 12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 12",
+                "children": [
+                  {
+                    "id": "81565007-5e4d-45a2-bb2c-d8e1060d91e4",
+                    "boundaryNum": 1,
+                    "name": "Gulab Nagar Ward 12 - W 12 - A2",
+                    "localname": "Gulab Nagar Ward 12 - W 12 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_53",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "56253420-c972-4fc3-8fbc-a42f8d56a82d",
+                "boundaryNum": 1,
+                "name": "Ward 12A",
+                "localname": "Ward 12A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 12A",
+                "children": [
+                  {
+                    "id": "32e7c7d9-7080-46ab-83b5-7a44dd04d5bc",
+                    "boundaryNum": 1,
+                    "name": "Amritsar Road  Ward 12A - W 12A - A1",
+                    "localname": "Amritsar Road  Ward 12A - W 12A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_5",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d74ee75f-4c78-4cc7-a27b-d9f9834e80b9",
+                "boundaryNum": 1,
+                "name": "Ward 12B",
+                "localname": "Ward 12B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 12B",
+                "children": [
+                  {
+                    "id": "a8755349-24af-4107-b64b-d545e8c53ff8",
+                    "boundaryNum": 1,
+                    "name": "Chogawan Road  Ward 12B - W 12B - A1",
+                    "localname": "Chogawan Road  Ward 12B - W 12B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_11",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "8f06feff-9101-4e98-806a-2e39fbd73e07",
+                "boundaryNum": 1,
+                "name": "Ward 12C",
+                "localname": "Ward 12C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 12C",
+                "children": [
+                  {
+                    "id": "c4a35e8d-cdb4-436e-84d0-36fef036e723",
+                    "boundaryNum": 1,
+                    "name": "By Pass  BSF Chogawan Road  Ward 12C - W 12C - A1",
+                    "localname": "By Pass  BSF Chogawan Road  Ward 12C - W 12C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_21",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "27a15237-de46-442e-9a15-51547ace61ce",
+                "boundaryNum": 1,
+                "name": "Ward 13A",
+                "localname": "Ward 13A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 13A",
+                "children": [
+                  {
+                    "id": "f5bae835-b4ae-462e-b533-83e1f673e745",
+                    "boundaryNum": 1,
+                    "name": "Chogawan Road  Ward 13A - W 13A - A1",
+                    "localname": "Chogawan Road  Ward 13A - W 13A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_12",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5df3db99-ec00-4902-8857-d627db83f77a",
+                "boundaryNum": 1,
+                "name": "Ward 13B",
+                "localname": "Ward 13B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 13B",
+                "children": [
+                  {
+                    "id": "db554d20-4d2b-49fe-afc1-c3a0b500f4a2",
+                    "boundaryNum": 1,
+                    "name": "By Pass Chogawan ,Dera Road  Ward 13B - W 13B - A1",
+                    "localname": "By Pass Chogawan ,Dera Road  Ward 13B - W 13B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_22",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "a8275a89-5111-49ed-8e0b-0b8e37786790",
+                "boundaryNum": 1,
+                "name": "Ward 13C",
+                "localname": "Ward 13C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 13C",
+                "children": [
+                  {
+                    "id": "234c0954-fd83-4cef-b570-714bd3dc02f0",
+                    "boundaryNum": 1,
+                    "name": "Ram Nagar Ward 13C - W 13C - A1",
+                    "localname": "Ram Nagar Ward 13C - W 13C - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_32",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "68367f42-20c0-4483-bdee-b092cdaa1e14",
+                "boundaryNum": 1,
+                "name": "Ward 14A",
+                "localname": "Ward 14A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14A",
+                "children": [
+                  {
+                    "id": "3876d6af-b17c-4aa4-b6d9-919ec2ba08bd",
+                    "boundaryNum": 1,
+                    "name": "Chogawan Road  Ward 14A - W 14A - A1",
+                    "localname": "Chogawan Road  Ward 14A - W 14A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_13",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "af6ce9c1-2115-43e3-9484-4a84649f42b6",
+                "boundaryNum": 1,
+                "name": "Ward 14B",
+                "localname": "Ward 14B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14B",
+                "children": [
+                  {
+                    "id": "9bd7d1e4-40ce-451a-8865-ca91b5aeb3f3",
+                    "boundaryNum": 1,
+                    "name": "By Pass Chogawan ,Dera Road  Ward 14B - W 14B - A1",
+                    "localname": "By Pass Chogawan ,Dera Road  Ward 14B - W 14B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_23",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "da58a34e-ec4b-4a03-b03b-7844f83864d0",
+                "boundaryNum": 1,
+                "name": "Ward 14C",
+                "localname": "Ward 14C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14C",
+                "children": [
+                  {
+                    "id": "d532b689-63ba-44b2-9be4-b71406e1c2ad",
+                    "boundaryNum": 1,
+                    "name": "Gopal Nagar Ward 14C - W 14C - A2",
+                    "localname": "Gopal Nagar Ward 14C - W 14C - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_54",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "de197e2e-5252-42b4-a9f3-11e7b6146e38",
+                "boundaryNum": 1,
+                "name": "Ward 14D",
+                "localname": "Ward 14D",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14D",
+                "children": [
+                  {
+                    "id": "50fb58eb-84bb-460b-8c1c-c85d888c7036",
+                    "boundaryNum": 1,
+                    "name": "New Saranwan, Chogawan Road Ward 14D - W 14D - A2",
+                    "localname": "New Saranwan, Chogawan Road Ward 14D - W 14D - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_56",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ff30946e-b0e6-4330-872f-bc54271952d8",
+                "boundaryNum": 1,
+                "name": "Ward 14E",
+                "localname": "Ward 14E",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14E",
+                "children": [
+                  {
+                    "id": "36557ac7-5450-4725-b942-481eefc81d75",
+                    "boundaryNum": 1,
+                    "name": "Dashmesh Nagar Ward 14E - W 14E - A2",
+                    "localname": "Dashmesh Nagar Ward 14E - W 14E - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_58",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "604651b8-8f53-40ce-9af5-e2faa1f32648",
+                "boundaryNum": 1,
+                "name": "Ward 14F",
+                "localname": "Ward 14F",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14F",
+                "children": [
+                  {
+                    "id": "d625b0d9-2eba-495e-9727-5f28acb8d56c",
+                    "boundaryNum": 1,
+                    "name": "Area Mata Rani Mandir Ward 14F - W 14F - A2",
+                    "localname": "Area Mata Rani Mandir Ward 14F - W 14F - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_59",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1a5d15cf-2cd3-4786-b4fb-5d3b09814594",
+                "boundaryNum": 1,
+                "name": "Ward 14G",
+                "localname": "Ward 14G",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 14G",
+                "children": [
+                  {
+                    "id": "acffbafe-1401-4a08-8a0a-e4746f48bdac",
+                    "boundaryNum": 1,
+                    "name": "Area Raj Memorial School Ward 14G - W 14G - A2",
+                    "localname": "Area Raj Memorial School Ward 14G - W 14G - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_60",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "5d83239d-68ae-4e32-bc2b-1b08b74e594a",
+                "boundaryNum": 1,
+                "name": "Ward 15A",
+                "localname": "Ward 15A",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 15A",
+                "children": [
+                  {
+                    "id": "9411a2a6-ef62-499e-90e2-345d5e742e51",
+                    "boundaryNum": 1,
+                    "name": "Dera Road  Ward 15A - W 15A - A1",
+                    "localname": "Dera Road  Ward 15A - W 15A - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_16",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "631e05b9-7871-4f07-b1de-d11277b7b6e4",
+                    "boundaryNum": 1,
+                    "name": "Gopal Nagar Ward 15A - W 15A - A2",
+                    "localname": "Gopal Nagar Ward 15A - W 15A - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_55",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2f9a95b9-6e5a-425b-94ba-083d7fa1169e",
+                "boundaryNum": 1,
+                "name": "Ward 15B",
+                "localname": "Ward 15B",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 15B",
+                "children": [
+                  {
+                    "id": "27aefe6c-9fbb-4298-8a96-0190a57490cc",
+                    "boundaryNum": 1,
+                    "name": "By Pass Chogawan ,Dera Road  Ward 15B - W 15B - A1",
+                    "localname": "By Pass Chogawan ,Dera Road  Ward 15B - W 15B - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_24",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "6b7a90a6-a255-43c7-be82-594a82a7c060",
+                    "boundaryNum": 1,
+                    "name": "New Saranwan, Chogawan Road Ward 15B - W 15B - A2",
+                    "localname": "New Saranwan, Chogawan Road Ward 15B - W 15B - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_57",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ce285abd-17ca-4311-a189-83331b469b43",
+                "boundaryNum": 1,
+                "name": "Ward 15C",
+                "localname": "Ward 15C",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "W 15C",
+                "children": [
+                  {
+                    "id": "1c682340-d012-4262-8809-9a4c0f4d21ae",
+                    "boundaryNum": 1,
+                    "name": "Area Raj Memorial School Ward 15C - W 15C - A2",
+                    "localname": "Area Raj Memorial School Ward 15C - W 15C - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "MM_61",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Ajnala",
+        "localname": "Ajnala",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pb.ajnala",
+        "children": [
+          {
+            "id": "7d105a6f-037a-445b-ae54-bc3cc8058e05",
+            "boundaryNum": 1,
+            "name": "AJNALA",
+            "localname": "AJNALA",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z1",
+            "children": [
+              {
+                "id": "4271df07-61ea-444d-a58b-9637f97342d0",
+                "boundaryNum": 1,
+                "name": "WARD_1",
+                "localname": "WARD_1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward1",
+                "children": [
+                  {
+                    "id": "e7e6ad87-5127-4ec9-97b5-cdacc9753a5d",
+                    "boundaryNum": 1,
+                    "name": "Gopal and Gandhi Nagar - WARD_1",
+                    "localname": "Gopal and Gandhi Nagar - WARD_1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC5",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "624de7f7-462d-4e4b-98fd-3c6d76a6948a",
+                "boundaryNum": 1,
+                "name": "WARD_2",
+                "localname": "WARD_2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward2",
+                "children": [
+                  {
+                    "id": "b12e0964-3702-48bf-b6b9-9f05eb5bad30",
+                    "boundaryNum": 1,
+                    "name": "Mohalla Captna Wala - WARD_2",
+                    "localname": "Mohalla Captna Wala - WARD_2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC7",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ce7612dc-cfea-4514-92db-8a604c47cabf",
+                "boundaryNum": 1,
+                "name": "WARD_3",
+                "localname": "WARD_3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward3",
+                "children": [
+                  {
+                    "id": "3f2bfd22-3d74-46d1-8be9-565c42773a3b",
+                    "boundaryNum": 1,
+                    "name": "Purana Sehar - WARD_3",
+                    "localname": "Purana Sehar - WARD_3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC14",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "e5feac9d-2204-4cb8-97f4-c6887869ac31",
+                "boundaryNum": 1,
+                "name": "WARD_4",
+                "localname": "WARD_4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward4",
+                "children": [
+                  {
+                    "id": "09e8d51b-64d8-4407-ac9d-d326490a0038",
+                    "boundaryNum": 1,
+                    "name": "Adarsh Nagar - WARD_4",
+                    "localname": "Adarsh Nagar - WARD_4",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC1",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "f7e4f8e5-8b73-4805-8f2a-2a8027f35ae6",
+                "boundaryNum": 1,
+                "name": "WARD_5",
+                "localname": "WARD_5",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward5",
+                "children": [
+                  {
+                    "id": "48e53d86-7b95-40bf-be68-01dcdbaccd26",
+                    "boundaryNum": 1,
+                    "name": "Mohalla Bazigar - WARD_5",
+                    "localname": "Mohalla Bazigar - WARD_5",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC8",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "e9b43717-3e4e-4b7e-902b-f30110e36dab",
+                "boundaryNum": 1,
+                "name": "WARD_6",
+                "localname": "WARD_6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward6",
+                "children": [
+                  {
+                    "id": "5777cc02-8fe8-459d-b82e-05a75bd3741a",
+                    "boundaryNum": 1,
+                    "name": "Chamayari Road - WARD_6",
+                    "localname": "Chamayari Road - WARD_6",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "PLC4",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c99f26b5-8d92-4825-abb7-8fa8b34a6d0b",
+                "boundaryNum": 1,
+                "name": "WARD_7",
+                "localname": "WARD_7",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward7",
+                "children": [
+                  {
+                    "id": "5aa4b965-e730-4bcd-a93f-1b4f7792be11",
+                    "boundaryNum": 1,
+                    "name": "Navi Abadi - WARD_7",
+                    "localname": "Navi Abadi - WARD_7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC10",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d26f4361-022a-4205-8b14-f07b41d4b9f2",
+                "boundaryNum": 1,
+                "name": "WARD_8",
+                "localname": "WARD_8",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward8",
+                "children": [
+                  {
+                    "id": "fc159336-29df-419c-920f-13664a07a930",
+                    "boundaryNum": 1,
+                    "name": "Baba Bodhe Shah - WARD_8",
+                    "localname": "Baba Bodhe Shah - WARD_8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC2",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "39548906-3d4d-41bf-aa9d-13b46cdd222c",
+                "boundaryNum": 1,
+                "name": "WARD_9",
+                "localname": "WARD_9",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward9",
+                "children": [
+                  {
+                    "id": "7490f85b-7ec3-4608-8c7a-a5db9bbd900c",
+                    "boundaryNum": 1,
+                    "name": "New Colony - WARD_9",
+                    "localname": "New Colony - WARD_9",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC11",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "8e426429-57f4-4eb0-b4c2-f6678e4245f0",
+                "boundaryNum": 1,
+                "name": "WARD_10",
+                "localname": "WARD_10",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward10",
+                "children": [
+                  {
+                    "id": "0fabd6f0-85fd-40a4-9c7b-14d916e21f4c",
+                    "boundaryNum": 1,
+                    "name": "Bakha Tara Singh - WARD_10",
+                    "localname": "Bakha Tara Singh - WARD_10",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC3",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "6124d891-ef0c-4bd4-98c4-010a12d23c46",
+                "boundaryNum": 1,
+                "name": "WARD_11",
+                "localname": "WARD_11",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward11",
+                "children": [
+                  {
+                    "id": "54058557-0bd7-423e-8d7a-3c3225090e70",
+                    "boundaryNum": 1,
+                    "name": "NamDev Colony - WARD_11",
+                    "localname": "NamDev Colony - WARD_11",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC9",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "8e3842c2-ee44-421a-b6e5-b2f350249b91",
+                "boundaryNum": 1,
+                "name": "WARD_12",
+                "localname": "WARD_12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward12",
+                "children": [
+                  {
+                    "id": "f3498d73-748b-40eb-be3b-f4fc3f2f9f2a",
+                    "boundaryNum": 1,
+                    "name": "Near Boys School - WARD_12",
+                    "localname": "Near Boys School - WARD_12",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC12",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9c8fe7ed-1b31-4971-9793-44a491ccf3aa",
+                "boundaryNum": 1,
+                "name": "WARD_13",
+                "localname": "WARD_13",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward13",
+                "children": [
+                  {
+                    "id": "24fbf788-48aa-4026-a1ec-b82f1dc8e87d",
+                    "boundaryNum": 1,
+                    "name": "Ram Nagar - WARD_13",
+                    "localname": "Ram Nagar - WARD_13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC15",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c307cf70-e048-4998-8865-2bfedf92a416",
+                "boundaryNum": 1,
+                "name": "WARD_14",
+                "localname": "WARD_14",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward14",
+                "children": [
+                  {
+                    "id": "34c730ba-685a-4be5-b0be-d01c02c70375",
+                    "boundaryNum": 1,
+                    "name": "Nave Saran - WARD_14",
+                    "localname": "Nave Saran - WARD_14",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC13",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1bdf78aa-7bac-42c2-8da4-a5d642fcfbfd",
+                "boundaryNum": 1,
+                "name": "WARD_15",
+                "localname": "WARD_15",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward15",
+                "children": [
+                  {
+                    "id": "afab7937-36b6-4121-94c2-afb2a7b90d57",
+                    "boundaryNum": 1,
+                    "name": "Gopal  Nagar - WARD_15",
+                    "localname": "Gopal  Nagar - WARD_15",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ALC6",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

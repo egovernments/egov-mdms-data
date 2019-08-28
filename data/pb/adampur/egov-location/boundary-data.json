@@ -1,0 +1,1218 @@
+{
+  "tenantId": "pb.adampur",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Adampur",
+        "localname": "Adampur",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pb.adampur",
+        "children": [
+          {
+            "id": "960c9b2a-50cd-46fb-81b3-48858f830e02",
+            "boundaryNum": 1,
+            "name": "Adampur",
+            "localname": "Adampur",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "ADM1",
+            "children": [
+              {
+                "id": "086b34c3-be08-485e-8690-890d854b2414",
+                "boundaryNum": 1,
+                "name": "WARD - 1",
+                "localname": "WARD - 1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 1",
+                "children": [
+                  {
+                    "id": "3d22b8b8-736e-457e-89de-bcb5f6f1da33",
+                    "boundaryNum": 1,
+                    "name": "Begampura",
+                    "localname": "Begampura",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM1",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "f6d7dc6f-5703-4351-a094-efa02672553d",
+                    "boundaryNum": 1,
+                    "name": "Gandhi Nagar",
+                    "localname": "Gandhi Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM2",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "1dd8b474-34d8-43fa-b4db-e8957d2a804c",
+                    "boundaryNum": 1,
+                    "name": "Main Road",
+                    "localname": "Main Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM3",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1f602ebc-0623-44ba-9648-41998b07ee0c",
+                "boundaryNum": 1,
+                "name": "WARD - 2",
+                "localname": "WARD - 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 2",
+                "children": [
+                  {
+                    "id": "cc69c1c9-ba7b-44dc-b6e1-55279af31aef",
+                    "boundaryNum": 1,
+                    "name": "Hanuman Mandir Gali,",
+                    "localname": "Hanuman Mandir Gali,",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM4",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "3c082a7d-4629-4244-b036-c1449bff2ffc",
+                    "boundaryNum": 1,
+                    "name": "Bagichi Mohalla,",
+                    "localname": "Bagichi Mohalla,",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM5",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "8117318e-4bdc-4d09-8a69-efc91e9f8f76",
+                    "boundaryNum": 1,
+                    "name": "Basant Vihar",
+                    "localname": "Basant Vihar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM6",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "7e02874a-a0cb-45c7-bb48-a601c92bb51e",
+                    "boundaryNum": 1,
+                    "name": "Ravidass Mohalla",
+                    "localname": "Ravidass Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM7",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d3ae74e8-3221-4378-82df-6b61ec33d089",
+                "boundaryNum": 1,
+                "name": "WARD - 3",
+                "localname": "WARD - 3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 3",
+                "children": [
+                  {
+                    "id": "5f54d6a3-35fa-4bbe-8c09-d55e21a8402c",
+                    "boundaryNum": 1,
+                    "name": "Johra Khoo",
+                    "localname": "Johra Khoo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM8",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "307eaa73-8f82-4113-9608-c6022cfd95a7",
+                    "boundaryNum": 1,
+                    "name": "Tandon Mohalla",
+                    "localname": "Tandon Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM9",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "75388e55-c4e8-4312-baf8-93ed3d5b5018",
+                    "boundaryNum": 1,
+                    "name": "Bagichi Mohalla",
+                    "localname": "Bagichi Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM10",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "fa916af2-46fa-4ac7-b567-1bc12c8f02ec",
+                    "boundaryNum": 1,
+                    "name": "Bhakri Chowk",
+                    "localname": "Bhakri Chowk",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM11",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "9fc59162-17ee-4617-8b90-b949a0f57178",
+                    "boundaryNum": 1,
+                    "name": "Rangrain Mohalla",
+                    "localname": "Rangrain Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM12",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "07c3e282-d40f-4568-ab98-e5adc5fb227a",
+                "boundaryNum": 1,
+                "name": "WARD - 4",
+                "localname": "WARD - 4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 4",
+                "children": [
+                  {
+                    "id": "5ce1c118-9d14-46f7-ae25-aa7d4158f650",
+                    "boundaryNum": 1,
+                    "name": "Sagran Mohalla",
+                    "localname": "Sagran Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM13",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "6b526048-139b-491f-8647-d79be8da06a9",
+                "boundaryNum": 1,
+                "name": "WARD - 5",
+                "localname": "WARD - 5",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 5",
+                "children": [
+                  {
+                    "id": "033f5895-bc39-4762-96a4-f90b18a73086",
+                    "boundaryNum": 1,
+                    "name": "Main Bazar",
+                    "localname": "Main Bazar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM14",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "cb44f08b-eec9-41d1-89bc-f552e73b0742",
+                    "boundaryNum": 1,
+                    "name": "Back side MC Adampur Office",
+                    "localname": "Back side MC Adampur Office",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM15",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "bf8d0ae0-adf4-47d0-ab0e-af5b5e572aa6",
+                    "boundaryNum": 1,
+                    "name": "Tandon Mohalla",
+                    "localname": "Tandon Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM16",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "de043383-b6ec-488a-b2b4-08110d9d2a4a",
+                "boundaryNum": 1,
+                "name": "WARD - 6",
+                "localname": "WARD - 6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 6",
+                "children": [
+                  {
+                    "id": "50353752-e5f5-44f6-a5ad-edd1938a7183",
+                    "boundaryNum": 1,
+                    "name": "Kalria Mohalla",
+                    "localname": "Kalria Mohalla",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM17",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "c9a4a43a-b41c-44ed-84a7-97ec987d6f32",
+                    "boundaryNum": 1,
+                    "name": "Model Town",
+                    "localname": "Model Town",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM18",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "ae535fab-dd7b-4a50-ba84-cddb5f54fb44",
+                "boundaryNum": 1,
+                "name": "WARD - 7",
+                "localname": "WARD - 7",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 7",
+                "children": [
+                  {
+                    "id": "1f66bbdd-4bce-478a-8fe6-9e8d6a6e588e",
+                    "boundaryNum": 1,
+                    "name": "Canal Area",
+                    "localname": "Canal Area",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM19",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "c3f18ba4-f62b-42aa-b304-3f3876ef67f7",
+                    "boundaryNum": 1,
+                    "name": "Dhawan Colony",
+                    "localname": "Dhawan Colony",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM20",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "fab9d380-39f5-45ad-a2b9-b6a51779ea78",
+                    "boundaryNum": 1,
+                    "name": "Green Park",
+                    "localname": "Green Park",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM21",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "216c9062-0f20-438f-9a64-5cf6798d779d",
+                "boundaryNum": 1,
+                "name": "WARD - 8",
+                "localname": "WARD - 8",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 8",
+                "children": [
+                  {
+                    "id": "48bb1082-e416-4cd6-a000-2001c3421b12",
+                    "boundaryNum": 1,
+                    "name": "Jawahar Nagar",
+                    "localname": "Jawahar Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM22",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "4a472ef4-ca71-457f-aab7-7f627a8356d2",
+                    "boundaryNum": 1,
+                    "name": "Railway Colony",
+                    "localname": "Railway Colony",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM23",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "29738c43-c6f6-416d-8b74-5ecdfa5e6afd",
+                    "boundaryNum": 1,
+                    "name": "MES Road",
+                    "localname": "MES Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM24",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "88a375e4-fb8c-4f9e-a943-de9de417680b",
+                    "boundaryNum": 1,
+                    "name": "Railway Road",
+                    "localname": "Railway Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM25",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "c9a69c36-1fd1-404d-ac85-a5b4201393ec",
+                "boundaryNum": 1,
+                "name": "WARD - 9",
+                "localname": "WARD - 9",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 9",
+                "children": [
+                  {
+                    "id": "48df8da5-8109-4057-a43b-459208d4a777",
+                    "boundaryNum": 1,
+                    "name": "Gazipur,",
+                    "localname": "Gazipur,",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM26",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "e52a8c15-4de7-4e50-aa14-578ccf809328",
+                    "boundaryNum": 1,
+                    "name": "Dashmesh Nagar",
+                    "localname": "Dashmesh Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM27",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "c7d30236-7c0d-4b55-b400-f17ffc6362bc",
+                    "boundaryNum": 1,
+                    "name": "Haripur Road",
+                    "localname": "Haripur Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM28",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "d7db444d-aaa1-44d4-a0b7-3f6f8aa7205b",
+                "boundaryNum": 1,
+                "name": "WARD - 10",
+                "localname": "WARD - 10",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 10",
+                "children": [
+                  {
+                    "id": "b9d42a2c-e7ff-44d9-8fe7-41d18950a51b",
+                    "boundaryNum": 1,
+                    "name": "Bus Stand",
+                    "localname": "Bus Stand",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM29",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "edf1861c-6357-495a-aae9-a086911c95ba",
+                    "boundaryNum": 1,
+                    "name": "Railway Road",
+                    "localname": "Railway Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM30",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "56692393-b3ef-44ad-a434-7205d1b269b2",
+                    "boundaryNum": 1,
+                    "name": "Ranjit Nagar",
+                    "localname": "Ranjit Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM31",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "7545a01e-3021-4be8-83cd-20696d0f57c8",
+                    "boundaryNum": 1,
+                    "name": "Truck Union Road",
+                    "localname": "Truck Union Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM32",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "85bce2cb-3a67-461e-8a03-7aff7b6f464f",
+                    "boundaryNum": 1,
+                    "name": "Shivpuri Road",
+                    "localname": "Shivpuri Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM33",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "9b8bc409-19cc-4dc7-a6c9-bda1a89129b3",
+                "boundaryNum": 1,
+                "name": "WARD - 11",
+                "localname": "WARD - 11",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 11",
+                "children": [
+                  {
+                    "id": "c445a2c4-5473-4db8-b3f7-891afa0a403f",
+                    "boundaryNum": 1,
+                    "name": "Opp. FCI, Opp. Vayu Vihar",
+                    "localname": "Opp. FCI, Opp. Vayu Vihar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM34",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "e2024eec-5cbe-4202-87cd-b200a627b382",
+                    "boundaryNum": 1,
+                    "name": "Back Side Khadi Mandal",
+                    "localname": "Back Side Khadi Mandal",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM35",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2d97cdac-4666-4a29-9b68-ff086d271cd1",
+                "boundaryNum": 1,
+                "name": "WARD - 12",
+                "localname": "WARD - 12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 12",
+                "children": [
+                  {
+                    "id": "d43347f0-8b60-4aab-95c5-25ff33c95915",
+                    "boundaryNum": 1,
+                    "name": "Gazipur",
+                    "localname": "Gazipur",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM36",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "7d20b4cb-1ecc-441b-a667-3932661ee3fc",
+                    "boundaryNum": 1,
+                    "name": "Main Road",
+                    "localname": "Main Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM37",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "1ccaca36-29a5-4cc4-8981-22a1f4dea94b",
+                    "boundaryNum": 1,
+                    "name": "Dashmesh Nagar",
+                    "localname": "Dashmesh Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM38",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "dccf943d-8510-483a-901e-c0bf3a45f6ec",
+                    "boundaryNum": 1,
+                    "name": "Main Road",
+                    "localname": "Main Road",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM40",
+                    "area": "",
+                    "children": []
+                  },
+                  {
+                    "id": "30c476cd-6537-4078-b53c-d14d85f8a261",
+                    "boundaryNum": 1,
+                    "name": "Dashmesh Nagar",
+                    "localname": "Dashmesh Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM41",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "93843dd8-551d-4ea5-a89f-5495b6ee0924",
+                "boundaryNum": 1,
+                "name": "WARD - 13",
+                "localname": "WARD - 13",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "Ward 13",
+                "children": [
+                  {
+                    "id": "282b864b-3503-4ee1-bc8f-de718c439404",
+                    "boundaryNum": 1,
+                    "name": "Gazipur",
+                    "localname": "Gazipur",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "ADM39",
+                    "area": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Adampur",
+        "localname": "Adampur",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pb.adampur",
+        "children": [
+          {
+            "id": "cedb6b70-01e0-492f-bff5-2a97daaf1e37",
+            "boundaryNum": 1,
+            "name": "Zone 1",
+            "localname": "Zone 1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z1",
+            "children": [
+              {
+                "id": "51898e8f-26d0-4f97-838f-7359abd54407",
+                "boundaryNum": 1,
+                "name": "Block 1",
+                "localname": "Block 1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B-1",
+                "children": [
+                  {
+                    "id": "3b2fe955-18a4-4058-9627-6f5667c7894f",
+                    "boundaryNum": 1,
+                    "name": "Main Road - B-1 - A1",
+                    "localname": "Main Road - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-03",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "fc08cd36-7086-4096-aaa1-846cc12d285a",
+                    "boundaryNum": 1,
+                    "name": "Main Bazar - B-1 - A1",
+                    "localname": "Main Bazar - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-14",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "45bf3830-efa1-42e9-9154-ab5916a8ca1d",
+                    "boundaryNum": 1,
+                    "name": "Canal Area - B-1 - A2",
+                    "localname": "Canal Area - B-1 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-18",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "59459376-ce0b-454a-a2bf-1b8fc6de311c",
+                    "boundaryNum": 1,
+                    "name": "Railway Colony - B-1 - A1",
+                    "localname": "Railway Colony - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-21",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "56c92dfd-89a2-4fbc-a00e-b72ad6dfc487",
+                    "boundaryNum": 1,
+                    "name": "MES Road - B-1 - A1",
+                    "localname": "MES Road - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-22",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "9c7514f1-74ec-4115-ac2e-9eb4d9684779",
+                    "boundaryNum": 1,
+                    "name": "Railway Road - B-1 - A1",
+                    "localname": "Railway Road - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-23",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "3534ad92-aa00-496f-9f26-99a1524be718",
+                    "boundaryNum": 1,
+                    "name": "Haripur Road - B-1 - A1",
+                    "localname": "Haripur Road - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-26",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "a015eaf6-a829-4caf-9f3f-eacf1f94bb2b",
+                    "boundaryNum": 1,
+                    "name": "Bus Stand - B-1 - A1",
+                    "localname": "Bus Stand - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-27",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "bb86c66c-fd90-4a47-9cef-2556c914f6c6",
+                    "boundaryNum": 1,
+                    "name": "Truck Union Road, - B-1 - A1",
+                    "localname": "Truck Union Road, - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-29",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "8f2c6f89-9f73-46cc-a885-64724f82094c",
+                    "boundaryNum": 1,
+                    "name": "Shivpuri Road - B-1 - A1",
+                    "localname": "Shivpuri Road - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-30",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "cc3fd045-dce7-4b7f-9b6b-a9e052fd73b7",
+                    "boundaryNum": 1,
+                    "name": "Opp. Vayu Vihar - B-1 - A1",
+                    "localname": "Opp. Vayu Vihar - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-31",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "63b95535-2133-45b9-8cc8-4443add4bdb8",
+                    "boundaryNum": 1,
+                    "name": "Alawalpur Road - B-1 - A1",
+                    "localname": "Alawalpur Road - B-1 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-36",
+                    "area": "AREA1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "01c69162-fa3d-43ab-9241-ecade6583767",
+                "boundaryNum": 1,
+                "name": "Block 2",
+                "localname": "Block 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B-2",
+                "children": [
+                  {
+                    "id": "ce05e4d5-d8a7-4c01-8eca-ada8138c3219",
+                    "boundaryNum": 1,
+                    "name": "Begampura - B-2 - A2",
+                    "localname": "Begampura - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-01",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "de6a94ba-717c-485b-bfbc-05e06d78ecf7",
+                    "boundaryNum": 1,
+                    "name": "Gandhi Nagar - B-2 - A2",
+                    "localname": "Gandhi Nagar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-02",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "0396d3f8-cc90-42c4-baf7-0b13df8c89eb",
+                    "boundaryNum": 1,
+                    "name": "Hanuman Mandir Gali - B-2 - A2",
+                    "localname": "Hanuman Mandir Gali - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-04",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "b8c93734-3d3e-4963-8f79-3fe1259346b1",
+                    "boundaryNum": 1,
+                    "name": "Bagichi Mohalla - B-2 - A2",
+                    "localname": "Bagichi Mohalla - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-05",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "d9dd221f-2a31-4002-a16c-2017e7e2ba35",
+                    "boundaryNum": 1,
+                    "name": "Basant Vihar - B-2 - A2",
+                    "localname": "Basant Vihar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-06",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "4ebd3012-af40-4c92-ab99-56665e1fe84c",
+                    "boundaryNum": 1,
+                    "name": "Ravidass Mohalla - B-2 - A2",
+                    "localname": "Ravidass Mohalla - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-07",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "de40f7f0-23f0-4be2-8a32-0df1d35b453b",
+                    "boundaryNum": 1,
+                    "name": "Johra Khoo - B-2 - A2",
+                    "localname": "Johra Khoo - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-08",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "bd263189-2c33-4838-a25c-52a309a4b2ca",
+                    "boundaryNum": 1,
+                    "name": "Tandon Mohalla - B-2 - A2",
+                    "localname": "Tandon Mohalla - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-09",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "2c732a78-92bd-493d-99f5-3afae6880496",
+                    "boundaryNum": 1,
+                    "name": "Geen Park - B-2 - A2",
+                    "localname": "Geen Park - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-10",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "5b984cbf-039b-4c57-85ec-afd78bb93ca1",
+                    "boundaryNum": 1,
+                    "name": "Bhakri Chowk - B-2 - A2",
+                    "localname": "Bhakri Chowk - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-11",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "c76ca44c-e36e-49ab-a6c9-62cfb7d0092e",
+                    "boundaryNum": 1,
+                    "name": "Rangrain Mohalla - B-2 - A2",
+                    "localname": "Rangrain Mohalla - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-12",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "838f68ed-ac74-4082-9881-e00740323d9f",
+                    "boundaryNum": 1,
+                    "name": "Sagran Mohalla - B-2 - A2",
+                    "localname": "Sagran Mohalla - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-13",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "88c6bcdb-def2-4b2e-9305-2024ad203c02",
+                    "boundaryNum": 1,
+                    "name": "Back side MC Adampur Office - B-2 - A1",
+                    "localname": "Back side MC Adampur Office - B-2 - A1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-15",
+                    "area": "AREA1",
+                    "children": []
+                  },
+                  {
+                    "id": "535d67e9-70fe-4bf0-8939-6af0b36d0be3",
+                    "boundaryNum": 1,
+                    "name": "Kalria Mohallan - B-2 - A2",
+                    "localname": "Kalria Mohallan - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-16",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "264c4c92-1578-40ad-adc2-aea9fe6d5ecb",
+                    "boundaryNum": 1,
+                    "name": "Model Town - B-2 - A2",
+                    "localname": "Model Town - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-17",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "1f3afad2-135b-48a5-aa9b-e74a97513e85",
+                    "boundaryNum": 1,
+                    "name": "Dhawan Colony - B-2 - A2",
+                    "localname": "Dhawan Colony - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-19",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "6f4ad7af-b50e-4a6c-830f-742d2628222c",
+                    "boundaryNum": 1,
+                    "name": "Jawahar Nagar - B-2 - A2",
+                    "localname": "Jawahar Nagar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-20",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "2a8ee8a2-940e-4aa9-af80-e1b6c603c5dc",
+                    "boundaryNum": 1,
+                    "name": "Gazipur - B-2 - A2",
+                    "localname": "Gazipur - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-24",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "f15a01c8-deb1-42a5-975a-12dea64e395b",
+                    "boundaryNum": 1,
+                    "name": "Dashmesh Nagar - B-2 - A2",
+                    "localname": "Dashmesh Nagar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-25",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "4ffda5ba-604d-466b-bb35-e0bd4861b8b7",
+                    "boundaryNum": 1,
+                    "name": "Ranjit Nagar - B-2 - A2",
+                    "localname": "Ranjit Nagar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-28",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "d1c1122f-a90b-4f55-80b7-32f13b03c450",
+                    "boundaryNum": 1,
+                    "name": "Back Khadi Mandal - B-2 - A2",
+                    "localname": "Back Khadi Mandal - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-32",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "687c599d-5828-4fdc-877e-2a298e25402c",
+                    "boundaryNum": 1,
+                    "name": "Ajit Nagar - B-2 - A2",
+                    "localname": "Ajit Nagar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-33",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "c4670421-a504-47c1-85f4-dd95241150e6",
+                    "boundaryNum": 1,
+                    "name": "New Green Park - B-2 - A2",
+                    "localname": "New Green Park - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-34",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "b2e0e0f7-71df-4fc7-8ed0-341bf8bae380",
+                    "boundaryNum": 1,
+                    "name": "Jatindra Palace Back Side - B-2 - A2",
+                    "localname": "Jatindra Palace Back Side - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-35",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "5e27d427-823b-4c10-996d-c0ba6c7fca73",
+                    "boundaryNum": 1,
+                    "name": "Jattan Mohalla - B-2 - A2",
+                    "localname": "Jattan Mohalla - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-37",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "22345df6-72c0-4180-952c-9ccc0056132f",
+                    "boundaryNum": 1,
+                    "name": "Atwal Chowk - B-2 - A2",
+                    "localname": "Atwal Chowk - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-38",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "d383d347-5d23-49df-9afe-9db20c94c236",
+                    "boundaryNum": 1,
+                    "name": "New Dashmesh Nagar - B-2 - A2",
+                    "localname": "New Dashmesh Nagar - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-39",
+                    "area": "AREA2",
+                    "children": []
+                  },
+                  {
+                    "id": "6a628242-182c-44a2-b62f-cb2b2ebeb4eb",
+                    "boundaryNum": 1,
+                    "name": "Back side Maharaja Palace - B-2 - A2",
+                    "localname": "Back side Maharaja Palace - B-2 - A2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "AD-40",
+                    "area": "AREA2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
