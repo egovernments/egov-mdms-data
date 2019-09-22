@@ -11322,9 +11322,8 @@
     },
     {
       "id": 1577,
-      "name": "Assess New Property",
       "url": "url",
-      "displayName": "Assess New Property",
+      "displayName": "Add & Assess new property",
       "orderNumber": 1,
       "queryParams": "",
       "parentModule": "",
@@ -11335,7 +11334,7 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "Property Tax.Assess New Property",
+      "path": "Property Tax.Add & Assess new property",
       "navigationURL": "property-tax",
       "leftIcon": "communication:business",
       "rightIcon": ""
@@ -11348,7 +11347,7 @@
       "orderNumber": 1,
       "queryParams": "",
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "",
       "tenantId": "pb",
       "createdDate": null,
