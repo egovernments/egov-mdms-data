@@ -761,6 +761,28 @@
       "uniqueKeys": [
         "$.code"
       ]
-    }
+    },
+"connectionCategory":
+   {
+     "masterName": "connectionCategory",
+     "isStateLevel": true,
+     "uniqueKeys": [
+        "$.code"
+      ]
+   },
+"connectionType":{
+     "masterName": "connectionType",
+     "isStateLevel": true,
+     "uniqueKeys": [
+        "$.code"
+      ]
+   },
+"waterSource":{
+"masterName": "waterSource",
+     "isStateLevel": true,
+     "uniqueKeys": [
+        "$.code"
+      ]
+}
   }
 }
