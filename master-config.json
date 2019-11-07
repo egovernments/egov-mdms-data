@@ -783,6 +783,13 @@
      "uniqueKeys": [
         "$.code"
       ]
+},
+"billingPeriod":{
+"masterName": "billingPeriod",
+     "isStateLevel": true,
+     "uniqueKeys": [
+        "$.billingCycle"
+      ]
 }
   }
 }
