@@ -1,0 +1,43 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-calcution",
+  "WCBillingSlab": [
+    {
+      "Building Type": "Domestic",
+      "Calculation Attribute": "Water consumption",
+      "Type": "Multiple",
+      "UOM": "kL",
+      "Slab": [
+        {
+          "from": 0,
+          "to": 10,
+          "charge": 2,
+          "minimumCharge": 50
+        },
+        {
+          "from": 10,
+          "to": 20,
+          "charge": 2.5,
+          "minimumCharge": 50
+        },
+        {
+          "from": 20,
+          "to": 30,
+          "charge": 8,
+          "minimumCharge": 150
+        },
+        {
+          "from": 30,
+          "to": 40,
+          "charge": 12,
+          "minimumCharge": 150
+        },{
+          "from": 40,
+          "to": 1000000000,
+          "charge": 15,
+          "minimumCharge": 150
+        }
+      ]
+    }
+  ]
+}
