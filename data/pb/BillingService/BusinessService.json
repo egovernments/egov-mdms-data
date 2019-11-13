@@ -1004,6 +1004,17 @@
       "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Finance"
+    },
+     {
+      "businessService": "ws-services-calcution",
+      "code": "ws",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": true,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": false
     }
   ]
 }

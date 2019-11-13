@@ -1851,6 +1851,16 @@
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ws-services-calcution",
+      "name": "Rebate",
+      "code": "WATER_CONNECTION_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
