@@ -1854,13 +1854,43 @@
     },
     {
       "category": "TAX",
-      "service": "ws-services-calcution",
+      "service": "WS",
       "name": "Rebate",
       "code": "WATER_CONNECTION_REBATE",
       "isDebit": true,
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
-    }
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Ws time interest",
+      "code": "WS_TIME_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Pt cancer cess",
+      "code": "WS_CANCER_CESS",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Ws time penalty",
+      "code": "WS_TIME_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
   ]
 }
