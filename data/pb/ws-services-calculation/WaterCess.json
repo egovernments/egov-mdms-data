@@ -1,0 +1,19 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-calculation",
+  "WaterCess": [
+    {
+      "rate": 0,
+      "minAmount": null,
+      "flatAmount": null,
+      "maxAmount": null,
+      "fromFY": "2019-20",
+      "dynamicWaterCess": true,
+      "dynamicRates": {
+        "percentage_of_water_charges": 5,
+        "fixed_amount": 50,
+        "Rate_per_unit_of_consumption": 5
+      }
+    }
+  ]
+}
