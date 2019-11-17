@@ -790,6 +790,37 @@
      "uniqueKeys": [
         "$.billingCycle"
       ]
+},
+"ws-services-calculation":{ "WaterCess": {
+      "masterName": "WaterCess",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+  "Interest": {
+      "masterName": "Interest",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },"Rebate": {
+      "masterName": "Rebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Penalty": {
+      "masterName": "Penalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },"WCBillingSlab":{
+      "masterName": "WCBillingSlab",
+      "isStateLevel": true,
+      "uniqueKeys": [
+      ]
+    }
 }
   }
 }
