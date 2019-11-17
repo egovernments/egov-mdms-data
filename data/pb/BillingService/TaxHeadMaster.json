@@ -1855,8 +1855,8 @@
     {
       "category": "TAX",
       "service": "WS",
-      "name": "Rebate",
-      "code": "WATER_CONNECTION_REBATE",
+      "name": "ws time rebate",
+      "code": "WS_TIME_REBATE",
       "isDebit": true,
       "isActualDemand": false,
       "order": "0",
@@ -1875,8 +1875,8 @@
     {
       "category": "TAX",
       "service": "WS",
-      "name": "Pt cancer cess",
-      "code": "WS_CANCER_CESS",
+      "name": "WS water cess",
+      "code": "WS_WATER_CESS",
       "isDebit": false,
       "isActualDemand": true,
       "order": "2",
