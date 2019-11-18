@@ -7,7 +7,7 @@
       "ConnectionType": "Metered",
       "CalculationAttribute": "Water consumption",
       "UOM": "kL",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 10,
@@ -45,7 +45,7 @@
       "CalculationAttribute": "Water consumption",
       "ConnectionType": "Metered",
       "UOM": "kL",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 10,
@@ -83,7 +83,7 @@
       "CalculationAttribute": "Water consumption",
       "ConnectionType": "Metered",
       "UOM": "kL",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 10,
@@ -109,7 +109,7 @@
       "CalculationAttribute": "Water consumption",
       "ConnectionType": "Metered",
       "UOM": "kL",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -123,7 +123,7 @@
       "CalculationAttribute": "No. of taps",
       "ConnectionType": "Non Metered",
       "UOM": "Number",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -137,7 +137,7 @@
       "CalculationAttribute": "Pipe Size",
       "ConnectionType": "Non Metered",
       "UOM": "Inches",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -151,7 +151,7 @@
       "CalculationAttribute": "Pipe Size",
       "ConnectionType": "Non Metered",
       "UOM": "Inches",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -165,7 +165,7 @@
       "CalculationAttribute": "No. of taps",
       "ConnectionType": "Non Metered",
       "UOM": "Number",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -179,7 +179,7 @@
       "CalculationAttribute": "No. of taps",
       "ConnectionType": "Non Metered",
       "UOM": "Number",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -193,7 +193,7 @@
       "CalculationAttribute": "Pipe Size",
       "ConnectionType": "Non Metered",
       "UOM": "Inches",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -207,7 +207,7 @@
       "CalculationAttribute": "No. of taps",
       "ConnectionType": "Non Metered",
       "UOM": "Number",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -221,7 +221,7 @@
       "CalculationAttribute": "Pipe Size",
       "ConnectionType": "Non Metered",
       "UOM": "Inches",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -235,7 +235,7 @@
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
       "UOM": "Flat",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -249,7 +249,7 @@
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
       "UOM": "Flat",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -263,7 +263,7 @@
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
       "UOM": "Flat",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
@@ -277,7 +277,7 @@
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
       "UOM": "Flat",
-      "Slab": [
+      "slabs": [
         {
           "from": 0,
           "to": 1000000000,
