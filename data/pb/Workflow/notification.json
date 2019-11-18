@@ -1,0 +1,112 @@
+{
+    "tenantId": "pb",
+    "moduleName": "Workflow",
+    "TYPE":[
+        {
+                "TOPIC LIST": [ "save-tl-tradelicense","update-tl-tradelicense", "save-tl-workflow"],
+                "PLACEHOLDER": {
+                    "REQUESTINFO":"$.RequestInfo",
+                    "BASEPATH": "$.Licenses",
+                    "TENANTID": "$.tenantId",
+                    "TRADENAME": "$.tradeName",
+                    "APPLICATION NUMBER": "$.applicationNumber",
+                    "LICENSE NUMBER": "$.licenseNumber",
+                    "OWNER NAME": "$.name",
+                    "MOBILE NUMBER": "$.mobileNumber",
+                    "OWNERS": "$.owners",
+                    "BASEDETAILS": "$.tradeLicenseDetail",
+                    "MODULE": "rainmaker-tl"
+                },
+                
+                "LOCALIZATION":[
+                    {
+                        "CODE": "tl.en.counter.initiate",
+                        "TRIGGER": "$.[?(@.action == 'INITIATE' && @.status == 'INITIATED')]",
+                        "TOPIC": null,
+                        "USERTYPE": null
+                        
+                        
+                    },
+                    {
+                        "CODE": "tl.en.counter.submit",
+                        "TRIGGER": "$.[?(@.action == 'APPLY' && @.status == 'APPLIED')]",
+                        "TOPIC": null,
+                        "USERTYPE": null
+                        
+                    },
+                    {
+                        "CODE": "tl.en.counter.approved",
+                        "TRIGGER": "$.[?(@.action == 'APPROVE' && @.status == 'PENDINGPAYMENT')]",
+                        "TOPIC": null,
+                        "USERTYPE": null
+                        
+                    },
+                    {
+                        "CODE": "tl.en.counter.rejected",
+                        "TRIGGER": "$.[?(@.action == 'REJECT' && @.status == 'REJECTED')]",
+                        "TOPIC": null,
+                        "USERTYPE": null
+                        
+                    },
+                    {
+                        "CODE": "tl.en.counter.cancelled",
+                        "TRIGGER": "$.[?(@.action == 'CANCEL' && @.status == 'CANCELLED')]",
+                        "TOPIC": null,
+                        "USERTYPE": null
+                        
+                    }
+                ]
+            
+            
+        },
+        {
+            
+                "TOPIC LIST": [ "save-pt-property","update-pt-property"],
+                "PLACEHOLDER":{
+                    "REQUESTINFO":"$.RequestInfo",
+                    "BASEPATH": "$.Properties",
+                    "TENANTID": "$.tenantId",
+                    "PROPERTYID": "$.propertyId",
+                    "HOUSE NO": "$.address.doorNo",
+                    "COLONY NAME": "$.address.buildingName",
+                    "STREET NO": "$.address.street",
+                    "MOHALLA": "$.address.locality.name",
+                    "CITY": "$.address.city",
+                    "PINCODE": "$.address.pincode",
+                    "FINANCIAL YEAR": "$.propertyDetails[0].financialYear",
+                    "ASSESSMENT NUMBER": "$.propertyDetails[0].assessmentNumber",
+                    "OWNER NAME": "$.name",
+                    "MOBILE NUMBER": "$.mobileNumber",
+                    "OWNERS": "$.owners",
+                    "BASEDETAILS": "$.propertyDetails",
+                    "MODULE": "pt-services-v2"
+
+                },
+                
+                "LOCALIZATION":[
+                    {
+                        "CODE": "pt.property.en.create",
+                        "TRIGGER": null,
+                        "TOPIC" : "save-pt-property",
+                        "USERTYPE": null
+                        
+                    },
+                    {
+                        "CODE": "pt.property.en.update",
+                        "TRIGGER": null,
+                        "TOPIC" : "update-pt-property",
+                        "USERTYPE": "Citizen"
+                        
+                    },
+                    {
+                        "CODE": "pt.property.en.update.employee",
+                        "TRIGGER": null,
+                        "TOPIC" : "update-pt-property",
+                        "USERTYPE": "Employee"
+                        
+                    }
+
+                ]
+        }
+    ]
+}
