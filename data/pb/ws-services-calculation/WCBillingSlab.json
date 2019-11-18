@@ -106,20 +106,6 @@
     },
     {
       "BuildingType": "Domestic",
-      "CalculationAttribute": "Water consumption",
-      "ConnectionType": "Metered",
-      "UOM": "kL",
-      "slabs": [
-        {
-          "from": 0,
-          "to": 1000000000,
-          "charge": 3.8,
-          "minimumCharge": 0
-        }
-      ]
-    },
-    {
-      "BuildingType": "Domestic",
       "CalculationAttribute": "No. of taps",
       "ConnectionType": "Non Metered",
       "UOM": "Number",
