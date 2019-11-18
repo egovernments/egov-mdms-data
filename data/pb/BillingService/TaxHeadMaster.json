@@ -1852,6 +1852,16 @@
       "order": "0",
       "isRequired": false
     },
+{
+      "category": "CHARGES",
+      "service": "WS",
+      "name": "ws charge",
+      "code": "WS_CHARGE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
     {
       "category": "TAX",
       "service": "WS",
@@ -1883,7 +1893,7 @@
       "isRequired": false
     },
     {
-      "category": "TAX",
+      "category": "PENALTY",
       "service": "WS",
       "name": "Ws time penalty",
       "code": "WS_TIME_PENALTY",
@@ -1891,6 +1901,6 @@
       "isActualDemand": true,
       "order": "3",
       "isRequired": false
-    },
+    }
   ]
 }
