@@ -3,9 +3,9 @@
   "moduleName": "ws-services-calculation",
   "WCBillingSlab": [
     {
-      "Building Type": "Domestic",
-      "Connection Type": "Metered",
-      "Calculation Attribute": "Water consumption",
+      "BuildingType": "Domestic",
+      "ConnectionType": "Metered",
+      "CalculationAttribute": "Water consumption",
       "UOM": "kL",
       "Slab": [
         {
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "Building Type": "Commercial and Government",
-      "Calculation Attribute": "Water consumption",
-      "Connection Type": "Metered",
+      "BuildingType": "Commercial and Government",
+      "CalculationAttribute": "Water consumption",
+      "ConnectionType": "Metered",
       "UOM": "kL",
       "Slab": [
         {
@@ -79,9 +79,9 @@
       ]
     },
     {
-      "Building Type": "Partly Commercial",
-      "Calculation Attribute": "Water consumption",
-      "Connection Type": "Metered",
+      "BuildingType": "Partly Commercial",
+      "CalculationAttribute": "Water consumption",
+      "ConnectionType": "Metered",
       "UOM": "kL",
       "Slab": [
         {
@@ -105,9 +105,9 @@
       ]
     },
     {
-      "Building Type": "Domestic",
-      "Calculation Attribute": "Water consumption",
-      "Connection Type": "Metered",
+      "BuildingType": "Domestic",
+      "CalculationAttribute": "Water consumption",
+      "ConnectionType": "Metered",
       "UOM": "kL",
       "Slab": [
         {
@@ -119,9 +119,9 @@
       ]
     },
     {
-      "Building Type": "Domestic",
-      "Calculation Attribute": "No. of taps",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Domestic",
+      "CalculationAttribute": "No. of taps",
+      "ConnectionType": "Non Metered",
       "UOM": "Number",
       "Slab": [
         {
@@ -133,9 +133,9 @@
       ]
     },
     {
-      "Building Type": "Domestic",
-      "Calculation Attribute": "Pipe Size",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Domestic",
+      "CalculationAttribute": "Pipe Size",
+      "ConnectionType": "Non Metered",
       "UOM": "Inches",
       "Slab": [
         {
@@ -147,9 +147,9 @@
       ]
     },
     {
-      "Building Type": "Commercial",
-      "Calculation Attribute": "Pipe Size",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Commercial",
+      "CalculationAttribute": "Pipe Size",
+      "ConnectionType": "Non Metered",
       "UOM": "Inches",
       "Slab": [
         {
@@ -161,9 +161,9 @@
       ]
     },
     {
-      "Building Type": "Commercial",
-      "Calculation Attribute": "No. of taps",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Commercial",
+      "CalculationAttribute": "No. of taps",
+      "ConnectionType": "Non Metered",
       "UOM": "Number",
       "Slab": [
         {
@@ -175,9 +175,9 @@
       ]
     },
     {
-      "Building Type": "Government",
-      "Calculation Attribute": "No. of taps",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Government",
+      "CalculationAttribute": "No. of taps",
+      "ConnectionType": "Non Metered",
       "UOM": "Number",
       "Slab": [
         {
@@ -189,9 +189,9 @@
       ]
     },
     {
-      "Building Type": "Government",
-      "Calculation Attribute": "Pipe Size",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Government",
+      "CalculationAttribute": "Pipe Size",
+      "ConnectionType": "Non Metered",
       "UOM": "Inches",
       "Slab": [
         {
@@ -203,9 +203,9 @@
       ]
     },
     {
-      "Building Type": "Partly Commercial",
-      "Calculation Attribute": "No. of taps",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Partly Commercial",
+      "CalculationAttribute": "No. of taps",
+      "ConnectionType": "Non Metered",
       "UOM": "Number",
       "Slab": [
         {
@@ -217,9 +217,9 @@
       ]
     },
     {
-      "Building Type": "Partly Commercial",
-      "Calculation Attribute": "Pipe Size",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Partly Commercial",
+      "CalculationAttribute": "Pipe Size",
+      "ConnectionType": "Non Metered",
       "UOM": "Inches",
       "Slab": [
         {
@@ -231,9 +231,9 @@
       ]
     },
     {
-      "Building Type": "Domestic",
-      "Calculation Attribute": "Flat",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Domestic",
+      "CalculationAttribute": "Flat",
+      "ConnectionType": "Non Metered",
       "UOM": "Flat",
       "Slab": [
         {
@@ -245,9 +245,9 @@
       ]
     },
     {
-      "Building Type": "Commercial",
-      "Calculation Attribute": "Flat",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Commercial",
+      "CalculationAttribute": "Flat",
+      "ConnectionType": "Non Metered",
       "UOM": "Flat",
       "Slab": [
         {
@@ -259,9 +259,9 @@
       ]
     },
     {
-      "Building Type": "Government",
-      "Calculation Attribute": "Flat",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Government",
+      "CalculationAttribute": "Flat",
+      "ConnectionType": "Non Metered",
       "UOM": "Flat",
       "Slab": [
         {
@@ -273,9 +273,9 @@
       ]
     },
     {
-      "Building Type": "Partly commercial",
-      "Calculation Attribute": "Flat",
-      "Connection Type": "Non Metered",
+      "BuildingType": "Partly commercial",
+      "CalculationAttribute": "Flat",
+      "ConnectionType": "Non Metered",
       "UOM": "Flat",
       "Slab": [
         {
