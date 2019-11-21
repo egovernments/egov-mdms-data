@@ -15143,6 +15143,21 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Period End Activities.Close Financial Year",
       "navigationURL": "services/EGF/cfinancialyear/search/close"
+    },
+    {
+      "id": 1874,
+      "name": "Water & Sewerage",
+      "url": "url",
+      "displayName": "Trade License",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "WNS",
+      "code": "null",
+      "navigationURL": "wns-citizen/home",
+      "path": "wns",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
