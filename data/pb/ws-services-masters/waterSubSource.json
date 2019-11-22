@@ -1,0 +1,44 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-masters",
+  "waterSubSource": [
+    {
+      "tenantId": "pb",
+      "name": "Ground",
+      "code": {
+        "Ground": [
+          "Well",
+          "Hand-pump",
+          "Borewell"
+        ]
+      },
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Surface",
+      "code": {
+        "Surface": [
+          "River",
+          "Canal",
+          "Lake",
+          "Pond",
+          "Rainwater",
+          "Recycled-water"
+        ]
+      },
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Bulk-Supply",
+      "code": {
+        "Bulk-Supply": [
+          "Raw",
+          "Treated"
+        ]
+      },
+      "active": true
+    }
+  ]
+}

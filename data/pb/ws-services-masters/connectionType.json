@@ -1,14 +1,24 @@
 {
   "tenantId": "pb",
   "moduleName": "ws-services-masters",
-  "connectionType": 
-    [{
+  "connectionType": [
+    {
       "tenantId": "pb",
-      "name": "2001",
-      "code": "2001",
-      "active":true,
-      "connectionType":"water1"
-}
-    ]
-    
+      "name": "Metered",
+      "code": "Metered",
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Non-metered",
+      "code": "Non-metered",
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Bulk-supply",
+      "code": "Bulk-supply",
+      "active": true
+    }
+  ]
 }

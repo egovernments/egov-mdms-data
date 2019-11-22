@@ -1,14 +1,18 @@
 {
   "tenantId": "pb",
   "moduleName": "ws-services-masters",
-  "connectionCategory": 
-    [{
+  "connectionCategory": [
+    {
       "tenantId": "pb",
-      "name": "2001",
-      "code": "2001",
-      "active":true,
-      "connectionCategory":"water1"
-}
-    ]
-    
+      "name": "Temporary",
+      "code": "Temporary",
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Permanent",
+      "code": "Permanent",
+      "active": true
+    }
+  ]
 }

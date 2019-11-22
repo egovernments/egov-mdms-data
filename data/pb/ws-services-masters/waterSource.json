@@ -1,12 +1,28 @@
 {
- "tenantId": "pb",
+  "tenantId": "pb",
   "moduleName": "ws-services-masters",
-  "waterSource": 
-    [{
+  "waterSource": [
+    {
       "tenantId": "pb",
-      "name": "2001",
-      "code": "2001",
-      "active":true,
-      "waterSource":"12"}
-    ]
-  }
+      "name": "Ground",
+      "code": "Ground",
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Surface",
+      "code": "Surface",
+      "active": true
+    },
+    {
+      "tenantId": "pb",
+      "name": "Bulk-Supply",
+      "code": "Bulk-Supply",
+      "active": true
+    }
+  ]
+}
+
+
+
+
