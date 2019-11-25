@@ -1852,7 +1852,7 @@
       "order": "0",
       "isRequired": false
     },
-{
+    {
       "category": "CHARGES",
       "service": "WS",
       "name": "ws charge",
@@ -1900,6 +1900,16 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "WS round off",
+      "code": "WS_Round_Off",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
       "isRequired": false
     }
   ]
