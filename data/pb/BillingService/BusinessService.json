@@ -1005,7 +1005,18 @@
       "isActive": true,
       "type": "Finance"
     },
-     {
+    {
+      "businessService": "BPARegistration",
+      "code": "BPAREG",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
       "businessService": "ws-services-calculation",
       "code": "WS",
       "collectionModesNotAllowed": [
