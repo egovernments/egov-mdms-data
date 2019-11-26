@@ -15203,6 +15203,37 @@
       "serviceCode": "tl-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1879,
+      "name": "BPAStakeHolderSearch",
+      "url": "url",
+      "displayName": "BPA Stake Holder Search",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-bpa",
+      "enabled": true,
+      "serviceCode": "BPAREG",
+      "code": "null",
+      "path": "BPAStakeHolder.Search",
+      "navigationURL": "bpastakeholder/search",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1880,
+      "name": "BPAStakeHolderHome",
+      "url": "card",
+      "displayName": "BPA Stake Holder Home",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "bpastakeholder/home",
+      "leftIcon": "places:business-center",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
