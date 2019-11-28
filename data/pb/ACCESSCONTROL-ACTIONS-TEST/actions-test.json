@@ -15359,6 +15359,30 @@
     },
     {
       "id": 1889,
+      "name": "DSS Dashboard config",
+      "url": "/egov-dss/dashboard/getDashboardConfig",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1890,
+      "name": "DSS Dashboard Charts",
+      "url": "/egov-dss/dashboard/getChartV2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1891,
       "name": "Close period",
       "url": "url",
       "parentModule": "",
@@ -15372,7 +15396,7 @@
       "navigationURL": "services/EGF/closedperiod/new"
     },
     {
-      "id": 1890,
+      "id": 1892,
       "name": "Close period",
       "url": "url",
       "parentModule": "",
