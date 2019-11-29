@@ -15392,23 +15392,8 @@
       "serviceCode": "FinanceMaster",
       "code": "null",
       "leftIcon": "editor:insert-chart",
-      "path": "Finance.Period End Activities.Financial Year Period.Close Period",
-      "navigationURL": "services/EGF/closedperiod/new"
-    },
-    {
-      "id": 1892,
-      "name": "Close period",
-      "url": "url",
-      "parentModule": "",
-      "displayName": "View Close Period",
-      "orderNumber": 3,
-      "enabled": true,
-      "serviceCode": "FinanceMaster",
-      "code": "null",
-      "leftIcon": "editor:insert-chart",
-      "path": "Finance.Period End Activities.Financial Year Period.View Close Period",
+      "path": "Finance.Period End Activities.Close Period",
       "navigationURL": "services/EGF/closedperiod/search/view"
-    }
-    
+    } 
   ]
 }
