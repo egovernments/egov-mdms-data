@@ -14158,7 +14158,7 @@
       "parentModule": "",
       "displayName": "Close Period",
       "orderNumber": 3,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceMaster",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -15383,6 +15383,20 @@
     },
     {
       "id": 1891,
+      "name": "Close period",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Close Period",
+      "orderNumber": 3,
+      "enabled": true,
+      "serviceCode": "FinanceMaster",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Period End Activities.Close Period",
+      "navigationURL": "services/EGF/closedperiod/search/view"
+    }, 
+    {
+      "id": 1892,
       "name": "DSS Dashboard Config Property Tax",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/propertyTax",
       "parentModule": "",
@@ -15394,7 +15408,7 @@
       "path": ""
     },
     {
-      "id": 1892,
+      "id": 1893,
       "name": "DSS Dashboard Config Trade License",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/tradeLicense",
       "parentModule": "",
@@ -15406,7 +15420,7 @@
       "path": ""
     },
     {
-      "id": 1893,
+      "id": 1894,
       "name": "DSS Dashboard Config PGR",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/PGR",
       "parentModule": "",
