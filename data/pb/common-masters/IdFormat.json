@@ -442,7 +442,14 @@
         {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "nks.rain_harvesting_charges.receipt.id"
-        }
+        },{
+	    "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "waterservice.connection.id"
+	},
+	{
+	    "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "sewerageservice.connection.id"
+	}
 
     ]
 }
