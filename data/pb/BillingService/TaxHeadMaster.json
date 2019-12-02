@@ -3409,7 +3409,7 @@
         "isDebit": false,
         "isActualDemand": false,
         "order": "0",
-        "isRequired": false    
+        "isRequired": false
       },
     {
         "category": "TAX",
@@ -3420,7 +3420,7 @@
         "isActualDemand": false,
         "order": "0",
         "isRequired": false
-      
+
       },
       {
         "category": "TAX",
@@ -3431,7 +3431,7 @@
         "isActualDemand": false,
         "order": "0",
         "isRequired": false
-      
+
       },
     {
         "category": "TAX",
@@ -3652,7 +3652,7 @@
           "isDebit": false,
           "isActualDemand": false,
           "order": "0",
-          "isRequired": false     
+          "isRequired": false
        },
     {
             "category": "TAX",
@@ -3673,7 +3673,7 @@
             "isActualDemand": false,
             "order": "0",
             "isRequired": false
-          },  
+          },
     {
             "category": "TAX",
             "service": "NKS.Economics_Weaker_Section_Projects_Fees",
@@ -3693,7 +3693,7 @@
             "isActualDemand": false,
             "order": "0",
             "isRequired": false
-          }, 
+          },
     {
               "category": "TAX",
               "service": "OM.Road_cut_fees",
@@ -3784,7 +3784,7 @@
                "order": "0",
                "isRequired": false
           },
-          { 
+          {
                "category": "TAX",
                "service": "TX.Property_Tax_2013-14",
                "name": "TX.Property_Tax_2013-14_SGST",
@@ -3792,8 +3792,8 @@
                "isDebit": false,
                "isActualDemand": false,
                "order": "0",
-               "isRequired": false 
-          },  
+               "isRequired": false
+          },
     {
                 "category": "TAX",
                 "service": "OTHER.Noc_fee",
@@ -3813,7 +3813,7 @@
                 "isActualDemand": false,
                 "order": "0",
                 "isRequired": false
-           }, 
+           },
      {
              "category": "TAX",
              "service": "OTHER.Fire_Noc_fee",
@@ -3833,7 +3833,7 @@
              "isActualDemand": false,
              "order": "0",
              "isRequired": false
-          }, 
+          },
      {
             "category": "TAX",
             "service": "OTHER.Fire_Tender_fee",
@@ -3853,7 +3853,7 @@
             "isActualDemand": false,
             "order": "0",
             "isRequired": false
-         }, 
+         },
     {
            "category": "TAX",
            "service": "OTHER.Fire_Call_Report_fee",
@@ -3873,7 +3873,7 @@
            "isActualDemand": false,
            "order": "0",
            "isRequired": false
-           }, 
+           },
      {
              "category": "TAX",
              "service": "OTHER.Bus_Adda_fee",
@@ -3953,6 +3953,16 @@
                 "isActualDemand": false,
                 "order": "0",
                 "isRequired": false
-           }     
+           },
+           {
+            "category": "FEE",
+            "service": "BPAREG",
+            "name": "BPA Stakeholder Registraion fees",
+            "code": "BPAREG_FEES",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "1",
+            "isRequired": false
+          }
   ]
 }
