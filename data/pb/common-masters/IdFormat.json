@@ -467,7 +467,10 @@
         {
             "format": "PB-TL-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]",
             "idname": "tl.licensenumber"
+        },
+        {
+            "format": "EMP_[SEQ_EMPLOYEE_CODE]",
+            "idname": "employee.code"
         }
-
     ]
 }
