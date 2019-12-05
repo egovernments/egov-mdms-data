@@ -2,7 +2,8 @@
   "tenantId": "pb",
   "moduleName": "sw-services-calculation",
   "SCBillingSlab": [
-    { "id":"1",
+    {
+      "id": "1",
       "BuildingType": "Domestic",
       "CalculationAttribute": "No. of water closets",
       "ConnectionType": "Non Metered",
@@ -16,7 +17,8 @@
         }
       ]
     },
-    {"id":"2",
+    {
+      "id": "2",
       "BuildingType": "Domestic",
       "CalculationAttribute": "No. of toilets",
       "ConnectionType": "Non Metered",
@@ -30,7 +32,8 @@
         }
       ]
     },
-    {"id":"3",
+    {
+      "id": "3",
       "BuildingType": "Commercial",
       "CalculationAttribute": "No. of water closets",
       "ConnectionType": "Non Metered",
@@ -44,7 +47,8 @@
         }
       ]
     },
-    {"id":"4",
+    {
+      "id": "4",
       "BuildingType": "Commercial",
       "CalculationAttribute": "No. of toilets",
       "ConnectionType": "Non Metered",
@@ -58,7 +62,8 @@
         }
       ]
     },
-    {"id":"5",
+    {
+      "id": "5",
       "BuildingType": "Government",
       "CalculationAttribute": "No. of water closets",
       "ConnectionType": "Non Metered",
@@ -72,7 +77,8 @@
         }
       ]
     },
-    {"id":"6",
+    {
+      "id": "6",
       "BuildingType": "Government",
       "CalculationAttribute": "No. of toilets",
       "ConnectionType": "Non Metered",
@@ -86,7 +92,8 @@
         }
       ]
     },
-    {"id":"7",
+    {
+      "id": "7",
       "BuildingType": "Partly Commercial",
       "CalculationAttribute": "No. of water closets",
       "ConnectionType": "Non Metered",
@@ -100,7 +107,8 @@
         }
       ]
     },
-    {"id":"7",
+    {
+      "id": "7",
       "BuildingType": "Partly Commercial",
       "CalculationAttribute": "No. of toilets",
       "ConnectionType": "Non Metered",
@@ -114,7 +122,8 @@
         }
       ]
     },
-    {"id":"8",
+    {
+      "id": "8",
       "BuildingType": "Domestic",
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
@@ -128,7 +137,8 @@
         }
       ]
     },
-    {"id":"9",
+    {
+      "id": "9",
       "BuildingType": "Commercial",
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
@@ -142,7 +152,8 @@
         }
       ]
     },
-    {"id":"10",
+    {
+      "id": "10",
       "BuildingType": "Government",
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
@@ -156,7 +167,8 @@
         }
       ]
     },
-    {"id":"11",
+    {
+      "id": "11",
       "BuildingType": "Partly commercial",
       "CalculationAttribute": "Flat",
       "ConnectionType": "Non Metered",
