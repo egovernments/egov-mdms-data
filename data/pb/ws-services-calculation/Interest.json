@@ -1,11 +1,12 @@
 {
-  "tenantId": "pb.amritsar",
+  "tenantId": "pb",
   "moduleName": "ws-services-calculation",
-  "Penalty": [
+  "Interest": [
     {
-      "rate": 10,
+      "rate": 5,
       "minAmount": null,
       "flatAmount": null,
+      "maxAmount": null,
       "fromFY": "2019-20",
       "startingDay": "1/01/2019"
     }

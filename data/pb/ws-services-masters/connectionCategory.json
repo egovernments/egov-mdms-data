@@ -1,15 +1,13 @@
 {
-  "tenantId": "pb.amritsar",
+  "tenantId": "pb",
   "moduleName": "ws-services-masters",
   "connectionCategory": [
     {
-      "tenantId": "pb.amritsar",
       "name": "Temporary",
       "code": "Temporary",
       "active": true
     },
     {
-      "tenantId": "pb.amritsar",
       "name": "Permanent",
       "code": "Permanent",
       "active": true

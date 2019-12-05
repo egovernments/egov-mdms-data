@@ -1,21 +1,18 @@
 {
-  "tenantId": "pb.amritsar",
+  "tenantId": "pb",
   "moduleName": "ws-services-masters",
   "connectionType": [
     {
-      "tenantId": "pb.amritsar",
       "name": "Metered",
       "code": "Metered",
       "active": true
     },
     {
-      "tenantId": "pb.amritsar",
       "name": "Non-metered",
       "code": "Non-metered",
       "active": true
     },
     {
-      "tenantId": "pb.amritsar",
       "name": "Bulk-supply",
       "code": "Bulk-supply",
       "active": true
