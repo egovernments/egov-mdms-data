@@ -479,6 +479,10 @@
         {
             "format": "PB-SK-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]",
             "idname": "bpa.licensenumber"
+        },
+	{
+            "format": "EDCR-[SEQ_BPA_EDCR_TXN]",
+            "idname": "bpa.transactionnumber"
         }
     ]
 }
