@@ -8,11 +8,11 @@
             "RiskType": "High",
             "docTypes": [
                 {
-                    "code": "OWNERIDENTITYPROOF.VOTERID",
+                    "code": "OWNERIDENTITYPROOF",
                     "required": true
                 },
                 {
-                    "code": "OWNERIDENTITYPROOF.AADHAAR",
+                    "code": "OWNERADDRESSPROOF",
                     "required": false
                 }
             ]
