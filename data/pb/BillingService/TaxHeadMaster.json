@@ -1923,13 +1923,23 @@
       "isRequired": false
     },
     {
+      "category": "CHARGES",
+      "service": "SW",
+      "name": "ws charge",
+      "code": "SW_CHARGE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
       "category": "TAX",
       "service": "SW",
       "name": "sw time rebate",
       "code": "SW_TIME_REBATE",
       "isDebit": true,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -1939,7 +1949,7 @@
       "code": "SW_TIME_INTEREST",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "2",
       "isRequired": false
     },
     {
@@ -1949,7 +1959,7 @@
       "code": "SW_TIME_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "3",
       "isRequired": false
     },
     {
@@ -1959,7 +1969,7 @@
       "code": "SW_Round_Off",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "3",
+      "order": "4",
       "isRequired": false
     }
   ]
