@@ -1865,7 +1865,7 @@
     {
       "category": "CHARGES",
       "service": "WS",
-      "name": "ws charge",
+      "name": "Water Charges",
       "code": "WS_CHARGE",
       "isDebit": true,
       "isActualDemand": false,
@@ -1875,7 +1875,7 @@
     {
       "category": "TAX",
       "service": "WS",
-      "name": "ws time rebate",
+      "name": "Rebate",
       "code": "WS_TIME_REBATE",
       "isDebit": true,
       "isActualDemand": false,
@@ -1885,7 +1885,7 @@
     {
       "category": "TAX",
       "service": "WS",
-      "name": "Ws time interest",
+      "name": "Interest",
       "code": "WS_TIME_INTEREST",
       "isDebit": false,
       "isActualDemand": true,
@@ -1895,7 +1895,7 @@
     {
       "category": "TAX",
       "service": "WS",
-      "name": "WS water cess",
+      "name": "Water Cess",
       "code": "WS_WATER_CESS",
       "isDebit": false,
       "isActualDemand": true,
@@ -1905,7 +1905,7 @@
     {
       "category": "PENALTY",
       "service": "WS",
-      "name": "Ws time penalty",
+      "name": "Penalty",
       "code": "WS_TIME_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
@@ -1915,7 +1915,7 @@
     {
       "category": "TAX",
       "service": "WS",
-      "name": "WS round off",
+      "name": "Round Off",
       "code": "WS_Round_Off",
       "isDebit": false,
       "isActualDemand": true,
@@ -1925,7 +1925,7 @@
     {
       "category": "CHARGES",
       "service": "SW",
-      "name": "ws charge",
+      "name": "Sewerage Charges",
       "code": "SW_CHARGE",
       "isDebit": true,
       "isActualDemand": false,
@@ -1935,7 +1935,7 @@
     {
       "category": "TAX",
       "service": "SW",
-      "name": "sw time rebate",
+      "name": "Rebate",
       "code": "SW_TIME_REBATE",
       "isDebit": true,
       "isActualDemand": false,
@@ -1945,7 +1945,7 @@
     {
       "category": "TAX",
       "service": "SW",
-      "name": "Sw time interest",
+      "name": "Interest",
       "code": "SW_TIME_INTEREST",
       "isDebit": false,
       "isActualDemand": true,
@@ -1955,7 +1955,7 @@
     {
       "category": "PENALTY",
       "service": "SW",
-      "name": "Sw time penalty",
+      "name": "Penalty",
       "code": "SW_TIME_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
@@ -1965,7 +1965,7 @@
     {
       "category": "TAX",
       "service": "SW",
-      "name": "SW round off",
+      "name": "Round Off",
       "code": "SW_Round_Off",
       "isDebit": false,
       "isActualDemand": true,
