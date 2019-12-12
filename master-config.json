@@ -905,6 +905,13 @@
       "masterName": "SW_TIME_PENALTY",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "billingPeriod": {
+      "masterName": "billingPeriod",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.billingCycle"
+      ]
     }
   }
 }
