@@ -97,13 +97,13 @@
       "code": "pb.nawanshahr",
       "name": "Nawanshahr",
       "description": null,
-      "logoId": null,
+      "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.nawanshahr/logo.png",
       "imageId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.nawanshahr/logo.png",
       "domainUrl": "www.nawanshahr.com",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
-      "emailId": "",
+      "emailId": "support@nawanshahr.com",
       "OfficeTimings": {
         "Mon - Fri": "9.00 AM - 6.00 PM"
       },
@@ -118,11 +118,14 @@
         "latitude": 31.1256,
         "shapeFileLocation": null,
         "captcha": null,
-        "code": "1406"
+        "code": "1406",
+        "ddrName": "Jalandhar-DDR"
       },
-      "address": "nawanshahr",
-      "contactNumber": "",
-      "helpLineNumber": ""
+      "address": "Municipal Corporation Nawanshahr, Town Hall",
+      "contactNumber": "009-08080808089",
+      "helpLineNumber": "009-08080808089",
+      "pdfHeader": "PB_NAWANSHAHR_PDF_HEADER",
+      "pdfContactDetails": "PB_NAWANSHAHR_CONTACT_DETAILS"
     },
     {
       "code": "pb.mohali",
