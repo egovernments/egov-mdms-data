@@ -15229,7 +15229,7 @@
       "enabled": true,
       "serviceCode": "BPAREG",
       "code": "null",
-      "path": "BPAStakeHolder.Home",
+      "path": "BPAStakeHolder",
       "navigationURL": "bpastakeholder-citizen/home",
       "leftIcon": "places:business-center",
       "rightIcon": ""
@@ -15645,5 +15645,101 @@
       "code": "null",
       "path": ""
     }
+    ,
+    {
+      "id": 1915,
+      "name": "Locality searcher endpoint for TL",
+      "url": "/egov-searcher/locality/TLLocalitySearcher/_get",
+      "displayName": "TL locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1916,
+      "name": "Locality searcher endpoint for PT",
+      "url": "/egov-searcher/locality/FireNOCLocalitySearcher/_get",
+      "displayName": "FIRENOC locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1917,
+      "name": "Create Sewerage Connection",
+      "url": "/sw-services/swc/_create",
+      "displayName": "Create Sewerage Connection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1918,
+      "name": "Update Sewerage Connection",
+      "url": "/sw-services/swc/_update",
+      "displayName": "Update Sewerage Connection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1919,
+      "name": "Search Sewerage Connection",
+      "url": "/sw-services/swc/_search",
+      "displayName": "Search Sewerage Connection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1920,
+      "name": "Sewerage Calculation",
+      "url": "/sw-calculator/sewerageCalculator/_calculate",
+      "displayName": "Sewerage Calculation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1921,
+      "name": "eDCRScrutinyHome",
+      "url": "url",
+      "displayName": "eDCR Scrutiny Home",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-edcr",
+      "enabled": true,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": "eDCRScrutiny",
+      "navigationURL": "edcrscrutiny/home",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1922,
+      "name": "BPASearch",
+      "url": "url",
+      "displayName": "Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BPA",
+      "code": "null",
+      "navigationURL": "bpa/search",
+      "path": "BPA.Search",
+      "leftIcon": "places:business-center"
+    },
   ]
 }
