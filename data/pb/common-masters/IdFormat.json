@@ -468,8 +468,11 @@
     },
     {
       "format": "[cy:MM]/[fy:yyyy-yy]/[SEQ_COLL_RCPT_NUM]",
-      "idname": "receipt.id
-"
+      "idname": "receipt.id"
+    },
+    {
+      "format": "BPAREG/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "bpareg.receipt.id"
     }
   ]
 }
