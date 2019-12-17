@@ -402,6 +402,16 @@
       "code": "BPAREG_DOC_VERIFIER",
       "name": "BPAREG doc verifier",
       "description": "BPA Stakeholder workflow document verifier"
+    },
+    {
+      "code": "BPA_APPROVER",
+      "name": "BPA Services Approver",
+      "description": "BPA Services workflow Approver"
+    },
+    {
+      "code": "BPA_VERIFIER",
+      "name": "BPA Services verifier",
+      "description": "BPA Services workflow document & field inspection verifier"
     }
   ]
 }
