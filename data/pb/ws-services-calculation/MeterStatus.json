@@ -1,7 +1,7 @@
 {
   "tenantId": "pb",
   "moduleName": "ws-services-calculation",
-  "meterStatus": [
+  "MeterStatus": [
     {
       "name": "Working",
       "code": "WORKING",
@@ -19,7 +19,7 @@
     },
     {
       "name": "No-meter",
-      "code": "NOMETER",
+      "code": "NO_METER",
       "active": true
     },
     {
