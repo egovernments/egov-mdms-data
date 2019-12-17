@@ -796,14 +796,8 @@
       "uniqueKeys": [
         "$.billingCycle"
       ]
-    },
-    "meterStatus": {
-      "masterName": "meterStatus",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
     }
+ 
   },
   "ws-services-calculation": {
     "WaterCess": {
@@ -849,6 +843,11 @@
     },
     "WS_WATER_CESS": {
       "masterName": "WS_WATER_CESS",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+   "meterStatus": {
+      "masterName": "meterStatus",
       "isStateLevel": true,
       "uniqueKeys": []
     }

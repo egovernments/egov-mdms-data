@@ -5,44 +5,37 @@
     {
       "name": "Working",
       "code": "WORKING",
-      "active": true,
-      "description": "Working"
+      "active": true
     },
     {
       "name": "Locked",
       "code": "LOCKED",
-      "active": true,
-      "description": "Locked"
+      "active": true
     },
     {
       "name": "Breakdown",
       "code": "BREAKDOWN",
-      "active": true,
-      "description": "Breakdown"
+      "active": true
     },
     {
       "name": "No-meter",
       "code": "NOMETER",
-      "active": true,
-      "description": "No-meter"
+      "active": true
     },
     {
       "name": "Reset",
       "code": "RESET",
-      "active": true,
-      "description": "Reset"
+      "active": true
     },
     {
       "name": "Reset",
       "code": "RESET",
-      "active": true,
-      "description": "Reset"
+      "active": true
     },
     {
       "name": "Replacement",
       "code": "REPLACEMENT",
-      "active": true,
-      "description": "Replacement"
+      "active": true
     }
   ]
 }
