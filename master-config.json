@@ -546,13 +546,6 @@
         "$.code"
       ]
     },
-    "UsageCategory": {
-      "masterName": "UsageCategory",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    },
     "UsageCategoryMajor": {
       "masterName": "UsageCategoryMajor",
       "isStateLevel": true,
@@ -802,6 +795,13 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.billingCycle"
+      ]
+    },
+    "meterStatus": {
+      "masterName": "meterStatus",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
       ]
     }
   },

@@ -1,0 +1,48 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-masters",
+  "meterStatus": [
+    {
+      "name": "Working",
+      "code": "WORKING",
+      "active": true,
+      "description": "Working"
+    },
+    {
+      "name": "Locked",
+      "code": "LOCKED",
+      "active": true,
+      "description": "Locked"
+    },
+    {
+      "name": "Breakdown",
+      "code": "BREAKDOWN",
+      "active": true,
+      "description": "Breakdown"
+    },
+    {
+      "name": "No-meter",
+      "code": "NOMETER",
+      "active": true,
+      "description": "No-meter"
+    },
+    {
+      "name": "Reset",
+      "code": "RESET",
+      "active": true,
+      "description": "Reset"
+    },
+    {
+      "name": "Reset",
+      "code": "RESET",
+      "active": true,
+      "description": "Reset"
+    },
+    {
+      "name": "Replacement",
+      "code": "REPLACEMENT",
+      "active": true,
+      "description": "Replacement"
+    }
+  ]
+}
