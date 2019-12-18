@@ -4,11 +4,17 @@
   "billingPeriod": [
     {
       "active": true,
-      "billingCycle": "monthly"
+      "connectionType": "Metered",
+      "billingCycle": "monthly",
+      "demandEndDateMillis": 2592000000,
+      "demandExpiryDate": 2592000000
     },
     {
       "active": true,
-      "billingCycle": "quarterly"
+      "connectionType": "Non Metered",
+      "billingCycle": "monthly",
+      "demandEndDateMillis": 2592000000,
+      "demandExpiryDate": 2592000000
     }
   ]
 }

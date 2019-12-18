@@ -2,7 +2,7 @@
   "tenantId": "pb",
   "moduleName": "tenant",
   "tenants": [
-        {
+    {
       "code": "pb",
       "name": "Punjab",
       "description": "Punjab",
@@ -31,7 +31,9 @@
         "ddrName": "Jalandhar-MC"
       },
       "address": "Municipal Corporation Office, Dr. B.R.Ambedkar Admin Complex, Nehru Garden, Jalandhar City-144001",
-      "contactNumber": "0181-2227015"
+      "contactNumber": "0181-2227015",
+      "pdfHeader": "PB_PDF_HEADER",
+      "pdfContactDetails": "PB_CONTACT_DETAILS"
     },
     {
       "code": "pb.jalandhar",
@@ -62,13 +64,15 @@
         "ddrName": "Jalandhar-MC"
       },
       "address": "Municipal Corporation Office, Dr. B.R.Ambedkar Admin Complex, Nehru Garden, Jalandhar City-144001",
-      "contactNumber": "0181-2227015"
+      "contactNumber": "0181-2227015",
+      "pdfHeader": "PB_JALANDHAR_PDF_HEADER",
+      "pdfContactDetails": "PB_JALANDHAR_CONTACT_DETAILS"
     },
     {
       "code": "pb.phagwara",
       "name": "Phagwara",
       "description": "Phagwara",
-      "logoId": null,
+      "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.phagwara/logo.png",
       "imageId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.phagwara/logo.png",
       "domainUrl": "http://www.mcphagwara.com/index.php",
       "type": "CITY",
@@ -93,13 +97,15 @@
         "ddrName": "Phagwara-MC"
       },
       "address": "Town Hall, Phagwara, Punjab - 144401",
-      "contactNumber": "01824-260426"
+      "contactNumber": "01824-260426",
+      "pdfHeader": "PB_PHAGWARA_PDF_HEADER",
+      "pdfContactDetails": "PB_PHAGWARA_CONTACT_DETAILS"
     },
     {
       "code": "pb.amritsar",
       "name": "Amritsar",
       "description": null,
-      "logoId": null,
+      "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.amritsar/logo.png",
       "imageId": "/pb-egov-assets/pb.amritsar/logo.png",
       "domainUrl": "www.amritsarcorp.com",
       "type": "CITY",
@@ -126,13 +132,15 @@
       },
       "address": "Municipal Corporation Amritsar, Town Hall, Amritsar,Punjab",
       "contactNumber": "0183-2545155",
-      "helpLineNumber": "0183-2210300"
+      "helpLineNumber": "0183-2210300",
+      "pdfHeader": "PB_AMRITSAR_PDF_HEADER",
+      "pdfContactDetails": "PB_AMRITSAR_CONTACT_DETAILS"
     },
     {
       "code": "pb.nawanshahr",
       "name": "Nawanshahr",
       "description": null,
-      "logoId": null,
+      "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.nawanshahr/logo.png",
       "imageId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.nawanshahr/logo.png",
       "domainUrl": "www.nawanshahr.com",
       "type": "CITY",
@@ -158,13 +166,15 @@
       },
       "address": "nawanshahr",
       "contactNumber": "",
-      "helpLineNumber": ""
+      "helpLineNumber": "",
+      "pdfHeader": "PB_NAWANSHAHR_PDF_HEADER",
+      "pdfContactDetails": "PB_NAWANSHAHR_CONTACT_DETAILS"
     },
     {
       "code": "pb.mohali",
       "name": "Mohali",
       "description": "Mohali",
-      "logoId": null,
+      "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.mohali/logo.png",
       "imageId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.mohali/logo.png",
       "domainUrl": "www.mcjalandhar.in",
       "type": "CITY",
@@ -189,7 +199,9 @@
         "ddrName": "Mohali-MC"
       },
       "address": "Sector 68, Sahibzada Ajit Singh Nagar, Punjab 160062",
-      "contactNumber": "0172-5044907"
+      "contactNumber": "0172-5044907",
+      "pdfHeader": "PB_MOHALI_PDF_HEADER",
+      "pdfContactDetails": "PB_MOHALI_CONTACT_DETAILS"
     },
     {
       "code": "pb.nayagaon",
@@ -220,7 +232,9 @@
         "ddrName": "Patiala-DDR"
       },
       "address": "Not available",
-      "contactNumber": "Not available"
+      "contactNumber": "Not available",
+      "pdfHeader": "PB_NAYAGAON_PDF_HEADER",
+      "pdfContactDetails": "PB_NAYAGAON_CONTACT_DETAILS"
     },
     {
       "code": "pb.derabassi",
@@ -253,7 +267,9 @@
         "ddrName": "Patiala-DDR"
       },
       "address": "Not available",
-      "contactNumber": "1762281025"
+      "contactNumber": "1762281025",
+      "pdfHeader": "PB_DERABASSI_PDF_HEADER",
+      "pdfContactDetails": "PB_DERABASSI_CONTACT_DETAILS"
     }
   ]
 }
