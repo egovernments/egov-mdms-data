@@ -851,6 +851,16 @@
       "masterName": "WS_WATER_CESS",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "MeterStatus": {
+      "masterName": "MeterStatus",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "WS_Round_Off": {
+      "masterName": "WS_Round_Off",
+      "isStateLevel": true,
+      "uniqueKeys": []
     }
   },
   "BPA": {
@@ -874,6 +884,16 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "CalculationType": {
+      "masterName": "CalculationType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RiskTypeComputation": {
+      "masterName": "RiskTypeComputation",
+      "isStateLevel": true,
+      "uniqueKeys": []
     }
   },
   "sw-services-calculation": {
@@ -917,6 +937,11 @@
     },
     "SW_TIME_PENALTY": {
       "masterName": "SW_TIME_PENALTY",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+     "SW_Round_Off": {
+      "masterName": "SW_Round_Off",
       "isStateLevel": true,
       "uniqueKeys": []
     }
