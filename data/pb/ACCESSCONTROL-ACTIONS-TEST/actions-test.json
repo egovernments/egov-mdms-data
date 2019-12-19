@@ -15796,6 +15796,20 @@
       "navigationURL": "tradelicence/apply",
       "path": "TradeLicense.Apply",
       "leftIcon": "places:business-center"
+    },
+    {
+      "id": 1932,
+      "name": "FIRE-NOC",
+      "url": "quickAction",
+      "displayName": "Search Fire Noc",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "FIRE-NOC",
+      "code": "null",
+      "navigationURL": "fire-noc/search",
+      "path": "FIRE-NOC.Search",
+      "leftIcon": "social:people"
     }
   ]
 }
