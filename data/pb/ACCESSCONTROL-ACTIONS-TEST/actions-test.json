@@ -15832,6 +15832,116 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 1899,
+      "name": "Create Water Connection",
+      "url": "/ws-services/wc/_create",
+      "displayName": "Create Water COnnection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1900,
+      "name": "Search Water Connection",
+      "url": "/ws-services/wc/_search",
+      "displayName": "Search Water COnnection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1901,
+      "name": "Update Water Connection",
+      "url": "/ws-services/wc/_update",
+      "displayName": "Update Water COnnection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1935,
+      "name": "Enter Meter Reading",
+      "url": "/ws-calculator/meterConnection/_create",
+      "displayName": "Enter Meter Reading",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1936,
+      "name": "Search Meter Reading",
+      "url": "/ws-calculator/meterConnection/_search",
+      "displayName": "Search Meter Reading",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1937,
+      "name": "Calculate Water Bill",
+      "url": "/ws-calculator/waterCalculator/_calculate",
+      "displayName": "Calculate Water Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1938,
+      "name": "Create Sewerage Connection",
+      "url": "/sw-services/swc/_create",
+      "displayName": "Create Sewerage Connection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1939,
+      "name": "Update Sewerage Connection",
+      "url": "/sw-services/swc/_update",
+      "displayName": "Update Sewerage Connection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1940,
+      "name": "Search Sewerage Connection",
+      "url": "/sw-services/swc/_search",
+      "displayName": "Search Sewerage Connection",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1941,
+      "name": "Sewerage Calculation",
+      "url": "/sw-calculator/sewerageCalculator/_calculate",
+      "displayName": "Sewerage Calculation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-calculator",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
