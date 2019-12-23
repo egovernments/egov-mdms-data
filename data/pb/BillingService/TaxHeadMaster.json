@@ -3963,6 +3963,116 @@
             "isActualDemand": true,
             "order": "1",
             "isRequired": false
+          },
+          {
+            "category": "CHARGES",
+            "service": "WS",
+            "name": "Water Charges",
+            "code": "WS_CHARGE",
+            "isDebit": true,
+            "isActualDemand": false,
+            "order": "0",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "WS",
+            "name": "Rebate",
+            "code": "WS_TIME_REBATE",
+            "isDebit": true,
+            "isActualDemand": false,
+            "order": "0",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "WS",
+            "name": "Interest",
+            "code": "WS_TIME_INTEREST",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "1",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "WS",
+            "name": "Water Cess",
+            "code": "WS_WATER_CESS",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "2",
+            "isRequired": false
+          },
+          {
+            "category": "PENALTY",
+            "service": "WS",
+            "name": "Penalty",
+            "code": "WS_TIME_PENALTY",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "3",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "WS",
+            "name": "Round Off",
+            "code": "WS_Round_Off",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "4",
+            "isRequired": false
+          },
+          {
+            "category": "CHARGES",
+            "service": "SW",
+            "name": "Sewerage Charges",
+            "code": "SW_CHARGE",
+            "isDebit": true,
+            "isActualDemand": false,
+            "order": "0",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "SW",
+            "name": "Rebate",
+            "code": "SW_TIME_REBATE",
+            "isDebit": true,
+            "isActualDemand": false,
+            "order": "1",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "SW",
+            "name": "Interest",
+            "code": "SW_TIME_INTEREST",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "2",
+            "isRequired": false
+          },
+          {
+            "category": "PENALTY",
+            "service": "SW",
+            "name": "Penalty",
+            "code": "SW_TIME_PENALTY",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "3",
+            "isRequired": false
+          },
+          {
+            "category": "TAX",
+            "service": "SW",
+            "name": "Round Off",
+            "code": "SW_Round_Off",
+            "isDebit": false,
+            "isActualDemand": true,
+            "order": "4",
+            "isRequired": false
           }
   ]
 }
