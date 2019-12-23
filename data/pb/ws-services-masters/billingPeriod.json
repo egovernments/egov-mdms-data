@@ -1,0 +1,20 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-masters",
+  "billingPeriod": [
+    {
+      "active": true,
+      "connectionType": "Metered",
+      "billingCycle": "monthly",
+      "demandEndDateMillis": 2592000000,
+      "demandExpiryDate": 2592000000
+    },
+    {
+      "active": true,
+      "connectionType": "Non Metered",
+      "billingCycle": "monthly",
+      "demandEndDateMillis": 2592000000,
+      "demandExpiryDate": 2592000000
+    }
+  ]
+}
