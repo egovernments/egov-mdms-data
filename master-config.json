@@ -775,5 +775,176 @@
         "$.code"
       ]
     }
+  },
+  "ws-services-masters": {
+    "connectionCategory": {
+      "masterName": "connectionCategory",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "connectionType": {
+      "masterName": "connectionType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "waterSource": {
+      "masterName": "waterSource",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "billingPeriod": {
+      "masterName": "billingPeriod",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.billingCycle"
+      ]
+    }
+  },
+  "ws-services-calculation": {
+    "WaterCess": {
+      "masterName": "WaterCess",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "Interest": {
+      "masterName": "Interest",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Rebate": {
+      "masterName": "Rebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Penalty": {
+      "masterName": "Penalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "WCBillingSlab": {
+      "masterName": "WCBillingSlab",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "WS_CHARGE": {
+      "masterName": "WS_CHARGE",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "WS_TIME_PENALTY": {
+      "masterName": "WS_TIME_PENALTY",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "WS_WATER_CESS": {
+      "masterName": "WS_WATER_CESS",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "MeterStatus": {
+      "masterName": "MeterStatus",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "WS_Round_Off": {
+      "masterName": "WS_Round_Off",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    }
+  },
+  "BPA": {
+    "ServiceType": {
+      "masterName": "ServiceType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "ApplicationType": {
+      "masterName": "ApplicationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DocTypeMapping": {
+      "masterName": "DocTypeMapping",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CalculationType": {
+      "masterName": "CalculationType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RiskTypeComputation": {
+      "masterName": "RiskTypeComputation",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    }
+  },
+  "sw-services-calculation": {
+    "Interest": {
+      "masterName": "Interest",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Rebate": {
+      "masterName": "Rebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Penalty": {
+      "masterName": "Penalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "SCBillingSlab": {
+      "masterName": "SCBillingSlab",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "billingPeriod": {
+      "masterName": "billingPeriod",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.billingCycle"
+      ]
+    },
+    "SW_CHARGE": {
+      "masterName": "SW_CHARGE",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "SW_TIME_PENALTY": {
+      "masterName": "SW_TIME_PENALTY",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+     "SW_Round_Off": {
+      "masterName": "SW_Round_Off",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    }
   }
 }
