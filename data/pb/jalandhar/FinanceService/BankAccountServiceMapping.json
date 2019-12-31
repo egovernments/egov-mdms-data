@@ -1,0 +1,76 @@
+{
+  "tenantId": "pb.jalandhar",
+  "moduleName": "FinanceModule",
+  "BankAccountServiceMapping": [
+    {
+      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
+      "bankAccount": "8123209293",
+      "bank": "Bank of India",
+      "bankBranch": "ADI TEST",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
+      "bankAccount": "23453245678",
+      "bank": "Axis Bank",
+      "bankBranch": "0001",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
+      "bankAccount": "7864567",
+      "bank": "ICICI Bank",
+      "bankBranch": "1001",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "bankAccount": "8123209293",
+      "bank": "Bank of India",
+      "bankBranch": "ADI TEST",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "LAND",
+      "bankAccount": "23453245678",
+      "bank": "Axis Bank",
+      "bankBranch": "0001",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "LAND",
+      "bankAccount": "8123209293",
+      "bank": "Bank of India",
+      "bankBranch": "ADI TEST",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "LAND",
+      "bankAccount": "7864567",
+      "bank": "ICICI Bank",
+      "bankBranch": "1001",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "8123209293",
+      "bank": "Bank of India",
+      "bankBranch": "ADI TEST",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "23453245678",
+      "bank": "Axis Bank",
+      "bankBranch": "0001",
+      "tenantId": "pb.jalandhar"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "7864567",
+      "bank": "ICICI Bank",
+      "bankBranch": "1001",
+      "tenantId": "pb.jalandhar"
+    }
+  ]
+}
