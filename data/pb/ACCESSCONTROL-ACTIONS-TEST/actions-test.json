@@ -15730,7 +15730,7 @@
       "leftIcon": "content:add",
       "rightIcon": ""
     },
-{
+    {
       "id": 1926,
       "name": "Assess And Search Properties",
       "url": "quickAction",
@@ -16001,7 +16001,39 @@
       "serviceCode": "BPA",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1943,
+      "name": "Create Assessment registry",
+      "url": "/property-services/assessment/_create",
+      "displayName": "Create Assessment Registry",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1944,
+      "name": "Update Assessment registry",
+      "url": "/property-services/assessment/_update",
+      "displayName": "Update Assessment Registry",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1945,
+      "name": "Search Assessment registry",
+      "url": "/property-services/assessment/_search",
+      "displayName": "Search Assessment Registry",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
     }
-
   ]
 }
