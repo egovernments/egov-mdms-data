@@ -1,0 +1,30 @@
+{
+  "tenantId": "pb.amritsar",
+  "moduleName": "FinanceModule",
+  "BankAccountServiceMapping": [
+    {
+      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
+      "bankAccount": "8123209293",
+      "bank": "AB Bank Ltd.",
+      "bankBranch": "T1"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.LAND",
+      "bankAccount": "009292909",
+      "bank": "Axis Bank",
+      "bankBranch": "Mohali"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "9738010951",
+      "bank": "Axis Bank",
+      "bankBranch": "Mohali"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "009292909",
+      "bank": "Axis Bank",
+      "bankBranch": "Mohali"
+    }
+  ]
+}
