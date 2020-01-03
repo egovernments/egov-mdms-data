@@ -16034,6 +16034,38 @@
       "serviceCode": "property-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1946,
+      "name": "rainmaker-common-bpahome",
+      "url": "card",
+      "displayName": "Building Plan Approval",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "bpastakeholder-citizen/home",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 1947,
+      "name": "rainmaker-common-edcrscrutiny",
+      "url": "card",
+      "displayName": "eDCR Scrutiny",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "edcrscrutiny/home",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
