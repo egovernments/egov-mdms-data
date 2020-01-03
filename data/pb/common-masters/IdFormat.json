@@ -462,6 +462,14 @@
         {
             "format": "[cy:MM]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "disp_fixed_asset.land.receipt.id"
+        },
+        {
+          "format": "WS/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+          "idname": "ws.receipt.id"
+        },
+        {
+          "format": "SW/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+          "idname": "sw.receipt.id"
         }
 
     ]
