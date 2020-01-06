@@ -9,6 +9,61 @@
     {
       "code": "OWNERSHIPPROOF",
       "active": true
+    },
+    {
+      "code": "OWNER.IDENTITYPROOF.AADHAAR",
+      "active": true
+    },
+    {
+      "code": "OWNER.IDENTITYPROOF.VOTERID",
+      "active": true
+    },
+    {
+      "code": "OWNER.IDENTITYPROOF.DRIVINGLICENSE",
+      "active": true
+    },
+    {
+      "code": "OWNER.ADDRESSPROOF.ELECTRICITYBILL",
+      "active": true
+    },
+    {
+      "code": "NOC.FIRE.CERTIFICATE",
+      "active": true
+    },
+    {
+      "code": "NOC.AGRICULTURE.LANDUSE",
+      "active": true
+    },
+    {
+      "code": "NOC.AGRIGULTURE_WATERBODY.FTL",
+      "active": true
+    },
+    {
+      "code": "NOC.AIRPORT.CERTIFICATE",
+      "active": true
+    },
+    {
+      "code": "APPL.BUILDING_DIAGRAM.SECTION_PLAN",
+      "active": true
+    },
+    {
+      "code": "APPL.BUILDING_DIAGRAM.ELEVATION_PLAN",
+      "active": true
+    },
+    {
+      "code": "APPL.BUILDING_DIAGRAM.FLOOR_PLAN",
+      "active": true
+    },{
+      "code": "APPL.LOCALBODY.MUNCIPAL_APPROVAL",
+      "active": true
+    },
+    {
+      "code": "APPL.LOCALBODY.PANCHAYAT_APPROVAL",
+      "active": true
+    },
+    {
+      "code": "APPL.LOCALBODY.DTCP_APPROVAL",
+      "active": true
     }
   ]
 }
