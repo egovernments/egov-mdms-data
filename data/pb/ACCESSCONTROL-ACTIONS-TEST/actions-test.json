@@ -16066,6 +16066,18 @@
       "leftIcon": "custom:edcr",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 1948,
+      "name": "DSS Dashboard Config Overview",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/overview",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
