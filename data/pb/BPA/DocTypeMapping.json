@@ -10,7 +10,7 @@
             "docTypes": [
                 {
                     "code": "OWNER.IDENTITYPROOF",
-                    "required": true
+                    "required": false
                 },
                 {
                     "code": "OWNER.ADDRESSPROOF",
@@ -57,7 +57,7 @@
             "WFState": "FIELDINSPECTION_PENDING",
             "docTypes": [
                 {
-                    "code": "NOC.AGRIGULTURE",
+                    "code": "NOC.AGRICULTURE",
                     "required": true
                 }
             ]
