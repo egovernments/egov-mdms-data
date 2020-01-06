@@ -2,14 +2,7 @@
   "tenantId": "pb",
   "moduleName": "common-masters",
   "DocumentType": [
-    {
-      "code": "OWNERIDPROOF",
-      "active": true
-    },
-    {
-      "code": "OWNERSHIPPROOF",
-      "active": true
-    },
+   
     {
       "code": "OWNER.IDENTITYPROOF.AADHAAR",
       "active": true
