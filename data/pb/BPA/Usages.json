@@ -1,0 +1,14 @@
+{
+    "tenantId": "pb",
+    "moduleName": "BPA",
+    "Usages": [
+       {
+		"name": "Single_family",
+        "code": "SINGLE_FAMILY",
+        "active": true,
+		"occupancyType": "Residential",
+		"subOccupancyType": "Residential"
+      }
+    ]
+  }
+  

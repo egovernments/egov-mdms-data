@@ -1,0 +1,13 @@
+{
+    "tenantId": "pb",
+    "moduleName": "BPA",
+    "SubOccupancyType": [
+       {
+		"name": "Residential",
+        "code": "RESIDENTIAL",
+        "active": true,
+		"occupancyType": "Residential"
+      }
+    ]
+  }
+  
