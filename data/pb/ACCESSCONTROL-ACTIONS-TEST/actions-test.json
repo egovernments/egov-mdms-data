@@ -15315,7 +15315,7 @@
       "id": 1886,
       "name": "Dashboard Home",
       "url": "url",
-      "displayName": "Home",
+      "displayName": "SURE Dashboard",
       "orderNumber": 2,
       "parentModule": "dss-dashboard",
       "enabled": true,
@@ -15331,7 +15331,7 @@
       "name": "Dashboard Property Tax",
       "url": "url",
       "displayName": "Property Tax",
-      "orderNumber": 2,
+      "orderNumber": 4,
       "parentModule": "dss-dashboard",
       "enabled": true,
       "serviceCode": "DSS",
@@ -15346,7 +15346,7 @@
       "name": "Dashboard Home",
       "url": "url",
       "displayName": "Tradelicense",
-      "orderNumber": 2,
+      "orderNumber": 5,
       "parentModule": "dss-dashboard",
       "enabled": true,
       "serviceCode": "DSS",
@@ -15959,7 +15959,7 @@
       "name": "Dashboard PGR",
       "url": "url",
       "displayName": "PGR",
-      "orderNumber": 3,
+      "orderNumber": 6,
       "parentModule": "dss-dashboard",
       "enabled": true,
       "serviceCode": "DSS",
@@ -16078,6 +16078,21 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1949,
+      "name": "Dashboard Overview",
+      "url": "url",
+      "displayName": "Overview",
+      "orderNumber": 3,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Overview",
+      "navigationURL": "integration/dss/overview",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
