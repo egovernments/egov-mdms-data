@@ -483,7 +483,7 @@
     },
     {
       "format": "BPA_SANC_FEE/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-      "idname": "BPA.nc_san_fee.receipt.id"
+      "idname": "bpa.nc_san_fee.receipt.id"
     },
     {
       "format": "WS/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
@@ -492,6 +492,15 @@
     {
       "format": "SW/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
       "idname": "sw.receipt.id"
+    },
+    {
+      "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "waterservice.application.id"
+    },
+    {
+      "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+      "idname": "sewerageservice.application.id"
     }
+
   ]
 }

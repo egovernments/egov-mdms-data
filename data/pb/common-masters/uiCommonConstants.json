@@ -58,6 +58,25 @@
           "pgr": {
             "routePath": "/dashboard/pgr",
             "isOrigin": true
+          },
+          "ulb-pgr": {
+            "routePath": "/dashboard/ulb-pgr",
+            "isOrigin": true
+          },
+          "ulb-tradeLicense": {
+            "routePath": "/dashboard/ulb-tradeLicense",
+            "isOrigin": true
+          },
+          "ulb-propertyTax": {
+            "routePath": "/dashboard/ulb-propertyTax",
+            "isOrigin": true
+          },
+          "ulb-home": {
+            "routePath": "/dashboard/ulb-home",
+            "isOrigin": true
+          },"ulb-overview": {
+            "routePath": "/dashboard/ulb-overview",
+            "isOrigin": true
           }
         }
       }
