@@ -4094,14 +4094,14 @@
             "order": "2",
             "isRequired": false
            },
-    {
+             {
       "category": "FEE",
       "service": "PT.MUTATION",
       "name": "PT Mutation Fees",
       "code": "PT_MUTATION_FEE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "0",
+      "order": "2",
       "isRequired": false
      },
      {
@@ -4111,7 +4111,7 @@
       "code": "PT_MUTATION_REBATE",
       "isDebit": true,
       "isActualDemand": false,
-      "order": "1",
+      "order": "0",
       "isRequired": false
     },
     {
@@ -4121,7 +4121,27 @@
       "code": "PT_MUTATION_PENALTY",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "2",
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT.MUTATION",
+      "name": "Pt mutation adhoc rebate",
+      "code": "PT_MUTATION_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT.MUTATION",
+      "name": "Pt mutation adhoc penalty",
+      "code": "PT_MUTATION_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
       "isRequired": false
     }
   ]
