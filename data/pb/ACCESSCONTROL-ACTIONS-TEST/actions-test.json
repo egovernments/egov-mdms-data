@@ -16162,6 +16162,22 @@
       "serviceCode": "PropertytaxCalculatorV2",
       "code": "null",
       "path": "null"
+    },
+    {
+      "id": 1958,
+      "name": "rainmaker-common-wns",
+      "url": "card",
+      "displayName": "SURE Dashboard",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "integration",
+      "code": "",
+      "path": "",
+      "navigationURL": "integration/dss/home",
+      "leftIcon": "places:business-center",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
