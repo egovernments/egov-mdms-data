@@ -417,6 +417,11 @@
       "code": "BPA_VERIFIER",
       "name": "BPA Services verifier",
       "description": "BPA Services workflow document & field inspection verifier"
+    },
+    {
+      "code": "CITY_ADMIN",
+      "name": "Admin of a ULB",
+      "description": "Admin of ULB to get access to the ULB level"
     }
   ]
 }
