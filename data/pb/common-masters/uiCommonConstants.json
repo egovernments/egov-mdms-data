@@ -77,6 +77,10 @@
           },"ulb-overview": {
             "routePath": "/dashboard/ulb-overview",
             "isOrigin": true
+          },
+          "ws": {
+            "routePath": "/dashboard/ws",
+            "isOrigin": true
           }
         }
       }
