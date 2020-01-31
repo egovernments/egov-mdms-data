@@ -16178,6 +16178,20 @@
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 1959,
+      "name": "Surrendered Cheque",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Surrendered Cheque",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Surrendered Cheque",
+      "navigationURL": "services/EGF/report/cheque/surrendered/form"
     }
   ]
 }
