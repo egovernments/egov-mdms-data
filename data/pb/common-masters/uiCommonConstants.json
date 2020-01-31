@@ -81,6 +81,10 @@
           "ws": {
             "routePath": "/dashboard/ws",
             "isOrigin": true
+          },
+          "ulb-ws": {
+            "routePath": "/dashboard/ulb-ws",
+            "isOrigin": true
           }
         }
       }
