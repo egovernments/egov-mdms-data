@@ -16243,6 +16243,33 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1960,
+      "name": "Dashboard ULB Water Sewerage",
+      "url": "url",
+      "displayName": "Water Sewerage",
+      "orderNumber": 11,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Ws",
+      "navigationURL": "integration/dss/ulb-ws",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1961,
+      "name": "Dashboard Water Sewerage",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/ulb-ws",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
