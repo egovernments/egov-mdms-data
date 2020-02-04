@@ -1,13 +1,13 @@
 {
   "tenantId": "pb",
   "moduleName": "BPA",
-  "Questions": [
+  "CheckList": [
     {
       "applicationType": "BUILDING_PLAN_SCRUTINY",
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "LOW",
       "WFState": "INITIATED",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -21,15 +21,15 @@
       ],
       "docTypes": [
         {
-          "code": "OWNER.IDENTITYPROOF",
+          "code": "APPL.IDENTITYPROOF",
           "required": false
         },
         {
-          "code": "OWNER.ADDRESSPROOF",
+          "code": "APPL.ADDRESSPROOF",
           "required": false
         },
         {
-          "code": "APPL.BUILDING_DIAGRAM",
+          "code": "BPD.SP",
           "required": false
         },
         {
@@ -51,7 +51,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "HIGH",
       "WFState": "INITIATED",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -65,15 +65,15 @@
       ],
       "docTypes": [
         {
-          "code": "OWNER.IDENTITYPROOF",
+          "code": "APPL.IDENTITYPROOF",
           "required": false
         },
         {
-          "code": "OWNER.ADDRESSPROOF",
+          "code": "APPL.ADDRESSPROOF",
           "required": false
         },
         {
-          "code": "APPL.BUILDING_DIAGRAM",
+          "code": "BPD.SP",
           "required": false
         },
         {
@@ -95,7 +95,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "MEDIUM",
       "WFState": "INITIATED",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -109,15 +109,15 @@
       ],
       "docTypes": [
         {
-          "code": "OWNER.IDENTITYPROOF",
+          "code": "APPL.IDENTITYPROOF",
           "required": false
         },
         {
-          "code": "OWNER.ADDRESSPROOF",
+          "code": "APPL.ADDRESSPROOF",
           "required": false
         },
         {
-          "code": "APPL.BUILDING_DIAGRAM",
+          "code": "BPD.SP",
           "required": false
         },
         {
@@ -139,7 +139,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "LOW",
       "WFState": "DOC_VERIFICATION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -153,7 +153,7 @@
       ],
       "docTypes": [
         {
-          "code": "APPL.BUILDING_DIAGRAM",
+          "code": "BPD.SP",
           "required": false
         },
         {
@@ -167,7 +167,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "LOW",
       "WFState": "FIELDINSPECTION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -191,7 +191,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "LOW",
       "WFState": "NOC_VERIFICATION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -219,7 +219,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "HIGH",
       "WFState": "DOC_VERIFICATION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -233,7 +233,7 @@
       ],
       "docTypes": [
         {
-          "code": "APPL.BUILDING_DIAGRAM",
+          "code": "BPD.SP",
           "required": false
         },
         {
@@ -247,7 +247,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "HIGH",
       "WFState": "FIELDINSPECTION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -271,7 +271,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "HIGH",
       "WFState": "NOC_VERIFICATION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -299,7 +299,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "MEDIUM",
       "WFState": "DOC_VERIFICATION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -313,7 +313,7 @@
       ],
       "docTypes": [
         {
-          "code": "APPL.BUILDING_DIAGRAM",
+          "code": "BPD.SP",
           "required": false
         },
         {
@@ -327,7 +327,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "MEDIUM",
       "WFState": "FIELDINSPECTION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
@@ -351,7 +351,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "MEDIUM",
       "WFState": "NOC_VERIFICATION_PENDING",
-      "checkList": [
+      "questions": [
         {
           "question": "ROAD_EXISTS",
           "fieldType": "YES/NO/NA",
