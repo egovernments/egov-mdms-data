@@ -16192,6 +16192,28 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Surrendered Cheque",
       "navigationURL": "services/EGF/report/cheque/surrendered/form"
+    },
+    {
+      "id": 1960,
+      "name": "Search Water Bill",
+      "url": "/egov-searcher/bill-genie/waterbills/_get",
+      "displayName": "Search Water Bill",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1961,
+      "name": "Search Sewerage Bill",
+      "url": "/egov-searcher/bill-genie/seweragebills/_get",
+      "displayName": "Search Sewerage Bill",
+      "orderNumber": 2,
+      "enabled": false,
+      "serviceCode": "Searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }
