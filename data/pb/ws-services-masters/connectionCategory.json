@@ -4,12 +4,19 @@
   "connectionCategory": [
     {
       "name": "Temporary",
-      "code": "Temporary",
+      "code": "Temporary"
       "active": true
     },
     {
       "name": "Permanent",
       "code": "Permanent",
+      "uom": null,
+      "applicationDocument": [
+        "OWNERIDPROOF",
+        "OWNERSHIPPROOF",
+        "OWNERPHOTO"
+      ],
+      "verificationDocument": [],
       "active": true
     }
   ]
