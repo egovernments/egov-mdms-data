@@ -1,12 +1,12 @@
 {
   "tenantId": "pb",
   "moduleName": "ws-services-masters",
-  "usageType.json":  [
+  "usageType":  [
     {
       "name": "Commercial",
       "code": "COMMERCIAL",
       "active": true,
-      "usageCategoryMajor": "NONRESIDENTIAL"
+      "usageCategoryMajor": "NONRESIDENTIAL",
       "applicationDocument": [
         "OWNERIDPROOF",
         "OWNERSHIPPROOF",
