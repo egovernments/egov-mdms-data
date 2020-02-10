@@ -9,7 +9,7 @@
         "DD"
       ],
       "partPaymentAllowed": true,
-      "isAdvanceAllowed": true,
+      "isAdvanceAllowed": false,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
@@ -1005,67 +1005,78 @@
       "isVoucherCreationEnabled": true,
       "isActive": true,
       "type": "Finance"
-      },
-        {
-          "businessService": "BPARegistration",
-          "code": "BPAREG",
-          "collectionModesNotAllowed": [
-            "DD"
-          ],
-          "partPaymentAllowed": false,
-          "isAdvanceAllowed": false,
-          "isVoucherCreationEnabled": true,
-          "isActive": true
-        },
-        {
-          "businessService": "ws-services-calculation",
-          "code": "WS",
-          "collectionModesNotAllowed": [
-            "DD"
-          ],
-          "partPaymentAllowed": true,
-          "isAdvanceAllowed": true,
-          "demandUpdateTime": 86400000,
-          "isVoucherCreationEnabled": false,
-          "billGineiURL" : "egov-searcher/bill-genie/waterbills/_get"
-        },
-          {
-          "businessService": "sw-services-calculation",
-          "code": "SW",
-          "collectionModesNotAllowed": [
-            "DD"
-          ],
-          "partPaymentAllowed": true,
-          "isAdvanceAllowed": true,
-          "demandUpdateTime": 86400000,
-          "isVoucherCreationEnabled": false,
-          "billGineiURL" : "egov-searcher/bill-genie/seweragebills/_get"
-        },
-        {
-          "businessService": "BPA.NEWCONSTRUCTION_APP_FEE",
-          "code": "BPA.NC_APP_FEE",
-          "collectionModesNotAllowed": [
-            "DD"
-          ],
-          "partPaymentAllowed": false,
-          "isAdvanceAllowed": false,
-          "isVoucherCreationEnabled": true,
-          "isActive": true
-        },
-        {
-          "businessService": "BPA.NEWCONSTRUCTION_SANC_FEE",
-          "code": "BPA.NC_SAN_FEE",
-          "collectionModesNotAllowed": [
-            "DD"
-          ],
-          "partPaymentAllowed": false,
-          "isAdvanceAllowed": false,
-          "isVoucherCreationEnabled": true,
-          "isActive": true
-        },
+    },
+    {
+      "businessService": "BPARegistration",
+      "code": "BPAREG",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
+      "businessService": "ws-services-calculation",
+      "code": "WS",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": true,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": false,
+      "billGineiURL" : "egov-searcher/bill-genie/waterbills/_get"
+    },
+      {
+      "businessService": "sw-services-calculation",
+      "code": "SW",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": true,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": false,
+      "billGineiURL" : "egov-searcher/bill-genie/seweragebills/_get"
+    },
+    {
+      "businessService": "BPA.NEWCONSTRUCTION_APP_FEE",
+      "code": "BPA.NC_APP_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
+      "businessService": "BPA.NEWCONSTRUCTION_SANC_FEE",
+      "code": "BPA.NC_SAN_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
     {
       "businessService": "PT.MUTATION",
       "code": "PT.MUTATION",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
+      "businessService": "TL.RENEWAL",
+      "code": "TL.RENEWAL",
       "collectionModesNotAllowed": [
         "DD"
       ],
