@@ -992,6 +992,26 @@
       "masterName": "SW_Round_Off",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "PlotSizeSlab": {
+      "masterName": "PlotSizeSlab",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "PropertyUsageType": {
+      "masterName": "PropertyUsageType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "FeeSlab": {
+      "masterName": "FeeSlab",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RoadType": {
+      "masterName": "RoadType",
+      "isStateLevel": true,
+      "uniqueKeys": []
     }
   }
 }
