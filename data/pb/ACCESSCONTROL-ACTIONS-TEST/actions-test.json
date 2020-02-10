@@ -16128,7 +16128,8 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
-    },{
+    },
+    {
       "id": 1951,
       "name": "Dashboard ULB Overview",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/ulb-overview",
@@ -16154,7 +16155,8 @@
       "navigationURL": "integration/dss/ulb-home",
       "leftIcon": "places:business-center",
       "rightIcon": ""
-    },{
+    },
+    {
       "id": 1953,
       "name": "Dashboard ULB Overview",
       "url": "url",
@@ -16219,17 +16221,94 @@
     },
     {
       "id": 1958,
-      "name": "Surrendered Cheque",
+      "name": "Dashboard Water Sewerage",
       "url": "url",
-      "parentModule": "",
-      "displayName": "Surrendered Cheque",
-      "orderNumber": 6,
+      "displayName": "Water Sewerage",
+      "orderNumber": 11,
+      "parentModule": "dss-dashboard",
       "enabled": true,
-      "serviceCode": "FinanceReport",
+      "serviceCode": "DSS",
       "code": "null",
-      "leftIcon": "editor:insert-chart",
-      "path": "Finance.Reports.MIS Reports.Surrendered Cheque",
-      "navigationURL": "services/EGF/report/cheque/surrendered/form"
+      "path": "Dashboard.Ws",
+      "navigationURL": "integration/dss/ws",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1959,
+      "name": "Dashboard Water Sewerage",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/ws",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1960,
+      "name": "Dashboard ULB Water Sewerage",
+      "url": "url",
+      "displayName": "Water Sewerage",
+      "orderNumber": 11,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Ws",
+      "navigationURL": "integration/dss/ulb-ws",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1961,
+      "name": "Dashboard Water Sewerage",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/ulb-ws",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1962,
+      "name": "propertytax Estimate v2",
+      "url": "/pt-calculator-v2/propertytax/v2/_estimate",
+      "displayName": "PropertyTaxEstimatesV2",
+      "orderNumber": 0,
+      "parentModule": null,
+      "enabled": false,
+      "serviceCode": "PropertytaxCalculatorV2",
+      "code": "null",
+      "path": "null"
+    },
+    {
+      "id": 1963,
+      "name": "Dashboard collectionsindex-v1",
+      "url": "/dashboard-ingest/ingest/migrate/collectionsindex-v1",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1964,
+      "name": "Dashboard Static Upload",
+      "url": "/dashboard-ingest/ingest/upload",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
+
   ]
 }
