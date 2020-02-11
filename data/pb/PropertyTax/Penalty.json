@@ -8,7 +8,7 @@
       "flatAmount": null,
       "fromFY": "2018-19",
       "startingDay": "1/01/2018",
-      "mutationDeadlineMonth": "06"
+      "mutationPaymentPeriodInMonth": "06"
     },
     {
       "rate": 20,
@@ -16,7 +16,7 @@
       "flatAmount": null,
       "fromFY": "2015-16",
       "startingDay": "1/04/2016",
-      "mutationDeadlineMonth": "06"
+      "mutationPaymentPeriodInMonth": "06"
 
     },
     {
@@ -25,8 +25,7 @@
       "flatAmount": null,
       "fromFY": "2018-19",
       "startingDay": "11/12/2018",
-      "mutationDeadlineMonth": "06"
-
+      "mutationPaymentPeriodInMonth": "06"
     },
     {
       "rate": 20,
@@ -34,7 +33,7 @@
       "flatAmount": null,
       "fromFY": "2019-20",
       "startingDay": "11/12/2019",
-      "mutationDeadlineMonth": "06"
+      "mutationPaymentPeriodInMonth": "06"
     }
   ]
 }
