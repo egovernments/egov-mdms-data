@@ -4,13 +4,13 @@
   "CalculationAttribute": [
     {
       "name": "Metered",
-      "code": "Metered",
+      "code": "METERED",
       "attribute": "Water consumption",
       "active": true
     },
     {
       "name": "Non Metered",
-      "code": "NoNMetered",
+      "code": "NONMETERED",
       "attribute": "Pipe Size",
       "active": true
     }
