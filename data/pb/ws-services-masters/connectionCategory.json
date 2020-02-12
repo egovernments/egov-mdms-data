@@ -10,6 +10,12 @@
     {
       "name": "Permanent",
       "code": "Permanent",
+      "applicationDocument": [
+        "OWNERIDPROOF",
+        "OWNERSHIPPROOF",
+        "OWNERPHOTO"
+      ],
+      "verificationDocument": [],
       "active": true
     }
   ]
