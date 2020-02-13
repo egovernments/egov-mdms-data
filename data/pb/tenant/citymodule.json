@@ -86,22 +86,7 @@
         }
       ]
     },
-    {
-      "module": "UC",
-      "code": "UC",
-      "tenants": [
-        {
-          "code": "pb.jalandhar"
-        },
-        {
-          "code": "pb.nawanshahr"
-        },
-        {
-          "code": "pb.amritsar"
-        }
-      ]
-    },
-	  {
+   {
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
       "tenants": [
@@ -123,10 +108,9 @@
 	{
           "code": "pb.jalandhar"
         }
-	      
       ]
     },
-	  {
+    {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "tenants": [
