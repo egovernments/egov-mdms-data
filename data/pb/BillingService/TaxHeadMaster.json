@@ -2174,8 +2174,8 @@
     {
       "category": "TAX",
       "service": "WS.ONE_TIME_FEE",
-      "name": "Round Off",
-      "code": "WS_Round_Off",
+      "name": "Fee Round Off",
+      "code": "WS_FEE_ROUND_OFF",
       "isDebit": false,
       "isActualDemand": true,
       "order": "8",
@@ -2264,8 +2264,8 @@
     {
       "category": "TAX",
       "service": "SW.ONE_TIME_FEE",
-      "name": "Round Off",
-      "code": "SW_Round_Off",
+      "name": "Fee Round Off",
+      "code": "SW_FEE_ROUND_OFF",
       "isDebit": false,
       "isActualDemand": true,
       "order": "8",
