@@ -214,6 +214,13 @@
         "$.tenantId"
       ]
     },
+        "CheckList": {
+      "masterName": "CheckList",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.question"
+      ]
+    },
     "caseStatus": {
       "masterName": "caseStatus",
       "moduleDefinition": null,
