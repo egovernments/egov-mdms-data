@@ -2251,6 +2251,26 @@
       "isActualDemand": true,
       "order": "7",
       "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Fee Round Off",
+      "code": "WS_FEE_ROUND_OFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "8",
+      "isRequired": false
+    },
+{
+      "category": "TAX",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Fee Round Off",
+      "code": "SW_FEE_ROUND_OFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "8",
+      "isRequired": false
     }
   ]
 }
