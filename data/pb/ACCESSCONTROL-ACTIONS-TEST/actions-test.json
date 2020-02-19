@@ -16236,6 +16236,18 @@
       "serviceCode": "sw-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1962,
+      "name": "propertytax Estimate v2",
+      "url": "/pt-calculator-v2/propertytax/v2/_estimate",
+      "displayName": "PropertyTaxEstimatesV2",
+      "orderNumber": 0,
+      "parentModule": null,
+      "enabled": false,
+      "serviceCode": "PropertytaxCalculatorV2",
+      "code": "null",
+      "path": "null"
     }
   ]
 }
