@@ -11,6 +11,15 @@
       "active": false
     },
     {
+      "serviceCode": "NonSweepingOfRoad",
+      "active": true,
+      "keywords": "garbage, collect, litter, clean, door, waste, remove, sweeper, sanitation, dump, health, debris, throw",
+      "department": "DEPT_3",
+      "slaHours": 336,
+      "menuPath": "Garbage",
+      "order": 5
+    },
+    {
       "serviceCode": "StreetLightNotWorking",
       "keywords": "streetlight, light, repair, work, pole, electric, power, repair, fix",
       "department": "DEPT_1",
