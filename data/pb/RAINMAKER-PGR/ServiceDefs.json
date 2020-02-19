@@ -8,8 +8,7 @@
       "department": "Streetlights",
       "slaHours": 336,
       "menuPath": "StreetLights",
-      "active": false,
-      "order": 1
+      "active": false
     },
     {
       "serviceCode": "StreetLightNotWorking",
@@ -18,7 +17,7 @@
       "slaHours": 336,
       "menuPath": "StreetLights",
       "active": true,
-      "order": 2
+      "order": 1
     },
     {
       "serviceCode": "GarbageNeedsTobeCleared",
@@ -27,7 +26,7 @@
       "slaHours": 336,
       "menuPath": "Garbage",
       "active": true,
-      "order": 3
+      "order": 4
     },
     {
       "serviceCode": "DamagedGarbageBin",
@@ -35,8 +34,7 @@
       "department": "DEPT_3",
       "slaHours": 336,
       "menuPath": "Garbage",
-      "active": true,
-      "order": 4
+      "active": true
     },
     {
       "serviceCode": "BurningOfGarbage",
@@ -44,8 +42,7 @@
       "department": "DEPT_3",
       "slaHours": 336,
       "menuPath": "Garbage",
-      "active": true,
-      "order": 5
+      "active": true
     },
     {
       "serviceCode": "OverflowingOrBlockedDrain",
@@ -69,7 +66,8 @@
       "department": "DEPT_4",
       "slaHours": 336,
       "menuPath": "WaterandSewage",
-      "active": true
+      "active": true,
+      "order": 2
     },
     {
       "serviceCode": "ShortageOfWater",
@@ -101,7 +99,8 @@
       "department": "DEPT_4",
       "slaHours": 336,
       "menuPath": "WaterandSewage",
-      "active": true
+      "active": true,
+      "order": 3
     },
     {
       "serviceCode": "WaterPressureisVeryLess",
