@@ -131,6 +131,42 @@
       "code": "NONRESIDENTIAL.COMMERCIAL.FOODJOINTS.NONACRESTAURANT",
       "active": true,
       "fromFY": "2015-16"
+    },
+    {
+      "name": "Grocery Store",
+      "code": "NONRESIDENTIAL.COMMERCIAL.RETAIL.GROCERY",
+      "active": true,
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Godown/Warehouse",
+      "code": "NONRESIDENTIAL.INDUSTRIAL.WAREHOUSE",
+      "active": true,
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Manufacturing Facility",
+      "code": "NONRESIDENTIAL.INDUSTRIAL.MANUFACTURINGFACILITY",
+      "active": true,
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Golf Club",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.RECREATIONAL.GOLFCLUB",
+      "active": true,
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "College",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL.COLLEGES",
+      "active": true,
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Community Hall",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.PUBLICFACILITY.COMMUNITYHALL",
+      "active": true,
+      "fromFY": "2015-16"
     }
   ]
 }
