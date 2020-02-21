@@ -157,7 +157,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "LOW",
       "WFState": "PENDINGAPPROVAL",
-      "questions": [
+      "conditions": [
       "The development shall be undertaken strictly according to plans enclosed with necessary permission endorsement.",
       "The land in question must be in lawful ownership and peaceful possession of the applicant.",
       "The permission is valid for period of X(this is the validity period in years) years with effect from the date of issue.",
@@ -174,7 +174,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "HIGH",
       "WFState": "PENDINGAPPROVAL",
-      "questions": [
+      "conditions": [
       "The development shall be undertaken strictly according to plans enclosed with necessary permission endorsement.",
       "The land in question must be in lawful ownership and peaceful possession of the applicant.",
       "The permission is valid for period of X(this is the validity period in years) years with effect from the date of issue.",
@@ -191,7 +191,7 @@
       "ServiceType": "NEW_CONSTRUCTION",
       "RiskType": "MEDIUM",
       "WFState": "PENDINGAPPROVAL",
-      "questions": [
+      "conditions": [
         "The development shall be undertaken strictly according to plans enclosed with necessary permission endorsement.",
         "The land in question must be in lawful ownership and peaceful possession of the applicant.",
         "The permission is valid for period of X(this is the validity period in years) years with effect from the date of issue.",
