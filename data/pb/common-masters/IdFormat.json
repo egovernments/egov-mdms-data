@@ -480,16 +480,19 @@
           "idname": "sw.receipt.id"
         },
           {
-      "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-      "idname": "waterservice.application.id"
-    },
-    {
-      "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-      "idname": "sewerageservice.application.id"
-    },
-    {
-            "format": "PB-MU-[cy:yyyy-MM-dd]-[SEQ_EG_PT_ASSM]",
+            "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "waterservice.application.id"
+        },
+        {
+            "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "sewerageservice.application.id"
+         },
+        {
+            "format": "PB-MT-[cy:yyyy-MM-dd]-[SEQ_EG_PT_ASSM]",
             "idname": "pt.mutation.receipt.id"
-    }
+        },
+        {    "format": "PB-MT-[CITY]-[SEQ_EG_PT_MUTATION]",
+             "idname": "pt.mutation.number"    
+        }
     ]
 }
