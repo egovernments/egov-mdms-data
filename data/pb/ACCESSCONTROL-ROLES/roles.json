@@ -472,6 +472,21 @@
       "code": "SW_CLERK",
       "name": "SW Clerk",
       "description": "SW Clerk can activate the connection application"
+    },
+    {
+      "code": "PT_DOC_VERIFIER",
+      "name": "PT Doc Verifier",
+      "description": "Property Document Verifier"
+    },
+    {
+      "code": "PT_FIELD_INSPECTOR",
+      "name": "PT Field Inspector",
+      "description": "Property Field Inspector"
+    },
+    {
+      "code": "PT_APPROVER",
+      "name": "PT Counter Approver",
+      "description": "PT Approver"
     }
 
   ]
