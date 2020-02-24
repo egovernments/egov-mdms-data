@@ -16248,6 +16248,28 @@
       "serviceCode": "PropertytaxCalculatorV2",
       "code": "null",
       "path": "null"
-    }
+    },
+    {
+      "id": 1968,
+      "name": "Locality searcher endpoint for PT",
+      "url": "/egov-searcher/locality/PT/_get",
+      "displayName": "PT locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1969,
+      "name": "Locality searcher endpoint for PT Service",
+      "url": "egov-searcher/locality/pt-services/_get",
+      "displayName": "PT locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    } 
   ]
 }
