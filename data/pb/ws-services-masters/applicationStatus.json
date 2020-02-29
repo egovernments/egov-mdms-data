@@ -1,0 +1,71 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-masters",
+  "applicationStatus": [
+    {
+      "name": "Initiated",
+      "code": "INITIATED",
+      "active": true
+    },
+    {
+      "name": "Rejected",
+      "code": "REJECTED",
+      "active": true
+    },
+    {
+      "name": "Pending for citizen action",
+      "code": "PENDING_FOR_CITIZEN_ACTION",
+      "active": true
+    },
+    {
+      "name": "Pending for document verification",
+      "code": "PENDING_FOR_DOCUMENT_VERIFICATION",
+      "active": true
+    },
+    {
+      "name": "Pending for field inspection",
+      "code": "PENDING_FOR_FIELD_INSPECTION",
+      "active": true
+    },
+    {
+      "name": "Pending approval for connection",
+      "code": "PENDING_APPROVAL_FOR_CONNECTION",
+      "active": true
+    },
+    {
+      "name": "Pending for payment",
+      "code": "PENDING_FOR_PAYMENT",
+      "active": true
+    },
+    {
+      "name": "Pending for connection activation",
+      "code": "PENDING_FOR_CONNECTION_ACTIVATION",
+      "active": true
+    },
+    {
+      "name": "Connection activated",
+      "code": "CONNECTION_ACTIVATED",
+      "active": true
+    },
+    {
+      "name": "Applied",
+      "code": "APPLIED",
+      "active": true
+    },
+    {
+      "name": "Approved",
+      "code": "APPROVED",
+      "active": true
+    },
+    {
+      "name": "Cancelled",
+      "code": "CANCELED",
+      "active": true
+    },
+    {
+      "name": "InProgress",
+      "code": "INPROGRESS",
+      "active": true
+    }
+  ]
+}
