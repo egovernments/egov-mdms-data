@@ -16250,6 +16250,42 @@
       "path": "null"
     },
     {
+      "id": 1963,
+      "name": "Dashboard collectionsindex-v1",
+      "url": "/dashboard-ingest/ingest/migrate/collectionsindex-v1/v1",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1964,
+      "name": "Dashboard Static Upload",
+      "url": "/dashboard-ingest/ingest/upload",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1965,
+      "name": "Dashboard Api W&S to update",
+      "url": "/dashboard-ingest/update/publish",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1968,
       "name": "Locality searcher endpoint for PT",
       "url": "/egov-searcher/locality/PT/_get",
@@ -16270,6 +16306,18 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
-    } 
+    },
+    {
+      "id": 1970,
+      "name": "Dashboard Payments-v1",
+      "url": "/dashboard-ingest/ingest/paymentsindex-v1/v2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
