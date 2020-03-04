@@ -55,7 +55,26 @@
       "name": "Other Private Institution",
       "code": "INSTITUTIONALPRIVATE.OTHERSPRIVATEINSTITUITION",
       "active": true
+    },
+    {
+      "name": "State Government",
+      "code": "INSTITUTIONALGOVERNMENT.STATEGOVERNMENT",
+      "active": true
+    },
+    {
+      "name": "Central Government",
+      "code": "INSTITUTIONALGOVERNMENT.CENTRALGOVERNMENT",
+      "active": true
+    },
+    {
+      "name": "Other Government Institution",
+      "code": "INSTITUTIONALGOVERNMENT.OTHERGOVERNMENTINSTITUITION",
+      "active": true
+    },
+    {
+      "name": "Private Board",
+      "code": "INSTITUTIONALPRIVATE.PRIVATEBOARD",
+      "active": true
     }
-  
   ]
 }
