@@ -533,13 +533,13 @@
       "format": "PB-MT-[CITY]-[SEQ_EG_PT_MUTATION]",
       "idname": "pt.mutation.number"
     },
-    {
+   {
          "format": "WS.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-         "idname": "WS.ONE_TIME_FEE.receipt.id"
+         "idname": "ws.one_time_fee.receipt.id"
     },
     {
          "format": "SW.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-         "idname": "SW.ONE_TIME_FEE.receipt.id"
+         "idname": "sw.one_time_fee.receipt.id"
     }
   ]
 }
