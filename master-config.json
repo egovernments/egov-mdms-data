@@ -602,6 +602,20 @@
         "$.fromFY"
       ]
     },
+    "MutationRebate": {
+      "masterName": "MutationRebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "MutationPenalty": {
+      "masterName": "MutationPenalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
     "CancerCess": {
       "masterName": "CancerCess",
       "isStateLevel": true,

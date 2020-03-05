@@ -1,7 +1,7 @@
 {
   "tenantId": "pb",
   "moduleName": "PropertyTax",
-  "Penalty": [
+  "MutationPenalty": [
     {
       "rate": 10,
       "minAmount": null,
