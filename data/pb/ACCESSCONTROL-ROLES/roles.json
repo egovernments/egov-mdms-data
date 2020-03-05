@@ -388,6 +388,11 @@
       "description": "BPA Town Planner"
     },
     {
+      "code": "BPA_SUPERVISOR",
+      "name": "BPA Supervisor",
+      "description": "BPA Supervisor"
+    },
+    {
       "code": "ANONYMOUS",
       "name": "Anonymous User",
       "description": "Anonymous User to be used in case of no auth"
@@ -461,6 +466,21 @@
       "code": "SW_CLERK",
       "name": "SW Clerk",
       "description": "SW Clerk can activate the connection application"
+    },
+    {
+      "code": "SYSTEM",
+      "name": "System user",
+      "description": "System user role"
+    },
+    {
+      "code": "BPA_FIELD_INSPECTOR",
+      "name": "BPA Field Inspector",
+      "description": "BPA Service field inspector"
+    },
+    {
+      "code": "BPA_NOC_VERIFIER",
+      "name": "BPA NOC Verifier",
+      "description": "BPA Service NOC verifier"
     }
   ]
 }

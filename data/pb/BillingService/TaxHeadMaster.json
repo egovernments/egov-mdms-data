@@ -1994,6 +1994,26 @@
     },
     {
       "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Appllication Fees",
+      "code": "BPA_LOW_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Permit Fees",
+      "code": "BPA_LOW_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
       "service": "PT.MUTATION",
       "name": "PT Mutation Fees",
       "code": "PT_MUTATION_FEE",
@@ -2182,6 +2202,26 @@
       "isRequired": false
     },
     {
+     "category": "TAX",
+     "service": "WS.ONE_TIME_FEE",
+     "name": "Water adhoc penality",
+     "code": "WS_ADHOC_PENALTY",
+     "isDebit": false,
+     "isActualDemand": true,
+     "order": "9",
+     "isRequired": false
+   },
+   {
+     "category": "TAX",
+     "service": "WS.ONE_TIME_FEE",
+     "name": "Water adhoc rebate",
+     "code": "WS_ADHOC_REBATE",
+     "isDebit": false,
+     "isActualDemand": true,
+     "order": "10",
+     "isRequired": false
+   },
+    {
       "category": "FEE",
       "service": "SW.ONE_TIME_FEE",
       "name": "Sewerage application form fee",
@@ -2270,6 +2310,26 @@
       "isActualDemand": true,
       "order": "8",
       "isRequired": false
-    }
+    },
+    {
+     "category": "TAX",
+     "service": "SW.ONE_TIME_FEE",
+     "name": "Sewerage adhoc penality",
+     "code": "SW_ADHOC_PENALTY",
+     "isDebit": false,
+     "isActualDemand": true,
+     "order": "9",
+     "isRequired": false
+   },
+   {
+     "category": "TAX",
+     "service": "SW.ONE_TIME_FEE",
+     "name": "Sewerage adhoc rebate",
+     "code": "SW_ADHOC_REBATE",
+     "isDebit": false,
+     "isActualDemand": true,
+     "order": "10",
+     "isRequired": false
+   }
   ]
 }

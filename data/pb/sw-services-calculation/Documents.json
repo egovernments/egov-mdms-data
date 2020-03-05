@@ -67,32 +67,32 @@
       "description": "OWNER.ADDRESSPROOF.ADDRESSPROOF_DESCRIPTION"
     },
     {
-      "code": "BUILDING_PLAN_OR_COMPLETION_CERTIFICATE",
-      "documentType": "SW",
-      "active": true,
-      "required": false,
-      "description": "BUILDING_PLAN_OR_COMPLETION_CERTIFICATE_DESCRIPTION"
-    },
-    {
       "code": "ELECTRICITY_BILL",
-      "documentType": "SW",
+      "documentType": "ELECTRICITY_BILL",
       "active": true,
       "required": true,
       "description": "ELECTRICITY_BILL_DESCRIPTION"
     },
     {
-      "code": "PROPERTY_TAX_RECIEPT",
-      "documentType": "SW",
-      "active": true,
-      "required": false,
-      "description": "PROPERTY_TAX_RECIEPT_DESCRIPTION"
-    },
-    {
       "code": "PLUMBER_REPORT_DRAWING",
-      "documentType": "SW",
+      "documentType": "PLUMBER_REPORT_DRAWING",
       "active": true,
       "required": true,
       "description": "PLUMBER_REPORT_DRAWING_DESCRIPTION"
+    },
+    {
+      "code": "BUILDING_PLAN_OR_COMPLETION_CERTIFICATE",
+      "documentType": "BUILDING_PLAN_OR_COMPLETION_CERTIFICATE",
+      "active": true,
+      "required": false,
+      "description": "BUILDING_PLAN_OR_COMPLETION_CERTIFICATE_DESCRIPTION"
+    },
+    {
+      "code": "PROPERTY_TAX_RECIEPT",
+      "documentType": "PROPERTY_TAX_RECIEPT",
+      "active": true,
+      "required": false,
+      "description": "PROPERTY_TAX_RECIEPT_DESCRIPTION"
     }
   ]
 }

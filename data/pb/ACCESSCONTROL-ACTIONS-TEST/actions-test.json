@@ -11341,26 +11341,6 @@
       "rightIcon": ""
     },
     {
-      "id": 1578,
-      "name": "Assess And Search Properties",
-      "url": "url",
-      "displayName": "Assess And Search Properties",
-      "orderNumber": 1,
-      "queryParams": "",
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "tenantId": "pb",
-      "createdDate": null,
-      "createdBy": null,
-      "lastModifiedDate": null,
-      "lastModifiedBy": null,
-      "path": "Property Tax.Assess And Search Properties",
-      "navigationURL": "pt-mutation/propertySearch",
-      "leftIcon": "communication:business",
-      "rightIcon": ""
-    },
-    {
       "id": 1579,
       "name": "ULB PT Collection",
       "url": "url",
@@ -16288,7 +16268,7 @@
     {
       "id": 1963,
       "name": "Dashboard collectionsindex-v1",
-      "url": "/dashboard-ingest/ingest/migrate/collectionsindex-v1",
+      "url": "/dashboard-ingest/ingest/migrate/collectionsindex-v1/v1",
       "parentModule": "",
       "displayName": "DSS",
       "orderNumber": 0,
@@ -16340,6 +16320,18 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "sw-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1968,
+      "name": "Dashboard Payments-v1",
+      "url": "/dashboard-ingest/ingest/paymentsindex-v1/v2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
       "code": "null",
       "path": ""
     }
