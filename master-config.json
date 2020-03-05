@@ -648,14 +648,14 @@
       "masterName": "Penalty",
       "isStateLevel": true,
       "uniqueKeys": [
-        "$.code"
+        "$.fromFY"
       ]
     },
     "Rebate": {
       "masterName": "Rebate",
       "isStateLevel": true,
       "uniqueKeys": [
-        "$.code"
+        "$.fromFY"
       ]
     }
   },
