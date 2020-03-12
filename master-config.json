@@ -471,6 +471,13 @@
     }
   },
   "PropertyTax": {
+    "MutationReason": {
+      "masterName": "MutationReason",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "ConstructionType": {
       "masterName": "ConstructionType",
       "isStateLevel": true,
