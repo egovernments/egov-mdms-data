@@ -16312,6 +16312,17 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Period End Activities.Close Period",
       "navigationURL": "services/EGF/closedperiod/search/reopen"
-    }
+    },
+     {
+      "id": 1972,
+      "name": "BPA-PermitOrderEDCR Report",
+      "url": "/bpa-services/bpa/appl/_permitorderedcr",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+     }
   ]
 }
