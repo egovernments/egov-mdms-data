@@ -15684,6 +15684,17 @@
       "path": ""
     },
     {
+      "id": 1971,
+      "name": "BPA-PermitOrderEDCR Report",
+      "url": "/bpa-services/bpa/appl/_permitorderedcr",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1898,
       "name": "Cancel Property registry",
       "url": "/property-services/property/_cancel",
