@@ -826,6 +826,11 @@
         "$.billingCycle"
       ]
     }
+    "waterSourceWithSubSource": {
+      "masterName": "waterSourceWithSubSource",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    }
   },
   "ws-services-calculation": {
     "WaterCess": {
@@ -1011,6 +1016,11 @@
     },
     "RoadType": {
       "masterName": "RoadType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "CalculationAttribute": {
+      "masterName": "CalculationAttribute",
       "isStateLevel": true,
       "uniqueKeys": []
     }
