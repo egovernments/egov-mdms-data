@@ -2315,12 +2315,22 @@
     {
       "category": "FEE",
       "service": "BPA.LOW_RISK_PERMIT_FEE",
-      "name": "BPA Low Risk Permit Fees",
-      "code": "LOW_RISK_PERMIT_FEES",
+      "name": "BPA Low Risk Appllication Fees",
+      "code": "BPA_LOW_APPL_FEES",
       "isDebit": false,
       "isActualDemand": true,
       "order": "1",
       "isRequired": false
-    }
+      },
+      {
+      "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Permit Fees",
+      "code": "BPA_LOW_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+      }
   ]
 }
