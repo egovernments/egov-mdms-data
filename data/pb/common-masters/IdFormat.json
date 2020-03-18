@@ -540,6 +540,10 @@
     {
          "format": "SW.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
          "idname": "sw.one_time_fee.receipt.id"
+    },
+    {
+         "format": "PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
+         "idname": "bpa.low_risk_permit_fee.receipt.id"
     }
   ]
 }
