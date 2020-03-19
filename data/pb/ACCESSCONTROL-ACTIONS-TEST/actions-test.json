@@ -13721,17 +13721,17 @@
     },
     {
       "id": 1761,
-      "name": "budgetAdditionalAppropriation_Master",
+      "name": "Budget Additional Appropriation",
       "navigationURL": "services/EGF/budget/budgetReAppropriation.action",
       "url": "url",
       "parentModule": "EGF",
-      "displayName": "Add/Release",
-      "orderNumber": 4,
+      "displayName": "Budget Additional Appropriation",
+      "orderNumber": 3,
       "enabled": true,
       "serviceCode": "FinanceBudget",
       "code": "null",
       "leftIcon": "editor:insert-chart",
-      "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master"
+      "path": "Finance.Budgeting.Budget Additional Appropriation"
     },
     {
       "id": 1762,
@@ -15308,7 +15308,7 @@
     },
     {
       "id": 1888,
-      "name": "Dashboard Home",
+      "name": "Tradelicense",
       "url": "url",
       "displayName": "Tradelicense",
       "orderNumber": 5,
@@ -16335,7 +16335,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1969,
       "name": "Reopening Closed Period",
       "url": "url",
@@ -16368,6 +16368,68 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1972,
+      "name": "DSS Dashboard Config Home V2",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/homev2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1973,
+      "name": "Surrendered Cheque",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Surrendered Cheque",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Surrendered Cheque",
+      "navigationURL": "services/EGF/report/cheque/surrendered/form"
+    },
+    {
+      "id": 1974,
+      "name": "Remittance Collection Report",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Remittance Collection Report",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.Revenue Reports.Remittance Collection Report",
+      "navigationURL": "services/EGF/report/remittance/collection/form"
+    },
+    {
+      "id": 1975,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/bpa-services/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1976,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/BPAREG/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
     }
