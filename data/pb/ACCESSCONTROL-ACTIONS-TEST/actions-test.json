@@ -16323,6 +16323,28 @@
       "serviceCode": "BPA",
       "code": "null",
       "path": ""
-     }
+     },
+    {
+      "id": 1975,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/bpa-services/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1976,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/BPAREG/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
