@@ -16323,6 +16323,20 @@
       "serviceCode": "BPA",
       "code": "null",
       "path": ""
-     }
+     },
+    {
+      "id": 1973,
+      "name": "Remittance Collection Report",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Remittance Collection Report",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.Revenue Reports.Remittance Collection Report",
+      "navigationURL": "services/EGF/report/remittance/collection/form"
+    }
   ]
 }
