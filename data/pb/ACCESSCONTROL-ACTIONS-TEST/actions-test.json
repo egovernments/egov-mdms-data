@@ -16357,6 +16357,17 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1978,
+      "name": "Migrate Property v1 to v2",
+      "url": "/property-services/property/_migration",
+      "displayName": "Migrate Property v1 to v2",
+      "orderNumber": 5,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
