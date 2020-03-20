@@ -45,20 +45,6 @@
       "module": "PT"
     },
     {
-      "id": "6",
-      "tenantId": "pb",
-      "finYearRange": "2019-20",
-      "name": "2019-20",
-      "code": "2019-20",
-      "startingDate": 1554076799000,
-      "endingDate": 1585679399000,
-      "active": true,
-      "isActiveForPosting": false,
-      "isClosed": false,
-      "transferClosingBalance": false,
-      "module": "TL"
-    },
-    {
       "id": "5",
       "tenantId": "pb",
       "finYearRange": "2018-19",
@@ -66,6 +52,20 @@
       "code": "2018-19",
       "startingDate": 1522540800000,
       "endingDate": 1554076799000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "TL"
+    },
+    {
+      "id": "6",
+      "tenantId": "pb",
+      "finYearRange": "2019-20",
+      "name": "2019-20",
+      "code": "2019-20",
+      "startingDate": 1554076799000,
+      "endingDate": 1585679399000,
       "active": true,
       "isActiveForPosting": false,
       "isClosed": false,
