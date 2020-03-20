@@ -20791,6 +20791,18 @@
       "actionid": 1977,
       "actioncode": "",
       "tenantId": "pb"
-    }
+      },
+      {
+        "rolecode": "EMPLOYEE",
+        "actionid": 1978,
+        "actioncode": "",
+        "tenantId": "pb"
+      },
+      {
+        "rolecode": "SUPERUSER",
+        "actionid": 1978,
+        "actioncode": "",
+        "tenantId": "pb"
+      }
     ]
   }
