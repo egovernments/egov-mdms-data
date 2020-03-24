@@ -4,9 +4,9 @@
   "CronJobAPIConfig": [
     {
       "jobName": "daily",
-      "active": "false",
+      "active": "true",
       "method": "POST",
-      "url": "http://tl-services.egov:8080/tl-services/v1/TL/Expiry/_batch",
+      "url": "http://tl-services.egov:8080/tl-services/v1/TL/Reminder/_batch",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"
       },
