@@ -3,28 +3,28 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
-      "code": "PERSON.DOCTOR",
+      "code": "PERSON.DOCTOR.DOCTOR",
       "uom": null,
       "active": true,
       "type": "TL",
       "validityPeriod": null
     },
     {
-      "code": "PERSON.FOODDELIVERY",
+      "code": "PERSON.FOODDELIVERY.FOODDELIVERY",
       "uom": null,
       "active": true,
       "type": "TL",
       "validityPeriod": null
     },
     {
-      "code": "VEHICLE.AMBULANCE",
+      "code": "VEHICLE.AMBULANCE.AMBULANCE",
       "uom": null,
       "active": true,
       "type": "TL",
       "validityPeriod": null
     },
     {
-      "code": "VEHICLE.GOVBUS",
+      "code": "VEHICLE.GOVBUS.GOVBUS",
       "uom": null,
       "active": true,
       "type": "TL",
