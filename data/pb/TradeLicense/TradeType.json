@@ -3,21 +3,28 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
-      "code": "PASS.PERSON",
+      "code": "PERSON.DOCTOR",
       "uom": null,
       "active": true,
       "type": "TL",
       "validityPeriod": null
     },
     {
-      "code": "PASS.VEHICLE",
+      "code": "PERSON.FOODDELIVERY",
       "uom": null,
       "active": true,
       "type": "TL",
       "validityPeriod": null
     },
     {
-      "code": "PASS.ERRAND",
+      "code": "VEHICLE.AMBULANCE",
+      "uom": null,
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "VEHICLE.GOVBUS",
       "uom": null,
       "active": true,
       "type": "TL",
