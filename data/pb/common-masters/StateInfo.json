@@ -9,7 +9,7 @@
       "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
       "logoUrl":"https://raw.githubusercontent.com/egovernments/egov-mdms-data/EGOV_DEMO/data/pb/logo/logo.png",
       "hasLocalisation" : true,
-      "enableWhatsApp" : true,
+      "enableWhatsApp" : false,
       "defaultUrl" : {
           "citizen" : "/user/register",
           "employee" : "/user/login"
