@@ -11042,7 +11042,7 @@
       "enabled": true,
       "serviceCode": "PGR",
       "code": "null",
-      "path": "",
+      "path": "Home",
       "navigationURL": "/",
       "leftIcon": "action:home",
       "rightIcon": ""
@@ -16368,6 +16368,21 @@
       "serviceCode": "property-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1979,
+      "name": "TradeLicense",
+      "url": "url",
+      "displayName": "My Curfew e-Pass",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "navigationURL": "/tradelicense-citizen/my-applications",
+      "path": "Emergency Pass",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
