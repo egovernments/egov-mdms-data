@@ -915,6 +915,12 @@
       "uniqueKeys": []
     }
   },
+  "CalculationAttribute": {
+      "masterName": "CalculationAttribute",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    }
+  },
   "BPA": {
     "ServiceType": {
       "masterName": "ServiceType",
