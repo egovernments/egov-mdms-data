@@ -1,0 +1,42 @@
+{
+  "tenantId": "pb",
+  "moduleName": "TradeLicense",
+  "District": [
+    {
+      "code": "bol",
+      "name": "Bolangir",
+      "state": "or",
+      "active": true
+    },
+    {
+      "code": "ctc",
+      "name": "Cuttack",
+      "state": "or",
+      "active": true
+    },
+    {
+      "code": "brg",
+      "name": "Bargarh",
+      "state": "or",
+      "active": true
+    },
+    {
+      "code": "sjp",
+      "name": "Shajapur",
+      "state": "mp",
+      "active": true
+    },
+    {
+      "code": "pna",
+      "name": "Panna",
+      "state": "mp",
+      "active": true
+    },
+    {
+      "code": "bhn",
+      "name": "Bhind",
+      "state": "mp",
+      "active": true
+    }
+  ]
+}
