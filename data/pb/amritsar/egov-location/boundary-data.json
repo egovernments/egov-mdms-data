@@ -1,5 +1,5 @@
 {
-  "tenantId": "pb.amritsar",
+  "tenantId": "mp.amritsar",
   "moduleName": "egov-location",
   "TenantBoundary": [
     {
@@ -15,7 +15,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pb.amritsar",
+        "code": "mp.amritsar",
         "children":[
           {
             "id": 2,
@@ -616,7 +616,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pb.amritsar",
+        "code": "mp.amritsar",
         "children":[
           {
             "id": 2,
