@@ -1,0 +1,63 @@
+{
+  "tenantId": "in",
+  "moduleName": "tenant",
+  "citymodule": [
+    {
+      "module": "PGR",
+      "code": "PGR",
+      "tenants": [
+      ]
+    },
+    {
+      "module": "PT",
+      "code": "PT",
+      "tenants": [
+      ]
+    },
+   {
+      "module": "Finance",
+      "code": "Finance",
+      "tenants": [
+      ]
+    },
+    {
+      "module": "TL",
+      "code": "TL",
+      "tenants": [
+        {
+          "code": "in.mp"
+        }
+      ]
+    },
+    {
+      "module": "FIRENOC",
+      "code": "FIRENOC",
+      "tenants": [
+      ]
+    },
+   {
+      "module": "BPAAPPLY",
+      "code": "BPAAPPLY",
+      "tenants": [
+      ]
+    },
+    {
+      "module": "BPAREG",
+      "code": "BPAREG",
+      "tenants": [
+      ]
+    },
+    {
+      "module": "PGR.WHATSAPP",
+      "code": "PGR.WHATSAPP",
+      "tenants": [
+      ]
+    },
+    {
+      "module": "UC",
+      "code": "UC",
+      "tenants": [
+      ]
+    }
+  ]
+}

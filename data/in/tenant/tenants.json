@@ -1,0 +1,36 @@
+{
+  "tenantId": "in",
+  "moduleName": "tenant",
+  "tenants": [
+    {
+      "code": "in.mp",
+      "name": "Madhya Pradesh",
+      "description": "Madhya Pradesh",
+      "logoId": "https://raw.githubusercontent.com/egovernments/egov-mdms-data/CURFEW_E_PASS/data/mp/logo/logo.png",
+      "imageId": "https://raw.githubusercontent.com/egovernments/egov-mdms-data/CURFEW_E_PASS/data/mp/logo/logo.png",
+      "domainUrl": "www.mcjalandhar.in",
+      "type": "CITY",
+      "twitterUrl": "https://twitter.com/search?q=%23jalandhar",
+      "facebookUrl": "https://www.facebook.com/city/jalandhar-Punjab",
+      "emailId": "complaints.mcj@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "Madhya Pradesh",
+        "localName": null,
+        "districtCode": null,
+        "districtName": null,
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1013"
+      },
+      "address": "Madhya Pradesh",
+      "contactNumber": "0181-2227015"
+    }
+  ]
+}
