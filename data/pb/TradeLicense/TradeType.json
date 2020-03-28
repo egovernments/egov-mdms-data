@@ -3,28 +3,14 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
-      "code": "PERSON.DOCTOR.DOCTOR",
+      "code": "INTERSTATE",
       "uom": null,
       "active": true,
       "type": "TL",
       "validityPeriod": null
     },
     {
-      "code": "PERSON.FOODDELIVERY.FOODDELIVERY",
-      "uom": null,
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "code": "VEHICLE.AMBULANCE.AMBULANCE",
-      "uom": null,
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "code": "VEHICLE.GOVBUS.GOVBUS",
+      "code": "INTRASTATE",
       "uom": null,
       "active": true,
       "type": "TL",
