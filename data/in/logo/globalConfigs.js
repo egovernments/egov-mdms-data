@@ -1,5 +1,5 @@
 var globalConfigs = (function() {
-  var stateTenantId = 'mp'
+  var stateTenantId = 'in'
   var gmaps_api_key = 'AIzaSyAQOd09-vjmk1sXFb_ZQYDz2nlfhXq7Wf8'
   var getConfig = function(key) {
       if(key === 'STATE_LEVEL_TENANT_ID'){

@@ -1,5 +1,5 @@
 {
-  "tenantId": "mp",
+  "tenantId": "in",
   "moduleName": "common-masters",
   "IdFormat": [
     {
@@ -530,7 +530,7 @@
       "idname": "egov.idgen.bpa.bdlicensenumber"
     },
     {
-      "format": "MP-MT-[CITY]-[SEQ_EG_PT_MUTATION]",
+      "format": "in-MT-[CITY]-[SEQ_EG_PT_MUTATION]",
       "idname": "pt.mutation.number"
     },
    {

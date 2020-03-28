@@ -1,10 +1,10 @@
 {
-  "tenantId": "mp",
+  "tenantId": "in",
   "moduleName": "tenant",
   "tenantInfo": [
     {
-      "code": "mp.madhyapradesh",
-      "districtCode": "Bahadaur",
+      "code": "in.mp",
+      "districtCode": "MadhyaPradesh",
       "population": "116449",
       "malePopulation": "62554",
       "femalePopultion": "53895",
@@ -14,7 +14,7 @@
     },
   
     {
-      "code": "mp.patankot",
+      "code": "in.patankot",
       "districtCode": "Dhanaula",
       "population": "17331",
       "malePopulation": "10521",
@@ -24,7 +24,7 @@
       "languagesSpoken": ["GR", "PN", "HN"]
     },
     {
-      "code": "mp.nawanshahr",
+      "code": "in.nawanshahr",
       "districtCode": "Dhanaula",
       "population": "12507",
       "malePopulation": "6810",

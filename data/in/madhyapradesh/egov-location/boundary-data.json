@@ -1,5 +1,5 @@
 {
-  "tenantId": "mp.madhyapradesh",
+  "tenantId": "in.mp",
   "moduleName": "egov-location",
   "TenantBoundary": [
     {
@@ -15,7 +15,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "mp.madhyapradesh",
+        "code": "in.mp",
         "children": [
           {
             "id": 2,
@@ -45,7 +45,7 @@
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "MP_MADHYAPRADESH",
+                    "code": "IN_MADHYAPRADESH",
                     "area": "Area1",
                     "children": []
                   }

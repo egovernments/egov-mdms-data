@@ -1,13 +1,13 @@
 {
-  "tenantId": "mp",
+  "tenantId": "in",
   "moduleName": "common-masters",
   "StateInfo": [
     {
-      "name": "MadhyaPradesh",
-      "code":"mp",
+      "name": "India",
+      "code":"in",
       "qrCodeURL":"https://github.com/egovernments/frontend/blob/whatsAppScreens/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/qrImage.png?raw=true",
-      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/mp-egov-assets/mp.testing/Punjab-bg-QA.jpg",
-      "logoUrl":"https://raw.githubusercontent.com/egovernments/egov-mdms-data/EGOV_DEMO/data/mp/logo/logo.png",
+      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/in-egov-assets/in.testing/Punjab-bg-QA.jpg",
+      "logoUrl":"https://raw.githubusercontent.com/egovernments/egov-mdms-data/EGOV_DEMO/data/in/logo/logo.png",
       "hasLocalisation" : false,
       "enableWhatsApp" : false,
       "defaultUrl" : {
