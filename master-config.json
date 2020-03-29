@@ -150,7 +150,7 @@
       ]
     },
     "DocumentType": {
-      "masterName": "StructureType",
+      "masterName": "DocumentType",
       "moduleDefinition": null,
       "isStateLevel": true,
       "uniqueKeys": [
@@ -408,6 +408,14 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "footer": {
+      "masterName": "footer",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "works": {
@@ -476,7 +484,7 @@
     }
   },
   "PropertyTax": {
-    "MutationReason": {
+     "MutationReason": {
       "masterName": "MutationReason",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -655,6 +663,20 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "Penalty": {
+      "masterName": "Penalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Rebate": {
+      "masterName": "Rebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
     }
   },
   "Workflow": {
@@ -746,7 +768,6 @@
         "$.code"
       ]
     }
-
   },
   "BillingService": {
     "TaxPeriod": {
@@ -784,7 +805,7 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.billingservicecode",
-         "$.taxhead"
+        "$.taxhead"
       ]
     },
     "InstrumentGLcodeMapping": {
@@ -913,9 +934,8 @@
       "masterName": "RoadType",
       "isStateLevel": true,
       "uniqueKeys": []
-    }
-  },
-  "CalculationAttribute": {
+    },
+    "CalculationAttribute": {
       "masterName": "CalculationAttribute",
       "isStateLevel": true,
       "uniqueKeys": []
@@ -927,13 +947,6 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
-      ]
-    },
-    "CheckList": {
-      "masterName": "CheckList",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.question"
       ]
     },
     "ApplicationType": {
@@ -959,6 +972,34 @@
       "masterName": "RiskTypeComputation",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "OccupancyType": {
+      "masterName": "OccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SubOccupancyType": {
+      "masterName": "SubOccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "Usages": {
+      "masterName": "Usages",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CheckList": {
+      "masterName": "CheckList",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.question"
+      ]
     }
   },
   "sw-services-calculation": {
@@ -1005,7 +1046,7 @@
       "isStateLevel": true,
       "uniqueKeys": []
     },
-     "SW_Round_Off": {
+    "SW_Round_Off": {
       "masterName": "SW_Round_Off",
       "isStateLevel": true,
       "uniqueKeys": []
