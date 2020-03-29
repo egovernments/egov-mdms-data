@@ -142,7 +142,7 @@
       "buildingType": "RESIDENTIAL",
       "calculationAttribute": "Flat",
       "connectionType": "Non Metered",
-      "minimumCharge": 100,
+      "minimumCharge": 100
       "slabs": []
     },
     {
@@ -150,7 +150,7 @@
       "buildingType": "NONRESIDENTIAL",
       "calculationAttribute": "Flat",
       "connectionType": "Non Metered",
-      "minimumCharge": 250,
+      "minimumCharge": 250
       "slabs": []
     },
     {
@@ -158,7 +158,7 @@
       "buildingType": "Commercial",
       "calculationAttribute": "Flat",
       "connectionType": "Non Metered",
-      "minimumCharge": 250,
+      "minimumCharge": 250
       "slabs": []
     },
     {
@@ -166,7 +166,7 @@
       "buildingType": "Government",
       "calculationAttribute": "Flat",
       "connectionType": "Non Metered",
-      "minimumCharge": 350,
+      "minimumCharge": 350
       "slabs": []
     },
     {
@@ -174,7 +174,7 @@
       "buildingType": "Partly commercial",
       "calculationAttribute": "Flat",
       "connectionType": "Non Metered",
-      "minimumCharge": 200,
+      "minimumCharge": 200
       "slabs": []
     }
   ]
