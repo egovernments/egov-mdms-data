@@ -1,0 +1,21 @@
+{
+    "tenantId": "in",
+    "moduleName": "TradeLicense",
+    "Purpose": [
+      {
+        "code": "DEATH",
+        "NAME": "Death",
+        "active": true
+      },
+      {
+        "code": "MEDICAL_EMERGENCY",
+        "NAME": "Medical Emergency",
+        "active": true
+      },
+      {
+        "code": "OTHERS",
+        "NAME": "Others",
+        "active": true
+      }
+    ]
+  }
