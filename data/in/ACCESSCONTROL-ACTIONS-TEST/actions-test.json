@@ -14576,7 +14576,7 @@
     {
       "id": 1828,
       "name": "mSeva Event Create",
-      "url": "/egov-user-event/v1/events/_create",
+      "url": "/egov-user-event/v1/_create",
       "displayName": "mSeva Event Notification",
       "orderNumber": 1,
       "enabled": false,
@@ -14635,7 +14635,7 @@
       "displayName": "ULB Information",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "msea-event-notification",
       "code": "null",
       "path": "",
