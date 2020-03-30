@@ -401,6 +401,22 @@
       "service": "SW.ONE_TIME_FEE",
       "code": "SW10YRS2019",
       "financialYear": "2019-29"
+    },
+    {
+      "fromDate": 1585699200000,
+      "toDate": 1617148800000,
+      "periodCycle": "ANNUAL",
+      "service": "WS",
+      "code": "WC2019",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1585699200000,
+      "toDate": 1617148800000,
+      "periodCycle": "ANNUAL",
+      "service": "SW",
+      "code": "SC2019",
+      "financialYear": "2020-21"
     }
   ]
 }
