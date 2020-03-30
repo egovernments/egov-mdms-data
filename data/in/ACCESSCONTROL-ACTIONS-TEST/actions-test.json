@@ -16387,7 +16387,7 @@
     {
       "id": 1980,
       "name": "e-Pass Report",
-      "url": "/report/e-pass/_get",
+      "url": "/report/epass/_get",
       "displayName": "e-Pass Report",
       "orderNumber": 0,
       "enabled": true,
@@ -16398,8 +16398,8 @@
     {
       "id": 1981,
       "name": "e-passMetadata",
-      "url": "/report/e-pass/metadata/_get",
-      "displayName": "e-Pass report metadata",
+      "url": "/report/epass/metadata/_get",
+      "displayName": "epass report metadata",
       "orderNumber": 1,
       "enabled": true,
       "serviceCode": "E_PASS_REPORTS",
@@ -16409,8 +16409,8 @@
     {
       "id": 1982,
       "name": "e-passMetadata",
-      "url": "/report/e-pass/epassreport/metadata/_get",
-      "displayName": "e-Pass/epassreport report metadata",
+      "url": "/report/epass/epassreport/metadata/_get",
+      "displayName": "epass/epassreport report metadata",
       "orderNumber": 1,
       "enabled": true,
       "serviceCode": "E_PASS_REPORTS",
@@ -16428,7 +16428,7 @@
       "enabled": true,
       "serviceCode": "",
       "path": "Report",
-      "navigationURL": "report/e-pass/epassreport",
+      "navigationURL": "report/epass/epassreport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     }
