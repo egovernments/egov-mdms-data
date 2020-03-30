@@ -16387,7 +16387,7 @@
     {
       "id": 1980,
       "name": "e-Pass Report",
-      "url": "/report/epass/_get",
+      "url": "/report/rainmaker-epass/_get",
       "displayName": "e-Pass Report",
       "orderNumber": 0,
       "enabled": true,
@@ -16398,7 +16398,7 @@
     {
       "id": 1981,
       "name": "e-passMetadata",
-      "url": "/report/epass/metadata/_get",
+      "url": "/report/rainmaker-epass/epassreport/metadata/_get",
       "displayName": "epass report metadata",
       "orderNumber": 1,
       "enabled": true,
