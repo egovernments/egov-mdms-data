@@ -16422,13 +16422,13 @@
       "name": "e-pass Report",
       "url": "url",
       "displayName": "e-Pass Report",
-      "orderNumber": 2,
+      "orderNumber": 1,
       "queryParams": "",
       "parentModule": "",
       "enabled": true,
       "serviceCode": "",
       "path": "Report",
-      "navigationURL": "report/epass/epassreport",
+      "navigationURL": "report/rainmaker-epass/epassreport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     }
