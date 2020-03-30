@@ -507,6 +507,11 @@
       "code": "BPA_NOC_VERIFIER",
       "name": "BPA NOC Verifier",
       "description": "BPA Service NOC verifier"
+    },
+    {
+      "code": "E_PASS_REPORT_EMPLOYEE",
+      "name": "E PASS REPORT EMPLOYEE",
+      "description": "Employee who can see e-pass reports" 
     }
   ]
 }
