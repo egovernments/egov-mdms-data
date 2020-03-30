@@ -16408,6 +16408,17 @@
     },
     {
       "id": 1982,
+      "name": "e-passMetadata",
+      "url": "/report/e-pass/epassreport/metadata/_get",
+      "displayName": "e-Pass/epassreport report metadata",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "E_PASS_REPORTS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1983,
       "name": "e-pass Report",
       "url": "url",
       "displayName": "e-Pass Report",
