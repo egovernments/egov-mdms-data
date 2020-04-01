@@ -642,6 +642,13 @@
         "$.code"
       ]
     },
+    "documentObj": {
+      "masterName": "documentObj",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "AccessoriesCategory": {
       "masterName": "AccessoriesCategory",
       "isStateLevel": true,
