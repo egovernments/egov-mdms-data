@@ -10,6 +10,15 @@
       "maxAmount": null,
       "fromFY": "2019-20",
       "startingDay": "1/01/2019"
-    }
+    },
+    {
+        "rate": 5,
+        "minAmount": null,
+        "applicableAfterDays":0,
+        "flatAmount": null,
+        "maxAmount": null,
+        "fromFY": "2020-21",
+        "startingDay": "01/04/2020"
+      }
   ]
 }
