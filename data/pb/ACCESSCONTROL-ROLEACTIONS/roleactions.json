@@ -20762,7 +20762,7 @@
          "actioncode": "",
          "tenantId": "pb"
      },
-      {
+    {
        "rolecode": "BPA_VERIFIER",
        "actionid": 1975,
        "actioncode": "",
@@ -20827,6 +20827,18 @@
       "actionid": 1943,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 1979,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1979,
+      "actioncode": "",
+      "tenantId": "pb"
     }
-    ]
-  }
+  ]
+}
