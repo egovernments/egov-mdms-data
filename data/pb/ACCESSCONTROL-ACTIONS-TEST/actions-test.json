@@ -15952,7 +15952,7 @@
     {
       "id": 1924,
       "name": "BPA-Applyforservice",
-      "url": "/bpa-services/bpa/appl/_create",
+      "url": "/bpa-services/_create",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -15963,7 +15963,7 @@
     {
       "id": 1930,
       "name": "BPA-applicationsearch",
-      "url": "/bpa-services/bpa/appl/_search",
+      "url": "/bpa-services/_search",
       "displayName": "Search",
       "orderNumber": 0,
       "enabled": false,
@@ -15974,7 +15974,7 @@
     {
       "id": 1931,
       "name": "BPA-updateapplicationservice",
-      "url": "/bpa-services/bpa/appl/_update",
+      "url": "/bpa-services/_update",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -16316,7 +16316,7 @@
      {
       "id": 1972,
       "name": "BPA-PermitOrderEDCR Report",
-      "url": "/bpa-services/bpa/appl/_permitorderedcr",
+      "url": "/bpa-services/_permitorderedcr",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -16325,7 +16325,52 @@
       "path": ""
      },
     {
-      "id": 1973,
+      "id": 1975,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/bpa-services/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1976,
+      "name": "Locality searcher endpoint for BPA",
+      "url": "/egov-searcher/locality/BPAREG/_get",
+      "displayName": "BPA locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1977,
+      "name": "Dashboard Payments-v1",
+      "url": "/dashboard-ingest/ingest/migrate/paymentsindex-v1/v2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1978,
+      "name": "Migrate Property v1 to v2",
+      "url": "/property-services/property/_migration",
+      "displayName": "Migrate Property v1 to v2",
+      "orderNumber": 5,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1979,
       "name": "Remittance Collection Report",
       "url": "url",
       "parentModule": "",

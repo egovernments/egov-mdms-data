@@ -123,6 +123,14 @@
       "financialYear": "2017-18"
     },
     {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Hoardings",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
+    },
+    {
       "fromDate": 1554076799000,
       "toDate": 1585679399000,
       "periodCycle": "ANNUAL",
@@ -145,6 +153,14 @@
       "service": "ADVT.Hoardings",
       "code": "ADHAN2017",
       "financialYear": "2017-18"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Municipal_Shops_Rent",
+      "code": "RTMSRAN2020",
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1554076799000,
@@ -171,6 +187,14 @@
       "financialYear": "2017-18"
     },
     {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Parking_Fee",
+      "code": "RTPFAN2020",
+      "financialYear": "2020-21"
+    },
+    {
       "fromDate": 1554076799000,
       "toDate": 1585679399000,
       "periodCycle": "ANNUAL",
@@ -193,6 +217,14 @@
       "service": "RT.Parking_Fee",
       "code": "RTPFAN2017",
       "financialYear": "2017-18"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Jamin_Theka",
+      "code": "RTJTAN2020",
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1554076799000,
@@ -276,19 +308,19 @@
     },
     {
       "fromDate": 1554076800000,
-      "toDate": 1585612800000,
-      "periodCycle": "ANNUAL",
+      "toDate": 1617175799000,
+      "periodCycle": "TWOYEARS",
       "service": "WS",
       "code": "WC2018",
-      "financialYear": "2019-20"
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1554076800000,
-      "toDate": 1585612800000,
-      "periodCycle": "ANNUAL",
+      "toDate": 1617175799000,
+      "periodCycle": "TWOYEARS",
       "service": "SW",
       "code": "SC2018",
-      "financialYear": "2019-20"
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1522540801000,

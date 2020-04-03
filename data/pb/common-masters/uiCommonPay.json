@@ -6,63 +6,105 @@
       "code": "PT",
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
-      "billKey":"property-bill",
-      "citizenSuccess" : {
-        "primaryMessage": "CITIZEN_SUCCESS_PT_PAYMENT_MESSAGE",
-        "secondaryMessage": "CITIZEN_SUCCESS_PT_PAYMENT_MESSAGE_DETAIL",
-         "receiptNo": "CITIZEN_SUCCESS_PT_PAYMENT_RECEIPT_NO"
-      },
-      "employeeSuccess" : {
-        "primaryMessage": "EMPLOYEE_SUCCESS_PT_PAYMENT_MESSAGE",
-        "secondaryMessage": "EMPLOYEE_SUCCESS_PT_PAYMENT_MESSAGE_DETAIL",
-        "receiptNo": "EMPLOYEE_SUCCESS_PT_PAYMENT_RECEIPT_NO"
-      },
-      "citizenFailure" : {
-        "primaryMessage": "CITIZEN_FAILURE_PT_PAYMENT_FAILURE_MESSAGE",
-        "secondaryMessage": "CITIZEN_FAILURE_PT_PAYMENT_FAILURE_MESSAGE_DETAIL"
-      },
-      "employeeFailure" : {
-        "primaryMessage": "EMPLOYEE_FAILURE_PT_PAYMENT_FAILURE_MESSAGE",
-        "secondaryMessage": "EMPLOYEE_FAILURE_PT_PAYMENT_FAILURE_MESSAGE_DETAIL"
-      },
-      "footer": {
-        "label": {
-          "labelName": "GO TO HOME",
-          "labelKey": "COMMON_BUTTON_HOME"
-        },
-        "link": "/pt-mutation/propertySearch"
-      }
+      "billKey": "property-bill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/property-tax",
+          "employeeUrl": "/pt-mutation/propertySearch"
+        }
+      ]
+    },
+    {
+      "code": "PT.MUTATION",
+      "headerBandLabel": "PTM_COMMON_TABLE_COL_PT_ID",
+      "receiptKey": "property-receipt",
+      "billKey": "property-bill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/property-tax",
+          "employeeUrl": "/pt-mutation/propertySearch"
+        }
+      ]
     },
     {
       "code": "TL",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "tradelicense-receipt",
-      "billKey":"tradelicense-bill",
-      "citizenSuccess" : {
-        "primaryMessage": "CITIZEN_SUCCESS_TL_PAYMENT_MESSAGE",
-        "secondaryMessage": "CITIZEN_SUCCESS_TL_PAYMENT_MESSAGE_DETAIL",
-        "receiptNo": "CITIZEN_SUCCESS_TL_PAYMENT_RECEIPT_NO"
-      },
-      "employeeSuccess" : {
-        "primaryMessage": "EMPLOYEE_SUCCESS_TL_PAYMENT_MESSAGE",
-        "secondaryMessage": "EMPLOYEE_SUCCESS_TL_PAYMENT_MESSAGE_DETAIL",
-        "receiptNo": "EMPLOYEE_SUCCESS_TL_PAYMENT_RECEIPT_NO"
-      },
-      "citizenFailure" : {
-        "primaryMessage": "CITIZEN_FAILURE_TL_PAYMENT_FAILURE_MESSAGE",
-        "secondaryMessage": "CITIZEN_FAILURE_TL_PAYMENT_FAILURE_MESSAGE_DETAIL"
-      },
-      "employeeFailure" : {
-        "primaryMessage": "EMPLOYEE_FAILURE_TL_PAYMENT_FAILURE_MESSAGE",
-        "secondaryMessage": "EMPLOYEE_FAILURE_TL_PAYMENT_FAILURE_MESSAGE_DETAIL"
-      },
-      "footer": {
-        "label": {
-          "labelName": "GO TO HOME",
-          "labelKey": "COMMON_BUTTON_HOME"
-        },
-        "link": "/tradelicence/search"
-      }
+      "billKey": "tradelicense-bill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/tradelicense-citizen/home",
+          "employeeUrl": "/tradelicence/search"
+        }
+      ]
+    },
+    {
+      "code": "BPA.NC_APP_FEE",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/bpastakeholder-citizen/home",
+          "employeeUrl": "/egov-bpa/search"
+        }
+      ]
+    },
+    {
+      "code": "BPA.NC_SAN_FEE",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/bpastakeholder-citizen/home",
+          "employeeUrl": "/egov-bpa/search"
+        }
+      ]
+    },
+    {
+      "code": "BPA.LOW_RISK_PERMIT_FEE",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/bpastakeholder-citizen/home",
+          "employeeUrl": "/egov-bpa/search"
+        }
+      ]
+    },
+    {
+      "code": "TL",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
+    },
+    {
+      "code": "BPAREG",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/bpastakeholder-citizen/home",
+          "employeeUrl": "/bpastakeholder/search"
+        }
+      ]
     }
   ]
 }
