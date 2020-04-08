@@ -339,13 +339,13 @@
             "attributeAccessList" : [
               {
                 "attribute" : {
-                  "jsonPath" : "*/tlOwner"
+                  "jsonPath" : "*/tlowner"
                 },
                 "accessType" : "PLAIN"
               },
               {
                 "attribute" : {
-                  "jsonPath" : "*/approverName"
+                  "jsonPath" : "*/approvername"
                 },
                 "accessType" : "PLAIN"
               }
