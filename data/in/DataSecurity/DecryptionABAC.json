@@ -332,6 +332,28 @@
         ]
       },
       {
+        "key" : "epassreport",
+        "roleAttributeAccessList" : [
+          {
+            "roleCode" : "TL_APPROVER",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/tlOwner"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/approverName"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "key" : "UserListSelf",
         "roleAttributeAccessList" : [
           {
