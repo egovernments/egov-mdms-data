@@ -1068,7 +1068,7 @@
       "businessService": "PT.MUTATION",
       "code": "PT.MUTATION",
       "collectionModesNotAllowed": [
-        "DD"
+        "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
