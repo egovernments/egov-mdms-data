@@ -342,12 +342,6 @@
                   "jsonPath" : "*/tlowner"
                 },
                 "accessType" : "PLAIN"
-              },
-              {
-                "attribute" : {
-                  "jsonPath" : "*/approvername"
-                },
-                "accessType" : "PLAIN"
               }
             ]
           }
