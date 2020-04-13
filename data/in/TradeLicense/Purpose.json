@@ -3,12 +3,22 @@
   "moduleName": "TradeLicense",
   "Purpose": [
     {
-      "code": "DEATH",
+      "code": "DEATH.FATHER",
       "NAME": "Death",
       "active": true
     },
     {
-      "code": "MEDICAL_EMERGENCY",
+      "code": "DEATH.MOTHER",
+      "NAME": "Death",
+      "active": true
+    },
+    {
+      "code": "MEDICAL_EMERGENCY.CANCER",
+      "NAME": "Medical Emergency",
+      "active": true
+    },
+    {
+      "code": "MEDICAL_EMERGENCY.CHEMOTHERAPY",
       "NAME": "Medical Emergency",
       "active": true
     },
