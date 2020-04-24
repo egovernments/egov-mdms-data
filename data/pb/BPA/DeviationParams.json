@@ -3,7 +3,7 @@
   	"moduleName": "BPA",
   	"DeviationParams": [{
   			"parameter": "NumberofFloors",
-  			"tolerancelimit": 1,
+  			"tolerancelimit": 0,
   			"calculationType": "number",
   			"restrictionType": "ALLOW",
   			"paramPath": "edcrDetail[0].planDetail.blocks[0].building.totalFloors"
