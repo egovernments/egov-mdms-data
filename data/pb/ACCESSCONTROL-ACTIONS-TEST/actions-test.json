@@ -16398,6 +16398,20 @@
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
-     }
+     },
+    {
+      "id": 1981,
+      "name": "Dishonor Cheque/DD",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Dishonor Cheque/DD",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceAdmin",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Administration.Dishonor Cheque/DD",
+      "navigationURL": "services/collection/dishonour/cheque/form"
+    }
   ]
 }
