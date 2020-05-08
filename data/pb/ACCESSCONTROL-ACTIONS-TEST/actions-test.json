@@ -16454,6 +16454,28 @@
       "serviceCode": "sw-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1979,
+      "name": "Locality searcher endpoint for PT services",
+      "url": "/egov-searcher/locality/pt-services/_get",
+      "displayName": "PT service locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1980,
+      "name": "Locality searcher endpoint for PT module",
+      "url": "/egov-searcher/locality/PT/_get",
+      "displayName": "PT locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }
