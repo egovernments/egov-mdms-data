@@ -15952,7 +15952,7 @@
     {
       "id": 1924,
       "name": "BPA-Applyforservice",
-      "url": "/bpa-services/_create",
+      "url": "/bpa-services/v1/bpa/_create",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -15963,7 +15963,7 @@
     {
       "id": 1930,
       "name": "BPA-applicationsearch",
-      "url": "/bpa-services/_search",
+      "url": "/bpa-services/v1/bpa/_search",
       "displayName": "Search",
       "orderNumber": 0,
       "enabled": false,
@@ -15974,7 +15974,7 @@
     {
       "id": 1931,
       "name": "BPA-updateapplicationservice",
-      "url": "/bpa-services/_update",
+      "url": "/bpa-services/v1/bpa/_update",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -16316,7 +16316,7 @@
      {
       "id": 1972,
       "name": "BPA-PermitOrderEDCR Report",
-      "url": "/bpa-services/_permitorderedcr",
+      "url": "/bpa-services/v1/bpa/_permitorderedcr",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -16537,6 +16537,39 @@
       "orderNumber": 9,
       "enabled": false,
       "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1988,
+      "name": "BPA-Land-Create",
+      "url": "/bpa-services/v1/land/_create",
+      "displayName": "Land Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1989,
+      "name": "BPA-Land-Update",
+      "url": "/bpa-services/v1/land/_update",
+      "displayName": "Land Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1990,
+      "name": "BPA-Land-Search",
+      "url": "/bpa-services/v1/land/_search",
+      "displayName": "Land Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
       "code": "null",
       "path": ""
     }
