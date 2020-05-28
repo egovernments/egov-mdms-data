@@ -16442,6 +16442,28 @@
       "navigationURL": "services/EGF/report/remittance/pending/form"
     },
     {
+      "id": 1984,
+      "name": "Locality searcher endpoint for SW",
+      "url": "/egov-searcher/locality/sw-services/_get",
+      "displayName": "SW-Service locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1985,
+      "name": "Locality searcher endpoint for WS",
+      "url": "/egov-searcher/locality/ws-services/_get",
+      "displayName": "WS-Service locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1991,
       "name": "consolidatedreceipt search",
       "url": "/egov-pdf/download/PAYMENT/consolidatedreceipt",
