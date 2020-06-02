@@ -16699,6 +16699,78 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2000,
+      "name": "TradeLicenseRegistryReport",
+      "url": "/report/rainmaker-tl/TradeLicenseRegistryReport/_get",
+      "displayName": "rainmaker-tl-TradeLicenseRegistryReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2001,
+      "name": "TradeWiseCollectionReport",
+      "url": "/report/rainmaker-tl/TradeWiseCollectionReport/_get",
+      "displayName": "rainmaker-tl-TradeWiseCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2002,
+      "name": "TradeLicenseApplicationStatusReport",
+      "url": "/report/rainmaker-tl/TradeLicenseApplicationStatusReport/_get",
+      "displayName": "rainmaker-tl-TradeLicenseApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2003,
+      "name": "StateLevelTradeLicenseRegistryReport",
+      "url": "/report/rainmaker-tl/StateLevelTradeLicenseRegistryReport/_get",
+      "displayName": "rainmaker-tl-StateLevelTradeLicenseRegistryReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2004,
+      "name": "StateLevelTradeWiseCollection",
+      "url": "/report/rainmaker-tl/StateLevelTradeWiseCollection/_get",
+      "displayName": "rainmaker-tl-StateLevelTradeWiseCollection",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2005,
+      "name": "StateLevelStatus",
+      "url": "/report/rainmaker-tl/StateLevelStatus/_get",
+      "displayName": "rainmaker-tl-StateLevelStatus",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }
