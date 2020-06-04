@@ -928,18 +928,11 @@
     }
   },
   "BPA": {
-    "ServiceType": {
+   "ServiceType": {
       "masterName": "ServiceType",
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
-      ]
-    },
-    "CheckList": {
-      "masterName": "CheckList",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.question"
       ]
     },
     "ApplicationType": {
@@ -965,6 +958,41 @@
       "masterName": "RiskTypeComputation",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "OccupancyType": {
+      "masterName": "OccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SubOccupancyType": {
+      "masterName": "SubOccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "Usages": {
+      "masterName": "Usages",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CheckList": {
+      "masterName": "CheckList",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.question"
+      ]
+    },
+    "DeviationParams":{
+      "masterName": "DeviationParams",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.parameter"
+      ]
     }
   },
   "sw-services-calculation": {
