@@ -2381,6 +2381,36 @@
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_OC_APP_FEE",
+      "name": "BPA Application fees",
+      "code": "BPA_OC_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_OC_SAN_FEE",
+      "name": "BPA Sanction fees",
+      "code": "BPA_OC_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "SW",
+      "name": "Sw advance carry forward",
+      "code": "SW_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
