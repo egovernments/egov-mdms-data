@@ -16154,7 +16154,7 @@
     {
       "id": 1954,
       "name": "MutationBillingSlabCreate",
-      "url": "/pt-calculator-v2/billingslab/mutation/_create",
+      "url": "/pt-calculator-v2/billingslab/mutation/_createbillingslab",
       "displayName": "Mutation Billing Slab Create",
       "orderNumber": 1,
       "parentModule": "",
@@ -16166,7 +16166,7 @@
     {
       "id": 1955,
       "name": "MutationBillingSlabSearch",
-      "url": "/pt-calculator-v2/billingslab/mutation/_search",
+      "url": "/pt-calculator-v2/billingslab/mutation/_searchbillingslab",
       "displayName": "Mutation Billing Slab Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -16178,7 +16178,7 @@
     {
       "id": 1956,
       "name": "MutationBillingSlabUpdate",
-      "url": "/pt-calculator-v2/billingslab/mutation/_update",
+      "url": "/pt-calculator-v2/billingslab/mutation/_updatebillingslab",
       "displayName": "Mutation Billing Slab Update",
       "orderNumber": 1,
       "parentModule": "",
