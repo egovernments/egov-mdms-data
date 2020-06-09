@@ -10,7 +10,7 @@
       ],
       "partPaymentAllowed": true,
       "minAmountPayable":100,
-      "isAdvanceAllowed": false,
+      "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
@@ -33,7 +33,7 @@
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
       "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
+      "isAdvanceAllowed": true,
       "demandUpdateTime": 604800000,
       "isVoucherCreationEnabled": true
     },
