@@ -123,11 +123,11 @@
       "calsiLogic": [
         {
           "parameter": "builtuparea",
-          "tolerancelimit": 2,
+          "tolerancelimit": 1,
           "calculationType": "number",
           "deviation": [
             {
-              "from": 2,
+              "from": 1,
               "to": 3,
               "MF": 1,
               "uom": 100
