@@ -5691,6 +5691,16 @@
       "isActualDemand": true,
       "order": "2",
       "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "WS",
+      "name": "Ws advance carry forward",
+      "code": "WS_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
