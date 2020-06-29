@@ -10,7 +10,7 @@
       ],
       "partPaymentAllowed": true,
       "minAmountPayable":100,
-      "isAdvanceAllowed": false,
+      "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
