@@ -1,14 +1,41 @@
 {
   "tenantId": "pb",
-  "moduleName": "NOC",
-  "NocType": [
-     {
-      "code": "FIRE_NOC",
-      "isActive": true
+  "moduleName": "BPA",
+  "nocTypeMapping" : [
+    {
+      applicationType:'BUILDING_PLAN_SCRUTINY',
+      serviceType:'NEW_CONTRUCTION',
+      riskType:'ALL',
+      nocTriggerState:'SEND_TO_CITIZEN',
+      nocTypes:[
+        {
+          type:'AIRPORT_AUTHORITY',
+          required:true,
+          documentType:'NOC.AIRPORT'
+        },
+        {
+          type:'FIRE_NOC',
+          required:false,
+          documentType:'NOC.FIRE'
+        }
+      ]
     },
     {
-      "code":"AAI_NOC",
-      "isActive": true
+      applicationType:'BUILDING_PLAN_SCRUTINY',
+      serviceType:'NEW_CONTRUCTION',
+      riskType:'LOW',
+      nocTriggerState:'SEND_TO_CITIZEN',
+      nocTypes:[
+        {
+          type:'AIRPORT_AUTHORITY',
+          required:true,
+          documentType:'NOC.AIRPORT'
+        },
+        {
+          type:'FIRE_NOC',
+          required:false,
+          documentType:'NOC.FIRE'
+        }
+      ]
     }
-  ]
 }
