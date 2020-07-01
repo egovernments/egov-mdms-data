@@ -16314,7 +16314,7 @@
       "path": "Finance.Period End Activities.Close Period",
       "navigationURL": "services/EGF/closedperiod/search/reopen"
     },
-     {
+    {
       "id": 1972,
       "name": "BPA-PermitOrderEDCR Report",
       "url": "/bpa-services/v1/bpa/_permitorderedcr",
@@ -16324,7 +16324,7 @@
       "serviceCode": "BPA",
       "code": "null",
       "path": ""
-     },
+    },
     {
       "id": 1975,
       "name": "Locality searcher endpoint for BPA",
@@ -16399,7 +16399,7 @@
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
-     },
+    },
     {
       "id": 1981,
       "name": "Dishonor Cheque/DD",
@@ -16616,6 +16616,18 @@
       "quickAction": true,
       "leftIcon": "communication:business",
       "rightIcon": ""
+    },
+    {
+      "id": 2000,
+      "name": "LocalizationMessagesSearch",
+      "url": "/localization/messages/v2/_search",
+      "displayName": "Localization Messages Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "localisation search",
+      "code": "null",
+      "path": ""
     }
   ]
 }
