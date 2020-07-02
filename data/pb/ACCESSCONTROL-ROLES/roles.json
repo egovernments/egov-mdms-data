@@ -502,6 +502,16 @@
       "code": "BPA_NOC_VERIFIER",
       "name": "BPA NOC Verifier",
       "description": "BPA Service NOC verifier"
+    },
+    {
+      "code": "FIRE_NOC_APPROVER",
+      "name": "Fire Noc Department Approver",
+      "description": "Fire Noc application approver"
+    },
+    {
+      "code": "AIRPORT_AUTHORITY_APPROVER",
+      "name": "Airport authority Approver",
+      "description": "Airport authority application approver"
     }
   ]
 }
