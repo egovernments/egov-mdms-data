@@ -32,7 +32,7 @@
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
-      "partPaymentAllowed": false,
+      "partPaymentAllowed": true,
       "isAdvanceAllowed": true,
       "demandUpdateTime": 604800000,
       "isVoucherCreationEnabled": true
@@ -67,7 +67,7 @@
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
-      "partPaymentAllowed": false,
+      "partPaymentAllowed": true,
       "isAdvanceAllowed": true,
       "isVoucherCreationEnabled": true,
       "isActive": true,
@@ -90,7 +90,7 @@
       "collectionModesNotAllowed": [
         "DD"
       ],
-      "partPaymentAllowed": false,
+      "partPaymentAllowed": true,
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
