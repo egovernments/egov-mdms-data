@@ -1,0 +1,20 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-masters",
+  "ModificationDocuments": [
+    {
+      "code": "OWNER.MODIFYDOC",
+      "documentType": "OWNER",
+      "required": true,
+      "active": true,
+      "hasDropdown": true,
+      "dropdownData": [
+        {
+          "code": "OWNER.MODIFYDOC.REGISTRY",
+          "active": true
+        }
+      ],
+      "description": "OWNER.MODIFYDOCPROOF_DESCRIPTION"
+    }
+  ]
+}
