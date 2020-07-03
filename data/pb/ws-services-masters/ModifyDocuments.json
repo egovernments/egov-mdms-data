@@ -3,14 +3,14 @@
   "moduleName": "ws-services-masters",
   "ModificationDocuments": [
     {
-      "code": "OWNER.MODIFYDOC",
+      "code": "OWNER.IDENTITYPROOF",
       "documentType": "OWNER",
       "required": true,
       "active": true,
       "hasDropdown": true,
       "dropdownData": [
         {
-          "code": "OWNER.MODIFYDOC.REGISTRY",
+          "code": "OWNER.IDENTITYPROOF.REGISTRY",
           "active": true
         }
       ],
