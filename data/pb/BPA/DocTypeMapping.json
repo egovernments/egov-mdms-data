@@ -561,12 +561,12 @@
                 }, 
                 {
                     "code": "NOC.FIRE",
-                    "required": false,
+                    "required": true,
                     "order":115
                 },
                 {
                     "code": "NOC.AIRPORT",
-                    "required": false,
+                    "required": true,
                     "order":116
                 }
             ]
@@ -723,12 +723,12 @@
                 }, 
                 {
                     "code": "NOC.FIRE",
-                    "required": false,
+                    "required": true,
                     "order":147
                 },
                 {
                     "code": "NOC.AIRPORT",
-                    "required": false,
+                    "required": true,
                     "order":148
                 }
             ]
@@ -1128,12 +1128,12 @@
                 }, 
                 {
                     "code": "NOC.FIRE",
-                    "required": false,
+                    "required": true,
                     "order":255
                 },
                 {
                     "code": "NOC.AIRPORT",
-                    "required": false,
+                    "required": true,
                     "order":256
                 }
             ]
@@ -1290,12 +1290,12 @@
                 }, 
                 {
                     "code": "NOC.FIRE",
-                    "required": false,
+                    "required": true,
                     "order":15
                 },
                 {
                     "code": "NOC.AIRPORT",
-                    "required": false,
+                    "required": true,
                     "order":16
                 }
             ]
@@ -1452,12 +1452,12 @@
                 }, 
                 {
                     "code": "NOC.FIRE",
-                    "required": false,
+                    "required": true,
                     "order":15
                 },
                 {
                     "code": "NOC.AIRPORT",
-                    "required": false,
+                    "required": true,
                     "order":16
                 }
             ]
