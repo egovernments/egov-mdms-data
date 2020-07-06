@@ -398,12 +398,12 @@
                 }, 
                 {
                     "code": "NOC.FIRE",
-                    "required": false,
+                    "required": true,
                     "order":80
                 },
                 {
                     "code": "NOC.AIRPORT",
-                    "required": false,
+                    "required": true,
                     "order":81
                 }
             ]
