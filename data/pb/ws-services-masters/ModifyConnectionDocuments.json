@@ -93,6 +93,20 @@
       "description": "OWNER.ADDRESSPROOF.ADDRESSPROOF_DESCRIPTION"
     },
     {
+      "code": "OWNER.NOC",
+      "documentType": "OWNER",
+      "active": true,
+      "required": false,
+       "hasDropdown": true,
+      "dropdownData": [
+        {
+          "code": "OWNER.NOC",
+          "active": true
+        }
+      ],
+      "description": "OWNER_NOC_DESCRIPTION"
+    },
+    {
       "code": "ELECTRICITY_BILL",
       "documentType": "ELECTRICITY_BILL",
       "active": true,
@@ -147,20 +161,6 @@
         }
       ],
       "description": "PROPERTY_TAX_RECIEPT_DESCRIPTION"
-    },
-    {
-      "code": "OWNER.NOC",
-      "documentType": "OWNER",
-      "active": true,
-      "required": false,
-       "hasDropdown": true,
-      "dropdownData": [
-        {
-          "code": "OWNER.NOC",
-          "active": true
-        }
-      ],
-      "description": "OWNER_NOC_DESCRIPTION"
     }
   ]
 }
