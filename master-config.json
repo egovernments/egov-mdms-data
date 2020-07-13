@@ -642,6 +642,10 @@
         "$.code"
       ]
     },
+    "TradeRenewal": {
+      "masterName": "TradeRenewal",
+      "isStateLevel": true
+    },
     "documentObj": {
       "masterName": "documentObj",
       "isStateLevel": true,
@@ -661,6 +665,20 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
+      ]
+    },
+    "Penalty": {
+      "masterName": "Penalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Rebate": {
+      "masterName": "Rebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
       ]
     }
   },
@@ -753,7 +771,6 @@
         "$.code"
       ]
     }
-
   },
   "BillingService": {
     "TaxPeriod": {
@@ -791,7 +808,7 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.billingservicecode",
-         "$.taxhead"
+        "$.taxhead"
       ]
     },
     "InstrumentGLcodeMapping": {
@@ -920,15 +937,15 @@
       "masterName": "RoadType",
       "isStateLevel": true,
       "uniqueKeys": []
-  },
-  "CalculationAttribute": {
+    },
+    "CalculationAttribute": {
       "masterName": "CalculationAttribute",
       "isStateLevel": true,
       "uniqueKeys": []
     }
   },
   "BPA": {
-   "ServiceType": {
+    "ServiceType": {
       "masterName": "ServiceType",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -987,7 +1004,7 @@
         "$.question"
       ]
     },
-    "DeviationParams":{
+    "DeviationParams": {
       "masterName": "DeviationParams",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -1039,7 +1056,7 @@
       "isStateLevel": true,
       "uniqueKeys": []
     },
-     "SW_Round_Off": {
+    "SW_Round_Off": {
       "masterName": "SW_Round_Off",
       "isStateLevel": true,
       "uniqueKeys": []
