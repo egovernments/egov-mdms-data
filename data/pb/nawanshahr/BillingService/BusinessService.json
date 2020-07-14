@@ -34,6 +34,17 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 604800000,
       "isVoucherCreationEnabled": true
+    },
+    {
+      "businessService": "TL.RENEWAL",
+      "code": "TL.RENEWAL",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
     }
   ]
 }

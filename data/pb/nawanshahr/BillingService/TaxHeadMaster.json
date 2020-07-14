@@ -163,6 +163,56 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": 0
+    },
+    {
+      "category": "FEE",
+      "service": "TL",
+      "name": "TL Renewal Tax",
+      "code": "TL_RENEWAL_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "REBATE",
+      "service": "TL",
+      "name": "TL Renewal Rebate",
+      "code": "TL_RENEWAL_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "TL",
+      "name": "TL Renewal Penalty",
+      "code": "TL_RENEWAL_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "TL Renewal adhoc rebate",
+      "code": "TL_RENEWAL_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "TL Renewal adhoc penalty",
+      "code": "TL_RENEWAL_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
     }
   ]
 }
