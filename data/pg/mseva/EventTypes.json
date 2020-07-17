@@ -1,0 +1,22 @@
+{
+  "tenantId": "pg",
+  "moduleName": "mseva",
+  "EventTypes": [
+    {
+      "code": "BROADCAST",
+      "active": true
+    },
+    {
+      "code": "EVENTSONGROUND",
+      "active": true
+    },
+    {
+      "code": "SYSTEMGENERATED",
+      "active": true
+    },
+    {
+      "code": "OTHERS",
+      "active": true
+    }
+  ]
+}

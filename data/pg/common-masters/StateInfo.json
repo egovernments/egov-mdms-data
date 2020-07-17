@@ -1,0 +1,26 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "StateInfo": [
+    {
+      "name": "Demo",
+      "code":"pg",
+      "bannerUrl": null,
+      "logoUrl":"https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/mSeva.png",
+      "hasLocalisation" : false,
+      "defaultUrl" : {
+          "citizen" : "/user/register",
+          "employee" : "/user/login"
+      },
+      "languages": [
+        {
+          "label": "ENGLISH",
+          "value": "en_IN"
+        },
+      {
+          "label": "HINDI",
+          "value": "hi_IN"
+        }]
+    }
+  ]
+}
