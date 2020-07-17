@@ -74,6 +74,11 @@
     }
   },
   "common-masters": {
+    "uiCommonPay": {
+      "masterName": "uiCommonPay",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
     "IdFormat": {
       "masterName": "IdFormat",
       "moduleDefinition": null,
@@ -145,7 +150,7 @@
       ]
     },
     "DocumentType": {
-      "masterName": "DocumentType",
+      "masterName": "StructureType",
       "moduleDefinition": null,
       "isStateLevel": true,
       "uniqueKeys": [
@@ -367,6 +372,67 @@
       ]
     }
   },
+  "BPA": {
+    "ServiceType": {
+      "masterName": "ServiceType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "ApplicationType": {
+      "masterName": "ApplicationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DocTypeMapping": {
+      "masterName": "DocTypeMapping",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CalculationType": {
+      "masterName": "CalculationType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RiskTypeComputation": {
+      "masterName": "RiskTypeComputation",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "OccupancyType": {
+      "masterName": "OccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SubOccupancyType": {
+      "masterName": "SubOccupancyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "Usages": {
+      "masterName": "Usages",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CheckList": {
+      "masterName": "CheckList",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.question"
+      ]
+    }
+  },
   "inventory": {
     "Material": {
       "masterName": "Material",
@@ -471,6 +537,27 @@
     }
   },
   "PropertyTax": {
+     "MutationReason": {
+      "masterName": "MutationReason",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "MutationRebate": {
+      "masterName": "MutationRebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "MutationPenalty": {
+      "masterName": "MutationPenalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
     "ConstructionType": {
       "masterName": "ConstructionType",
       "isStateLevel": true,
@@ -547,12 +634,12 @@
       ]
     },
     "UsageCategory": {
-      "masterName": "UsageCategory",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    },
+     "masterName": "UsageCategory",
+     "isStateLevel": true,
+     "uniqueKeys": [
+       "$.code"
+     ]
+   },
     "UsageCategoryMajor": {
       "masterName": "UsageCategoryMajor",
       "isStateLevel": true,
@@ -720,6 +807,7 @@
         "$.code"
       ]
     }
+
   },
   "BillingService": {
     "TaxPeriod": {
@@ -757,7 +845,7 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.billingservicecode",
-        "$.taxhead"
+         "$.taxhead"
       ]
     },
     "InstrumentGLcodeMapping": {
@@ -803,6 +891,11 @@
       "uniqueKeys": [
         "$.billingCycle"
       ]
+    },
+    "waterSourceWithSubSource": {
+      "masterName": "waterSourceWithSubSource",
+      "isStateLevel": true,
+      "uniqueKeys": []
     }
   },
   "ws-services-calculation": {
@@ -861,60 +954,31 @@
       "masterName": "WS_Round_Off",
       "isStateLevel": true,
       "uniqueKeys": []
-    }
-  },
-  "BPA": {
-    "ServiceType": {
-      "masterName": "ServiceType",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
     },
-    "ApplicationType": {
-      "masterName": "ApplicationType",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    },
-    "DocTypeMapping": {
-      "masterName": "DocTypeMapping",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    },
-    "CalculationType": {
-      "masterName": "CalculationType",
+    "PlotSizeSlab": {
+      "masterName": "PlotSizeSlab",
       "isStateLevel": true,
       "uniqueKeys": []
     },
-    "RiskTypeComputation": {
-      "masterName": "RiskTypeComputation",
+    "PropertyUsageType": {
+      "masterName": "PropertyUsageType",
       "isStateLevel": true,
       "uniqueKeys": []
     },
-     "OccupancyType": {
-      "masterName": "OccupancyType",
+    "FeeSlab": {
+      "masterName": "FeeSlab",
       "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
+      "uniqueKeys": []
     },
-     "SubOccupancyType": {
-      "masterName": "SubOccupancyType",
+    "RoadType": {
+      "masterName": "RoadType",
       "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
+      "uniqueKeys": []
     },
-     "Usages": {
-      "masterName": "Usages",
+    "CalculationAttribute": {
+      "masterName": "CalculationAttribute",
       "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
+      "uniqueKeys": []
     }
   },
   "sw-services-calculation": {
@@ -961,8 +1025,33 @@
       "isStateLevel": true,
       "uniqueKeys": []
     },
-     "SW_Round_Off": {
+    "SW_Round_Off": {
       "masterName": "SW_Round_Off",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "PlotSizeSlab": {
+      "masterName": "PlotSizeSlab",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "PropertyUsageType": {
+      "masterName": "PropertyUsageType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "FeeSlab": {
+      "masterName": "FeeSlab",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RoadType": {
+      "masterName": "RoadType",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "CalculationAttribute": {
+      "masterName": "CalculationAttribute",
       "isStateLevel": true,
       "uniqueKeys": []
     }
