@@ -537,7 +537,7 @@
     }
   },
   "PropertyTax": {
-     "MutationReason": {
+    "MutationReason": {
       "masterName": "MutationReason",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -634,12 +634,12 @@
       ]
     },
     "UsageCategory": {
-     "masterName": "UsageCategory",
-     "isStateLevel": true,
-     "uniqueKeys": [
-       "$.code"
-     ]
-   },
+      "masterName": "UsageCategory",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "UsageCategoryMajor": {
       "masterName": "UsageCategoryMajor",
       "isStateLevel": true,
@@ -703,6 +703,17 @@
         "$.code"
       ]
     },
+    "TradeRenewal": {
+      "masterName": "TradeRenewal",
+      "isStateLevel": true
+    },
+    "documentObj": {
+      "masterName": "documentObj",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "AccessoriesCategory": {
       "masterName": "AccessoriesCategory",
       "isStateLevel": true,
@@ -715,6 +726,20 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
+      ]
+    },
+    "Penalty": {
+      "masterName": "Penalty",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
+      ]
+    },
+    "Rebate": {
+      "masterName": "Rebate",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.fromFY"
       ]
     }
   },
@@ -807,7 +832,6 @@
         "$.code"
       ]
     }
-
   },
   "BillingService": {
     "TaxPeriod": {
@@ -845,7 +869,7 @@
       "isStateLevel": true,
       "uniqueKeys": [
         "$.billingservicecode",
-         "$.taxhead"
+        "$.taxhead"
       ]
     },
     "InstrumentGLcodeMapping": {
