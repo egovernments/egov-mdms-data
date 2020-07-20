@@ -16390,6 +16390,18 @@
          "serviceCode": "egov-searcher",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2019,
+         "name": "LocalizationMessagesSearch",
+         "url": "/localization/messages/v2/_search",
+         "displayName": "Localization Messages Search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "localisation search",
+         "code": "null",
+         "path": ""
       }
    ]
 }
