@@ -21,7 +21,7 @@
         {
           "code": "pg.citye"
         }
-        
+
       ]
     },
     {
@@ -168,6 +168,15 @@
         },
         {
           "code": "pg.citye"
+        }
+      ]
+    },
+    {
+      "module": "PGR.WHATSAPP",
+      "code": "PGR.WHATSAPP",
+      "tenants": [
+        {
+          "code": "pg.citya"
         }
       ]
     }
