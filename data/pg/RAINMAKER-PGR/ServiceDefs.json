@@ -11,12 +11,22 @@
       "active": false
     },
     {
+      "serviceCode": "NonSweepingOfRoad",
+      "active": true,
+      "keywords": "garbage, collect, litter, clean, door, waste, remove, sweeper, sanitation, dump, health, debris, throw",
+      "department": "DEPT_3",
+      "slaHours": 336,
+      "menuPath": "Garbage",
+      "order": 5
+    },
+    {
       "serviceCode": "StreetLightNotWorking",
       "keywords": "streetlight, light, repair, work, pole, electric, power, repair, fix",
       "department": "DEPT_1",
       "slaHours": 336,
       "menuPath": "StreetLights",
-      "active": true
+      "active": true,
+      "order": 1
     },
     {
       "serviceCode": "GarbageNeedsTobeCleared",
@@ -24,7 +34,8 @@
       "department": "DEPT_3",
       "slaHours": 336,
       "menuPath": "Garbage",
-      "active": true
+      "active": true,
+      "order": 4
     },
     {
       "serviceCode": "DamagedGarbageBin",
@@ -64,7 +75,8 @@
       "department": "DEPT_4",
       "slaHours": 336,
       "menuPath": "WaterandSewage",
-      "active": true
+      "active": true,
+      "order": 2
     },
     {
       "serviceCode": "ShortageOfWater",
@@ -96,7 +108,8 @@
       "department": "DEPT_4",
       "slaHours": 336,
       "menuPath": "WaterandSewage",
-      "active": true
+      "active": true,
+      "order": 3
     },
     {
       "serviceCode": "WaterPressureisVeryLess",
@@ -256,7 +269,8 @@
       "department": "DEPT_10",
       "slaHours": 336,
       "menuPath": "",
-      "active": true
+      "active": true,
+      "order": 6
     }
   ]
 }
