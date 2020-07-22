@@ -755,6 +755,16 @@
       "isRequired": false
     },
     {
+      "category": "ADVANCE_COLLECTION",
+      "service": "SW",
+      "name": "Sw advance carry forward",
+      "code": "SW_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
       "category": "FEE",
       "service": "BPA.LOW_RISK_PERMIT_FEE",
       "name": "BPA Low Risk Appllication Fees",
