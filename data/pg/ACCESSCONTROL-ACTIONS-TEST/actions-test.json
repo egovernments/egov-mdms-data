@@ -11000,7 +11000,7 @@
          "displayName": "Rainmaker PGR report metadata",
          "orderNumber": 1,
          "parentModule": "147",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "RainmakerPGRReports",
          "code": "null",
          "path": "Asset Management.Asset Reports.AssetImmovableRegister"
@@ -11012,7 +11012,7 @@
          "displayName": "Rainmaker PGR Report",
          "orderNumber": 1,
          "parentModule": "147",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "RainmakerPGRReports",
          "code": "null",
          "path": "Asset Management.Asset Reports.AssetImmovableRegister"
@@ -11293,7 +11293,7 @@
          "url": "/report/rainmaker-pt/_get",
          "displayName": "PT Report",
          "orderNumber": 0,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "PROPERTYREPORTS",
          "code": "null",
          "path": "Property Report"
@@ -11304,7 +11304,7 @@
          "url": "/report/rainmaker-pt/metadata/_get",
          "displayName": "PT Report",
          "orderNumber": 0,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "PROPERTYREPORTS",
          "code": "null",
          "path": "Property Report"
@@ -11510,7 +11510,7 @@
          "url": "/report/rainmaker-pgr/_get",
          "displayName": "PGR Report",
          "orderNumber": 0,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "PGRREPORTS",
          "code": "null",
          "path": "PGR Report"
@@ -13003,7 +13003,7 @@
          "url": "/report/rainmaker-tl/_get",
          "displayName": "TL Report",
          "orderNumber": 0,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "TLREPORTS",
          "code": "null",
          "path": "TL Report"
@@ -13014,7 +13014,7 @@
          "url": "/report/rainmaker-tl/metadata/_get",
          "displayName": "Rainmaker TL report metadata",
          "orderNumber": 1,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "TLREPORTS",
          "code": "null",
          "path": "TL Report Metadata "
@@ -14394,7 +14394,7 @@
          "url": "/report/rainmaker-common/_get",
          "displayName": "Universal Collection Report",
          "orderNumber": 0,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "REPORTS",
          "code": "null",
          "path": "UC Report"
@@ -14405,7 +14405,7 @@
          "url": "/report/rainmaker-common/metadata/_get",
          "displayName": "Universal Collection Report metadata",
          "orderNumber": 1,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "UCREPORTS",
          "code": "null",
          "path": "UC Collection Metadata "
@@ -14552,7 +14552,7 @@
          "url": "/report/rainmaker-noc/_get",
          "displayName": "FIRENOC Report",
          "orderNumber": 0,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "REPORTS",
          "code": "null",
          "path": "FIRENOC Report"
@@ -14563,7 +14563,7 @@
          "url": "/report/rainmaker-noc/metadata/_get",
          "displayName": "FIRENOC Report metadata",
          "orderNumber": 1,
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "FIRENOCREPORTS",
          "code": "null",
          "path": "FIRENOC Metadata "
@@ -15437,7 +15437,7 @@
          "displayName": "rainmaker-tl-StateLevelStatus",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15449,7 +15449,7 @@
          "displayName": "rainmaker-tl-StateLevelTradeWiseCollection",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15461,7 +15461,7 @@
          "displayName": "rainmaker-tl-StateLevelTradeLicenseRegistryReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15473,7 +15473,7 @@
          "displayName": "rainmaker-tl-TradeLicenseApplicationStatusReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": "Asset Management.Asset Reports.AssetImmovableRegister"
@@ -15485,7 +15485,7 @@
          "displayName": "rainmaker-tl-TradeWiseCollectionReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15497,7 +15497,7 @@
          "displayName": "rainmaker-tl-TradeLicenseRegistryReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15509,7 +15509,7 @@
          "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15521,7 +15521,7 @@
          "displayName": "rainmaker-pgr-ComplaintTypesReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": "1902"
@@ -15533,7 +15533,7 @@
          "displayName": "rainmaker-pgr-ULBDepartmentReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15545,7 +15545,7 @@
          "displayName": "rainmaker-CollectionRegister",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15557,7 +15557,7 @@
          "displayName": "rainmaker-tl-StateLevelStatus",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15569,7 +15569,7 @@
          "displayName": "rainmaker-tl-StateLevelTradeWiseCollection",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15581,7 +15581,7 @@
          "displayName": "rainmaker-tl-StateLevelTradeLicenseRegistryReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15593,7 +15593,7 @@
          "displayName": "rainmaker-tl-TradeLicenseApplicationStatusReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": "Asset Management.Asset Reports.AssetImmovableRegister"
@@ -15605,7 +15605,7 @@
          "displayName": "rainmaker-tl-TradeWiseCollectionReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15617,7 +15617,7 @@
          "displayName": "rainmaker-tl-TradeLicenseRegistryReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15629,7 +15629,7 @@
          "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15641,7 +15641,7 @@
          "displayName": "rainmaker-pgr-ComplaintTypesReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": "1902"
@@ -15653,7 +15653,7 @@
          "displayName": "rainmaker-pgr-ULBDepartmentReport",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15665,7 +15665,7 @@
          "displayName": "rainmaker-CollectionRegister",
          "orderNumber": 1,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "report",
          "code": "null",
          "path": ""
@@ -15964,7 +15964,7 @@
          "displayName": "Localization",
          "orderNumber": 5,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "",
          "code": "",
          "path": "Localization",
