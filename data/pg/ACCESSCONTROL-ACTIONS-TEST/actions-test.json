@@ -569,7 +569,7 @@
          "displayName": "Complaint Summary Register Report",
          "orderNumber": 5,
          "parentModule": "165",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "RPT",
          "code": "null",
          "path": "Grievance Redressal.Reports.Complaint Summary Register Report"
@@ -11024,7 +11024,7 @@
          "displayName": "All Complaints",
          "orderNumber": 1,
          "parentModule": "rainmaker-pgr",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "PGR",
          "code": "null",
          "path": "AllComplaints",
