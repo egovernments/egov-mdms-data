@@ -13,7 +13,7 @@
       "subscheme":"",
       "validFrom":1234567890,
       "validTo":2345678901,
-      "serviceAttributeMappingEnabled":true
+      "serviceAttributeMappingEnabled":true,
       "serviceAttributeUrl":"/property-services/property/_search",
       "serviceAttributeKey":"usageCategory",
       "serviceAttributeTaxHead" : "PT_TAX"
