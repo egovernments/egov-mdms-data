@@ -695,6 +695,20 @@
       "uniqueKeys": []
     }
   },
+   "NOC":{
+    "DocumentTypeMapping":{
+      "masterName": "DocumentTypeMapping",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+     "NocType":{
+      "masterName": "NocType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+       "$.code"
+      ]
+    }
+  },
   "TradeLicense": {
     "TradeType": {
       "masterName": "TradeType",
