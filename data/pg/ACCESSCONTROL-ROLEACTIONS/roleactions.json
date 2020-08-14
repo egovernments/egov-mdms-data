@@ -20988,6 +20988,24 @@
       "actionid": 1729,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2021,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2021,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2021,
+      "actioncode": "",
+      "tenantId": "pg"
     },{
       "rolecode": "AIRPORT_AUTHORITY_APPROVER",
       "actionid": 1730,
@@ -21035,69 +21053,58 @@
       "tenantId": "pg"
     },{
       "rolecode": "FIRE_NOC_APPROVER",
-      "actionid": 2022,
+      "actionid": 2021,
       "actioncode": "",
       "tenantId": "pg"
     },{
       "rolecode": "FIRE_NOC_APPROVER",
-      "actionid": 2023,
-      "actioncode": "",
-      "tenantId": "pg"
-    },{
-      "rolecode": "AIRPORT_AUTHORITY_APPROVER",
       "actionid": 2022,
       "actioncode": "",
       "tenantId": "pg"
     },{
       "rolecode": "AIRPORT_AUTHORITY_APPROVER",
-      "actionid": 2023,
-      "actioncode": "",
-      "tenantId": "pg"
-    },{
-      "rolecode": "BPA_ARCHITECT",
-      "actionid": 2001,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 2021,
       "actioncode": "",
       "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2001,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2022,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
+    },{
+      "rolecode": "AIRPORT_AUTHORITY_APPROVER",
       "actionid": 2022,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "BPA_ARCHITECT",
-      "actionid": 2023,
+      "actionid": 2020,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 2023,
+      "actionid": 2020,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid": 2023,
+      "actionid": 2020,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2022,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2022,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2022,
       "actioncode": "",
       "tenantId": "pg"
     }
