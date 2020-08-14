@@ -16402,6 +16402,49 @@
          "serviceCode": "localisation search",
          "code": "null",
          "path": ""
-      }
+      },
+      {
+      "id": 2020,
+      "name": "NOC Create",
+      "url": "/noc-services/v1/noc/_create",
+      "displayName": "Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NOC",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2021,
+      "name": "NOC Search",
+      "url": "/noc-services/v1/noc/_search",
+      "displayName": "Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NOC",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2022,
+      "name": "NOC Update",
+      "url": "/noc-services/v1/noc/_update",
+      "displayName": "Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NOC",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2025,
+      "name": "Locality searcher endpoint for Noc Servcies",
+      "url": "/egov-searcher/locality/noc-services/_get",
+      "displayName": "Noc locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
