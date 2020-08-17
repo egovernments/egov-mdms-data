@@ -43,7 +43,7 @@
     {
       "code": "OWNER.IDENTITYPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "dropdownData": [
@@ -73,7 +73,7 @@
     {
       "code": "OWNER.TRANSFERREASONDOCUMENT",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "dropdownData": [
@@ -123,7 +123,7 @@
     {
       "code": "OWNER.SPECIALCATEGORYPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
