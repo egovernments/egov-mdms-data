@@ -63,7 +63,7 @@
     {
       "code": "OWNER.IDENTITYPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
@@ -113,7 +113,7 @@
     {
       "code": "OWNER.REGISTRATIONPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
@@ -184,7 +184,7 @@
     {
       "code": "OWNER.SPECIALCATEGORYPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
@@ -256,7 +256,7 @@
     {
       "code": "OWNER.USAGEPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
@@ -313,7 +313,7 @@
     {
       "code": "OWNER.CONSTRUCTIONPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
