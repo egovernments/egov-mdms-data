@@ -853,6 +853,146 @@
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Education Cess Grants",
+      "code": "REV_GRANTS_EDU_CESS_GRANTS",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Govt. Aid for Primary Education",
+      "code": "REV_GRANTS_GOVT_AID_PRIM_EDU",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Family Welfare Grant",
+      "code": "REV_GRANTS_FAM_WF_GRANT",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Family Planning Aid from Central Government",
+      "code": "REV_GRANTS_FAM_PLANNIG_AID_CENT_GOVT",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "SJSRY Salary Grant",
+      "code": "REV_GRANTS_SJSRY_SAL_GRANT",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "DISP_FIXED_ASSET.LAND",
+      "name": "Land Fee",
+      "code": "DISP_FIXED_ASSET_LAND_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.LAND",
+      "name": "GST",
+      "code": "DISP_FIXED_ASSET_LAND_GST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.LAND",
+      "name": "Rebate",
+      "code": "DISP_FIXED_ASSET_LAND_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "DISP_FIXED_ASSET.BUILDING",
+      "name": "Buidling Fee",
+      "code": "DISP_FIXED_ASSET_BUILDING_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.BUILDING",
+      "name": "GST",
+      "code": "DISP_FIXED_ASSET_BUILDING_GST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.BUILDING",
+      "name": "Rebate",
+      "code": "DISP_FIXED_ASSET_BUILDING_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "name": "Vehicle Fee",
+      "code": "DISP_FIXED_ASSET_VEHICLE_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "name": "GST",
+      "code": "DISP_FIXED_ASSET_VEHICLE_GST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "name": "Rebate",
+      "code": "DISP_FIXED_ASSET_VEHICLE_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
