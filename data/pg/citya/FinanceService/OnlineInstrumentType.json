@@ -67,6 +67,30 @@
       "glcode": "4502001",
       "validFrom": 1234567890,
       "validTo": 2345678901
-    }
+    },
+      {
+            "glcode": "4502001",
+            "servicecode": "WS",
+            "validFrom": 1234567890,
+            "validTo": 2345678901
+        },
+        {
+            "glcode": "4502001",
+            "servicecode": "WS.ONE_TIME_FEE",
+            "validFrom": 1234567890,
+            "validTo": 2345678901
+        },
+        {
+            "glcode": "4502001",
+            "servicecode": "SW",
+            "validFrom": 1234567890,
+            "validTo": 2345678901
+        },
+        {
+            "glcode": "4502001",
+            "servicecode": "SW.ONE_TIME_FEE",
+            "validFrom": 1234567890,
+            "validTo": 2345678901
+        }
   ]
 }
