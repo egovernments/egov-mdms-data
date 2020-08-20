@@ -15412,6 +15412,33 @@
       "path": ""
     },
     {
+      "id": 2010,
+      "name": "Dashboard Water Sewerage",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/ws",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2011,
+      "name": "Dashboard Water Sewerage",
+      "url": "url",
+      "displayName": "Water Sewerage",
+      "orderNumber": 11,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Ws",
+      "navigationURL": "integration/dss/ws",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
       "id": 1902,
       "name": "StateLevelStatus",
       "url": "/report/rainmaker-tl/StateLevelStatus/metadata/_get",
