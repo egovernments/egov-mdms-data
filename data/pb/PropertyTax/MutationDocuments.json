@@ -73,7 +73,7 @@
     {
       "code": "OWNER.TRANSFERREASONDOCUMENT",
       "documentType": "OWNER",
-      "required": false,
+      "required": true,
       "active": true,
       "hasDropdown": true,
       "dropdownData": [
