@@ -534,11 +534,11 @@
       "idname": "pt.mutation.number"
     },
    {
-         "format": "WS.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+         "format": "WS/OTP/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
          "idname": "ws.one_time_fee.receipt.id"
     },
     {
-         "format": "SW.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+         "format": "SW/OTP/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
          "idname": "sw.one_time_fee.receipt.id"
     },
     {
