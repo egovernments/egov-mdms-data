@@ -31,6 +31,20 @@
       "module": "FIRENOC"
     },
     {
+      "id": "14",
+      "tenantId": "pb",
+     "finYearRange": "2020-21",
+      "name": "2020-21",
+      "code": "2020-21",
+      "startingDate": 1585679400000,
+      "endingDate": 1617175799000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "PT"
+    },
+    {
       "id": "7",
       "tenantId": "pb",
       "finYearRange": "2019-20",
@@ -198,20 +212,6 @@
       "isClosed": false,
       "transferClosingBalance": false,
       "module": "SW"
-    },
-    {
-      "id": "14",
-      "tenantId": "pb",
-     "finYearRange": "2020-21",
-      "name": "2020-21",
-      "code": "2020-21",
-      "startingDate": 1585679400000,
-      "endingDate": 1617175799000,
-      "active": true,
-      "isActiveForPosting": false,
-      "isClosed": false,
-      "transferClosingBalance": false,
-      "module": "PT"
     }
   ]
 }
