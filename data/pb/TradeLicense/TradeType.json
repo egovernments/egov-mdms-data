@@ -3,7 +3,7 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
-      "name": "Any other manufacturing or store house or plane of business not specified elsewhere form offersive or unwholees,smell,noise,or smoke",
+      "name": "Any other manufacturing or store house or plane of business not specified elsewhere form offersive or unwholees smell noise or smoke arise",
       "code": "GOODS.MANUFACTURE.TST-1",
       "uom": null,
       "applicationDocument": [
@@ -33,202 +33,6 @@
     {
       "name":"Atta Chakki",
       "code": "GOODS.MANUFACTURE.TST-2",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Bakery",
-      "code": "GOODS.MANUFACTURE.TST-3",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Brick Field,Brick Kiln",
-      "code": "GOODS.MANUFACTURE.TST-4",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Any other Manufacturing or store house of place of business not specified elsewhere from where offensive or unwholesome smell or smoke",
-      "code": "GOODS.MANUFACTURE.TST-5",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Atta Chakki",
-      "code": "GOODS.MANUFACTURE.TST-6",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Bakelite goods",
-      "code": "GOODS.MANUFACTURE.TST-7",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Bakery",
-      "code": "GOODS.MANUFACTURE.TST-8",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"Banking",
-      "code": "GOODS.MANUFACTURE.TST-9",
       "uom": null,
       "applicationDocument": [
         {
@@ -311,7 +115,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Brick Field,Brick Kiln",
+      "name":"Brick Field Brick Kiln",
       "code": "GOODS.MANUFACTURE.TST-12",
       "uom": null,
       "applicationDocument": [
@@ -507,7 +311,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Dyeing , Printing & Bleaching of Cloth,Yarn,Leather",
+      "name":"Dyeing Printing and Bleaching of Cloth Yarn Leather",
       "code": "GOODS.MANUFACTURE.TST-19",
       "uom": null,
       "applicationDocument": [
@@ -955,7 +759,7 @@
       "validityPeriod": null
     },
     {
-      "name":"fuel wood, coke and hard coke, katch kola",
+      "name":"fuel wood coke and hard coke katch kola",
       "code": "GOODS.RETAIL.TST-35",
       "uom": null,
       "applicationDocument": [
@@ -1123,7 +927,7 @@
       "validityPeriod": null
     },
     {
-      "name":"cloth containing nylon, terelene synthetic yarn, Terri wool woolen",
+      "name":"cloth containing nylon terelene synthetic yarn Terri wool woolen",
       "code": "GOODS.RETAIL.TST-41",
       "uom": null,
       "applicationDocument": [
@@ -1723,7 +1527,11 @@
             "OWNERPHOTO"
           ]
         },
-        {,
+        {
+          "applicationType": "RENEWAL",
+          "documentList": [
+            "OWNERIDPROOF",
+            "OWNERSHIPPROOF",
             "OWNERPHOTO",
             "OLDLICENCENO"
           ]
@@ -3331,7 +3139,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Leather goods ,Leather foam, Rexon and articles",
+      "name":"Leather goods Leather foam Rexon and articles",
       "code": "GOODS.RETAIL.TST-222",
       "uom": null,
       "applicationDocument": [
@@ -3387,7 +3195,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Cloth containing nylon, terelene synthetic yarn, Terri wool woolen",
+      "name":"Cloth containing nylon terelene synthetic yarn Terri wool woolen",
       "code": "GOODS.RETAIL.TST-224",
       "uom": null,
       "applicationDocument": [
@@ -3415,7 +3223,7 @@
       "validityPeriod": null
     },
     {
-      "name":"paints, turpentine all kinds, spirits colours, varnish, thinner oil , their trading",
+      "name":"paints turpentine all kinds spirits colours varnish thinner oil their trading",
       "code": "GOODS.WHOLESALE.TST-119",
       "uom": null,
       "applicationDocument": [
@@ -3499,7 +3307,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Kerosene oil, Mobil oil, crude oil, grease and all kinds lubricant oil",
+      "name":"Kerosene oil, Mobil oil crude oil grease and all kinds lubricant oil",
       "code": "GOODS.WHOLESALE.TST-122",
       "uom": null,
       "applicationDocument": [
@@ -3527,7 +3335,7 @@
       "validityPeriod": null
     },
     {
-      "name":"plywood modeling, mica and glass",
+      "name":"plywood modeling mica and glass",
       "code": "GOODS.WHOLESALE.TST-123",
       "uom": null,
       "applicationDocument": [
@@ -3555,7 +3363,7 @@
       "validityPeriod": null
     },
     {
-      "name":"fuel wood, coke and hard coke, katch kola",
+      "name":"fuel wood coke and hard coke katch kola",
       "code": "GOODS.WHOLESALE.TST-124",
       "uom": null,
       "applicationDocument": [
@@ -3779,7 +3587,7 @@
       "validityPeriod": null
     },
     {
-      "name":"mobile, computer",
+      "name":"mobile computer",
       "code": "GOODS.WHOLESALE.TST-132",
       "uom": null,
       "applicationDocument": [
@@ -3807,7 +3615,7 @@
       "validityPeriod": null
     },
     {
-      "name":"sanitary fitting including GI, CI Pipes, SW Pipes, AC Pipes, Cement Pipes",
+      "name":"sanitary fitting including GI CI Pipes SW Pipes AC Pipes Cement Pipes",
       "code": "GOODS.WHOLESALE.TST-133",
       "uom": null,
       "applicationDocument": [
@@ -3919,7 +3727,7 @@
       "validityPeriod": null
     },
     {
-      "name":"paper and goods made thereof, including books and magazines",
+      "name":"paper and goods made thereof including books and magazines",
       "code": "GOODS.WHOLESALE.TST-137",
       "uom": null,
       "applicationDocument": [
@@ -4059,7 +3867,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Candle, Dhoop, Aggarwatti",
+      "name":"Candle Dhoop Aggarwatti",
       "code": "GOODS.WHOLESALE.TST-142",
       "uom": null,
       "applicationDocument": [
@@ -4087,7 +3895,7 @@
       "validityPeriod": null
     },
     {
-      "name":"waste paper, bags",
+      "name":"waste paper bags",
       "code": "GOODS.WHOLESALE.TST-143",
       "uom": null,
       "applicationDocument": [
@@ -4143,7 +3951,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Dynamo, Batteries",
+      "name":"Dynamo Batteries",
       "code": "GOODS.WHOLESALE.TST-145",
       "uom": null,
       "applicationDocument": [
@@ -4199,7 +4007,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Vartan, Crockery and Gift house",
+      "name":"Vartan Crockery and Gift house",
       "code": "GOODS.WHOLESALE.TST-147",
       "uom": null,
       "applicationDocument": [
@@ -4227,7 +4035,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Hessian Cloth Jute and goods made thereof, Packing stuff",
+      "name":"Hessian Cloth Jute and goods made thereof Packing stuff",
       "code": "GOODS.WHOLESALE.TST-148",
       "uom": null,
       "applicationDocument": [
@@ -4255,7 +4063,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Petrol, Diesel ",
+      "name":"Petrol Diesel ",
       "code": "GOODS.WHOLESALE.TST-149",
       "uom": null,
       "applicationDocument": [
@@ -4283,7 +4091,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Gold and Silver jewelries, Goldsmith",
+      "name":"Gold and Silver jewelries Goldsmith",
       "code": "GOODS.WHOLESALE.TST-150",
       "uom": null,
       "applicationDocument": [
@@ -4339,7 +4147,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Grass, Chara, Bhusa, Kay Powder and Turri",
+      "name":"Grass Chara Bhusa Kay Powder and Turri",
       "code": "GOODS.WHOLESALE.TST-152",
       "uom": null,
       "applicationDocument": [
@@ -4367,7 +4175,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Oil seeds, fodder, Seeds and Cotton seeds",
+      "name":"Oil seeds fodder Seeds and Cotton seeds",
       "code": "GOODS.WHOLESALE.TST-153",
       "uom": null,
       "applicationDocument": [
@@ -4451,7 +4259,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Tyre,Tube",
+      "name":"TyreTube",
       "code": "GOODS.WHOLESALE.TST-156",
       "uom": null,
       "applicationDocument": [
@@ -4619,7 +4427,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Insecticides, Patricides and Fertilizers",
+      "name":"Insecticides Patricides and Fertilizers",
       "code": "GOODS.WHOLESALE.TST-162",
       "uom": null,
       "applicationDocument": [
@@ -4647,7 +4455,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Sirki, Bann, Khazoor, Patta, Munj, Ropes and Nylon Ropes",
+      "name":"Sirki Bann Khazoor Patta Munj Ropes and Nylon Ropes",
       "code": "GOODS.WHOLESALE.TST-163",
       "uom": null,
       "applicationDocument": [
@@ -4703,7 +4511,7 @@
       "validityPeriod": null
     },
     {
-      "name":"marble, cutting, grinding dressing polishing",
+      "name":"marble cutting grinding dressing polishing",
       "code": "GOODS.WHOLESALE.TST-165",
       "uom": null,
       "applicationDocument": [
@@ -4927,7 +4735,7 @@
       "validityPeriod": null
     },
     {
-      "name":"Any other store house not specified elsewhere from which offensive unwholesome smell, noise smoke",
+      "name":"Any other store house not specified elsewhere from which offensive unwholesome smell noise smoke",
       "code": "GOODS.WHOLESALE.TST-173",
       "uom": null,
       "applicationDocument": [
@@ -6215,36 +6023,8 @@
       "validityPeriod": null
     },
     {
-      "name":"workshop",
+      "name":"Workshop",
       "code": "SERVICES.NGBS.TST-219",
-      "uom": null,
-      "applicationDocument": [
-        {
-          "applicationType": "NEW",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO"
-          ]
-        },
-        {
-          "applicationType": "RENEWAL",
-          "documentList": [
-            "OWNERIDPROOF",
-            "OWNERSHIPPROOF",
-            "OWNERPHOTO",
-            "OLDLICENCENO"
-          ]
-        }
-      ],
-      "verificationDocument": [],
-      "active": true,
-      "type": "TL",
-      "validityPeriod": null
-    },
-    {
-      "name":"workshop",
-      "code": "SERVICES.NGBS.TST-220",
       "uom": null,
       "applicationDocument": [
         {
