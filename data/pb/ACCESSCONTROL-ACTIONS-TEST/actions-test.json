@@ -16747,6 +16747,66 @@
       "serviceCode": "pgr-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2010,
+      "name": "ULBReport",
+      "url": "url",
+      "displayName": "ULB Report",
+      "orderNumber": 6,
+      "parentModule": "pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.ULBReport",
+      "navigationURL": "report/pgr/ULBReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2011,
+      "name": "DescriptionReport",
+      "url": "url",
+      "displayName": "Description Report",
+      "orderNumber": 6,
+      "parentModule": "pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.DescriptionReport",
+      "navigationURL": "report/pgr/DescriptionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2012,
+      "name": "LMEPerformanceReport",
+      "url": "url",
+      "displayName": "LME Performance Report",
+      "orderNumber": 6,
+      "parentModule": "pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.LMEPerformanceReport",
+      "navigationURL": "report/pgr/LMEPerformanceReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2013,
+      "name": "GROPerformanceReport",
+      "url": "url",
+      "displayName": "GRO Performance Report",
+      "orderNumber": 6,
+      "parentModule": "pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.GROPerformanceReport",
+      "navigationURL": "report/pgr/GROPerformanceReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
     }
   ]
 }
