@@ -16807,6 +16807,54 @@
       "navigationURL": "report/pgr/GROPerformanceReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
+    },
+    {
+      "id": 2014,
+      "name": "PGR-DescriptionReport-Metadata",
+      "url": "/report/pgr/DescriptionReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+{
+      "id": 2015,
+      "name": "PGR-ULBReport-Metadata",
+      "url": "/report/pgr/ULBReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+{
+      "id": 2016,
+      "name": "PGR-LMEPerformanceReport-Metadata",
+      "url": "/report/pgr/LMEPerformanceReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+{
+      "id": 2017,
+      "name": "PGR-GROPerformanceReport-Metadata",
+      "url": "/report/pgr/GROPerformanceReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
     }
   ]
 }
