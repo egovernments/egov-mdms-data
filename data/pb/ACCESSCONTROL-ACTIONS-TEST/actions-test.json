@@ -16855,6 +16855,50 @@
       "serviceCode": "PGRReports",
       "code": "null",
       "path": "PGR Report"
+    },
+    {
+      "id": 2018,
+      "name": "ULBReport",
+      "url": "/report/pgr/ULBReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+{
+      "id": 2019,
+      "name": "DescriptionReport",
+      "url": "/report/pgr/DescriptionReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+{
+      "id": 2020,
+      "name": "LMEPerformanceReport",
+      "url": "/report/pgr/LMEPerformanceReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+{
+      "id": 2021,
+      "name": "GROPerformanceReport",
+      "url": "/report/pgr/GROPerformanceReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
     }
   ]
 }
