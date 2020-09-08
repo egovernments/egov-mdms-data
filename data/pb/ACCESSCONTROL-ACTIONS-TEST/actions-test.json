@@ -569,7 +569,7 @@
       "displayName": "Complaint Summary Register Report",
       "orderNumber": 5,
       "parentModule": "165",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "RPT",
       "code": "null",
       "path": "Grievance Redressal.Reports.Complaint Summary Register Report"
@@ -11012,7 +11012,7 @@
       "displayName": "Rainmaker PGR Report",
       "orderNumber": 1,
       "parentModule": "147",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "RainmakerPGRReports",
       "code": "null",
       "path": "Asset Management.Asset Reports.AssetImmovableRegister"
@@ -11315,7 +11315,7 @@
       "url": "/customization/protected/reports/lmereport",
       "displayName": "PGR LME Report",
       "orderNumber": 0,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "PGRCUSTOMREPORT",
       "code": "null",
       "path": "PGR Report"
@@ -15490,7 +15490,7 @@
       "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "report",
       "code": "null",
       "path": ""
@@ -15502,7 +15502,7 @@
       "displayName": "rainmaker-pgr-ComplaintTypesReport",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "report",
       "code": "null",
       "path": "1902"
@@ -15514,7 +15514,7 @@
       "displayName": "rainmaker-pgr-ULBDepartmentReport",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "report",
       "code": "null",
       "path": ""
