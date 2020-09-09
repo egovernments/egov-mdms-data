@@ -286,6 +286,71 @@
         ]
       },
       {
+        "key" : "LMEPerformanceReport",
+        "roleAttributeAccessList" : [
+          {
+            "roleCode" : "SUPERUSER",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+          {
+            "roleCode" : "GRO",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+          {
+            "roleCode" : "PGR_LME",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          }
+        ]
+      },
+     {
+        "key" : "GROPerformanceReport",
+        "roleAttributeAccessList" : [
+          {
+            "roleCode" : "SUPERUSER",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+        {
+            "roleCode" : "GRO",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "key" : "TradeLicenseRegistryReport",
         "roleAttributeAccessList" : [
           {
