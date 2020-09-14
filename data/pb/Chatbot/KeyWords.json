@@ -1,0 +1,85 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Chatbot",
+  "KeyWords": [
+    { "code" : "INTENT",
+      "synonyms": [
+        "pay",
+        "give",
+        "pay_up",
+        "ante_up",
+        "yield",
+        "bear",
+        "pay_off",
+        "make_up",
+        "compensate",
+        "devote",
+        "paid",
+        "nonrecreational",
+        "gainful",
+        "paying"
+      ],
+      "antonyms": [
+        "outstanding",
+        "remaining",
+        "due",
+        "balance",
+        "pending",
+        "incomplete",
+        "exhausted",
+        "default",
+        "unpaid"
+      ],
+      "quits": [
+        "quit",
+        "quits",
+        "leave",
+        "left",
+        "back",
+        "exit",
+        "exits",
+        "return",
+        "returns",
+        "discontinue",
+        "cease",
+        "drop",
+        "stop",
+        "stopped"
+      ],
+      "syn_past": [
+        "past",
+        "previous",
+        "old",
+        "history",
+        "complete",
+        "completed",
+        "done",
+        "preceding",
+        "former",
+        "late",
+        "chronicle",
+        "ended",
+        "completed",
+        "accomplished",
+        "realized"
+      ],
+      "not_paid": [
+        "paid",
+        "complete",
+        "done",
+        "given"
+      ],
+      "not_due": [
+        "due",
+        "remaining",
+        "pending",
+        "outstanding",
+        "balance"
+      ],
+      "not_to_be_paid": [
+        "paid",
+        "given"
+      ]
+    }
+  ]
+}
