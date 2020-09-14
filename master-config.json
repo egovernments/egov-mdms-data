@@ -1123,5 +1123,13 @@
       "isStateLevel": true,
       "uniqueKeys": []
     }
+  },
+  "Chatbot": {
+    "actions-test": {
+      "masterName": "KeyWords",
+      "isStateLevel": true,
+      "uniqueKeys": [
+      ]
+    }
   }
 }
