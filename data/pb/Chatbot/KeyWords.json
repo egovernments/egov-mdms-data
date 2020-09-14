@@ -2,7 +2,8 @@
   "tenantId": "pb",
   "moduleName": "Chatbot",
   "KeyWords": [
-    { "code" : "INTENT",
+    {
+      "code": "INTENT",
       "synonyms": [
         "pay",
         "give",
@@ -63,22 +64,44 @@
         "accomplished",
         "realized"
       ],
-      "not_paid": [
-        "paid",
-        "complete",
-        "done",
-        "given"
-      ],
-      "not_due": [
-        "due",
-        "remaining",
-        "pending",
-        "outstanding",
-        "balance"
-      ],
-      "not_to_be_paid": [
-        "paid",
-        "given"
+      "bigrams": [
+        {
+          "intent": "pending_payment",
+          "prefix": "not",
+          "values": [
+            "paid",
+            "complete",
+            "done",
+            "given"
+          ]
+        },
+        {
+          "intent": "show_bills",
+          "prefix": "not",
+          "values": [
+            "due",
+            "remaining",
+            "pending",
+            "outstanding",
+            "balance"
+          ]
+        },
+        {
+          "intent": "show_bills",
+          "prefix": "not to be",
+          "values": [
+            "paid",
+            "given"
+          ]
+        },
+        {
+          "intent": "pending_payment",
+          "prefix": "are to be",
+          "values": [
+            "paid",
+            "given"
+          ]
+        }
       ]
     }
   ]
