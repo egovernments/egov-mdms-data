@@ -10579,21 +10579,6 @@
       "path": "Asset Management.Asset Reports.AssetImmovableRegister"
     },
     {
-      "id": 1555,
-      "name": "AllComplaints",
-      "url": "url",
-      "displayName": "All Complaints",
-      "orderNumber": 1,
-      "parentModule": "rainmaker-pgr",
-      "enabled": true,
-      "serviceCode": "PGR",
-      "code": "null",
-      "path": "AllComplaints",
-      "navigationURL": "all-complaints",
-      "leftIcon": "custom:open-complaints",
-      "rightIcon": ""
-    },
-    {
       "id": 1556,
       "name": "Home",
       "url": "url",
