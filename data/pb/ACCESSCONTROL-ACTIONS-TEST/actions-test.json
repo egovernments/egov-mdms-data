@@ -198,139 +198,6 @@
       "code": "null",
       "path": "Asset Management.Asset Reports.LandRegister"
     },
-
-    {
-      "id": 424,
-      "name": "Search Escalation Time",
-      "url": "/workflow/escalation-hours/v1/_search",
-      "displayName": "Search Escalation Time",
-      "orderNumber": 2,
-      "parentModule": "168",
-      "enabled": true,
-      "serviceCode": "ESCLT",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Escalation Time.Search Escalation Time"
-    },
-    {
-      "id": 425,
-      "name": "Create Escalation",
-      "url": "/pgr-master/escalation/_create",
-      "displayName": "Create/Update Escalation",
-      "orderNumber": 1,
-      "parentModule": "169",
-      "enabled": true,
-      "serviceCode": "ESCL",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Escalation.Create Escalation"
-    },
-    {
-      "id": 427,
-      "name": "Search Escalation",
-      "url": "/pgr-master/escalation/_search",
-      "displayName": "Create/Update Bulk Escalation",
-      "orderNumber": 2,
-      "parentModule": "169",
-      "enabled": true,
-      "serviceCode": "ESCL",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Escalation.Search Escalation"
-    },
-    {
-      "id": 428,
-      "name": "Ageing Report",
-      "url": "/pgr-master/report/ageingReport",
-      "displayName": "Ageing By Boundary Report",
-      "orderNumber": 1,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Ageing Report"
-    },
-    {
-      "id": 429,
-      "name": "Drill Down Report",
-      "url": "/pgr-master/report/drillDownReport",
-      "displayName": "Drill Down By Boundary Report",
-      "orderNumber": 3,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Drill Down Report"
-    },
-    {
-      "id": 430,
-      "name": "Grievance Type Wise Report",
-      "url": "/pgr-master/report/grievanceTypeWiseReport",
-      "displayName": "Grievance Type Wise Report",
-      "orderNumber": 6,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Grievance Type Wise Report"
-    },
-    {
-      "id": 431,
-      "name": "Functionary Wise Report",
-      "url": "/pgr-master/report/functionaryWiseReport",
-      "displayName": "Functionary Wise Report",
-      "orderNumber": 7,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Functionary Wise Report"
-    },
-    {
-      "id": 432,
-      "name": "Router Escalation Report",
-      "url": "/pgr-master/report/routerEscalationReport",
-      "displayName": "Router Escalation Report",
-      "orderNumber": 8,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Router Escalation Report"
-    },
-    {
-      "id": 595,
-      "name": "Ageing By Department Report",
-      "url": "/pgr-master/report/ageingByDeptReport",
-      "displayName": "Ageing By Department Report",
-      "orderNumber": 2,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Ageing By Department Report"
-    },
-    {
-      "id": 596,
-      "name": "Drill Down By Department Report",
-      "url": "/pgr-master/report/drillDownByDeptReport",
-      "displayName": "Drill Down By Department Report",
-      "orderNumber": 4,
-      "parentModule": "165",
-      "enabled": true,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Drill Down By Department Report"
-    },
-    {
-      "id": 746,
-      "name": "Create Bulk Router",
-      "url": "/workflow/router/v1/_create",
-      "displayName": "Create Bulk Router",
-      "orderNumber": 4,
-      "parentModule": "167",
-      "enabled": true,
-      "serviceCode": "RUTR",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Router.Create Bulk Router"
-    },
     {
       "id": 1076,
       "name": "Supplier Create",
@@ -4091,30 +3958,6 @@
       "path": "Access Control.Get All Actions"
     },
     {
-      "id": 602,
-      "name": "ConnectionBillingTypeAPI",
-      "url": "/wcms-connection/connection/_getconnectiontypes",
-      "displayName": "Search BillingType",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.ConnectionBillingTypeAPI"
-    },
-    {
-      "id": 603,
-      "name": "ConnectionConnectionType",
-      "url": "/wcms-connection/connection/_getbillingtypes",
-      "displayName": "Search ConnectionType",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.ConnectionConnectionType"
-    },
-    {
       "id": 604,
       "name": "SearchUser",
       "url": "/user/_search",
@@ -4135,42 +3978,6 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.CreateUsernovalidate"
-    },
-    {
-      "id": 609,
-      "name": "SearchApplicationTypeApi",
-      "url": "/wcms/masters/master/_getapplicationtypes",
-      "displayName": "Search Application Type",
-      "orderNumber": 1,
-      "parentModule": "195",
-      "enabled": false,
-      "serviceCode": "DOCUMENTAPPLICATION",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.DocumentApplication.SearchApplicationTypeApi"
-    },
-    {
-      "id": 610,
-      "name": "SearchReservoirTypesApi",
-      "url": "/wcms/masters/master/_getreservoirtypes",
-      "displayName": "Search Resevoir Types",
-      "orderNumber": 2,
-      "parentModule": "200",
-      "enabled": false,
-      "serviceCode": "STORAGERESERVOIR",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.StorageReservoir.SearchReservoirTypesApi"
-    },
-    {
-      "id": 611,
-      "name": "SearchPlantTypesApi",
-      "url": "/wcms/masters/master/_getplanttypes",
-      "displayName": "Search Plant Types",
-      "orderNumber": 3,
-      "parentModule": "201",
-      "enabled": false,
-      "serviceCode": "TREATMENTPLANT",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.TreatmentPlant.SearchPlantTypesApi"
     },
     {
       "id": 612,
@@ -4303,42 +4110,6 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.GenerateNumber"
-    },
-    {
-      "id": 624,
-      "name": "Search Escalation Hierarchy",
-      "url": "/pgr-master/escalation-hierarchy/v1/_search",
-      "displayName": "Search Escalation Hierarchy",
-      "orderNumber": 1,
-      "parentModule": "169",
-      "enabled": false,
-      "serviceCode": "ESCL",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Escalation.Search Escalation Hierarchy"
-    },
-    {
-      "id": 625,
-      "name": "Update Escalation Hierarchy",
-      "url": "/pgr-master/escalation-hierarchy/v1/_update",
-      "displayName": "Update Escalation Hierarchy",
-      "orderNumber": 1,
-      "parentModule": "169",
-      "enabled": false,
-      "serviceCode": "ESCL",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Escalation.Update Escalation Hierarchy"
-    },
-    {
-      "id": 626,
-      "name": "Create Escalation Hierarchy",
-      "url": "/pgr-master/escalation-hierarchy/v1/_create",
-      "displayName": "Create Escalation Hierarchy",
-      "orderNumber": 1,
-      "parentModule": "169",
-      "enabled": false,
-      "serviceCode": "ESCL",
-      "code": "null",
-      "path": "Grievance Redressal.Masters.Escalation.Create Escalation Hierarchy"
     },
     {
       "id": 627,
@@ -5613,18 +5384,6 @@
       "path": "Employee Management.Leave Management.Leave Mapping.LeaveMappingUpdateById"
     },
     {
-      "id": 742,
-      "name": "UpdateLicenseCategory",
-      "url": "/tl-masters/category/v1/_update",
-      "displayName": "Update License Category",
-      "orderNumber": 1,
-      "parentModule": "256",
-      "enabled": false,
-      "serviceCode": "LICENSECATEGORY",
-      "code": "null",
-      "path": "Trade License.License Masters.License Category.UpdateLicenseCategory"
-    },
-    {
       "id": 743,
       "name": "UpdateReceipt",
       "url": "/collection-services/receipts/_update",
@@ -5659,135 +5418,6 @@
       "serviceCode": "AssetDepreciation",
       "code": "null",
       "path": "Asset Management.Asset Transactions.Asset Depreciation.AssetDepreciationCreateService"
-    },
-    {
-      "id": 750,
-      "name": "UpdateTLSUBCATEGORY",
-      "url": "/tl-masters/category/v1/_update",
-      "displayName": "Update Sub Category",
-      "orderNumber": 3,
-      "parentModule": "258",
-      "enabled": false,
-      "serviceCode": "TLSUBCATEGORY",
-      "code": "null",
-      "path": "Trade License.License Masters.License Sub Category.UpdateTLSUBCATEGORY"
-    },
-    {
-      "id": 754,
-      "name": "UpdateTLUOM",
-      "url": "/tl-masters/uom/v1/_update",
-      "displayName": "Update Unit of Measurement",
-      "orderNumber": 3,
-      "parentModule": "259",
-      "enabled": false,
-      "serviceCode": "TLUOM",
-      "code": "null",
-      "path": "Trade License.License Masters.License Unit of Measurement.UpdateTLUOM"
-    },
-    {
-      "id": 758,
-      "name": "UpdateTLDOCUMENTTYPE",
-      "url": "/tl-masters/documenttype/v2/_update",
-      "displayName": "Update Document Type",
-      "orderNumber": 3,
-      "parentModule": "260",
-      "enabled": false,
-      "serviceCode": "TLDOCUMENTTYPE",
-      "code": "null",
-      "path": "Trade License.License Masters.License Document Type.UpdateTLDOCUMENTTYPE"
-    },
-    {
-      "id": 762,
-      "name": "UpdateTLPENALTYRATE",
-      "url": "/tl-masters/penaltyrate/v1/_update",
-      "displayName": "Update Penalty Rate",
-      "orderNumber": 3,
-      "parentModule": "261",
-      "enabled": false,
-      "serviceCode": "TLPENALTYRATE",
-      "code": "null",
-      "path": "Trade License.License Masters.License Penalty Rate.UpdateTLPENALTYRATE"
-    },
-    {
-      "id": 766,
-      "name": "UpdateTLFEEMATRIX",
-      "url": "/tl-masters/feematrix/v1/_update",
-      "displayName": "Update Fee Matrix",
-      "orderNumber": 3,
-      "parentModule": "262",
-      "enabled": false,
-      "serviceCode": "TLFEEMATRIX",
-      "code": "null",
-      "path": "Trade License.License Masters.License Fee Matrix.UpdateTLFEEMATRIX"
-    },
-    {
-      "id": 767,
-      "name": "Create ST Config",
-      "url": "/pgr-master/servicetypeconfiguration/v1/_create",
-      "servicecode": "STCONFIG",
-      "parentmodule": "263",
-      "ordernumber": 1,
-      "displayname": "Create ServiceType Configuration",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.STConfiguration.Create ST Config"
-    },
-    {
-      "id": 768,
-      "name": "Update ST Config",
-      "url": "/pgr-master/servicetypeconfiguration/v1/_update",
-      "servicecode": "STCONFIG",
-      "parentmodule": "263",
-      "ordernumber": 3,
-      "displayname": "Update ServiceType Configuration",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.STConfiguration.Update ST Config"
-    },
-    {
-      "id": 769,
-      "name": "Search ST Config",
-      "url": "/pgr-master/servicetypeconfiguration/v1/_search",
-      "servicecode": "STCONFIG",
-      "parentmodule": "263",
-      "ordernumber": 2,
-      "displayname": "Search ServiceType Configuration",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.STConfiguration.Search ST Config"
-    },
-    {
-      "id": 770,
-      "name": "CreateLicenseStatus",
-      "url": "/tl-masters/status/v1/_create",
-      "displayName": "Create License Status",
-      "orderNumber": 1,
-      "parentModule": "264",
-      "enabled": false,
-      "serviceCode": "TLSTATUS",
-      "code": "null",
-      "path": "Trade License.License Masters.TL Status.CreateLicenseStatus"
-    },
-    {
-      "id": 771,
-      "name": "SearchLicenseStatus",
-      "url": "/tl-masters/status/v1/_search",
-      "displayName": "Search License  Status",
-      "orderNumber": 1,
-      "parentModule": "264",
-      "enabled": false,
-      "serviceCode": "TLSTATUS",
-      "code": "null",
-      "path": "Trade License.License Masters.TL Status.SearchLicenseStatus"
-    },
-    {
-      "id": 772,
-      "name": "UpdateLicenseStatus",
-      "url": "/tl-masters/status/v1/_update",
-      "displayName": "Update License  Status",
-      "orderNumber": 1,
-      "parentModule": "264",
-      "enabled": false,
-      "serviceCode": "TLSTATUS",
-      "code": "null",
-      "path": "Trade License.License Masters.TL Status.UpdateLicenseStatus"
     },
     {
       "id": 781,
@@ -5872,17 +5502,6 @@
       "path": "Collection.Collection Masters.GetBusinessTypes"
     },
     {
-      "id": 790,
-      "name": "Service Definition Search",
-      "url": "/pgr-master/servicedefinition/v1/_search",
-      "servicecode": "SDS",
-      "parentmodule": "270",
-      "ordernumber": 1,
-      "displayname": "Service Definition Search",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.SDS.Service Definition Search"
-    },
-    {
       "id": 791,
       "name": "PrepareDCBForDataEntry",
       "url": "/pt-property/properties/_preparedcb",
@@ -5892,29 +5511,6 @@
       "serviceCode": "EXIST_PROPERTY",
       "code": "null",
       "path": "Property Tax.Existing Property.PrepareDCBForDataEntry"
-    },
-    {
-      "id": 792,
-      "name": "Update Service Type",
-      "url": "/pgr-master/service/v2/_update",
-      "servicecode": "STU",
-      "parentmodule": "271",
-      "ordernumber": 1,
-      "displayname": "Update Service Type",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.STU.Update Service Type"
-    },
-    {
-      "id": 794,
-      "name": "LegacyAddOrEditDemandupdate",
-      "url": "/wcms-connection/connection/_leacydemand",
-      "displayName": "LegacyAddOrEditDemandupdate",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.LegacyAddOrEditDemandupdate"
     },
     {
       "id": 798,
