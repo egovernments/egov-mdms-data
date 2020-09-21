@@ -4969,28 +4969,6 @@
       "path": "Collection.Collection Transactions.Chart Of Accounts"
     },
     {
-      "id": 785,
-      "name": "Create Service Definition Config",
-      "url": "/pgr-master/servicedefinition/v1/_create",
-      "servicecode": "SDCONFIG",
-      "parentmodule": "266",
-      "ordernumber": 1,
-      "displayname": "Create Service Definition Configuration",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.SDConfiguration.Create Service Definition Config"
-    },
-    {
-      "id": 786,
-      "name": "Create Service Type",
-      "url": "/pgr-master/service/v2/_create",
-      "servicecode": "STCREATE",
-      "parentmodule": "267",
-      "ordernumber": 1,
-      "displayname": "Create Service Type",
-      "enabled": false,
-      "path": "Grievance Redressal.Masters.STCreate.Create Service Type"
-    },
-    {
       "id": 789,
       "name": "GetBusinessTypes",
       "url": "/egov-common-masters/businessDetails/_getBusinessTypes",
@@ -5047,42 +5025,6 @@
       "serviceCode": "EIS",
       "code": "null",
       "path": "Employee Management.SearchEmployeeAssignments"
-    },
-    {
-      "id": 801,
-      "name": "Pgr Report MetaData",
-      "url": "/report/pgr/metadata/_get",
-      "displayName": "Get Pgr Report Metadata",
-      "orderNumber": 1,
-      "parentModule": "165",
-      "enabled": false,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Pgr Report MetaData"
-    },
-    {
-      "id": 802,
-      "name": "Pgr Report",
-      "url": "/report/pgr/_get",
-      "displayName": "Get Pgr Report",
-      "orderNumber": 1,
-      "parentModule": "165",
-      "enabled": false,
-      "serviceCode": "RPT",
-      "code": "null",
-      "path": "Grievance Redressal.Reports.Pgr Report"
-    },
-    {
-      "id": 803,
-      "name": "Report Reload",
-      "url": "/report/_reload",
-      "displayName": "Report Reload",
-      "orderNumber": 1,
-      "parentModule": "274",
-      "enabled": false,
-      "serviceCode": "CRPT",
-      "code": "null",
-      "path": "Common Report.Report Reload"
     },
     {
       "id": 804,
@@ -9427,39 +9369,6 @@
       "path": "Employee Management.Employee Masters.Employee.SearchEmployee"
     },
     {
-      "id": 1535,
-      "name": "Create Property v2",
-      "url": "/pt-services-v2/property/_create",
-      "displayName": "Create property",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "pt-services-v2",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1536,
-      "name": "Update Property v2",
-      "url": "/pt-services-v2/property/_update",
-      "displayName": "Update property",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "pt-services-v2",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1537,
-      "name": "Search Property v2",
-      "url": "/pt-services-v2/property/_search",
-      "displayName": "Search property",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "pt-services-v2",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1538,
       "name": "ConstructionSubType",
       "url": "url",
@@ -9857,18 +9766,6 @@
       "serviceCode": "PropertytaxCalculatorV2",
       "code": "null",
       "path": "null"
-    },
-    {
-      "id": 1569,
-      "name": "DraftUpdate",
-      "url": "/pt-services-v2/drafts/_update",
-      "displayName": "Draft Create",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": false,
-      "serviceCode": "pt-services-v2",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1570,
