@@ -3,18 +3,6 @@
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
     {
-      "id": 1170,
-      "name": "LandRegister",
-      "url": "/report/asset/metadata/_get",
-      "displayName": "Land Register",
-      "orderNumber": 4,
-      "parentModule": "147",
-      "enabled": true,
-      "serviceCode": "AssetReports",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.LandRegister"
-    },
-    {
       "id": 1076,
       "name": "Supplier Create",
       "url": "/inventory-services/suppliers/_create",
@@ -2444,55 +2432,6 @@
       "path": "Employee Management.Employee Masters.Position.PositionUpdate"
     },
     {
-      "id": 324,
-      "name": "Get all service type categories",
-      "url": "/pgr/servicecategories/v1/_search",
-      "displayName": "Get all service type categories",
-      "orderNumber": 0,
-      "queryParams": "tenantId=",
-      "parentModule": "PGR",
-      "enabled": false,
-      "serviceCode": "PGR",
-      "code": "null",
-      "path": "Grievance Redressal.Get all service type categories"
-    },
-    {
-      "id": 327,
-      "name": "AssetRegisterReportsSearchPage",
-      "url": "/app/common/search-asset-register-report.html",
-      "displayName": "Asset Register Report",
-      "orderNumber": 1,
-      "parentModule": "147",
-      "enabled": false,
-      "serviceCode": "AssetReports",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.AssetRegisterReportsSearchPage"
-    },
-    {
-      "id": 328,
-      "name": "SearchAssetRegisterReports",
-      "url": "/asset-services/assets/_search",
-      "displayName": "Asset Register Report",
-      "orderNumber": 1,
-      "parentModule": "147",
-      "enabled": false,
-      "serviceCode": "AssetReports",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.SearchAssetRegisterReports"
-    },
-    {
-      "id": 334,
-      "name": "Update Escalation Time Type",
-      "url": "/workflow/escalation-hours/v1/_update",
-      "displayName": "updateEscalationTimeType",
-      "orderNumber": 0,
-      "parentModule": "pgr",
-      "enabled": false,
-      "serviceCode": "pgr",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 344,
       "name": "NomineeSearch",
       "url": "/hr-employee/nominees/_search",
@@ -2641,51 +2580,6 @@
       "serviceCode": "Employee Movement",
       "code": "null",
       "path": "Employee Management.Employee Movement.Search Movement Transfer Types"
-    },
-    {
-      "id": 420,
-      "name": "AssetConfigurationService",
-      "url": "/asset-services/assetconfigurations/_search",
-      "displayName": "Asset Configuration Service",
-      "orderNumber": 1,
-      "parentModule": "66",
-      "enabled": false,
-      "serviceCode": "Asset Management",
-      "code": "null",
-      "path": "Asset Management.AssetConfigurationService"
-    },
-    {
-      "id": 511,
-      "name": "ModifyAssetCategoryService",
-      "url": "/asset-services/assetCategories/_update",
-      "displayName": "Modify Asset Category",
-      "orderNumber": 3,
-      "enabled": false,
-      "serviceCode": "Asset Category",
-      "code": "null",
-      "path": "Asset Management.Asset Masters.Asset Category.ModifyAssetCategoryService"
-    },
-    {
-      "id": 512,
-      "name": "GetDepreciationMethodService",
-      "url": "/asset-services/GET_DEPRECIATION_METHOD",
-      "displayName": "Get Asset Depreciation Methods",
-      "orderNumber": 3,
-      "enabled": false,
-      "serviceCode": "Asset Masters",
-      "code": "null",
-      "path": "Asset Management.Asset Masters.GetDepreciationMethodService"
-    },
-    {
-      "id": 513,
-      "name": "GetModeOfAcquisitionService",
-      "url": "/asset-services/GET_MODE_OF_ACQUISITION",
-      "displayName": "Get Asset Mode of Acquisition",
-      "orderNumber": 3,
-      "enabled": false,
-      "serviceCode": "Asset Masters",
-      "code": "null",
-      "path": "Asset Management.Asset Masters.GetModeOfAcquisitionService"
     },
     {
       "id": 515,
@@ -4897,30 +4791,6 @@
       "path": "Collection.Collection Transactions.UpdateReceipt"
     },
     {
-      "id": 744,
-      "name": "UpdateNewConnectionAPI",
-      "url": "/wcms-connection/connection/_update",
-      "displayName": "Update Connection",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.UpdateNewConnectionAPI"
-    },
-    {
-      "id": 745,
-      "name": "AssetDepreciationCreateService",
-      "url": "/asset-services/assets/depreciations/_create",
-      "displayName": "Create Asset Depreciation",
-      "orderNumber": 1,
-      "parentModule": "257",
-      "enabled": false,
-      "serviceCode": "AssetDepreciation",
-      "code": "null",
-      "path": "Asset Management.Asset Transactions.Asset Depreciation.AssetDepreciationCreateService"
-    },
-    {
       "id": 781,
       "name": "GetDistinctCollectedBy",
       "url": "/collection-services/receipts/_getDistinctCollectedBy",
@@ -5075,18 +4945,6 @@
       "path": "Billing Service.BS_GetDemandDues"
     },
     {
-      "id": 814,
-      "name": "WorkflowForWCMS",
-      "url": "/wc/application/update/{stateId}",
-      "displayName": "WorkFlow WCMS",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.WorkflowForWCMS"
-    },
-    {
       "id": 815,
       "name": "HR Report MetaData",
       "url": "/report/hr/metadata/_get",
@@ -5192,98 +5050,6 @@
       "path": "Property Tax.PTIS Reports.PT Report Metadata"
     },
     {
-      "id": 842,
-      "name": "WaterCharges Metadata",
-      "url": "/report/wcms/metadata/_get",
-      "displayName": "Water Charges Metadata Report",
-      "orderNumber": 1,
-      "parentModule": "285",
-      "enabled": false,
-      "serviceCode": "WCMS REPORTS",
-      "code": "null",
-      "path": "Water Charge.Wcms Reports.WaterCharges Metadata"
-    },
-    {
-      "id": 843,
-      "name": "WaterCharges Get",
-      "url": "/report/wcms/_get",
-      "displayName": "Water Charges Get Report",
-      "orderNumber": 2,
-      "parentModule": "285",
-      "enabled": false,
-      "serviceCode": "WCMS REPORTS",
-      "code": "null",
-      "path": "Water Charge.Wcms Reports.WaterCharges Get"
-    },
-    {
-      "id": 844,
-      "name": "Citizen Metadata",
-      "url": "/report/citizen/metadata/_get",
-      "displayName": "Citizen Metadata Report",
-      "orderNumber": 3,
-      "parentModule": "223",
-      "enabled": false,
-      "serviceCode": "WCMS REPORTS",
-      "code": "null",
-      "path": "Water Charge.Wcms Reports.Citizen Metadata"
-    },
-    {
-      "id": 845,
-      "name": "Citizen Get",
-      "url": "/report/citizen/_get",
-      "displayName": "Citizen Get Report",
-      "orderNumber": 4,
-      "parentModule": "223",
-      "enabled": false,
-      "serviceCode": "WCMS REPORTS",
-      "code": "null",
-      "path": "Water Charge.Wcms Reports.Citizen Get"
-    },
-    {
-      "id": 853,
-      "name": "SearchGapcodeFormulaMaster",
-      "url": "/wcms/masters/gapcodes/formula/_search",
-      "displayName": "View Gapcode Formulas",
-      "orderNumber": 4,
-      "enabled": false,
-      "serviceCode": "GAPCODEMASTER",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.Gapcode Master.SearchGapcodeFormulaMaster"
-    },
-    {
-      "id": 854,
-      "name": "SearchGapcodeLastmonthMaster",
-      "url": "/wcms/masters/gapcodes/lastmonths/_search",
-      "displayName": "View Gapcode LastMonths",
-      "orderNumber": 5,
-      "enabled": false,
-      "serviceCode": "GAPCODEMASTER",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.Gapcode Master.SearchGapcodeLastmonthMaster"
-    },
-    {
-      "id": 855,
-      "name": "SearchGapcodeLogicMaster",
-      "url": "/wcms/masters/gapcodes/logic/_search",
-      "displayName": "View Gapcode Logic",
-      "orderNumber": 6,
-      "enabled": false,
-      "serviceCode": "GAPCODEMASTER",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.Gapcode Master.SearchGapcodeLogicMaster"
-    },
-    {
-      "id": 862,
-      "name": "SearchWaterChargeConfigurationMaster",
-      "url": "/wcms/masters/waterchargesconfig/_search",
-      "displayName": "Search Configuration",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "WATERCHARGESCONFIGURATIONMASTER",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.Configuration Master.SearchWaterChargeConfigurationMaster"
-    },
-    {
       "id": 867,
       "name": "CreateBulkEmployees",
       "url": "/hr-employee/employees/_bulkcreate",
@@ -5330,30 +5096,6 @@
       "serviceCode": "LOCATION_MS",
       "code": "null",
       "path": "Location.SearchHierarchyTypes"
-    },
-    {
-      "id": 878,
-      "name": "MeterOwnerTypesAPI",
-      "url": "/wcms-connection/connection/_getmeterownertypes",
-      "displayName": "Get Meter Owner Types",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.MeterOwnerTypesAPI"
-    },
-    {
-      "id": 879,
-      "name": "MeterModelTypesAPI",
-      "url": "/wcms-connection/connection/_getmetermodeltypes",
-      "displayName": "Get Meter Model Types",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.MeterModelTypesAPI"
     },
     {
       "id": 883,
@@ -5584,18 +5326,6 @@
       "path": "Trade License.License Transactions.SearchTLConfigurations"
     },
     {
-      "id": 919,
-      "name": "WCFlushMasterData",
-      "url": "/wcms-connection/connection/_flushMasterData",
-      "displayName": "Flush Master Data Maps",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.WCFlushMasterData"
-    },
-    {
       "id": 926,
       "name": "FinancialstatusesSearch",
       "url": "/egf-master/financialstatuses/_search",
@@ -5618,53 +5348,6 @@
       "serviceCode": "ChartofaccountsSearch",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 931,
-      "name": "AssetDepreciationReportService",
-      "url": "/asset-services/assets/depreciations/_search",
-      "displayName": "Asset Depreciation Report",
-      "orderNumber": 1,
-      "parentModule": "257",
-      "enabled": false,
-      "serviceCode": "AssetReports",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.AssetDepreciationReportService"
-    },
-    {
-      "id": 935,
-      "name": "WCServiceType",
-      "url": "/wcms/masters/master/_getservicetypes",
-      "displayName": "Service Type",
-      "orderNumber": 1,
-      "parentModule": "287",
-      "enabled": false,
-      "serviceCode": "SERVICECHARGEMASTER",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.ServiceCharge Master.WCServiceType"
-    },
-    {
-      "id": 936,
-      "name": "WCServiceChargeType",
-      "url": "/wcms/masters/master/_getservicechargetypes",
-      "displayName": "Service Charge Type",
-      "orderNumber": 2,
-      "parentModule": "287",
-      "enabled": false,
-      "serviceCode": "SERVICECHARGEMASTER",
-      "code": "null",
-      "path": "Water Charge.WCMS Masters.ServiceCharge Master.WCServiceChargeType"
-    },
-    {
-      "id": 937,
-      "name": "updateDCBForDataEntry",
-      "url": "/pt-property/properties/_updatedcb",
-      "displayName": "Update DCB For Data Entry",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "EXIST_PROPERTY",
-      "code": "null",
-      "path": "Property Tax.Existing Property.updateDCBForDataEntry"
     },
     {
       "id": 938,
@@ -5701,42 +5384,6 @@
       "serviceCode": "VOUCHERSUBTYPE",
       "code": "null",
       "path": "VOUCHERSUBTYPE SERVICE.VoucherSubTypeSearch"
-    },
-    {
-      "id": 941,
-      "name": "ConnectionDocumentDataCreate",
-      "url": "/wcms-connection/documents/_create",
-      "displayName": "ConnectionDocumentDataCreate",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.ConnectionDocumentDataCreate"
-    },
-    {
-      "id": 942,
-      "name": "ConnectionDocumentDataSearch",
-      "url": "/wcms-connection/documents/_search",
-      "displayName": "ConnectionDocumentDataSearch",
-      "orderNumber": 2,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.ConnectionDocumentDataSearch"
-    },
-    {
-      "id": 943,
-      "name": "WCDocumentType",
-      "url": "/wcms-connection/connection/_getDocumentTypes",
-      "displayName": "WCDocumentType",
-      "orderNumber": 1,
-      "parentModule": "158",
-      "enabled": false,
-      "serviceCode": "Water Charge",
-      "code": "null",
-      "path": "Water Charge.Water Transactions.WCDocumentType"
     },
     {
       "id": 944,
@@ -5868,52 +5515,6 @@
       "path": "Employee Management.GetAttendance"
     },
     {
-      "id": 962,
-      "name": "Top ComplaintTypes",
-      "url": "/pgr/dashboard/complainttype",
-      "displayName": "Top ComplaintTypes",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "DSHBRD",
-      "code": "null",
-      "path": "Grievance Redressal.Dashboards.Top ComplaintTypes"
-    },
-    {
-      "id": 963,
-      "name": "CreateAssetServiceMaha",
-      "url": "/asset-services-maha/assets/_create",
-      "displayName": "Create Asset Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 964,
-      "name": "ViewAssetServiceMaha",
-      "url": "/asset-services-maha/assets/_search",
-      "displayName": "View Asset Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 965,
-      "name": "ComplaintTypes Ageing",
-      "url": "/pgr/dashboard/ageing",
-      "displayName": "ComplaintTypes Ageing",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "DSHBRD",
-      "code": "null",
-      "path": "Grievance Redressal.Dashboards.ComplaintTypes Ageing"
-    },
-    {
       "id": 966,
       "name": "CalendarHolidayTypesSearch",
       "url": "/egov-common-masters/holidaytypes/_search",
@@ -5936,30 +5537,6 @@
       "serviceCode": "Calendar",
       "code": "null",
       "path": "Employee Management.Employee Masters.CalendarSetUp.FutureCalendarYearSearch"
-    },
-    {
-      "id": 968,
-      "name": "CreateAssetCurrentValueServiceMaha",
-      "url": "/asset-services-maha/assets/currentvalues/_create",
-      "displayName": "Create AssetCurrentValue Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 969,
-      "name": "ViewAsseturrentValueServiceMaha",
-      "url": "/asset-services-maha/assets/currentvalues/_search",
-      "displayName": "View AssetCurrentValue Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 976,
@@ -6008,29 +5585,6 @@
       "serviceCode": "LOCATION_MS",
       "code": "null",
       "path": "Location.Update HierarchyType"
-    },
-    {
-      "id": 981,
-      "name": "ImmovableRegisterMetadata",
-      "url": "/report/asset/metadata/_get",
-      "displayName": "Immovable Asset Register Metadata",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 985,
-      "name": "Top Five ComplaintTypes",
-      "url": "/pgr/dashboard/complainttype/topfive",
-      "displayName": "Top Five ComplaintTypes",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "DSHBRD",
-      "code": "null",
-      "path": "Grievance Redressal.Dashboards.Top Five ComplaintTypes"
     },
     {
       "id": 991,
@@ -6365,17 +5919,6 @@
       "serviceCode": "LEGALCASEREPORTS",
       "code": "null",
       "path": "Legal Case Management.Legal Case Reports.Legal Case Report"
-    },
-    {
-      "id": 1040,
-      "name": "ModifyAssetServiceMaha",
-      "url": "/asset-services-maha/assets/_update",
-      "displayName": "Modify Asset Service Maha",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1042,
@@ -6893,78 +6436,6 @@
       "path": "Inventory.Inventory Transactions.Transfer Outwards.Transfer Outwards Search"
     },
     {
-      "id": 1149,
-      "name": "CreateAssetRevaluationServiceMaha",
-      "url": "/asset-services-maha/assets/revaluation/_create",
-      "displayName": "Create AssetRevaluation Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1150,
-      "name": "ViewAssetRevaluationServiceMaha",
-      "url": "/asset-services-maha/assets/revaluation/_search",
-      "displayName": "View AssetRevaluation Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1151,
-      "name": "ModifyAssetRevaluationServiceMaha",
-      "url": "/asset-services-maha/assets/revaluation/_update",
-      "displayName": "Modify AssetRevaluation Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1152,
-      "name": "CreateAssetDisposalServiceMaha",
-      "url": "/asset-services-maha/assets/dispose/_create",
-      "displayName": "Create AssetDisposal Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1153,
-      "name": "ViewAssetDisposalServiceMaha",
-      "url": "/asset-services-maha/assets/dispose/_search",
-      "displayName": "View AssetDisposal Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1154,
-      "name": "ModifyAssetDisposalServiceMaha",
-      "url": "/asset-services-maha/assets/dispose/_update",
-      "displayName": "Modify AssetDisposal Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1156,
       "name": "Case No Search",
       "url": "/lcms-services/legalcase/caseno/_search",
@@ -6975,30 +6446,6 @@
       "serviceCode": "CASENOSEARCH",
       "code": "null",
       "path": "Legal Case Management.Legal Case Transactions.Case.Case No Search.Case No Search"
-    },
-    {
-      "id": 1164,
-      "name": "CreateAssetDepreciationServiceMaha",
-      "url": "/asset-services-maha/assets/depreciations/_create",
-      "displayName": "Create AssetDepreciation Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1165,
-      "name": "ViewAssetDepreciationServiceMaha",
-      "url": "/asset-services-maha/assets/depreciations/_search",
-      "displayName": "View AssetDepreciation Service Maha",
-      "orderNumber": 1,
-      "parentModule": "309",
-      "enabled": false,
-      "serviceCode": "Asset Service",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1174,
@@ -9559,30 +9006,6 @@
       "serviceCode": "pt-calculator-v2",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 1553,
-      "name": "RainmakerPGRReportMetadata",
-      "url": "/report/rainmaker-pgr/metadata/_get",
-      "displayName": "Rainmaker PGR report metadata",
-      "orderNumber": 1,
-      "parentModule": "147",
-      "enabled": false,
-      "serviceCode": "RainmakerPGRReports",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
-    },
-    {
-      "id": 1554,
-      "name": "RainmakerPGRReport",
-      "url": "/rainmaker-pgr/v1/reports/_get",
-      "displayName": "Rainmaker PGR Report",
-      "orderNumber": 1,
-      "parentModule": "147",
-      "enabled": false,
-      "serviceCode": "RainmakerPGRReports",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
     },
     {
       "id": 1556,
