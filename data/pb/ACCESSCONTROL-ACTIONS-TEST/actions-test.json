@@ -696,42 +696,6 @@
       "path": "Location.Search Boundary"
     },
     {
-      "id": 628,
-      "name": "CreateTenant",
-      "url": "/tenant/v1/tenant/_create",
-      "displayName": "Create Tenant",
-      "orderNumber": 1,
-      "parentModule": "224",
-      "enabled": false,
-      "serviceCode": "TENANT",
-      "code": "null",
-      "path": "Tenant.CreateTenant"
-    },
-    {
-      "id": 629,
-      "name": "UpdateTenant",
-      "url": "/tenant/v1/tenant/_update",
-      "displayName": "Update Tenant",
-      "orderNumber": 1,
-      "parentModule": "224",
-      "enabled": false,
-      "serviceCode": "TENANT",
-      "code": "null",
-      "path": "Tenant.UpdateTenant"
-    },
-    {
-      "id": 630,
-      "name": "SearchTenant",
-      "url": "/tenant/v1/tenant/_search",
-      "displayName": "Search Tenant",
-      "orderNumber": 1,
-      "parentModule": "224",
-      "enabled": false,
-      "serviceCode": "TENANT",
-      "code": "null",
-      "path": "Tenant.SearchTenant"
-    },
-    {
       "id": 631,
       "name": "createAccountDetailKey_Master",
       "url": "/egf-master/accountdetailkeys/_create",
