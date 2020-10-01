@@ -8494,7 +8494,7 @@
     {
       "id": 2006,
       "name": "Create PGR Request",
-      "url": "/pgr-services/v2/requests/_create",
+      "url": "/pgr-services/v2/request/_create",
       "parentModule": "",
       "displayName": "Create PGR Request",
       "orderNumber": 0,
@@ -8506,7 +8506,7 @@
     {
       "id": 2007,
       "name": "Update PGR Request",
-      "url": "/pgr-services/v2/requests/_update",
+      "url": "/pgr-services/v2/request/_update",
       "parentModule": "",
       "displayName": "Update PGR Request",
       "orderNumber": 0,
@@ -8518,7 +8518,7 @@
     {
       "id": 2008,
       "name": "Search PGR Request",
-      "url": "/pgr-services/v2/requests/_search",
+      "url": "/pgr-services/v2/request/_search",
       "parentModule": "",
       "displayName": "Search PGR Request",
       "orderNumber": 0,
@@ -8530,7 +8530,7 @@
     {
       "id": 2009,
       "name": "Search PGR Request",
-      "url": "/pgr-services/v2/requests/_count",
+      "url": "/pgr-services/v2/request/_count",
       "parentModule": "",
       "displayName": "Count PGR Request",
       "orderNumber": 0,
