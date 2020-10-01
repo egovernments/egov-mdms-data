@@ -1,7 +1,8 @@
 {
     "tenantId": "pg",
     "moduleName": "common-masters",
-    "IdFormat": [{
+    "IdFormat": [
+        {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "watercharges.metered.receipt.id"
         },
@@ -25,7 +26,7 @@
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "tx.no_dues_certificate.receipt.id"
         },
-                 {
+        {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "tx.electricity_chungi.receipt.id"
         },
@@ -412,13 +413,11 @@
         {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "advt.test_munadi_fee.receipt.id"
-
         },
         {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "tx.property_tax_2013-14.receipt.id"
         },
-
         {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "other.noc_fee.receipt.id"
@@ -460,8 +459,8 @@
             "idname": "pt.propertyid"
         },
         {
-            "format":"PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
-             "idname":"egov.idgen.bpa.applicationNum"
+            "format": "PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
+            "idname": "egov.idgen.bpa.applicationNum"
         },
         {
             "format": "BR/ENG/[cy:yyyy]/[SEQ_EG_PT_LN]",
@@ -492,69 +491,72 @@
             "idname": "bpareg.receipt.id"
         },
         {
-             "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-             "idname": "bpa.nc_app_fee.receipt.id"
+            "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "bpa.nc_app_fee.receipt.id"
         },
         {
-             "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-             "idname": "bpa.nc_san_fee.receipt.id"
-         },
-         {
+            "format": "BPA/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "bpa.nc_san_fee.receipt.id"
+        },
+        {
             "format": "PG-MU-[cy:yyyy-MM-dd]-[SEQ_EG_PT_ASSM]",
             "idname": "pt.mutation.receipt.id"
-         },
-         {
+        },
+        {
             "format": "PG-MT-[CITY]-[SEQ_EG_PT_MUTATION]",
             "idname": "pt.mutation.number"
-         },
-         {
+        },
+        {
             "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_CON_[TENANT_ID]]",
-             "idname": "waterservice.connection.id"
-         },
-         {
-             "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_CON_[TENANT_ID]]",
-             "idname": "sewerageservice.connection.id"
-         },
-         {
+            "idname": "waterservice.connection.id"
+        },
+        {
+            "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_CON_[TENANT_ID]]",
+            "idname": "sewerageservice.connection.id"
+        },
+        {
             "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_BILL_RCPT_[TENANT_ID]]",
-             "idname": "ws.receipt.id"
-         },
-         {
+            "idname": "ws.receipt.id"
+        },
+        {
             "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT_[TENANT_ID]]",
-             "idname": "sw.receipt.id"
-         },
-         {
-             "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
+            "idname": "sw.receipt.id"
+        },
+        {
+            "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
             "idname": "waterservice.application.id"
-         },
-         {
+        },
+        {
             "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
-             "idname": "sewerageservice.application.id"
-         },
-         {
+            "idname": "sewerageservice.application.id"
+        },
+        {
             "format": "WS.ONE_TIME_FEE/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_FEE_RCPT_[TENANT_ID]]",
             "idname": "ws.one_time_fee.receipt.id"
-         },
-         {
-             "format": "SW.ONE_TIME_FEE/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_FEE_RCPT_[TENANT_ID]]",
+        },
+        {
+            "format": "SW.ONE_TIME_FEE/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_FEE_RCPT_[TENANT_ID]]",
             "idname": "sw.one_time_fee.receipt.id"
-         },
-         {
+        },
+        {
             "format": "PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
             "idname": "bpa.low_risk_permit_fee.receipt.id"
-         },
-          {
-              "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-              "idname": "bpa.nc_oc_app_fee.receipt.id"
-            },
-            {
-              "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
-              "idname": "bpa.nc_oc_san_fee.receipt.id"
-            },
-              {
-              "format":"PB-NOCSRV-[cy:yyyy-MM-dd]-[SEQ_EG_NOC_APN]",
-              "idname":"noc.application.number"
-            }
-      
+        },
+        {
+            "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "bpa.nc_oc_app_fee.receipt.id"
+        },
+        {
+            "format": "BPA/OC/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "bpa.nc_oc_san_fee.receipt.id"
+        },
+        {
+            "format": "PG-NOCSRV-[cy:yyyy-MM-dd]-[SEQ_EG_NOC_APN]",
+            "idname": "noc.application.number"
+        },
+        {
+            "format": "PG-PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
+            "idname": "pgr.servicerequestid"
+        }
     ]
 }
