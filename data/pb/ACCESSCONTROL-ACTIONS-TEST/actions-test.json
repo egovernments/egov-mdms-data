@@ -67,90 +67,6 @@
       "path": "Boundary Module.Search Boundary by boundaryId"
     },
     {
-      "id": 192,
-      "name": "CalendarSearch",
-      "url": "/egov-common-masters/calendaryears/_search",
-      "displayName": "CalendarSearch",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "Calendar",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarSetUp.CalendarSearch"
-    },
-    {
-      "id": 194,
-      "name": "CreateHoliday",
-      "url": "/egov-common-masters/holidays/_create",
-      "displayName": "CreateHoliday",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "CalendarHolidays",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarHolidaysSetUp.CreateHoliday"
-    },
-    {
-      "id": 196,
-      "name": "UpdateHoliday",
-      "url": "/egov-common-masters/holidays/{id}/_update",
-      "displayName": "UpdateHoliday",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "CalendarHolidays",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarHolidaysSetUp.UpdateHoliday"
-    },
-    {
-      "id": 198,
-      "name": "CalendarHolidaysSearch",
-      "url": "/egov-common-masters/holidays/_search",
-      "displayName": "CalendarHolidaysSearch",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "CalendarHolidays",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarHolidaysSetUp.CalendarHolidaysSearch"
-    },
-    {
-      "id": 202,
-      "name": "CommonLanguages",
-      "url": "/egov-common-masters/languages/_search",
-      "displayName": "CommonLanguages",
-      "orderNumber": 0,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CommonLanguages"
-    },
-    {
-      "id": 203,
-      "name": "CommonReligions",
-      "url": "/egov-common-masters/religions/_search",
-      "displayName": "CommonReligions",
-      "orderNumber": 0,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CommonReligions"
-    },
-    {
-      "id": 207,
-      "name": "CommonDepartmentsSearch",
-      "url": "/egov-common-masters/departments/_search",
-      "displayName": "CommonDepartmentsSearch",
-      "orderNumber": 0,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CommonDepartmentsSearch"
-    },
-    {
       "id": 253,
       "name": "Get Boundary by Boundary Type",
       "url": "/egov-location/boundarys/getByBoundaryType",
@@ -355,78 +271,6 @@
       "path": ""
     },
     {
-      "id": 285,
-      "name": "Holidays",
-      "url": "/egov-common-masters/holidays",
-      "displayName": "Holidays",
-      "orderNumber": 0,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.Holidays"
-    },
-    {
-      "id": 290,
-      "name": "BoundarySearch",
-      "url": "/boundarys",
-      "displayName": "BoundarySearch",
-      "orderNumber": 0,
-      "parentModule": "67",
-      "enabled": false,
-      "serviceCode": "LOCATION_MS",
-      "code": "null",
-      "path": "Location.BoundarySearch"
-    },
-    {
-      "id": 296,
-      "name": "SearchUomService",
-      "url": "/egov-common-masters/uoms/_search",
-      "displayName": "Search UOM",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EGOV Common Masters",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 297,
-      "name": "SearchUomCategoriesService",
-      "url": "/egov-common-masters/uomcategories/_search",
-      "displayName": "Search Uom Categories",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EGOV Common Masters",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 353,
-      "name": "SearchGender",
-      "url": "/egov-common-masters/genders/_search",
-      "displayName": "SearchGender",
-      "orderNumber": 0,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.SearchGender"
-    },
-    {
-      "id": 355,
-      "name": "SearchRelationship",
-      "url": "/egov-common-masters/relationships/_search",
-      "displayName": "SearchRelationship",
-      "orderNumber": 0,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.SearchRelationship"
-    },
-    {
       "id": 570,
       "name": "createInstrument",
       "url": "/egf-instrument/instruments/_create",
@@ -569,39 +413,6 @@
       "serviceCode": "Surrender Reason",
       "code": "null",
       "path": "Financials.Instrument.Instrument Masters.Surrender Reason.searchSurrenderReason"
-    },
-    {
-      "id": 582,
-      "name": "SearchCategories",
-      "url": "/egov-common-masters/categories/_search",
-      "displayName": "Search Categories",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "Category",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.Category.SearchCategories"
-    },
-    {
-      "id": 583,
-      "name": "SearchBloodGroups",
-      "url": "/egov-common-masters/bloodgroups/_search",
-      "displayName": "Search Blood Groups",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.SearchBloodGroups"
-    },
-    {
-      "id": 584,
-      "name": "SearchMaritalStatuses",
-      "url": "/egov-common-masters/maritalstatuses/_search",
-      "displayName": "Search Marital Statuses",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.SearchMaritalStatuses"
     },
     {
       "id": 594,
@@ -1848,17 +1659,6 @@
       "path": "Location.isShapeFileExist"
     },
     {
-      "id": 733,
-      "name": "SearchModules",
-      "url": "/egov-common-masters/modules/_search",
-      "displayName": "Search Modules",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "EIS Masters",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.SearchModules"
-    },
-    {
       "id": 734,
       "name": "StartWorkflow",
       "url": "/collection-services/receipts-workflow/_start",
@@ -1941,30 +1741,6 @@
       "code": "null",
       "leftIcon": "editor:collections",
       "path": "Collection.Collection Transactions.Chart Of Accounts"
-    },
-    {
-      "id": 789,
-      "name": "GetBusinessTypes",
-      "url": "/egov-common-masters/businessDetails/_getBusinessTypes",
-      "displayName": "Business Types",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "COLLECTION-MASTERS",
-      "code": "null",
-      "leftIcon": "editor:collections",
-      "path": "Collection.Collection Masters.GetBusinessTypes"
-    },
-    {
-      "id": 798,
-      "name": "Update Department",
-      "url": "/egov-common-masters/departments/v1/_update",
-      "displayName": "Update Department",
-      "orderNumber": 2,
-      "parentModule": "273",
-      "enabled": false,
-      "serviceCode": "DEPT",
-      "code": "null",
-      "path": "Administration.Department.Update Department"
     },
     {
       "id": 804,
@@ -2358,30 +2134,6 @@
       "path": ""
     },
     {
-      "id": 966,
-      "name": "CalendarHolidayTypesSearch",
-      "url": "/egov-common-masters/holidaytypes/_search",
-      "displayName": "CalendarHolidayTypesSearch",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "CalendarHolidays",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarHolidaysSetUp.CalendarHolidayTypesSearch"
-    },
-    {
-      "id": 967,
-      "name": "FutureCalendarYearSearch",
-      "url": "/egov-common-masters/calendaryears/_searchfutureyears",
-      "displayName": "FutureCalendarYearSearch",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "Calendar",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarSetUp.FutureCalendarYearSearch"
-    },
-    {
       "id": 976,
       "name": "Update Boundary",
       "url": "/egov-location/boundarys/{code}",
@@ -2497,42 +2249,6 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.UpdateUserWithoutValidation"
-    },
-    {
-      "id": 795,
-      "name": "Create Department",
-      "url": "/egov-common-masters/departments/v1/_create",
-      "displayName": "Create Department",
-      "orderNumber": 1,
-      "parentModule": "273",
-      "enabled": true,
-      "serviceCode": "DEPT",
-      "code": "null",
-      "path": "Administration.Department.Create Department"
-    },
-    {
-      "id": 796,
-      "name": "Modify Department",
-      "url": "/egov-common-masters/departments/v1/_search",
-      "displayName": "Modify Department",
-      "orderNumber": 2,
-      "parentModule": "273",
-      "enabled": true,
-      "serviceCode": "DEPT",
-      "code": "null",
-      "path": "Administration.Department.Modify Department"
-    },
-    {
-      "id": 797,
-      "name": "View Department",
-      "url": "/egov-common-masters/departments/v1/_search",
-      "displayName": "View Department",
-      "orderNumber": 3,
-      "parentModule": "273",
-      "enabled": true,
-      "serviceCode": "DEPT",
-      "code": "null",
-      "path": "Administration.Department.View Department"
     },
     {
       "id": 1426,
@@ -4400,45 +4116,6 @@
       "url": "/egov-common-masters/businessCategory/_search",
       "parentModule": "",
       "displayName": "business category search",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "Collections",
-      "code": "null",
-      "path": "",
-      "navigationURL": ""
-    },
-    {
-      "id": 1676,
-      "name": "businessDetails search",
-      "url": "/egov-common-masters/businessDetails/_search",
-      "parentModule": "",
-      "displayName": "",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "Collections",
-      "code": "null",
-      "path": "",
-      "navigationURL": ""
-    },
-    {
-      "id": 1677,
-      "name": "business category create",
-      "url": "/egov-common-masters/businessCategory/_create",
-      "parentModule": "",
-      "displayName": "business category search",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "Collections",
-      "code": "null",
-      "path": "",
-      "navigationURL": ""
-    },
-    {
-      "id": 1678,
-      "name": "businessDetails create",
-      "url": "/egov-common-masters/businessDetails/_create",
-      "parentModule": "",
-      "displayName": "",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "Collections",
