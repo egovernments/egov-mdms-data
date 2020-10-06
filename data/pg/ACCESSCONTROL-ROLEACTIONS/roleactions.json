@@ -13683,6 +13683,24 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "PT_DOC_VERIFIER",
+      "actionid": 1896,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_FIELD_INSPECTOR",
+      "actionid": 1896,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_APPROVER",
+      "actionid": 1896,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "CITIZEN",
       "actionid": 1897,
       "actioncode": "",
@@ -13841,6 +13859,18 @@
     {
       "rolecode": "WS_CEMP",
       "actionid": 1935,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2022,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2023,
       "actioncode": "",
       "tenantId": "pg"
     },
