@@ -7,7 +7,7 @@
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
-      "arrears": true,
+      "arrears": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
