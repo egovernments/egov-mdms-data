@@ -137,23 +137,33 @@
     },
     {
       "code": "COURTORDER",
-      "active": true
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
     },
     {
       "code": "SELFDECLARATION",
-      "active": true
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
     },
     {
       "code": "GOVTNOTIFICATION",
-      "active": true
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
     },
     {
       "code": "OFFICENOTEORDER",
-      "active": true
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
     },
     {
       "code": "GOVTNOTIFICATION",
-      "active": true
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
     }
   ]
 }
