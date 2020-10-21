@@ -134,6 +134,26 @@
       "code" : "OLDLICENCENO",
       "allowedFormat" : ["image/*", ".pdf", ".png", ".jpeg"],
       "maxFileSize": 6000
+    },
+    {
+      "code": "COURTORDER",
+      "active": true
+    },
+    {
+      "code": "SELFDECLARATION",
+      "active": true
+    },
+    {
+      "code": "GOVTNOTIFICATION",
+      "active": true
+    },
+    {
+      "code": "OFFICENOTEORDER",
+      "active": true
+    },
+    {
+      "code": "GOVTNOTIFICATION",
+      "active": true
     }
   ]
 }
