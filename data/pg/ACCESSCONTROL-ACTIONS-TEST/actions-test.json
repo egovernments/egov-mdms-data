@@ -15715,6 +15715,20 @@
          "path": ""
       },
       {
+      "id": 1929,
+      "name": "TradeLicenseApplication",
+      "url": "quickAction",
+      "displayName": "Apply TL",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "navigationURL": "tradelicence/search?action=showRequiredDocuments",
+      "path": "TradeLicense.Apply",
+      "leftIcon": "places:business-center"
+    },
+      {
          "id": 1932,
          "name": "BPA-PermitOrderEDCR Report",
          "url": "/bpa-services/_permitorderedcr",
