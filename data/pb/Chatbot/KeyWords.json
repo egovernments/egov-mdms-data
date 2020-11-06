@@ -18,7 +18,8 @@
         "paid",
         "nonrecreational",
         "gainful",
-        "paying"
+        "paying",
+        "given"
       ],
       "antonyms": [
         "outstanding",
@@ -42,7 +43,6 @@
         "return",
         "returns",
         "discontinue",
-        "cease",
         "drop",
         "stop",
         "stopped"
@@ -62,7 +62,9 @@
         "ended",
         "completed",
         "accomplished",
-        "realized"
+        "realized",
+        "receipt",
+        "receipts"
       ],
       "bigrams": [
         {
@@ -72,7 +74,13 @@
             "paid",
             "complete",
             "done",
-            "given"
+            "given",
+            "past",
+            "old",
+            "completed",
+            "ended",
+            "accomplished",
+            "realized"
           ]
         },
         {
@@ -83,7 +91,10 @@
             "remaining",
             "pending",
             "outstanding",
-            "balance"
+            "balance",
+            "incomplete",
+            "default",
+            "unpaid"
           ]
         },
         {
@@ -96,7 +107,7 @@
         },
         {
           "intent": "pending_payment",
-          "prefix": "are to be",
+          "prefix": "to be",
           "values": [
             "paid",
             "given"
