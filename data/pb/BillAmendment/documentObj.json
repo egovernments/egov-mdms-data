@@ -1,87 +1,223 @@
 {
-    "tenantId": "pb",
-    "moduleName": "BillAmendment",
-    "documentObj": [
-      {
-        "allowedDocs": [
-          {
-            "documentType": "COURTORDER",
-            "demandRevisionBasis": [
-              "COURTCASESETTLEMENT"
-            ],
-            "required": true
-          },
-          {
-            "documentType": "SELFDECLARATION",
-            "demandRevisionBasis": [
-              "COURTCASESETTLEMENT"
-            ],
-            "required": true
-          }
-        ]
-      },
-      {
-        "allowedDocs": [
-          {
-            "documentType": "GOVTNOTIFICATION",
-            "demandRevisionBasis": [
-              "ARREARSWRITEOFF"
-            ],
-            "required": true
-          }
-        ]
-      },
-      {
-        "allowedDocs": [
-          {
-            "documentType": "OFFICENOTEORDER",
-            "demandRevisionBasis": [
-              "DCBCORRECTION"
-            ],
-            "required": true
-          }
-        ]
-      },
-      {
-        "allowedDocs": [
-          {
-            "documentType": "GOVTNOTIFICATION",
-            "demandRevisionBasis": [
-              "ONETIMESETTLEMENT"
-            ],
-            "required": true
-          }
-        ]
-      },
-      {
-        "allowedDocs": [
-          {
-            "documentType": "OFFICENOTEORDER",
-            "demandRevisionBasis": [
-              "REMISSIONFORPT"
-            ],
-            "required": true
-          },
-          {
-            "documentType": "SELFDECLARATION",
-            "demandRevisionBasis": [
-              "REMISSIONFORPT"
-            ],
-            "required": true
-          }
-        ]
-      },
-      {
-        "allowedDocs": [
-          {
-            "documentType": "SELFDECLARATION",
-            "demandRevisionBasis": [
-              "OTHERS"
-            ],
-            "required": true
-          }
-        ]
-      }
-    ]
-  }
-  
+  "tenantId": "pb",
+  "moduleName": "BillAmendment",
+  "documentObj": [
+    {
+      "allowedDocs": [
+        {
+          "documentType": "COURTORDER",
+          "demandRevisionBasis": [
+            "COURTCASESETTLEMENT"
+          ],
+          "required": true
+        },
+           {
+          "documentType": "PASTBILLS",
+          "demandRevisionBasis": [
+            "COURTCASESETTLEMENT"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "IDENTITYPROOF",
+          "demandRevisionBasis": [
+            "COURTCASESETTLEMENT"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "ADDRESSPROOF",
+          "demandRevisionBasis": [
+            "COURTCASESETTLEMENT"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "SELFDECLARATION",
+          "demandRevisionBasis": [
+            "COURTCASESETTLEMENT"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "GOVTNOTIFICATION",
+          "demandRevisionBasis": [
+            "ARREARSWRITEOFF"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "PASTBILLS",
+          "demandRevisionBasis": [
+            "ARREARSWRITEOFF"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "IDENTITYPROOF",
+          "demandRevisionBasis": [
+            "ARREARSWRITEOFF"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "ADDRESSPROOF",
+          "demandRevisionBasis": [
+            "ARREARSWRITEOFF"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OFFICENOTEORDER",
+          "demandRevisionBasis": [
+            "DCBCORRECTION"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "PASTBILLS",
+          "demandRevisionBasis": [
+            "DCBCORRECTION"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "IDENTITYPROOF",
+          "demandRevisionBasis": [
+            "DCBCORRECTION"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "ADDRESSPROOF",
+          "demandRevisionBasis": [
+            "DCBCORRECTION"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "GOVTNOTIFICATION",
+          "demandRevisionBasis": [
+            "ONETIMESETTLEMENT"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "PASTBILLS",
+          "demandRevisionBasis": [
+            "ONETIMESETTLEMENT"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "IDENTITYPROOF",
+          "demandRevisionBasis": [
+            "ONETIMESETTLEMENT"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "ADDRESSPROOF",
+          "demandRevisionBasis": [
+            "ONETIMESETTLEMENT"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OFFICENOTEORDER",
+          "demandRevisionBasis": [
+            "REMISSIONFORPT"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "IDENTITYPROOF",
+          "demandRevisionBasis": [
+            "TAX"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "ADDRESSPROOF",
+          "demandRevisionBasis": [
+            "TAX"
+          ],
+          "required": true  
+        },
+        {
+          "documentType": "SELFDECLARATION",
+          "demandRevisionBasis": [
+            "TAX"
+          ],
+          "required": true  
+        },
+        {
+          "documentType": "PASTBILLS",
+          "demandRevisionBasis": [
+            "TAX"
+          ],
+          "required": true  
+        }
+      ]
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "SELFDECLARATION",
+          "demandRevisionBasis": [
+            "OTHERS"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "SUPPORTINGDOCUMENT",
+          "demandRevisionBasis": [
+            "OTHERS"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "PASTBILLS",
+          "demandRevisionBasis": [
+            "OTHERS"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "IDENTITYPROOF",
+          "demandRevisionBasis": [
+            "OTHERS"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "ADDRESSPROOF",
+          "demandRevisionBasis": [
+            "OTHERS"
+          ],
+          "required": true
+        }
+      ]
+    }
+  ]
+}
