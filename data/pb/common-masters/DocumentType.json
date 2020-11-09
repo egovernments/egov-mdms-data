@@ -134,6 +134,36 @@
       "code" : "OLDLICENCENO",
       "allowedFormat" : ["image/*", ".pdf", ".png", ".jpeg"],
       "maxFileSize": 6000
+    },
+    {
+      "code": "COURTORDER",
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
+    },
+    {
+      "code": "SELFDECLARATION",
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
+    },
+    {
+      "code": "GOVTNOTIFICATION",
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
+    },
+    {
+      "code": "OFFICENOTEORDER",
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
+    },
+    {
+      "code": "GOVTNOTIFICATION",
+      "active": true,
+      "allowedFormat" : ["image/*", ".png", ".jpeg"],
+      "maxFileSize": 3000
     }
   ]
 }
