@@ -145,36 +145,31 @@
             "REMISSIONFORPT"
           ],
           "required": true
-        }
-      ]
-    },
-    {
-      "allowedDocs": [
-        {
+        },        {
           "documentType": "IDENTITYPROOF",
           "demandRevisionBasis": [
-            "TAX"
+            "REMISSIONFORPT"
           ],
           "required": true
         },
         {
           "documentType": "ADDRESSPROOF",
           "demandRevisionBasis": [
-            "TAX"
+            "REMISSIONFORPT"
           ],
           "required": true  
         },
         {
           "documentType": "SELFDECLARATION",
           "demandRevisionBasis": [
-            "TAX"
+            "REMISSIONFORPT"
           ],
           "required": true  
         },
         {
           "documentType": "PASTBILLS",
           "demandRevisionBasis": [
-            "TAX"
+            "REMISSIONFORPT"
           ],
           "required": true  
         }
