@@ -8742,6 +8742,18 @@
       "leftIcon": "action:receipt",
       "rightIcon": "",
       "queryParams": ""
-    }
+    },
+    {
+      "id": 2027,
+      "name": "WorkflowProcessCount",
+      "url": "/egov-workflow-v2/egov-wf/process/_count",
+      "displayName": "Workflow Count",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+   }
   ]
 }
