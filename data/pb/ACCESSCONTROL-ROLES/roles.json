@@ -13,6 +13,11 @@
       "description": "Default role for all employees"
     },
     {
+      "code": "HRMS ADMIN TEST",
+      "name": "hrms admin test",
+      "description": "This for admin of Hrms"
+    },
+    {
       "code": "SUPERUSER",
       "name": "Super User",
       "description": "System Administrator. Can change all master data and has access to all the system screens."
