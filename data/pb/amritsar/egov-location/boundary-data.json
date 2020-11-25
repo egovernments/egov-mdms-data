@@ -595,7 +595,17 @@
                     "label": "Locality",
                     "code": "SUN194",
                     "area": "Area1",
-                    "children": []}
+                    "children": []},
+                    { "id": 58,
+                      "boundaryNum": 1,
+                      "name": "अजीत नगर - एरिया 1",
+                      "localname": "अजीत नगर - एरिया 1",
+                      "longitude": null,
+                      "latitude": null,
+                      "label": "Locality",
+                      "code": "SUN04",
+                      "area": "Area1",
+                      "children": []}
                 ]
               }
             ]
@@ -1196,7 +1206,17 @@
                     "label": "Locality",
                     "code": "SUN194",
                     "area": "A1",
-                    "children": []}
+                    "children": []},
+                    { "id": 58,
+                      "boundaryNum": 1,
+                      "name": "अजीत नगर",
+                      "localname": "अजीत नगर",
+                      "longitude": null,
+                      "latitude": null,
+                      "label": "Locality",
+                      "code": "SUN04",
+                      "area": "A1",
+                      "children": []}
                 ]
               }
             ]
