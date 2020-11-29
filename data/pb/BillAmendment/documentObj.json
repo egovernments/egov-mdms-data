@@ -6,6 +6,8 @@
       "allowedDocs": [
         {
           "documentType": "COURTORDER",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "COURTCASESETTLEMENT"
           ],
@@ -15,6 +17,8 @@
         },
            {
           "documentType": "PASTBILLS",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "COURTCASESETTLEMENT"
           ],
@@ -24,6 +28,8 @@
         },
         {
           "documentType": "IDENTITYPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "COURTCASESETTLEMENT"
           ],
@@ -77,6 +83,8 @@
         },
         {
           "documentType": "ADDRESSPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "COURTCASESETTLEMENT"
           ],
@@ -130,6 +138,8 @@
         },
         {
           "documentType": "SELFDECLARATION",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "COURTCASESETTLEMENT"
           ],
@@ -143,6 +153,8 @@
       "allowedDocs": [
         {
           "documentType": "GOVTNOTIFICATION",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ARREARSWRITEOFF"
           ],
@@ -152,6 +164,8 @@
         },
         {
           "documentType": "PASTBILLS",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ARREARSWRITEOFF"
           ],
@@ -161,6 +175,8 @@
         },
         {
           "documentType": "IDENTITYPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ARREARSWRITEOFF"
           ],
@@ -214,6 +230,8 @@
         },
         {
           "documentType": "ADDRESSPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ARREARSWRITEOFF"
           ],
@@ -271,6 +289,8 @@
       "allowedDocs": [
         {
           "documentType": "OFFICENOTEORDER",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "DCBCORRECTION"
           ],
@@ -280,6 +300,8 @@
         },
         {
           "documentType": "PASTBILLS",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "DCBCORRECTION"
           ],
@@ -289,6 +311,8 @@
         },
         {
           "documentType": "IDENTITYPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "DCBCORRECTION"
           ],
@@ -342,6 +366,8 @@
         },
         {
           "documentType": "ADDRESSPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "DCBCORRECTION"
           ],
@@ -399,6 +425,8 @@
       "allowedDocs": [
         {
           "documentType": "GOVTNOTIFICATION",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ONETIMESETTLEMENT"
           ],
@@ -408,6 +436,8 @@
         },
         {
           "documentType": "PASTBILLS",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ONETIMESETTLEMENT"
           ],
@@ -470,6 +500,8 @@
         },
         {
           "documentType": "ADDRESSPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ONETIMESETTLEMENT"
           ],
@@ -527,6 +559,8 @@
       "allowedDocs": [
         {
           "documentType": "OFFICENOTEORDER",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "REMISSIONFORPT"
           ],
@@ -588,6 +622,8 @@
         },
         {
           "documentType": "ADDRESSPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "REMISSIONFORPT"
           ],
@@ -641,6 +677,8 @@
         },
         {
           "documentType": "SELFDECLARATION",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "REMISSIONFORPT"
           ],
@@ -663,6 +701,8 @@
       "allowedDocs": [
         {
           "documentType": "SELFDECLARATION",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "OTHERS"
           ],
@@ -681,6 +721,8 @@
         },
         {
           "documentType": "PASTBILLS",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "OTHERS"
           ],
@@ -690,6 +732,8 @@
         },
         {
           "documentType": "IDENTITYPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "OTHERS"
           ],
@@ -743,6 +787,8 @@
         },
         {
           "documentType": "ADDRESSPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "OTHERS"
           ],
