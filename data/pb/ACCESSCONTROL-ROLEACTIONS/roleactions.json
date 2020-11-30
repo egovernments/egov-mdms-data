@@ -16046,7 +16046,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-     {
+    {
       "rolecode": "PT_APPROVER",
       "actionid": 2027,
       "actioncode": "",
@@ -16067,6 +16067,12 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "PT_CEMP",
+      "actionid": 2028,
       "actioncode": "",
       "tenantId": "pb"
     }
