@@ -8757,9 +8757,21 @@
     },
     {
       "id": 2028,
-      "name": "WorkflowProcessCount",
+      "name": "PT Receipt Update",
       "url": "/collection-services/payments/PT/_workflow",
       "displayName": "PT Receipt Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2029,
+      "name": "PT Payment search",
+      "url": "/collection-services/payments/PT/_search",
+      "displayName": "PT Payment search",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": false,
