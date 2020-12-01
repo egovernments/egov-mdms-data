@@ -447,6 +447,8 @@
         },
         {
           "documentType": "IDENTITYPROOF",
+          "maxFileSize":5000,
+          "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
             "ONETIMESETTLEMENT"
           ],
