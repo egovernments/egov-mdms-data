@@ -120,6 +120,10 @@
         {
           "code": "OWNER.TRANSFERREASONDOCUMENT.CORRECTIONINNAME",
           "active": true
+        },
+        {
+          "code": "OWNER.TRANSFERREASONDOCUMENT.CHANGEINOWNERSPECIALCATEGORY",
+          "active": true
         }
       ],
       "description": "OWNER.TRANSFERREASONDOCUMENT.TRANSFERREASONDOCUMENT_DESCRIPTION"
