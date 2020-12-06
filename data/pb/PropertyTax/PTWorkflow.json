@@ -1,0 +1,19 @@
+{
+ "tenantId": "pb",
+ "moduleName": "PropertyTax",
+ "PTWorkflow":[
+     {
+         "businessService":"PT.CREATEWITHWNS",
+         "initialAction":"INITIATE",
+         "inWorkflowStatusAllowed":false,
+         "enable":false
+     },
+     {
+      "businessService":"PT.CREATE",
+      "initialAction":"open",
+      "inWorkflowStatusAllowed":true,
+      "enable":true
+  }
+     
+ ]
+}
