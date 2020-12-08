@@ -23,12 +23,17 @@
                     "services_name": "PGR",
                     "filterKey": "PGR"
                 }
+            },
+             {
+                "ws": {
+                    "services_name": "W&S",
+                    "filterKey": "W&S"
+                }
             }
         ],
         "SERVICES": [
             "Property Tax",
-            "Trade licence",
-            "PGR"
+            "Trade licence"
         ],
         "CHART_COLOR_CODE": [
             "#35a2eb",
