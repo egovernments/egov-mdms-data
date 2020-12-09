@@ -7,6 +7,7 @@
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
+      "cancelReceipt":true,
       "arrears": true,
       "buttons": [
         {
@@ -21,6 +22,7 @@
       "headerBandLabel": "PTM_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
+      "cancelReceipt":true,
       "arrears": true,
       "buttons": [
         {
@@ -35,6 +37,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "tradelicense-receipt",
       "billKey": "tradelicense-bill",
+      "cancelReceipt":false,
       "arrears": false,
       "buttons": [
         {
@@ -50,6 +53,7 @@
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "arrears": true,
+      "cancelReceipt":false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -63,6 +67,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
+      "cancelReceipt":false,
       "arrears": true,
       "buttons": [
         {
@@ -76,6 +81,7 @@
       "code": "BPA.LOW_RISK_PERMIT_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
+      "cancelReceipt":false,
       "billKey": "consolidatedbill",
       "arrears": true,
       "buttons": [
@@ -91,6 +97,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
+      "cancelReceipt":true,
       "arrears": false,
       "buttons": [
         {
@@ -105,6 +112,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
+      "cancelReceipt":false,
       "arrears": true,
       "buttons": [
         {
@@ -118,6 +126,7 @@
       "code": "WS",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "ws-onetime-receipt",
+      "cancelReceipt":true,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -132,6 +141,7 @@
       "code": "SW",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "ws-onetime-receipt",
+      "cancelReceipt":true,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -146,6 +156,7 @@
       "code": "WS.ONE_TIME_FEE",
       "headerBandLabel": "PAYMENT_COMMON_APPLICATION_CODE",
       "receiptKey": "ws-onetime-receipt",
+      "cancelReceipt":false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -160,6 +171,7 @@
       "code": "SW.ONE_TIME_FEE",
       "headerBandLabel": "PAYMENT_COMMON_APPLICATION_CODE",
       "receiptKey": "ws-onetime-receipt",
+      "cancelReceipt":false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -175,6 +187,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
+      "cancelReceipt":false,
       "arrears": false,
       "buttons": [
         {
