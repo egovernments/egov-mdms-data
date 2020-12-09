@@ -8724,7 +8724,7 @@
       "serviceCode": "",
       "code": "null",
       "navigationURL": "bill-amend/search",
-      "path": "",
+      "path": "bill-amend",
       "leftIcon": "action:receipt"
     },
     {
@@ -8778,6 +8778,36 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2030,
+      "name": "ReceiptCancellation",
+      "url": "url",
+      "displayName": "ReceiptCancellation",
+      "orderNumber": 24,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "navigationURL": "receipts/search",
+      "path": "",
+      "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2031,
+      "name": "ReceiptCancellation",
+      "url": "card",
+      "displayName": "ReceiptCancellation",
+      "orderNumber": 25,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "receipts",
+      "navigationURL": "receipts/search",
+      "leftIcon": "action:receipt",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
