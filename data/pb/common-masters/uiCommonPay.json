@@ -22,7 +22,7 @@
       "headerBandLabel": "PTM_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
-      "cancelReceipt":true,
+      "cancelReceipt":false,
       "arrears": true,
       "buttons": [
         {
@@ -52,7 +52,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
-      "arrears": true,
+      "arrears": false,
       "cancelReceipt":false,
       "buttons": [
         {
@@ -97,7 +97,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
-      "cancelReceipt":true,
+      "cancelReceipt":false,
       "arrears": false,
       "buttons": [
         {
@@ -126,7 +126,7 @@
       "code": "WS",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "ws-onetime-receipt",
-      "cancelReceipt":true,
+      "cancelReceipt":false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -141,7 +141,7 @@
       "code": "SW",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "ws-onetime-receipt",
-      "cancelReceipt":true,
+      "cancelReceipt":false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
