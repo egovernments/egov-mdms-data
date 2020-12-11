@@ -1,0 +1,140 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 819,
+      "name": "TL Report MetaData",
+      "url": "/report/tradelicense/metadata/_get",
+      "displayName": "Get TL Report Metadata",
+      "orderNumber": 1,
+      "parentModule": "165",
+      "enabled": false,
+      "serviceCode": "LICENSEREPORTS",
+      "code": "null",
+      "path": "Trade License.License Reports.TL Report MetaData"
+    },
+    {
+      "id": 820,
+      "name": "TL Report",
+      "url": "/report/tradelicense/_get",
+      "displayName": "Get TL Report",
+      "orderNumber": 1,
+      "parentModule": "165",
+      "enabled": false,
+      "serviceCode": "LICENSEREPORTS",
+      "code": "null",
+      "path": "Trade License.License Reports.TL Report"
+    },
+    {
+      "id": 821,
+      "name": "TL Report Reload",
+      "url": "/report/tradelicense/_reload",
+      "displayName": "TL Report Reload",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "LICENSEREPORTS",
+      "code": "null",
+      "path": "Trade License.License Reports.TL Report Reload"
+    },
+    {
+      "id": 1682,
+      "name": "billing slab create",
+      "url": "/tl-calculator/billingslab/_create",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 1683,
+      "name": "billing slab update",
+      "url": "/tl-calculator/billingslab/_update",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 1684,
+      "name": "billing slab search",
+      "url": "/tl-calculator/billingslab/_search",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 1685,
+      "name": "Create TradeLicense",
+      "url": "/tl-services/v1/_create",
+      "parentModule": "",
+      "displayName": "Create TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1686,
+      "name": "Update TradeLicense",
+      "url": "/tl-services/v1/_update",
+      "parentModule": "",
+      "displayName": "Update TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1687,
+      "name": "Search TradeLicense",
+      "url": "/tl-services/v1/_search",
+      "parentModule": "",
+      "displayName": "Search TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1874,
+      "name": "tradelicense Calculation",
+      "url": "/tl-calculator/v1/_calculate",
+      "displayName": "TradeLicenseCalculation",
+      "orderNumber": 0,
+      "parentModule": null,
+      "enabled": false,
+      "serviceCode": "TradeLicenseCalculator",
+      "code": "null",
+      "path": "null"
+    },
+    {
+      "id": 1893,
+      "name": "DSS Dashboard Config Trade License",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/tradelicense",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Citizen who can raise complaint"
+    },
+    {
+      "code": "EMPLOYEE",
+      "name": "Employee",
+      "description": "Default role for all employees"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "Super User",
+      "description": "System Administrator. Can change all master data and has access to all the system screens."
+    },
+    {
+      "code": "GRO",
+      "name": "Grievance Routing Officer",
+      "description": "Grievance Routing Officer"
+    },
+
+    {
+      "code": "CSC_COLL_OPERATOR",
+      "name": "CSC Collection Operator",
+      "description": "Can Create, Search Receipt"
+    },
+    {
+      "code": "LEGACY_RECEIPT_CREATOR",
+      "name": "Legacy Receipt Creator",
+      "description": "Legacy Receipt Creator"
+    },
+    {
+      "code": "COLL_REP_VIEW",
+      "name": "Collection Report Viewer",
+      "description": "Collection Report Viewer can view Reports"
+    },
+    {
+      "code": "WO_CREATOR",
+      "name": "WO Creator",
+      "description": "Who has a access to create Work Order"
+    },
+    {
+      "code": "DGRO",
+      "name": "Department Grievance Routing Officer",
+      "description": "GRO for a sepcific dept who assings the grievances to last mile employees"
+    },
+    {
+      "code": "CSR",
+      "name": "Customer Support Representative",
+      "description": "Employee who files and follows up complaints on behalf of the citizen"
+    },
+    {
+      "code": "STADMIN",
+      "name": "State Administrator",
+      "description": "Admin role that as access over a state"
+    },
+    {
+      "code": "COLL_RECEIPT_CREATOR",
+      "name": "Collections Receipt Creator",
+      "description": "One who can create and approve a receipt and receipt voucher"
+    },
+    {
+      "code": "COLL_REMIT_TO_BANK",
+      "name": "Collections Remitter",
+      "description": "One who can remit the instruments to bank"
+    },
+    {
+      "code": "ANONYMOUS",
+      "name": "Anonymous User",
+      "description": "Anonymous User to be used in case of no auth"
+    },
+    {
+      "code": "CITY_ADMIN",
+      "name": "Admin of a ULB",
+      "description": "Admin of ULB to get access to the ULB level"
+    },
+    {
+      "code": "SYSTEM",
+      "name": "System user",
+      "description": "System user role"
+    },
+    {
+      "code": "AIRPORT_AUTHORITY_APPROVER",
+      "name": "Airport authority Approver",
+      "description": "Airport authority application approver"
+    },
+    {
+      "code": "CFC",
+      "name": "Citizen Feedback Centre",
+      "description": "Citizen Feedback Centre"
+    }
+  ]
+}
+

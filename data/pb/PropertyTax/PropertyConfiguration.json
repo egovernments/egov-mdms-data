@@ -1,0 +1,12 @@
+{
+    "tenantId": "pb",
+    "moduleName": "PropertyTax",
+    "PropertyConfiguration":[
+      {
+          "Mutation": {
+              "RegistrationDetails": true,
+              "MutationDetails": true
+          }
+      }
+    ]
+  }

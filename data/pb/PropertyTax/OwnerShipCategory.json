@@ -1,0 +1,80 @@
+{
+  "tenantId": "pb",
+  "moduleName": "PropertyTax",
+  "OwnerShipCategory":
+  [
+    {
+      "name": "Individual(s)",
+      "code": "INDIVIDUAL",
+      "active": true
+    },
+    {
+      "name": "Institutional - Private ",
+      "code": "INSTITUTIONALPRIVATE",
+      "active": true
+    },
+    {
+      "name": "Institutional - Government",
+      "code": "INSTITUTIONALGOVERNMENT",
+      "active": true
+    },
+    
+    {
+      "name": "Single Owner",
+      "code": "INDIVIDUAL.SINGLEOWNER",
+      "active": true
+      
+    },
+    {
+      "name": "Multiple Owners",
+      "code": "INDIVIDUAL.MULTIPLEOWNERS",
+      "active": true
+    },
+    {
+      "name": "Private Company",
+      "code": "INSTITUTIONALPRIVATE.PRIVATECOMPANY",
+      "active": true
+    },
+    {
+      "name": "NGO",
+      "code": "INSTITUTIONALPRIVATE.NGO",
+      "active": true
+    },
+    {
+      "name": "Private Trust",
+      "code": "INSTITUTIONALPRIVATE.PRIVATETRUST",
+      "active": true
+    },
+   
+    {
+      "name": "ULB Government",
+      "code": "INSTITUTIONALGOVERNMENT.ULBGOVERNMENT",
+      "active": true
+    },
+    {
+      "name": "Other Private Institution",
+      "code": "INSTITUTIONALPRIVATE.OTHERSPRIVATEINSTITUITION",
+      "active": true
+    },
+    {
+      "name": "State Government",
+      "code": "INSTITUTIONALGOVERNMENT.STATEGOVERNMENT",
+      "active": true
+    },
+    {
+      "name": "Central Government",
+      "code": "INSTITUTIONALGOVERNMENT.CENTRALGOVERNMENT",
+      "active": true
+    },
+    {
+      "name": "Other Government Institution",
+      "code": "INSTITUTIONALGOVERNMENT.OTHERGOVERNMENTINSTITUITION",
+      "active": true
+    },
+    {
+      "name": "Private Board",
+      "code": "INSTITUTIONALPRIVATE.PRIVATEBOARD",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1547,
+      "name": "PropertySubType",
+      "url": "url",
+      "displayName": "Property Subtype",
+      "orderNumber": 2,
+      "parentModule": "propertytax",
+      "enabled": true,
+      "serviceCode": "PT",
+      "code": "false",
+      "path": "Property Tax.PT Masters.PropertySubType",
+      "navigationURL": "mdms/PropertyTax/PropertySubType ",
+      "leftIcon": "action:store"
+    },
+    {
+      "id": 1548,
+      "name": "ConstructionType",
+      "url": "url",
+      "displayName": "Construction Type",
+      "orderNumber": 3,
+      "parentModule": "propertytax",
+      "enabled": true,
+      "serviceCode": "PT",
+      "code": "false",
+      "path": "Property Tax.PT Masters.ConstructionType",
+      "navigationURL": "mdms/PropertyTax/ConstructionType "
+    },
+    {
+      "id": 1806,
+      "name": "PropertyTax",
+      "url": "url",
+      "displayName": "Property Tax",
+      "orderNumber": 1,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "path": "Property Tax",
+      "navigationURL": "property-tax",
+      "leftIcon": "communication:business",
+      "rightIcon": ""
+    },
+    {
+      "id": 1887,
+      "name": "Dashboard Property Tax",
+      "url": "url",
+      "displayName": "Property Tax",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.PropertyTax",
+      "navigationURL": "integration/dss/propertytax",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    }
+  ]
+}

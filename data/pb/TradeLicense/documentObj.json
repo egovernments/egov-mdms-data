@@ -1,0 +1,78 @@
+{
+    "tenantId": "pb",
+    "moduleName": "TradeLicense",
+    "documentObj": [
+      {
+        "allowedDocs": [
+          {
+            "documentType": "OWNERIDPROOF",
+            "applicationType": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "required": true
+          },
+          {
+            "documentType": "OWNERSHIPPROOF",
+            "applicationType": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "required": false
+          },
+          {
+            "documentType": "OWNERPHOTO",
+            "applicationType": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "required": false
+          },
+          {
+            "documentType": "OLDLICENCENO",
+            "applicationType": [
+              "RENEWAL"
+            ],
+            "required": false
+          }
+        ],
+        "tradeType": "GOODS"
+      },
+      {
+        "allowedDocs": [
+          {
+            "documentType": "OWNERIDPROOF",
+            "applicationType": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "required": true
+          },
+          {
+            "documentType": "OWNERSHIPPROOF",
+            "applicationType": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "required": false
+          },
+          {
+            "documentType": "OWNERPHOTO",
+            "applicationType": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "required": false
+          },
+          {
+            "documentType": "OLDLICENCENO",
+            "applicationType": [
+              "RENEWAL"
+            ],
+            "required": false
+          }
+        ],
+        "tradeType": "SERVICES"
+      }
+    ]
+  }

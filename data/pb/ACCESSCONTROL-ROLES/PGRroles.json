@@ -1,0 +1,16 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "PGR-ADMIN",
+      "name": "PGR Administrator",
+      "description": "Admin role that has super access over the system"
+    },
+    {
+      "code": "PGR_LME",
+      "name": "PGR Last Mile Employee",
+      "description": "PGR Last mile employee to whom the request can be assigned"
+    }
+  ]
+}

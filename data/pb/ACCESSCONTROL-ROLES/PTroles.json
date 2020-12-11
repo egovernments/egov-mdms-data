@@ -1,0 +1,41 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "PT_CEMP",
+      "name": "PT Counter Employee",
+      "description": "Property Counter Employee"
+    },
+    {
+      "code": "CEMP",
+      "name": "Counter Employee",
+      "description": "Employee at the counter who performs assessment on behalf of citizen"
+    },
+    {
+      "code": "FEMP",
+      "name": "Field Employee",
+      "description": "Employee on the field"
+    },
+    {
+      "code": "PTADMIN",
+      "name": "ULB Administrator",
+      "description": "Admin role that as access over an ulb"
+    },
+    {
+      "code": "PT_DOC_VERIFIER",
+      "name": "PT Doc Verifier",
+      "description": "Property Document Verifier"
+    },
+    {
+      "code": "PT_FIELD_INSPECTOR",
+      "name": "PT Field Inspector",
+      "description": "Property Field Inspector"
+    },
+    {
+      "code": "PT_APPROVER",
+      "name": "PT Counter Approver",
+      "description": "PT Approver"
+    }
+  ]
+}
