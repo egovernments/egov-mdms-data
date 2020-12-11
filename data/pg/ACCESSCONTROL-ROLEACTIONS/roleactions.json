@@ -20989,6 +20989,24 @@
       "actionid": 706,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EGF_ADMINISTRATOR",
+      "actionid": 2020,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2020,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1891,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
