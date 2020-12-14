@@ -16940,6 +16940,90 @@
     "serviceCode": "",
     "code": "null",
     "path": ""
+  },
+  {
+    "id": 2030,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/PT/_search",
+    "displayName": "PT Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  }	,
+  {
+    "id": 2031,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/PT.MUTATION/_search",
+    "displayName": "PT Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  }	,
+  {
+    "id": 2032,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/TL/_search",
+    "displayName": "TL Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  }	,
+  {
+    "id": 2033,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/FIRENOC/_search",
+    "displayName": "FIRENOC Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  }	,
+  {
+    "id": 2034,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/WS/_search",
+    "displayName": "WS Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  }	,
+  {
+    "id": 2035,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/SW/_search",
+    "displayName": "SW Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 2036,
+    "name": "PT Payment search",
+    "url": "/collection-services/payments/ADVT/_search",
+    "displayName": "UC Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
   }
-  ]
+ ]
 }
