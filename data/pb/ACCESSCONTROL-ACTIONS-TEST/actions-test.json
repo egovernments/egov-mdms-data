@@ -17036,6 +17036,18 @@
     "serviceCode": "",
     "code": "null",
     "path": ""
+  },
+  {
+    "id": 2038,
+    "name": "DEFAULT Payment search",
+    "url": "/collection-services/payments/DEFAULT/_search",
+    "displayName": "DEFAULT Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
   }
  ]
 }
