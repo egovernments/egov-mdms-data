@@ -16928,6 +16928,18 @@
     "leftIcon": "action:receipt",
     "rightIcon": "",
     "queryParams": ""
+  },
+  {
+    "id": 2029,
+    "name": "BPA_LOW Payment search",
+    "url": "/collection-services/payments/BPA_LOW/_search",
+    "displayName": "BPA_LOW Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
   }
   ]
 }
