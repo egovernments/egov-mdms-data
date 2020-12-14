@@ -8808,6 +8808,114 @@
       "leftIcon": "action:receipt",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2032,
+      "name": "BPA_LOW Payment search",
+      "url": "/collection-services/payments/BPA_LOW/_search",
+      "displayName": "BPA_LOW Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2033,
+      "name": "PT Payment search",
+      "url": "/collection-services/payments/PT.MUTATION/_search",
+      "displayName": "PT Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2034,
+      "name": "TL Payment search",
+      "url": "/collection-services/payments/TL/_search",
+      "displayName": "TL Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2035,
+      "name": "FIRENOC Payment search",
+      "url": "/collection-services/payments/FIRENOC/_search",
+      "displayName": "FIRENOC Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2036,
+      "name": "WS Payment search",
+      "url": "/collection-services/payments/WS/_search",
+      "displayName": "WS Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2037,
+      "name": "SW Payment search",
+      "url": "/collection-services/payments/SW/_search",
+      "displayName": "SW Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2038,
+      "name": "UC Payment search",
+      "url": "/collection-services/payments/ADVT/_search",
+      "displayName": "UC Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2039,
+      "name": "UC Payment search",
+      "url": "/collection-services/payments/UC/_search",
+      "displayName": "UC Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2040,
+      "name": "DEFAULT Payment search",
+      "url": "/collection-services/payments/DEFAULT/_search",
+      "displayName": "DEFAULT Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
