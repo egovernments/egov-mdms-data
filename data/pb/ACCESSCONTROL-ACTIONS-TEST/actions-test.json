@@ -17048,6 +17048,30 @@
     "serviceCode": "",
     "code": "null",
     "path": ""
+  },
+  {
+    "id": 2039,
+    "name": "BPA Payment search",
+    "url": "/collection-services/payments/BPA/_search",
+    "displayName": "BPA Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 2040,
+    "name": "BPA OC Payment search",
+    "url": "/collection-services/payments/BPA_OC/_search",
+    "displayName": "BPA OC Payment search",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": false,
+    "serviceCode": "",
+    "code": "null",
+    "path": ""
   }
  ]
 }
