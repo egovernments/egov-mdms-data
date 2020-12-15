@@ -5,13 +5,13 @@
      {
          "businessService":"PT.CREATEWITHWNS",
          "initialAction":"INITIATE",
-         "inWorkflowStatusAllowed":true,
+         "inWorkflowStatusAllowed":false,
          "enable":true
      },
      {
       "businessService":"PT.CREATE",
       "initialAction":"open",
-      "inWorkflowStatusAllowed":false,
+      "inWorkflowStatusAllowed":true,
       "enable":false
   }
      
