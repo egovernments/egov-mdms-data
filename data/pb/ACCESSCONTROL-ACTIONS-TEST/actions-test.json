@@ -17096,6 +17096,28 @@
     "serviceCode": "",
     "code": "null",
     "path": ""
+  }, 
+  {
+    "id": 2043,
+    "name": "Create FSM Application",
+    "url": "/fsm/v1/_create",
+    "displayName": "Apply FSM",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "FSM",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 2044,
+    "name": "Search FSM Application",
+    "url": "/fsm/v1/_search",
+    "displayName": "Search  FSM Appliacations",
+    "orderNumber": 1,
+    "enabled": false,
+    "serviceCode": "FSM",
+    "code": "null",
+    "path": ""
   }
  ]
 }
