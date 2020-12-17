@@ -4,15 +4,15 @@
  "PTWorkflow":[
      {
          "businessService":"PT.CREATEWITHWNS",
-         "initialAction":"INITIATE",
+         "initialAction":"OPEN",
          "inWorkflowStatusAllowed":false,
-         "enable":false
+         "enable":true
      },
      {
       "businessService":"PT.CREATE",
       "initialAction":"open",
       "inWorkflowStatusAllowed":true,
-      "enable":true
+      "enable":false
   }
      
  ]
