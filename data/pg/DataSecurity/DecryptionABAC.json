@@ -241,11 +241,51 @@
         "key" : "DescriptionReport",
         "roleAttributeAccessList" : [
           {
-            "roleCode" : "EMPLOYEE",
+            "roleCode" : "PGR_LME",
             "attributeAccessList" : [
               {
                 "attribute" : {
                   "jsonPath" : "*/name"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/lastassignedto"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+           {
+            "roleCode" : "GRO",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/name"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/lastassignedto"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+           {
+            "roleCode" : "SUPERUSER",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/name"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/lastassignedto"
                 },
                 "accessType" : "PLAIN"
               }
@@ -274,6 +314,82 @@
         "roleAttributeAccessList" : [
           {
             "roleCode" : "EMPLOYEE",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key" : "LMEPerformanceReport",
+        "roleAttributeAccessList" : [
+          {
+            "roleCode" : "SUPERUSER",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+          {
+            "roleCode" : "GRO",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+          {
+            "roleCode" : "PGR_LME",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          }
+        ]
+      },
+     {
+        "key" : "GROPerformanceReport",
+        "roleAttributeAccessList" : [
+          {
+            "roleCode" : "SUPERUSER",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+        {
+            "roleCode" : "GRO",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/employee"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+          {
+            "roleCode" : "PGR_LME",
             "attributeAccessList" : [
               {
                 "attribute" : {

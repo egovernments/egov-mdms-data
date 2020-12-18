@@ -297,7 +297,7 @@
       "name": "Collections Remitter",
       "description": "One who can remit the instruments to bank"
     },
-   {
+    {
       "code": "SYS_INTEGRATOR_FINANCE",
       "name": "System Integrator Finance",
       "description": "Role for allowing system integration of Finance app with rainmaker"
@@ -317,7 +317,7 @@
       "name": "TL Approver",
       "description": "Approver who verifies and approves the TL application"
     },
-   {
+    {
       "code": "EMPLOYEE_FINANCE",
       "name": "Employee Finance",
       "description": "All Employees who use Finance application"
@@ -383,7 +383,6 @@
       "description": "BPA Structural Engineer"
     },
     {
-
       "code": "BPA_TOWNPLANNER",
       "name": "BPA Town Planner",
       "description": "BPA Town Planner"
@@ -437,6 +436,11 @@
       "code": "BPA_NOC_VERIFIER",
       "name": "BPA NOC Verifier",
       "description": "BPA Service NOC verifier"
+    },
+    {
+      "code": "PT_CEMP",
+      "name": "PT Counter Employee",
+      "description": "Property Counter Employee"
     },
     {
       "code": "PT_DOC_VERIFIER",
@@ -502,6 +506,21 @@
       "code": "SW_CLERK",
       "name": "SW Clerk",
       "description": "SW Clerk can activate the connection application"
+    },
+    {
+      "code": "FIRE_NOC_APPROVER",
+      "name": "Fire Noc Department Approver",
+      "description": "Fire Noc application approver"
+    },
+    {
+      "code": "AIRPORT_AUTHORITY_APPROVER",
+      "name": "Airport authority Approver",
+      "description": "Airport authority application approver"
+    },
+    {
+      "code": "CFC",
+      "name": "Citizen Feedback Centre",
+      "description": "Citizen Feedback Centre"
     }
   ]
 }
