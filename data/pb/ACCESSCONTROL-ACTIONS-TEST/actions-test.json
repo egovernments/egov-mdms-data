@@ -14517,12 +14517,12 @@
     {
       "id": 1823,
       "name": "Indexer finance rolloutadoption",
-      "url": "/egov-indexer/index-operations/finance-adoption-topic/_index",
+      "url": "/indexer/index-operations/finance-adoption-topic/_index",
       "parentModule": "",
       "displayName": "",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "egov-indexer",
+      "serviceCode": "indexer",
       "code": "null",
       "path": ""
     },
@@ -15065,24 +15065,24 @@
     {
       "id": 1869,
       "name": "Indexer finance billregister",
-      "url": "/egov-indexer/index-operations/finance-bill-topic/_index",
+      "url": "/indexer/index-operations/finance-bill-topic/_index",
       "parentModule": "",
       "displayName": "",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "egov-indexer",
+      "serviceCode": "indexer",
       "code": "null",
       "path": ""
     },
     {
       "id": 1870,
       "name": "Indexer finance voucher",
-      "url": "/egov-indexer/index-operations/finance-voucher-topic/_index",
+      "url": "/indexer/index-operations/finance-voucher-topic/_index",
       "parentModule": "",
       "displayName": "",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "egov-indexer",
+      "serviceCode": "indexer",
       "code": "null",
       "path": ""
     },
