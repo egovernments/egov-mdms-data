@@ -4488,7 +4488,7 @@
     {
       "id": 594,
       "name": "Get All Actions",
-      "url": "/access/v1/actions/_get",
+      "url": "/accesscontrol/v1/actions/_get",
       "displayName": "Get All Actions",
       "orderNumber": 1,
       "enabled": false,
@@ -5893,7 +5893,7 @@
     {
       "id": 724,
       "name": "SearchActions",
-      "url": "/access/v1/actions/_search",
+      "url": "/accesscontrol/v1/actions/_search",
       "displayName": "Search Actions",
       "orderNumber": 1,
       "enabled": false,
@@ -5904,7 +5904,7 @@
     {
       "id": 725,
       "name": "ValidateAction",
-      "url": "/access/v1/actions/_validate",
+      "url": "/accesscontrol/v1/actions/_validate",
       "displayName": "Validate Action",
       "orderNumber": 1,
       "enabled": false,
@@ -5915,7 +5915,7 @@
     {
       "id": 726,
       "name": "CreateActions",
-      "url": "/access/v1/actions/_create",
+      "url": "/accesscontrol/v1/actions/_create",
       "displayName": "Create Action",
       "orderNumber": 1,
       "enabled": false,
@@ -5926,7 +5926,7 @@
     {
       "id": 727,
       "name": "UpdateActions",
-      "url": "/access/v1/actions/_update",
+      "url": "/accesscontrol/v1/actions/_update",
       "displayName": "Update Action",
       "orderNumber": 1,
       "enabled": false,
@@ -5937,7 +5937,7 @@
     {
       "id": 728,
       "name": "CreateRoleActions",
-      "url": "/access/v1/role-actions/_create",
+      "url": "/accesscontrol/v1/role-actions/_create",
       "displayName": "Create Role actions",
       "orderNumber": 1,
       "enabled": false,
@@ -5948,7 +5948,7 @@
     {
       "id": 729,
       "name": "SearchRoles",
-      "url": "/access/v1/roles/_search",
+      "url": "/accesscontrol/v1/roles/_search",
       "displayName": "Search Roles",
       "orderNumber": 1,
       "enabled": false,
@@ -5959,7 +5959,7 @@
     {
       "id": 730,
       "name": "CreateRoles",
-      "url": "/access/v1/roles/_create",
+      "url": "/accesscontrol/v1/roles/_create",
       "displayName": "Create Roles",
       "orderNumber": 1,
       "enabled": false,
@@ -5970,7 +5970,7 @@
     {
       "id": 731,
       "name": "updateRoles",
-      "url": "/access/v1/roles/_update",
+      "url": "/accesscontrol/v1/roles/_update",
       "displayName": "Update Roles",
       "orderNumber": 1,
       "enabled": false,
@@ -9220,7 +9220,7 @@
     {
       "id": 870,
       "name": "Get Actions from MDMS",
-      "url": "/access/v1/actions/mdms/_get",
+      "url": "/accesscontrol/v1/actions/mdms/_get",
       "displayName": "Get Actions from mdms",
       "orderNumber": 1,
       "parentModule": "221",
@@ -9381,7 +9381,7 @@
     {
       "id": 1221,
       "name": "Get Roles from MDMS",
-      "url": "/access/v1/roles/mdms/_search",
+      "url": "/accesscontrol/v1/roles/mdms/_search",
       "displayName": "Get Roles from MDMS",
       "orderNumber": 0,
       "enabled": false,
