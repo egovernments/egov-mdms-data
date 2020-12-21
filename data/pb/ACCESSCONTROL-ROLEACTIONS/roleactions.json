@@ -16190,7 +16190,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-     {
+    {
       "rolecode": "NOC_DOC_VERIFIER",
       "actionid": 2035,
       "actioncode": "",
@@ -16202,7 +16202,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-     {
+    {
       "rolecode": "NOC_APPROVER",
       "actionid": 2035,
       "actioncode": "",
@@ -16277,6 +16277,270 @@
     {
       "rolecode": "CITIZEN",
       "actionid": 2040,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ENGINEER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_BUILDER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_STRUCTURALENGINEER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_TOWNPLANNER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_SUPERVISOR",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ENGINEER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_BUILDER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_STRUCTURALENGINEER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_TOWNPLANNER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_SUPERVISOR",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ENGINEER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_BUILDER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_STRUCTURALENGINEER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_TOWNPLANNER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_SUPERVISOR",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ENGINEER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_BUILDER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_STRUCTURALENGINEER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_TOWNPLANNER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_SUPERVISOR",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2044,
       "actioncode": "",
       "tenantId": "pb"
     }
