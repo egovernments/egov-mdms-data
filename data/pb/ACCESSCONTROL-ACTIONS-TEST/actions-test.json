@@ -14576,7 +14576,7 @@
     {
       "id": 1828,
       "name": "mSeva Event Create",
-      "url": "/egov-user-event/v1/events/_create",
+      "url": "/user-event/v1/events/_create",
       "displayName": "mSeva Event Notification",
       "orderNumber": 1,
       "enabled": false,
@@ -14587,7 +14587,7 @@
     {
       "id": 1829,
       "name": "mSeva Event Update",
-      "url": "/egov-user-event/v1/events/_update",
+      "url": "/user-event/v1/events/_update",
       "displayName": "mSeva Event Notification",
       "orderNumber": 1,
       "enabled": false,
@@ -14598,7 +14598,7 @@
     {
       "id": 1830,
       "name": "mSeva Event Search",
-      "url": "/egov-user-event/v1/events/_search",
+      "url": "/user-event/v1/events/_search",
       "displayName": "mSeva Event Notification",
       "orderNumber": 1,
       "enabled": false,
@@ -14609,7 +14609,7 @@
     {
       "id": 1831,
       "name": "mSeva Event Count",
-      "url": "/egov-user-event/v1/events/notifications/_count",
+      "url": "/user-event/v1/events/notifications/_count",
       "displayName": "mSeva Event Notification",
       "orderNumber": 1,
       "enabled": false,
@@ -14620,7 +14620,7 @@
     {
       "id": 1832,
       "name": "mSeva Event llt Update",
-      "url": "/egov-user-event/v1/events/lat/_update",
+      "url": "/user-event/v1/events/lat/_update",
       "displayName": "mSeva Event Notification",
       "orderNumber": 1,
       "enabled": false,
