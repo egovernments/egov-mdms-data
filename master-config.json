@@ -484,7 +484,7 @@
     }
   },
   "PropertyTax": {
-     "MutationReason": {
+    "MutationReason": {
       "masterName": "MutationReason",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -649,12 +649,12 @@
       "uniqueKeys": [
         "$.code"
       ]
-     },
-     "TradeRenewal": {
+    },
+    "TradeRenewal": {
       "masterName": "TradeRenewal",
       "isStateLevel": true
-     },
-     "documentObj": {
+    },
+    "documentObj": {
       "masterName": "documentObj",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -951,8 +951,8 @@
       "isStateLevel": true,
       "uniqueKeys": []
     },
-    "dateEffectiveConfig":{
-       "masterName": "dateEffectiveConfig",
+    "dateEffectiveConfig": {
+      "masterName": "dateEffectiveConfig",
       "isStateLevel": true,
       "uniqueKeys": []
     }
@@ -1017,7 +1017,7 @@
         "$.question"
       ]
     },
-    "DeviationParams":{
+    "DeviationParams": {
       "masterName": "DeviationParams",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -1030,17 +1030,17 @@
       "uniqueKeys": []
     }
   },
-  "NOC":{
-    "DocumentTypeMapping":{
+  "NOC": {
+    "DocumentTypeMapping": {
       "masterName": "DocumentTypeMapping",
       "isStateLevel": true,
       "uniqueKeys": []
     },
-     "NocType":{
+    "NocType": {
       "masterName": "NocType",
       "isStateLevel": true,
       "uniqueKeys": [
-       "$.code"
+        "$.code"
       ]
     }
   },
@@ -1118,15 +1118,31 @@
       "isStateLevel": true,
       "uniqueKeys": []
     },
-    "dateEffectiveConfig":{
-       "masterName": "dateEffectiveConfig",
+    "dateEffectiveConfig": {
+      "masterName": "dateEffectiveConfig",
       "isStateLevel": true,
       "uniqueKeys": []
     }
   },
-  "Chatbot":{
+  "Chatbot": {
     "KeyWords": {
       "masterName": "KeyWords",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
+  },
+  "FSM": {
+    "ApplicationChannel": {
+      "masterName": "ApplicationChannel",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SanitationType": {
+      "masterName": "SanitationType",
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
