@@ -556,6 +556,11 @@
     {
       "format":"PB-PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
       "idname":"pgr.servicerequestid"
+    },
+    {
+      "format": "[CITY.CODE]-FSM-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "fsm.aplnumber"
     }
+
   ]
 }
