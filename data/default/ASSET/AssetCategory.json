@@ -36,7 +36,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -177,7 +177,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -274,7 +274,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -371,7 +371,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -468,7 +468,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -565,7 +565,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -662,7 +662,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -759,7 +759,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?\u0026masterName\u003dUom\u0026moduleName\u003dcommon-masters\u0026tenantId\u003ddefault"
         },
         {
           "name": "Construction Class",
@@ -856,7 +856,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Length",
@@ -878,7 +878,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Maximum Width",
@@ -893,7 +893,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Road Type",
@@ -908,7 +908,7 @@
           "type": "Select",
           "isActive": true,
           "isMandatory": false,
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dASSET\u0026masterName\u003dLayerType\u0026tenantId\u003ddefault",
+          "url": "/mdms/v1/_get?moduleName\u003dASSET\u0026masterName\u003dLayerType\u0026tenantId\u003ddefault",
           "columns": []
         },
         {
@@ -931,7 +931,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Layer description(Graphical Representation Of Layers)",
@@ -977,7 +977,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Collection Mains",
@@ -1045,7 +1045,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Material Type",
@@ -1076,7 +1076,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         },
         {
           "name": "Intake Water",
@@ -1091,7 +1091,7 @@
           "isActive": true,
           "isMandatory": false,
           "order": "3",
-          "url": "/egov-mdms-service/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
+          "url": "/mdms/v1/_get?moduleName\u003dcommon-masters\u0026masterName\u003dUom\u0026tenantId\u003ddefault"
         }
       ]
     },
