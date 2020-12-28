@@ -1,0 +1,16 @@
+{
+    "tenantId": "pb",
+    "moduleName": "FSM",
+    "ApplicationChannel": [
+        {
+            "name": "Telephone",
+            "code": "TELEPHONE",
+            "active": true
+        },
+        {
+            "name": "Counter",
+            "code": "COUNTER",
+            "active": true
+        }
+    ]
+}
