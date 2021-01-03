@@ -14646,7 +14646,7 @@
     {
       "id": 1834,
       "name": "Pdf Generator create",
-      "url": "/pdf-service/v1/_create",
+      "url": "/pdfgen/v1/_create",
       "displayName": "Pdf Generator create",
       "orderNumber": 1,
       "enabled": false,
@@ -14657,7 +14657,7 @@
     {
       "id": 1835,
       "name": "Pdf Generator search",
-      "url": "/pdf-service/v1/_search",
+      "url": "/pdfgen/v1/_search",
       "displayName": "Pdf Generator search",
       "orderNumber": 2,
       "enabled": false,
@@ -15103,7 +15103,7 @@
     {
       "id": 1872,
       "name": "Pdf Generator createnosave",
-      "url": "/pdf-service/v1/_createnosave",
+      "url": "/pdfgen/v1/_createnosave",
       "displayName": "Pdf Generator createnosave",
       "orderNumber": 3,
       "enabled": false,
