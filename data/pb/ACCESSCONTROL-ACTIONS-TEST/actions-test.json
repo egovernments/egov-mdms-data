@@ -15443,33 +15443,33 @@
     {
       "id": 1899,
       "name": "Create Water Connection",
-      "url": "/ws-services/wc/_create",
+      "url": "/water/wc/_create",
       "displayName": "Create Water COnnection",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-services",
+      "serviceCode": "water",
       "code": "null",
       "path": ""
     },
     {
       "id": 1900,
       "name": "Search Water Connection",
-      "url": "/ws-services/wc/_search",
+      "url": "/water/wc/_search",
       "displayName": "Search Water COnnection",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-services",
+      "serviceCode": "water",
       "code": "null",
       "path": ""
     },
     {
       "id": 1901,
       "name": "Update Water Connection",
-      "url": "/ws-services/wc/_update",
+      "url": "/water/wc/_update",
       "displayName": "Update Water COnnection",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-services",
+      "serviceCode": "water",
       "code": "null",
       "path": ""
     },
@@ -16537,7 +16537,7 @@
     {
       "id": 1985,
       "name": "Locality searcher endpoint for WS",
-      "url": "/searcher/locality/ws-services/_get",
+      "url": "/searcher/locality/water/_get",
       "displayName": "WS-Service locality searcher",
       "orderNumber": 0,
       "enabled": false,

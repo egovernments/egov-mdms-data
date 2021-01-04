@@ -834,7 +834,7 @@
       ]
     }
   },
-  "ws-services-masters": {
+  "water-masters": {
     "connectionCategory": {
       "masterName": "connectionCategory",
       "isStateLevel": true,
@@ -869,7 +869,7 @@
       "uniqueKeys": []
     }
   },
-  "ws-services-calculation": {
+  "water-calculation": {
     "WaterCess": {
       "masterName": "WaterCess",
       "isStateLevel": true,
