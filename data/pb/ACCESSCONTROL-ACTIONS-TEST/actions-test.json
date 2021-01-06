@@ -16790,36 +16790,36 @@
     {
       "id": 2006,
       "name": "Create PGR Request",
-      "url": "/pgr-services/v2/requests/_create",
+      "url": "/pgr/v2/requests/_create",
       "parentModule": "",
       "displayName": "Create PGR Request",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "pgr-services",
+      "serviceCode": "pgr",
       "code": "null",
       "path": ""
     },
     {
       "id": 2007,
       "name": "Update PGR Request",
-      "url": "/pgr-services/v2/requests/_update",
+      "url": "/pgr/v2/requests/_update",
       "parentModule": "",
       "displayName": "Update PGR Request",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "pgr-services",
+      "serviceCode": "pgr",
       "code": "null",
       "path": ""
     },
     {
       "id": 2008,
       "name": "Search PGR Request",
-      "url": "/pgr-services/v2/requests/_search",
+      "url": "/pgr/v2/requests/_search",
       "parentModule": "",
       "displayName": "Search PGR Request",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "pgr-services",
+      "serviceCode": "pgr",
       "code": "null",
       "path": ""
     }
