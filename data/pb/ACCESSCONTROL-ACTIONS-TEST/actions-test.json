@@ -12676,7 +12676,7 @@
     {
       "id": 1682,
       "name": "billing slab create",
-      "url": "/tl-calculator/billingslab/_create",
+      "url": "/tradelicense-calculator/billingslab/_create",
       "parentModule": "",
       "displayName": "",
       "orderNumber": 0,
@@ -12689,7 +12689,7 @@
     {
       "id": 1683,
       "name": "billing slab update",
-      "url": "/tl-calculator/billingslab/_update",
+      "url": "/tradelicense-calculator/billingslab/_update",
       "parentModule": "",
       "displayName": "",
       "orderNumber": 0,
@@ -12702,7 +12702,7 @@
     {
       "id": 1684,
       "name": "billing slab search",
-      "url": "/tl-calculator/billingslab/_search",
+      "url": "/tradelicense-calculator/billingslab/_search",
       "parentModule": "",
       "displayName": "",
       "orderNumber": 0,
@@ -12751,12 +12751,12 @@
     {
       "id": 1688,
       "name": "Get Bill",
-      "url": "/tl-calculator/v1/_getbill",
+      "url": "/tradelicense-calculator/v1/_getbill",
       "parentModule": "",
       "displayName": "Get Bill",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "tl-calculator",
+      "serviceCode": "tradelicense-calculator",
       "code": "null",
       "path": ""
     },
@@ -15128,7 +15128,7 @@
     {
       "id": 1874,
       "name": "tradelicense Calculation",
-      "url": "/tl-calculator/v1/_calculate",
+      "url": "/tradelicense-calculator/v1/_calculate",
       "displayName": "TradeLicenseCalculation",
       "orderNumber": 0,
       "parentModule": null,
@@ -15176,12 +15176,12 @@
     {
       "id": 1878,
       "name": "Get Bill BPA",
-      "url": "/tl-calculator/v1/BPAREG/_getbill",
+      "url": "/tradelicense-calculator/v1/BPAREG/_getbill",
       "parentModule": "",
       "displayName": "Get Bill BPA",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "tl-calculator",
+      "serviceCode": "tradelicense-calculator",
       "code": "null",
       "path": ""
     },
