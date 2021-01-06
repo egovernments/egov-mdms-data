@@ -15596,33 +15596,33 @@
     {
       "id": 1912,
       "name": "Enter Meter Reading",
-      "url": "/ws-calculator/meterConnection/_create",
+      "url": "/water-calculator/meterConnection/_create",
       "displayName": "Enter Meter Reading",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-calculator",
+      "serviceCode": "water-calculator",
       "code": "null",
       "path": ""
     },
     {
       "id": 1913,
       "name": "Search Meter Reading",
-      "url": "/ws-calculator/meterConnection/_search",
+      "url": "/water-calculator/meterConnection/_search",
       "displayName": "Search Meter Reading",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-calculator",
+      "serviceCode": "water-calculator",
       "code": "null",
       "path": ""
     },
     {
       "id": 1914,
       "name": "Calculate Water Bill",
-      "url": "/ws-calculator/waterCalculator/_calculate",
+      "url": "/water-calculator/waterCalculator/_calculate",
       "displayName": "Calculate Water Bill",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-calculator",
+      "serviceCode": "water-calculator",
       "code": "null",
       "path": ""
     },
@@ -16306,11 +16306,11 @@
     {
       "id": 1966,
       "name": "Calculate Fee For Water Application",
-      "url": "/ws-calculator/waterCalculator/_estimate",
+      "url": "/water-calculator/waterCalculator/_estimate",
       "displayName": "Fee Calculation For Water Application",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-calculator",
+      "serviceCode": "water-calculator",
       "code": "null",
       "path": ""
     },
@@ -16438,11 +16438,11 @@
     {
       "id": 1977,
       "name": "Add adhoc tax",
-      "url": "/ws-calculator/waterCalculator/_applyAdhocTax",
+      "url": "/water-calculator/waterCalculator/_applyAdhocTax",
       "displayName": "Add adhoc tax",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-calculator",
+      "serviceCode": "water-calculator",
       "code": "null",
       "path": ""
     },
