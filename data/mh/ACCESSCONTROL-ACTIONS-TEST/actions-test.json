@@ -6640,7 +6640,7 @@
     {
       "id": 839,
       "name": "UpdateLegacyLicense",
-      "url": "/tl-services/license/v1/_update",
+      "url": "/tradelicense/license/v1/_update",
       "displayName": "Update Legacy License",
       "orderNumber": 1,
       "parentModule": "268",
@@ -7006,7 +7006,7 @@
     {
       "id": 913,
       "name": "CreateNoticeDocuments",
-      "url": "/tl-services/noticedocument/v1/_create",
+      "url": "/tradelicense/noticedocument/v1/_create",
       "displayName": "Create Notice Document",
       "orderNumber": 0,
       "parentModule": "303",
@@ -7018,7 +7018,7 @@
     {
       "id": 914,
       "name": "UpdateNoticeDocuments",
-      "url": "/tl-services/noticedocument/v1/_update",
+      "url": "/tradelicense/noticedocument/v1/_update",
       "displayName": "Update Notice Document",
       "orderNumber": 1,
       "parentModule": "303",
@@ -7030,7 +7030,7 @@
     {
       "id": 915,
       "name": "SearchNoticeDocuments",
-      "url": "/tl-services/noticedocument/v1/_search",
+      "url": "/tradelicense/noticedocument/v1/_search",
       "displayName": "Search Notice Document",
       "orderNumber": 2,
       "parentModule": "303",
@@ -7053,7 +7053,7 @@
     {
       "id": 918,
       "name": "SearchTLConfigurations",
-      "url": "/tl-services/configurations/v1/_search",
+      "url": "/tradelicense/configurations/v1/_search",
       "displayName": "Search TL Configurations",
       "orderNumber": 0,
       "parentModule": "268",
