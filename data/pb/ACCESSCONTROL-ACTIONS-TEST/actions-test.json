@@ -4830,7 +4830,7 @@
     {
       "id": 631,
       "name": "createAccountDetailKey_Master",
-      "url": "/egf-master/accountdetailkeys/_create",
+      "url": "/finance-master/accountdetailkeys/_create",
       "displayName": "Create Account Detail Key",
       "orderNumber": 1,
       "parentModule": "227",
@@ -4842,7 +4842,7 @@
     {
       "id": 632,
       "name": "updateAccountDetailKey_Master",
-      "url": "/egf-master/accountdetailkeys/_update",
+      "url": "/finance-master/accountdetailkeys/_update",
       "displayName": "Modify Account Detail Key",
       "orderNumber": 2,
       "parentModule": "227",
@@ -4854,7 +4854,7 @@
     {
       "id": 633,
       "name": "searchAccountDetailKey_Master",
-      "url": "/egf-master/accountdetailkeys/_search",
+      "url": "/finance-master/accountdetailkeys/_search",
       "displayName": "Search Account Detail Key",
       "orderNumber": 3,
       "parentModule": "227",
@@ -4866,7 +4866,7 @@
     {
       "id": 634,
       "name": "createBank_Master",
-      "url": "/egf-master/banks/_create",
+      "url": "/finance-master/banks/_create",
       "displayName": "Create Bank",
       "orderNumber": 1,
       "parentModule": "228",
@@ -4878,7 +4878,7 @@
     {
       "id": 635,
       "name": "updateBank_Master",
-      "url": "/egf-master/banks/_update",
+      "url": "/finance-master/banks/_update",
       "displayName": "Modify Bank",
       "orderNumber": 3,
       "parentModule": "228",
@@ -4890,7 +4890,7 @@
     {
       "id": 636,
       "name": "searchBank_Master",
-      "url": "/egf-master/banks/_search",
+      "url": "/finance-master/banks/_search",
       "displayName": "Search Bank",
       "orderNumber": 3,
       "parentModule": "228",
@@ -4902,7 +4902,7 @@
     {
       "id": 637,
       "name": "createBankAccount_Master",
-      "url": "/egf-master/bankaccounts/_create",
+      "url": "/finance-master/bankaccounts/_create",
       "displayName": "Create BankAccount",
       "orderNumber": 1,
       "parentModule": "229",
@@ -4914,7 +4914,7 @@
     {
       "id": 638,
       "name": "updateBankAccount_Master",
-      "url": "/egf-master/bankaccounts/_update",
+      "url": "/finance-master/bankaccounts/_update",
       "displayName": "Modify BankAccount",
       "orderNumber": 2,
       "parentModule": "229",
@@ -4926,7 +4926,7 @@
     {
       "id": 639,
       "name": "searchBankAccount_Master",
-      "url": "/egf-master/bankaccounts/_search",
+      "url": "/finance-master/bankaccounts/_search",
       "displayName": "Search BankAccount",
       "orderNumber": 3,
       "parentModule": "229",
@@ -4938,7 +4938,7 @@
     {
       "id": 640,
       "name": "createAccountCodePurpose_Master",
-      "url": "/egf-master/accountcodepurposes/_create",
+      "url": "/finance-master/accountcodepurposes/_create",
       "displayName": "Create Account Code Purpose",
       "orderNumber": 1,
       "parentModule": "230",
@@ -4950,7 +4950,7 @@
     {
       "id": 641,
       "name": "updateAccountCodePurpose_Master",
-      "url": "/egf-master/accountcodepurposes/_update",
+      "url": "/finance-master/accountcodepurposes/_update",
       "displayName": "Modify Account Code Purpose",
       "orderNumber": 2,
       "parentModule": "230",
@@ -4962,7 +4962,7 @@
     {
       "id": 642,
       "name": "searchAccountCodePurpose_Master",
-      "url": "/egf-master/accountcodepurposes/_search",
+      "url": "/finance-master/accountcodepurposes/_search",
       "displayName": "Search Account Code Purpose",
       "orderNumber": 3,
       "parentModule": "230",
@@ -4974,7 +4974,7 @@
     {
       "id": 643,
       "name": "createSupplier_Master",
-      "url": "/egf-master/suppliers/_create",
+      "url": "/finance-master/suppliers/_create",
       "displayName": "Create Supplier",
       "orderNumber": 1,
       "parentModule": "231",
@@ -4986,7 +4986,7 @@
     {
       "id": 644,
       "name": "updateSupplier_Master",
-      "url": "/egf-master/suppliers/_update",
+      "url": "/finance-master/suppliers/_update",
       "displayName": "Modify Supplier",
       "orderNumber": 2,
       "parentModule": "231",
@@ -4998,7 +4998,7 @@
     {
       "id": 645,
       "name": "searchSupplier_Master",
-      "url": "/egf-master/suppliers/_search",
+      "url": "/finance-master/suppliers/_search",
       "displayName": "Search Supplier",
       "orderNumber": 3,
       "parentModule": "231",
@@ -5010,7 +5010,7 @@
     {
       "id": 646,
       "name": "createFund_Master",
-      "url": "/egf-master/funds/_create",
+      "url": "/finance-master/funds/_create",
       "displayName": "Create Fund",
       "orderNumber": 1,
       "parentModule": "232",
@@ -5022,7 +5022,7 @@
     {
       "id": 647,
       "name": "updateFund_Master",
-      "url": "/egf-master/funds/_update",
+      "url": "/finance-master/funds/_update",
       "displayName": "Modify Fund",
       "orderNumber": 2,
       "parentModule": "232",
@@ -5034,7 +5034,7 @@
     {
       "id": 648,
       "name": "searchFund_Master",
-      "url": "/egf-master/funds/_search",
+      "url": "/finance-master/funds/_search",
       "displayName": "Search Fund",
       "orderNumber": 3,
       "parentModule": "232",
@@ -5046,7 +5046,7 @@
     {
       "id": 649,
       "name": "createSubScheme_Master",
-      "url": "/egf-master/subschemes/_create",
+      "url": "/finance-master/subschemes/_create",
       "displayName": "Create SubScheme",
       "orderNumber": 1,
       "parentModule": "233",
@@ -5058,7 +5058,7 @@
     {
       "id": 650,
       "name": "updateSubScheme_Master",
-      "url": "/egf-master/subschemes/_update",
+      "url": "/finance-master/subschemes/_update",
       "displayName": "Modify SubScheme",
       "orderNumber": 2,
       "parentModule": "233",
@@ -5070,7 +5070,7 @@
     {
       "id": 651,
       "name": "searchSubScheme_Master",
-      "url": "/egf-master/subschemes/_search",
+      "url": "/finance-master/subschemes/_search",
       "displayName": "Search SubScheme",
       "orderNumber": 3,
       "parentModule": "233",
@@ -5082,7 +5082,7 @@
     {
       "id": 652,
       "name": "createFunction_Master",
-      "url": "/egf-master/functions/_create",
+      "url": "/finance-master/functions/_create",
       "displayName": "Create Function",
       "orderNumber": 1,
       "parentModule": "234",
@@ -5094,7 +5094,7 @@
     {
       "id": 653,
       "name": "updateFunction_Master",
-      "url": "/egf-master/functions/_update",
+      "url": "/finance-master/functions/_update",
       "displayName": "Modify Function",
       "orderNumber": 2,
       "parentModule": "234",
@@ -5106,7 +5106,7 @@
     {
       "id": 654,
       "name": "searchFunction_Master",
-      "url": "/egf-master/functions/_search",
+      "url": "/finance-master/functions/_search",
       "displayName": "Search Function",
       "orderNumber": 3,
       "parentModule": "234",
@@ -5118,7 +5118,7 @@
     {
       "id": 655,
       "name": "createBudgetGroup_Master",
-      "url": "/egf-master/budgetgroups/_create",
+      "url": "/finance-master/budgetgroups/_create",
       "displayName": "Create Budget Group",
       "orderNumber": 1,
       "parentModule": "235",
@@ -5130,7 +5130,7 @@
     {
       "id": 656,
       "name": "updateBudgetGroup_Master",
-      "url": "/egf-master/budgetgroups/_update",
+      "url": "/finance-master/budgetgroups/_update",
       "displayName": "Modify Budget Group",
       "orderNumber": 2,
       "parentModule": "235",
@@ -5142,7 +5142,7 @@
     {
       "id": 657,
       "name": "searchBudgetGroup_Master",
-      "url": "/egf-master/budgetgroups/_search",
+      "url": "/finance-master/budgetgroups/_search",
       "displayName": "Search Budget Group",
       "orderNumber": 3,
       "parentModule": "235",
@@ -5154,7 +5154,7 @@
     {
       "id": 658,
       "name": "createScheme_Master",
-      "url": "/egf-master/schemes/_create",
+      "url": "/finance-master/schemes/_create",
       "displayName": "Create Scheme",
       "orderNumber": 1,
       "parentModule": "236",
@@ -5166,7 +5166,7 @@
     {
       "id": 659,
       "name": "updateScheme_Master",
-      "url": "/egf-master/schemes/_update",
+      "url": "/finance-master/schemes/_update",
       "displayName": "Modify Scheme",
       "orderNumber": 2,
       "parentModule": "236",
@@ -5178,7 +5178,7 @@
     {
       "id": 660,
       "name": "searchScheme_Master",
-      "url": "/egf-master/schemes/_search",
+      "url": "/finance-master/schemes/_search",
       "displayName": "Search Scheme",
       "orderNumber": 3,
       "parentModule": "236",
@@ -5190,7 +5190,7 @@
     {
       "id": 661,
       "name": "createBankBranch_Master",
-      "url": "/egf-master/bankbranches/_create",
+      "url": "/finance-master/bankbranches/_create",
       "displayName": "Create BankBranch",
       "orderNumber": 1,
       "parentModule": "237",
@@ -5202,7 +5202,7 @@
     {
       "id": 662,
       "name": "updateBankBranch_Master",
-      "url": "/egf-master/bankbranches/_update",
+      "url": "/finance-master/bankbranches/_update",
       "displayName": "Modify BankBranch",
       "orderNumber": 2,
       "parentModule": "237",
@@ -5214,7 +5214,7 @@
     {
       "id": 663,
       "name": "searchBankBranch_Master",
-      "url": "/egf-master/bankbranches/_search",
+      "url": "/finance-master/bankbranches/_search",
       "displayName": "Search BankBranch",
       "orderNumber": 3,
       "parentModule": "237",
@@ -5226,7 +5226,7 @@
     {
       "id": 664,
       "name": "createFundSource_Master",
-      "url": "/egf-master/fundsources/_create",
+      "url": "/finance-master/fundsources/_create",
       "displayName": "Create Fund Source",
       "orderNumber": 1,
       "parentModule": "238",
@@ -5238,7 +5238,7 @@
     {
       "id": 665,
       "name": "updateFundSource_Master",
-      "url": "/egf-master/fundsources/_update",
+      "url": "/finance-master/fundsources/_update",
       "displayName": "Modify Fund Source",
       "orderNumber": 2,
       "parentModule": "238",
@@ -5250,7 +5250,7 @@
     {
       "id": 666,
       "name": "searchFundSource_Master",
-      "url": "/egf-master/fundsources/_search",
+      "url": "/finance-master/fundsources/_search",
       "displayName": "Search Fund Source",
       "orderNumber": 3,
       "parentModule": "238",
@@ -5262,7 +5262,7 @@
     {
       "id": 667,
       "name": "createFunctionary_Master",
-      "url": "/egf-master/functionaries/_create",
+      "url": "/finance-master/functionaries/_create",
       "displayName": "Create Functionary",
       "orderNumber": 1,
       "parentModule": "239",
@@ -5274,7 +5274,7 @@
     {
       "id": 668,
       "name": "updateFunctionary_Master",
-      "url": "/egf-master/functionaries/_update",
+      "url": "/finance-master/functionaries/_update",
       "displayName": "Modify Functionary",
       "orderNumber": 2,
       "parentModule": "239",
@@ -5286,7 +5286,7 @@
     {
       "id": 669,
       "name": "searchFunctionary_Master",
-      "url": "/egf-master/functionaries/_search",
+      "url": "/finance-master/functionaries/_search",
       "displayName": "Search Functionary",
       "orderNumber": 3,
       "parentModule": "239",
@@ -5298,7 +5298,7 @@
     {
       "id": 670,
       "name": "createChartOfAccount_Master",
-      "url": "/egf-master/chartofaccounts/_create",
+      "url": "/finance-master/chartofaccounts/_create",
       "displayName": "Create Chart Of Accounts",
       "orderNumber": 1,
       "parentModule": "240",
@@ -5310,7 +5310,7 @@
     {
       "id": 671,
       "name": "updateChartOfAccount_Master",
-      "url": "/egf-master/chartofaccounts/_update",
+      "url": "/finance-master/chartofaccounts/_update",
       "displayName": "Modify Chart Of Accounts",
       "orderNumber": 2,
       "parentModule": "240",
@@ -5322,7 +5322,7 @@
     {
       "id": 673,
       "name": "createChartOfAccountDetail_Master",
-      "url": "/egf-master/chartofaccountdetails/_create",
+      "url": "/finance-master/chartofaccountdetails/_create",
       "displayName": "Create Chart Of Accounts Detail",
       "orderNumber": 1,
       "parentModule": "241",
@@ -5334,7 +5334,7 @@
     {
       "id": 674,
       "name": "updateChartOfAccountDetail_Master",
-      "url": "/egf-master/chartofaccountdetails/_update",
+      "url": "/finance-master/chartofaccountdetails/_update",
       "displayName": "Modify Chart Of Accounts Detail",
       "orderNumber": 2,
       "parentModule": "241",
@@ -5346,7 +5346,7 @@
     {
       "id": 675,
       "name": "searchChartOfAccountDetail_Master",
-      "url": "/egf-master/chartofaccountdetails/_search",
+      "url": "/finance-master/chartofaccountdetails/_search",
       "displayName": "Search Chart Of Accounts Detail",
       "orderNumber": 3,
       "parentModule": "241",
@@ -5358,7 +5358,7 @@
     {
       "id": 676,
       "name": "createAccountEntiy_Master",
-      "url": "/egf-master/accountentities/_create",
+      "url": "/finance-master/accountentities/_create",
       "displayName": "Create Account Entity",
       "orderNumber": 1,
       "parentModule": "242",
@@ -5370,7 +5370,7 @@
     {
       "id": 677,
       "name": "updateAccountEntiy_Master",
-      "url": "/egf-master/accountentities/_update",
+      "url": "/finance-master/accountentities/_update",
       "displayName": "Modify Account Entity",
       "orderNumber": 2,
       "parentModule": "242",
@@ -5382,7 +5382,7 @@
     {
       "id": 678,
       "name": "searchAccountEntiy_Master",
-      "url": "/egf-master/accountentities/_search",
+      "url": "/finance-master/accountentities/_search",
       "displayName": "Search Account Entity",
       "orderNumber": 3,
       "parentModule": "242",
@@ -5394,7 +5394,7 @@
     {
       "id": 679,
       "name": "createFinancialYear_Master",
-      "url": "/egf-master/financialyears/_create",
+      "url": "/finance-master/financialyears/_create",
       "displayName": "Create Financial Year",
       "orderNumber": 1,
       "parentModule": "243",
@@ -5406,7 +5406,7 @@
     {
       "id": 680,
       "name": "updateFinancialYear_Master",
-      "url": "/egf-master/financialyears/_update",
+      "url": "/finance-master/financialyears/_update",
       "displayName": "Modify Financial Year",
       "orderNumber": 2,
       "parentModule": "243",
@@ -5418,7 +5418,7 @@
     {
       "id": 681,
       "name": "searchFinancialYear_Master",
-      "url": "/egf-master/financialyears/_search",
+      "url": "/finance-master/financialyears/_search",
       "displayName": "Search Financial Year",
       "orderNumber": 3,
       "parentModule": "243",
@@ -5430,7 +5430,7 @@
     {
       "id": 682,
       "name": "createFiscalPeriod_Master",
-      "url": "/egf-master/fiscalperiods/_create",
+      "url": "/finance-master/fiscalperiods/_create",
       "displayName": "Create Fiscal Period",
       "orderNumber": 1,
       "parentModule": "244",
@@ -5442,7 +5442,7 @@
     {
       "id": 683,
       "name": "updateFiscalPeriod_Master",
-      "url": "/egf-master/fiscalperiods/_update",
+      "url": "/finance-master/fiscalperiods/_update",
       "displayName": "Modify Fiscal Period",
       "orderNumber": 2,
       "parentModule": "244",
@@ -5454,7 +5454,7 @@
     {
       "id": 684,
       "name": "searchFiscalPeriod_Master",
-      "url": "/egf-master/fiscalperiods/_search",
+      "url": "/finance-master/fiscalperiods/_search",
       "displayName": "Search Fiscal Period",
       "orderNumber": 3,
       "parentModule": "244",
@@ -5466,7 +5466,7 @@
     {
       "id": 685,
       "name": "createAccountDetailType_Master",
-      "url": "/egf-master/accountdetailtypes/_create",
+      "url": "/finance-master/accountdetailtypes/_create",
       "displayName": "Create Account Detail Type",
       "orderNumber": 1,
       "parentModule": "245",
@@ -5478,7 +5478,7 @@
     {
       "id": 686,
       "name": "updateAccountDetailType_Master",
-      "url": "/egf-master/accountdetailtypes/_update",
+      "url": "/finance-master/accountdetailtypes/_update",
       "displayName": "Modify Account Detail Type",
       "orderNumber": 2,
       "parentModule": "245",
@@ -5490,7 +5490,7 @@
     {
       "id": 687,
       "name": "searchAccountDetailType_Master",
-      "url": "/egf-master/accountdetailtypes/_search",
+      "url": "/finance-master/accountdetailtypes/_search",
       "displayName": "Search Account Detail Type",
       "orderNumber": 3,
       "parentModule": "245",
@@ -5502,7 +5502,7 @@
     {
       "id": 688,
       "name": "createFinancialConfiguration_Master",
-      "url": "/egf-master/financialconfigurations/_create",
+      "url": "/finance-master/financialconfigurations/_create",
       "displayName": "Create Financial Configuration",
       "orderNumber": 1,
       "parentModule": "246",
@@ -5514,7 +5514,7 @@
     {
       "id": 689,
       "name": "updateFinancialConfiguration_Master",
-      "url": "/egf-master/financialconfigurations/_update",
+      "url": "/finance-master/financialconfigurations/_update",
       "displayName": "Modify Financial Configuration",
       "orderNumber": 2,
       "parentModule": "246",
@@ -5526,7 +5526,7 @@
     {
       "id": 690,
       "name": "searchFinancialConfiguration_Master",
-      "url": "/egf-master/financialconfigurations/_search",
+      "url": "/finance-master/financialconfigurations/_search",
       "displayName": "Search Financial Configuration",
       "orderNumber": 3,
       "parentModule": "246",
@@ -6998,7 +6998,7 @@
     {
       "id": 926,
       "name": "FinancialstatusesSearch",
-      "url": "/egf-master/financialstatuses/_search",
+      "url": "/finance-master/financialstatuses/_search",
       "displayName": "Financialstatuses Search",
       "orderNumber": 0,
       "parentModule": "302",
@@ -7010,7 +7010,7 @@
     {
       "id": 927,
       "name": "ChartofaccountsSearch",
-      "url": "/egf-master/chartofaccounts/_search",
+      "url": "/finance-master/chartofaccounts/_search",
       "displayName": "ChartofaccountsSearch Search",
       "orderNumber": 0,
       "parentModule": "302",
@@ -9474,7 +9474,7 @@
     {
       "id": 1426,
       "name": "createAccountCodePurpose_Master",
-      "url": "/egf-masters/accountcodepurposes/_create",
+      "url": "/finance-master/accountcodepurposes/_create",
       "displayName": "Create Account Code Purpose",
       "orderNumber": 1,
       "parentModule": "230",
@@ -9486,7 +9486,7 @@
     {
       "id": 1427,
       "name": "updateAccountCodePurpose_Master",
-      "url": "/egf-masters/accountcodepurposes/_update",
+      "url": "/finance-master/accountcodepurposes/_update",
       "displayName": "Modify Account Code Purpose",
       "orderNumber": 2,
       "parentModule": "230",
@@ -9498,7 +9498,7 @@
     {
       "id": 1428,
       "name": "searchAccountCodePurpose_Master",
-      "url": "/egf-masters/accountcodepurposes/_search",
+      "url": "/finance-master/accountcodepurposes/_search",
       "displayName": "Search Account Code Purpose",
       "orderNumber": 3,
       "parentModule": "230",
