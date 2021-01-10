@@ -4405,7 +4405,7 @@
     {
       "id": 570,
       "name": "createInstrument",
-      "url": "/egf-instrument/instruments/_create",
+      "url": "/finance-instrument/instruments/_create",
       "displayName": "Create Instrument",
       "orderNumber": 1,
       "parentModule": "212",
@@ -4417,7 +4417,7 @@
     {
       "id": 571,
       "name": "updateInstrument",
-      "url": "/egf-instrument/instruments/_update",
+      "url": "/finance-instrument/instruments/_update",
       "displayName": "Modify Instrument",
       "orderNumber": 2,
       "parentModule": "212",
@@ -4429,7 +4429,7 @@
     {
       "id": 572,
       "name": "searchInstrument",
-      "url": "/egf-instrument/instruments/_search",
+      "url": "/finance-instrument/instruments/_search",
       "displayName": "Search Instrument",
       "orderNumber": 3,
       "parentModule": "212",
@@ -4441,7 +4441,7 @@
     {
       "id": 573,
       "name": "createInstrumentAccountCode",
-      "url": "/egf-instrument/instrumentaccountcodes/_create",
+      "url": "/finance-instrument/instrumentaccountcodes/_create",
       "displayName": "Instrument Account Code",
       "orderNumber": 1,
       "parentModule": "213",
@@ -4453,7 +4453,7 @@
     {
       "id": 574,
       "name": "updateInstrumentAccountCode",
-      "url": "/egf-instrument/instrumentaccountcodes/_update",
+      "url": "/finance-instrument/instrumentaccountcodes/_update",
       "displayName": "Instrument Account Code",
       "orderNumber": 2,
       "parentModule": "213",
@@ -4465,7 +4465,7 @@
     {
       "id": 575,
       "name": "searchInstrumentAccountCode",
-      "url": "/egf-instrument/instrumentaccountcodes/_search",
+      "url": "/finance-instrument/instrumentaccountcodes/_search",
       "displayName": "Instrument Account Code",
       "orderNumber": 3,
       "parentModule": "213",
@@ -4477,7 +4477,7 @@
     {
       "id": 576,
       "name": "createInstrumentType",
-      "url": "/egf-instrument/instrumenttypes/_create",
+      "url": "/finance-instrument/instrumenttypes/_create",
       "displayName": "Create Instrument Type",
       "orderNumber": 1,
       "parentModule": "214",
@@ -4489,7 +4489,7 @@
     {
       "id": 577,
       "name": "updateInstrumentType",
-      "url": "/egf-instrument/instrumenttypes/_update",
+      "url": "/finance-instrument/instrumenttypes/_update",
       "displayName": "Modify Instrument Type",
       "orderNumber": 2,
       "parentModule": "214",
@@ -4501,7 +4501,7 @@
     {
       "id": 578,
       "name": "searchInstrumentType",
-      "url": "/egf-instrument/instrumenttypes/_search",
+      "url": "/finance-instrument/instrumenttypes/_search",
       "displayName": "Search Instrument Type",
       "orderNumber": 3,
       "parentModule": "214",
@@ -4513,7 +4513,7 @@
     {
       "id": 579,
       "name": "createSurrenderReason",
-      "url": "/egf-instrument/surrenderreasons/_create",
+      "url": "/finance-instrument/surrenderreasons/_create",
       "displayName": "Create Surrender Reasons",
       "orderNumber": 1,
       "parentModule": "215",
@@ -4525,7 +4525,7 @@
     {
       "id": 580,
       "name": "updateSurrenderReason",
-      "url": "/egf-instrument/surrenderreasons/_update",
+      "url": "/finance-instrument/surrenderreasons/_update",
       "displayName": "Modify Surrender Reasons",
       "orderNumber": 2,
       "parentModule": "215",
@@ -4537,7 +4537,7 @@
     {
       "id": 581,
       "name": "searchSurrenderReason",
-      "url": "/egf-instrument/surrenderreasons/_search",
+      "url": "/finance-instrument/surrenderreasons/_search",
       "displayName": "Search Surrender Reasons",
       "orderNumber": 3,
       "parentModule": "215",
