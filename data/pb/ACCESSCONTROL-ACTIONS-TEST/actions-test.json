@@ -15739,7 +15739,7 @@
     {
       "id": 1924,
       "name": "BPA-Applyforservice",
-      "url": "/bpa-services/v1/bpa/_create",
+      "url": "/building-plan/v1/bpa/_create",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -15834,7 +15834,7 @@
     {
       "id": 1930,
       "name": "BPA-applicationsearch",
-      "url": "/bpa-services/v1/bpa/_search",
+      "url": "/building-plan/v1/bpa/_search",
       "displayName": "Search",
       "orderNumber": 0,
       "enabled": false,
@@ -15845,7 +15845,7 @@
     {
       "id": 1931,
       "name": "BPA-updateapplicationservice",
-      "url": "/bpa-services/v1/bpa/_update",
+      "url": "/building-plan/v1/bpa/_update",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -16365,7 +16365,7 @@
     {
       "id": 1971,
       "name": "BPA-PermitOrderEDCR Report",
-      "url": "/bpa-services/v1/bpa/_permitorderedcr",
+      "url": "/building-plan/v1/bpa/_permitorderedcr",
       "displayName": "Apply",
       "orderNumber": 0,
       "enabled": false,
@@ -16416,7 +16416,7 @@
     {
       "id": 1975,
       "name": "Locality searcher endpoint for BPA",
-      "url": "/searcher/locality/bpa-services/_get",
+      "url": "/searcher/locality/building-plan/_get",
       "displayName": "BPA locality searcher",
       "orderNumber": 0,
       "enabled": false,
