@@ -5741,7 +5741,7 @@
     {
       "id": 702,
       "name": "UpdateCollection",
-      "url": "/billing-service/demand/collection/_update",
+      "url": "/billing/demand/collection/_update",
       "displayName": "Update Collection",
       "orderNumber": 1,
       "enabled": false,
@@ -5752,7 +5752,7 @@
     {
       "id": 703,
       "name": "BS_SearchDemandDetail",
-      "url": "/billing-service/demand/demanddetail/_search",
+      "url": "/billing/demand/demanddetail/_search",
       "displayName": "Search Demand Detail",
       "orderNumber": 2,
       "enabled": false,
@@ -5763,7 +5763,7 @@
     {
       "id": 704,
       "name": "UpdateDemand",
-      "url": "/billing-service/demand/_update",
+      "url": "/billing/demand/_update",
       "displayName": "Update Demand",
       "orderNumber": 3,
       "enabled": false,
@@ -5774,7 +5774,7 @@
     {
       "id": 705,
       "name": "CreateDemand",
-      "url": "/billing-service/demand/_create",
+      "url": "/billing/demand/_create",
       "displayName": "Create Demand",
       "orderNumber": 4,
       "enabled": false,
@@ -5785,7 +5785,7 @@
     {
       "id": 706,
       "name": "SearchDemand",
-      "url": "/billing-service/demand/_search",
+      "url": "/billing/demand/_search",
       "displayName": "Search Demand",
       "orderNumber": 5,
       "enabled": false,
@@ -5796,7 +5796,7 @@
     {
       "id": 707,
       "name": "UpdateTaxHead",
-      "url": "/billing-service/taxheads/_update",
+      "url": "/billing/taxheads/_update",
       "displayName": "Update Tax Head",
       "orderNumber": 6,
       "enabled": false,
@@ -5807,7 +5807,7 @@
     {
       "id": 708,
       "name": "CreateTaxHead",
-      "url": "/billing-service/taxheads/_create",
+      "url": "/billing/taxheads/_create",
       "displayName": "Create Tax Head",
       "orderNumber": 7,
       "enabled": false,
@@ -5818,7 +5818,7 @@
     {
       "id": 709,
       "name": "SearchTaxHead",
-      "url": "/billing-service/taxheads/_search",
+      "url": "/billing/taxheads/_search",
       "displayName": "Search Tax Head",
       "orderNumber": 8,
       "enabled": false,
@@ -5829,7 +5829,7 @@
     {
       "id": 710,
       "name": "GenerateBill",
-      "url": "/billing-service/bill/_generate",
+      "url": "/billing/bill/_generate",
       "displayName": "Generate Bill",
       "orderNumber": 9,
       "enabled": false,
@@ -5840,7 +5840,7 @@
     {
       "id": 711,
       "name": "Apportion",
-      "url": "/billing-service/bill/_apportion",
+      "url": "/billing/bill/_apportion",
       "displayName": "Apportion",
       "orderNumber": 10,
       "enabled": false,
@@ -5851,7 +5851,7 @@
     {
       "id": 712,
       "name": "CreateBill",
-      "url": "/billing-service/bill/_create",
+      "url": "/billing/bill/_create",
       "displayName": "Create Bill",
       "orderNumber": 11,
       "enabled": false,
@@ -5862,7 +5862,7 @@
     {
       "id": 713,
       "name": "SearchBill",
-      "url": "/billing-service/bill/_search",
+      "url": "/billing/bill/_search",
       "displayName": "Search Bill",
       "orderNumber": 12,
       "enabled": false,
@@ -5873,7 +5873,7 @@
     {
       "id": 714,
       "name": "UpdateBusinessService",
-      "url": "/billing-service/businessservices/_update",
+      "url": "/billing/businessservices/_update",
       "displayName": "Update Business Service",
       "orderNumber": 13,
       "enabled": false,
@@ -5884,7 +5884,7 @@
     {
       "id": 715,
       "name": "CreateBusinessService",
-      "url": "/billing-service/businessservices/_create",
+      "url": "/billing/businessservices/_create",
       "displayName": "Create Business Service",
       "orderNumber": 14,
       "enabled": false,
@@ -5895,7 +5895,7 @@
     {
       "id": 716,
       "name": "SearchBusinessService",
-      "url": "/billing-service/businessservices/_search",
+      "url": "/billing/businessservices/_search",
       "displayName": "Search Business Service",
       "orderNumber": 15,
       "enabled": false,
@@ -5906,7 +5906,7 @@
     {
       "id": 717,
       "name": "UpdateGlcodeMaster",
-      "url": "/billing-service/glcodemasters/_update",
+      "url": "/billing/glcodemasters/_update",
       "displayName": "Update Glcode Master",
       "orderNumber": 16,
       "enabled": false,
@@ -5917,7 +5917,7 @@
     {
       "id": 718,
       "name": "CreateGlcodeMaster",
-      "url": "/billing-service/glcodemasters/_create",
+      "url": "/billing/glcodemasters/_create",
       "displayName": "Create Glcode Master",
       "orderNumber": 17,
       "enabled": false,
@@ -5928,7 +5928,7 @@
     {
       "id": 719,
       "name": "SearchGlcodeMaster",
-      "url": "/billing-service/glcodemasters/_search",
+      "url": "/billing/glcodemasters/_search",
       "displayName": "Search Glcode Master",
       "orderNumber": 18,
       "enabled": false,
@@ -5939,7 +5939,7 @@
     {
       "id": 720,
       "name": "BS_UpdateTaxPeriod",
-      "url": "/billing-service/taxperiods/_update",
+      "url": "/billing/taxperiods/_update",
       "displayName": "Update Tax Period",
       "orderNumber": 19,
       "enabled": false,
@@ -5950,7 +5950,7 @@
     {
       "id": 721,
       "name": "BS_CreateTaxPeriod",
-      "url": "/billing-service/taxperiods/_create",
+      "url": "/billing/taxperiods/_create",
       "displayName": "Create Tax Period",
       "orderNumber": 20,
       "enabled": false,
@@ -5961,7 +5961,7 @@
     {
       "id": 722,
       "name": "BS_SearchTaxPeriod",
-      "url": "/billing-service/taxperiods/_search",
+      "url": "/billing/taxperiods/_search",
       "displayName": "Search Tax Period",
       "orderNumber": 21,
       "enabled": false,
@@ -6535,7 +6535,7 @@
     {
       "id": 809,
       "name": "BS_TaxPeriodSearch",
-      "url": "/billing-service/taxperiod/_search",
+      "url": "/billing/taxperiod/_search",
       "displayName": "Get Tax Periods",
       "orderNumber": 1,
       "enabled": false,
@@ -6546,7 +6546,7 @@
     {
       "id": 810,
       "name": "BS_GetDemandDues",
-      "url": "/billing-service/demand/_dues",
+      "url": "/billing/demand/_dues",
       "displayName": "Get Demand Dues",
       "orderNumber": 1,
       "enabled": false,
