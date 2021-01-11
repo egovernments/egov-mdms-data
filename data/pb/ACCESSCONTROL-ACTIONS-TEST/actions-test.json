@@ -4614,7 +4614,7 @@
     {
       "id": 612,
       "name": "GetReportData",
-      "url": "/collection-services/report/_get",
+      "url": "/collection/report/_get",
       "displayName": "Get Report Data",
       "orderNumber": 1,
       "enabled": false,
@@ -4626,7 +4626,7 @@
     {
       "id": 613,
       "name": "GetReportMetadata",
-      "url": "/collection-services/report/metadata/_get",
+      "url": "/collection/report/metadata/_get",
       "displayName": "Get Report Metadata",
       "orderNumber": 2,
       "enabled": false,
@@ -4638,7 +4638,7 @@
     {
       "id": 614,
       "name": "ReloadReport",
-      "url": "/collection-services/report/_reload",
+      "url": "/collection/report/_reload",
       "displayName": "Reload Report",
       "orderNumber": 3,
       "enabled": false,
@@ -6004,7 +6004,7 @@
     {
       "id": 734,
       "name": "StartWorkflow",
-      "url": "/collection-services/receipts-workflow/_start",
+      "url": "/collection/receipts-workflow/_start",
       "displayName": "Start Workflow",
       "orderNumber": 3,
       "enabled": false,
@@ -6016,7 +6016,7 @@
     {
       "id": 735,
       "name": "UpdateWorkflow",
-      "url": "/collection-services/receipts-workflow/_update",
+      "url": "/collection/receipts-workflow/_update",
       "displayName": "Update Workflow",
       "orderNumber": 3,
       "enabled": false,
@@ -6066,7 +6066,7 @@
     {
       "id": 743,
       "name": "UpdateReceipt",
-      "url": "/collection-services/receipts/_update",
+      "url": "/collection/receipts/_update",
       "displayName": "Update Receipt",
       "orderNumber": 3,
       "enabled": false,
@@ -6231,7 +6231,7 @@
     {
       "id": 781,
       "name": "GetDistinctCollectedBy",
-      "url": "/collection-services/receipts/_getDistinctCollectedBy",
+      "url": "/collection/receipts/_getDistinctCollectedBy",
       "displayName": "Distinct collected By",
       "orderNumber": 1,
       "enabled": false,
@@ -6243,7 +6243,7 @@
     {
       "id": 782,
       "name": "Collection status",
-      "url": "/collection-services/receipts/_status",
+      "url": "/collection/receipts/_status",
       "displayName": "Collection status",
       "orderNumber": 1,
       "enabled": false,
@@ -6255,7 +6255,7 @@
     {
       "id": 783,
       "name": "Business Details",
-      "url": "/collection-services/receipts/_getDistinctBusinessDetails",
+      "url": "/collection/receipts/_getDistinctBusinessDetails",
       "displayName": "Business Details",
       "orderNumber": 1,
       "enabled": false,
@@ -6267,7 +6267,7 @@
     {
       "id": 784,
       "name": "Chart Of Accounts",
-      "url": "/collection-services/receipts/_getChartOfAccounts",
+      "url": "/collection/receipts/_getChartOfAccounts",
       "displayName": "Chart Of Accounts",
       "orderNumber": 1,
       "enabled": false,
@@ -6962,7 +6962,7 @@
     {
       "id": 917,
       "name": "LegacyCreateReceipt",
-      "url": "/collection-services/receipts/_legacycreate",
+      "url": "/collection/receipts/_legacycreate",
       "displayName": "Create Legacy  Receipt",
       "orderNumber": 4,
       "enabled": false,
@@ -11463,7 +11463,7 @@
     {
       "id": 1586,
       "name": "bankAccountServiceMapping create",
-      "url": "/collection-services/bankAccountServiceMapping/_create",
+      "url": "/collection/bankAccountServiceMapping/_create",
       "displayName": "BankAccountServiceMapping Create",
       "orderNumber": 1,
       "parentModule": null,
@@ -11475,7 +11475,7 @@
     {
       "id": 1587,
       "name": "bankAccountServiceMapping search",
-      "url": "/collection-services/bankAccountServiceMapping/_search",
+      "url": "/collection/bankAccountServiceMapping/_search",
       "displayName": "BankAccountServiceMapping Create",
       "orderNumber": 1,
       "parentModule": null,
@@ -11498,7 +11498,7 @@
     {
       "id": 1589,
       "name": "Collection Create Reciept",
-      "url": "/collection-services/receipts/_create",
+      "url": "/collection/receipts/_create",
       "displayName": "Create Reciept",
       "orderNumber": 0,
       "enabled": false,
@@ -11509,7 +11509,7 @@
     {
       "id": 1590,
       "name": "Collection Search Reciept",
-      "url": "/collection-services/receipts/_search",
+      "url": "/collection/receipts/_search",
       "displayName": "Search Reciept",
       "orderNumber": 1,
       "enabled": false,
@@ -12853,7 +12853,7 @@
     {
       "id": 1696,
       "name": "Create Remittance",
-      "url": "/collection-services/remittances/_create",
+      "url": "/collection/remittances/_create",
       "displayName": "Create Remittance",
       "orderNumber": 1,
       "parentModule": "",
@@ -12865,7 +12865,7 @@
     {
       "id": 1697,
       "name": "Search Remittance",
-      "url": "/collection-services/remittances/_search",
+      "url": "/collection/remittances/_search",
       "displayName": "Search Remittance",
       "orderNumber": 1,
       "parentModule": "",
@@ -13228,7 +13228,7 @@
     {
       "id": 1724,
       "name": "Receipts Workflow",
-      "url": "/collection-services/receipts/_workflow",
+      "url": "/collection/receipts/_workflow",
       "displayName": "Receipts Workflow",
       "orderNumber": 1,
       "parentModule": "",
@@ -13518,7 +13518,7 @@
     {
       "id": 1746,
       "name": "Receipts Workflow",
-      "url": "/collection-services/receipts/_workflow",
+      "url": "/collection/receipts/_workflow",
       "displayName": "Receipts Workflow",
       "orderNumber": 1,
       "parentModule": "",
@@ -14056,7 +14056,7 @@
     {
       "id": 1788,
       "name": "CreateReceipt",
-      "url": "/collection-services-v1/receipts/_create",
+      "url": "/collection-v1/receipts/_create",
       "displayName": "Create Receipt",
       "serviceCode": "COLLECTION_SERVICE",
       "code": "null",
@@ -14065,7 +14065,7 @@
     {
       "id": 1789,
       "name": "UpdateReceipt",
-      "url": "/collection-services-v1/receipts/_update",
+      "url": "/collection-v1/receipts/_update",
       "displayName": "Update Receipt",
       "serviceCode": "COLLECTION_SERVICE",
       "code": "null",
@@ -14074,7 +14074,7 @@
     {
       "id": 1790,
       "name": "SearchReceipt",
-      "url": "/collection-services-v1/receipts/_search",
+      "url": "/collection-v1/receipts/_search",
       "displayName": "Receipt Search",
       "serviceCode": "COLLECTION_SERVICE",
       "code": "null",
@@ -14993,7 +14993,7 @@
     {
       "id": 1863,
       "name": "Collection Create Reciept",
-      "url": "/collection-services/payments/_create",
+      "url": "/collection/payments/_create",
       "displayName": "Create Payment",
       "orderNumber": 0,
       "enabled": false,
@@ -15004,7 +15004,7 @@
     {
       "id": 1864,
       "name": "Collection Saerch Reciept",
-      "url": "/collection-services/payments/_search",
+      "url": "/collection/payments/_search",
       "displayName": "Search Payment",
       "orderNumber": 0,
       "enabled": false,
@@ -15015,7 +15015,7 @@
     {
       "id": 1865,
       "name": "Collection Update Reciept",
-      "url": "/collection-services/payments/_update",
+      "url": "/collection/payments/_update",
       "displayName": "Update paymentt",
       "orderNumber": 0,
       "enabled": false,
@@ -15026,7 +15026,7 @@
     {
       "id": 1866,
       "name": "Collection Reciept Workflow",
-      "url": "/collection-services/payments/_workflow",
+      "url": "/collection/payments/_workflow",
       "displayName": "Payment workflow",
       "orderNumber": 0,
       "enabled": false,

@@ -4614,7 +4614,7 @@
     {
       "id": 612,
       "name": "GetReportData",
-      "url": "/collection-services/report/_get",
+      "url": "/collection/report/_get",
       "displayName": "Get Report Data",
       "orderNumber": 1,
       "enabled": false,
@@ -4625,7 +4625,7 @@
     {
       "id": 613,
       "name": "GetReportMetadata",
-      "url": "/collection-services/report/metadata/_get",
+      "url": "/collection/report/metadata/_get",
       "displayName": "Get Report Metadata",
       "orderNumber": 2,
       "enabled": false,
@@ -4636,7 +4636,7 @@
     {
       "id": 614,
       "name": "ReloadReport",
-      "url": "/collection-services/report/_reload",
+      "url": "/collection/report/_reload",
       "displayName": "Reload Report",
       "orderNumber": 3,
       "enabled": false,
@@ -6000,7 +6000,7 @@
     {
       "id": 734,
       "name": "StartWorkflow",
-      "url": "/collection-services/receipts-workflow/_start",
+      "url": "/collection/receipts-workflow/_start",
       "displayName": "Start Workflow",
       "orderNumber": 3,
       "enabled": false,
@@ -6011,7 +6011,7 @@
     {
       "id": 735,
       "name": "UpdateWorkflow",
-      "url": "/collection-services/receipts-workflow/_update",
+      "url": "/collection/receipts-workflow/_update",
       "displayName": "Update Workflow",
       "orderNumber": 3,
       "enabled": false,
@@ -6060,7 +6060,7 @@
     {
       "id": 743,
       "name": "UpdateReceipt",
-      "url": "/collection-services/receipts/_update",
+      "url": "/collection/receipts/_update",
       "displayName": "Update Receipt",
       "orderNumber": 3,
       "enabled": false,
@@ -6224,7 +6224,7 @@
     {
       "id": 781,
       "name": "GetDistinctCollectedBy",
-      "url": "/collection-services/receipts/_getDistinctCollectedBy",
+      "url": "/collection/receipts/_getDistinctCollectedBy",
       "displayName": "Distinct collected By",
       "orderNumber": 1,
       "enabled": false,
@@ -6235,7 +6235,7 @@
     {
       "id": 782,
       "name": "Collection status",
-      "url": "/collection-services/receipts/_status",
+      "url": "/collection/receipts/_status",
       "displayName": "Collection status",
       "orderNumber": 1,
       "enabled": false,
@@ -6246,7 +6246,7 @@
     {
       "id": 783,
       "name": "Business Details",
-      "url": "/collection-services/receipts/_getDistinctBusinessDetails",
+      "url": "/collection/receipts/_getDistinctBusinessDetails",
       "displayName": "Business Details",
       "orderNumber": 1,
       "enabled": false,
@@ -6257,7 +6257,7 @@
     {
       "id": 784,
       "name": "Chart Of Accounts",
-      "url": "/collection-services/receipts/_getChartOfAccounts",
+      "url": "/collection/receipts/_getChartOfAccounts",
       "displayName": "Chart Of Accounts",
       "orderNumber": 1,
       "enabled": false,
@@ -6948,7 +6948,7 @@
     {
       "id": 917,
       "name": "LegacyCreateReceipt",
-      "url": "/collection-services/receipts/_legacycreate",
+      "url": "/collection/receipts/_legacycreate",
       "displayName": "Create Legacy  Receipt",
       "orderNumber": 4,
       "enabled": false,
