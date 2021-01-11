@@ -8981,26 +8981,74 @@
       "rightIcon": ""
     },
     {
-    "id": 2045,
-    "name": "Create FSM Application",
-    "url": "/fsm/v1/_create",
-    "displayName": "Apply FSM",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "FSM",
-    "code": "null",
-    "path": ""
-  },
-  {
-    "id": 2046,
-    "name": "Search FSM Application",
-    "url": "/fsm/v1/_search",
-    "displayName": "Search  FSM Appliacations",
-    "orderNumber": 1,
-    "enabled": false,
-    "serviceCode": "FSM",
-    "code": "null",
-    "path": ""
-  }
+      "id": 2045,
+      "name": "Create FSM Application",
+      "url": "/fsm/v1/_create",
+      "displayName": "Apply FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2046,
+      "name": "Search FSM Application",
+      "url": "/fsm/v1/_search",
+      "displayName": "Search  FSM Appliacations",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2047,
+      "name": "DEFAULT Payment search",
+      "url": "/collection-services/payments/ADVT.Light_Wala_Board/_search",
+      "displayName": "Light_Wala_Board Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2048,
+      "name": "DEFAULT Payment search",
+      "url": "/collection-services/payments/ADVT.Hoardings/_search",
+      "displayName": "Hoardings Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2049,
+      "name": "DEFAULT Payment search",
+      "url": "/collection-services/payments/ADVT.Unipolls/_search",
+      "displayName": "Unipolls Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2050,
+      "name": "DEFAULT Payment search",
+      "url": "/collection-services/payments/ADVT.Wall_Paint_Advertisement/_search",
+      "displayName": "Wall_Paint_Advertisement Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
