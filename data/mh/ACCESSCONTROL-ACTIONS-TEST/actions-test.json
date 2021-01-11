@@ -2761,7 +2761,7 @@
     {
       "id": 253,
       "name": "Get Boundary by Boundary Type",
-      "url": "/egov-location/boundarys/getByBoundaryType",
+      "url": "/location/boundarys/getByBoundaryType",
       "displayName": "Get Boundary by Boundary Type",
       "orderNumber": 1,
       "parentModule": "67",
@@ -2773,7 +2773,7 @@
     {
       "id": 254,
       "name": "Get Child locations by Boundary",
-      "url": "/egov-location/boundarys/childLocationsByBoundaryId",
+      "url": "/location/boundarys/childLocationsByBoundaryId",
       "displayName": "Get Child locations by Boundary",
       "orderNumber": 1,
       "parentModule": "67",
@@ -2809,7 +2809,7 @@
     {
       "id": 257,
       "name": "Get Boundary Type",
-      "url": "/egov-location/boundarytypes",
+      "url": "/location/boundarytypes",
       "displayName": "Get Boundary Type",
       "orderNumber": 1,
       "parentModule": "67",
@@ -2821,7 +2821,7 @@
     {
       "id": 258,
       "name": "Get BoundaryTypes By Heirarchy Type",
-      "url": "/egov-location/boundarytypes/getByHierarchyType",
+      "url": "/location/boundarytypes/getByHierarchyType",
       "displayName": "Get BoundaryTypes By Heirarchy Type",
       "orderNumber": 1,
       "parentModule": "67",
@@ -2881,7 +2881,7 @@
     {
       "id": 263,
       "name": "Cross Hierarchys",
-      "url": "/egov-location/crosshierarchys",
+      "url": "/location/crosshierarchys",
       "displayName": "Cross Hierarchys",
       "orderNumber": 1,
       "parentModule": "67",
@@ -4872,7 +4872,7 @@
     {
       "id": 627,
       "name": "Search Boundary",
-      "url": "/egov-location/boundarys/_search",
+      "url": "/location/boundarys/_search",
       "displayName": "Search Boundary",
       "orderNumber": 1,
       "parentModule": "67",
@@ -6071,7 +6071,7 @@
     {
       "id": 732,
       "name": "isShapeFileExist",
-      "url": "/egov-location/boundarys/isshapefileexist",
+      "url": "/location/boundarys/isshapefileexist",
       "displayName": "Is ShapeFile ExistOrNot",
       "orderNumber": 1,
       "parentModule": "67",
@@ -6790,7 +6790,7 @@
     {
       "id": 873,
       "name": "SearchBoundaryType",
-      "url": "/egov-location/boundarytypes/_search",
+      "url": "/location/boundarytypes/_search",
       "displayName": "Search BoundaryType",
       "orderNumber": 1,
       "parentModule": "67",
@@ -6802,7 +6802,7 @@
     {
       "id": 874,
       "name": "SearchHierarchyTypes",
-      "url": "/egov-location/hierarchytypes/_search",
+      "url": "/location/hierarchytypes/_search",
       "displayName": "Search HierarchyTypes",
       "orderNumber": 1,
       "parentModule": "67",
@@ -6838,7 +6838,7 @@
     {
       "id": 883,
       "name": "Search Cross Hierarchy",
-      "url": "/egov-location/crosshierarchys/_search",
+      "url": "/location/crosshierarchys/_search",
       "displayName": "Search Cross Hierarchys",
       "orderNumber": 1,
       "parentModule": "67",
@@ -7254,7 +7254,7 @@
     {
       "id": 947,
       "name": "Create Boundary",
-      "url": "/egov-location/boundarys",
+      "url": "/location/boundarys",
       "displayName": "Create Boundary",
       "orderNumber": 1,
       "parentModule": "67",
@@ -7266,7 +7266,7 @@
     {
       "id": 948,
       "name": "Create HierarchyType",
-      "url": "/egov-location/hierarchytypes",
+      "url": "/location/hierarchytypes",
       "displayName": "Create HierarchyType",
       "orderNumber": 1,
       "parentModule": "67",
@@ -7443,7 +7443,7 @@
     {
       "id": 976,
       "name": "Update Boundary",
-      "url": "/egov-location/boundarys/{code}",
+      "url": "/location/boundarys/{code}",
       "displayName": "Update Boundary",
       "orderNumber": 1,
       "parentModule": "67",
@@ -7455,7 +7455,7 @@
     {
       "id": 977,
       "name": "Update BoundaryType",
-      "url": "/egov-location/boundarytypes/{code}",
+      "url": "/location/boundarytypes/{code}",
       "displayName": "Update BoundaryType",
       "orderNumber": 1,
       "parentModule": "67",
@@ -7467,7 +7467,7 @@
     {
       "id": 978,
       "name": "Update CrossHierarchy",
-      "url": "/egov-location/crosshierarchys/{code}",
+      "url": "/location/crosshierarchys/{code}",
       "displayName": "Update CrossHierarchy",
       "orderNumber": 1,
       "parentModule": "67",
@@ -7479,7 +7479,7 @@
     {
       "id": 979,
       "name": "Update HierarchyType",
-      "url": "/egov-location/hierarchytypes/{code}",
+      "url": "/location/hierarchytypes/{code}",
       "displayName": "Update HierarchyType",
       "orderNumber": 1,
       "parentModule": "67",
@@ -9531,7 +9531,7 @@
     {
       "id": 1429,
       "name": "Search Boundaries With Mdms",
-      "url": "/egov-location/location/v11/boundarys/_search",
+      "url": "/location/location/v11/boundarys/_search",
       "displayName": "Boundaries Mdms Search",
       "orderNumber": 3,
       "parentModule": "67",
