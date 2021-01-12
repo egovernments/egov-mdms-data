@@ -8726,8 +8726,8 @@
          "navigationURL": "bill-amend/search",
          "path": "",
          "leftIcon": "action:receipt"
-       },
-       {
+      },
+      {
          "id": 2025,
          "name": "BillAmendment",
          "url": "card",
@@ -8742,8 +8742,8 @@
          "leftIcon": "action:receipt",
          "rightIcon": "",
          "queryParams": ""
-       },
-       {
+      },
+      {
          "id": 2027,
          "name": "WorkflowProcessCount",
          "url": "/egov-workflow-v2/egov-wf/process/_count",
@@ -8766,8 +8766,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2029,
          "name": "PT Payment search",
          "url": "/collection-services/payments/PT/_search",
@@ -8778,8 +8778,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2030,
          "name": "ReceiptCancellation",
          "url": "url",
@@ -8792,8 +8792,8 @@
          "navigationURL": "receipts/search",
          "path": "",
          "leftIcon": "action:receipt"
-       },
-       {
+      },
+      {
          "id": 2031,
          "name": "ReceiptCancellation",
          "url": "card",
@@ -8808,8 +8808,8 @@
          "leftIcon": "action:receipt",
          "rightIcon": "",
          "queryParams": ""
-       },
-       {
+      },
+      {
          "id": 2032,
          "name": "BPA_LOW Payment search",
          "url": "/collection-services/payments/BPA_LOW/_search",
@@ -8820,8 +8820,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2033,
          "name": "PT Payment search",
          "url": "/collection-services/payments/PT.MUTATION/_search",
@@ -8832,8 +8832,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2034,
          "name": "TL Payment search",
          "url": "/collection-services/payments/TL/_search",
@@ -8844,8 +8844,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2035,
          "name": "FIRENOC Payment search",
          "url": "/collection-services/payments/FIRENOC/_search",
@@ -8856,8 +8856,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2036,
          "name": "WS Payment search",
          "url": "/collection-services/payments/WS/_search",
@@ -8868,8 +8868,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2037,
          "name": "SW Payment search",
          "url": "/collection-services/payments/SW/_search",
@@ -8880,8 +8880,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2038,
          "name": "UC Payment search",
          "url": "/collection-services/payments/ADVT/_search",
@@ -8892,8 +8892,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2039,
          "name": "UC Payment search",
          "url": "/collection-services/payments/UC/_search",
@@ -8904,8 +8904,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2040,
          "name": "DEFAULT Payment search",
          "url": "/collection-services/payments/DEFAULT/_search",
@@ -8916,76 +8916,54 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
-       "id": 2045,
-       "name": "Create FSM Application",
-       "url": "/fsm/v1/_create",
-       "displayName": "Apply FSM",
-       "orderNumber": 0,
-       "enabled": false,
-       "serviceCode": "FSM",
-       "code": "null",
-       "path": ""
-     },
-     {
-       "id": 2046,
-       "name": "Search FSM Application",
-       "url": "/fsm/v1/_search",
-       "displayName": "Search  FSM Appliacations",
-       "orderNumber": 1,
-       "enabled": false,
-       "serviceCode": "FSM",
-       "code": "null",
-       "path": ""
-     },
-     {
-       "id": 2047,
-       "name": "DEFAULT Payment search",
-       "url": "/collection-services/payments/ADVT.Light_Wala_Board/_search",
-       "displayName": "Light_Wala_Board Payment search",
-       "orderNumber": 1,
-       "parentModule": "",
-       "enabled": false,
-       "serviceCode": "",
-       "code": "null",
-       "path": ""
-     },
-     {
-       "id": 2048,
-       "name": "DEFAULT Payment search",
-       "url": "/collection-services/payments/ADVT.Hoardings/_search",
-       "displayName": "Hoardings Payment search",
-       "orderNumber": 1,
-       "parentModule": "",
-       "enabled": false,
-       "serviceCode": "",
-       "code": "null",
-       "path": ""
-     },
-     {
-       "id": 2049,
-       "name": "DEFAULT Payment search",
-       "url": "/collection-services/payments/ADVT.Unipolls/_search",
-       "displayName": "Unipolls Payment search",
-       "orderNumber": 1,
-       "parentModule": "",
-       "enabled": false,
-       "serviceCode": "",
-       "code": "null",
-       "path": ""
-     },
-     {
-       "id": 2050,
-       "name": "DEFAULT Payment search",
-       "url": "/collection-services/payments/ADVT.Wall_Paint_Advertisement/_search",
-       "displayName": "Wall_Paint_Advertisement Payment search",
-       "orderNumber": 1,
-       "parentModule": "",
-       "enabled": false,
-       "serviceCode": "",
-       "code": "null",
-       "path": ""
-     }
+      },
+      {
+         "id": 2047,
+         "name": "DEFAULT Payment search",
+         "url": "/collection-services/payments/ADVT.Light_Wala_Board/_search",
+         "displayName": "Light_Wala_Board Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2048,
+         "name": "DEFAULT Payment search",
+         "url": "/collection-services/payments/ADVT.Hoardings/_search",
+         "displayName": "Hoardings Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2049,
+         "name": "DEFAULT Payment search",
+         "url": "/collection-services/payments/ADVT.Unipolls/_search",
+         "displayName": "Unipolls Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2050,
+         "name": "DEFAULT Payment search",
+         "url": "/collection-services/payments/ADVT.Wall_Paint_Advertisement/_search",
+         "displayName": "Wall_Paint_Advertisement Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      }
    ]
 }
