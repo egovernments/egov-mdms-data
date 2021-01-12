@@ -8811,9 +8811,9 @@
       },
       {
          "id": 2032,
-         "name": "BPA_LOW Payment search",
-         "url": "/collection-services/payments/BPA_LOW/_search",
-         "displayName": "BPA_LOW Payment search",
+         "name": "BPA LOW Payment search",
+         "url": "/collection-services/payments/BPA.LOW_RISK_PERMIT_FEE/_search",
+         "displayName": "BPA LOW Payment search",
          "orderNumber": 1,
          "parentModule": "",
          "enabled": false,
@@ -8918,8 +8918,56 @@
          "path": ""
       },
       {
+         "id": 2041,
+         "name": "BPA Application Payment search",
+         "url": "/collection-services/payments/BPA.NC_APP_FEE/_search",
+         "displayName": "BPA Application Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+       },
+       {
+         "id": 2042,
+         "name": "BPA San Payment search",
+         "url": "/collection-services/payments/BPA.NC_SAN_FEE/_search",
+         "displayName": "BPA San Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+       },
+       {
+         "id": 2043,
+         "name": "BPA OCApplication Payment search",
+         "url": "/collection-services/payments/BPA.NC_OC_APP_FEE/_search",
+         "displayName": "BPA OC Application Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+       },
+       {
+         "id": 2044,
+         "name": "BPA OC San Payment search",
+         "url": "/collection-services/payments/BPA.NC_OC_SAN_FEE/_search",
+         "displayName": "BPA OC San Payment search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+       },
+      {
          "id": 2047,
-         "name": "DEFAULT Payment search",
+         "name": "Light_Wala_Board Payment search",
          "url": "/collection-services/payments/ADVT.Light_Wala_Board/_search",
          "displayName": "Light_Wala_Board Payment search",
          "orderNumber": 1,
@@ -8931,7 +8979,7 @@
       },
       {
          "id": 2048,
-         "name": "DEFAULT Payment search",
+         "name": "Hoardings Payment search",
          "url": "/collection-services/payments/ADVT.Hoardings/_search",
          "displayName": "Hoardings Payment search",
          "orderNumber": 1,
@@ -8943,7 +8991,7 @@
       },
       {
          "id": 2049,
-         "name": "DEFAULT Payment search",
+         "name": "Unipolls Payment search",
          "url": "/collection-services/payments/ADVT.Unipolls/_search",
          "displayName": "Unipolls Payment search",
          "orderNumber": 1,
@@ -8955,7 +9003,7 @@
       },
       {
          "id": 2050,
-         "name": "DEFAULT Payment search",
+         "name": "Wall_Paint_Advertisement Payment search",
          "url": "/collection-services/payments/ADVT.Wall_Paint_Advertisement/_search",
          "displayName": "Wall_Paint_Advertisement Payment search",
          "orderNumber": 1,
