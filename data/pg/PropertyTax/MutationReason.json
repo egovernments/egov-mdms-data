@@ -1,5 +1,5 @@
 {
-  "tenantId": "pg",
+  "tenantId": "pb",
   "moduleName": "PropertyTax",
   "MutationReason": [
     {
@@ -41,6 +41,14 @@
     {
       "code": "UNREGISTEREDWILLDEED",
       "active": true
+    },
+    {
+      "code": "CORRECTIONINNAME",
+      "active": true
+    },
+    {
+      "code": "CHANGEINOWNERSPECIALCATEGORY",
+      "active": true
     }
   ]
-}
+} 

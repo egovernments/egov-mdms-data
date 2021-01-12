@@ -8712,6 +8712,36 @@
          "serviceCode": "sw-calculator",
          "code": "null",
          "path": ""
-      }
+      },
+      {
+         "id": 2024,
+         "name": "BillAmendment",
+         "url": "url",
+         "displayName": "BillAmendment",
+         "orderNumber": 23,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "null",
+         "navigationURL": "bill-amend/search",
+         "path": "",
+         "leftIcon": "action:receipt"
+       },
+       {
+         "id": 2025,
+         "name": "BillAmendment",
+         "url": "card",
+         "displayName": "BillAmendment",
+         "orderNumber": 22,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "",
+         "path": "",
+         "navigationURL":"bill-amend/search",
+         "leftIcon": "action:receipt",
+         "rightIcon": "",
+         "queryParams": ""
+       }
    ]
 }
