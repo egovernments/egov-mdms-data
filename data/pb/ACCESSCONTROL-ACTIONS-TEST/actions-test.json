@@ -9049,6 +9049,28 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2051,
+      "name": "Update FSM Application",
+      "url": "/fsm/v1/_update",
+      "displayName": "Update FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2052,
+      "name": "Locality searcher endpoint for FSM",
+      "url": "/egov-searcher/locality/FSM/_get",
+      "displayName": "FSM locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }
