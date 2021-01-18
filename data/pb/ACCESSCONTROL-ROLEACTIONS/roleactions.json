@@ -20642,7 +20642,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-      {
+    {
       "rolecode": "BPA_ARCHITECT",
       "actionid": 1989,
       "actioncode": "",
@@ -20695,7 +20695,8 @@
       "actionid": 1990,
       "actioncode": "",
       "tenantId": "pb"
-    }, {
+    },
+    {
       "rolecode": "BPA_VERIFIER",
       "actionid": 1990,
       "actioncode": "",
@@ -20905,7 +20906,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-     {
+    {
       "rolecode": "FIRE_NOC_APPROVER",
       "actionid": 1766,
       "actioncode": "",
@@ -21399,13 +21400,13 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid":2035,
+      "actionid": 2035,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid":2036,
+      "actionid": 2036,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21441,36 +21442,37 @@
     },
     {
       "rolecode": "SW_CEMP",
-      "actionid":2035,
+      "actionid": 2035,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid":2036,
+      "actionid": 2036,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid":2037,
+      "actionid": 2037,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid":2037,
+      "actionid": 2037,
       "actioncode": "",
       "tenantId": "pb"
-    }, {
+    },
+    {
       "rolecode": "EMPLOYEE",
-      "actionid":2038,
+      "actionid": 2038,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid":2038,
+      "actionid": 2038,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21867,6 +21869,24 @@
     {
       "rolecode": "FSM_COLLECTOR",
       "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2047,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2048,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2049,
       "actioncode": "",
       "tenantId": "pb"
     }
