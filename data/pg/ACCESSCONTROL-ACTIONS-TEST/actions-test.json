@@ -6463,7 +6463,7 @@
          "displayName": "Deductions RTGS Assignment",
          "orderNumber": 5,
          "parentModule": "",
-         "enabled": true,
+         "enabled": false,
          "serviceCode": "FinanceDeductions",
          "navigationURL": "services/EGF/payment/chequeAssignment-beforeRemittanceRtgsSearch.action",
          "code": "null",
