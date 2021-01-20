@@ -13269,7 +13269,61 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE",
+      "rolecode": "WS_CEMP",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "WS_CLERK",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "WS_DOC_VERIFIER",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "WS_FIELD_INSPECTOR",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "WS_APPROVER",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "SW_CEMP",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "SW_CLERK",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "SW_DOC_VERIFIER",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_FIELD_INSPECTOR",
+      "actionid": 1882,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "SW_APPROVER",
       "actionid": 1882,
       "actioncode": "",
       "tenantId": "pb"
@@ -13845,18 +13899,6 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "CITIZEN",
-      "actionid": 1900,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1899,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "WS_CEMP",
       "actionid": 1935,
       "actioncode": "",
@@ -13889,24 +13931,6 @@
     {
       "rolecode": "WS_CEMP",
       "actionid": 1937,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1938,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1939,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1940,
       "actioncode": "",
       "tenantId": "pb"
     },
