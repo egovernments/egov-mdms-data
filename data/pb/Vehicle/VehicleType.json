@@ -1,0 +1,26 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Vehicle",
+  "VehicleType": [
+    {
+      "name": "Tractor",
+      "code": "TRACTOR",
+      "active": true
+    },
+    {
+      "name": "DCM",
+      "code": "DCM",
+      "active": true
+    },
+    {
+      "name": "Tipper",
+      "code": "TIPPER",
+      "active": true
+    },
+    {
+      "name": "JEEP",
+      "code": "JEEP",
+      "active": true
+    }
+  ]
+}
