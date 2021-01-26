@@ -17173,6 +17173,50 @@
       "serviceCode": "BILLING_SERVICE",
       "code": "null",
       "path": "Billing Service.Amendment"
+    },
+    {
+      "id": 2050,
+      "name": "Create Vehicle Application",
+      "url": "/vehicle/v1/_create",
+      "displayName": "Create Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2051,
+      "name": "Search Vehicle Application",
+      "url": "/vehicle/v1/_search",
+      "displayName": "Search  Vehicle",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2052,
+      "name": "Create Vendor/DSO",
+      "url": "/vendor/v1/_create",
+      "displayName": "Create Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2053,
+      "name": "Search Vendor/DSO",
+      "url": "/vendor/v1/_search",
+      "displayName": "Search  Vendor",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
     }
   ]
 }
