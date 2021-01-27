@@ -16872,6 +16872,98 @@
       "leftIcon": "action:receipt"
     },
     {
+      "id": 2014,
+      "name": "PGR-DescriptionReport-Metadata",
+      "url": "/report/pgr/DescriptionReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2015,
+      "name": "PGR-ULBReport-Metadata",
+      "url": "/report/pgr/ULBReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2016,
+      "name": "PGR-LMEPerformanceReport-Metadata",
+      "url": "/report/pgr/LMEPerformanceReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2017,
+      "name": "PGR-GROPerformanceReport-Metadata",
+      "url": "/report/pgr/GROPerformanceReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2018,
+      "name": "ULBReport",
+      "url": "/report/pgr/ULBReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2019,
+      "name": "DescriptionReport",
+      "url": "/report/pgr/DescriptionReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2020,
+      "name": "LMEPerformanceReport",
+      "url": "/report/pgr/LMEPerformanceReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 2021,
+      "name": "GROPerformanceReport",
+      "url": "/report/pgr/GROPerformanceReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
       "id": 2025,
       "name": "BillAmendment",
       "url": "card",
