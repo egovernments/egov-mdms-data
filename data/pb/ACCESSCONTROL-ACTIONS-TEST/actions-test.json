@@ -17217,6 +17217,18 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2054,
+      "name": "FSM Application Charge Payment Search",
+      "url": "/collection-services/payments/FSM.TRIP_CHARGES/_search",
+      "displayName": "FSM Application Charge Payment Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
