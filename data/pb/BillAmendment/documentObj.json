@@ -9,7 +9,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "COURTCASESETTLEMENT"
+            "COURT_CASE_SETTLEMENT"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"COURTORDER","active":true}],
@@ -20,7 +20,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "COURTCASESETTLEMENT"
+            "COURT_CASE_SETTLEMENT"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"PASTBILLS","active":true}],
@@ -31,7 +31,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "COURTCASESETTLEMENT"
+            "COURT_CASE_SETTLEMENT"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -86,7 +86,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "COURTCASESETTLEMENT"
+            "COURT_CASE_SETTLEMENT"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -141,7 +141,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "COURTCASESETTLEMENT"
+            "COURT_CASE_SETTLEMENT"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"SELFDECLARATION","active":true}],
@@ -156,7 +156,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ARREARSWRITEOFF"
+            "ARREAR_WRITE_OFF"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"GOVTNOTIFICATION","active":true}],
@@ -167,7 +167,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ARREARSWRITEOFF"
+            "ARREAR_WRITE_OFF"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"PASTBILLS","active":true}],
@@ -178,7 +178,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ARREARSWRITEOFF"
+            "ARREAR_WRITE_OFF"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -233,7 +233,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ARREARSWRITEOFF"
+            "ARREAR_WRITE_OFF"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -292,7 +292,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "DCBCORRECTION"
+            "DCB_CORRECTION"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"OFFICENOTEORDER","active":true}],
@@ -303,7 +303,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "DCBCORRECTION"
+            "DCB_CORRECTION"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"PASTBILLS","active":true}],
@@ -314,7 +314,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "DCBCORRECTION"
+            "DCB_CORRECTION"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -369,7 +369,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "DCBCORRECTION"
+            "DCB_CORRECTION"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -428,7 +428,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ONETIMESETTLEMENT"
+            "ONE_TIME_SETTLEMENT"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"GOVTNOTIFICATION","active":true}],
@@ -439,7 +439,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ONETIMESETTLEMENT"
+            "ONE_TIME_SETTLEMENT"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"PASTBILLS","active":true}],
@@ -450,7 +450,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ONETIMESETTLEMENT"
+            "ONE_TIME_SETTLEMENT"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -505,7 +505,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "ONETIMESETTLEMENT"
+            "ONE_TIME_SETTLEMENT"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -564,7 +564,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "REMISSIONFORPT"
+            "REMISSION_FOR_PROPERTY_TAX"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"OFFICENOTEORDER","active":true}],
@@ -572,7 +572,7 @@
         },        {
           "documentType": "IDENTITYPROOF",
           "demandRevisionBasis": [
-            "REMISSIONFORPT"
+            "REMISSION_FOR_PROPERTY_TAX"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -627,7 +627,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "REMISSIONFORPT"
+            "REMISSION_FOR_PROPERTY_TAX"
           ],
           "hasDropDown":true,
           "hasToolTip":true,
@@ -682,7 +682,7 @@
           "maxFileSize":5000,
           "allowedFormat": ["image/*", ".png", ".jpeg"],
           "demandRevisionBasis": [
-            "REMISSIONFORPT"
+            "REMISSION_FOR_PROPERTY_TAX"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"SELFDECLARATION","active":true}],
@@ -691,7 +691,7 @@
         {
           "documentType": "PASTBILLS",
           "demandRevisionBasis": [
-            "REMISSIONFORPT"
+            "REMISSION_FOR_PROPERTY_TAX"
           ],
           "hasDropDown":true,
           "dropdownData":[{"code":"PASTBILLS","active":true}],
