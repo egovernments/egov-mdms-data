@@ -556,6 +556,10 @@
     {
       "format":"PB-PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
       "idname":"pgr.servicerequestid"
+    },
+    {
+      "format": "FSM/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON[TENANT_ID]]",
+      "idname": "fsm.trip_charges.receipt.id"
     }
   ]
 }
