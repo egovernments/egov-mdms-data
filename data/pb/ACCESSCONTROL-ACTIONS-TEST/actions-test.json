@@ -8728,22 +8728,6 @@
       "leftIcon": "action:receipt"
     },
     {
-      "id": 2053,
-      "name": "BillAmendment",
-      "url": "card",
-      "displayName": "BillAmendment",
-      "orderNumber": 22,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "bill-amend/search",
-      "leftIcon": "action:receipt",
-      "rightIcon": "",
-      "queryParams": ""
-    },
-    {
       "id": 2027,
       "name": "WorkflowProcessCount",
       "url": "/egov-workflow-v2/egov-wf/process/_count",
@@ -9073,6 +9057,22 @@
       "path": ""
     },
     {
+      "id": 2053,
+      "name": "BillAmendment",
+      "url": "card",
+      "displayName": "BillAmendment",
+      "orderNumber": 22,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "bill-amend/search",
+      "leftIcon": "action:receipt",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
       "id": 2054,
       "name": "Create Vehicle Application",
       "url": "/vehicle/v1/_create",
@@ -9127,6 +9127,39 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2059,
+      "name": "CreateAmendment",
+      "url": "/billing-service/amendment/_create",
+      "displayName": "Create Amendment",
+      "orderNumber": 4,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.CreateAmendment"
+    },
+    {
+      "id": 2060,
+      "name": "SearchAmendment",
+      "url": "/billing-service/amendment/_search",
+      "displayName": "Search Amendment",
+      "orderNumber": 5,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.SearchAmendment"
+    },
+    {
+      "id": 2061,
+      "name": "UpdateAmendment",
+      "url": "/billing-service/amendment/_update",
+      "displayName": "Update Amendment",
+      "orderNumber": 6,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.Amendment"
     }
 
   ]
