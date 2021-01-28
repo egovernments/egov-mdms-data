@@ -1,0 +1,52 @@
+{
+  "tenantId": "pb",
+  "moduleName": "FSM",
+  "PropertyType": [
+    {
+      "name": "Residential",
+      "code": "RESIDENTIAL",
+      "active": true
+    },
+    {
+      "name": "Commercial",
+      "code": "COMMERCIAL",
+      "active": true
+    },
+    {
+      "name": "Independent House",
+      "code": "RESIDENTIAL.INDEPENDENTHOUSE",
+      "active": true,
+      "propertyType": "RESIDENTIAL"
+    },
+    {
+      "name": "Apartment",
+      "code": "RESIDENTIAL.APARTMENT",
+      "active": true,
+      "propertyType": "RESIDENTIAL"
+    },
+    {
+      "name": "Row Houses",
+      "code": "RESIDENTIAL.ROWHOUSES",
+      "active": true,
+      "propertyType": "RESIDENTIAL"
+    },
+    {
+      "name": "Assembly",
+      "code": "COMMERCIAL.ASSEMBLY",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Business",
+      "code": "COMMERCIAL.BUSINESS",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Recreational",
+      "code": "COMMERCIAL.RECREATIONAL",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    }
+  ]
+}
