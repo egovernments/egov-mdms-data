@@ -9071,6 +9071,63 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2054,
+      "name": "Create Vehicle Application",
+      "url": "/vehicle/v1/_create",
+      "displayName": "Create Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2055,
+      "name": "Search Vehicle Application",
+      "url": "/vehicle/v1/_search",
+      "displayName": "Search  Vehicle",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2056,
+      "name": "Create Vendor/DSO",
+      "url": "/vendor/v1/_create",
+      "displayName": "Create Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2057,
+      "name": "Search Vendor/DSO",
+      "url": "/vendor/v1/_search",
+      "displayName": "Search  Vendor",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2058,
+      "name": "FSM Application Charge Payment Search",
+      "url": "/collection-services/payments/FSM.TRIP_CHARGES/_search",
+      "displayName": "FSM Application Charge Payment Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
+
   ]
 }
