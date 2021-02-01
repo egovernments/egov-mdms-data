@@ -1,0 +1,31 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Vehicle",
+  "MakeModel": [
+    {
+      "make": "Mahindra",
+      "model": "Bolero Pickup",
+      "active": true
+    },
+    {
+      "make": "TATA",
+      "model": "LPT709/34",
+      "active": true
+    },
+    {
+      "make": "TATA",
+      "model": "407",
+      "active": true
+    },
+    {
+      "make": "TAFE",
+      "model": "Tractor 45DI",
+      "active": true
+    },
+    {
+      "make": "Sonalika",
+      "model": "Tractor 35DI",
+      "active": true
+    }
+  ]
+}
