@@ -3,23 +3,23 @@
     "moduleName": "BillAmendment",
     "DemandRevisionBasis": [
         {
-            "code": "COURTCASESETTLEMENT",
+            "code": "COURT_CASE_SETTLEMENT",
             "active": true
         },
         {
-            "code": "ARREARSWRITEOFF",
+            "code": "ARREAR_WRITE_OFF",
             "active": true
         },
         {
-            "code": "DCBCORRECTION",
+            "code": "DCB_CORRECTION",
             "active": true
         },
         {
-            "code": "ONETIMESETTLEMENT",
+            "code": "ONE_TIME_SETTLEMENT",
             "active": true
         },
         {
-            "code": "REMISSIONFORPT",
+            "code": "REMISSION_FOR_PROPERTY_TAX",
             "active": true
         },
         {
