@@ -8085,6 +8085,18 @@
       "path": ""
     },
     {
+      "id": 2062,
+      "name": "Dashboard Ingest Save",
+      "url": "/dashboard-ingest/ingest/save",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1968,
       "name": "Locality searcher endpoint for PT",
       "url": "/egov-searcher/locality/PT/_get",
