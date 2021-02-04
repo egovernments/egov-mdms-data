@@ -18,6 +18,7 @@
     {
       "businessService": "WaterCharges",
       "code": "WC",
+      "isBillAmendmentEnabled":true
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
