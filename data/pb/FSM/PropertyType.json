@@ -7,7 +7,7 @@
       "code": "RESIDENTIAL",
       "active": true
     },
-    {
+     {
       "name": "Independent House",
       "code": "RESIDENTIAL.INDEPENDENT_HOUSE",
       "active": true,
@@ -89,7 +89,7 @@
       "code": "COMMERCIAL.WAREHOUSE",
       "active": true,
       "propertyType": "COMMERCIAL"
-      },
+    },
     {
       "name": "Petrol pumps",
       "code": "COMMERCIAL.PETROL_PUMPS",
@@ -209,6 +209,6 @@
       "active": true,
       "propertyType": "INSTITUTIONAL"
     }
-    }
+  
   ]
 }
