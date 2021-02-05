@@ -9172,7 +9172,21 @@
       "serviceCode": "BILLING_SERVICE",
       "code": "null",
       "path": "Billing Service.Amendment"
-    }
-
+    },
+      {
+      "id": 2063,
+      "name": "FSM Application Audit Search",
+      "url": "/fsm/v1/_audit",
+      "displayName": "FSM Application Audit serach",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+      }
   ]
 }
+
+    
+      
