@@ -8,13 +8,8 @@
       "active": true
     },
     {
-      "name": "Commercial",
-      "code": "COMMERCIAL",
-      "active": true
-    },
-    {
       "name": "Independent House",
-      "code": "RESIDENTIAL.INDEPENDENTHOUSE",
+      "code": "RESIDENTIAL.INDEPENDENT_HOUSE",
       "active": true,
       "propertyType": "RESIDENTIAL"
     },
@@ -26,27 +21,194 @@
     },
     {
       "name": "Row Houses",
-      "code": "RESIDENTIAL.ROWHOUSES",
+      "code": "RESIDENTIAL.ROW_HOUSES",
       "active": true,
       "propertyType": "RESIDENTIAL"
     },
     {
-      "name": "Assembly",
-      "code": "COMMERCIAL.ASSEMBLY",
+      "name": "Commercial",
+      "code": "COMMERCIAL",
+      "active": true
+    },
+    {
+      "name": "Community Toilets",
+      "code": "COMMERCIAL.COMMUNITY_TOILETS",
       "active": true,
       "propertyType": "COMMERCIAL"
     },
     {
-      "name": "Business",
-      "code": "COMMERCIAL.BUSINESS",
+      "name": "Hotel",
+      "code": "COMMERCIAL.HOTEL",
       "active": true,
       "propertyType": "COMMERCIAL"
     },
     {
-      "name": "Recreational",
-      "code": "COMMERCIAL.RECREATIONAL",
+      "name": "Restaurant",
+      "code": "COMMERCIAL.RESTAURANT",
       "active": true,
       "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Shopping Mall",
+      "code": "COMMERCIAL.SHOPPING_MALL",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Community hall",
+      "code": "COMMERCIAL.COMMUNITY_HALL",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Bank",
+      "code": "COMMERCIAL.BANK",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Private office",
+      "code": "COMMERCIAL.PRIVATE_OFFICE",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Market",
+      "code": "COMMERCIAL.MARKET",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Hostel",
+      "code": "COMMERCIAL.HOSTEL",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Warehouse",
+      "code": "COMMERCIAL.WAREHOUSE",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+      },
+    {
+      "name": "Petrol pumps",
+      "code": "COMMERCIAL.PETROL_PUMPS",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Resort",
+      "code": "COMMERCIAL.RESORT",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Theme park",
+      "code": "COMMERCIAL.THEME_PARK",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+    {
+      "name": "Sports center",
+      "code": "COMMERCIAL.SPORTS_CENTER",
+      "active": true,
+      "propertyType": "COMMERCIAL"
+    },
+     {
+      "name": "Institutional",
+      "code": "INSTITUTIONAL",
+      "active": true
+    },
+     {
+      "name": "Temple",
+      "code": "INSTITUTIONAL.TEMPLE",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Mosque",
+      "code": "INSTITUTIONAL.MOSQUE",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Church",
+      "code": "INSTITUTIONAL.CHURCH",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Gurudwara",
+      "code": "INSTITUTIONAL.GURUDWARA",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Monastery",
+      "code": "INSTITUTIONAL.MONASTERY",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "School",
+      "code": "INSTITUTIONAL.SCHOOL",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "College",
+      "code": "INSTITUTIONAL.COLLEGE",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "University",
+      "code": "INSTITUTIONAL.UNIVERSITY",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Anganwadi",
+      "code": "INSTITUTIONAL.ANGANWADI",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Training Institutes",
+      "code": "INSTITUTIONAL.TRAINING_INSTITUTES",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Hospital",
+      "code": "INSTITUTIONAL.HOSPITAL",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Nursing home",
+      "code": "INSTITUTIONAL.NURSING_HOME",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Community health center",
+      "code": "INSTITUTIONAL.COMMUNITY_HEALTH_CENTER",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Jail",
+      "code": "INSTITUTIONAL.JAIL",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    },
+     {
+      "name": "Police station",
+      "code": "INSTITUTIONAL.POLICE_STATION",
+      "active": true,
+      "propertyType": "INSTITUTIONAL"
+    }
     }
   ]
 }
