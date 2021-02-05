@@ -9184,6 +9184,43 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+      },
+      {
+        "id": 2064,
+        "name": "EmployeeReport",
+        "url": "url",
+        "displayName": "Employee Report",
+        "orderNumber": 1,
+        "parentModule": "",
+        "enabled": true,
+        "serviceCode": "",
+        "code": "null",
+        "path": "HRMS.Reports.EmployeeReport",
+        "navigationURL": "report/hrms/EmployeeReport",
+        "leftIcon": "action:assignment",
+        "rightIcon": ""
+      },
+      {
+        "id": 2065,
+        "name": "RainmakerHRMS-EmployeeReport-Metadata",
+        "url": "/report/hrms/EmployeeReport/metadata/_get",
+        "displayName": "Rainmaker Employee report",
+        "orderNumber": 1,
+        "enabled": false,
+        "serviceCode": "EmployeeReport",
+        "code": "null",
+        "path": "Employee Report"
+      },
+      {
+        "id": 2066,
+        "name": "EmployeeReport",
+        "url": "/report/hrms/EmployeeReport/_get",
+        "displayName": "Employee Report",
+        "orderNumber": 0,
+        "enabled": false,
+        "serviceCode": "EmployeeReport",
+        "code": "null",
+        "path": "Employee Report"
       }
   ]
 }
