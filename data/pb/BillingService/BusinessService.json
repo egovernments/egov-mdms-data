@@ -18,6 +18,7 @@
     {
       "businessService": "WaterCharges",
       "code": "WC",
+      "isBillAmendmentEnabled":false,
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
@@ -1027,7 +1028,6 @@
       "partPaymentAllowed": true,
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
-      "isBillAmendmentEnabled": true,
       "isVoucherCreationEnabled": false,
       "billGineiURL" : "egov-searcher/bill-genie/waterbills/_get",
       "isBillAmendmentEnabled":true
@@ -1041,7 +1041,6 @@
       "partPaymentAllowed": true,
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
-      "isBillAmendmentEnabled": true,
       "isVoucherCreationEnabled": false,
      "billGineiURL" : "egov-searcher/bill-genie/seweragebills/_get",
       "isBillAmendmentEnabled":true
