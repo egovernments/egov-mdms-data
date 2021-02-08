@@ -13520,12 +13520,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-    {
-      "rolecode": "QA_AUTOMATION",
-      "actionid": 2062,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
+    
     {
       "rolecode": "EMPLOYEE",
       "actionid": 1890,
@@ -17557,6 +17552,48 @@
       "actionid": 2066,
       "actioncode": "",
       "tenantId": "pb"
-    }
+    },
+    {
+    "rolecode": "FSM_ADMIN",
+    "actionid": 2067,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_ADMIN",
+    "actionid": 2068,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_CREATOR_EMP",
+    "actionid": 2069,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_EDITOR_EMP",
+    "actionid": 2069,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_ADMIN",
+    "actionid": 2069,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_DSO",
+    "actionid": 2069,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "QA_AUTOMATION",
+    "actionid": 2070,
+    "actioncode": "",
+    "tenantId": "pb"
+  }
   ]
 }
