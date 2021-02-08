@@ -22466,6 +22466,18 @@
     "actionid": 2058,
     "actioncode": "",
     "tenantId": "pb"
-  }
+  },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2077,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2077,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
   ]
 }
