@@ -9221,7 +9221,19 @@
         "serviceCode": "EmployeeReport",
         "code": "null",
         "path": "Employee Report"
-      }
+      },
+    {
+      "id": 2067,
+      "name": "MDMS GET",
+      "url": "/egov-mdms-service/v1/_get",
+      "displayName": "MDMS GET",
+      "orderNumber": 0,
+      "parentModule": "306",
+      "enabled": false,
+      "serviceCode": "MDMS GET",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
 
