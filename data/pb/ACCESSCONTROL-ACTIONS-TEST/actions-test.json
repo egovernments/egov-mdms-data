@@ -9233,6 +9233,42 @@
       "serviceCode": "MDMS GET",
       "code": "null",
       "path": ""
+      },
+    {
+      "id": 2068,
+      "name": "FSM BillingSlab Create",
+       "url": "/fsm-calculator/v1/billingSlab/_create",
+      "displayName": "FSM BillingSlab Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2069,
+      "name": "FSM BillingSlab Update",
+       "url": "/fsm-calculator/v1/billingSlab/_update",
+      "displayName": "FSM BillingSlab Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2070,
+      "name": "FSM BillingSlab Search",
+       "url": "/fsm-calculator/v1/billingSlab/_search",
+      "displayName": "FSM BillingSlab Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
