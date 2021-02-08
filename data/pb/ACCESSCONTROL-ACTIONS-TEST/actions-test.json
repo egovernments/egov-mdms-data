@@ -17370,6 +17370,42 @@
       "serviceCode": "EmployeeReport",
       "code": "null",
       "path": "Employee Report"
+    },
+    {
+      "id": 2059,
+      "name": "FSM BillingSlab Create",
+       "url": "/fsm-calculator/v1/billingSlab/_create",
+      "displayName": "FSM BillingSlab Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2060,
+      "name": "FSM BillingSlab Update",
+       "url": "/fsm-calculator/v1/billingSlab/_update",
+      "displayName": "FSM BillingSlab Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2061,
+      "name": "FSM BillingSlab Search",
+       "url": "/fsm-calculator/v1/billingSlab/_search",
+      "displayName": "FSM BillingSlab Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
