@@ -22468,32 +22468,8 @@
     "tenantId": "pb"
   },
   {
-    "rolecode": "FSM_CREATOR_EMP",
-    "actionid": 2059,
-    "actioncode": "",
-    "tenantId": "pb"
-  },
-  {
-    "rolecode": "FSM_EDITOR_EMP",
-    "actionid": 2059,
-    "actioncode": "",
-    "tenantId": "pb"
-  },
-  {
     "rolecode": "FSM_ADMIN",
     "actionid": 2059,
-    "actioncode": "",
-    "tenantId": "pb"
-  },
-  {
-    "rolecode": "FSM_CREATOR_EMP",
-    "actionid": 2060,
-    "actioncode": "",
-    "tenantId": "pb"
-  },
-  {
-    "rolecode": "FSM_EDITOR_EMP",
-    "actionid": 2060,
     "actioncode": "",
     "tenantId": "pb"
   },
@@ -22524,6 +22500,12 @@
   {
     "rolecode": "FSM_DSO",
     "actionid": 2061,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "QA_AUTOMATION",
+    "actionid": 2067,
     "actioncode": "",
     "tenantId": "pb"
   }
