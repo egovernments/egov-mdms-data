@@ -8726,20 +8726,6 @@
       "path": ""
     },
     {
-      "id": 2024,
-      "name": "BillAmendment",
-      "url": "url",
-      "displayName": "BillAmendment",
-      "orderNumber": 23,
-      "parentModule": "",
-      "enabled": false,
-      "serviceCode": "",
-      "code": "null",
-      "navigationURL": "bill-amend/search",
-      "path": "bill-amend",
-      "leftIcon": "action:receipt"
-    },
-    {
       "id": 2027,
       "name": "WorkflowProcessCount",
       "url": "/egov-workflow-v2/egov-wf/process/_count",
@@ -9286,16 +9272,14 @@
       "name": "BillAmendment",
       "url": "url",
       "displayName": "BillAmendment",
-      "orderNumber": 22,
+      "orderNumber": 23,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "",
-      "code": "",
-      "path": "",
+      "code": "null",
       "navigationURL": "bill-amend/search",
-      "leftIcon": "action:receipt",
-      "rightIcon": "",
-      "queryParams": ""
+      "path": "bill-amend",
+      "leftIcon": "action:receipt"
     }
   ]
 }
