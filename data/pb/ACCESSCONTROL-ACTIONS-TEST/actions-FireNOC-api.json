@@ -1,0 +1,157 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1797,
+      "name": "Create FireNoc",
+      "url": "/firenoc-services/v1/_create",
+      "parentModule": "",
+      "displayName": "Create FireNoc",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1798,
+      "name": "Update FireNoc",
+      "url": "/firenoc-services/v1/_update",
+      "parentModule": "",
+      "displayName": "Update FireNoc",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1799,
+      "name": "Search FireNoc",
+      "url": "/firenoc-services/v1/_search",
+      "parentModule": "",
+      "displayName": "Search FireNoc",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1818,
+      "name": "Firenoc Get Bill",
+      "url": "/firenoc-calculator/v1/_getbill",
+      "parentModule": "",
+      "displayName": "Get Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1819,
+      "name": "Firenoc Calculate",
+      "url": "/firenoc-calculator/v1/_calculate",
+      "parentModule": "",
+      "displayName": "Calculate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1820,
+      "name": "Firenoc billing slab create",
+      "url": "/firenoc-calculator/billingslab/_create",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1821,
+      "name": "Firenoc billing slab update",
+      "url": "/firenoc-calculator/billingslab/_update",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1822,
+      "name": "Firenoc billing slab search",
+      "url": "/firenoc-calculator/billingslab/_search",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "firenoc-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1934,
+      "name": "Locality searcher endpoint for PT",
+      "url": "/egov-searcher/locality/fireNoc/_get",
+      "displayName": "FIRENOC locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2001,
+      "name": "NOC Create",
+      "url": "/noc-services/v1/noc/_create",
+      "displayName": "Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NOC",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2002,
+      "name": "NOC Search",
+      "url": "/noc-services/v1/noc/_search",
+      "displayName": "Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NOC",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2003,
+      "name": "NOC Update",
+      "url": "/noc-services/v1/noc/_update",
+      "displayName": "Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NOC",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2005,
+      "name": "Locality searcher endpoint for Noc Servcies",
+      "url": "/egov-searcher/locality/noc-services/_get",
+      "displayName": "Noc locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    }
+  ]
+}

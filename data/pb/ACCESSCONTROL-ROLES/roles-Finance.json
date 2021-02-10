@@ -1,0 +1,66 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "EGF_BILL_CREATOR",
+      "name": "EGF Bill Creator",
+      "description": "Employee who creates Bills in finance "
+    },
+    {
+      "code": "EGF_BILL_APPROVER",
+      "name": "EGF Bill Approver",
+      "description": "Employee who takes part in  Bills  approval in finance "
+    },
+    {
+      "code": "EGF_VOUCHER_CREATOR",
+      "name": "Finance Voucher Creator",
+      "description": "One who can create a voucher"
+    },
+    {
+      "code": "EGF_VOUCHER_APPROVER",
+      "name": "Finance Voucher Approver",
+      "description": "One who can approve a voucher"
+    },
+    {
+      "code": "EGF_PAYMENT_CREATOR",
+      "name": "Finance Payment Creator",
+      "description": "One who can create a payment"
+    },
+    {
+      "code": "EGF_PAYMENT_APPROVER",
+      "name": "Finance Payment Approver",
+      "description": "One who can approve a payment"
+    },
+    {
+      "code": "EGF_MASTER_ADMIN",
+      "name": "Finance Master Admin",
+      "description": "One who is the administrator for all master data in Finance"
+    },
+    {
+      "code": "EGF_REPORT_VIEW",
+      "name": "Finance Report View",
+      "description": "One who has acess to all financial reports"
+    },
+    {
+      "code": "EGF_ADMINISTRATOR",
+      "name": "Finance Adminsitrator",
+      "description": "All Employees who are Finance application administrator"
+    },
+    {
+      "code": "EMPLOYEE_FINANCE",
+      "name": "Employee Finance",
+      "description": "All Employees who use Finance application"
+    },
+    {
+      "code": "SYS_INTEGRATOR_FINANCE",
+      "name": "System Integrator Finance",
+      "description": "Role for allowing system integration of Finance app with rainmaker"
+    },
+    {
+      "code": "SYS_INTEGRATOR_WATER_SEW",
+      "name": "System Integrator W&S",
+      "description": "Role for allowing system integration of Water and Sewerage app with rainmaker"
+    }
+  ]
+}

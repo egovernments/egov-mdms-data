@@ -1,0 +1,77 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 795,
+      "name": "Create Department",
+      "url": "/egov-common-masters/departments/v1/_create",
+      "displayName": "Create Department",
+      "orderNumber": 1,
+      "parentModule": "273",
+      "enabled": true,
+      "serviceCode": "DEPT",
+      "code": "null",
+      "path": "Administration.Department.Create Department"
+    },
+    {
+      "id": 796,
+      "name": "Modify Department",
+      "url": "/egov-common-masters/departments/v1/_search",
+      "displayName": "Modify Department",
+      "orderNumber": 2,
+      "parentModule": "273",
+      "enabled": true,
+      "serviceCode": "DEPT",
+      "code": "null",
+      "path": "Administration.Department.Modify Department"
+    },
+    {
+      "id": 797,
+      "name": "View Department",
+      "url": "/egov-common-masters/departments/v1/_search",
+      "displayName": "View Department",
+      "orderNumber": 3,
+      "parentModule": "273",
+      "enabled": true,
+      "serviceCode": "DEPT",
+      "code": "null",
+      "path": "Administration.Department.View Department"
+    },
+    {
+      "id": 1808,
+      "name": "CollectionRegister",
+      "url": "url",
+      "displayName": "Collection Register",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "COLLECTIONS",
+      "code": "null",
+      "leftIcon": "action:description",
+      "navigationURL": "report/rainmaker-common/CollectionRegister",
+      "path": "Reports.Collection Register"
+    },
+    {
+      "id": 1812,
+      "name": "UC Report",
+      "url": "/report/rainmaker-common/_get",
+      "displayName": "Universal Collection Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "REPORTS",
+      "code": "null",
+      "path": "UC Report"
+    },
+    {
+      "id": 1813,
+      "name": "UCReportMetadata",
+      "url": "/report/rainmaker-common/metadata/_get",
+      "displayName": "Universal Collection Report metadata",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "UCREPORTS",
+      "code": "null",
+      "path": "UC Collection Metadata "
+    }
+  ]
+}

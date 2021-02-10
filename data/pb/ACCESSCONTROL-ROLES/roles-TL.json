@@ -1,0 +1,31 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "TL_APPROVER",
+      "name": "TL Approver",
+      "description": "Who has a access to Trade License Workflow"
+    },
+    {
+      "code": "TL_CEMP",
+      "name": "TL Counter Employee",
+      "description": "Counter Employee in Trade License who files TL on behalf of the citizen"
+    },
+    {
+      "code": "TL_APPROVER",
+      "name": "TL Approver",
+      "description": "Approver who verifies and approves the TL application"
+    },
+    {
+      "code": "TL_FIELD_INSPECTOR",
+      "name": "TL Field Inspector",
+      "description": "Trade license field inspector"
+    },
+    {
+      "code": "TL_DOC_VERIFIER",
+      "name": "TL doc verifier",
+      "description": "Trade license document verifier"
+    }
+  ]
+}
