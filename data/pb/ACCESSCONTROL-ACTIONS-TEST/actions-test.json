@@ -9269,6 +9269,33 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2071,
+      "name": "Locality searcher endpoint for Bill Amendment",
+      "url": "/egov-searcher/locality/BS/_get",
+      "displayName": "Bill amendment locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2072,
+      "name": "BillAmendment",
+      "url": "url",
+      "displayName": "BillAmendment",
+      "orderNumber": 22,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "bill-amend/search",
+      "leftIcon": "action:receipt",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
