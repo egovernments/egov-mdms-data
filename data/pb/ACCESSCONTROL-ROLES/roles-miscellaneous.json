@@ -3,26 +3,6 @@
   "moduleName": "ACCESSCONTROL-ROLES",
   "roles": [
     {
-      "code": "WORKS_FINANCIAL_APPROVER",
-      "name": "Financials Approver",
-      "description": "Who has a access to capture Financial details and budgetary/financial sanction"
-    },
-    {
-      "code": "WORKS_BILL_CREATOR",
-      "name": "Works Bill Creator",
-      "description": "Who has a access to create Contractor Bill"
-    },
-    {
-      "code": "WORKS_APPROVER",
-      "name": "Works Approver",
-      "description": "Who has a access to approve/verify Works objects"
-    },
-    {
-      "code": "WORKS_ADMINISTRATOR",
-      "name": "Works Administrator",
-      "description": "Who has a access to all the transactions, masters and reports"
-    },
-    {
       "code": "WORKS_MASTER_CREATOR",
       "name": "Works Master creator",
       "description": "Who has a access to all the works masters."
@@ -46,21 +26,6 @@
       "code": "GA",
       "name": "Grivance Administrator",
       "description": "System Administator for PGR. Can change PGR Master data only."
-    },
-    {
-      "code": "STORE INCHARGE",
-      "name": "Store Incharge",
-      "description": "Incharge of the ULB store"
-    },
-    {
-      "code": "PTIS_MASTER",
-      "name": "PTIS Master",
-      "description": "Who has a access to Property Tax Masters"
-    },
-    {
-      "code": "PTIS_ADMIN",
-      "name": "PTIS Admin",
-      "description": "Who has a access to change tax rates, factor etc"
     },
     {
       "code": "Asset Administrator",
@@ -88,11 +53,6 @@
       "description": "Property Verifier"
     },
     {
-      "code": "AssetReportViewer",
-      "name": "AssetReportViewer",
-      "description": "AssetReportViewer"
-    },
-    {
       "code": "AssetCreator",
       "name": "AssetCreator",
       "description": "AssetCreator"
@@ -108,16 +68,6 @@
       "description": "Can Create, Search Receipt"
     },
     {
-      "code": "MB_CREATOR",
-      "name": "MB creator",
-      "description": "Who has a access to create MB"
-    },
-    {
-      "code": "CONTRACTOR_ADVANCE_CREATOR",
-      "name": "Contractor Advance creator",
-      "description": "Who has a access to create Contractor Advance"
-    },
-    {
       "code": "COMMISSIONER",
       "name": "Commissioner",
       "description": "Commissioner"
@@ -131,26 +81,6 @@
       "code": "DE_CREATOR",
       "name": "Detailed Estimate Creator",
       "description": "Who has a access to create Detailed Estimate"
-    },
-    {
-      "code": "testonecode112234324",
-      "name": "test3test2",
-      "description": "test123description"
-    },
-    {
-      "code": "testtwocode11234354",
-      "name": "test4test1",
-      "description": "testcodedescription"
-    },
-    {
-      "code": "testonecode112234324",
-      "name": "test3test21",
-      "description": "test123description"
-    },
-    {
-      "code": "directortestcode112234324",
-      "name": "director123456",
-      "description": "test123description"
     },
     {
       "code": "TL_ADMIN",

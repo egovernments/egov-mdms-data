@@ -113,17 +113,6 @@
       "path": "Billing Service.Apportion"
     },
     {
-      "id": 712,
-      "name": "CreateBill",
-      "url": "/billing-service/bill/_create",
-      "displayName": "Create Bill",
-      "orderNumber": 11,
-      "enabled": false,
-      "serviceCode": "BILLING_SERVICE",
-      "code": "null",
-      "path": "Billing Service.CreateBill"
-    },
-    {
       "id": 713,
       "name": "SearchBill",
       "url": "/billing-service/bill/_search",

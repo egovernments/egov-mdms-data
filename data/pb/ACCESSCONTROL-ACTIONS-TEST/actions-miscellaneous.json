@@ -153,23 +153,6 @@
       "queryParams": ""
     },
     {
-      "id": 1882,
-      "name": "rainmaker-common-wns",
-      "url": "card",
-      "displayName": "Water & Sewerage",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "wns",
-      "code": "",
-      "path": "",
-      "navigationURL": "wns/search",
-      "leftIcon": "custom:water-tap",
-      "quickAction": true,
-      "rightIcon": "",
-      "queryParams": ""
-    },
-    {
       "id": 1911,
       "name": "CollectionRegister",
       "url": "/report/rainmaker-common/CollectionRegister/metadata/_get",
@@ -582,36 +565,6 @@
       "path": ""
     },
     {
-      "id": 2024,
-      "name": "BillAmendment",
-      "url": "url",
-      "displayName": "BillAmendment",
-      "orderNumber": 23,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "null",
-      "navigationURL": "bill-amend/search",
-      "path": "",
-      "leftIcon": "action:receipt"
-    },
-    {
-      "id": 2025,
-      "name": "BillAmendment",
-      "url": "card",
-      "displayName": "BillAmendment",
-      "orderNumber": 22,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "bill-amend/search",
-      "leftIcon": "action:receipt",
-      "rightIcon": "",
-      "queryParams": ""
-    },
-    {
       "id": 2030,
       "name": "ReceiptCancellation",
       "url": "url",
@@ -624,22 +577,6 @@
       "navigationURL": "receipts/search",
       "path": "",
       "leftIcon": "action:receipt"
-    },
-    {
-      "id": 2053,
-      "name": "BillAmendment",
-      "url": "card",
-      "displayName": "BillAmendment",
-      "orderNumber": 22,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "bill-amend/search",
-      "leftIcon": "action:receipt",
-      "rightIcon": "",
-      "queryParams": ""
     }
   ]
 }

@@ -28,11 +28,6 @@
       "description": "Can Create, Search Receipt"
     },
     {
-      "code": "LEGACY_RECEIPT_CREATOR",
-      "name": "Legacy Receipt Creator",
-      "description": "Legacy Receipt Creator"
-    },
-    {
       "code": "COLL_REP_VIEW",
       "name": "Collection Report Viewer",
       "description": "Collection Report Viewer can view Reports"
@@ -68,21 +63,6 @@
       "description": "One who can remit the instruments to bank"
     },
     {
-      "code": "ANONYMOUS",
-      "name": "Anonymous User",
-      "description": "Anonymous User to be used in case of no auth"
-    },
-    {
-      "code": "CITY_ADMIN",
-      "name": "Admin of a ULB",
-      "description": "Admin of ULB to get access to the ULB level"
-    },
-    {
-      "code": "SYSTEM",
-      "name": "System user",
-      "description": "System user role"
-    },
-    {
       "code": "AIRPORT_AUTHORITY_APPROVER",
       "name": "Airport authority Approver",
       "description": "Airport authority application approver"
@@ -106,16 +86,6 @@
       "code": "FSM_VIEW_EMP",
       "name": "FSM Employee Application Viewer",
       "description": "FSM Employee Application Viewer"
-    },
-    {
-      "code": "FSM_REPORT_VIEWER",
-      "name": "FSM Employee Report Viewer",
-      "description": "FSM Employee Report Viewer"
-    },
-    {
-      "code": "FSM_DASHBOARD_VIEWER",
-      "name": "FSM Employee Dashboard Viewer",
-      "description": "FSM Employee Dashboard Viewer"
     },
     {
       "code": "FSM_ADMIN",

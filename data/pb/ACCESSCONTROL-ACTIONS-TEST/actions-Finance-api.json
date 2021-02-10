@@ -975,30 +975,6 @@
       "path": "VOUCHERSUBTYPE SERVICE.VoucherSubTypeSearch"
     },
     {
-      "id": 1426,
-      "name": "createAccountCodePurpose_Master",
-      "url": "/egf-masters/accountcodepurposes/_create",
-      "displayName": "Create Account Code Purpose",
-      "orderNumber": 1,
-      "parentModule": "230",
-      "enabled": false,
-      "serviceCode": "Account_Code_Purpose_Master",
-      "code": "null",
-      "path": "Financial_Master.Financials_Master.Account_Code_Purpose_Master.createAccountCodePurpose_Master"
-    },
-    {
-      "id": 1427,
-      "name": "updateAccountCodePurpose_Master",
-      "url": "/egf-masters/accountcodepurposes/_update",
-      "displayName": "Modify Account Code Purpose",
-      "orderNumber": 2,
-      "parentModule": "230",
-      "enabled": false,
-      "serviceCode": "Account_Code_Purpose_Master",
-      "code": "null",
-      "path": "Financial_Master.Financials_Master.Account_Code_Purpose_Master.updateAccountCodePurpose_Master"
-    },
-    {
       "id": 1428,
       "name": "searchAccountCodePurpose_Master",
       "url": "/egf-masters/accountcodepurposes/_search",
@@ -1045,18 +1021,6 @@
       "serviceCode": "Bill",
       "code": "null",
       "path": "Financials.Transactions.Search Bill"
-    },
-    {
-      "id": 1444,
-      "name": "CheckList Create",
-      "url": "/egf-bill/checklists/_create",
-      "displayName": "CheckList Create",
-      "orderNumber": 0,
-      "parentModule": "",
-      "enabled": false,
-      "serviceCode": "CheckList",
-      "code": "null",
-      "path": "Financials.Transactions.Create CheckList"
     },
     {
       "id": 1445,

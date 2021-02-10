@@ -63,36 +63,6 @@
       "rightIcon": ""
     },
     {
-      "id": 1748,
-      "name": "EmployeeDirectory",
-      "url": "url",
-      "displayName": "Employee Directory",
-      "orderNumber": 1,
-      "parentModule": "rainmaker-pgr",
-      "enabled": true,
-      "serviceCode": "PGR",
-      "code": "null",
-      "path": "Employee Directory",
-      "navigationURL": "employee-directory",
-      "leftIcon": "communication-call",
-      "rightIcon": ""
-    },
-    {
-      "id": 1749,
-      "name": "ContactUs",
-      "url": "url",
-      "displayName": "Contact Us",
-      "orderNumber": 1,
-      "parentModule": "rainmaker-pgr",
-      "enabled": true,
-      "serviceCode": "PGR",
-      "code": "null",
-      "path": "Contact Us",
-      "navigationURL": "contact-us",
-      "leftIcon": "communication-call",
-      "rightIcon": ""
-    },
-    {
       "id": 1805,
       "name": "Complaints",
       "url": "url",

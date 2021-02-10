@@ -3,42 +3,6 @@
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
     {
-      "id": 192,
-      "name": "CalendarSearch",
-      "url": "/egov-common-masters/calendaryears/_search",
-      "displayName": "CalendarSearch",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "Calendar",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarSetUp.CalendarSearch"
-    },
-    {
-      "id": 194,
-      "name": "CreateHoliday",
-      "url": "/egov-common-masters/holidays/_create",
-      "displayName": "CreateHoliday",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "CalendarHolidays",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarHolidaysSetUp.CreateHoliday"
-    },
-    {
-      "id": 196,
-      "name": "UpdateHoliday",
-      "url": "/egov-common-masters/holidays/{id}/_update",
-      "displayName": "UpdateHoliday",
-      "orderNumber": 1,
-      "parentModule": "71",
-      "enabled": false,
-      "serviceCode": "CalendarHolidays",
-      "code": "null",
-      "path": "Employee Management.Employee Masters.CalendarHolidaysSetUp.UpdateHoliday"
-    },
-    {
       "id": 198,
       "name": "CalendarHolidaysSearch",
       "url": "/egov-common-masters/holidays/_search",
@@ -189,18 +153,6 @@
       "serviceCode": "EIS Masters",
       "code": "null",
       "path": "Employee Management.Employee Masters.SearchModules"
-    },
-    {
-      "id": 789,
-      "name": "GetBusinessTypes",
-      "url": "/egov-common-masters/businessDetails/_getBusinessTypes",
-      "displayName": "Business Types",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "COLLECTION-MASTERS",
-      "code": "null",
-      "leftIcon": "editor:collections",
-      "path": "Collection.Collection Masters.GetBusinessTypes"
     },
     {
       "id": 798,
