@@ -17605,6 +17605,56 @@
       "actionid": 2067,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2071,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+   {
+      "rolecode": "SUPERUSER",
+      "actionid": 2071,
+      "actioncode": "",
+      "tenantId": "pb"
     }
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2071,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2072,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+   {
+      "rolecode": "SUPERUSER",
+      "actionid": 2072,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2072,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_APPROVER",
+      "actionid": 2072,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_APPROVER",
+      "actionid": 2072,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
+    
+    
   ]
 }
