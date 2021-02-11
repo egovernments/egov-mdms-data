@@ -9280,6 +9280,18 @@
       "navigationURL": "bill-amend/search",
       "path": "bill-amend",
       "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2073,
+      "name": "Apportion Service V2",
+      "url": "apportion-service/v2/bill/_apportion",
+      "parentModule": "",
+      "displayName": "Apportion Service V2",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-apportion-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
