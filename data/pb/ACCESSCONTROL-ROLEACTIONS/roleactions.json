@@ -22514,6 +22514,24 @@
     "actionid": 2062,
     "actioncode": "",
     "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_CREATOR_EMP",
+    "actionid": 2064,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_EDITOR_EMP",
+    "actionid": 2064,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_ADMIN",
+    "actionid": 2064,
+    "actioncode": "",
+    "tenantId": "pb"
   }
   ]
 }
