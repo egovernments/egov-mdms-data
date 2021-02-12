@@ -17430,6 +17430,18 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2064,
+      "name": "FSM Estimate",
+       "url": "/fsm-calculator/v1/_estimate",
+      "displayName": "FSM Estimate",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
