@@ -17406,6 +17406,30 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2062,
+      "name": "Vehicle Trip Search",
+       "url": "/vehicle/trip/v1/_search",
+      "displayName": "Vehicle Trip Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2063,
+      "name": "Vehicle Trip Update",
+       "url": "/vehicle/trip/v1/_update",
+      "displayName": "Vehicle Trip Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
