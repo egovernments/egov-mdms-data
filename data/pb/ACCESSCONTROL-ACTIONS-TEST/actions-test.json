@@ -9292,6 +9292,42 @@
       "serviceCode": "egov-apportion-service",
       "code": "null",
       "path": ""
+      },
+    {
+      "id": 2074,
+      "name": "Vehicle Trip Search",
+       "url": "/vehicle/trip/v1/_search",
+      "displayName": "Vehicle Trip Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2075,
+      "name": "Vehicle Trip Update",
+       "url": "/vehicle/trip/v1/_update",
+      "displayName": "Vehicle Trip Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2076,
+      "name": "FSM Estimate",
+       "url": "/fsm-calculator/v1/_estimate",
+      "displayName": "FSM Estimate",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
