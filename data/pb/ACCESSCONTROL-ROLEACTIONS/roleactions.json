@@ -18091,6 +18091,24 @@
       "actionid": 1863,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_DOC_VERIFIER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_FIELD_INSPECTOR",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
