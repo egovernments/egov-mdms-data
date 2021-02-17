@@ -126,13 +126,21 @@
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "tenants": [
+	{
+          "code": "pb.amritsar",
+          "name": "Amritsar"
+        },
         {
           "code": "pb.jalandhar",
-	        "name":"Jalandhar"
+	  "name":"Jalandhar"
         },
         {
           "code": "pb.phagwara",
           "name": "Phagwara"
+        },
+        {
+          "code": "pb.nawanshahr",
+          "name": "Nawanshahr"
         }
       ]
     },
