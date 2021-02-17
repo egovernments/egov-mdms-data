@@ -5742,6 +5742,28 @@
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "WS",
+      "name": "Water Amendment Charges",
+      "code": "WS_AMENDMENT_CHARGES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "3",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "SW",
+      "name": "Sewerage Charges",
+      "code": "SW_AMENDMENT_CHARGES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "3",
+      "isRequired": false,
+      "IsBillamend": true
     }
   ]
 }
