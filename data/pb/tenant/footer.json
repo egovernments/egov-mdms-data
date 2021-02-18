@@ -951,6 +951,20 @@
                     "order": "6."
                 }
             ]
+        },
+        {
+          "code": "pb.amritsar",
+          "service": "FSM.TRIP_CHARGES",
+          "receiptFooterContent": [
+            {
+              "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+              "order": "1."
+            },
+            {
+              "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_SECOND_LINE",
+              "order": "2."
+            }
+           ]
         }
   ]
 }
