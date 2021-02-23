@@ -17458,6 +17458,25 @@
       "leftIcon": "action:store",
       "rightIcon": "",
       "queryParams": ""
+<<<<<<< HEAD
+=======
+    },
+    {
+      "id": 2066,
+      "name": "digit-ui citizen FSM",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+>>>>>>> 1ec76caf299e669dcc5c7aa443baa928544a4183
     }
   ]
 }
