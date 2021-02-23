@@ -9,9 +9,9 @@
             "PlantType":"FSTP",
             "PlantLocation":"Amritsar",
             "PlusCode":"JQ2R+7G Khapar Kheri, Punjab",
-            "PlantOperationalTimings":"10.00am - 8.00pm",
+            "PlantOperationalTimings":"10.00am-08.00pm",
             "PlantOperationalCapacityKLD":"50",
-            "ULBS":"Amritsar,Jalandar"
+            "ULBS":"pb.jalandhar,pb.amritsar"
         },
         {
             "PlantCode": "MOH002",
@@ -20,9 +20,9 @@
             "PlantType":"SeTP",
             "PlantLocation":"Mohali",
             "PlusCode":"MPFQ+V2 Sahibzada Ajit Singh Nagar, Punjab",
-            "PlantOperationalTimings":"10.00am - 6.00pm",
+            "PlantOperationalTimings":"10.00am-06.00pm",
             "PlantOperationalCapacityKLD":"100",
-            "ULBS":"Mohali"
+            "ULBS":"pb.mohali"
         }
     ]
 }
