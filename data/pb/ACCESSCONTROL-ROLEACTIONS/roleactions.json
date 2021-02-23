@@ -22083,6 +22083,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2053,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "FSM_COLLECTOR",
       "actionid": 2054,
       "actioncode": "",
@@ -22620,6 +22626,12 @@
   {
     "rolecode": "FSM_EMP_FSTPO",
     "actionid": 2065,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "CITIZEN",
+    "actionid": 2066,
     "actioncode": "",
     "tenantId": "pb"
   }
