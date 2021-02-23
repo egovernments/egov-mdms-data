@@ -9328,6 +9328,61 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2077,
+      "name": "Encrypt",
+      "url": "/egov-enc-service/crypto/v1/_encrypt",
+      "displayName": "Encrypt",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Enc",
+      "code": "null",
+      "path": "Enc.Encrypt"
+    },
+    {
+      "id": 2078,
+      "name": "Decrypt",
+      "url": "/egov-enc-service/crypto/v1/_decrypt",
+      "displayName": "Decrypt",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Enc",
+      "code": "null",
+      "path": "Enc.Decrypt"
+    },
+    {
+      "id": 2079,
+      "name": "Sign",
+      "url": "/egov-enc-service/crypto/v1/_sign",
+      "displayName": "Sign",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Enc",
+      "code": "null",
+      "path": "Enc.Sign"
+    },
+    {
+      "id": 2080,
+      "name": "Verify",
+      "url": "/egov-enc-service/crypto/v1/_verify",
+      "displayName": "Verify",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Enc",
+      "code": "null",
+      "path": "Enc.Verify"
+    },
+    {
+      "id": 2081,
+      "name": "Rotatekey",
+      "url": "/egov-enc-service/crypto/v1/_rotatekey",
+      "displayName": "Rotatekey",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Enc",
+      "code": "null",
+      "path": "Enc.Rotatekey"
     }
   ]
 }
