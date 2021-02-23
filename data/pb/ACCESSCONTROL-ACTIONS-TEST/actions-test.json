@@ -17374,7 +17374,7 @@
     {
       "id": 2059,
       "name": "FSM BillingSlab Create",
-       "url": "/fsm-calculator/v1/billingSlab/_create",
+      "url": "/fsm-calculator/v1/billingSlab/_create",
       "displayName": "FSM BillingSlab Create",
       "orderNumber": 1,
       "parentModule": "",
@@ -17386,7 +17386,7 @@
     {
       "id": 2060,
       "name": "FSM BillingSlab Update",
-       "url": "/fsm-calculator/v1/billingSlab/_update",
+      "url": "/fsm-calculator/v1/billingSlab/_update",
       "displayName": "FSM BillingSlab Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -17398,7 +17398,7 @@
     {
       "id": 2061,
       "name": "FSM BillingSlab Search",
-       "url": "/fsm-calculator/v1/billingSlab/_search",
+      "url": "/fsm-calculator/v1/billingSlab/_search",
       "displayName": "FSM BillingSlab Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -17410,7 +17410,7 @@
     {
       "id": 2062,
       "name": "Vehicle Trip Search",
-       "url": "/vehicle/trip/v1/_search",
+      "url": "/vehicle/trip/v1/_search",
       "displayName": "Vehicle Trip Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -17422,7 +17422,7 @@
     {
       "id": 2063,
       "name": "Vehicle Trip Update",
-       "url": "/vehicle/trip/v1/_update",
+      "url": "/vehicle/trip/v1/_update",
       "displayName": "Vehicle Trip Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -17434,7 +17434,7 @@
     {
       "id": 2064,
       "name": "FSM Estimate",
-       "url": "/fsm-calculator/v1/_estimate",
+      "url": "/fsm-calculator/v1/_estimate",
       "displayName": "FSM Estimate",
       "orderNumber": 1,
       "parentModule": "",
@@ -17442,6 +17442,22 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2065,
+      "name": "digit-ui FSM",
+      "url": "card",
+      "displayName": "Faecal Sludge Matter",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/fsm",
+      "leftIcon": "action:announcement",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
