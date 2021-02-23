@@ -21819,6 +21819,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2065,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "FSM_EDITOR_EMP",
       "actionid": 2044,
       "actioncode": "",
@@ -21833,6 +21839,12 @@
     {
       "rolecode": "FSM_EDITOR_EMP",
       "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2065,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21879,6 +21891,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2065,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "FSM_DSO",
       "actionid": 2044,
       "actioncode": "",
@@ -21909,6 +21927,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "FSM_DSO",
+      "actionid": 2065,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "FSM_DRIVER",
       "actionid": 2044,
       "actioncode": "",
@@ -21935,6 +21959,12 @@
     {
       "rolecode": "FSM_DRIVER",
       "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DRIVER",
+      "actionid": 2065,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21959,6 +21989,12 @@
     {
       "rolecode": "FSM_COLLECTOR",
       "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2065,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -22043,12 +22079,6 @@
     {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 2051,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 2053,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -22584,6 +22614,12 @@
   {
     "rolecode": "FSM_EMP_FSTPO",
     "actionid": 2026,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "FSM_EMP_FSTPO",
+    "actionid": 2065,
     "actioncode": "",
     "tenantId": "pb"
   }
