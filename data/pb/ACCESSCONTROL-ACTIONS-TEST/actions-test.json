@@ -9383,6 +9383,38 @@
       "serviceCode": "Enc",
       "code": "null",
       "path": "Enc.Rotatekey"
+    },
+    {
+      "id": 2082,
+      "name": "digit-ui FSM",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/fsm",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2083,
+      "name": "digit-ui citizen FSM",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
