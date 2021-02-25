@@ -155,7 +155,9 @@
      {
       "name": "Institutional",
       "code": "INSTITUTIONAL",
-      "active": true
+      "active": true,
+      "minAmount":"1000",
+      "maxAmount":"3000"
     },
      {
       "name": "Temple",
