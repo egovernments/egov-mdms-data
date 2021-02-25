@@ -16750,6 +16750,12 @@
     },
     {
       "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
       "actionid": 706,
       "actioncode": "",
       "tenantId": "pb"
@@ -16762,6 +16768,12 @@
     },
     {
       "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
       "actionid": 2052,
       "actioncode": "",
       "tenantId": "pb"
@@ -16769,6 +16781,12 @@
     {
       "rolecode": "FSM_ADMIN",
       "actionid": 2052,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2046,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -16781,6 +16799,12 @@
     {
       "rolecode": "FSM_DSO",
       "actionid": 2052,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2046,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -16793,6 +16817,12 @@
     {
       "rolecode": "FSM_DRIVER",
       "actionid": 2052,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DRIVER",
+      "actionid": 2046,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -16805,6 +16835,12 @@
     {
       "rolecode": "FSM_COLLECTOR",
       "actionid": 2052,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2046,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -17463,8 +17499,20 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2046,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 2055,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2046,
       "actioncode": "",
       "tenantId": "pb"
     },
