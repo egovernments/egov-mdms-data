@@ -17474,6 +17474,17 @@
       "leftIcon": "action:store",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2067,
+      "name": "Count FSM Application",
+      "url": "/fsm/v1/_count",
+      "displayName": "Count  FSM Appliacations",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
