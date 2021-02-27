@@ -17444,22 +17444,6 @@
       "path": ""
     },
     {
-      "id": 2065,
-      "name": "digit-ui FSM",
-      "url": "card",
-      "displayName": "Faecal Sludge Management",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "/digit-ui/employee/fsm",
-      "leftIcon": "action:store",
-      "rightIcon": "",
-      "queryParams": ""
-    },
-    {
       "id": 2066,
       "name": "digit-ui citizen FSM",
       "url": "card",
@@ -17474,6 +17458,87 @@
       "leftIcon": "action:store",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2065,
+      "name": "digit-ui FSM",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2067,
+      "i18nKey": "ES_TITLE_NEW_DESULDGING_APPLICATION",
+      "name": "FSM EMPLOYEE CREATE NEW APPLICATION",
+      "enabled": true,
+      "navigationURL": "digit-ui/employee/fsm/new-application",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2068,
+      "i18nKey": "ES_TITLE_INBOX",
+      "name": "FSM EMPLOYEE INBOX",
+      "enabled": true,
+      "navigationURL": "digit-ui/employee/fsm/Inbox",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2069,
+      "i18nKey": "",
+      "name": "FSM EMPLOYEE EDIT APPLICATION",
+      "enabled": true,
+      "navigationURL": "/digit-ui/employee/fsm/modify-application/:id",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2070,
+      "i18nKey": "",
+      "name": "FSM EMPLOYEE COLLECT PAYMENT",
+      "enabled": true,
+      "navigationURL": "/digit-ui/employee/fsm/collect-payment",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2071,
+      "i18nKey": "ES_TITLE_INBOX",
+      "name": "FSM FSTP INBOX",
+      "enabled": true,
+      "navigationURL": "/digit-ui/employee/fsm/fstp-inbox",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2072,
+      "i18nKey": "",
+      "name": "FSM FSTP DETAILS",
+      "enabled": true,
+      "navigationURL": "/digit-ui/employee/fsm/fstp-operator-details/:id",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2073,
+      "i18nKey": "ES_TITLE_SEARCH_APPLICATION",
+      "name": "FSM EMPLOYEE SEARCH APPLICATION",
+      "enabled": true,
+      "navigationURL": "/digit-ui/employee/fsm/search",
+      "styleType" : "employee"
+    },
+    {
+      "id": 2074,
+      "i18nKey": "CS_LINK_DSO_DASHBOARD",
+      "name": "FSM DSO DASHBOARD",
+      "enabled": true,
+      "navigationURL": "/digit-ui/citizen/dso-dashboard",
+      "styleType" : "citizen"
     }
+    
   ]
 }
