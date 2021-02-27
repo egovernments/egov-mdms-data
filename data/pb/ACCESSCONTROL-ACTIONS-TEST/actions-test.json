@@ -17444,22 +17444,6 @@
       "path": ""
     },
     {
-      "id": 2066,
-      "name": "digit-ui citizen FSM",
-      "url": "card",
-      "displayName": "Faecal Sludge Management",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "/digit-ui/citizen",
-      "leftIcon": "action:store",
-      "rightIcon": "",
-      "queryParams": ""
-    },
-    {
       "id": 2065,
       "name": "digit-ui FSM",
       "url": "card",
@@ -17471,6 +17455,22 @@
       "code": "",
       "path": "",
       "navigationURL": "/digit-ui/employee/",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2066,
+      "name": "digit-ui FSM FSTPO",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/fstp-inbox`",
       "leftIcon": "action:store",
       "rightIcon": "",
       "queryParams": ""
