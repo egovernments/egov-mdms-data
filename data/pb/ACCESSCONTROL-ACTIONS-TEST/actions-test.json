@@ -17477,68 +17477,115 @@
     },
     {
       "id": 2067,
-      "i18nKey": "ES_TITLE_NEW_DESULDGING_APPLICATION",
+      "displayName": "CreateNewApplication",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM EMPLOYEE CREATE NEW APPLICATION",
       "enabled": true,
       "navigationURL": "digit-ui/employee/fsm/new-application",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2068,
-      "i18nKey": "ES_TITLE_INBOX",
+      "displayName": "EmployeeInbox",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM EMPLOYEE INBOX",
       "enabled": true,
       "navigationURL": "digit-ui/employee/fsm/Inbox",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2069,
-      "i18nKey": "",
+      "displayName": "EditApplication",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM EMPLOYEE EDIT APPLICATION",
       "enabled": true,
       "navigationURL": "/digit-ui/employee/fsm/modify-application/:id",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2070,
-      "i18nKey": "",
+      "displayName": "CollectPayment",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM EMPLOYEE COLLECT PAYMENT",
       "enabled": true,
       "navigationURL": "/digit-ui/employee/fsm/collect-payment",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2071,
-      "i18nKey": "ES_TITLE_INBOX",
+      "displayName": "FstpInbox",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM FSTP INBOX",
       "enabled": true,
       "navigationURL": "/digit-ui/employee/fsm/fstp-inbox",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2072,
-      "i18nKey": "",
+      "displayName": "FstpDetails",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM FSTP DETAILS",
       "enabled": true,
       "navigationURL": "/digit-ui/employee/fsm/fstp-operator-details/:id",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2073,
-      "i18nKey": "ES_TITLE_SEARCH_APPLICATION",
+      "displayName": "SearchApplication",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM EMPLOYEE SEARCH APPLICATION",
       "enabled": true,
       "navigationURL": "/digit-ui/employee/fsm/search",
-      "styleType" : "employee"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 2074,
-      "i18nKey": "CS_LINK_DSO_DASHBOARD",
+      "displayName": "DsoDashboard",
+      "orderNumber": 0,
+      "leftIcon": "",
+      "url": "url",
       "name": "FSM DSO DASHBOARD",
       "enabled": true,
       "navigationURL": "/digit-ui/citizen/dso-dashboard",
-      "styleType" : "citizen"
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
-    
   ]
 }
