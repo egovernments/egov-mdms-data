@@ -8720,28 +8720,12 @@
          "displayName": "BillAmendment",
          "orderNumber": 23,
          "parentModule": "",
-         "enabled": false,
+         "enabled": true,
          "serviceCode": "",
          "code": "null",
          "navigationURL": "bill-amend/search",
          "path": "",
          "leftIcon": "action:receipt"
-      },
-      {
-         "id": 2053,
-         "name": "BillAmendment",
-         "url": "card",
-         "displayName": "BillAmendment",
-         "orderNumber": 22,
-         "parentModule": "",
-         "enabled": false,
-         "serviceCode": "",
-         "code": "",
-         "path": "",
-         "navigationURL": "bill-amend/search",
-         "leftIcon": "action:receipt",
-         "rightIcon": "",
-         "queryParams": ""
       },
       {
          "id": 2027,
@@ -9027,6 +9011,66 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-      }
+      },
+      {
+         "id": 2051,
+         "name": "CreateAmendment",
+         "url": "/billing-service/amendment/_create",
+         "displayName": "Create Amendment",
+         "orderNumber": 4,
+         "enabled": false,
+         "serviceCode": "BILLING_SERVICE",
+         "code": "null",
+         "path": "Billing Service.CreateAmendment"
+       },
+       {
+         "id": 2052,
+         "name": "SearchAmendment",
+         "url": "/billing-service/amendment/_search",
+         "displayName": "Search Amendment",
+         "orderNumber": 5,
+         "enabled": false,
+         "serviceCode": "BILLING_SERVICE",
+         "code": "null",
+         "path": "Billing Service.SearchAmendment"
+       },
+       {
+         "id": 2053,
+         "name": "BillAmendment",
+         "url": "card",
+         "displayName": "BillAmendment",
+         "orderNumber": 22,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "",
+         "path": "",
+         "navigationURL": "bill-amend/search",
+         "leftIcon": "action:receipt",
+         "rightIcon": "",
+         "queryParams": ""
+      },
+      {
+         "id": 2054,
+         "name": "UpdateAmendment",
+         "url": "/billing-service/amendment/_update",
+         "displayName": "Update Amendment",
+         "orderNumber": 6,
+         "enabled": false,
+         "serviceCode": "BILLING_SERVICE",
+         "code": "null",
+         "path": "Billing Service.Amendment"
+       },
+       {
+         "id": 2055,
+         "name": "Locality searcher endpoint for Bill Amendment",
+         "url": "/egov-searcher/locality/BS/_get",
+         "displayName": "Bill amendment locality searcher",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "egov-searcher",
+         "code": "null",
+         "path": ""
+       }
    ]
 }

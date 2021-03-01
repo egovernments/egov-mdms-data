@@ -557,6 +557,10 @@
         {
             "format": "PG-PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
             "idname": "pgr.servicerequestid"
-        }
+        },
+        {
+            "idname": "bs.amendment.id",
+            "format": "NOTETYPE-CONSUMERCODE-[SEQ_BS_MUTATION_[tenant_id]]"
+          }
     ]
 }
