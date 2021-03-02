@@ -158,21 +158,6 @@
       "leftIcon": "places:business-center"
     },
     {
-      "id": 1888,
-      "name": "Dashboard Home",
-      "url": "url",
-      "displayName": "Tradelicense",
-      "orderNumber": 5,
-      "parentModule": "dss-dashboard",
-      "enabled": true,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "Dashboard.TradeLicense",
-      "navigationURL": "integration/dss/tradelicense",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
-    {
       "id": 1905,
       "name": "TradeLicenseApplicationStatusReport",
       "url": "/report/rainmaker-tl/TradeLicenseApplicationStatusReport/metadata/_get",

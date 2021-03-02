@@ -1,0 +1,66 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1887,
+      "name": "Dashboard Property Tax",
+      "url": "url",
+      "displayName": "Property Tax",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.PropertyTax",
+      "navigationURL": "integration/dss/propertytax",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1888,
+      "name": "Dashboard Home",
+      "url": "url",
+      "displayName": "Tradelicense",
+      "orderNumber": 5,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.TradeLicense",
+      "navigationURL": "integration/dss/tradelicense",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1923,
+      "name": "Dashboard PGR",
+      "url": "url",
+      "displayName": "PGR",
+      "orderNumber": 6,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.PGR",
+      "navigationURL": "integration/dss/pgr",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2011,
+      "name": "Dashboard Water Sewerage",
+      "url": "url",
+      "displayName": "Water Sewerage",
+      "orderNumber": 11,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Ws",
+      "navigationURL": "integration/dss/ws",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    }
+  ]
+}

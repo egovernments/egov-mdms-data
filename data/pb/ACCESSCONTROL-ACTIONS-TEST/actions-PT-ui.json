@@ -107,21 +107,6 @@
       "rightIcon": ""
     },
     {
-      "id": 1887,
-      "name": "Dashboard Property Tax",
-      "url": "url",
-      "displayName": "Property Tax",
-      "orderNumber": 4,
-      "parentModule": "dss-dashboard",
-      "enabled": true,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "Dashboard.PropertyTax",
-      "navigationURL": "integration/dss/propertytax",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
-    {
       "id": 1926,
       "name": "Assess And Search Properties",
       "url": "quickAction",

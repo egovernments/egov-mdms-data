@@ -3,28 +3,6 @@
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
     {
-      "id": 702,
-      "name": "UpdateCollection",
-      "url": "/billing-service/demand/collection/_update",
-      "displayName": "Update Collection",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "BILLING_SERVICE",
-      "code": "null",
-      "path": "Billing Service.UpdateCollection"
-    },
-    {
-      "id": 703,
-      "name": "BS_SearchDemandDetail",
-      "url": "/billing-service/demand/demanddetail/_search",
-      "displayName": "Search Demand Detail",
-      "orderNumber": 2,
-      "enabled": false,
-      "serviceCode": "BILLING_SERVICE",
-      "code": "null",
-      "path": "Billing Service.BS_SearchDemandDetail"
-    },
-    {
       "id": 704,
       "name": "UpdateDemand",
       "url": "/billing-service/demand/_update",
@@ -58,28 +36,6 @@
       "path": "Billing Service.SearchDemand"
     },
     {
-      "id": 707,
-      "name": "UpdateTaxHead",
-      "url": "/billing-service/taxheads/_update",
-      "displayName": "Update Tax Head",
-      "orderNumber": 6,
-      "enabled": false,
-      "serviceCode": "BS_TAXHEADS",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS Tax Heads.UpdateTaxHead"
-    },
-    {
-      "id": 708,
-      "name": "CreateTaxHead",
-      "url": "/billing-service/taxheads/_create",
-      "displayName": "Create Tax Head",
-      "orderNumber": 7,
-      "enabled": false,
-      "serviceCode": "BS_TAXHEADS",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS Tax Heads.CreateTaxHead"
-    },
-    {
       "id": 709,
       "name": "SearchTaxHead",
       "url": "/billing-service/taxheads/_search",
@@ -102,17 +58,6 @@
       "path": "Billing Service.GenerateBill"
     },
     {
-      "id": 711,
-      "name": "Apportion",
-      "url": "/billing-service/bill/_apportion",
-      "displayName": "Apportion",
-      "orderNumber": 10,
-      "enabled": false,
-      "serviceCode": "BILLING_SERVICE",
-      "code": "null",
-      "path": "Billing Service.Apportion"
-    },
-    {
       "id": 713,
       "name": "SearchBill",
       "url": "/billing-service/bill/_search",
@@ -124,28 +69,6 @@
       "path": "Billing Service.SearchBill"
     },
     {
-      "id": 714,
-      "name": "UpdateBusinessService",
-      "url": "/billing-service/businessservices/_update",
-      "displayName": "Update Business Service",
-      "orderNumber": 13,
-      "enabled": false,
-      "serviceCode": "BS_BUSINESS_SERVICE",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS Business Service.UpdateBusinessService"
-    },
-    {
-      "id": 715,
-      "name": "CreateBusinessService",
-      "url": "/billing-service/businessservices/_create",
-      "displayName": "Create Business Service",
-      "orderNumber": 14,
-      "enabled": false,
-      "serviceCode": "BS_BUSINESS_SERVICE",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS Business Service.CreateBusinessService"
-    },
-    {
       "id": 716,
       "name": "SearchBusinessService",
       "url": "/billing-service/businessservices/_search",
@@ -155,61 +78,6 @@
       "serviceCode": "BS_BUSINESS_SERVICE",
       "code": "null",
       "path": "Billing Service.Billing Masters.BS Business Service.SearchBusinessService"
-    },
-    {
-      "id": 717,
-      "name": "UpdateGlcodeMaster",
-      "url": "/billing-service/glcodemasters/_update",
-      "displayName": "Update Glcode Master",
-      "orderNumber": 16,
-      "enabled": false,
-      "serviceCode": "BS_GLCODE_MASTER",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS GLCode Master.UpdateGlcodeMaster"
-    },
-    {
-      "id": 718,
-      "name": "CreateGlcodeMaster",
-      "url": "/billing-service/glcodemasters/_create",
-      "displayName": "Create Glcode Master",
-      "orderNumber": 17,
-      "enabled": false,
-      "serviceCode": "BS_GLCODE_MASTER",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS GLCode Master.CreateGlcodeMaster"
-    },
-    {
-      "id": 719,
-      "name": "SearchGlcodeMaster",
-      "url": "/billing-service/glcodemasters/_search",
-      "displayName": "Search Glcode Master",
-      "orderNumber": 18,
-      "enabled": false,
-      "serviceCode": "BS_GLCODE_MASTER",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS GLCode Master.SearchGlcodeMaster"
-    },
-    {
-      "id": 720,
-      "name": "BS_UpdateTaxPeriod",
-      "url": "/billing-service/taxperiods/_update",
-      "displayName": "Update Tax Period",
-      "orderNumber": 19,
-      "enabled": false,
-      "serviceCode": "BS_TAX_PERIODS",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS Tax Periods.BS_UpdateTaxPeriod"
-    },
-    {
-      "id": 721,
-      "name": "BS_CreateTaxPeriod",
-      "url": "/billing-service/taxperiods/_create",
-      "displayName": "Create Tax Period",
-      "orderNumber": 20,
-      "enabled": false,
-      "serviceCode": "BS_TAX_PERIODS",
-      "code": "null",
-      "path": "Billing Service.Billing Masters.BS Tax Periods.BS_CreateTaxPeriod"
     },
     {
       "id": 722,
@@ -232,17 +100,6 @@
       "serviceCode": "BILLING_SERVICE",
       "code": "null",
       "path": "Billing Service.BS_TaxPeriodSearch"
-    },
-    {
-      "id": 810,
-      "name": "BS_GetDemandDues",
-      "url": "/billing-service/demand/_dues",
-      "displayName": "Get Demand Dues",
-      "orderNumber": 1,
-      "enabled": false,
-      "serviceCode": "BILLING_SERVICE",
-      "code": "null",
-      "path": "Billing Service.BS_GetDemandDues"
     },
     {
       "id": 1692,

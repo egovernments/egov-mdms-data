@@ -97,61 +97,6 @@
       "serviceCode": "firenoc-calculator",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 1934,
-      "name": "Locality searcher endpoint for PT",
-      "url": "/egov-searcher/locality/fireNoc/_get",
-      "displayName": "FIRENOC locality searcher",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "egov-searcher",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2001,
-      "name": "NOC Create",
-      "url": "/noc-services/v1/noc/_create",
-      "displayName": "Create",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "NOC",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2002,
-      "name": "NOC Search",
-      "url": "/noc-services/v1/noc/_search",
-      "displayName": "Search",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "NOC",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2003,
-      "name": "NOC Update",
-      "url": "/noc-services/v1/noc/_update",
-      "displayName": "Update",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "NOC",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2005,
-      "name": "Locality searcher endpoint for Noc Servcies",
-      "url": "/egov-searcher/locality/noc-services/_get",
-      "displayName": "Noc locality searcher",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "egov-searcher",
-      "code": "null",
-      "path": ""
     }
   ]
 }

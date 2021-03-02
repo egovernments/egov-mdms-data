@@ -46,6 +46,18 @@
     },
     {
       "rolecode": "WS_CEMP",
+      "actionid": 1937,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2022,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CEMP",
       "actionid": 1900,
       "actioncode": "",
       "tenantId": "pb"
@@ -105,6 +117,18 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "SW_CEMP",
+      "actionid": 1941,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2023,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "WS_CLERK",
       "actionid": 1966,
       "actioncode": "",
@@ -125,36 +149,6 @@
     {
       "rolecode": "WS_APPROVER",
       "actionid": 1966,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_DOC_VERIFIER",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_FIELD_INSPECTOR",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CLERK",
-      "actionid": 1766,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -191,12 +185,6 @@
     {
       "rolecode": "WS_CLERK",
       "actionid": 2027,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
-      "actionid": 2036,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -245,12 +233,6 @@
     {
       "rolecode": "WS_CEMP",
       "actionid": 1574,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
-      "actionid": 1898,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -323,18 +305,6 @@
     {
       "rolecode": "WS_CEMP",
       "actionid": 1969,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
-      "actionid": 2028,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
-      "actionid": 2033,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -592,36 +562,6 @@
     },
     {
       "rolecode": "SW_DOC_VERIFIER",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_FIELD_INSPECTOR",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CLERK",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_DOC_VERIFIER",
       "actionid": 2027,
       "actioncode": "",
       "tenantId": "pb"
@@ -647,12 +587,6 @@
     {
       "rolecode": "SW_CLERK",
       "actionid": 2027,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2037,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -701,12 +635,6 @@
     {
       "rolecode": "SW_CEMP",
       "actionid": 1574,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 1898,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -779,18 +707,6 @@
     {
       "rolecode": "SW_CEMP",
       "actionid": 1969,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2029,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2033,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -928,24 +844,6 @@
     },
     {
       "rolecode": "SYS_INTEGRATOR_WATER_SEW",
-      "actionid": 1676,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SYS_INTEGRATOR_WATER_SEW",
-      "actionid": 1689,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SYS_INTEGRATOR_WATER_SEW",
-      "actionid": 207,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SYS_INTEGRATOR_WATER_SEW",
       "actionid": 604,
       "actioncode": "",
       "tenantId": "pb"
@@ -959,18 +857,6 @@
     {
       "rolecode": "SYS_INTEGRATOR_WATER_SEW",
       "actionid": 696,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SYS_INTEGRATOR_WATER_SEW",
-      "actionid": 1694,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SYS_INTEGRATOR_WATER_SEW",
-      "actionid": 1695,
       "actioncode": "",
       "tenantId": "pb"
     }

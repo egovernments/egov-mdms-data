@@ -1,0 +1,138 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1889,
+      "name": "DSS Dashboard Config Home",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/home",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1890,
+      "name": "DSS Dashboard Charts",
+      "url": "/dashboard-analytics/dashboard/getChartV2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1892,
+      "name": "DSS Dashboard Config Property Tax",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/propertytax",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1893,
+      "name": "DSS Dashboard Config Trade License",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/tradelicense",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1894,
+      "name": "DSS Dashboard Config PGR",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/pgr",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1948,
+      "name": "DSS Dashboard Config Overview",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/overview",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1963,
+      "name": "Dashboard collectionsindex-v1",
+      "url": "/dashboard-ingest/ingest/migrate/collectionsindex-v1/v1",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1964,
+      "name": "Dashboard Static Upload",
+      "url": "/dashboard-ingest/ingest/upload",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2062,
+      "name": "Dashboard Ingest Save",
+      "url": "/dashboard-ingest/ingest/save",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1970,
+      "name": "Dashboard Payments-v1",
+      "url": "/dashboard-ingest/ingest/paymentsindex-v1/v2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1977,
+      "name": "Dashboard Payments-v1",
+      "url": "/dashboard-ingest/ingest/migrate/paymentsindex-v1/v2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    }
+  ]
+}
