@@ -568,6 +568,14 @@
     {
       "idname": "bs.amendment.id",
       "format": "NOTETYPE-CONSUMERCODE-[SEQ_BS_MUTATION_[tenant_id]]"
+      },
+    {
+      "idname": "vehiclelog.aplnumber",
+      "format": "[CITY.CODE]-VT-[cy:yyyy-MM-dd]-[SEQ_EGOV_VEHICLETRIP]"
+    },
+    {
+      "idname": "fsm.aplnumber",
+      "format": "[CITY.CODE]-FSM-[cy:yyyy-MM-dd]-[SEQ_EGOV_FSM]"
     }
   ]
 }
