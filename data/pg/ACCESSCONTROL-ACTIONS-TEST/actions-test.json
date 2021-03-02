@@ -9071,6 +9071,43 @@
          "serviceCode": "egov-searcher",
          "code": "null",
          "path": ""
+       },
+       {
+         "id": 2056,
+         "name": "EmployeeReport",
+         "url": "url",
+         "displayName": "Employee Report",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "null",
+         "path": "HRMS.Reports.EmployeeReport",
+         "navigationURL": "report/hrms/EmployeeReport",
+         "leftIcon": "action:assignment",
+         "rightIcon": ""
+       },
+       {
+         "id": 2057,
+         "name": "RainmakerHRMS-EmployeeReport-Metadata",
+         "url": "/report/hrms/EmployeeReport/metadata/_get",
+         "displayName": "Rainmaker Employee report",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "EmployeeReport",
+         "code": "null",
+         "path": "Employee Report"
+       },
+       {
+         "id": 2058,
+         "name": "EmployeeReport",
+         "url": "/report/hrms/EmployeeReport/_get",
+         "displayName": "Employee Report",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "EmployeeReport",
+         "code": "null",
+         "path": "Employee Report"
        }
    ]
 }
