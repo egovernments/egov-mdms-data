@@ -1,0 +1,183 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 704,
+      "name": "UpdateDemand",
+      "url": "/billing-service/demand/_update",
+      "displayName": "Update Demand",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.UpdateDemand"
+    },
+    {
+      "id": 705,
+      "name": "CreateDemand",
+      "url": "/billing-service/demand/_create",
+      "displayName": "Create Demand",
+      "orderNumber": 4,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.CreateDemand"
+    },
+    {
+      "id": 706,
+      "name": "SearchDemand",
+      "url": "/billing-service/demand/_search",
+      "displayName": "Search Demand",
+      "orderNumber": 5,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.SearchDemand"
+    },
+    {
+      "id": 709,
+      "name": "SearchTaxHead",
+      "url": "/billing-service/taxheads/_search",
+      "displayName": "Search Tax Head",
+      "orderNumber": 8,
+      "enabled": false,
+      "serviceCode": "BS_TAXHEADS",
+      "code": "null",
+      "path": "Billing Service.Billing Masters.BS Tax Heads.SearchTaxHead"
+    },
+    {
+      "id": 710,
+      "name": "GenerateBill",
+      "url": "/billing-service/bill/_generate",
+      "displayName": "Generate Bill",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.GenerateBill"
+    },
+    {
+      "id": 713,
+      "name": "SearchBill",
+      "url": "/billing-service/bill/_search",
+      "displayName": "Search Bill",
+      "orderNumber": 12,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.SearchBill"
+    },
+    {
+      "id": 716,
+      "name": "SearchBusinessService",
+      "url": "/billing-service/businessservices/_search",
+      "displayName": "Search Business Service",
+      "orderNumber": 15,
+      "enabled": false,
+      "serviceCode": "BS_BUSINESS_SERVICE",
+      "code": "null",
+      "path": "Billing Service.Billing Masters.BS Business Service.SearchBusinessService"
+    },
+    {
+      "id": 722,
+      "name": "BS_SearchTaxPeriod",
+      "url": "/billing-service/taxperiods/_search",
+      "displayName": "Search Tax Period",
+      "orderNumber": 21,
+      "enabled": false,
+      "serviceCode": "BS_TAX_PERIODS",
+      "code": "null",
+      "path": "Billing Service.Billing Masters.BS Tax Periods.BS_SearchTaxPeriod"
+    },
+    {
+      "id": 809,
+      "name": "BS_TaxPeriodSearch",
+      "url": "/billing-service/taxperiod/_search",
+      "displayName": "Get Tax Periods",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.BS_TaxPeriodSearch"
+    },
+    {
+      "id": 1692,
+      "name": "Fetch Bill",
+      "url": "/billing-service/bill/_fetchbill",
+      "displayName": "Fetch Bill",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "Billing-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1860,
+      "name": "GenerateBillV2",
+      "url": "/billing-service/bill/v2/_generate",
+      "displayName": "Generate Bill v2",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.GenerateBill"
+    },
+    {
+      "id": 1861,
+      "name": "SearchBillV2",
+      "url": "/billing-service/bill/v2/_search",
+      "displayName": "search Bill v2",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.GenerateBill"
+    },
+    {
+      "id": 1862,
+      "name": "FetchBillV2",
+      "url": "/billing-service/bill/v2/_fetchbill",
+      "displayName": "fetch Bill v2",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.GenerateBill"
+    },
+    {
+      "id": 2059,
+      "name": "CreateAmendment",
+      "url": "/billing-service/amendment/_create",
+      "displayName": "Create Amendment",
+      "orderNumber": 4,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.CreateAmendment"
+    },
+    {
+      "id": 2060,
+      "name": "SearchAmendment",
+      "url": "/billing-service/amendment/_search",
+      "displayName": "Search Amendment",
+      "orderNumber": 5,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.SearchAmendment"
+    },
+    {
+      "id": 2061,
+      "name": "UpdateAmendment",
+      "url": "/billing-service/amendment/_update",
+      "displayName": "Update Amendment",
+      "orderNumber": 6,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.Amendment"
+    }
+  ]
+}

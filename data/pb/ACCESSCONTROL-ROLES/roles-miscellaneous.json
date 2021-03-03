@@ -1,0 +1,86 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "WORKS_MASTER_CREATOR",
+      "name": "Works Master creator",
+      "description": "Who has a access to all the works masters."
+    },
+    {
+      "code": "LOA_CREATOR",
+      "name": "LOA Creator",
+      "description": "Who has a access to create Letter Of Acceptance"
+    },
+    {
+      "code": "GA",
+      "name": "Grivance Administrator",
+      "description": "System Administator for PGR. Can change PGR Master data only."
+    },
+    {
+      "code": "Asset Administrator",
+      "name": "Asset Administrator",
+      "description": "Asset Administrator"
+    },
+    {
+      "code": "ULB Operator",
+      "name": "ULB Operator",
+      "description": "ULB Operator"
+    },
+    {
+      "code": "EMPLOYEE ADMIN",
+      "name": "EMPLOYEE ADMIN",
+      "description": "EMPLOYEE ADMIN"
+    },
+    {
+      "code": "Property Approver",
+      "name": "Property Approver",
+      "description": "Property Approver"
+    },
+    {
+      "code": "Property Verifier",
+      "name": "Property Verifier",
+      "description": "Property Verifier"
+    },
+    {
+      "code": "AssetCreator",
+      "name": "AssetCreator",
+      "description": "AssetCreator"
+    },
+    {
+      "code": "COLL_OPERATOR",
+      "name": "Collection Operator",
+      "description": "Can Create, Search and Update Receipt"
+    },
+    {
+      "code": "BANK_COLL_OPERATOR",
+      "name": "Bank Collection Operator",
+      "description": "Can Create, Search Receipt"
+    },
+    {
+      "code": "COMMISSIONER",
+      "name": "Commissioner",
+      "description": "Commissioner"
+    },
+    {
+      "code": "AE_CREATOR",
+      "name": "Abstract Estimate Creator",
+      "description": "Who has a access to create Abstract Estimate"
+    },
+    {
+      "code": "DE_CREATOR",
+      "name": "Detailed Estimate Creator",
+      "description": "Who has a access to create Detailed Estimate"
+    },
+    {
+      "code": "TL_ADMIN",
+      "name": "TL Admin",
+      "description": "Who has a access to Trade License Masters"
+    },
+    {
+      "code": "TL_CREATOR",
+      "name": "TL Creator",
+      "description": "Who has a access to Trade License Services"
+    }
+  ]
+}

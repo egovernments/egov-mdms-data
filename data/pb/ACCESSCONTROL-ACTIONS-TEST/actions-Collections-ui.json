@@ -1,0 +1,60 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1708,
+      "name": "ReceiptRegisterMisc",
+      "url": "url",
+      "displayName": "Receipt Register",
+      "orderNumber": 7,
+      "enabled": true,
+      "serviceCode": "COLLECTIONS",
+      "code": "null",
+      "navigationURL": "report/finance/ReceiptRegister",
+      "leftIcon": "image:collections",
+      "path": "Collections.Reports.Receipt Register "
+    },
+    {
+      "id": 1722,
+      "name": "BankRemittance",
+      "url": "url",
+      "displayName": "Bank Remittance",
+      "orderNumber": 8,
+      "enabled": true,
+      "serviceCode": "COLLECTIONS",
+      "code": "null",
+      "navigationURL": "report/finance/BankRemittance",
+      "leftIcon": "image:collections",
+      "path": "Collections.Reports.Bank Remittance"
+    },
+    {
+      "id": 1802,
+      "name": "Universal Collection",
+      "url": "url",
+      "displayName": "Universal Collection",
+      "orderNumber": 4,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UC",
+      "code": "null",
+      "navigationURL": "uc/search",
+      "path": "UC",
+      "leftIcon": "image:collections-bookmark"
+    },
+    {
+      "id": 1803,
+      "name": "Receipts",
+      "url": "url",
+      "displayName": "Receipts",
+      "orderNumber": 4,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UC",
+      "code": "null",
+      "navigationURL": "uc-citizen/search",
+      "path": "UC",
+      "leftIcon": "image:collections-bookmark"
+    }
+  ]
+}

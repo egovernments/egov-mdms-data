@@ -1,0 +1,36 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1884,
+      "name": "rainmaker-citizen-wns",
+      "url": "url",
+      "displayName": "Water & Sewerage",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wns",
+      "code": "null",
+      "navigationURL": "wns-citizen/home",
+      "path": "wns",
+      "leftIcon": "custom:water-tap",
+      "rightIcon": ""
+    },
+    {
+      "id": 1885,
+      "name": "Water & Sewerage",
+      "url": "url",
+      "displayName": "Water & Sewerage",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wns",
+      "code": "null",
+      "navigationURL": "wns/search",
+      "path": "wns",
+      "leftIcon": "custom:water-tap",
+      "rightIcon": ""
+    }
+  ]
+}
