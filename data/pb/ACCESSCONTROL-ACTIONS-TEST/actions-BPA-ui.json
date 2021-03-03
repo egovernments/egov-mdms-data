@@ -1,0 +1,57 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1879,
+      "name": "BPAStakeHolderSearch",
+      "url": "url",
+      "displayName": "BPA Stake Holder Search",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-bpa",
+      "enabled": true,
+      "serviceCode": "BPAREG",
+      "code": "null",
+      "path": "BPAStakeHolder.Search",
+      "navigationURL": "bpastakeholder/search",
+      "leftIcon": "communication:business",
+      "rightIcon": ""
+    },
+    {
+      "id": 1880,
+      "name": "BPAStakeHolderHome",
+      "url": "url",
+      "displayName": "BPA Stake Holder Home",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-bpa",
+      "enabled": true,
+      "serviceCode": "BPAREG",
+      "code": "null",
+      "path": "BPAStakeHolder",
+      "navigationURL": "bpastakeholder-citizen/home",
+      "leftIcon": "communication:business",
+      "rightIcon": ""
+    },
+    {
+      "id": 1950,
+      "name": "search BPA application",
+      "url": "quickAction",
+      "displayName": "Search Application",
+      "orderNumber": 1,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "tenantId": "pb",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "Building Plan Approval.Search Application",
+      "navigationURL": "egov-bpa/search",
+      "quickAction": true,
+      "leftIcon": "communication:business",
+      "rightIcon": ""
+    }
+  ]
+}

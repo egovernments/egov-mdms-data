@@ -1,0 +1,102 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1524,
+      "name": "RainmakerPgrCreate",
+      "url": "/rainmaker-pgr/v1/requests/_create",
+      "displayName": "Rainmaker Pgr Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1525,
+      "name": "RainmakerPgrUpdate",
+      "url": "/rainmaker-pgr/v1/requests/_update",
+      "displayName": "Rainmaker Pgr Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1526,
+      "name": "RainmakerPgrSearch",
+      "url": "/rainmaker-pgr/v1/requests/_search",
+      "displayName": "Rainmaker Pgr Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1527,
+      "name": "RainmakerPgrCount",
+      "url": "/rainmaker-pgr/v1/requests/_count",
+      "displayName": "Rainmaker Pgr Count",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2006,
+      "name": "Create PGR Request",
+      "url": "/pgr-services/v2/request/_create",
+      "parentModule": "",
+      "displayName": "Create PGR Request",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "pgr-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2007,
+      "name": "Update PGR Request",
+      "url": "/pgr-services/v2/request/_update",
+      "parentModule": "",
+      "displayName": "Update PGR Request",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "pgr-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2008,
+      "name": "Search PGR Request",
+      "url": "/pgr-services/v2/request/_search",
+      "parentModule": "",
+      "displayName": "Search PGR Request",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "pgr-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2009,
+      "name": "Search PGR Request",
+      "url": "/pgr-services/v2/request/_count",
+      "parentModule": "",
+      "displayName": "Count PGR Request",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "pgr-services",
+      "code": "null",
+      "path": ""
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1924,
+      "name": "BPA-Applyforservice",
+      "url": "/bpa-services/v1/bpa/_create",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1930,
+      "name": "BPA-applicationsearch",
+      "url": "/bpa-services/v1/bpa/_search",
+      "displayName": "Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1931,
+      "name": "BPA-updateapplicationservice",
+      "url": "/bpa-services/v1/bpa/_update",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1972,
+      "name": "BPA-PermitOrderEDCR Report",
+      "url": "/bpa-services/v1/bpa/_permitorderedcr",
+      "displayName": "Apply",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
+    }
+  ]
+}

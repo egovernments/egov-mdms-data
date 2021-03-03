@@ -1,0 +1,11 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "FIRE_NOC_APPROVER",
+      "name": "Fire Noc Department Approver",
+      "description": "Fire Noc application approver"
+    }
+  ]
+}

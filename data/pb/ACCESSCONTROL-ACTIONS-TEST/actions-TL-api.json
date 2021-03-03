@@ -1,0 +1,153 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1682,
+      "name": "billing slab create",
+      "url": "/tl-calculator/billingslab/_create",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 1683,
+      "name": "billing slab update",
+      "url": "/tl-calculator/billingslab/_update",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 1684,
+      "name": "billing slab search",
+      "url": "/tl-calculator/billingslab/_search",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 1685,
+      "name": "Create TradeLicense",
+      "url": "/tl-services/v1/_create",
+      "parentModule": "",
+      "displayName": "Create TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1686,
+      "name": "Update TradeLicense",
+      "url": "/tl-services/v1/_update",
+      "parentModule": "",
+      "displayName": "Update TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1687,
+      "name": "Search TradeLicense",
+      "url": "/tl-services/v1/_search",
+      "parentModule": "",
+      "displayName": "Search TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1688,
+      "name": "Get Bill",
+      "url": "/tl-calculator/v1/_getbill",
+      "parentModule": "",
+      "displayName": "Get Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1874,
+      "name": "tradelicense Calculation",
+      "url": "/tl-calculator/v1/_calculate",
+      "displayName": "TradeLicenseCalculation",
+      "orderNumber": 0,
+      "parentModule": null,
+      "enabled": false,
+      "serviceCode": "TradeLicenseCalculator",
+      "code": "null",
+      "path": "null"
+    },
+    {
+      "id": 1875,
+      "name": "Create BPALicense",
+      "url": "/tl-services/v1/BPAREG/_create",
+      "parentModule": "",
+      "displayName": "Create BPALicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1876,
+      "name": "Update BPALicense",
+      "url": "/tl-services/v1/BPAREG/_update",
+      "parentModule": "",
+      "displayName": "Update BPALicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1877,
+      "name": "Search BPALicense",
+      "url": "/tl-services/v1/BPAREG/_search",
+      "parentModule": "",
+      "displayName": "Search BPALicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1878,
+      "name": "Get Bill BPA",
+      "url": "/tl-calculator/v1/BPAREG/_getbill",
+      "parentModule": "",
+      "displayName": "Get Bill BPA",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-calculator",
+      "code": "null",
+      "path": ""
+    }
+  ]
+}
