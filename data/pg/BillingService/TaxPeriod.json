@@ -465,6 +465,14 @@
       "service": "BPA.NC_OC_SAN_FEE",
       "code": "BPAOCSAN10YRS2018",
       "financialYear": "2018-28"
+    },
+    {
+      "fromDate": 1606815883000,
+      "toDate": 1924948799000,
+      "periodCycle": "FORTENYEARS",
+      "service": "FSM.TRIP_CHARGES",
+      "code": "FSMTRIPCHARGE10YRS",
+      "financialYear": "2020-2030"
     }
   ]
 }

@@ -1093,5 +1093,21 @@
       "isStateLevel": true,
       "uniqueKeys": []
     }
+  },
+  "FSM": {
+    "ApplicationChannel": {
+      "masterName": "ApplicationChannel",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SanitationType": {
+      "masterName": "SanitationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
   }
 }

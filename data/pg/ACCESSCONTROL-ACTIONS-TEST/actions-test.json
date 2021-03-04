@@ -8912,8 +8912,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2042,
          "name": "BPA San Payment search",
          "url": "/collection-services/payments/BPA.NC_SAN_FEE/_search",
@@ -8924,8 +8924,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2043,
          "name": "BPA OCApplication Payment search",
          "url": "/collection-services/payments/BPA.NC_OC_APP_FEE/_search",
@@ -8936,8 +8936,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2044,
          "name": "BPA OC San Payment search",
          "url": "/collection-services/payments/BPA.NC_OC_SAN_FEE/_search",
@@ -8948,7 +8948,7 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-       },
+      },
       {
          "id": 1555,
          "name": "AllComplaints",
@@ -9022,8 +9022,8 @@
          "serviceCode": "BILLING_SERVICE",
          "code": "null",
          "path": "Billing Service.CreateAmendment"
-       },
-       {
+      },
+      {
          "id": 2052,
          "name": "SearchAmendment",
          "url": "/billing-service/amendment/_search",
@@ -9033,8 +9033,8 @@
          "serviceCode": "BILLING_SERVICE",
          "code": "null",
          "path": "Billing Service.SearchAmendment"
-       },
-       {
+      },
+      {
          "id": 2053,
          "name": "BillAmendment",
          "url": "card",
@@ -9060,8 +9060,8 @@
          "serviceCode": "BILLING_SERVICE",
          "code": "null",
          "path": "Billing Service.Amendment"
-       },
-       {
+      },
+      {
          "id": 2055,
          "name": "Locality searcher endpoint for Bill Amendment",
          "url": "/egov-searcher/locality/BS/_get",
@@ -9071,8 +9071,8 @@
          "serviceCode": "egov-searcher",
          "code": "null",
          "path": ""
-       },
-       {
+      },
+      {
          "id": 2056,
          "name": "EmployeeReport",
          "url": "url",
@@ -9086,8 +9086,8 @@
          "navigationURL": "report/hrms/EmployeeReport",
          "leftIcon": "action:assignment",
          "rightIcon": ""
-       },
-       {
+      },
+      {
          "id": 2057,
          "name": "RainmakerHRMS-EmployeeReport-Metadata",
          "url": "/report/hrms/EmployeeReport/metadata/_get",
@@ -9097,8 +9097,8 @@
          "serviceCode": "EmployeeReport",
          "code": "null",
          "path": "Employee Report"
-       },
-       {
+      },
+      {
          "id": 2058,
          "name": "EmployeeReport",
          "url": "/report/hrms/EmployeeReport/_get",
@@ -9108,6 +9108,357 @@
          "serviceCode": "EmployeeReport",
          "code": "null",
          "path": "Employee Report"
-       }
+      },
+      {
+         "id": 2059,
+         "name": "Create FSM Application",
+         "url": "/fsm/v1/_create",
+         "displayName": "Apply FSM",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "FSM",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2060,
+         "name": "Search FSM Application",
+         "url": "/fsm/v1/_search",
+         "displayName": "Search  FSM Appliacations",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "FSM",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2061,
+         "name": "Update FSM Application",
+         "url": "/fsm/v1/_update",
+         "displayName": "Update FSM",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "FSM",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2062,
+         "name": "Locality searcher endpoint for FSM",
+         "url": "/egov-searcher/locality/FSM/_get",
+         "displayName": "FSM locality searcher",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "egov-searcher",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2063,
+         "name": "Create Vehicle Application",
+         "url": "/vehicle/v1/_create",
+         "displayName": "Create Vehicle",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "vehicle",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2064,
+         "name": "Search Vehicle Application",
+         "url": "/vehicle/v1/_search",
+         "displayName": "Search  Vehicle",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "vehicle",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2065,
+         "name": "Create Vendor/DSO",
+         "url": "/vendor/v1/_create",
+         "displayName": "Create Vehicle",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "vendor",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2066,
+         "name": "Search Vendor/DSO",
+         "url": "/vendor/v1/_search",
+         "displayName": "Search  Vendor",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "vendor",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2067,
+         "name": "FSM Application Audit Search",
+         "url": "/fsm/v1/_audit",
+         "displayName": "FSM Application Audit serach",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2068,
+         "name": "FSM BillingSlab Create",
+         "url": "/fsm-calculator/v1/billingSlab/_create",
+         "displayName": "FSM BillingSlab Create",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2069,
+         "name": "FSM BillingSlab Update",
+         "url": "/fsm-calculator/v1/billingSlab/_update",
+         "displayName": "FSM BillingSlab Update",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2070,
+         "name": "FSM BillingSlab Search",
+         "url": "/fsm-calculator/v1/billingSlab/_search",
+         "displayName": "FSM BillingSlab Search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2071,
+         "name": "Vehicle Trip Search",
+         "url": "/vehicle/trip/v1/_search",
+         "displayName": "Vehicle Trip Search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2072,
+         "name": "Vehicle Trip Update",
+         "url": "/vehicle/trip/v1/_update",
+         "displayName": "Vehicle Trip Update",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2073,
+         "name": "FSM Estimate",
+         "url": "/fsm-calculator/v1/_estimate",
+         "displayName": "FSM Estimate",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2074,
+         "name": "digit-ui FSM",
+         "url": "card",
+         "displayName": "Faecal Sludge Management",
+         "orderNumber": 2,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "",
+         "path": "",
+         "navigationURL": "/digit-ui/employee/",
+         "leftIcon": "action:store",
+         "rightIcon": "",
+         "queryParams": ""
+      },
+      {
+         "id": 2075,
+         "name": "digit-ui FSM FSTPO",
+         "url": "card",
+         "displayName": "Faecal Sludge Management",
+         "orderNumber": 2,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "",
+         "path": "",
+         "navigationURL": "/digit-ui/employee/fstp-inbox",
+         "leftIcon": "action:store",
+         "rightIcon": "",
+         "queryParams": ""
+      },
+      {
+         "id": 2076,
+         "displayName": "CreateNewApplication",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM EMPLOYEE CREATE NEW APPLICATION",
+         "enabled": true,
+         "navigationURL": "digit-ui/employee/fsm/new-application",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2077,
+         "displayName": "EmployeeInbox",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM EMPLOYEE INBOX",
+         "enabled": true,
+         "navigationURL": "digit-ui/employee/fsm/Inbox",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2078,
+         "displayName": "EditApplication",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM EMPLOYEE EDIT APPLICATION",
+         "enabled": true,
+         "navigationURL": "/digit-ui/employee/fsm/modify-application/:id",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2079,
+         "displayName": "CollectPayment",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM EMPLOYEE COLLECT PAYMENT",
+         "enabled": true,
+         "navigationURL": "/digit-ui/employee/fsm/collect-payment",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2080,
+         "displayName": "FstpInbox",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM FSTP INBOX",
+         "enabled": true,
+         "navigationURL": "/digit-ui/employee/fsm/fstp-inbox",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2081,
+         "displayName": "FstpDetails",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM FSTP DETAILS",
+         "enabled": true,
+         "navigationURL": "/digit-ui/employee/fsm/fstp-operator-details/:id",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2082,
+         "displayName": "SearchApplication",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM EMPLOYEE SEARCH APPLICATION",
+         "enabled": true,
+         "navigationURL": "/digit-ui/employee/fsm/search",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2083,
+         "displayName": "DsoDashboard",
+         "orderNumber": 0,
+         "leftIcon": "",
+         "url": "url",
+         "name": "FSM DSO DASHBOARD",
+         "enabled": true,
+         "navigationURL": "/digit-ui/citizen/dso-dashboard",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2084,
+         "name": "FSM Application Charge Payment Search",
+         "url": "/collection-services/payments/FSM.TRIP_CHARGES/_search",
+         "displayName": "FSM Application Charge Payment Search",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2085,
+         "name": "MDMS GET",
+         "url": "/egov-mdms-service/v1/_get",
+         "displayName": "MDMS GET",
+         "orderNumber": 0,
+         "parentModule": "306",
+         "enabled": false,
+         "serviceCode": "MDMS GET",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2086,
+         "name": "Encrypt",
+         "url": "/egov-enc-service/crypto/v1/_encrypt",
+         "displayName": "Encrypt",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "Enc",
+         "code": "null",
+         "path": "Enc.Encrypt"
+      }
    ]
 }
