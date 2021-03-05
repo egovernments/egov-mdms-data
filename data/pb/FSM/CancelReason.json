@@ -1,9 +1,9 @@
 {
     "tenantId": "pb",
     "moduleName": "FSM",
-    "RejectionReason": [{
-            "name": "Not able to contact applicant",
-            "code": "CANNOT_CONTACT_APPLICANT",
+    "CancelReason": [{
+            "name": "Duplicate application",
+            "code": "DUPLICATE",
             "active": true
         },
         {
