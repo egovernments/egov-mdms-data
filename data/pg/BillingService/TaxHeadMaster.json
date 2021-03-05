@@ -1004,6 +1004,26 @@
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "FSM.TPRIP_CHARGES",
+      "name": "FSM TRIP CHARGES",
+      "code": "FSM_TRIP_CHARGES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+     {
+      "category": "TAX",
+      "service": "FSM.TPRIP_CHARGES",
+      "name": "FSM roundoff",
+      "code": "FSM_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }

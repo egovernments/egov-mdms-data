@@ -561,6 +561,14 @@
         {
             "idname": "bs.amendment.id",
             "format": "NOTETYPE-CONSUMERCODE-[SEQ_BS_MUTATION_[tenant_id]]"
-          }
+        },
+        {
+            "format": "FSM/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON[TENANT_ID]]",
+            "idname": "fsm.trip_charges.receipt.id"
+        },
+        {
+            "idname": "fsm.aplnumber",
+            "format": "[CITY.CODE]-FSM-[cy:yyyy-MM-dd]-[SEQ_EGOV_FSM]"
+        }
     ]
 }
