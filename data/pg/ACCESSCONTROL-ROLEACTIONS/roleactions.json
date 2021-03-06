@@ -18373,6 +18373,36 @@
       "actionid": 2066,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2066,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2066,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2066,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DASHBOARD_VIEWER",
+      "actionid": 2066,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DRIVER",
+      "actionid": 2066,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
