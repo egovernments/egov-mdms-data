@@ -179,6 +179,27 @@
           "code": "pg.citya"
         }
       ]
+    },
+    {
+      "module": "FSM",
+      "code": "FSM",
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        },
+        {
+          "code": "pg.cityd"
+        },
+        {
+          "code": "pg.citye"
+        }
+      ]
     }
   ]
 }
