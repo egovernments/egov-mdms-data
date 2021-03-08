@@ -17586,6 +17586,39 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2075,
+      "name": "Plan Scrutiny",
+      "url": "/edcr/rest/dcr/scrutinize",
+      "displayName": "Building Plan Scrutiny",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2076,
+      "name": "Search Plan Scrutiny",
+      "url": "/edcr/rest/dcr/scrutinydetails",
+      "displayName": "Search Building Plan Scrutiny",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2077,
+      "name": "Download Files",
+      "url": "/edcr/rest/dcr/downloadfile",
+      "displayName": "Download Files",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
     }
   ]
 }
