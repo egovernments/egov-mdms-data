@@ -6,8 +6,8 @@
             "name": "Residential",
             "code": "RESIDENTIAL",
             "active": true,
-            "minAmount": "100",
-            "maxAmount": "500"
+            "minAmount": "1000",
+            "maxAmount": "1500"
         },
         {
             "name": "Independent House",
@@ -37,7 +37,7 @@
             "name": "Commercial",
             "code": "COMMERCIAL",
             "active": true,
-            "minAmount": "2000",
+            "minAmount": "1000",
             "maxAmount": "5000"
         },
         {
