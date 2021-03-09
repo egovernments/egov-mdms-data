@@ -5,7 +5,7 @@
         {
             "code": "SPILLAGE",
             "active": true,
-            "required": true,
+            "required": false,
             "type": "SINGLE_SELECT",
             "options": [
                 "YES",
@@ -17,7 +17,7 @@
             "code": "SAFETY_GEARS_USED",
             "active": true,
             "type": "MULTI_SELECT",
-            "required": true,
+            "required": false,
             "options": [
                 "EYE_GEAR",
                 "HAND_GLOVES",
