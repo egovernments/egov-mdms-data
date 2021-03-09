@@ -5742,6 +5742,28 @@
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Water adhoc rebate",
+      "code": "WS_TIME_ADHOC_REBATE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false,
+      "IsBillamend": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Water adhoc penalty",
+      "code": "WS_TIME_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false,
+      "IsBillamend": false
     }
   ]
 }
