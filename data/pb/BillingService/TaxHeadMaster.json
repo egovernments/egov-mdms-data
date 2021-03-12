@@ -5764,6 +5764,28 @@
       "order": "6",
       "isRequired": false,
       "IsBillamend": false
-    }
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Sewerage adhoc rebate",
+      "code": "SW_TIME_ADHOC_REBATE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false,
+      "IsBillamend": false
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Sewerage adhoc penalty",
+      "code": "SW_TIME_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false,
+      "IsBillamend": false
+   }
   ]
 }
