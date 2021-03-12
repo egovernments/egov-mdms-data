@@ -17619,6 +17619,30 @@
       "serviceCode": "EDCR",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2078,
+      "name": "FinRevGrants Payment search",
+      "url": "/collection-services/payments/REV_GRANTS/_search",
+      "displayName": "FinRevGrants Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2079,
+      "name": "FinDispFixedAssetLand Payment search",
+      "url": "/collection-services/payments/DISP_FIXED_ASSET.LAND/_search",
+      "displayName": "FinDispFixedAssetLand Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
