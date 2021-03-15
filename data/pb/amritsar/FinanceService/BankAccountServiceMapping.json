@@ -1,0 +1,48 @@
+{
+  "tenantId": "pb.amritsar",
+  "moduleName": "FinanceModule",
+  "BankAccountServiceMapping": [
+    {
+      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.LAND",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "2042417454076",
+      "bank": "ICICI Bank",
+      "bankBranch": "ICIC550"
+    },
+    {
+      "businessDetails": "PT",
+      "bankAccount": "63897421",
+      "bank": "HDFC Bank",
+      "bankBranch": "HDFC147"
+    },
+    {
+      "businessDetails": "FIRENOC",
+      "bankAccount": "63897421",
+      "bank": "HDFC Bank",
+      "bankBranch": "HDFC147"
+    },
+    {
+      "businessDetails": "TL",
+      "bankAccount": "63897421",
+      "bank": "HDFC Bank",
+      "bankBranch": "HDFC147"
+    }
+  ]
+}
