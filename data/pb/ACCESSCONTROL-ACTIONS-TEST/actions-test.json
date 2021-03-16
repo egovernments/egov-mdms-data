@@ -9575,9 +9575,54 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2096,
+      "name": "FinDispFixedAssetBuilding Payment search",
+      "url": "/collection-services/payments/DISP_FIXED_ASSET.BUILDING/_search",
+      "displayName": "FinDispFixedAssetBuilding Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2097,
+      "name": "FinDispFixedAssetMotor Payment search",
+      "url": "/collection-services/payments/DISP_FIXED_ASSET.MOTOR_VEHICLE/_search",
+      "displayName": "FinDispFixedAssetMotor Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2098,
+      "name": "FinDispBuilding Payment Workflow",
+      "url": "/collection-services/payments/DISP_FIXED_ASSET.BUILDING/_workflow",
+      "displayName": "FinDispFixedAssetBuilding Payment workflow",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2099,
+      "name": "FinDispMotor Payment Workflow",
+      "url": "/collection-services/payments/DISP_FIXED_ASSET.MOTOR_VEHICLE/_workflow",
+      "displayName": "FinDispFixedAssetMotor Payment workflow",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
-}
-
-    
-      
+}   
