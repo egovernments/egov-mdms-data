@@ -17643,6 +17643,30 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2080,
+      "name": "FinRevGrants Payment workflow",
+      "url": "/collection-services/payments/REV_GRANTS/_workflow",
+      "displayName": "FinRevGrants Payment workflow",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2081,
+      "name": "FinDispLand Payment Workflow",
+      "url": "/collection-services/payments/DISP_FIXED_ASSET.LAND/_workflow",
+      "displayName": "FinDispFixedAssetLand Payment workflow",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
