@@ -17645,7 +17645,7 @@
       "path": ""
     },
     {
-      "id": 5000,
+      "id": 2080,
       "name": "Universal Collection",
       "url": "url",
       "displayName": "Universal Collection (mcollect)",
@@ -17659,7 +17659,7 @@
       "leftIcon": "image:collections-bookmark"
     },   
     {
-      "id": 5001,
+      "id": 2081,
       "name": "MiscReceiptRegister",
       "url": "url",
       "displayName": "Miscellaneous Receipt Register ULB",
@@ -17672,7 +17672,7 @@
       "path": "Reports.Miscellaneous Receipt Register"
     },
     {
-      "id": 5002,
+      "id": 2082,
       "name": "rainmaker-uc-collection",
       "url": "card",
       "displayName": "Universal Collection",
@@ -17686,7 +17686,7 @@
       "leftIcon": "image:collections-bookmark"
     },
     {
-      "id": 5003,
+      "id": 2083,
       "name": "UCReportMetadata",
       "url": "/report/rainmaker-uc/MiscReceiptRegister/metadata/_get",
       "displayName": "Universal Collection Report metadata",
@@ -17697,7 +17697,7 @@
       "path": "UC Collection Metadata"
     },
     {
-      "id": 5004,
+      "id": 2084,
       "name": "UC Report",
       "url": "/report/rainmaker-uc/MiscReceiptRegister/_get",
       "displayName": "Universal Collection Report",
@@ -17708,7 +17708,7 @@
       "path": "UC Report"
     },
     {
-      "id": 5005,
+      "id": 2085,
       "name": "MiscBusinessServiceCollectionTenant",
       "url": "url",
       "displayName": "Misc Business Service Collections",
@@ -17721,7 +17721,7 @@
       "path": "Reports.Misc Business Service Collections"
     },
     {
-      "id": 5007,
+      "id": 2086,
       "name": "MiscReceiptCB",
       "url": "url",
       "displayName": "Miscellaneous Consumer Receipts",
@@ -17734,7 +17734,7 @@
       "path": "Reports.miscellaneous Receipt Register"
     },
     {
-      "id": 5008,
+      "id": 2087,
       "name": "MiscBusinessServiceCollectionTenantMetadata",
       "url": "/report/rainmaker-uc/MiscBusinessServiceCollectionTenant/metadata/_get",
       "displayName": "MiscBusinessServiceCollectionTenant metadata",
@@ -17745,7 +17745,7 @@
       "path": "MiscBusinessServiceCollectionTenant Metadata"
     },
     {
-      "id": 5009,
+      "id": 2088,
       "name": "MiscBusinessServiceCollectionTenant",
       "url": "/report/rainmaker-uc/MiscBusinessServiceCollectionTenant/_get",
       "displayName": "Misc BusinessService Collection Tenant Report",
@@ -17756,7 +17756,7 @@
       "path": "MiscBusinessServiceCollectionTenant"
     },
     {
-      "id": 5010,
+      "id": 2089,
       "name": "MiscReceiptCBCancelledMetadata",
       "url": "/report/rainmaker-uc/MiscReceiptCBCancelled/metadata/_get",
       "displayName": "MiscReceiptCBCancelled metadata",
@@ -17767,7 +17767,7 @@
       "path": "MiscReceiptCBCancelled Metadata"
     },
     {
-      "id": 5011,
+      "id": 2090,
       "name": "MiscReceiptCBCancelled",
       "url": "/report/rainmaker-uc/MiscReceiptCBCancelled/_get",
       "displayName": "Misc BusinessService Collection Tenant Report",
@@ -17778,7 +17778,7 @@
       "path": "MiscReceiptCBCancelled"
     },
     {
-      "id": 5012,
+      "id": 2091,
       "name": "MiscReceiptCBMetadata",
       "url": "/report/rainmaker-uc/MiscReceiptCB/metadata/_get",
       "displayName": "MiscReceiptCB metadata",
@@ -17789,7 +17789,7 @@
       "path": "MiscReceiptCB Metadata"
     },
     {
-      "id": 5013,
+      "id": 2092,
       "name": "MiscReceiptCB",
       "url": "/report/rainmaker-uc/MiscReceiptCB/_get",
       "displayName": "Misc Receipt Report",
@@ -17800,7 +17800,7 @@
       "path": "MiscReceiptCB"
     },
     {
-      "id": 5031,
+      "id": 2093,
       "name": "eChallan create",
       "url": "/echallan-services/eChallan/v1/_create",
       "parentModule": "",
@@ -17812,7 +17812,7 @@
       "path": ""
     },
     {
-      "id": 5032,
+      "id": 2094,
       "name": "Search mcollect Bill",
       "url": "/egov-searcher/bill-genie/mcollectbills/_get",
       "parentModule": "",
@@ -17824,7 +17824,7 @@
       "path": ""
     },
     {
-      "id": 5042,
+      "id": 2095,
       "name": "eChallan search",
       "url": "/echallan-services/eChallan/v1/_search",
       "parentModule": "",
@@ -17836,7 +17836,7 @@
       "path": ""
     },
     {
-      "id": 5050,
+      "id": 2096,
       "name": "mchallan search",
       "url": "/egov-pdf/download/UC/mcollect-challan",
       "displayName": "mchallan search",
@@ -17847,7 +17847,7 @@
       "path": ""
     },
     {
-      "id": 5051,
+      "id": 2097,
       "name": "mbill search",
       "url": "/egov-pdf/download/UC/mcollect-bill",
       "displayName": "mbill search",
@@ -17858,7 +17858,7 @@
       "path": ""
     },
     {
-      "id": 5043,
+      "id": 2098,
       "name": "eChallan update",
       "url": "/echallan-services/eChallan/v1/_update",
       "parentModule": "",
@@ -17870,7 +17870,7 @@
       "path": ""
     },
     {
-      "id": 5047,
+      "id": 2099,
       "name": "Challan Register",
       "url": "url",
       "displayName": "Challan Register",
@@ -17885,7 +17885,7 @@
       "rightIcon": ""
     },
     {
-      "id": 5048,
+      "id": 2100,
       "name": "ChallanStatusRegistry-Metadata",
       "url": "/report/rainmaker-uc/ChallanStatusRegistry/metadata/_get",
       "displayName": "Rainmaker PGR report",
@@ -17897,7 +17897,7 @@
       "path": "ChallanStatusRegistry"
     },
     {
-      "id": 5049,
+      "id": 2101,
       "name": "ChallanStatusRegistry",
       "url": "/report/rainmaker-uc/ChallanStatusRegistry/_get",
       "displayName": "PGR Report",
@@ -17908,7 +17908,7 @@
       "path": "ChallanStatusRegistry"
     },
     {
-      "id": 5053,
+      "id": 2102,
       "name": "NewChallan",
       "url": "quickAction",
       "displayName": "New Challan",
@@ -17924,7 +17924,7 @@
       "queryParams": ""
     },
     {
-      "id": 5054,
+      "id": 2103,
       "name": "SearchChallan",
       "url": "quickAction",
       "displayName": "Search Challan",
@@ -17938,7 +17938,7 @@
       "leftIcon": "places:business-center"
     },
     {
-      "id": 5055,
+      "id": 2104,
       "name": "mchallan search",
       "url": "/egov-pdf/download/UC/mcollect-receipt",
       "displayName": "mchallan search",
@@ -17949,7 +17949,7 @@
       "path": ""
     },
     {
-      "id": 5062,
+      "id": 2105,
       "name": "Receipts",
       "url": "url",
       "displayName": "Receipts",
