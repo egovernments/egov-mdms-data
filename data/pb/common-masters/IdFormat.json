@@ -575,7 +575,7 @@
       "format": "[CITY.CODE]-FSM-[cy:yyyy-MM-dd]-[SEQ_EGOV_FSM]"
     },
     {
-      "idname": "egov-idgen-challanNum-format",
+      "idname": "echallan.aplnumber",
       "format": "PB-CH-[cy:yyyy-MM-dd]-[SEQ_EG_CH_APL]"
     }
   ]
