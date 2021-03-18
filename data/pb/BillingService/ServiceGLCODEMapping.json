@@ -1,0 +1,11 @@
+{
+	"tenantId": "pb",
+	"moduleName": "BillingService",
+	"ServiceGLCODEMapping": [
+		{
+			"code": "ASSREV.COMP_CONCESSION",
+			"glcode": null,
+			"cb": "pb.amristar"
+		}
+	]
+}
