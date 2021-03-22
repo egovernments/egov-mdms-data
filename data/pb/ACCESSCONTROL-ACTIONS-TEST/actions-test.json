@@ -18043,6 +18043,18 @@
       "navigationURL": "uc/newCollection",
       "path": "UC",
       "leftIcon": "image:collections-bookmark"
+    },
+    {
+      "id": 2113,
+      "name": "Hoarding Payment search",
+      "url": "/collection-services/payments/ADVT.Hoardings/_search",
+      "displayName": "Hoarding Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
