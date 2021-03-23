@@ -196,6 +196,37 @@
       },
       "address": "State Municipal Corporation",
       "contactNumber": "0978-7645345"
+    },
+    {
+      "code": "pg.balasore",
+      "name": "Balasore Municipality",
+      "description": "",
+      "logoId": "https://uat.digit.org/pg-egov-assets/Balasore%20logo.jpg",
+      "imageId": null,
+      "domainUrl": "http://balasoremunicipality.in/",
+      "type": "",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "balasoremunicipality@rediffmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 5.00 PM"
+      },
+      "city": {
+        "name": "Balasore",
+        "localName": "",
+        "districtCode": "8",
+        "districtName": "Balasore",
+        "regionName": "null",
+        "ulbGrade": "B+",
+        "longitude": null ,
+        "latitude": null,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "0",
+        "ddrName": null
+      },
+      "address": "Puruna Balasore Road, Khaira, Balasore, Odisha 756003",
+      "contactNumber": ""
     }
   ]
 }
