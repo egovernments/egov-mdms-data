@@ -2,61 +2,51 @@
     "tenantId": "pb",
     "moduleName": "DIGIT-UI",
     "RoleStatusMapping": [{
-            "userRole": "FSM_EDITOR_EMP",
-            "statuses": [
-                "FSM_DSO_REJECTED",
-                "FSM_ASSING_DSO",
-                "CREATED"
-            ],
-            "precedence": 1
-        },
-        {
-            "userRole": "FSM_CREATOR_EMP",
-            "statuses": [
-                "FSM_DSO_REJECTED",
-                "FSM_ASSING_DSO",
-                "CREATED"
-            ],
-            "precedence": 1
-        },
-        {
-            "userRole": "FSM_ADMIN",
-            "statuses": [
-                "CREATED",
-                "PENDING_APPL_FEE_PAYMENT",
-                "DSO_INPROGRESS",
-                "COMPLETED"
-            ],
-            "precedence": 2,
-            "zeroCheck": "disabled"
-        },
-        {
-            "userRole": "FSM_REPORT_VIEWER",
-            "statuses": [
-                "CREATED",
-                "PENDING_APPL_FEE_PAYMENT",
-                "DSO_INPROGRESS",
-                "COMPLETED"
-            ],
-            "precedence": 2,
-            "zeroCheck": "disabled"
-        },
-        {
-            "userRole": "FSM_DASHBOARD_VIEWER",
-            "statuses": [
-                "CREATED",
-                "PENDING_APPL_FEE_PAYMENT",
-                "DSO_INPROGRESS",
-                "COMPLETED"
-            ],
-            "precedence": 2,
-            "order": "fixed"
-        },
-        {
-            "userRole": "FSM_COLLECTOR",
-            "statuses": ["PENDING_APPL_FEE_PAYMENT"],
-            "precedence": 3
-        }
-
+        "userRole": "FSM_EDITOR_EMP",
+        "statuses": [
+            "FSM_DSO_REJECTED",
+            "FSM_ASSING_DSO",
+            "CREATED"
+        ]
+    },
+    {
+        "userRole": "FSM_ADMIN",
+        "statuses": [
+            "CREATED",
+            "PENDING_APPL_FEE_PAYMENT",
+            "DSO_INPROGRESS",
+            "COMPLETED"
+        ],
+        "zeroCheck": "disabled"
+    },
+    {
+        "userRole": "FSM_REPORT_VIEWER",
+        "statuses": [
+            "CREATED",
+            "PENDING_APPL_FEE_PAYMENT",
+            "DSO_INPROGRESS",
+            "COMPLETED"
+        ],
+        "zeroCheck": "disabled"
+    },
+    {
+        "userRole": "FSM_DASHBOARD_VIEWER",
+        "statuses": [
+            "CREATED",
+            "PENDING_APPL_FEE_PAYMENT",
+            "DSO_INPROGRESS",
+            "COMPLETED"
+        ],
+        "order": "fixed"
+    },
+    {
+        "userRole": "FSM_COLLECTOR",
+        "statuses": ["PENDING_APPL_FEE_PAYMENT"],
+    },
+    {
+        "userRole": "FSM_CREATOR_EMP",
+        "statuses": []
+    }
+    
     ]
 }
