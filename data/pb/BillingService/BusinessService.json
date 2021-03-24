@@ -95,7 +95,8 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Unipolls",
