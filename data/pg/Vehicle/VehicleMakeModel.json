@@ -12,8 +12,8 @@
             "name": "Bolero Pickup",
             "active": true,
             "make": "MAHINDRA",
-            "capacity": "5000",
-            "amount": "500"
+            "capacity": "1000",
+            "amount": "750"
         },
         {
             "code": "TATA",
@@ -25,41 +25,28 @@
             "name": "TATA LPT709/34",
             "active": true,
             "make": "TATA",
-            "capacity": "2000",
-            "amount": "200"
+            "capacity": "3000",
+            "amount": "1000"
         },
         {
             "code": "TATA.407",
             "name": "TATA 407",
             "active": true,
             "make": "TATA",
-            "capacity": "1000",
-            "amount": "100"
-        },
-        {
-            "code": "TAFE",
-            "name": "TAFE",
-            "active": true
-        },
-        {
-            "code": "TAFE.TRACTOR_45DI",
-            "name": "TAFE Tractor 45DI",
-            "active": true,
-            "make": "TAFE",
-            "capacity": "10000",
+            "capacity": "3000",
             "amount": "1000"
         },
         {
-            "code": "SONALIKA",
-            "name": "Sonalika",
+            "code": "TRACTOR",
+            "name": "Tractor",
             "active": true
         },
         {
-            "code": "SONALIKA.TRACTOR_35DI",
-            "name": "Sonalika Tractor 35DI",
+            "code": "TRACTOR.SWARAJ_735",
+            "name": "Tracktor Swaraj 735",
             "active": true,
             "make": "SONALIKA",
-            "capacity": "8000",
+            "capacity": "3000",
             "amount": "1000"
         }
     ]
