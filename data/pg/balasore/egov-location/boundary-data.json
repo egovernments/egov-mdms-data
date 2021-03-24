@@ -17,6 +17,26 @@
         "label": "City",
         "code": "pg.balasore",
         "children": [
+          {
+            "id": "1c5dbabd-e04a-44e1-ac27-1fea1balbalf",
+            "boundaryNum": 1,
+            "name": "ZONE_BALASORE",
+            "localname": "ZONE_BALASORE",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "ZONE_BALASORE",
+            "children": [
+              {
+                "id": "1c7d8d00-7678-4fd4-8dd2-2802bal7249b",
+                "boundaryNum": 1,
+                "name": "WARD_BALASORE",
+                "localname": "WARD_BALASORE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD_BALASORE",
+            "children": [
             {
                 "name": "Puruna Balasore (P) Mahammad pur(P)",
                 "label": "Locality",
@@ -298,6 +318,8 @@
                 "localname": "Jadpur(P) Arad Bazar Area, Golapolo Area"
             }
         ]
+              }]
+          }]
               }
       }  
     
