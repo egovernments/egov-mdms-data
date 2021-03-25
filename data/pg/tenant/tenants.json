@@ -222,11 +222,75 @@
         "latitude": null,
         "shapeFileLocation": null,
         "captcha": null,
-        "code": "0",
+        "code": "801833",
         "ddrName": null
       },
       "address": "Puruna Balasore Road, Khaira, Balasore, Odisha 756003",
       "contactNumber": ""
+    },
+    {
+      "code": "pg.berhampur",
+      "name": "Berhampur Municipal Corporation",
+      "description": "Berhampur Municipal Corporation",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "mcbemc08@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "city": {
+        "name": "Berhampur",
+        "localName": null,
+        "districtCode": "7",
+        "districtName": "Ganjam",
+        "regionName": null,
+        "ulbGrade": "B801881",
+        "longitude": 0,
+        "latitude": 0,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "801881"
+      },
+      "address": "Ramalingam Tank Road, Gandhi Nagar, Brahmapur, Odisha - 760002",
+      "contactNumber": "0680-2250280",
+      "helpLineNumber": "0680-2250280"
+    },
+    {
+      "code": "pg.dhenkanal",
+      "name": "Dhenkanal Municipality",
+      "description": "Dhenkanal Municipality",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "dhenknalm.hud@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "city": {
+        "name": "Dhenkanal",
+        "localName": null,
+        "districtCode": "6",
+        "districtName": "Dhenkanal",
+        "regionName": null,
+        "ulbGrade": "B",
+        "longitude": 0,
+        "latitude": 0,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "D01849"
+      },
+      "address": "Dhenkanal Municipality",
+      "contactNumber": "9438256399",
+      "helpLineNumber": "9438256399"
     }
-  ]
+   ]
 }
