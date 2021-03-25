@@ -1,252 +1,252 @@
 {
     "tenantId": "pg.balasore",
     "moduleName": "FSM",
-    "Slum": [
+    "Slum":  [
         {
-            "code": "SL0013",
-            "active": true,
             "name": "Mahammadpur",
+            "active": "TRUE",
+            "code": "SL001",
             "locality": "VIL1"
         },
         {
-            "code": "SL0014",
-            "active": true,
             "name": "Kanhu Behera Sahi",
+            "active": "TRUE",
+            "code": "SL002",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Munipada",
+            "active": "TRUE",
+            "code": "SL003",
             "locality": "VIL2"
         },
         {
-            "code": "SL0015",
-            "active": true,
-            "name": "Munipada",
+            "name": "Malik Sahi-1",
+            "active": "TRUE",
+            "code": "SL004",
+            "locality": "VIL2"
+        },
+        {
+            "name": "Malik Sahi-2",
+            "active": "TRUE",
+            "code": "SL005",
+            "locality": "VIL2"
+        },
+        {
+            "name": "Uchhapada",
+            "active": "TRUE",
+            "code": "SL006",
             "locality": "VIL3"
         },
         {
-            "code": "SL0016",
-            "active": true,
-            "name": "Malik Sahi-1",
-            "locality": "JLC479"
-        },
-        {
-            "code": "SL0017",
-            "active": true,
-            "name": "Malik Sahi-2",
-            "locality": "VIL4"
-        },
-        {
-            "code": "SL0018",
-            "active": true,
-            "name": "Uchhapada",
+            "name": "Mansing Bazar",
+            "active": "TRUE",
+            "code": "SL007",
             "locality": "VIL5"
         },
         {
-            "code": "SL0019",
-            "active": true,
-            "name": "Mansing Bazar",
-            "locality": ""
-        },
-        {
-            "code": "SL0008",
-            "active": true,
             "name": "Khaparapada",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL008",
+            "locality": "VIL8"
         },
         {
-            "code": "SL0020",
-            "active": true,
             "name": "Angaragadia Cold Store",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL009",
+            "locality": "VIL9"
         },
         {
-            "code": "SL0021",
-            "active": true,
             "name": "Angaragadia Rameswar Nagar",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL010",
+            "locality": "VIL10"
         },
         {
-            "code": "SL0022",
-            "active": true,
             "name": "Angargadia DIC Office",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL011",
+            "locality": "VIL10"
         },
         {
-            "code": "SL0023",
-            "active": true,
             "name": "Angargadia Rameswar Nagar",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL012",
+            "locality": "VIL10"
         },
         {
-            "code": "SL0024",
-            "active": true,
             "name": "Bateswar Sweeper Colony",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL013",
+            "locality": "VIL14"
         },
         {
-            "code": "SL0025",
-            "active": true,
             "name": "Nua Bazar Adi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL014",
+            "locality": "VIL16"
         },
         {
-            "code": "SL0026",
-            "active": true,
             "name": "Arad bazar-3",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL015",
+            "locality": "VIL18"
         },
         {
-            "code": "SL0027",
-            "active": true,
             "name": "Nua Bazar",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL016",
+            "locality": "VIL18"
         },
         {
-            "code": "SL0028",
-            "active": true,
             "name": "Aradbazar 2",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL017",
+            "locality": "VIL18"
         },
         {
-            "code": "SL0029",
-            "active": true,
             "name": "Arad Bazar-1",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL018",
+            "locality": "VIL18"
         },
         {
-            "code": "SL0030",
-            "active": true,
             "name": "Bhaskarganj",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL019",
+            "locality": "VIL19"
         },
         {
-            "code": "SL0031",
-            "active": true,
             "name": "Tail basa",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL020",
+            "locality": "VIL20"
         },
         {
-            "code": "SL0032",
-            "active": true,
             "name": "Chudakutasahi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL021",
+            "locality": "VIL20"
         },
         {
-            "code": "SL0033",
-            "active": true,
             "name": "Telenga Sahi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL022",
+            "locality": "VIL20"
         },
         {
-            "code": "SL0034",
-            "active": true,
             "name": "Gudipada",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL023",
+            "locality": "VIL21"
         },
         {
-            "code": "SL0035",
-            "active": true,
             "name": "Sweeper Colony Bhaskarganj",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL024",
+            "locality": "VIL21"
         },
         {
-            "code": "SL0036",
-            "active": true,
             "name": "Godhibasa",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL025",
+            "locality": "VIL22"
         },
         {
-            "code": "SL0037",
-            "active": true,
             "name": "Ananda Bazar",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL026",
+            "locality": "VIL22"
         },
         {
-            "code": "SL0038",
-            "active": true,
             "name": "Railway Colony",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL027",
+            "locality": "VIL22"
         },
         {
-            "code": "SL0039",
-            "active": true,
             "name": "Bhalia dang",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL028",
+            "locality": "VIL23"
         },
         {
-            "code": "SL0040",
-            "active": true,
             "name": "Chhachina Sahi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL029",
+            "locality": "VIL23"
         },
         {
-            "code": "SL0041",
-            "active": true,
             "name": "Gosalapada",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL030",
+            "locality": "VIL23"
         },
         {
-            "code": "SL0042",
-            "active": true,
             "name": "Balighat",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL031",
+            "locality": "VIL24"
         },
         {
-            "code": "SL0043",
-            "active": true,
             "name": "Sweeper Colony Olondaz Sahi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL032",
+            "locality": "VIL24"
         },
         {
-            "code": "SL0044",
-            "active": true,
             "name": "Adibasi Sahi Town Hall",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL033",
+            "locality": "VIL26"
         },
         {
-            "code": "SL0045",
-            "active": true,
             "name": "Congress gali baula pokhari",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL034",
+            "locality": "VIL26"
         },
         {
-            "code": "SL0046",
-            "active": true,
             "name": "Gopalgaon Tala Sahi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL035",
+            "locality": "VIL27"
         },
         {
-            "code": "SL0047",
-            "active": true,
             "name": "Mirzapokhari Sweeper Colony",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL036",
+            "locality": "VIL28"
         },
         {
-            "code": "SL0048",
-            "active": true,
             "name": "Darzi Pokhari",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL037",
+            "locality": "VIL28"
         },
         {
-            "code": "SL0049",
-            "active": true,
             "name": "Mahila College Back side Adibasi Sahi",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL038",
+            "locality": "VIL29"
         },
         {
-            "code": "SL0050",
-            "active": true,
             "name": "Jadav Pur",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL039",
+            "locality": "VIL30"
         },
         {
-            "code": "SL0051",
-            "active": true,
             "name": "Lepracy Colony",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL040",
+            "locality": "VIL31"
         },
         {
-            "code": "SL0052",
-            "active": true,
             "name": "Golapolo",
-            "locality": ""
+            "active": "TRUE",
+            "code": "SL041",
+            "locality": "VIL31"
         }
     ]
 }
