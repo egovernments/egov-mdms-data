@@ -4,8 +4,8 @@
     "RoleStatusMapping": [{
         "userRole": "FSM_EDITOR_EMP",
         "statuses": [
-            "FSM_DSO_REJECTED",
-            "FSM_ASSING_DSO",
+            "DSO_REJECTED",
+            "ASSING_DSO",
             "CREATED"
         ],
         "zeroCheck" : true,
