@@ -9952,6 +9952,18 @@
       "navigationURL": "uc/newCollection",
       "path": "UC",
       "leftIcon": "image:collections-bookmark"
+    },
+    {
+      "id": 2127,
+      "name": "BPA Calculator",
+      "url": "/bpa-calculator/v1/_calculate",
+      "parentModule": "",
+      "displayName": "BPA Calculator",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
