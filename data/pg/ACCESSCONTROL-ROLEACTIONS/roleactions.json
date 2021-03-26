@@ -18565,6 +18565,18 @@
       "actionid": 2005,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 2087,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BPA_ARCHITECT",
+      "actionid": 2087,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
