@@ -9459,6 +9459,18 @@
          "serviceCode": "Enc",
          "code": "null",
          "path": "Enc.Encrypt"
-      }
+      },
+    {
+      "id": 2087,
+      "name": "BPA Calculator",
+      "url": "/bpa-calculator/v1/_calculate",
+      "parentModule": "",
+      "displayName": "BPA Calculator",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
