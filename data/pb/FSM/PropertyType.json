@@ -5,7 +5,9 @@
     {
       "name": "Residential",
       "code": "RESIDENTIAL",
-      "active": true
+      "active": true,
+      "minAmount":"100",
+      "maxAmount":"500"
     },
      {
       "name": "Independent House",
@@ -34,7 +36,9 @@
     {
       "name": "Commercial",
       "code": "COMMERCIAL",
-      "active": true
+      "active": true,
+      "minAmount":"2000",
+      "maxAmount":"5000"
     },
     {
       "name": "Community Toilets",
@@ -151,7 +155,9 @@
      {
       "name": "Institutional",
       "code": "INSTITUTIONAL",
-      "active": true
+      "active": true,
+      "minAmount":"1000",
+      "maxAmount":"3000"
     },
      {
       "name": "Temple",

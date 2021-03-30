@@ -4,18 +4,18 @@
   "StateInfo": [
     {
       "name": "Panjab",
-      "code":"pb",
-      "qrCodeURL":"https://raw.githubusercontent.com/egovernments/frontend/master/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/qrImage.png",
+      "code": "pb",
+      "qrCodeURL": "https://raw.githubusercontent.com/egovernments/frontend/master/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/qrImage.png",
       "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
-      "logoUrl":"https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/pb/mseva-punjab.png",
-      "logoUrlWhite" : "https://egov-micro-dev.egovernments.org/egov-dev-assets/logo-mseva-white.png",
-      "hasLocalisation" : true,
-      "enableWhatsApp" : true,
-      "defaultUrl" : {
-          "citizen" : "/user/register",
-          "employee" : "/user/login"
+      "logoUrl": "https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/pb/mseva-punjab.png",
+      "logoUrlWhite": "https://dev.digit.org/egov-dev-assets/logo-mseva-white.png",
+      "hasLocalisation": true,
+      "enableWhatsApp": true,
+      "defaultUrl": {
+        "citizen": "/user/register",
+        "employee": "/user/login"
       },
-      "languages" : [
+      "languages": [
         {
           "label": "ENGLISH",
           "value": "en_IN"

@@ -4,27 +4,27 @@
   "BankAccountServiceMapping": [
     {
       "businessDetails": "DISP_FIXED_ASSET.BUILDING",
-      "bankAccount": "8123209293",
-      "bank": "Bank of India",
-      "bankBranch": "ADI TEST"
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
     },
     {
-      "businessDetails": "LAND",
-      "bankAccount": "23453245678",
-      "bank": "Axis Bank",
-      "bankBranch": "0001"
-    },
-    {
-      "businessDetails": "REV_GRANTS",
-      "bankAccount": "23453245678",
-      "bank": "Axis Bank",
-      "bankBranch": "0001"
+      "businessDetails": "DISP_FIXED_ASSET.LAND",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
     },
     {
       "businessDetails": "REV_GRANTS",
-      "bankAccount": "7864567",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "2042417454076",
       "bank": "ICICI Bank",
-      "bankBranch": "1001"
+      "bankBranch": "ICIC550"
     }
   ]
 }
