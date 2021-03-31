@@ -9,6 +9,7 @@
     {
       "serviceName": "egov-mdms-service",
       "cacheTimeInSecs": 3600,
+      "debounceTimeInMS": 100,
       "moduleSettings": [
         {
           "moduleName": "FSM",
