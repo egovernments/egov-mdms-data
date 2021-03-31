@@ -158,6 +158,25 @@
       ]
     }
   },
+  "DIGIT-UI": {
+    "ApiCachingSettings": {
+      "masterName": "ApiCachingSettings",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RoleActionMetadata": {
+      "masterName": "RoleActionMetadata",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "RoleStatusMapping": {
+      "masterName": "RoleStatusMapping",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": []
+    }
+  },
   "egf-master": {
     "Fund": {
       "masterName": "Fund",
@@ -1212,8 +1231,8 @@
       ]
     }
   },
-  "Vehicle":{
-     "SuctionType": {
+  "Vehicle": {
+    "SuctionType": {
       "masterName": "SuctionType",
       "isStateLevel": true,
       "uniqueKeys": [
