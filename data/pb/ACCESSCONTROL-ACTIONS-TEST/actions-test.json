@@ -18070,6 +18070,17 @@
       "navigationURL": "integration/dss/fsm",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2115,
+      "name": "OC Comparision",
+      "url": "/edcr/rest/dcr/occomparison",
+      "displayName": "Compare OC and Permit Plans",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
     }
   ]
 }
