@@ -86,6 +86,14 @@
               "ulb-ws":{
                  "routePath":"/dashboard/ulb-ws",
                  "isOrigin":true
+              },
+              "fsm":{
+                 "routePath":"/dashboard/fsm",
+                 "isOrigin":true
+              },
+              "ulb-fsm":{
+                 "routePath":"/dashboard/ulb-fsm",
+                 "isOrigin":true
               }
            }
         },
