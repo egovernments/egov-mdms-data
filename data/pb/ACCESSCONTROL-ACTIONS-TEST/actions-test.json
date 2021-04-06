@@ -9979,6 +9979,18 @@
       "navigationURL": "integration/dss/fsm",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2129,
+      "name": "DSS Dashboard Config Trade License",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/tradelicense",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
