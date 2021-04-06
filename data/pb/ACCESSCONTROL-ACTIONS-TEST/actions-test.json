@@ -9964,6 +9964,21 @@
       "serviceCode": "tl-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2128,
+      "name": "Dashboard FSM",
+      "url": "url",
+      "displayName": "FSM",
+      "orderNumber": 14,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.FSM",
+      "navigationURL": "integration/dss/fsm",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }   
