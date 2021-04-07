@@ -9991,6 +9991,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2130,
+      "name": "BPA Calculator",
+      "url": "/bpa-calculator/_calculate",
+      "parentModule": "",
+      "displayName": "BPA Calculator",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bpa-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
