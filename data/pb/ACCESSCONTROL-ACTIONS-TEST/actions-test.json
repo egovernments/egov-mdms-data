@@ -10005,6 +10005,39 @@
       "path": ""
     },
     {
+      "id": 2131,
+      "name": "Plan Scrutiny",
+      "url": "/edcr/rest/dcr/scrutinize",
+      "displayName": "Building Plan Scrutiny",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2132,
+      "name": "Search Plan Scrutiny",
+      "url": "/edcr/rest/dcr/scrutinydetails",
+      "displayName": "Search Building Plan Scrutiny",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2133,
+      "name": "Download Files",
+      "url": "/edcr/rest/dcr/downloadfile",
+      "displayName": "Download Files",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 2134,
       "name": "OC Comparision",
       "url": "/edcr/rest/dcr/occomparison",
@@ -10012,6 +10045,18 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2135,
+      "name": "BPA Search",
+      "url": "/collection-services/payments/BPAREG/_search",
+      "parentModule": "",
+      "displayName": "BPA Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "collection-services",
       "code": "null",
       "path": ""
     }
