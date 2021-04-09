@@ -10038,6 +10038,17 @@
       "path": ""
     },
     {
+      "id": 2134,
+      "name": "OC Comparision",
+      "url": "/edcr/rest/dcr/occomparison",
+      "displayName": "Compare OC and Permit Plans",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 2135,
       "name": "BPA Search",
       "url": "/collection-services/payments/BPAREG/_search",
