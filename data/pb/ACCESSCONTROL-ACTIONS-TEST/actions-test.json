@@ -10003,6 +10003,18 @@
       "serviceCode": "bpa-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2135,
+      "name": "BPA Search",
+      "url": "/collection-services/payments/BPAREG/_search",
+      "parentModule": "",
+      "displayName": "BPA Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "collection-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
