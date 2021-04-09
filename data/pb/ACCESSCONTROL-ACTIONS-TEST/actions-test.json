@@ -18092,6 +18092,18 @@
       "serviceCode": "turn-io-adapter",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2117,
+      "name": "WorkflowProcessStatusCount",
+      "url": "/egov-workflow-v2/egov-wf/process/_statuscount",
+      "displayName": "Workflow Status Count",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
