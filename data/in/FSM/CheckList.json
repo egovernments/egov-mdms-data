@@ -1,0 +1,28 @@
+{
+    "tenantId": "in",
+    "moduleName": "FSM",
+    "CheckList": [
+        {
+            "code": "SPILLAGE",
+            "active": true,
+            "required": false,
+            "type": "SINGLE_SELECT",
+            "options": [
+                "YES",
+                "NO",
+                "NA"
+            ]
+        },
+        {
+            "code": "SAFETY_GEARS_USED",
+            "active": true,
+            "type": "MULTI_SELECT",
+            "required": false,
+            "options": [
+                "EYE_GEAR",
+                "HAND_GLOVES",
+                "NOSE_MASK"
+            ]
+        }
+    ]
+}

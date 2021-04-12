@@ -1,0 +1,17 @@
+{
+  "tenantId": "in",
+  "moduleName": "FSM",
+  "PostFieldsConfig": [
+    {
+      "head": "",
+      "body": [
+        {
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTripData"
+        }
+      ]
+    }
+  ]
+}

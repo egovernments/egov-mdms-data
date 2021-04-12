@@ -1,0 +1,186 @@
+{
+  "tenantId": "in",
+  "moduleName": "TradeLicense",
+  "documentObj": [
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OWNERIDPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERSHIPPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERPHOTO",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OLDLICENCENO",
+          "applicationType": [
+            "RENEWAL"
+          ],
+          "required": true
+        }
+      ],
+      "tradeType": "GOODS"
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OWNERIDPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERSHIPPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERPHOTO",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OLDLICENCENO",
+          "applicationType": [
+            "RENEWAL"
+          ],
+          "required": true
+        }
+      ],
+      "tradeType": "ARCHITECT"
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OWNERIDPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERSHIPPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERPHOTO",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OLDLICENCENO",
+          "applicationType": [
+            "RENEWAL"
+          ],
+          "required": true
+        }
+      ],
+      "tradeType": "BUILDER"
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OWNERIDPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERSHIPPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERPHOTO",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OLDLICENCENO",
+          "applicationType": [
+            "RENEWAL"
+          ],
+          "required": true
+        }
+      ],
+      "tradeType": "ENGINEER"
+    },
+    {
+      "allowedDocs": [
+        {
+          "documentType": "OWNERIDPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERSHIPPROOF",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OWNERPHOTO",
+          "applicationType": [
+            "NEW",
+            "RENEWAL"
+          ],
+          "required": true
+        },
+        {
+          "documentType": "OLDLICENCENO",
+          "applicationType": [
+            "RENEWAL"
+          ],
+          "required": true
+        }
+      ],
+      "tradeType": "STRUCTURALENGINEER"
+    }
+  ]
+}

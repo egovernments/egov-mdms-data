@@ -1,0 +1,16 @@
+{
+    "tenantId": "in",
+    "moduleName": "FSM",
+    "CancelReason": [
+        {
+            "name": "Duplicate application",
+            "code": "DUPLICATE",
+            "active": true
+        },
+        {
+            "name": "Others",
+            "code": "OTHERS",
+            "active": true
+        }
+    ]
+}
