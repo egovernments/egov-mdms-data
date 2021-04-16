@@ -4,20 +4,24 @@
   "PTApplication": [{
       "creationReason": "MUTATION",
       "businessService": "PT.MUTATION",
-      "action": "OPEN"
+      "action": "OPEN",
+      "editAction": "REOPEN"
     },
     {
       "creationReason": "CREATE",
       "businessService": "PT.CREATE",
-      "action": "OPEN"
+      "action": "OPEN",
+      "editAction": "REOPEN"
     }, {
       "creationReason": "UPDATE",
       "businessService": "PT.UPDATE",
-      "action": "OPEN"
+      "action": "OPEN",
+      "editAction": "REOPEN"
     }, {
       "creationReason": "LEGACY_ENTRY",
       "businessService": "PT.LEGACY",
-      "action": "OPEN"
+      "action": "OPEN",
+      "editAction": "REOPEN"
     }
   ]
 }
