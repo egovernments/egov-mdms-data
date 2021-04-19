@@ -47,6 +47,22 @@
         }
       ]
     },
+    {
+      "module": "QuickPayLinks",
+      "code": "QuickPayLinks",
+      "active": true,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
+    },
    {
       "module": "Finance",
       "code": "Finance",
