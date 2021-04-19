@@ -9471,6 +9471,50 @@
       "serviceCode": "tl-services",
       "code": "null",
       "path": ""
+    },
+      {
+      "id": 2088,
+      "name": "Plan Scrutiny",
+      "url": "/edcr/rest/dcr/scrutinize",
+      "displayName": "Building Plan Scrutiny",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2089,
+      "name": "Search Plan Scrutiny",
+      "url": "/edcr/rest/dcr/scrutinydetails",
+      "displayName": "Search Building Plan Scrutiny",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2090,
+      "name": "Download Files",
+      "url": "/edcr/rest/dcr/downloadfile",
+      "displayName": "Download Files",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
+    },
+      {
+      "id": 2091,
+      "name": "OC Comparision",
+      "url": "/edcr/rest/dcr/occomparison",
+      "displayName": "Compare OC and Permit Plans",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
     }
    ]
 }
