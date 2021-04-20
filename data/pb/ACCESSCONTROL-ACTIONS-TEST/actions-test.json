@@ -10070,6 +10070,17 @@
       "serviceCode": "turn-io-adapter",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2137,
+      "name": "WS One time search",
+      "url": "egov-pdf/download/PAYMENT/ws-onetime-receipt",
+      "displayName": "WS One time search",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
