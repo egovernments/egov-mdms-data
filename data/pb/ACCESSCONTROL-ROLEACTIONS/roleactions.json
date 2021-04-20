@@ -19219,6 +19219,42 @@
       "actionid":2136,
       "actioncode":"",
       "tenantId":"pb"
-   }
+   },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CLERK",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+       "rolecode":"CITIZEN",
+       "actionid":2137,
+       "actioncode":"",
+       "tenantId":"pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_CLERK",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
   ]
 }
