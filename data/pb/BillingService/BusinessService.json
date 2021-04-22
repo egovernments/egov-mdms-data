@@ -82,8 +82,10 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Hoardings",
@@ -106,9 +108,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Municipal Shops Rent",
@@ -118,9 +122,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Land Rent",
@@ -130,9 +136,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Tower Rent",
@@ -274,9 +282,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Fee Town Planning.Draftsmen fees",
@@ -934,9 +944,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Wall Paint Advertisement",
@@ -946,9 +958,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Gas Balloon Advertisement",
@@ -958,8 +972,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
-      "isActive": true
+      "isActive": true,
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Revenue Grants",
