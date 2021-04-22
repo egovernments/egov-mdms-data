@@ -569,6 +569,10 @@
         {
             "idname": "fsm.aplnumber",
             "format": "[CITY.CODE]-FSM-[cy:yyyy-MM-dd]-[SEQ_EGOV_FSM]"
-        }
+        },
+        {
+            "idname": "echallan.aplnumber",
+            "format": "PG-CH-[cy:yyyy-MM-dd]-[SEQ_EG_CH_APL]"
+          }
     ]
 }
