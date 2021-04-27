@@ -122,11 +122,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Rents.Land Rent",
@@ -136,11 +134,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Rents.Tower Rent",
@@ -596,9 +592,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Taxes.Transfer Property Fees",
@@ -608,9 +606,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "ADMIN Fees.RTI",
