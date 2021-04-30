@@ -10141,6 +10141,17 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2143,
+      "name": "Locality searcher endpoint for PT module",
+      "url": "/egov-searcher/locality/property-services/_get",
+      "displayName": "PT locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
