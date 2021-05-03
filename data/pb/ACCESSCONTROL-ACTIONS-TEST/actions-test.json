@@ -10152,6 +10152,18 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2144,
+      "name": "TL receipt download",
+      "url": "egov-pdf/download/PAYMENT/tradelicense-receipt",
+      "displayName": "TL receipt download",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
