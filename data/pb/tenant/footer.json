@@ -491,53 +491,53 @@
       ]
     },
     {
-          "code": "pb",
-          "service": "BPAREG",
-          "receiptFooterContent": [
-             {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
-              "order": "1."
-             },
-             {
-               "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_SECOND_LINE",
-               "order": "2."
-             },
-             {
-               "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_THIRD_LINE",
-               "order": "3."
-             },
-             {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_4",
-              "order": "4."
-            }
-           ],
-           "billFooterContent":[
-            {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_PAYMENT_RECEIVED",
-              "order": "1."
-             },
-             {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_THIS_DOCUMENT",
-              "order": "2."
-            },
-            {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_THIS_IS",
-              "order": "3."
-            },
-            {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_ASSESSSMENT_PAYMENT",
-              "order": "4."
-            },
-            {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_PLEASE_DEPOSIT",
-              "order": "5."
-            },
-            {
-              "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_IF_THE_TAX",
-              "order": "6."
-            }
-          ]            
+      "code": "pb",
+      "service": "BPAREG",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
         },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_SECOND_LINE",
+          "order": "2."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_THIRD_LINE",
+          "order": "3."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_4",
+          "order": "4."
+        }
+      ],
+      "billFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_PAYMENT_RECEIVED",
+          "order": "1."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_THIS_DOCUMENT",
+          "order": "2."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_THIS_IS",
+          "order": "3."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_ASSESSSMENT_PAYMENT",
+          "order": "4."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_PLEASE_DEPOSIT",
+          "order": "5."
+        },
+        {
+          "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_BILL_IF_THE_TAX",
+          "order": "6."
+        }
+      ]
+    },
     {
       "code": "pb.jalandhar",
       "service": "BPA.NC_APP_FEE",
@@ -1017,16 +1017,36 @@
           "order": "6."
         }
       ]
-      },
+    },
+    {
+      "code": "pb.amritsar",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
         {
-          "code": "pb.amritsar",
-          "service": "FSM.TRIP_CHARGES",
-          "receiptFooterContent": [
-            {
-              "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
-              "order": "1."
-            }
-           ]
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
+    },
+    {
+      "code": "pb.jalandhar",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
+    },
+    {
+      "code": "pb.nawanshahr",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
     }
   ]
 }
