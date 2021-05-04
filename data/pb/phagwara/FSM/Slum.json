@@ -1,0 +1,36 @@
+{
+    "tenantId": "pb.phagwara",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+            "code": "SL0001",
+            "active": true,
+            "name": "Kathagada juanga sahi",
+            "locality": "PLC10"
+        },
+        {
+            "code": "SL0002",
+            "active": true,
+            "name": "Kathagada Parbatia Sahi",
+            "locality": "PLC25"
+        },
+        {
+            "code": "SL0003",
+            "active": true,
+            "name": "Gangadhar Sahi",
+            "locality": "PLC26"
+        },
+        {
+            "code": "SL0004",
+            "active": true,
+            "name": "Pandab Nagar",
+            "locality": "PLC33"
+        },
+        {
+            "code": "SL0005",
+            "active": true,
+            "name": "Haridakhandi Harijana sahi",
+            "locality": "PLC40"
+        }
+    ]
+}
