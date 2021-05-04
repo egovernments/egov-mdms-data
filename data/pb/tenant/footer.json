@@ -1047,6 +1047,26 @@
           "order": "1."
         }
       ]
+    },
+    {
+      "code": "pb.phagwara",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
+    },
+    {
+      "code": "pb.derabassi",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
     }
   ]
 }
