@@ -38,7 +38,7 @@
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
       "cancelReceipt": false,
-      "arrears": true,
+      "arrears": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
