@@ -10176,6 +10176,39 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2146,
+      "name": "Water and Sewerage receipt search",
+      "url": "/egov-pdf/download/WNS/wnsreceipt",
+      "displayName": "Water and Sewerage receipt search",
+      "orderNumber": 10,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2147,
+      "name": "Water and Sewerage bill search",
+      "url": "/egov-pdf/download/WNS/wnsbill",
+      "displayName": "Water and Sewerage bill search",
+      "orderNumber": 11,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2148,
+      "name": "billamendmentcertificate search",
+      "url": "/egov-pdf/download/BILL/billamendmentcertificate",
+      "displayName": "billamendmentcertificate search",
+      "orderNumber": 12,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
