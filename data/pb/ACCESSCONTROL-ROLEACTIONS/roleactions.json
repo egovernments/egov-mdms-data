@@ -19549,6 +19549,234 @@
       "actionid": 699,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+    "rolecode": "FSM_COLLECTOR",
+    "actionid": 1863,
+    "actioncode": "",
+    "tenantId": "pb"
+    },
+    {
+    "rolecode": "FSM_COLLECTOR",
+    "actionid": 1864,
+    "actioncode": "",
+    "tenantId": "pb"
+    },
+    {
+    "rolecode": "FSM_COLLECTOR",
+    "actionid": 1865,
+    "actioncode": "",
+    "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_CEMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_DOC_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_FIELD_INSPECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NOC_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CLERK",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_DOC_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_FIELD_INSPECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_CLERK",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_DOC_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_FIELD_INSPECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SW_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "PT_CEMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "PT_DOC_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "PT_FIELD_INSPECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "PT_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "TL_DOC_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "TL_FIELD_INSPECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "TL_CEMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "TL_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {  
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DRIVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+   {
+      "rolecode": "FSM_DSO",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
