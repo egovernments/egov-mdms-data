@@ -10221,6 +10221,18 @@
       "serviceCode": "fsm-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2150,
+      "name": "Vehicle create",
+      "url": "/vehicle/trip/v1/_create",
+      "parentModule": "",
+      "displayName": "Vehicle create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Vehicle",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
