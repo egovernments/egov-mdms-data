@@ -10209,6 +10209,18 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2149,
+      "name": "FSM Calculator",
+      "url": "/fsm-calculator/v1/_calculate",
+      "parentModule": "",
+      "displayName": "FSM Calculator",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "fsm-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
