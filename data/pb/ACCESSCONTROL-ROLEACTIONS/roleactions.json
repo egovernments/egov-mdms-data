@@ -23384,6 +23384,48 @@
     "actionid": 2121,
     "actioncode": "",
     "tenantId": "pb"
-  }
+  },
+  {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 20212254,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
   ]
 }
