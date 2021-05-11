@@ -5,6 +5,7 @@
     {
       "module": "PGR",
       "code": "PGR",
+      "active": true,
       "tenants": [
         {
           "code": "pg.citya"
@@ -27,6 +28,7 @@
     {
       "module": "PT",
       "code": "PT",
+      "active": true,
       "tenants": [
         {
           "code": "pg.citya"
@@ -48,6 +50,7 @@
    {
       "module": "Finance",
       "code": "Finance",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -69,6 +72,7 @@
     {
       "module": "TL",
       "code": "TL",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -90,6 +94,7 @@
     {
       "module": "FIRENOC",
       "code": "FIRENOC",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -111,6 +116,7 @@
     {
       "module": "UC",
       "code": "UC",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -132,6 +138,7 @@
     {
       "module": "BPAREG",
       "code": "BPAREG",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -153,6 +160,7 @@
     {
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -174,6 +182,7 @@
     {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -183,6 +192,7 @@
     {
       "module": "FSM",
       "code": "FSM",
+      "active": true,
       "tenants": [
         {
           "code": "pg.citya"
