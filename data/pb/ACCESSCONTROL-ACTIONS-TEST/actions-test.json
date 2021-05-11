@@ -18164,12 +18164,12 @@
       "id": 2123,
       "name": "ReceiptRegisterReport",
       "url": "/report/receipt-register-report/ReceiptRegister/_get",
-      "displayName": "Receipt Report",
+      "displayName": "Property Receipt Report",
       "orderNumber": 0,
       "enabled": true,
       "serviceCode": "PTREGISTERREPORTS",
       "code": "null",
-      "path": "UC Report"
+      "path": "Employee Report"
     },
     {
       "id": 2124,
@@ -18180,7 +18180,7 @@
       "enabled": true,
       "serviceCode": "PTREPORTMETADATA",
       "code": "null",
-      "path": "UC Collection Metadata"
+      "path": "Employee Report"
     }
   ]
 }
