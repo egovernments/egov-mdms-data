@@ -18165,11 +18165,22 @@
       "name": "ReceiptRegisterReport",
       "url": "/report/receipt-register-report/ReceiptRegister/_get",
       "displayName": "Receipt Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTREGISTERREPORTS",
+      "code": "null",
+      "path": "UC Report"
+    },
+    {
+      "id": 2124,
+      "name": "ReceiptRegisterReport",
+      "url": "/report/receipt-register-report/ReceiptRegister/metadata/_get",
+      "displayName": "Receipt Report",
       "orderNumber": 1,
       "enabled": true,
-      "serviceCode": "REPORTS",
+      "serviceCode": "PTREPORTMETADATA",
       "code": "null",
-      "path": "MiscReceiptCB"
+      "path": "UC Collection Metadata"
     }
   ]
 }
