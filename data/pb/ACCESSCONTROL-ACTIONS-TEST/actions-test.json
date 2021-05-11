@@ -18159,6 +18159,17 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2123,
+      "name": "ReceiptRegisterReport",
+      "url": "/report/receipt-register-report",
+      "displayName": "Receipt Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "REPORTS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
