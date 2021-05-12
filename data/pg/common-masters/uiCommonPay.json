@@ -212,6 +212,21 @@
           "employeeUrl": "/fire-noc/search"
         }
       ]
+    },
+    {
+      "code": "ADVT.Hoardings",
+      "headerBandLabel": "PAYMENT_COMMON_CHALLAN_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "mcollect-bill",
+      "cancelReceipt":false,
+      "arrears": false,
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+           "citizenUrl": "/",
+          "employeeUrl": "/uc/newCollection"
+        }
+      ]
     }
   ]
 }
