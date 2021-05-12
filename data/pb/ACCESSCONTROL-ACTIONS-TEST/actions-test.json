@@ -18163,6 +18163,21 @@
     {
       "id": 2123,
       "name": "ReceiptRegisterReport",
+      "url": "url",
+      "displayName": "Recepit Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "/report/receipt-register-report/ReceiptRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2124,
+      "name": "ReceiptRegisterReport",
       "url": "/report/receipt-register-report/ReceiptRegister/_get",
       "displayName": "Property Receipt Report",
       "orderNumber": 0,
@@ -18172,7 +18187,7 @@
       "path": "Employee Report"
     },
     {
-      "id": 2124,
+      "id": 2125,
       "name": "ReceiptRegisterReport",
       "url": "/report/receipt-register-report/ReceiptRegister/metadata/_get",
       "displayName": "Receipt Report",
