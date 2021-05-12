@@ -18171,14 +18171,14 @@
       "serviceCode": "",
       "code": "null",
       "path": "ReceiptRegister.Reports.Employee Report",
-      "navigationURL": "/report/receipt-register-report/ReceiptRegisterReport",
+      "navigationURL": "/report/receipt-register-report/PTReceiptRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
     {
       "id": 2124,
       "name": "ReceiptRegisterReport",
-      "url": "/report/receipt-register-report/ReceiptRegister/_get",
+      "url": "/report/receipt-register-report/PTReceiptRegister/_get",
       "displayName": "Property Receipt Report",
       "orderNumber": 0,
       "enabled": true,
@@ -18189,7 +18189,7 @@
     {
       "id": 2125,
       "name": "ReceiptRegisterReport",
-      "url": "/report/receipt-register-report/ReceiptRegister/metadata/_get",
+      "url": "/report/receipt-register-report/PTReceiptRegister/metadata/_get",
       "displayName": "Receipt Report",
       "orderNumber": 1,
       "enabled": true,
