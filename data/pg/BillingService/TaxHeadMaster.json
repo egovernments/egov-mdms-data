@@ -27,7 +27,8 @@
       "code": "PT_OWNER_EXEMPTION",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 0
+      "order": "5",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -36,7 +37,8 @@
       "code": "PT_TIME_REBATE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 0
+      "order": "2",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -45,7 +47,8 @@
       "code": "PT_UNIT_USAGE_EXEMPTION",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 0
+      "order": "6",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -54,7 +57,8 @@
       "code": "PT_ADHOC_PENALTY",
       "isDebit": false,
       "isActualDemand": false,
-      "order": 1
+      "order": "0",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -63,7 +67,8 @@
       "code": "PT_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 3
+      "order": "0",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -72,7 +77,8 @@
       "code": "PT_FIRE_CESS",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 2
+      "order": "7",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -81,7 +87,8 @@
       "code": "PT_CANCER_CESS",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 2
+      "order": "1",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -90,7 +97,8 @@
       "code": "PT_TIME_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 2
+      "order": "3",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -99,7 +107,8 @@
       "code": "PT_TIME_INTEREST",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 1
+      "order": "4",
+      "isRequired": false
     },
     {
       "category": "TAX",
@@ -162,7 +171,8 @@
       "code": "PT_ROUNDOFF",
       "isDebit": false,
       "isActualDemand": true,
-      "order": 0
+      "order": "8",
+      "isRequired": false
     },
     {
       "category": "REBATE",
