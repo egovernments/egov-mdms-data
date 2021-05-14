@@ -573,6 +573,10 @@
         {
             "idname": "echallan.aplnumber",
             "format": "PG-CH-[cy:yyyy-MM-dd]-[SEQ_EG_CH_APL]"
+          },
+          {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "advt.gas_balloon_advertisement.receipt.id"
           }
     ]
 }

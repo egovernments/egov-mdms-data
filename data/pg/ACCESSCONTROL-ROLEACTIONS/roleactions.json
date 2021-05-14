@@ -16215,6 +16215,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "CSR",
+      "actionid": 2030,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "PT_CEMP",
       "actionid": 2031,
       "actioncode": "",
@@ -19141,6 +19147,84 @@
       "actionid": 1752,
       "actioncode": "",
       "tenantId": "pg"
-    }
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CSR",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_DOC_VERIFIER",
+      "actionid": 1684,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_FIELD_INSPECTOR",
+      "actionid": 1684,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2119,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CLERK",
+      "actionid": 2119,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+       "rolecode":"EMPLOYEE",
+       "actionid":2119,
+       "actioncode":"",
+       "tenantId":"pg"
+    },
+    {
+       "rolecode":"CITIZEN",
+       "actionid":2119,
+       "actioncode":"",
+       "tenantId":"pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2119,
+      "actioncode": "",
+      "tenantId": "pg"
+    }  
   ]
 }
