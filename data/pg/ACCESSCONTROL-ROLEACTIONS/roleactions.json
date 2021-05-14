@@ -19225,6 +19225,222 @@
       "actionid": 2119,
       "actioncode": "",
       "tenantId": "pg"
-    }  
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2125,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2125,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2126,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2126,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2049,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2049,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2120,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2120,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2121,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2121,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2123,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 2123,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2120,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2120,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2121,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2121,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2123,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2123,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "UC_EMP",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2127,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_CEMP",
+      "actionid": 2127,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_CEMP",
+      "actionid": 2128,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_DOC_VERIFIER",
+      "actionid": 2128,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_FIELD_INSPECTOR",
+      "actionid": 2128,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_APPROVER",
+      "actionid": 2128,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_CEMP",
+      "actionid": 2129,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2129,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_CEMP",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_DOC_VERIFIER",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_FIELD_INSPECTOR",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_APPROVER",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "pg"
+    }
   ]
 }

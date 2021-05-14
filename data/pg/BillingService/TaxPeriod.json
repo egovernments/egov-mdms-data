@@ -262,7 +262,7 @@
       "fromDate": 1554076799000,
       "toDate": 1585679399000,
       "periodCycle": "ANNUAL",
-      "service": "TS1_copy_register_for_old_survey",
+      "service": "TX.TS1_copy_register_for_old_survey",
       "code": "TXNDCAN2019",
       "financialYear": "2019-20"
     },
@@ -270,7 +270,7 @@
       "fromDate": 1522540800000,
       "toDate": 1554076799000,
       "periodCycle": "ANNUAL",
-      "service": "TS1_copy_register_for_old_survey",
+      "service": "TX.TS1_copy_register_for_old_survey",
       "code": "TXNDCAN2018",
       "financialYear": "2018-19"
     },
@@ -278,7 +278,7 @@
       "fromDate": 1554076799000,
       "toDate": 1585679399000,
       "periodCycle": "ANNUAL",
-      "service": "Transfer_Property_Fees",
+      "service": "TX.Transfer_Property_Fees",
       "code": "TXNDCAN2019",
       "financialYear": "2019-20"
     },
@@ -286,7 +286,7 @@
       "fromDate": 1522540800000,
       "toDate": 1554076799000,
       "periodCycle": "ANNUAL",
-      "service": "Transfer_Property_Fees",
+      "service": "TX.Transfer_Property_Fees",
       "code": "TXNDCAN2018",
       "financialYear": "2018-19"
     },
