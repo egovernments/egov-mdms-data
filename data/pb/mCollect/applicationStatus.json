@@ -1,0 +1,18 @@
+{
+    "tenantId": "pb",
+    "moduleName": "mCollect",
+    "applcationStatus": [
+       {
+        "code": "PAID",
+        "active": true
+      },
+      {
+        "code": "CANCELLED",
+        "active":true
+      },
+      {
+        "code": "ACTIVE",
+        "active":true
+      }
+    ]
+  }
