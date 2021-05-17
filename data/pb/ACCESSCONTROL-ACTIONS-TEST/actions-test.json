@@ -18207,7 +18207,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "null",
-      "path": "CollectionRegister.Reports.PTEmployee Report",
+      "path": "ReceiptRegister.Reports.Employee Report",
       "navigationURL": "report/receipt-register-report/PTCollectionRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -18221,7 +18221,7 @@
       "enabled": true,
       "serviceCode": "PTCOLLECTIONREPORTS",
       "code": "null",
-      "path": "PTEmployee Report"
+      "path": "Employee Report"
     },
     {
       "id": 2128,
@@ -18232,7 +18232,7 @@
       "enabled": true,
       "serviceCode": "PTCOLLECTIONREPORTMETADATA",
       "code": "null",
-      "path": "PTEmployee Report"
+      "path": "Employee Report"
     }
   ]
 }
