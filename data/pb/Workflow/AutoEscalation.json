@@ -1,0 +1,15 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Workflow",
+  "AutoEscalation": [
+    {
+      "businessService": "NewTL",
+      "module": "TL",
+      "state": "PENDINGAPPROVAL",
+      "action": "APPROVE",
+      "active": "true",
+      "stateSLA": 2,
+      "businessSLA": null
+    }
+  ]
+}
