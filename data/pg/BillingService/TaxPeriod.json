@@ -327,7 +327,7 @@
       "toDate": 1648751399000,
       "periodCycle": "ANNUAL",
       "service": "ADVT.Unipolls",
-      "code": "ADHAN2021",
+      "code": "ADUAN2021",
       "financialYear": "2021-22"
     },
     {
@@ -335,7 +335,7 @@
       "toDate": 1617235154000,
       "periodCycle": "ANNUAL",
       "service": "ADVT.Unipolls",
-      "code": "ADHAN2020",
+      "code": "ADUAN2020",
       "financialYear": "2020-21"
     },
     {
@@ -343,7 +343,7 @@
       "toDate": 1585679399000,
       "periodCycle": "ANNUAL",
       "service": "ADVT.Unipolls",
-      "code": "ADHAN2019",
+      "code": "ADUAN2019",
       "financialYear": "2019-20"
     },
     {
@@ -351,7 +351,7 @@
       "toDate": 1554076799000,
       "periodCycle": "ANNUAL",
       "service": "ADVT.Unipolls",
-      "code": "ADHAN2018",
+      "code": "ADUAN2018",
       "financialYear": "2018-19"
     },
     {
@@ -825,6 +825,38 @@
       "service": "PT.MUTATION",
       "code": "PTMUTAN2021",
       "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Jamin_Theka",
+      "code": "RTJTAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Jamin_Theka",
+      "code": "RTJTAN2020",
+      "financialYear": "2020-21"
+    },
+   {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Land_Rent",
+      "code": "RTJTAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Land_Rent",
+      "code": "RTLRAN2020",
+      "financialYear": "2020-21"
     }
   ]
 }

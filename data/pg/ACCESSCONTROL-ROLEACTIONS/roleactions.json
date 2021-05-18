@@ -18999,6 +18999,12 @@
     "tenantId": "pg"
   },
   {
+    "rolecode": "CITIZEN",
+    "actionid": 2105,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+  {
     "rolecode": "UC_EMP",
     "actionid": 2106,
     "actioncode": "",
@@ -19419,26 +19425,38 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_CEMP",
-      "actionid": 1991,
+      "rolecode": "CITIZEN",
+      "actionid": 2130,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_DOC_VERIFIER",
-      "actionid": 1991,
+      "rolecode": "EMPLOYEE",
+      "actionid": 2130,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+{
+      "rolecode": "CITIZEN",
+      "actionid": 2131,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_FIELD_INSPECTOR",
-      "actionid": 1991,
+      "rolecode": "EMPLOYEE",
+      "actionid": 2131,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_APPROVER",
-      "actionid": 1991,
+      "rolecode": "CITIZEN",
+      "actionid": 2132,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2132,
       "actioncode": "",
       "tenantId": "pg"
     }

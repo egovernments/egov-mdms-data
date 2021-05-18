@@ -1034,6 +1034,246 @@
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Hoardings",
+      "name": "ADVT.HOARDINGS_TAX",
+      "code": "ADVT.HOARDINGS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Hoardings",
+      "name": "ADVT.HOARDINGS_FIELD_FEE",
+      "code": "ADVT.HOARDINGS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Unipolls",
+      "name": "ADVT.UNIPOLLS_TAX",
+      "code": "ADVT.UNIPOLLS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Unipolls",
+      "name": "ADVT.UNIPOLLS_FIELD_FEE",
+      "code": "ADVT.UNIPOLLS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Municipal_Shops_Rent",
+      "name": "RT.MUNICIPAL_SHOPS_RENT_TAX",
+      "code": "RT.MUNICIPAL_SHOPS_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Municipal_Shops_Rent",
+      "name": "RT.MUNICIPAL_SHOPS_RENT_FIELD_FEE",
+      "code": "RT.MUNICIPAL_SHOPS_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Land_Rent",
+      "name": "RT.LAND_RENT_TAX",
+      "code": "RT.LAND_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Land_Rent",
+      "name": "RT.LAND_RENT_FIELD_FEE",
+      "code": "RT.LAND_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Rent",
+      "name": "RT.TOWER_RENT_TAX",
+      "code": "RT.TOWER_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Tower_Rent",
+      "name": "RT.TOWER_RENT_FIELD_FEE",
+      "code": "RT.TOWER_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Parking_Fee",
+      "name": "RT.PARKING_FEE_TAX",
+      "code": "RT.PARKING_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Parking_Fee",
+      "name": "RT.PARKING_FEE_FIELD_FEE",
+      "code": "RT.PARKING_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Jamin_Theka",
+      "name": "RT.JAMIN_THEKA_TAX",
+      "code": "RT.JAMIN_THEKA_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Jamin_Theka",
+      "name": "RT.JAMIN_THEKA_FIELD_FEE",
+      "code": "RT.JAMIN_THEKA_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+{
+      "category": "TAX",
+      "service": "ADVT.Light_Wala_Board",
+      "name": "ADVT.LIGHT_WALA_BOARD_TAX",
+      "code": "ADVT.LIGHT_WALA_BOARD_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Light_Wala_Board",
+      "name": "ADVT.LIGHT_WALA_BOARD_FIELD_FEE",
+      "code": "ADVT.LIGHT_WALA_BOARD_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "name": "ADVT.WALL_PAINT_ADVERTISEMENT_TAX",
+      "code": "ADVT.WALL_PAINT_ADVERTISEMENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "name": "ADVT.WALL_PAINT_ADVERTISEMENT_FIELD_FEE",
+      "code": "ADVT.WALL_PAINT_ADVERTISEMENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "name": "ADVT.GAS_BALLOON_ADVERTISEMENT_TAX",
+      "code": "ADVT.GAS_BALLOON_ADVERTISEMENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "name": "ADVT.GAS_BALLOON_ADVERTISEMENT_FIELD_FEE",
+      "code": "ADVT.GAS_BALLOON_ADVERTISEMENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+{
+      "category": "TAX",
+      "service": "TX.Transfer_Property_Fees",
+      "name": "TX.TRANSFER_PROPERTY_FEES_TAX",
+      "code": "TX.TRANSFER_PROPERTY_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.Transfer_Property_Fees",
+      "name": "TX.TRANSFER_PROPERTY_FEES_FIELD_FEE",
+      "code": "TX.TRANSFER_PROPERTY_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "name": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_TAX",
+      "code": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "name": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_FIELD_FEE",
+      "code": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
