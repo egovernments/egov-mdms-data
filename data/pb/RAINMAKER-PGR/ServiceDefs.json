@@ -4,7 +4,7 @@
   "ServiceDefs": [
     {
       "serviceCode": "NoStreetlight",
-      "name": "NoStreet Light",
+      "name": "No Street Light",
       "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
       "department": "Streetlights",
       "slaHours": 336,
@@ -34,7 +34,7 @@
     },
     {
       "serviceCode": "DamagedGarbageBin",
-      "name": "Damaged GarbageBin",
+      "name": "Damaged Garbage Bin",
       "keywords": "garbage, waste, bin, dustbin, clean, remove, sanitation, overflow, smell, health, throw, dispose",
       "department": "DEPT_25",
       "slaHours": 336,
@@ -72,7 +72,7 @@
     },
     {
       "serviceCode": "BlockOrOverflowingSewage",
-      "name": "Block Or OverflowingSewage",
+      "name": "Block Or Overflowing Sewage",
       "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
       "department": "ENG",
       "slaHours": 336,
@@ -99,7 +99,7 @@
     },
     {
       "serviceCode": "DirtyWaterSupply",
-      "name": "Dirty WaterSupply",
+      "name": "Dirty Water Supply",
       "keywords": "water, supply, connection, drink, dirty, contaminated, impure, health, clean",
       "department": "DEPT_4",
       "slaHours": 336,
@@ -108,7 +108,7 @@
     },
     {
       "serviceCode": "BrokenWaterPipeOrLeakage",
-      "name": "BrokenWater Pipe Or Leakage",
+      "name": "Broken Water Pipe Or Leakage",
       "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
       "department": "DEPT_4",
       "slaHours": 336,
@@ -117,7 +117,7 @@
     },
     {
       "serviceCode": "WaterPressureisVeryLess",
-      "name": "WaterPressure is VeryLess",
+      "name": "Water Pressure is VeryLess",
       "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
       "department": "DEPT_4",
       "slaHours": 336,
@@ -135,7 +135,7 @@
     },
     {
       "serviceCode": "WaterLoggedRoad",
-      "name": "Water LoggedRoad",
+      "name": "Water Logged Road",
       "keywords": "road, drainage, water, block, puddle, street, flood, overflow, rain",
       "department": "DEPT_4",
       "slaHours": 336,
@@ -144,7 +144,7 @@
     },
     {
       "serviceCode": "ManholeCoverMissingOrDamaged",
-      "name": "Manhole CoverMissing Or Damaged",
+      "name": "Manhole Cover Missing Or Damaged",
       "keywords": "road, street, manhole, hole, cover, lid, footpath, open, man, drainage, damage, repair, fix",
       "department": "DEPT_4",
       "slaHours": 336,
@@ -162,7 +162,7 @@
     },
     {
       "serviceCode": "ConstructionMaterialLyingOntheRoad",
-      "name": "Construction Material Lying Onthe Road",
+      "name": "Construction Material Lying On the Road",
       "keywords": "illegal, shop, footpath, walk, remove, occupy, path",
       "department": "DEPT_4",
       "slaHours": 336,
@@ -198,7 +198,7 @@
     },
     {
       "serviceCode": "DirtyOrSmellyPublicToilets",
-      "name": "Dirty Or Smelly PublicToilets",
+      "name": "Dirty Or Smelly Public Toilets",
       "keywords": "toilet, public, restroom, bathroom, urinal, smell, dirty",
       "department": "DEPT_3",
       "slaHours": 336,
@@ -216,7 +216,7 @@
     },
     {
       "serviceCode": "NoWaterOrElectricityinPublicToilet",
-      "name": "No Water Or Electricity in PublicToilet",
+      "name": "No Water Or Electricity in Public Toilet",
       "keywords": "toilet, public, restroom, bathroom, urinal, electricity, water, working",
       "department": "DEPT_3",
       "slaHours": 336,
@@ -225,7 +225,7 @@
     },
     {
       "serviceCode": "IllegalShopsOnFootPath",
-      "name": "Illegal Shops On FootPath",
+      "name": "Illegal Shops On Foot Path",
       "keywords": "illegal, shop, footpath, violation, property, public, space, land, unathourised, site, construction, wrong",
       "department": "DEPT_6",
       "slaHours": 336,
