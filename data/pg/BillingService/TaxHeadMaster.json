@@ -1077,46 +1077,6 @@
     },
     {
       "category": "TAX",
-      "service": "RT.Municipal_Shops_Rent",
-      "name": "RT.MUNICIPAL_SHOPS_RENT_TAX",
-      "code": "RT.MUNICIPAL_SHOPS_RENT_TAX",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "1",
-      "isRequired": true
-    },
-    {
-      "category": "CHARGES",
-      "service": "RT.Municipal_Shops_Rent",
-      "name": "RT.MUNICIPAL_SHOPS_RENT_FIELD_FEE",
-      "code": "RT.MUNICIPAL_SHOPS_RENT_FIELD_FEE",
-      "isDebit": false,
-      "isActualDemand": false,
-      "order": "0",
-      "isRequired": false
-    },
-    {
-      "category": "TAX",
-      "service": "RT.Land_Rent",
-      "name": "RT.LAND_RENT_TAX",
-      "code": "RT.LAND_RENT_TAX",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "1",
-      "isRequired": true
-    },
-    {
-      "category": "CHARGES",
-      "service": "RT.Land_Rent",
-      "name": "RT.LAND_RENT_FIELD_FEE",
-      "code": "RT.LAND_RENT_FIELD_FEE",
-      "isDebit": false,
-      "isActualDemand": false,
-      "order": "0",
-      "isRequired": false
-    },
-    {
-      "category": "TAX",
       "service": "RT.Tower_Rent",
       "name": "RT.TOWER_RENT_TAX",
       "code": "RT.TOWER_RENT_TAX",
