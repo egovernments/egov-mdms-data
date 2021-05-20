@@ -18237,7 +18237,7 @@
     {
       "id": 2129,
       "name": "FSM-DailyCollectionReport-Metadata",
-      "url": "/report/fsmreport/FSMDailyCollectionReport/metadata/_get",
+      "url": "/report/fsm/FSMDailyCollectionReport/metadata/_get",
       "displayName": "FSM Metadata Report",
       "orderNumber": 1,
       "enabled": true,
@@ -18248,7 +18248,7 @@
     {
       "id": 2130,
       "name": "FSMDailyCollectionReport",
-      "url": "/report/fsmreport/FSMDailyCollectionReport/_get",
+      "url": "/report/fsm/FSMDailyCollectionReport/_get",
       "displayName": "FSM Report",
       "orderNumber": 0,
       "enabled": true,
@@ -18259,21 +18259,21 @@
     {
       "id": 2131,
       "name": "FSM-TotalRequests-Metadata",
-      "url": "/report/fsmreport/FSMRequestReport/metadata/_get",
-      "displayName": "FSM Total Reuqest Metadata Report",
+      "url": "/report/fsm/metadata/_get",
+      "displayName": "FSM Total Report metadata",
       "orderNumber": 1,
       "enabled": true,
-      "serviceCode": "FSMTOTALREQUESTREPORTMETA",
+      "serviceCode": "",
       "code": "null"
     },
     {
       "id": 2132,
       "name": "FSMRequestReport",
-      "url": "/report/fsmreport/FSMRequestReport/_get",
+      "url": "/report/fsm/_get",
       "displayName": "FSM Report",
       "orderNumber": 0,
       "enabled": true,
-      "serviceCode": "FSMTOTALREQUESTREPORT",
+      "serviceCode": "",
       "code": "null"
     }
   ]
