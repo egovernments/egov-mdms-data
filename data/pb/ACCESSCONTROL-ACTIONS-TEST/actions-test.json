@@ -18259,21 +18259,21 @@
     {
       "id": 2131,
       "name": "FSM-TotalRequests-Metadata",
-      "url": "/report/fsm/metadata/_get",
-      "displayName": "FSM Report Metadata",
+      "url": "/report/fsmreport/FSMRequestReport/metadata/_get",
+      "displayName": "FSM Total Reuqest Metadata Report",
       "orderNumber": 1,
       "enabled": true,
-      "serviceCode": "",
+      "serviceCode": "FSMTOTALREQUESTREPORTMETA",
       "code": "null"
     },
     {
       "id": 2132,
       "name": "FSMRequestReport",
-      "url": "/report/fsm/_get",
+      "url": "/report/fsmreport/FSMRequestReport/_get",
       "displayName": "FSM Report",
       "orderNumber": 0,
       "enabled": true,
-      "serviceCode": "",
+      "serviceCode": "FSMTOTALREQUESTREPORT",
       "code": "null"
     }
   ]
