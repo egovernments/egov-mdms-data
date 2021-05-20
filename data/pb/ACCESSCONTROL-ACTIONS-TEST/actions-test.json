@@ -10233,6 +10233,17 @@
       "serviceCode": "Vehicle",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2151,
+      "name": "Inbox Search ofr uI",
+      "url": "/inbox/v1/_search",
+      "displayName": "Inbox Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
