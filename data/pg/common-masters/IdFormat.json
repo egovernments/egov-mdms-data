@@ -7,6 +7,10 @@
             "idname": "watercharges.metered.receipt.id"
         },
         {
+            "format": "BILL-[SEQ_EGOV_COMMON_TEST_AUTOCRE]",
+            "idname": "billnumberid"
+        },
+        {
             "format": "PT/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "pt.receipt.id"
         },
