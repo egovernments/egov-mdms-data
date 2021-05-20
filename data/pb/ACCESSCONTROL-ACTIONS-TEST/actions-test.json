@@ -18237,7 +18237,7 @@
     {
       "id": 2129,
       "name": "FSM-DailyCollectionReport-Metadata",
-      "url": "/report/fsmreport/FSMDailyCollectionReport/metadata/_get",
+      "url": "/report/fsm/FSMDailyCollectionReport/metadata/_get",
       "displayName": "FSM Metadata Report",
       "orderNumber": 1,
       "enabled": true,
@@ -18248,7 +18248,7 @@
     {
       "id": 2130,
       "name": "FSMDailyCollectionReport",
-      "url": "/report/fsmreport/FSMDailyCollectionReport/_get",
+      "url": "/report/fsm/FSMDailyCollectionReport/_get",
       "displayName": "FSM Report",
       "orderNumber": 0,
       "enabled": true,
