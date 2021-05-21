@@ -18171,14 +18171,14 @@
       "serviceCode": "",
       "code": "null",
       "path": "ReceiptRegister.Reports.Employee Report",
-      "navigationURL": "report/receipt-register-report/PTReceiptRegister",
+      "navigationURL": "report/pt-reports/PTReceiptRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
     {
       "id": 2124,
       "name": "ReceiptRegisterReport",
-      "url": "/report/receipt-register-report/PTReceiptRegister/_get",
+      "url": "/report/pt-reports/PTReceiptRegister/_get",
       "displayName": "Property Receipt Report",
       "orderNumber": 0,
       "enabled": true,
@@ -18189,7 +18189,7 @@
     {
       "id": 2125,
       "name": "ReceiptRegisterReport",
-      "url": "/report/receipt-register-report/PTReceiptRegister/metadata/_get",
+      "url": "/report/pt-reports/PTReceiptRegister/metadata/_get",
       "displayName": "Receipt Report",
       "orderNumber": 1,
       "enabled": true,
@@ -18208,14 +18208,14 @@
       "serviceCode": "",
       "code": "null",
       "path": "ReceiptRegister.Reports.Employee Report",
-      "navigationURL": "report/receipt-register-report/PTCollectionReport",
+      "navigationURL": "report/pt-reports/PTCollectionReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
     {
       "id": 2127,
       "name": "PTCollectionReport",
-      "url": "/report/receipt-register-report/PTCollectionReport/_get",
+      "url": "/report/pt-reports/PTCollectionReport/_get",
       "displayName": "PT Collection Report",
       "orderNumber": 0,
       "enabled": true,
@@ -18226,7 +18226,7 @@
     {
       "id": 2128,
       "name": "PTCollectionReport",
-      "url": "/report/receipt-register-report/PTCollectionReport/metadata/_get",
+      "url": "/report/pt-reports/PTCollectionReport/metadata/_get",
       "displayName": "PTCollection Metadata Report",
       "orderNumber": 1,
       "enabled": true,
