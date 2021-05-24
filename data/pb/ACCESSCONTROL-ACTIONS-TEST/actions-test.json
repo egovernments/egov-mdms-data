@@ -18148,6 +18148,133 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2122,
+      "name": "Inbox Search ofr uI",
+      "url": "/inbox/v1/_search",
+      "displayName": "Inbox Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2123,
+      "name": "ReceiptRegisterReport",
+      "url": "url",
+      "displayName": "Recepit Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "report/pt-reports/PTReceiptRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2124,
+      "name": "ReceiptRegisterReport",
+      "url": "/report/pt-reports/PTReceiptRegister/_get",
+      "displayName": "Property Receipt Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTREGISTERREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2125,
+      "name": "ReceiptRegisterReport",
+      "url": "/report/pt-reports/PTReceiptRegister/metadata/_get",
+      "displayName": "Receipt Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "PTREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2126,
+      "name": "PTCollectionReport",
+      "url": "url",
+      "displayName": "PTCollection Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "report/pt-reports/PTCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2127,
+      "name": "PTCollectionReport",
+      "url": "/report/pt-reports/PTCollectionReport/_get",
+      "displayName": "PT Collection Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTCOLLECTIONREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2128,
+      "name": "PTCollectionReport",
+      "url": "/report/pt-reports/PTCollectionReport/metadata/_get",
+      "displayName": "PTCollection Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "PTCOLLECTIONREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2129,
+      "name": "FSM-DailyCollectionReport-Metadata",
+      "url": "/report/fsm/FSMDailyCollectionReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMDAILYCOLLECTIONREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2130,
+      "name": "FSMDailyCollectionReport",
+      "url": "/report/fsm/FSMDailyCollectionReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMDAILYCOLLECTIONREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2131,
+      "name": "FSM-TotalRequests-Metadata",
+      "url": "/report/fsm/metadata/_get",
+      "displayName": "FSM Total Report metadata",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null"
+    },
+    {
+      "id": 2132,
+      "name": "FSMRequestReport",
+      "url": "/report/fsm/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null"
     }
   ]
 }

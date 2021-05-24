@@ -8,6 +8,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":true,
       "hasDropdown": true,
       "additionalDetails": {
         "enabledActions": {
@@ -66,6 +67,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":true,
       "hasDropdown": true,
       "additionalDetails": {
         "enabledActions": {
@@ -116,6 +118,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":false,
       "hasDropdown": true,
       "additionalDetails": {
         "enabledActions": {
@@ -186,6 +189,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":true,
       "hasDropdown": true,
       "additionalDetails": {
         "filterCondition": {
@@ -263,6 +267,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":false,
       "hasDropdown": true,
       "additionalDetails": {
         "dropdownFilter": {
@@ -321,6 +326,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":false,
       "hasDropdown": true,
       "additionalDetails": {
         "filterCondition": {
@@ -363,6 +369,7 @@
       "documentType": "OWNER",
       "required": true,
       "active": true,
+      "digit-citizen":false,
       "hasDropdown": true,
       "additionalDetails": {
         "filterCondition": {

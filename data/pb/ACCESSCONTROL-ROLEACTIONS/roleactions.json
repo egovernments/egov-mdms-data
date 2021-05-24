@@ -23384,6 +23384,132 @@
     "actionid": 2121,
     "actioncode": "",
     "tenantId": "pb"
-  }
+  },
+  {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+     "rolecode":"HRMS_ADMIN",
+     "actionid":2123,
+     "actioncode":"",
+     "tenantId":"pb"
+    },
+    {
+     "rolecode":"UC_EMP",
+     "actionid":2123,
+     "actioncode":"",
+     "tenantId":"pb"
+    },
+    {
+     "rolecode":"HRMS_ADMIN",
+     "actionid":2124,
+     "actioncode":"",
+     "tenantId":"pb"
+    },
+    {
+     "rolecode":"UC_EMP",
+     "actionid":2124,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_CEMP",
+     "actionid":2123,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_CEMP",
+     "actionid":2124,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_CEMP",
+     "actionid":2125,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"PT_CEMP",
+     "actionid":2126,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"PT_CEMP",
+     "actionid":2127,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"PT_CEMP",
+     "actionid":2128,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"FSM_REPORT_VIEWER",
+     "actionid":2129,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"FSM_REPORT_VIEWER",
+     "actionid":2130,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+  {
+   "rolecode":"FSM_REPORT_VIEWER",
+   "actionid":2131,
+   "actioncode":"",
+   "tenantId":"pb"
+},
+  {
+   "rolecode":"FSM_REPORT_VIEWER",
+   "actionid":2132,
+   "actioncode":"",
+   "tenantId":"pb"
+}
   ]
 }
