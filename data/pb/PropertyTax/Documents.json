@@ -199,11 +199,16 @@
           ],
           "jsonPath": "Properties[0].propertyDetails[0].owners",
           "onArray": true,
-          "arrayAttribute": "ownerType"
+          "arrayAttribute": "ownerType",
+          "formDataPath": ["owners"],
+          "formArrayAttrPath": ["ownerType", "code"]
         },
         "dropdownFilter": {
           "parentArrayJsonPath": "Properties[0].propertyDetails[0].owners",
-          "parentJsonpath": "ownerType"
+          "parentJsonpath": "ownerType",
+          "onArray": true,
+          "formArrayAttrPath": ["ownerType", "code"],
+          "formDataPath": ["owners"]
         },
         "enabledActions": {
           "assess": {
@@ -266,7 +271,8 @@
       "hasDropdown": true,
       "additionalDetails": {
         "dropdownFilter": {
-          "parentJsonpath": "Properties[0].propertyDetails[0].usageCategoryMinor"
+          "parentJsonpath": "Properties[0].propertyDetails[0].usageCategoryMinor",
+          "formDataPath": ["usageCategoryMinor","code"]
         },
         "enabledActions": {
           "assess": {
@@ -328,6 +334,7 @@
             "VACANT"
           ],
           "jsonPath": "Properties[0].propertyDetails[0].propertyType",
+          "formDataPath":["propertyType","code"],
           "onArray": false
         },
         "enabledActions": {
@@ -372,7 +379,9 @@
           ],
           "jsonPath": "Properties[0].propertyDetails[0].units",
           "onArray": true,
-          "arrayAttribute": "occupancyType"
+          "arrayAttribute": "occupancyType",
+          "formDataPath": ["units"],
+          "formArrayAttrPath": ["occupancyType"]
         },
         "enabledActions": {
           "assess": {
