@@ -18312,6 +18312,17 @@
       "serviceCode": "DEFAULTERREPORTMETADATA",
       "code": "null",
       "path": "Employee Report"
-    }
+    },
+    {
+      "id": 2136,
+      "name": "Search FSM Application",
+      "url": "/fsm/v1/_plainsearch",
+      "displayName": "Search  FSM Appliacations",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
