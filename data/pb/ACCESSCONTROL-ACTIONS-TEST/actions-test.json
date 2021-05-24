@@ -18275,6 +18275,43 @@
       "enabled": true,
       "serviceCode": "",
       "code": "null"
+    },
+    {
+      "id": 2133,
+      "name": "DefaulterReport",
+      "url": "url",
+      "displayName": "Defaulter Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "Defaulter.Reports.Employee Report",
+      "navigationURL": "report/pt-reports/DefaulterReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2134,
+      "name": "DefaulterReport",
+      "url": "/report/pt-reports/DefaulterReport/_get",
+      "displayName": "Defaulter Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTDEFAULTERREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2135,
+      "name": "DefaulterReport",
+      "url": "/report/pt-reports/DefaulterReport/metadata/_get",
+      "displayName": "Defaulter Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "DEFAULTERREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
     }
   ]
 }
