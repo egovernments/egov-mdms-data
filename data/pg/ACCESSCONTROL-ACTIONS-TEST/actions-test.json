@@ -10007,6 +10007,63 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2133,
+      "name": "WS payment download",
+      "url": "/collectionservices/payments/WS/_search",
+      "displayName": "WS payment download",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+   },
+   {
+      "id": 2134,
+      "name": "Firenoc payment search",
+      "url": "/collectionservices/payments/FIRENOC/_search",
+      "displayName": "Firenoc payment search",
+      "orderNumber": 10,
+      "enabled": false,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+   },
+   {
+      "id": 2135,
+      "name": "Water One Time Fee Search",
+      "url": "/collectionservices/payments/WS.ONE_TIME_FEE/_search",
+      "displayName": "collectionservices search",
+      "orderNumber": 11,
+      "enabled": false,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+   },
+   {
+      "id": 2136,
+      "name": "Sewerage One time Fee Search",
+      "url": "/collectionservices/payments/SW.ONE_TIME_FEE/_search",
+      "displayName": "collectionservices search",
+      "orderNumber": 12,
+      "enabled": false,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+   },
+   {
+      "id": 2137,
+      "name": "SW payment download",
+      "url": "/collectionservices/payments/SW/_search",
+      "displayName": "SW payment download",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+   }
    ]
 }
