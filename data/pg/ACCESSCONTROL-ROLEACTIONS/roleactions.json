@@ -19807,6 +19807,54 @@
       "actionid": 2137,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CLERK",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2139,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SW_CLERK",
+      "actionid": 2139,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2139,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2139,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

@@ -10064,6 +10064,28 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+   },
+   {
+      "id": 2138,
+      "name": "Water One time Payment Search",
+      "url": "/collection-services/payments/WS.ONE_TIME_FEE/_search",
+      "displayName": "collectionservices search",
+      "orderNumber": 11,
+      "enabled": false,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+   },
+   {
+      "id": 2139,
+      "name": "Sewerage One time payment Search",
+      "url": "/collection-services/payments/SW.ONE_TIME_FEE/_search",
+      "displayName": "collectionservices search",
+      "orderNumber": 12,
+      "enabled": false,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
    }
    ]
 }
