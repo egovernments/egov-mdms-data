@@ -18345,6 +18345,18 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2139,
+      "name": "Vehicle Trip Search",
+       "url": "/vehicle/trip/v1/_search",
+      "displayName": "Vehicle Trip Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
