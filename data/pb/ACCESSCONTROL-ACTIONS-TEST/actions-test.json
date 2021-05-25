@@ -18357,6 +18357,43 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2140,
+      "name": "mcollectReceiptRegisterReport",
+      "url": "url",
+      "displayName": "Recepit Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "report/mcollect-reports/ReceiptRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2141,
+      "name": "mcollectReceiptRegisterReport",
+      "url": "/report/mcollect-reports/ReceiptRegister/_get",
+      "displayName": "Property Receipt Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "MCOLLECTREGISTERREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2142,
+      "name": "mcollectReceiptRegisterReport",
+      "url": "/report/mcollect-reports/ReceiptRegister/metadata/_get",
+      "displayName": "Receipt Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MCOLLECTREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
+    },
   ]
 }
