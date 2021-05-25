@@ -18323,6 +18323,28 @@
       "serviceCode": "FSM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2137,
+      "name": "Search Vehicle Application",
+      "url": "/vehicle/v1/_plainsearch",
+      "displayName": "Search  Vehicle",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2138,
+      "name": "Search Vendor/DSO",
+      "url": "/vendor/v1/_plainsearch",
+      "displayName": "Search  Vendor",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
     }
   ]
 }
