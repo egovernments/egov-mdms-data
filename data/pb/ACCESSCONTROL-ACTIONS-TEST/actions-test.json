@@ -18406,6 +18406,28 @@
       "serviceCode": "egov-hrms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2144,
+      "name": "FSM-VehicleLogReport-Metadata",
+      "url": "/report/fsm/FSMVehicleLogReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMVEHICLELOGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2145,
+      "name": "FSMVehicleLogReport",
+      "url": "/report/fsm/FSMVehicleLogReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMVEHICLELOGREPORT",
+      "code": "null",
+      "path": "FSM Report"
     }
   ]
 }

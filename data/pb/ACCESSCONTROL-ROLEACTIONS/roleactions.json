@@ -23696,6 +23696,30 @@
     "actionid": 2143,
     "actioncode": "",
     "tenantId": "pb"
-  }
+  },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2144,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2145,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2144,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2145,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
   ]
 }
