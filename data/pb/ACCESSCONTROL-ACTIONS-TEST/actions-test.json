@@ -18369,14 +18369,14 @@
       "serviceCode": "",
       "code": "null",
       "path": "ReceiptRegister.Reports.Employee Report",
-      "navigationURL": "report/mcollect-reports/ReceiptRegister",
+      "navigationURL": "report/mcollect-reports/MCollectReceiptRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
     {
       "id": 2141,
       "name": "mcollectReceiptRegisterReport",
-      "url": "/report/mcollect-reports/ReceiptRegister/_get",
+      "url": "/report/mcollect-reports/MCollectReceiptRegister/_get",
       "displayName": "Property Receipt Report",
       "orderNumber": 0,
       "enabled": true,
@@ -18387,7 +18387,7 @@
     {
       "id": 2142,
       "name": "mcollectReceiptRegisterReport",
-      "url": "/report/mcollect-reports/ReceiptRegister/metadata/_get",
+      "url": "/report/mcollect-reports/MCollectReceiptRegister/metadata/_get",
       "displayName": "Receipt Report",
       "orderNumber": 1,
       "enabled": true,
