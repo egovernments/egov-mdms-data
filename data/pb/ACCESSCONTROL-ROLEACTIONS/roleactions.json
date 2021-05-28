@@ -23384,6 +23384,342 @@
     "actionid": 2121,
     "actioncode": "",
     "tenantId": "pb"
-  }
+  },
+  {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+     "rolecode":"HRMS_ADMIN",
+     "actionid":2123,
+     "actioncode":"",
+     "tenantId":"pb"
+    },
+    {
+     "rolecode":"UC_EMP",
+     "actionid":2123,
+     "actioncode":"",
+     "tenantId":"pb"
+    },
+    {
+     "rolecode":"HRMS_ADMIN",
+     "actionid":2124,
+     "actioncode":"",
+     "tenantId":"pb"
+    },
+    {
+     "rolecode":"UC_EMP",
+     "actionid":2124,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_CEMP",
+     "actionid":2123,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_CEMP",
+     "actionid":2124,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_CEMP",
+     "actionid":2125,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"PT_CEMP",
+     "actionid":2126,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"PT_CEMP",
+     "actionid":2127,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"PT_CEMP",
+     "actionid":2128,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"FSM_REPORT_VIEWER",
+     "actionid":2129,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+     "rolecode":"FSM_REPORT_VIEWER",
+     "actionid":2130,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+  {
+   "rolecode":"FSM_REPORT_VIEWER",
+   "actionid":2131,
+   "actioncode":"",
+   "tenantId":"pb"
+},
+  {
+   "rolecode":"FSM_REPORT_VIEWER",
+   "actionid":2132,
+   "actioncode":"",
+   "tenantId":"pb"
+},
+    {
+     "rolecode":"PT_COLLECTION_EMP",
+     "actionid":2133,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_COLLECTION_EMP",
+     "actionid":2134,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_COLLECTION_EMP",
+     "actionid":2135,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DRIVER",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2136,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2137,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_VIEW_EMP",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2138,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+     "rolecode": "CITIZEN",
+     "actionid": 2138,
+     "actioncode": "",
+     "tenantId": "pb"
+   },
+   {
+    "rolecode": "FSM_EMP_FSTPO",
+    "actionid": 2139,
+    "actioncode": "",
+    "tenantId": "pb"
+   },
+    {
+     "rolecode":"PT_COLLECTION_EMP",
+     "actionid":2140,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_COLLECTION_EMP",
+     "actionid":2141,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+   {
+     "rolecode":"PT_COLLECTION_EMP",
+     "actionid":2142,
+     "actioncode":"",
+     "tenantId":"pb"
+  },
+  {
+    "rolecode": "SUPERUSER",
+    "actionid": 2143,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "HRMS_ADMIN",
+    "actionid": 2143,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2144,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2145,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2144,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 2145,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
   ]
 }
