@@ -19855,6 +19855,30 @@
       "actionid": 2139,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_CEMP",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_DOC_VERIFIER",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_FIELD_INSPECTOR",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_APPROVER",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
