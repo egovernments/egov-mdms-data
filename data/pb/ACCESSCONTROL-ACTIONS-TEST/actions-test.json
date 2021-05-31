@@ -18428,6 +18428,22 @@
       "serviceCode": "FSMVEHICLELOGREPORT",
       "code": "null",
       "path": "FSM Report"
+    },
+    {
+      "id": 2146,
+      "name": "digit-ui mCollect",
+      "url": "card",
+      "displayName": "mCollect",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/",
+      "leftIcon": "custom:localShipping",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
