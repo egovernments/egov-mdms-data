@@ -18455,7 +18455,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "null",
-      "path": "ReceiptRegister.Reports.Challan Register Report",
+      "path": "ReceiptRegister.Reports.Employee Report",
       "navigationURL": "report/mcollect/MCollectChallanRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -18469,7 +18469,7 @@
       "enabled": true,
       "serviceCode": "MCOLLECTCHALLANREGISTER",
       "code": "null",
-      "path": "Challan Register Report"
+      "path": "Employee Report"
     },
     {
       "id": 2149,
@@ -18480,7 +18480,7 @@
       "enabled": true,
       "serviceCode": "MCOLLECTCHALLANREGISTERMETADATA",
       "code": "null",
-      "path": "Challan Register Report"
+      "path": "Employee Report"
     }
   ]
 }
