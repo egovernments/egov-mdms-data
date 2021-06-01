@@ -18444,6 +18444,43 @@
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2147,
+      "name": "MCollectChallanRegister",
+      "url": "url",
+      "displayName": "Challan Register Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Challan Register Report",
+      "navigationURL": "report/mcollect/MCollectChallanRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2148,
+      "name": "MCollectChallanRegister",
+      "url": "/report/mcollect/MCollectChallanRegister/_get",
+      "displayName": "Challan Register Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "MCOLLECTCHALLANREGISTER",
+      "code": "null",
+      "path": "Challan Register Report"
+    },
+    {
+      "id": 2149,
+      "name": "MCollectChallanRegister",
+      "url": "/report/mcollect/MCollectChallanRegister/metadata/_get",
+      "displayName": "Challan Register Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MCOLLECTCHALLANREGISTERMETADATA",
+      "code": "null",
+      "path": "Challan Register Report"
     }
   ]
 }
