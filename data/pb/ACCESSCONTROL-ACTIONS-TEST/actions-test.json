@@ -10244,6 +10244,86 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2152,
+      "name": "FSM-DailyCollectionReport-Metadata",
+      "url": "/report/fsm/FSMDailyCollectionReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMDAILYCOLLECTIONREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2153,
+      "name": "FSMDailyCollectionReport",
+      "url": "/report/fsm/FSMDailyCollectionReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMDAILYCOLLECTIONREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2154,
+      "name": "FSM-TotalRequests-Metadata",
+      "url": "/report/fsm/metadata/_get",
+      "displayName": "FSM Total Report metadata",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null"
+    },
+    {
+      "id": 2155,
+      "name": "FSMRequestReport",
+      "url": "/report/fsm/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null"
+    },
+    {
+      "id": 2156,
+      "name": "digit-ui mCollect",
+      "url": "card",
+      "displayName": "mCollect",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/",
+      "leftIcon": "custom:localShipping",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2157,
+      "name": "FSM-VehicleLogReport-Metadata",
+      "url": "/report/fsm/FSMVehicleLogReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMVEHICLELOGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2158,
+      "name": "FSMVehicleLogReport",
+      "url": "/report/fsm/FSMVehicleLogReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMVEHICLELOGREPORT",
+      "code": "null",
+      "path": "FSM Report"
     }
   ]
 }   
