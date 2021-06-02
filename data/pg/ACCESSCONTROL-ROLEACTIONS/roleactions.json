@@ -19879,6 +19879,30 @@
       "actionid": 1934,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_APPROVER",
+      "actionid": 706,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 706,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 706,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SW_APPROVER",
+      "actionid": 706,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
