@@ -18481,6 +18481,18 @@
       "serviceCode": "MCOLLECTCHALLANREGISTERMETADATA",
       "code": "null",
       "path": "Employee Report"
+    },
+    {
+      "id": 2150,
+      "name": "Workflow Escalation search",
+      "url": "/egov-workflow-v2/egov-wf/escalate/_search",
+      "parentModule": "",
+      "displayName": "Workflow Escalation search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
     }
   ]
 }
