@@ -18504,6 +18504,21 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2152,
+      "name": "FSMVehicleLogReport",
+      "url": "url",
+      "displayName": "FSM Vechile Log Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMVechileLogReport",
+      "navigationURL": "report/fsm/FSMVehicleLogReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     }
   ]
 }
