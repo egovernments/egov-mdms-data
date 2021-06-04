@@ -18556,6 +18556,36 @@
       "serviceCode": "MCOLLECTCOLLECTIONREPORTMETADATA",
       "code": "null",
       "path": "Collection Report"
+    },
+    {
+      "id": 2156,
+      "name": "FSMDailyCollectionReport",
+      "url": "url",
+      "displayName": "FSM Daily Collection Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMDailyCollectionReport",
+      "navigationURL": "report/fsm/FSMDailyCollectionReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
+    },
+    {
+      "id": 2157,
+      "name": "FSMRequestReport",
+      "url": "url",
+      "displayName": "FSM Desludging Request Report",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMRequestReport",
+      "navigationURL": "report/fsm/FSMRequestReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     }
   ]
 }
