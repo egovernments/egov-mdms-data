@@ -9976,7 +9976,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.FSM",
-      "navigationURL": "/digit-ui/employee/dss/dashboard",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/fsm",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -10296,6 +10296,22 @@
       "serviceCode": "FSMREQUESTREPORT_METADATA",
       "code": "null",
       "path": "FSM Report"
+    },
+    {
+      "id": 2156,
+      "name": "digit-ui mCollect",
+      "url": "card",
+      "displayName": "mCollect",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/",
+      "leftIcon": "custom:localShipping",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }   

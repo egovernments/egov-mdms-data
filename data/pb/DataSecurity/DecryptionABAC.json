@@ -1335,6 +1335,22 @@
                 "accessType" : "MASK"
               }
             ]
+          },
+          {
+            "key": "FSMDailyCollectionReport",
+            "roleAttributeAccessList": [
+              {
+                "roleCode": "FSM_REPORT_VIEWER",
+                "attributeAccessList": [
+                  {
+                    "attribute": {
+                      "jsonPath": "*/name"
+                    },
+                    "accessType": "PLAIN"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
