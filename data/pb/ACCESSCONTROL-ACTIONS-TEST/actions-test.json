@@ -10247,45 +10247,55 @@
     },
     {
       "id": 2152,
-      "name": "FSM-DailyCollectionReport-Metadata",
-      "url": "/report/fsm/FSMDailyCollectionReport/metadata/_get",
-      "displayName": "FSM Metadata Report",
-      "orderNumber": 1,
+      "name": "FSMDailyCollectionReport",
+      "url": "url",
+      "displayName": "FSM Daily Collection Report",
+      "orderNumber": 2,
+      "parentModule": "",
       "enabled": true,
-      "serviceCode": "FSMDAILYCOLLECTIONREPORTMETA",
+      "serviceCode": "",
       "code": "null",
-      "path": "FSM Report"
+      "path": "FSM.Reports.FSMDailyCollectionReport",
+      "navigationURL": "report/fsm/FSMDailyCollectionReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     },
     {
       "id": 2153,
-      "name": "FSMDailyCollectionReport",
-      "url": "/report/fsm/FSMDailyCollectionReport/_get",
-      "displayName": "FSM Report",
-      "orderNumber": 0,
+      "name": "FSMRequestReport",
+      "url": "url",
+      "displayName": "FSM Desludging Request Report",
+      "orderNumber": 3,
+      "parentModule": "",
       "enabled": true,
-      "serviceCode": "FSMDAILYCOLLECTIONREPORT",
+      "serviceCode": "",
       "code": "null",
-      "path": "FSM Report"
+      "path": "FSM.Reports.FSMRequestReport",
+      "navigationURL": "report/fsm/FSMRequestReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     },
     {
       "id": 2154,
-      "name": "FSM-TotalRequests-Metadata",
-      "url": "/report/fsm/metadata/_get",
-      "displayName": "FSM Total Report metadata",
+      "name": "FSMRequestReport-Metadata",
+      "url": "/report/fsm/FSMRequestReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
       "orderNumber": 1,
       "enabled": true,
-      "serviceCode": "",
-      "code": "null"
+      "serviceCode": "FSMREQUESTREPORT_METADATA",
+      "code": "null",
+      "path": "FSM Report"
     },
     {
       "id": 2155,
       "name": "FSMRequestReport",
-      "url": "/report/fsm/_get",
+      "url": "/report/fsm/FSMRequestReport/_get",
       "displayName": "FSM Report",
       "orderNumber": 0,
       "enabled": true,
-      "serviceCode": "",
-      "code": "null"
+      "serviceCode": "FSMREQUESTREPORT_METADATA",
+      "code": "null",
+      "path": "FSM Report"
     },
     {
       "id": 2156,
@@ -10302,28 +10312,6 @@
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
       "queryParams": ""
-    },
-    {
-      "id": 2157,
-      "name": "FSM-VehicleLogReport-Metadata",
-      "url": "/report/fsm/FSMVehicleLogReport/metadata/_get",
-      "displayName": "FSM Metadata Report",
-      "orderNumber": 1,
-      "enabled": true,
-      "serviceCode": "FSMVEHICLELOGREPORTMETA",
-      "code": "null",
-      "path": "FSM Report"
-    },
-    {
-      "id": 2158,
-      "name": "FSMVehicleLogReport",
-      "url": "/report/fsm/FSMVehicleLogReport/_get",
-      "displayName": "FSM Report",
-      "orderNumber": 0,
-      "enabled": true,
-      "serviceCode": "FSMVEHICLELOGREPORT",
-      "code": "null",
-      "path": "FSM Report"
     }
   ]
 }   
