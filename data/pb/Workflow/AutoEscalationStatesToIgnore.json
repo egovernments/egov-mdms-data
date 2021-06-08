@@ -5,12 +5,7 @@
     {
       "businessService": "NewTL",
       "module": "TL",
-      "state": "PENDINGAPPROVAL"
-    },
-    {
-      "businessService": "NewTL",
-      "module": "TL",
-      "state": "INITIATED"
+      "state": ["INITIATED","PENDINGAPPROVAL"]
     }
   ]
 }
