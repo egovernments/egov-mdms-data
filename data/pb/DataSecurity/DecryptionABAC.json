@@ -1335,20 +1335,21 @@
                 "accessType" : "MASK"
               }
             ]
-          },
+          }
+         
+        ]
+      },
+      {
+        "key": "FSMDailyCollectionReport",
+        "roleAttributeAccessList": [
           {
-            "key": "FSMDailyCollectionReport",
-            "roleAttributeAccessList": [
+            "roleCode": "FSM_REPORT_VIEWER",
+            "attributeAccessList": [
               {
-                "roleCode": "FSM_REPORT_VIEWER",
-                "attributeAccessList": [
-                  {
-                    "attribute": {
-                      "jsonPath": "*/name"
-                    },
-                    "accessType": "PLAIN"
-                  }
-                ]
+                "attribute": {
+                  "jsonPath": "*/name"
+                },
+                "accessType": "PLAIN"
               }
             ]
           }
