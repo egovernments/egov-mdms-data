@@ -10244,6 +10244,43 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2152,
+      "name": "FSM-VehicleLogReport-Metadata",
+      "url": "/report/fsm/FSMVehicleLogReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMVEHICLELOGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2153,
+      "name": "FSMVehicleLogReport",
+      "url": "/report/fsm/FSMVehicleLogReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMVEHICLELOGREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2154,
+      "name": "FSMVehicleLogReport",
+      "url": "url",
+      "displayName": "FSM Vechile Log Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMVechileLogReport",
+      "navigationURL": "report/fsm/FSMVehicleLogReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     }
   ]
 }   
