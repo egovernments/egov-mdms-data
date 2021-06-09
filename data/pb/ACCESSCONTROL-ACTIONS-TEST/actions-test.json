@@ -10312,6 +10312,17 @@
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2157,
+      "name": "FSM-DailyCollectionReport-Metadata",
+      "url": "/report/fsm/FSMDailyCollectionReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMDAILYCOLLECTIONREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
     }
   ]
 }   
