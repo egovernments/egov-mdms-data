@@ -10360,6 +10360,17 @@
       "navigationURL": "report/fsm/FSMVehicleLogReport",
       "leftIcon": "action:description",
       "rightIcon": ""
+    },
+    {
+      "id": 2161,
+      "name": "FSMDailyCollectionReport",
+      "url": "/report/fsm/FSMDailyCollectionReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMDAILYCOLLECTIONREPORT",
+      "code": "null",
+      "path": "FSM Report"
     }
   ]
 }   
