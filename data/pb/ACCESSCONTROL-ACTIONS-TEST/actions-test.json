@@ -18641,6 +18641,17 @@
       "serviceCode": "FSM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2163,
+      "name": "Search Property registry",
+      "url": "/property-services/property/fuzzy/_search",
+      "displayName": "Search Property Registry",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
