@@ -10371,6 +10371,18 @@
       "serviceCode": "FSMDAILYCOLLECTIONREPORT",
       "code": "null",
       "path": "FSM Report"
+    },
+    {
+      "id": 2162,
+      "name": "Employee Count",
+      "url": "/egov-hrms/employees/_count",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Count",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
