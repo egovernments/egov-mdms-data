@@ -10383,6 +10383,39 @@
       "serviceCode": "egov-hrms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2163,
+      "name": "Create FSTP FSTPOperator Mapping",
+      "url": "/fsm/plantmap/v1/_create",
+      "displayName": "Create FSTP FSTPOperator Map",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2164,
+      "name": "Update FSTP FSTPOperator Mapping",
+      "url": "/fsm/plantmap/v1/_update",
+      "displayName": "Update FSTP FSTPOperator Map",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2165,
+      "name": "Search FSTP FSTPOperator Mapping",
+      "url": "/fsm/plantmap/v1/_search",
+      "displayName": "Search FSTP FSTPOperator Map",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
