@@ -18652,6 +18652,47 @@
       "serviceCode": "property-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2164,
+      "name": "PT Receipt Update",
+      "url": "/collection-services/payments/PT/_workflow",
+      "displayName": "PT Receipt Cancel",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    }, {
+      "id": 2165,
+      "name": "PTReceiptCancellation",
+      "url": "url",
+      "displayName": "PTReceiptCancellation",
+      "orderNumber": 24,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "navigationURL": "/digit-ui/employee/receipts/inbox",
+      "path": "PTreceipt",
+      "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2166,
+      "name": "PTReceiptCancellation",
+      "url": "card",
+      "displayName": "PTReceiptCancellation",
+      "orderNumber": 25,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/receipts/inbox",
+      "leftIcon": "action:receipt",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
