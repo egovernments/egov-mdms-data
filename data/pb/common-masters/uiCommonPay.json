@@ -8,6 +8,7 @@
       "receiptKey": "fsm-receipt",
       "billKey": "fsm-receipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "pdfModule":"PAYMENT",
       "arrears": false,
       "buttons": [
@@ -22,6 +23,7 @@
       "code": "PT",
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
+      "cancelBill": false,
       "billKey": "property-bill",
       "pdfModule":"PT",
       "cancelReceipt":true,
@@ -38,6 +40,7 @@
       "code": "PT.MUTATION",
       "headerBandLabel": "PTM_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
+      "cancelBill": false,
       "billKey": "property-bill",
       "pdfModule":"PT",
       "cancelReceipt":false,
@@ -54,6 +57,7 @@
       "code": "TL",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "tradelicense-receipt",
+      "cancelBill": false,
       "billKey": "tradelicense-bill",
       "pdfModule":"TL",
       "cancelReceipt":false,
@@ -74,6 +78,7 @@
       "billKey": "consolidatedbill",
       "arrears": false,
       "cancelReceipt":false,
+      "cancelBill": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -89,6 +94,7 @@
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": true,
       "buttons": [
         {
@@ -104,6 +110,7 @@
       "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "billKey": "consolidatedbill",
       "arrears": true,
       "buttons": [
@@ -121,6 +128,7 @@
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": false,
       "buttons": [
         {
@@ -137,6 +145,7 @@
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": true,
       "buttons": [
         {
@@ -152,6 +161,7 @@
       "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": true,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -168,6 +178,7 @@
       "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": true,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -184,6 +195,7 @@
       "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -200,6 +212,7 @@
       "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -217,6 +230,7 @@
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": false,
       "buttons": [
         {
@@ -233,6 +247,7 @@
       "receiptKey": "consolidatedreceipt",
       "billKey": "mcollect-bill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": false,
       "buttons": [
         {
