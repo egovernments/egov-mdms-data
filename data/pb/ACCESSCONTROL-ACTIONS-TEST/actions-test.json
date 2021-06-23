@@ -10416,6 +10416,36 @@
       "serviceCode": "FSM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2166,
+      "name": "PTReceiptCancellation",
+      "url": "url",
+      "displayName": "PTReceiptCancellation",
+      "orderNumber": 24,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "navigationURL": "/digit-ui/employee/receipts/inbox",
+      "path": "PTreceipt",
+      "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2167,
+      "name": "PTReceiptCancellation",
+      "url": "card",
+      "displayName": "PTReceiptCancellation",
+      "orderNumber": 25,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/employee/receipts/inbox",
+      "leftIcon": "action:receipt",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }   
