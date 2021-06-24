@@ -22124,7 +22124,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-   
+
     {
       "rolecode": "CITIZEN",
       "actionid": 706,
@@ -22506,6 +22506,12 @@
   {
     "rolecode": "HRMS_ADMIN",
     "actionid": 2057,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "HRMS_ADMIN",
+    "actionid": 1752,
     "actioncode": "",
     "tenantId": "pb"
   },
