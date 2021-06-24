@@ -8,6 +8,8 @@
       "receiptKey": "fsm-receipt",
       "billKey": "fsm-receipt",
       "cancelReceipt":false,
+      "cancelBill": false,
+      "pdfModule":"PAYMENT",
       "arrears": false,
       "buttons": [
         {
@@ -21,7 +23,9 @@
       "code": "PT",
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
+      "cancelBill": false,
       "billKey": "property-bill",
+      "pdfModule":"PT",
       "cancelReceipt":true,
       "arrears": true,
       "buttons": [
@@ -36,7 +40,9 @@
       "code": "PT.MUTATION",
       "headerBandLabel": "PTM_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
+      "cancelBill": false,
       "billKey": "property-bill",
+      "pdfModule":"PT",
       "cancelReceipt":false,
       "arrears": true,
       "buttons": [
@@ -51,7 +57,9 @@
       "code": "TL",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "tradelicense-receipt",
+      "cancelBill": false,
       "billKey": "tradelicense-bill",
+      "pdfModule":"TL",
       "cancelReceipt":false,
       "arrears": false,
       "buttons": [
@@ -65,10 +73,12 @@
     {
       "code": "BPA.NC_APP_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "arrears": false,
       "cancelReceipt":false,
+      "cancelBill": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -80,9 +90,11 @@
     {
       "code": "BPA.NC_SAN_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": true,
       "buttons": [
         {
@@ -95,8 +107,10 @@
     {
       "code": "BPA.LOW_RISK_PERMIT_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "billKey": "consolidatedbill",
       "arrears": true,
       "buttons": [
@@ -110,9 +124,11 @@
     {
       "code": "DEFAULT",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": false,
       "buttons": [
         {
@@ -125,9 +141,11 @@
     {
       "code": "BPAREG",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": true,
       "buttons": [
         {
@@ -140,8 +158,10 @@
     {
       "code": "WS",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": true,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -155,8 +175,10 @@
     {
       "code": "SW",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": true,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -170,8 +192,10 @@
     {
       "code": "WS.ONE_TIME_FEE",
       "headerBandLabel": "PAYMENT_COMMON_APPLICATION_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -185,8 +209,10 @@
     {
       "code": "SW.ONE_TIME_FEE",
       "headerBandLabel": "PAYMENT_COMMON_APPLICATION_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "cancelReceipt":false,
+      "cancelBill": false,
       "billKey": "ws-bill",
       "arrears": true,
       "buttons": [
@@ -200,9 +226,11 @@
     {
       "code": "FIRENOC",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": false,
       "buttons": [
         {
@@ -215,9 +243,11 @@
     {
       "code": "ADVT.Hoardings",
       "headerBandLabel": "PAYMENT_COMMON_CHALLAN_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "mcollect-bill",
       "cancelReceipt":false,
+      "cancelBill": false,
       "arrears": false,
       "buttons": [
         {
