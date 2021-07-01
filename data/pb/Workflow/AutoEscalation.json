@@ -31,6 +31,16 @@
         "stateSLA": 0.5,
         "businessSLA": null,
         "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "TEST5",
+        "module": "pgr-services",
+        "state": "PENDINGFORASSIGNMENT",
+        "action": "ASSIGN",
+        "active": "true",
+        "stateSLA": 0.25,
+        "businessSLA": null,
+        "topic" : "pgr-auto-escalation"
       }
     ]
   }
