@@ -10458,6 +10458,43 @@
       "serviceCode": "egov-workflow-v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2169,
+      "name": "MCollectChallanRegister",
+      "url": "url",
+      "displayName": "Challan Register Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "UC.Reports.ChallanRegister",
+      "navigationURL": "report/mcollect/MCollectChallanRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2170,
+      "name": "MCollectChallanRegister",
+      "url": "/report/mcollect/MCollectChallanRegister/_get",
+      "displayName": "Challan Register Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "MCOLLECTCHALLANREGISTER",
+      "code": "null",
+      "path": "Challan Register"
+    },
+    {
+      "id": 2171,
+      "name": "MCollectChallanRegister",
+      "url": "/report/mcollect/MCollectChallanRegister/metadata/_get",
+      "displayName": "Challan Register Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MCOLLECTCHALLANREGISTERMETADATA",
+      "code": "null",
+      "path": "Challan Register"
     }
   ]
 }   
