@@ -38,7 +38,27 @@
         "state": "PENDINGFORASSIGNMENT",
         "action": "ASSIGN",
         "active": "true",
-        "stateSLA": 0.25,
+        "stateSLA": 0.015625,
+        "businessSLA": null,
+        "topic" : "pgr-auto-escalation"
+      },
+        {
+        "businessService": "TEST5",
+        "module": "pgr-services",
+        "state": "PENDINGATLME",
+        "action": "RESOLVE",
+        "active": "true",
+        "stateSLA": 0.015625,
+        "businessSLA": null,
+        "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "TEST5",
+        "module": "pgr-services",
+        "state": "RESOLVED",
+        "action": "REOPEN",
+        "active": "true",
+        "stateSLA": 0.015625,
         "businessSLA": null,
         "topic" : "pgr-auto-escalation"
       }
