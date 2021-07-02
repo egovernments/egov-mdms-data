@@ -61,6 +61,36 @@
         "stateSLA": 0.015625,
         "businessSLA": null,
         "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "TEST6",
+        "module": "pgr-services",
+        "state": "PENDINGFORASSIGNMENT",
+        "action": "ASSIGN",
+        "active": "true",
+        "stateSLA": null,
+        "businessSLA": 0.015625,
+        "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "TEST6",
+        "module": "pgr-services",
+        "state": "PENDINGATLME",
+        "action": "RESOLVE",
+        "active": "true",
+        "stateSLA": null,
+        "businessSLA": 0.015625,
+        "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "TEST6",
+        "module": "pgr-services",
+        "state": "RESOLVED",
+        "action": "REOPEN",
+        "active": "true",
+        "stateSLA": null,
+        "businessSLA": 0.015625,
+        "topic" : "pgr-auto-escalation"
       }
     ]
   }
