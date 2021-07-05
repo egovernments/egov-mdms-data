@@ -602,6 +602,11 @@
       "code": "AUTO_ESCALATE",
       "name": "autoescalation emp",
       "description": "Auto Escalation Employee"
+    },
+    {
+      "code": "PT_COLLECTION_EMP",
+      "name": "ptcollection emp",
+      "description": "PTCollection Register Report"
     }
   ]
 }
