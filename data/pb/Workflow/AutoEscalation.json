@@ -63,7 +63,7 @@
         "topic" : "pgr-auto-escalation"
       },
       {
-        "businessService": "TEST6",
+        "businessService": "TEST7",
         "module": "pgr-services",
         "state": "PENDINGFORASSIGNMENT",
         "action": "ASSIGN",
@@ -73,7 +73,7 @@
         "topic" : "pgr-auto-escalation"
       },
       {
-        "businessService": "TEST6",
+        "businessService": "TEST7",
         "module": "pgr-services",
         "state": "PENDINGATLME",
         "action": "RESOLVE",
@@ -83,7 +83,7 @@
         "topic" : "pgr-auto-escalation"
       },
       {
-        "businessService": "TEST6",
+        "businessService": "TEST7",
         "module": "pgr-services",
         "state": "RESOLVED",
         "action": "REOPEN",
