@@ -10495,6 +10495,117 @@
       "serviceCode": "MCOLLECTCHALLANREGISTERMETADATA",
       "code": "null",
       "path": "Challan Register"
+    },
+    {
+      "id": 2172,
+      "name": "DefaulterReport",
+      "url": "url",
+      "displayName": "Defaulter Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "Defaulter.Reports.Employee Report",
+      "navigationURL": "report/pt-reports/DefaulterReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2173,
+      "name": "DefaulterReport",
+      "url": "/report/pt-reports/DefaulterReport/_get",
+      "displayName": "Defaulter Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTDEFAULTERREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2174,
+      "name": "DefaulterReport",
+      "url": "/report/pt-reports/DefaulterReport/metadata/_get",
+      "displayName": "Defaulter Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "DEFAULTERREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2175,
+      "name": "ReceiptRegisterReport",
+      "url": "url",
+      "displayName": "Recepit Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "report/pt-reports/PTReceiptRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2176,
+      "name": "ReceiptRegisterReport",
+      "url": "/report/pt-reports/PTReceiptRegister/_get",
+      "displayName": "Property Receipt Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTREGISTERREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2177,
+      "name": "ReceiptRegisterReport",
+      "url": "/report/pt-reports/PTReceiptRegister/metadata/_get",
+      "displayName": "Receipt Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "PTREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2178,
+      "name": "PTCollectionReport",
+      "url": "url",
+      "displayName": "PTCollection Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "report/pt-reports/PTCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2179,
+      "name": "PTCollectionReport",
+      "url": "/report/pt-reports/PTCollectionReport/_get",
+      "displayName": "PT Collection Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PTCOLLECTIONREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2180,
+      "name": "PTCollectionReport",
+      "url": "/report/pt-reports/PTCollectionReport/metadata/_get",
+      "displayName": "PTCollection Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "PTCOLLECTIONREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
     }
   ]
 }   
