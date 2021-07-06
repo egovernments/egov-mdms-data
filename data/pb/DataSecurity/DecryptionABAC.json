@@ -1354,6 +1354,22 @@
             ]
           }
         ]
+      },
+      {
+        "key": "MCollectCollectionReport",
+        "roleAttributeAccessList": [
+          {
+            "roleCode": "EMPLOYEE",
+            "attributeAccessList": [
+              {
+                "attribute": {
+                  "jsonPath": "*/name"
+                },
+                "accessType": "PLAIN"
+              }
+            ]
+          }
+        ]
       }
     ]
 }

@@ -20370,18 +20370,36 @@
     "actionid":2178,
     "actioncode":"",
     "tenantId":"pb"
- },
+   },
    {
     "rolecode":"PT_CEMP",
     "actionid":2179,
     "actioncode":"",
     "tenantId":"pb"
- },
+   },
    {
     "rolecode":"PT_CEMP",
     "actionid":2180,
     "actioncode":"",
     "tenantId":"pb"
- }
+   },
+   {
+    "rolecode": "UC_EMP",
+    "actionid": 2181,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "UC_EMP",
+    "actionid": 2182,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "UC_EMP",
+    "actionid": 2183,
+    "actioncode": "",
+    "tenantId": "pb"
+  }
   ]
 }
