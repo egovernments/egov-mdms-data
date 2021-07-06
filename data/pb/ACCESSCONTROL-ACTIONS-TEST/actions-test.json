@@ -10606,6 +10606,43 @@
       "serviceCode": "PTCOLLECTIONREPORTMETADATA",
       "code": "null",
       "path": "Employee Report"
+    },
+    {
+      "id": 2181,
+      "name": "MCollectCollectionReport",
+      "url": "url",
+      "displayName": "Collection Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "UC.Reports.CollectionReport",
+      "navigationURL": "report/mcollect/MCollectCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2182,
+      "name": "MCollectCollectionReport",
+      "url": "/report/mcollect/MCollectCollectionReport/_get",
+      "displayName": "Collection Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "MCOLLECTCOLLECTIONREPORT",
+      "code": "null",
+      "path": "Collection Report"
+    },
+    {
+      "id": 2183,
+      "name": "MCollectCollectionReport",
+      "url": "/report/mcollect/MCollectCollectionReport/metadata/_get",
+      "displayName": "Collection Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MCOLLECTCOLLECTIONREPORTMETADATA",
+      "code": "null",
+      "path": "Collection Report"
     }
   ]
 }   
