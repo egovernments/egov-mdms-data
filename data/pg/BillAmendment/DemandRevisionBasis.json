@@ -1,0 +1,30 @@
+{
+    "tenantId": "pg",
+    "moduleName": "BillAmendment",
+    "DemandRevisionBasis": [
+        {
+            "code": "COURTCASESETTLEMENT",
+            "active": true
+        },
+        {
+            "code": "ARREARSWRITEOFF",
+            "active": true
+        },
+        {
+            "code": "DCBCORRECTION",
+            "active": true
+        },
+        {
+            "code": "ONETIMESETTLEMENT",
+            "active": true
+        },
+        {
+            "code": "REMISSIONFORPT",
+            "active": true
+        },
+        {
+            "code": "OTHERS",
+            "active": true
+        }
+    ]
+}
