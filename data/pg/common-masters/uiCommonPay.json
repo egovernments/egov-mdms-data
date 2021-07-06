@@ -3,10 +3,27 @@
   "moduleName": "common-masters",
   "uiCommonPay": [
     {
+      "code": "FSM",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "fsm-receipt",
+      "billKey": "fsm-receipt",
+      "cancelReceipt":false,
+      "pdfModule":"PAYMENT",
+      "arrears": false,
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
+    },
+    {
       "code": "PT",
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
+      "pdfModule":"PT",
       "cancelReceipt": true,
       "arrears": true,
       "buttons": [
@@ -22,8 +39,9 @@
       "headerBandLabel": "PTM_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
       "billKey": "property-bill",
+      "pdfModule":"PT",
       "cancelReceipt": false,
-      "arrears": true,
+      "arrears": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -37,6 +55,7 @@
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
       "receiptKey": "tradelicense-receipt",
       "billKey": "tradelicense-bill",
+      "pdfModule":"TL",
       "cancelReceipt": false,
       "arrears": false,
       "buttons": [
@@ -50,6 +69,7 @@
     {
       "code": "BPA.NC_APP_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt": false,
@@ -65,6 +85,7 @@
     {
       "code": "BPA.NC_SAN_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt": false,
@@ -80,6 +101,7 @@
     {
       "code": "BPA.LOW_RISK_PERMIT_FEE",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt": false,
@@ -95,6 +117,7 @@
     {
       "code": "DEFAULT",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt": false,
@@ -110,6 +133,7 @@
     {
       "code": "BPAREG",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt": false,
@@ -125,6 +149,7 @@
     {
       "code": "WS",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "billKey": "ws-bill",
       "cancelReceipt": false,
@@ -140,6 +165,7 @@
     {
       "code": "SW",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "billKey": "ws-bill",
       "cancelReceipt": false,
@@ -156,6 +182,7 @@
     {
       "code": "WS.ONE_TIME_FEE",
       "headerBandLabel": "PAYMENT_COMMON_APPLICATION_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "billKey": "ws-bill",
       "cancelReceipt": false,
@@ -171,6 +198,7 @@
     {
       "code": "SW.ONE_TIME_FEE",
       "headerBandLabel": "PAYMENT_COMMON_APPLICATION_CODE",
+      "pdfModule":"WNS",
       "receiptKey": "ws-onetime-receipt",
       "billKey": "ws-bill",
       "cancelReceipt": false,
@@ -186,6 +214,7 @@
     {
       "code": "FIRENOC",
       "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "pdfModule":"PAYMENT",
       "receiptKey": "consolidatedreceipt",
       "billKey": "consolidatedbill",
       "cancelReceipt": false,
@@ -195,6 +224,22 @@
           "label": "COMMON_BUTTON_HOME",
           "citizenUrl": "/fire-noc/home",
           "employeeUrl": "/fire-noc/search"
+        }
+      ]
+    },
+    {
+      "code": "ADVT.Hoardings",
+      "headerBandLabel": "PAYMENT_COMMON_CHALLAN_CODE",
+      "pdfModule":"PAYMENT",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "mcollect-bill",
+      "cancelReceipt":false,
+      "arrears": false,
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+           "citizenUrl": "/",
+          "employeeUrl": "/uc/newCollection"
         }
       ]
     }

@@ -93,8 +93,10 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Hoardings",
@@ -106,7 +108,8 @@
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Unipolls",
@@ -116,11 +119,13 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
-    {
+    { 
       "businessService": "Rents.Municipal Shops Rent",
       "code": "RT.Municipal_Shops_Rent",
       "collectionModesNotAllowed": [
@@ -128,9 +133,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Land Rent",
@@ -140,9 +147,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Tower Rent",
@@ -152,9 +161,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Parking Fee",
@@ -164,9 +175,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Rents.Jamin Theka",
@@ -176,9 +189,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "ADMIN Fees.Election rally fees",
@@ -284,9 +299,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Fee Town Planning.Draftsmen fees",
@@ -596,9 +613,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Taxes.Transfer Property Fees",
@@ -608,9 +627,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "ADMIN Fees.RTI",
@@ -944,9 +965,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Wall Paint Advertisement",
@@ -956,9 +979,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc"
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Advertisement Tax.Gas Balloon Advertisement",
@@ -968,8 +993,11 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
-      "isActive": true
+      "isActive": true,
+      "type": "Adhoc",
+      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
     },
     {
       "businessService": "Revenue Grants",
@@ -1040,7 +1068,8 @@
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
-      "billGineiURL": "egov-searcher/bill-genie/waterbills/_get"
+      "billGineiURL": "egov-searcher/bill-genie/waterbills/_get",
+      "isBillAmendmentEnabled":true
     },
     {
       "businessService": "sw-services-calculation",
@@ -1055,7 +1084,8 @@
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
-      "billGineiURL": "egov-searcher/bill-genie/seweragebills/_get"
+      "billGineiURL": "egov-searcher/bill-genie/seweragebills/_get",
+      "isBillAmendmentEnabled":true
     },
     {
       "businessService": "BPA.NEWCONSTRUCTION_APP_FEE",
@@ -1148,6 +1178,17 @@
     {
       "businessService": "BPA.NEWCONSTRUCTION_OC_SANC_FEE",
       "code": "BPA.NC_OC_SAN_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
+      "businessService": "FSM.TRIP_CHARGES",
+      "code": "FSM.TRIP_CHARGES",
       "collectionModesNotAllowed": [
         "DD"
       ],

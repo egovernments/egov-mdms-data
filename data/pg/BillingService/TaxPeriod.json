@@ -3,6 +3,14 @@
   "moduleName": "BillingService",
   "TaxPeriod": [
     {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "PT",
+      "code": "PTAN2021",
+      "financialYear": "2021-22"
+    },
+    {
       "fromDate": 1585679400000,
       "toDate": 1617175799000,
       "periodCycle": "ANNUAL",
@@ -83,6 +91,14 @@
       "financialYear": "2020-21"
     },
     {
+      "fromDate": 1617172199000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "TL",
+      "code": "TLAN2020",
+      "financialYear": "2021-22"
+    },
+    {
       "fromDate": 1522540800000,
       "toDate": 1554076799000,
       "periodCycle": "ANNUAL",
@@ -115,12 +131,60 @@
       "financialYear": "2019-20"
     },
     {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "FIRENOC",
+      "code": "FIRENOCAN2016",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "FIRENOC",
+      "code": "FIRENOCAN2019",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+     "service": "TX.Electricity_Chungi",
+      "code": "TXNDCAN2021",
+      "financialYear": "2021-22"
+    },
+    {
       "fromDate": 1585679399000,
       "toDate": 1617172199000,
       "periodCycle": "ANNUAL",
       "service": "TX.Electricity_Chungi",
       "code": "TXELCH2020",
       "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "TX.Electricity_Chungi",
+      "code": "TXNDCAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "TX.Electricity_Chungi",
+      "code": "TXNDCAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+     "service": "TX.No_Dues_Certificate",
+      "code": "TXNDCAN2021",
+      "financialYear": "2021-22"
     },
     {
       "fromDate": 1585679399000,
@@ -155,6 +219,86 @@
       "financialYear": "2017-18"
     },
     {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Hoardings",
+      "code": "ADHAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+     "service": "TX.TS1_copy_register_for_old_survey",
+      "code": "TXNDCAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+     "service": "TX.TS1_copy_register_for_old_survey",
+      "code": "TXNDCAN2017",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+     "service": "TX.Transfer_Property_Fees",
+      "code": "TXNDCAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+     "service": "TX.Transfer_Property_Fees",
+      "code": "TXNDCAN2017",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "code": "TXNDCAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "code": "TXNDCAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "TX.Transfer_Property_Fees",
+      "code": "TXNDCAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "TX.Transfer_Property_Fees",
+      "code": "TXNDCAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Hoardings",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
+    },
+    {
       "fromDate": 1554076799000,
       "toDate": 1585679399000,
       "periodCycle": "ANNUAL",
@@ -177,6 +321,198 @@
       "service": "ADVT.Hoardings",
       "code": "ADHAN2017",
       "financialYear": "2017-18"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Unipolls",
+      "code": "ADUAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Unipolls",
+      "code": "ADUAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Unipolls",
+      "code": "ADUAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Unipolls",
+      "code": "ADUAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Light_Wala_Board",
+      "code": "ADHAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Light_Wala_Board",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Light_Wala_Board",
+      "code": "ADHAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Light_Wala_Board",
+      "code": "ADHAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "code": "ADHAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "code": "ADHAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "code": "ADHAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "code": "ADHAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1554076799000,
+      "toDate": 1585679399000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "code": "ADHAN2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1522540800000,
+      "toDate": 1554076799000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "code": "ADHAN2018",
+      "financialYear": "2018-19"
+    },
+    {
+      "fromDate": 1617172199000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "TL",
+      "code": "TLRENEWAL2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "TWOYEARS",
+      "service": "SW",
+      "code": "WC2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "TWOYEARS",
+      "service": "WS",
+      "code": "WC2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Parking_Fee",
+      "code": "RTPFAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Municipal_Shops_Rent",
+      "code": "RTMSRAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Municipal_Shops_Rent",
+      "code": "RTMSRAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Unipolls",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "ADVT.Light_Wala_Board",
+      "code": "ADHAN2020",
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1554076799000,
@@ -315,6 +651,22 @@
       "financialYear": "2020-21"
     },
     {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "TWOYEARS",
+      "service": "WS",
+      "code": "WC2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "TWOYEARS",
+      "service": "SW",
+      "code": "WC2021",
+      "financialYear": "2021-22"
+    },
+    {
       "fromDate": 1554076800000,
       "toDate": 1617175799000,
       "periodCycle": "TWOYEARS",
@@ -443,14 +795,6 @@
       "financialYear": "2019-29"
     },
     {
-      "fromDate": 1585785599000,
-      "toDate": 1617235199000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2020",
-      "financialYear": "2020-21"
-    },
-    {
       "fromDate": 1522540801000,
       "toDate": 1838159999000,
       "periodCycle": "FORTENYEARS",
@@ -465,6 +809,54 @@
       "service": "BPA.NC_OC_SAN_FEE",
       "code": "BPAOCSAN10YRS2018",
       "financialYear": "2018-28"
+    },
+    {
+      "fromDate": 1606815883000,
+      "toDate": 1924948799000,
+      "periodCycle": "FORTENYEARS",
+      "service": "FSM.TRIP_CHARGES",
+      "code": "FSMTRIPCHARGE10YRS",
+      "financialYear": "2020-2030"
+    },
+    {
+      "fromDate": 1617235201000,
+      "toDate": 1648771199000,
+      "periodCycle": "ANNUAL",
+      "service": "PT.MUTATION",
+      "code": "PTMUTAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Jamin_Theka",
+      "code": "RTJTAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Jamin_Theka",
+      "code": "RTJTAN2020",
+      "financialYear": "2020-21"
+    },
+   {
+      "fromDate": 1617215400000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Land_Rent",
+      "code": "RTJTAN2021",
+      "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585704194000,
+      "toDate": 1617235154000,
+      "periodCycle": "ANNUAL",
+      "service": "RT.Land_Rent",
+      "code": "RTLRAN2020",
+      "financialYear": "2020-21"
     }
   ]
 }

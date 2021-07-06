@@ -1093,5 +1093,100 @@
       "isStateLevel": true,
       "uniqueKeys": []
     }
+  },
+  "FSM": {
+    "ApplicationChannel": {
+      "masterName": "ApplicationChannel",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SanitationType": {
+      "masterName": "SanitationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+      },
+    "CheckList": {
+      "masterName": "CheckList",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "Config": {
+      "masterName": "Config",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "FSTPPlantInfo": {
+      "masterName": "FSTPPlantInfo",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "PitType": {
+      "masterName": "PitType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "PropertyType": {
+      "masterName": "PropertyType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "CancelReason": {
+      "masterName": "CancelReason",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DeclineReason": {
+      "masterName": "DeclineReason",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "ReassignReason": {
+      "masterName": "ReassignReason",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "RejectionReason": {
+      "masterName": "RejectionReason",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
+  },
+  "Vehicle":{
+     "SuctionType": {
+      "masterName": "SuctionType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "VehicleMakeModel": {
+      "masterName": "VehicleMakeModel",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
   }
 }

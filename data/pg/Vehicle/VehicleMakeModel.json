@@ -1,0 +1,53 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Vehicle",
+    "VehicleMakeModel": [
+        {
+            "code": "MAHINDRA",
+            "name": "Mahindra",
+            "active": true
+        },
+        {
+            "code": "MAHINDRA.BOLERO_PICKUP",
+            "name": "Bolero Pickup",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "1000",
+            "amount": "750"
+        },
+        {
+            "code": "TATA",
+            "name": "TATA",
+            "active": true
+        },
+        {
+            "code": "TATA.LPT709/34",
+            "name": "TATA LPT709/34",
+            "active": true,
+            "make": "TATA",
+            "capacity": "3000",
+            "amount": "1000"
+        },
+        {
+            "code": "TATA.407",
+            "name": "TATA 407",
+            "active": true,
+            "make": "TATA",
+            "capacity": "3000",
+            "amount": "1000"
+        },
+        {
+            "code": "TRACTOR",
+            "name": "Tractor",
+            "active": true
+        },
+        {
+            "code": "TRACTOR.SWARAJ_735",
+            "name": "Tracktor Swaraj 735",
+            "active": true,
+            "make": "SONALIKA",
+            "capacity": "3000",
+            "amount": "1000"
+        }
+    ]
+}
