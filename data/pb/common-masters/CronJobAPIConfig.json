@@ -37,6 +37,18 @@
       "header": {
         "Content-Type": "application/json"
       }
+    },
+    {
+      "jobName": "daily",
+      "active": "false",
+      "method": "POST",
+      "url": "http://xstate-chatbot.egov:8080/xstate-chatbot/reminder",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
     }
   ]
 }
