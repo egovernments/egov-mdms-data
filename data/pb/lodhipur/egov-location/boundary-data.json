@@ -1,5 +1,5 @@
 {
-  "tenantId": "pb.amritsar",
+  "tenantId": "pb.lodhipur",
   "moduleName": "egov-location",
   "TenantBoundary": [
     {
@@ -10,12 +10,12 @@
       "boundary": {
         "id": 1,
         "boundaryNum": 1,
-        "name": "Amritsar",
-        "localname": "Amritsar",
+        "name": "Lodhipur",
+        "localname": "Lodhipur",
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pb.amritsar",
+        "code": "pb.lodhipur",
         "children":[
           {
             "id": 2,
@@ -634,12 +634,12 @@
       "boundary": {
         "id": 1,
         "boundaryNum": 1,
-        "name": "Amritsar",
-        "localname": "Amritsar",
+        "name": "Lodhipur",
+        "localname": "Lodhipur",
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pb.amritsar",
+        "code": "pb.lodhipur",
         "children":[
           {
             "id": 2,
