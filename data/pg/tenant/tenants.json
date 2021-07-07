@@ -12,7 +12,7 @@
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
-      "emailId": "complaints.citya@gmail.com",
+      "emailId": "citya@gmail.com",
       "OfficeTimings": {
         "Mon - Fri": "9.00 AM - 6.00 PM"
       },
@@ -40,7 +40,7 @@
       "pincode": [143006,143007,143008,143009,143010],
       "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.cityb/logo.png",
       "imageId": null,
-      "domainUrl": null,
+      "domainUrl": "https://www.egovernments.org",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
@@ -73,7 +73,7 @@
       "description": null,
       "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.cityc/logo.png",
       "imageId": null,
-      "domainUrl": null,
+      "domainUrl": "https://www.egovernments.org",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
@@ -106,7 +106,7 @@
       "description": null,
       "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.cityd/logo.png",
       "imageId": null,
-      "domainUrl": null,
+      "domainUrl": "https://www.egovernments.org",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
@@ -139,7 +139,7 @@
       "description": null,
       "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.citye/logo.png",
       "imageId": null,
-      "domainUrl": null,
+      "domainUrl": "https://www.egovernments.org",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
@@ -191,7 +191,8 @@
         "latitude": 31.1471,
         "shapeFileLocation": null,
         "captcha": null,
-        "code": "0"
+        "code": "0",
+        "ddrName": null
       },
       "address": "State Municipal Corporation",
       "contactNumber": "0978-7645345"
