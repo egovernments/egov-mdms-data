@@ -27,60 +27,6 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 401,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 403,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 405,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 407,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 409,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 411,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 413,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 415,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 417,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "EGF_ADMINISTRATOR",
       "actionid": 631,
       "actioncode": "",
@@ -603,25 +549,25 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 636,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 663,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 648,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 654,
       "actioncode": "",
       "tenantId": "pb"
@@ -633,7 +579,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 237,
       "actioncode": "",
       "tenantId": "pb"
@@ -723,25 +669,25 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 266,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 266,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 258,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 253,
       "actioncode": "",
       "tenantId": "pb"
@@ -759,13 +705,13 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 267,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 268,
       "actioncode": "",
       "tenantId": "pb"
@@ -777,7 +723,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 269,
       "actioncode": "",
       "tenantId": "pb"
@@ -789,7 +735,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 270,
       "actioncode": "",
       "tenantId": "pb"
@@ -831,37 +777,37 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 207,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 207,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 207,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 271,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 271,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 271,
       "actioncode": "",
       "tenantId": "pb"
@@ -891,7 +837,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 275,
       "actioncode": "",
       "tenantId": "pb"
@@ -921,37 +867,37 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 184,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 184,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 184,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 168,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 168,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 168,
       "actioncode": "",
       "tenantId": "pb"
@@ -963,7 +909,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 279,
       "actioncode": "",
       "tenantId": "pb"
@@ -1017,43 +963,43 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 280,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 281,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 282,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 283,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 284,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 285,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 286,
       "actioncode": "",
       "tenantId": "pb"
@@ -1101,7 +1047,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 290,
       "actioncode": "",
       "tenantId": "pb"
@@ -1131,13 +1077,13 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 293,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 294,
       "actioncode": "",
       "tenantId": "pb"
@@ -1161,7 +1107,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 295,
       "actioncode": "",
       "tenantId": "pb"
@@ -1173,7 +1119,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 296,
       "actioncode": "",
       "tenantId": "pb"
@@ -1185,7 +1131,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 297,
       "actioncode": "",
       "tenantId": "pb"
@@ -1215,7 +1161,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 298,
       "actioncode": "",
       "tenantId": "pb"
@@ -1233,7 +1179,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 299,
       "actioncode": "",
       "tenantId": "pb"
@@ -1245,7 +1191,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 300,
       "actioncode": "",
       "tenantId": "pb"
@@ -1257,7 +1203,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 301,
       "actioncode": "",
       "tenantId": "pb"
@@ -1371,7 +1317,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 325,
       "actioncode": "",
       "tenantId": "pb"
@@ -1395,19 +1341,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 276,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 277,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 278,
       "actioncode": "",
       "tenantId": "pb"
@@ -1467,49 +1413,49 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 344,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 345,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 346,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 347,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 348,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 276,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 277,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 278,
       "actioncode": "",
       "tenantId": "pb"
@@ -1695,7 +1641,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 353,
       "actioncode": "",
       "tenantId": "pb"
@@ -1707,7 +1653,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 355,
       "actioncode": "",
       "tenantId": "pb"
@@ -1767,37 +1713,37 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 360,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 361,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 362,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 363,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 364,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 365,
       "actioncode": "",
       "tenantId": "pb"
@@ -1887,492 +1833,12 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 450,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 453,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 454,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 455,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 456,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 457,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 458,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 459,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 460,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 461,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 462,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 463,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 464,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 465,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 466,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 467,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 468,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 469,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 470,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 471,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 472,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 473,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 474,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 475,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 476,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 477,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 478,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 479,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 480,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 481,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 482,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 483,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 484,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 485,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 486,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 487,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 488,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EGF_ADMINISTRATOR",
-      "actionid": 489,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 438,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 465,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 450,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 456,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 471,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 490,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 491,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 492,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 493,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 494,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 495,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 505,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 506,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 507,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 508,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 509,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 510,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 514,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 515,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 516,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 517,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 518,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 519,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 520,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 521,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 522,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 523,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 524,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 525,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 526,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 527,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 528,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 529,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 530,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 531,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 532,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 533,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 534,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 535,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 536,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 537,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 538,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 539,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "SUPERUSER",
       "actionid": 540,
       "actioncode": "",
@@ -2429,12 +1895,6 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 549,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 550,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -2551,208 +2011,10 @@
       "actionid": 569,
       "actioncode": "",
       "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 514,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 514,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 514,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 514,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_ADMIN",
-      "actionid": 514,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 515,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 518,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 518,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 518,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 516,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 516,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 516,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 517,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
+    }, 
     {
       "rolecode": "PTIS_MASTER",
       "actionid": 519,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 520,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 521,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 522,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 523,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 524,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 525,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 526,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 527,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 528,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 529,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 530,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 531,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 532,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 533,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 534,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 535,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 536,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 537,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 538,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 539,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -2813,12 +2075,6 @@
     {
       "rolecode": "PTIS_MASTER",
       "actionid": 549,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "PTIS_MASTER",
-      "actionid": 550,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -2919,31 +2175,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 567,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 568,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
-      "actionid": 569,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 569,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 569,
       "actioncode": "",
       "tenantId": "pb"
@@ -2955,7 +2199,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 483,
       "actioncode": "",
       "tenantId": "pb"
@@ -2967,7 +2211,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Asset Administrator",
+      "rolecode": "ASSET_ADMINISTRATOR",
       "actionid": 444,
       "actioncode": "",
       "tenantId": "pb"
@@ -3105,7 +2349,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 582,
       "actioncode": "",
       "tenantId": "pb"
@@ -3316,240 +2560,6 @@
     },
     {
       "rolecode": "SUPERUSER",
-      "actionid": 450,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 453,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 454,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 455,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 456,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 457,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 458,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 459,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 460,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 461,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 462,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 463,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 464,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 465,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 466,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 467,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 468,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 469,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 470,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 471,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 472,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 473,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 474,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 475,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 476,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 477,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 478,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 479,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 480,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 481,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 482,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 483,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 484,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 485,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 486,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 487,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 488,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 489,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Asset Administrator",
-      "actionid": 474,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
       "actionid": 627,
       "actioncode": "",
       "tenantId": "pb"
@@ -3651,7 +2661,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 737,
       "actioncode": "",
       "tenantId": "pb"
@@ -3663,7 +2673,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 738,
       "actioncode": "",
       "tenantId": "pb"
@@ -3711,7 +2721,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 776,
       "actioncode": "",
       "tenantId": "pb"
@@ -3789,7 +2799,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 791,
       "actioncode": "",
       "tenantId": "pb"
@@ -3801,37 +2811,37 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 713,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 713,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 713,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 703,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 703,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 703,
       "actioncode": "",
       "tenantId": "pb"
@@ -3855,253 +2865,85 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
-      "actionid": 523,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 526,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 530,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 534,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 535,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 537,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 541,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
-      "actionid": 521,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 544,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 547,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
-      "actionid": 550,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 553,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
-      "actionid": 523,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 526,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 530,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 534,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 535,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
-      "actionid": 537,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 541,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
-      "actionid": 521,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 544,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 547,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
-      "actionid": 550,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 553,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
-      "actionid": 523,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 526,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 530,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 534,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 535,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 537,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 541,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 521,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 544,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 547,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 550,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "Property Approver",
-      "actionid": 553,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 704,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 704,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 704,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 802,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 802,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 802,
       "actioncode": "",
       "tenantId": "pb"
@@ -4113,19 +2955,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 706,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 706,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 706,
       "actioncode": "",
       "tenantId": "pb"
@@ -4161,7 +3003,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 799,
       "actioncode": "",
       "tenantId": "pb"
@@ -4179,7 +3021,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 800,
       "actioncode": "",
       "tenantId": "pb"
@@ -4245,19 +3087,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 809,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 809,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 809,
       "actioncode": "",
       "tenantId": "pb"
@@ -4269,55 +3111,55 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 810,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 810,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 810,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 722,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 722,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 722,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 815,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 816,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 817,
       "actioncode": "",
       "tenantId": "pb"
@@ -4395,19 +3237,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 822,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 823,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 824,
       "actioncode": "",
       "tenantId": "pb"
@@ -4437,19 +3279,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 840,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 840,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 840,
       "actioncode": "",
       "tenantId": "pb"
@@ -4461,19 +3303,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 841,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 841,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 841,
       "actioncode": "",
       "tenantId": "pb"
@@ -4539,19 +3381,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 856,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 856,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 856,
       "actioncode": "",
       "tenantId": "pb"
@@ -4563,19 +3405,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 857,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 857,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 857,
       "actioncode": "",
       "tenantId": "pb"
@@ -4587,19 +3429,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 858,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 858,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 858,
       "actioncode": "",
       "tenantId": "pb"
@@ -4611,19 +3453,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 859,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 859,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 859,
       "actioncode": "",
       "tenantId": "pb"
@@ -4635,19 +3477,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 860,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 860,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 860,
       "actioncode": "",
       "tenantId": "pb"
@@ -4665,7 +3507,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 863,
       "actioncode": "",
       "tenantId": "pb"
@@ -4767,7 +3609,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 867,
       "actioncode": "",
       "tenantId": "pb"
@@ -4779,13 +3621,13 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 868,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 869,
       "actioncode": "",
       "tenantId": "pb"
@@ -4888,18 +3730,6 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 507,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 510,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 608,
       "actioncode": "",
       "tenantId": "pb"
@@ -4995,19 +3825,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 881,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 881,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 881,
       "actioncode": "",
       "tenantId": "pb"
@@ -5051,30 +3881,6 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 899,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 900,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 901,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 902,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 903,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -5145,25 +3951,25 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 864,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 872,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 865,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 866,
       "actioncode": "",
       "tenantId": "pb"
@@ -5439,19 +4245,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 709,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 709,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 709,
       "actioncode": "",
       "tenantId": "pb"
@@ -5703,19 +4509,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 928,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 928,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 928,
       "actioncode": "",
       "tenantId": "pb"
@@ -5727,19 +4533,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 929,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 929,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 929,
       "actioncode": "",
       "tenantId": "pb"
@@ -5751,19 +4557,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 930,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 930,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 930,
       "actioncode": "",
       "tenantId": "pb"
@@ -5823,7 +4629,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 944,
       "actioncode": "",
       "tenantId": "pb"
@@ -5835,19 +4641,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 944,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 944,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 945,
       "actioncode": "",
       "tenantId": "pb"
@@ -5859,19 +4665,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 945,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 945,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 946,
       "actioncode": "",
       "tenantId": "pb"
@@ -5925,19 +4731,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 949,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 949,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 949,
       "actioncode": "",
       "tenantId": "pb"
@@ -5949,19 +4755,19 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
+      "rolecode": "ULB_OPERATOR",
       "actionid": 950,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Verifier",
+      "rolecode": "PROPERTY_VERIFIER",
       "actionid": 950,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "Property Approver",
+      "rolecode": "PROPERTY_APPROVER",
       "actionid": 950,
       "actioncode": "",
       "tenantId": "pb"
@@ -5974,96 +4780,12 @@
     },
     {
       "rolecode": "SUPERUSER",
-      "actionid": 953,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 953,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
       "actionid": 954,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 955,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 955,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 955,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 957,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 957,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 957,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 958,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 959,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 960,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 961,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 961,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 961,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 966,
       "actioncode": "",
       "tenantId": "pb"
@@ -6081,7 +4803,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 967,
       "actioncode": "",
       "tenantId": "pb"
@@ -6369,18 +5091,6 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "ULB Operator",
-      "actionid": 1029,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1029,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "SUPERUSER",
       "actionid": 1037,
       "actioncode": "",
@@ -6591,7 +5301,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 1102,
       "actioncode": "",
       "tenantId": "pb"
@@ -6615,7 +5325,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
+      "rolecode": "EMPLOYEE_ADMIN",
       "actionid": 1103,
       "actioncode": "",
       "tenantId": "pb"
@@ -6790,42 +5500,6 @@
     },
     {
       "rolecode": "SUPERUSER",
-      "actionid": 1200,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB Operator",
-      "actionid": 1200,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1201,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1202,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 1202,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1202,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
       "actionid": 1203,
       "actioncode": "",
       "tenantId": "pb"
@@ -6839,24 +5513,6 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 1205,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1206,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1207,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1208,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -7121,24 +5777,6 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 1403,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DMA OFFICE OFFICER",
-      "actionid": 870,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ULB OFFICER",
-      "actionid": 870,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DMA OFFICE OFFICER",
-      "actionid": 1101,
       "actioncode": "",
       "tenantId": "pb"
     },
