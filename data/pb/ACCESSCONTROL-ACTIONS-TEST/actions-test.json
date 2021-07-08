@@ -16856,6 +16856,17 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2012,
+      "name": "Inbox service property searcher endpoint",
+      "url": "/egov-searcher/property-services/inboxpropertysearch/_get",
+      "displayName": "Inbox service property searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }
