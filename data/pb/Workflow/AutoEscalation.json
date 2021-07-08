@@ -8,7 +8,7 @@
         "state": "PENDINGAPPROVAL",
         "action": "APPROVE",
         "active": "true",
-        "stateSLA": 2.0,
+        "stateSLA": 0.25,
         "businessSLA": null,
         "topic" : "tl-auto-escalation"
       },
@@ -18,78 +18,8 @@
         "state": "RESOLVED",
         "action": "CLOSERESOLVEDCOMPLAIN",
         "active": "true",
-        "stateSLA": 1.0,
+        "stateSLA": 0.25,
         "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "TEST4",
-        "module": "pgr-services",
-        "state": "PENDINGATLME",
-        "action": "CLOSERESOLVEDCOMPLAIN",
-        "active": "true",
-        "stateSLA": 0.5,
-        "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "TEST5",
-        "module": "pgr-services",
-        "state": "PENDINGFORASSIGNMENT",
-        "action": "ASSIGN",
-        "active": "true",
-        "stateSLA": 0.015625,
-        "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-        {
-        "businessService": "TEST5",
-        "module": "pgr-services",
-        "state": "PENDINGATLME",
-        "action": "RESOLVE",
-        "active": "true",
-        "stateSLA": 0.015625,
-        "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "TEST5",
-        "module": "pgr-services",
-        "state": "RESOLVED",
-        "action": "REOPEN",
-        "active": "true",
-        "stateSLA": 0.015625,
-        "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "TEST7",
-        "module": "pgr-services",
-        "state": "PENDINGFORASSIGNMENT",
-        "action": "ASSIGN",
-        "active": "true",
-        "stateSLA": null,
-        "businessSLA": 0.015625,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "TEST7",
-        "module": "pgr-services",
-        "state": "PENDINGATLME",
-        "action": "RESOLVE",
-        "active": "true",
-        "stateSLA": null,
-        "businessSLA": 0.015625,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "TEST7",
-        "module": "pgr-services",
-        "state": "RESOLVED",
-        "action": "REOPEN",
-        "active": "true",
-        "stateSLA": null,
-        "businessSLA": 0.015625,
         "topic" : "pgr-auto-escalation"
       }
     ]
