@@ -1252,6 +1252,22 @@
           ]
         }
       ]
+    },
+    {
+      "key": "PTReceiptRegister",
+      "roleAttributeAccessList": [
+        {
+          "roleCode": "PT_CEMP",
+          "attributeAccessList": [
+            {
+              "attribute": {
+                "jsonPath": "*/name"
+              },
+              "accessType": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
