@@ -18,7 +18,7 @@
         "state": "RESOLVED",
         "action": "CLOSERESOLVEDCOMPLAIN",
         "active": "true",
-        "stateSLA": 0.25,
+        "stateSLA": 0.02,
         "businessSLA": null,
         "topic" : "pgr-auto-escalation"
       }
