@@ -19014,6 +19014,30 @@
     "actionid": 2183,
     "actioncode": "",
     "tenantId": "pb"
+  },
+  {
+    "rolecode": "TL_CEMP",
+    "actionid": 2151,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "TL_DOC_VERIFIER",
+    "actionid": 2151,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "TL_FIELD_INSPECTOR",
+    "actionid": 2151,
+    "actioncode": "",
+    "tenantId": "pb"
+  },
+  {
+    "rolecode": "TL_APPROVER",
+    "actionid": 2151,
+    "actioncode": "",
+    "tenantId": "pb"
   }
   ]
 }
