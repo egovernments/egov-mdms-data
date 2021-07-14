@@ -1,0 +1,18 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Expense",
+  "ExpenseType": [
+    {
+      "name": "Expense",
+      "code": "EXPENSE",
+      "active": true,
+      "service": "WC"
+    },
+    {
+      "name": "Electricity Bill",
+      "code": "EXPENSE.ELECTRICITY_BILL",
+      "active": true,
+      "service": "WC"
+    }
+  ]
+}
