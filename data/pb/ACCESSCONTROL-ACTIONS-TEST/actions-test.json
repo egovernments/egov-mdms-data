@@ -11340,46 +11340,7 @@
       "leftIcon": "communication:business",
       "rightIcon": ""
     },
-    {
-      "id": 1579,
-      "name": "ULB PT Collection",
-      "url": "url",
-      "displayName": "ULB PT Collection",
-      "orderNumber": 1,
-      "queryParams": "",
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "tenantId": "pb",
-      "createdDate": null,
-      "createdBy": null,
-      "lastModifiedDate": null,
-      "lastModifiedBy": null,
-      "path": "Property Tax.PT Reports.ULB PT Collection",
-      "navigationURL": "report/rainmaker-pt/UlbPtCollection",
-      "leftIcon": "action:assignment",
-      "rightIcon": ""
-    },
-    {
-      "id": 1580,
-      "name": "Receipt Register",
-      "url": "url",
-      "displayName": "Receipt Register",
-      "orderNumber": 2,
-      "queryParams": "",
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "tenantId": "pb",
-      "createdDate": null,
-      "createdBy": null,
-      "lastModifiedDate": null,
-      "lastModifiedBy": null,
-      "path": "Property Tax.PT Reports.Receipt Register",
-      "navigationURL": "report/rainmaker-pt/ReceiptRegister",
-      "leftIcon": "action:assignment",
-      "rightIcon": ""
-    },
+    
     {
       "id": 1581,
       "name": "Exemptions",
@@ -11420,46 +11381,7 @@
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
-    {
-      "id": 1583,
-      "name": "Property Register",
-      "url": "url",
-      "displayName": "Property Register",
-      "orderNumber": 5,
-      "queryParams": "",
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "tenantId": "pb",
-      "createdDate": null,
-      "createdBy": null,
-      "lastModifiedDate": null,
-      "lastModifiedBy": null,
-      "path": "Property Tax.PT Reports.Property Register",
-      "navigationURL": "report/rainmaker-pt/PropertyRegister",
-      "leftIcon": "action:assignment",
-      "rightIcon": ""
-    },
-    {
-      "id": 1584,
-      "name": "ULB-wise PT Collection",
-      "url": "url",
-      "displayName": "ULB-wise PT Collection Report",
-      "orderNumber": 7,
-      "queryParams": "",
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "tenantId": "pb",
-      "createdDate": null,
-      "createdBy": null,
-      "lastModifiedDate": null,
-      "lastModifiedBy": null,
-      "path": "Property Tax.PT Reports.ULB-wise PT Collection",
-      "navigationURL": "report/rainmaker-pt/UlbWisePtCollection",
-      "leftIcon": "action:assignment",
-      "rightIcon": ""
-    },
+    
     {
       "id": 1586,
       "name": "bankAccountServiceMapping create",
@@ -18170,7 +18092,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "null",
-      "path": "ReceiptRegister.Reports.Employee Report",
+      "path": "Property Tax.PT Reports.Receipt Register",
       "navigationURL": "report/pt-reports/PTReceiptRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -18195,7 +18117,7 @@
       "enabled": true,
       "serviceCode": "PTREPORTMETADATA",
       "code": "null",
-      "path": "Employee Report"
+      "path": "Property Tax.PT Reports.Receipt Register"
     },
     {
       "id": 2126,
@@ -18207,7 +18129,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "null",
-      "path": "ReceiptRegister.Reports.Employee Report",
+      "path": "Property Tax.PT Reports.PT Collection Report",
       "navigationURL": "report/pt-reports/PTCollectionReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -18286,7 +18208,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "null",
-      "path": "Defaulter.Reports.Employee Report",
+      "path": "Property Tax.PT Reports.DEFAULTER Report",
       "navigationURL": "report/pt-reports/DefaulterReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
