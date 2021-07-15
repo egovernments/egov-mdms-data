@@ -18,7 +18,17 @@
         "state": "RESOLVED",
         "action": "CLOSERESOLVEDCOMPLAIN",
         "active": "true",
-        "stateSLA": 0.02,
+        "stateSLA": 0.01,
+        "businessSLA": null,
+        "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "PGR",
+        "module": "pgr-services",
+        "state": "PENDINGATLME",
+        "action": "RESOLVEBYAUTOESCALTION",
+        "active": "true",
+        "stateSLA": 0.01,
         "businessSLA": null,
         "topic" : "pgr-auto-escalation"
       }
