@@ -18626,6 +18626,18 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2168,
+      "name": "Cancel Bill",
+      "url": "/billing-service/bill/_cancelbill",
+      "displayName": "Cancel Bill",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "Billing-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
