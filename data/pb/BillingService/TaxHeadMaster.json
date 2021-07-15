@@ -2,6 +2,25 @@
   "tenantId": "pb",
   "moduleName": "BillingService",
   "TaxHeadMaster": [
-    
+    {
+      "category": "CHARGES",
+      "service": "EXPENSE.ADVANCE",
+      "name": "EXPENSE.ADVANCE_TAX",
+      "code": "EXPENSE.ADVANCE_TAX",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "EXPENSE.ELECTRICITY_BILL",
+      "name": "EXPENSE.ELECTRICITY_BILL_TAX",
+      "code": "EXPENSE.ELECTRICITY_BILL_TAX",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": true
+    }
   ]
 }
