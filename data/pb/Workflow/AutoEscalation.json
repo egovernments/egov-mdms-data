@@ -21,6 +21,16 @@
         "stateSLA": 0.02,
         "businessSLA": null,
         "topic" : "pgr-auto-escalation"
+      },
+      {
+        "businessService": "PGR",
+        "module": "pgr-services",
+        "state": "PENDINGATLME",
+        "action": "RESOLVEBYAUTOESCALTION",
+        "active": "true",
+        "stateSLA": 0.02,
+        "businessSLA": null,
+        "topic" : "pgr-auto-escalation"
       }
     ]
   }
