@@ -1,0 +1,16 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Expense",
+  "ExpenseType": [
+    {
+      "name": "Advance",
+      "code": "ADVANCE",
+      "active": true
+    },
+    {
+      "name": "Electricity Bill",
+      "code": "ELECTRICITY_BILL",
+      "active": true
+    }
+  ]
+}

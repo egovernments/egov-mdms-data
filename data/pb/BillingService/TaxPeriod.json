@@ -2,6 +2,13 @@
   "tenantId": "pb",
   "moduleName": "BillingService",
   "TaxPeriod": [
-   
+    {
+      "fromDate": 1617172199000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "EXPENSE.ADVANCE",
+      "code": "EXPENSEADVANCE2122",
+      "financialYear": "2021-22"
+    }
   ]
 }
