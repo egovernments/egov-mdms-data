@@ -36,6 +36,56 @@
       "code":"SYS_INTEGRATOR_FINANCE",
       "name":"SYS_INTEGRATOR_FINANCE",
       "description":"SYS_INTEGRATOR_FINANCE"
-    }
+    },
+		{
+      "code": "WS_CEMP",
+      "name": "WS Counter Employee",
+      "description": "WS counter employee can take action as citizen"
+    },
+    {
+      "code": "WS_DOC_VERIFIER",
+      "name": "WS Document Verifier",
+      "description": "WS Document Verifier"
+    },
+    {
+      "code": "WS_FIELD_INSPECTOR",
+      "name": "WS Field Inspector",
+      "description": "WS Inspector can take action like verify and forword, send back to do"
+    },
+    {
+      "code": "WS_APPROVER",
+      "name": "WS Approver",
+      "description": "WS Approver can approve the connection application"
+    },
+    {
+      "code": "WS_CLERK",
+      "name": "WS Clerk",
+      "description": "WS Clerk can activate the connection application"
+    },
+ 		{
+      "code": "SYS_INTEGRATOR_WATER_SEW",
+      "name": "System Integrator W&S",
+      "description": "Role for allowing system integration of Water and Sewerage app with rainmaker"
+    },
+    {
+      "code": "Property Approver",
+      "name": "Property Approver",
+      "description": "Property Approver"
+    },
+    {
+      "code": "Property Verifier",
+      "name": "Property Verifier",
+      "description": "Property Verifier"
+    },
+		{
+      "code": "PTIS_MASTER",
+      "name": "PTIS Master",
+      "description": "Who has a access to Property Tax Masters"
+    },
+		{
+      "code": "PTIS_ADMIN",
+      "name": "PTIS Admin",
+      "description": "Who has a access to change tax rates, factor etc"
+    },
   ]
 }
