@@ -10574,6 +10574,17 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2185,
+      "name": "Water and Sewerage Group Bill",
+      "url": "/egov-pdf/download/WNS/wnsgroupbill",
+      "displayName": "Water and Sewerage Group Bill",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
