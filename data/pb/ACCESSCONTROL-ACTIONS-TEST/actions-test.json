@@ -10585,6 +10585,43 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2186,
+      "name": "mcollectReceiptRegisterReport",
+      "url": "url",
+      "displayName": "Recepit Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "ReceiptRegister.Reports.Employee Report",
+      "navigationURL": "report/mcollect-reports/ReceiptRegister",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2187,
+      "name": "mcollectReceiptRegisterReport",
+      "url": "/report/mcollect-reports/ReceiptRegister/_get",
+      "displayName": "Property Receipt Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "MCOLLECTREGISTERREPORTS",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2188,
+      "name": "mcollectReceiptRegisterReport",
+      "url": "/report/mcollect-reports/ReceiptRegister/metadata/_get",
+      "displayName": "Receipt Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MCOLLECTREPORTMETADATA",
+      "code": "null",
+      "path": "Employee Report"
     }
   ]
 }   
