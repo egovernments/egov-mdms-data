@@ -1,46 +1,56 @@
 {
-    "tenantId": "pb",
-    "moduleName": "Workflow",
-    "AutoEscalation": [
-      {
-        "businessService": "NewTL",
-        "module": "tl-services",
-        "state": "PENDINGAPPROVAL",
-        "action": "APPROVE",
-        "active": "true",
-        "stateSLA": 0.25,
-        "businessSLA": null,
-        "topic" : "tl-auto-escalation"
-      },
-      {
-        "businessService": "PGR",
-        "module": "pgr-services",
-        "state": "RESOLVED",
-        "action": "CLOSERESOLVEDCOMPLAIN",
-        "active": "true",
-        "stateSLA": 0.01,
-        "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-        "businessService": "PGR",
-        "module": "pgr-services",
-        "state": "PENDINGATLME",
-        "action": "RESOLVEBYAUTOESCALTION",
-        "active": "true",
-        "stateSLA": 0.01,
-        "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
-      },
-      {
-      "businessService": "TEST-PGR-01",
+  "tenantId": "pb",
+  "moduleName": "Workflow",
+  "AutoEscalation": [
+    {
+      "businessService": "NewTL",
+      "module": "tl-services",
+      "state": "PENDINGAPPROVAL",
+      "action": "APPROVE",
+      "active": "true",
+      "stateSLA": 0.25,
+      "businessSLA": null,
+      "topic": "tl-auto-escalation"
+    },
+    {
+      "businessService": "PGR",
       "module": "pgr-services",
       "state": "RESOLVED",
       "action": "CLOSERESOLVEDCOMPLAIN",
       "active": "true",
-      "stateSLA": 0.005,
+      "stateSLA": 0.01,
       "businessSLA": null,
-      "topic" : "pgr-auto-escalation"
+      "topic": "pgr-auto-escalation"
+    },
+    {
+      "businessService": "PGR",
+      "module": "pgr-services",
+      "state": "PENDINGATLME",
+      "action": "FORWARD",
+      "active": "true",
+      "stateSLA": 0.01,
+      "businessSLA": null,
+      "topic": "pgr-auto-escalation"
+    },
+    {
+      "businessService": "PGR",
+      "module": "pgr-services",
+      "state": "PENDINGFORASSIGNMENT",
+      "action": "ASSIGNEDBYAUTOESCALATION",
+      "active": "true",
+      "stateSLA": 0.01,
+      "businessSLA": null,
+      "topic": "pgr-auto-escalation"
+    },
+    {
+      "businessService": "PGR",
+      "module": "pgr-services",
+      "state": "PENDINGFORREASSIGNMENT",
+      "action": "ASSIGNEDBYAUTOESCALATION",
+      "active": "true",
+      "stateSLA": 0.01,
+      "businessSLA": null,
+      "topic": "pgr-auto-escalation"
     }
-    ]
-  }
+  ]
+}
