@@ -1246,5 +1246,21 @@
         "$.code"
       ]
     }
+  },
+  "EDCR": {
+    "DimensionConfig": {
+      "masterName": "DimensionConfig",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DxfToPdfConfig": {
+      "masterName": "DxfToPdfConfig",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
   }
 }
