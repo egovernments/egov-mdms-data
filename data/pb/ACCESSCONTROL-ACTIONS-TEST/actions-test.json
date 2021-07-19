@@ -18630,7 +18630,7 @@
     {
       "id": 2168,
       "name": "Cancel Bill",
-      "url": "/billing-service/bill/_cancelbill",
+      "url": "/billing-service/bill/v2/_cancelbill",
       "displayName": "Cancel Bill",
       "orderNumber": 1,
       "parentModule": "",
