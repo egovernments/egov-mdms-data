@@ -51,6 +51,16 @@
       "stateSLA": 0.01,
       "businessSLA": null,
       "topic": "pgr-auto-escalation"
+    },
+    {
+      "businessService": "PGR",
+      "module": "pgr-services",
+      "state": "REJECTED",
+      "action": "CANCEL",
+      "active": "true",
+      "stateSLA": 0.01,
+      "businessSLA": null,
+      "topic": "pgr-auto-escalation"
     }
   ]
 }
