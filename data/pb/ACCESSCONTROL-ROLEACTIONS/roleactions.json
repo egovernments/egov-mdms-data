@@ -18303,12 +18303,6 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 1827,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "CITIZEN",
       "actionid": 1827,
       "actioncode": "",
@@ -23922,6 +23916,18 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 2168,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2169,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2170,
       "actioncode": "",
       "tenantId": "pb"
     }

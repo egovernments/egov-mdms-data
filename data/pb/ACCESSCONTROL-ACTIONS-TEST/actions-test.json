@@ -18638,6 +18638,34 @@
       "serviceCode": "Billing-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2169,
+      "name": "BillGenieSearch",
+      "url": "url",
+      "displayName": "BillGenie",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "abg/billSearch",
+      "path": "BillGenie.BillGenie",
+      "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2170,
+      "name": "CurrentBillCancellationSearch",
+      "url": "url",
+      "displayName": "CurrentBillCancellation",
+      "orderNumber": 6,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "bills/billSearch",
+      "path": "BillGenie.CurrentBillCancellation",
+      "leftIcon": "action:receipt"
     }
   ]
 }
