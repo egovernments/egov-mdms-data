@@ -239,7 +239,7 @@
       "code": "TX.NO_DUES_CERTIFICATE_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "0",
       "isRequired": true
     },
     {
@@ -249,7 +249,7 @@
       "code": "TX.NO_DUES_CERTIFICATE_FIELD_FEE",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -259,7 +259,7 @@
       "code": "ADVT.HOARDINGS_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "0",
       "isRequired": true
     },
     {
@@ -269,7 +269,7 @@
       "code": "ADVT.HOARDINGS_FIELD_FEE",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -279,7 +279,7 @@
       "code": "ADVT.UNIPOLLS_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "0",
       "isRequired": true
     },
     {
@@ -289,7 +289,7 @@
       "code": "ADVT.UNIPOLLS_FIELD_FEE",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -1659,7 +1659,7 @@
       "code": "ADVT.LIGHT_WALA_BOARD_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "0",
       "isRequired": true
     },
     {
@@ -1669,7 +1669,7 @@
       "code": "ADVT.LIGHT_WALA_BOARD_FIELD_FEE",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -1679,7 +1679,7 @@
       "code": "ADVT.WALL_PAINT_ADVERTISEMENT_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "0",
       "isRequired": true
     },
     {
@@ -1689,7 +1689,7 @@
       "code": "ADVT.WALL_PAINT_ADVERTISEMENT_FIELD_FEE",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -1699,7 +1699,7 @@
       "code": "ADVT.GAS_BALLOON_ADVERTISEMENT_TAX",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "1",
+      "order": "0",
       "isRequired": true
     },
     {
@@ -1709,7 +1709,7 @@
       "code": "ADVT.GAS_BALLOON_ADVERTISEMENT_FIELD_FEE",
       "isDebit": false,
       "isActualDemand": false,
-      "order": "0",
+      "order": "1",
       "isRequired": false
     },
     {
