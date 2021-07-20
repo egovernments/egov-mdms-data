@@ -10588,40 +10588,40 @@
     },
     {
       "id": 2186,
-      "name": "mcollectReceiptRegisterReport",
+      "name": "MCollectReceiptRegister",
       "url": "url",
-      "displayName": "Recepit Report",
+      "displayName": "Recepit Register",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "",
       "code": "null",
-      "path": "ReceiptRegister.Reports.Employee Report",
-      "navigationURL": "report/mcollect-reports/ReceiptRegister",
+      "path": "UC.Reports.ReceiptRegister",
+      "navigationURL": "report/mcollect/MCollectReceiptRegister",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
     {
       "id": 2187,
-      "name": "mcollectReceiptRegisterReport",
-      "url": "/report/mcollect-reports/ReceiptRegister/_get",
-      "displayName": "Property Receipt Report",
+      "name": "MCollectReceiptRegister",
+      "url": "/report/mcollect/MCollectReceiptRegister/_get",
+      "displayName": "Receipt Register",
       "orderNumber": 0,
       "enabled": true,
-      "serviceCode": "MCOLLECTREGISTERREPORTS",
+      "serviceCode": "MCOLLECTRECEIPTREGISTER",
       "code": "null",
-      "path": "Employee Report"
+      "path": "Receipt Register"
     },
     {
       "id": 2188,
-      "name": "mcollectReceiptRegisterReport",
-      "url": "/report/mcollect-reports/ReceiptRegister/metadata/_get",
+      "name": "MCollectReceiptRegister",
+      "url": "/report/mcollect/MCollectReceiptRegister/metadata/_get",
       "displayName": "Receipt Report",
       "orderNumber": 1,
       "enabled": true,
-      "serviceCode": "MCOLLECTREPORTMETADATA",
+      "serviceCode": "MCOLLECTRECEIPTREGISTERMETADATA",
       "code": "null",
-      "path": "Employee Report"
+      "path": "Receipt Register"
     }
   ]
 }   
