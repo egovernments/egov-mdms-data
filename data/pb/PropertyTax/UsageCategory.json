@@ -184,7 +184,7 @@
         "maxAmount": 0,
         "flatAmount": 0
       }
-    },  
+    },
     {
       "name": "Godown/Warehouse",
       "code": "NONRESIDENTIAL.INDUSTRIAL.WAREHOUSE",
@@ -195,7 +195,7 @@
         "maxAmount": 0,
         "flatAmount": 0
       }
-    },  
+    },
     {
       "name": "Other Commercial Usage",
       "code": "NONRESIDENTIAL.INDUSTRIAL.OTHERCOMMERCIALSUBMINOR",
@@ -206,8 +206,9 @@
         "maxAmount": 0,
         "flatAmount": 0
       }
-    },   {
-      "name":"Manufacturing Facility",
+    },
+    {
+      "name": "Manufacturing Facility",
       "code": "NONRESIDENTIAL.INDUSTRIAL.MANUFACTURINGFACILITY",
       "active": true,
       "fromFY": "2015-16",
@@ -216,7 +217,7 @@
         "maxAmount": 0,
         "flatAmount": 0
       }
-    },   
+    },
     {
       "name": "Showroom",
       "code": "NONRESIDENTIAL.COMMERCIAL.RETAIL.SHOWROOM",
@@ -280,7 +281,7 @@
     {
       "name": "Marriage Palace",
       "code": "NONRESIDENTIAL.COMMERCIAL.EVENTSPACE.MARRIAGEPALACE",
-     "active": true,
+      "active": true,
       "fromFY": "2015-16"
     },
     {
@@ -436,6 +437,239 @@
       "name": "Cremation/ Burial Ground",
       "code": "NONRESIDENTIAL.OTHERS.PUBLICSPACES.CREMATION/BURIAL",
       "active": true,
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Office Spaces",
+      "code": "NONRESIDENTIAL.COMMERCIAL.OFFICESPACES",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Medical facility",
+      "code": "NONRESIDENTIAL.COMMERCIAL.MEDICALFACILITY",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Manufacturing Facility",
+      "code": "NONRESIDENTIAL.INDUSTRIAL.MANUFACTURINGFACILITIES",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Others",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.OTHERS",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Religious",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.RELIGIOUS",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Public Spaces",
+      "code": "NONRESIDENTIAL.OTHERS.PUBLICSPACES",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Educational (Govt. aided)",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT",
+      "active": "True",
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Grocery & Supermarkets",
+      "code": "NONRESIDENTIAL.COMMERCIAL.RETAIL.GROCERY&SUPERMARKETS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Establishment in Malls",
+      "code": "NONRESIDENTIAL.COMMERCIAL.RETAIL.ESTABLISHMENTINMALLS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Establishment in Multiplex",
+      "code": "NONRESIDENTIAL.COMMERCIAL.RETAIL.ESTABLISHMENTINMULTIPLEX",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Other Retail Stores",
+      "code": "NONRESIDENTIAL.COMMERCIAL.RETAIL.OTHERRETAILSTORES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "2 Star or below",
+      "code": "NONRESIDENTIAL.COMMERCIAL.HOTELS.2STARORBELOW",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "3 Star and Above",
+      "code": "NONRESIDENTIAL.COMMERCIAL.HOTELS.3STARANDABOVE",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Resorts",
+      "code": "NONRESIDENTIAL.COMMERCIAL.HOTELS.RESORTS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Office spaces",
+      "code": "NONRESIDENTIAL.COMMERCIAL.OFFICESPACES.OFFICESPACES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Community Halls",
+      "code": "NONRESIDENTIAL.COMMERCIAL.EVENTSPACES.COMMUNITYHALLS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Other Food Outlets",
+      "code": "NONRESIDENTIAL.COMMERCIAL.FOODJOINTS.OTHERFOODOUTLETS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Gaming Centre",
+      "code": "NONRESIDENTIAL.COMMERCIAL.ENTERTAINMENT.GAMINGCENTRE",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Hospital",
+      "code": "NONRESIDENTIAL.COMMERCIAL.MEDICALFACILITY.HOSPITAL",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Dispensary",
+      "code": "NONRESIDENTIAL.COMMERCIAL.MEDICALFACILITY.DISPENSARY",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Other Storage Facilities",
+      "code": "NONRESIDENTIAL.INDUSTRIAL.WAREHOUSE.OTHERSTORAGEFACILITIES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Industries",
+      "code": "NONRESIDENTIAL.INDUSTRIAL.MANUFACTURINGFACILITIES.INDUSTRIES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Orphanage",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.OTHERS.ORPHANAGE",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Old age homes",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.OTHERS.OLDAGEHOMES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Stray Animal Care Center",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.OTHERS.STRAYANIMALCARECENTER",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Home for the disabled",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.OTHERS.HOMEFORTHEDISABLED",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Bus Stands & Railway Station",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.PUBLICFACILITY.BUSSTANDS&RAILWAYSTATION",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Religious",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.RELIGIOUS.RELIGIOUS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Parks",
+      "code": "NONRESIDENTIAL.OTHERS.PUBLICSPACES.PARKS",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "School",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.SCHOOL",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Colleges",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.COLLEGES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Training Institutes",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.TRAININGINSTITUTES",
+      "active": "True",
+      "fromFY": "2015-16"
+    },
+    {
+      "name": "Polytechnics",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.POLYTECHNICS",
+      "active": "True",
       "fromFY": "2015-16"
     }
   ]

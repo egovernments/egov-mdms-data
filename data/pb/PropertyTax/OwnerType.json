@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "Handicapped Person",
+      "name": "Handicapped/ Disabled",
       "code": "HANDICAPPED",
       "active": true,
       "fromFY": "2015-16",
@@ -49,6 +49,17 @@
     {
       "name": "Defense Personnel",
       "code": "DEFENSE",
+      "active": true,
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 100.0,
+        "maxAmount": null,
+        "flatAmount": null
+      }
+    },
+    {
+      "name": "General",
+      "code": "GENERAL",
       "active": true,
       "fromFY": "2015-16",
       "exemption": {
