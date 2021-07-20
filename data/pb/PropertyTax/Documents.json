@@ -258,7 +258,14 @@
           "parentValue": [
             "WIDOW"
           ]
-        }
+        },
+        {
+          "code": "OWNER.SPECIALCATEGORYPROOF.GENERALID",
+          "active": true,
+          "parentValue": [
+            "GENERAL"
+          ]
+        },
       ],
       "description": "OWNER.SPECIALCATEGORYPROOF.SPECIALCATEGORYPROOF_DESCRIPTION"
     },
