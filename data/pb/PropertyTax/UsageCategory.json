@@ -440,17 +440,6 @@
       "fromFY": "2015-16"
     },
     {
-      "name": "Hotels",
-      "code": "NONRESIDENTIAL.COMMERCIAL.HOTELS",
-      "active": "True",
-      "fromFY": "2015-16",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
       "name": "Office Spaces",
       "code": "NONRESIDENTIAL.COMMERCIAL.OFFICESPACES",
       "active": "True",
