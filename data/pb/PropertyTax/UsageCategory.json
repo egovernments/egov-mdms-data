@@ -518,18 +518,7 @@
     },
     {
       "name": "Educational (Govt. aided)",
-      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL.GOVT",
-      "active": "True",
-      "fromFY": "2015-16",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
-      "name": "Educational (Govt. aided)",
-      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT",
       "active": "True",
       "fromFY": "2015-16",
       "exemption": {
@@ -672,25 +661,25 @@
     },
     {
       "name": "School",
-      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL.GOVT.SCHOOL",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.SCHOOL",
       "active": "True",
       "fromFY": "2015-16"
     },
     {
       "name": "Colleges",
-      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL.GOVT.COLLEGES",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.COLLEGES",
       "active": "True",
       "fromFY": "2015-16"
     },
     {
       "name": "Training Institutes",
-      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL.GOVT.TRAININGINSTITUTES",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.TRAININGINSTITUTES",
       "active": "True",
       "fromFY": "2015-16"
     },
     {
       "name": "Polytechnics",
-      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONAL.GOVT.POLYTECHNICS",
+      "code": "NONRESIDENTIAL.INSTITUTIONAL.EDUCATIONALGOVT.POLYTECHNICS",
       "active": "True",
       "fromFY": "2015-16"
     }
