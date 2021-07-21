@@ -1,0 +1,82 @@
+{
+    "tenantId": "pb",
+    "moduleName": "egov-location",
+    "TenantBoundary": [
+        {
+            "hierarchyType": {
+                "code": "ADMIN",
+                "name": "ADMIN"
+            },
+            "boundary": {
+                "id": 1,
+                "boundaryNum": 1,
+                "name": "Punjab",
+                "localname": "Punjab",
+                "longitude": null,
+                "latitude": null,
+                "label": "State",
+                "code": "ST",
+                "children": [
+                    {
+                        "id": "1c7d8d00-7678-4fd4-8aa2-2802dbb7249b",
+                        "boundaryNum": 1,
+                        "name": "ZONE_NORTH",
+                        "localname": "ZONE_NORTH",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "ZONE",
+                        "code": "Z1",
+                        "children": [
+                          {
+                            "id": "1c5dbabd-e04a-44e1-ac27-1fea19fac28f",
+                            "boundaryNum": 1,
+                            "name": "C1-Roopnagar",
+                            "localname": "C1-Roopnagar",
+                            "longitude": null,
+                            "latitude": null,
+                            "label": "CIRCLE",
+                            "code": "C1",
+                            "children": [
+                              {
+                                "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+                                "boundaryNum": 1,
+                                "name": "D1-Roopnagar",
+                                "localname": "D1-Roopnagar",
+                                "longitude": null,
+                                "latitude": null,
+                                "label": "DVISION",
+                                "code": "D1",
+                                "children": [
+                                  {
+                                    "id": "1c7d8d00-7678-4fd4-8dd2-2802dbb7249b",
+                                    "boundaryNum": 1,
+                                    "name": "SD1-Roopnagar",
+                                    "localname": "SD1-Roopnagar",
+                                    "longitude": null,
+                                    "latitude": null,
+                                    "label": "SUBDVISION",
+                                    "code": "SD1",
+                                    "children": [
+                                      {
+                                        "id": "1c7d8d00-7678-4fd4-8aa2-2802dbb7249b",
+                                        "boundaryNum": 1,
+                                        "name": "SEC1-Roopnagar",
+                                        "localname": "SEC1-Roopnagar",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "SECTION",
+                                        "code": "SEC1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
