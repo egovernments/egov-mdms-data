@@ -11,6 +11,16 @@
         "businessService": "PGR",
         "active": "true",
         "isStatelevel": "true"
+      },
+      {
+        "businessService": "TEST-PGR-2",
+        "active": "true",
+        "isStatelevel": "false"
+      },
+      {
+        "businessService": "TEST-PGR-3",
+        "active": "true",
+        "isStatelevel": "false"
       }
     ]
   }
