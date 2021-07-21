@@ -163,7 +163,7 @@
       "billKey": "ws-bill",
       "cancelReceipt": false,
       "cancelBill": true,
-      "arrears": false,
+      "arrears": true,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -180,7 +180,7 @@
       "billKey": "ws-bill",
       "cancelReceipt": false,
       "cancelBill": true,
-      "arrears": false,
+      "arrears": true,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
