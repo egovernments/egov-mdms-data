@@ -1236,6 +1236,13 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "PeriodicService": {
+      "masterName": "PeriodicService",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "Vehicle": {
