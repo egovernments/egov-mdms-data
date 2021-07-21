@@ -18666,6 +18666,18 @@
       "navigationURL": "bills/billSearch",
       "path": "BillGenie.CurrentBillCancellation",
       "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2171,
+      "name": "eChallan count",
+      "url": "/echallan-services/eChallan/v1/_count",
+      "parentModule": "",
+      "displayName": "Count Challan",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "CHALLAN_SERVICE",
+      "code": "null",
+      "path": ""
     }
   ]
 }
