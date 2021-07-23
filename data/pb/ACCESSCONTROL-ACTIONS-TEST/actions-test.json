@@ -10622,6 +10622,58 @@
       "serviceCode": "MCOLLECTRECEIPTREGISTERMETADATA",
       "code": "null",
       "path": "Receipt Register"
+    },
+    {
+      "id": 2189,
+      "name": "Cancel Bill",
+      "url": "/billing-service/bill/v2/_cancelbill",
+      "displayName": "Cancel Bill",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "Billing-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2190,
+      "name": "BillGenieSearch",
+      "url": "url",
+      "displayName": "BillGenie",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "abg/billSearch",
+      "path": "BillGenie.BillGenie",
+      "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2191,
+      "name": "CurrentBillCancellationSearch",
+      "url": "url",
+      "displayName": "CurrentBillCancellation",
+      "orderNumber": 6,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "bills/billSearch",
+      "path": "BillGenie.CurrentBillCancellation",
+      "leftIcon": "action:receipt"
+    },
+    {
+      "id": 2192,
+      "name": "eChallan count",
+      "url": "/echallan-services/eChallan/v1/_count",
+      "parentModule": "",
+      "displayName": "Count Challan",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "CHALLAN_SERVICE",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
