@@ -18678,6 +18678,39 @@
       "serviceCode": "CHALLAN_SERVICE",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2172,
+      "name": "To get the FSM Applications for periodic",
+      "url": "/fsm/v1/_getapplicationsforperiodic",
+      "displayName": "Apply FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2173,
+      "name": "Create FSM Schedular",
+      "url": "/fsm/v1/_schedular",
+      "displayName": "Apply FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2174,
+      "name": "Create FSM Periodic Application",
+      "url": "/fsm/v1/_createperiodicapplications",
+      "displayName": "Apply FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
