@@ -1,0 +1,18 @@
+{
+    "tenantId": "pg",
+    "moduleName": "mCollect",
+    "applicationStatus": [
+       {
+        "code": "PAID",
+        "active": true
+      },
+      {
+        "code": "CANCELLED",
+        "active":true
+      },
+      {
+        "code": "ACTIVE",
+        "active":true
+      }
+    ]
+  }

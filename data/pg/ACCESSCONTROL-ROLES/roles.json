@@ -38,27 +38,27 @@
       "description": "Grievance Routing Officer"
     },
     {
-      "code": "Asset Administrator",
+      "code": "ASSET_ADMINISTRATOR",
       "name": "Asset Administrator",
       "description": "Asset Administrator"
     },
     {
-      "code": "ULB Operator",
+      "code": "ULB_OPERATOR",
       "name": "ULB Operator",
       "description": "ULB Operator"
     },
     {
-      "code": "EMPLOYEE ADMIN",
+      "code": "EMPLOYEE_ADMIN",
       "name": "EMPLOYEE ADMIN",
       "description": "EMPLOYEE ADMIN"
     },
     {
-      "code": "Property Approver",
+      "code": "PROPERTY_APPROVER",
       "name": "Property Approver",
       "description": "Property Approver"
     },
     {
-      "code": "Property Verifier",
+      "code": "PROPERTY_VERIFIER",
       "name": "Property Verifier",
       "description": "Property Verifier"
     },
@@ -126,31 +126,6 @@
       "code": "COLL_REP_VIEW",
       "name": "Collection Report Viewer",
       "description": "Collection Report Viewer can view Reports"
-    },
-    {
-      "code": "testonecode112234324",
-      "name": "test3test2",
-      "description": "test123description"
-    },
-    {
-      "code": "testtwocode11234354",
-      "name": "test4test1",
-      "description": "testcodedescription"
-    },
-    {
-      "code": "testonecode112234324",
-      "name": "test3test21",
-      "description": "test123description"
-    },
-    {
-      "code": "STORE INCHARGE",
-      "name": "Store Incharge",
-      "description": "Incharge of the ULB store"
-    },
-    {
-      "code": "directortestcode112234324",
-      "name": "director123456",
-      "description": "test123description"
     },
     {
       "code": "COMMISSIONER",
@@ -586,6 +561,21 @@
       "code": "UC_EMP",
       "name": "Universal Collection Employee",
       "description": "Universal Miscellaneous Collection Employee"
+    },
+    {
+      "code": "CR_PT",
+      "name": "Property Tax Receipt Cancellator",
+      "description": "Property Tax Receipt Cancelling Employee"
+    },
+    {
+      "code": "AUTO_ESCALATE",
+      "name": "Auto Escalation Employee",
+      "description": "Auto Escalation Employee"
+    },
+    {
+      "code": "PT_COLLECTION_EMP",
+      "name": "Property Tax Collection Employee",
+      "description": "PTCollection Register Report"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "CancelCurrentBillReasons":
+    [
+      {
+        "code": "INCORRECT_PERSONAL_INFO",
+        "active": true
+      },
+      {
+        "code": "INCORRECT_PROPERTY_DETAILS",
+        "active": true
+      },{
+        "code": "INCORRECT_CONNECTION_DETAILS",
+        "active": true
+      },
+      {
+        "code": "OTHER",
+        "active": true
+      }
+    ]
+  } 
