@@ -20623,6 +20623,30 @@
       "actionid": 1687,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_CEMP",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_DOC_VERIFIER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_FIELD_INSPECTOR",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
