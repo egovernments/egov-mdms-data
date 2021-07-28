@@ -20671,6 +20671,24 @@
       "actionid": 1766,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DASHBOARD_VIEWER",
+      "actionid": 2181,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 2182,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DASHBOARD_VIEWER",
+      "actionid": 2182,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
