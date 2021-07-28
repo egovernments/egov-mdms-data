@@ -576,6 +576,11 @@
       "code": "PT_COLLECTION_EMP",
       "name": "Property Tax Collection Employee",
       "description": "PTCollection Register Report"
+    },
+    {
+      "code": "SUPERVISOR",
+      "name": "Auto Escalation Supervisor",
+      "description": "Escalation to particular role"
     }
   ]
 }
