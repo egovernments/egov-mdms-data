@@ -20581,6 +20581,48 @@
     "actionid": 2155,
     "actioncode": "",
     "tenantId": "pg"
-  }
+  },
+   {
+    "rolecode": "CITIZEN",
+    "actionid": 2124,
+    "actioncode": "",
+    "tenantId": "pg"
+  }, 
+    {
+    "rolecode": "UC_EMP",
+    "actionid": 2124,
+    "actioncode": "",
+    "tenantId": "pg"
+  }, 
+    {
+    "rolecode": "SUPERUSER",
+    "actionid": 2124,
+    "actioncode": "",
+    "tenantId": "pg"
+  }, 
+    {
+    "rolecode": "CITIZEN",
+    "actionid": 2125,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+    {
+    "rolecode": "CITIZEN",
+    "actionid": 2126,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+    {
+      "rolecode": "TL_DOC_VERIFIER",
+      "actionid": 1687,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TL_FIELD_INSPECTOR",
+      "actionid": 1687,
+      "actioncode": "",
+      "tenantId": "pg"
+    }
   ]
 }
