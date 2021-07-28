@@ -15,15 +15,15 @@
       {
         "businessService": "PGR",
         "module": "pgr-services",
-        "state": "RESOLVED",
-        "action": "CLOSERESOLVEDCOMPLAIN",
+        "state": "PENDINGATLME",
+        "action": "FORWARD",
         "active": "true",
-        "stateSLA": 1.0,
+        "stateSLA": 0.01,
         "businessSLA": null,
-        "topic" : "pgr-auto-escalation"
+        "topic": "pgr-auto-escalation"
       },
       {
-        "businessService": "TEST-1",
+        "businessService": "PGR",
         "module": "pgr-services",
         "state": "PENDINGFORASSIGNMENT",
         "action": "ASSIGNEDBYAUTOESCALATION",
@@ -32,11 +32,11 @@
         "businessSLA": null,
         "topic": "pgr-auto-escalation"
       },
-  {
-        "businessService": "TEST-1",
+      {
+        "businessService": "PGR",
         "module": "pgr-services",
-        "state": "PENDINGATLME",
-        "action": "FORWARD",
+        "state": "REJECTED",
+        "action": "CANCEL",
         "active": "true",
         "stateSLA": 0.01,
         "businessSLA": null,
