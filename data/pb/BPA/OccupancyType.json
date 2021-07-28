@@ -70,13 +70,13 @@
       },
       {
          "name":"Public Buildings",
-         "code":"A",
+         "code":"H",
          "active":true,
          "maxCoverage":65.0,
          "minFar":3.0,
          "maxFar":3.0,
          "orderNumber":1,
-         "description":"Public Buildings - A5",
+         "description":"Public Buildings - H",
          "colorCode":null
       },
       {
@@ -92,24 +92,24 @@
       },
       {
          "name":"Transportation",
-         "code":"D",
+         "code":"J",
          "active":true,
          "maxCoverage":65.0,
          "minFar":1.5,
          "maxFar":1.5,
          "orderNumber":1,
-         "description":"Transportation - D2",
+         "description":"Transportation - J",
          "colorCode":null
       },
       {
          "name":"Sports",
-         "code":"I",
+         "code":"K",
          "active":true,
          "maxCoverage":65.0,
          "minFar":3.0,
          "maxFar":4.0,
          "orderNumber":1,
-         "description":"Sports - I5",
+         "description":"Sports - K",
          "colorCode":null
       },
       {
@@ -125,13 +125,13 @@
       },
       {
          "name":"Religious",
-         "code":"D",
+         "code":"L",
          "active":true,
          "maxCoverage":65.0,
          "minFar":1.5,
          "maxFar":1.5,
          "orderNumber":1,
-         "description":"Religious - D1",
+         "description":"Religious - L",
          "colorCode":null
       }
       
