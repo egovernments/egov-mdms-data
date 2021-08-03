@@ -1164,6 +1164,20 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+"ApplicationType": {
+      "masterName": "ApplicationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "PeriodicService": {
+      "masterName": "PeriodicService",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "Vehicle":{
@@ -1180,20 +1194,7 @@
       "uniqueKeys": [
         "$.code"
       ]
-    },
-	"ApplicationType": {
-      "masterName": "ApplicationType",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    },
-    "PeriodicService": {
-      "masterName": "PeriodicService",
-      "isStateLevel": false,
-      "uniqueKeys": [
-        "$.code"
-      ]
     }
+	
   }
 }
