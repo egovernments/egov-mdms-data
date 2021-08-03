@@ -638,8 +638,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Sanitation.Licence Pure food",
-      "code": "SNT.Licence_Pure_food",
+      "businessService": "Sanitation.License Pure food",
+      "code": "SNT.License_Pure_food",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -770,8 +770,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Naksha/Building Manual Fees.Under_Development_Fees",
-      "code": "NKS.Change_of_Land_Use_Fees",
+      "businessService": "Naksha/Building Manual Fees.Under Development Fees",
+      "code": "NKS.Building Manual Fees.Under_Development_Fees",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1292,6 +1292,30 @@
     {
       "businessService": "Finance Fees.CPF received check",
       "code": "FN.CPF_received_check",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "type": "Adhoc"
+    },
+    {
+      "businessService": "Finance Fees.Provident Fund Processing Fees",
+      "code": "FN.Provident_Fund_Processing_Fees",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "type": "Adhoc"
+    },
+    {
+      "businessService": "Finance Fees.Tender Earnest Money Deposit (Refundable fee)",
+      "code": "FN.Tender_Earnest_Money_Deposit_Refundable_fee",
       "collectionModesNotAllowed": [
         "DD"
       ],
