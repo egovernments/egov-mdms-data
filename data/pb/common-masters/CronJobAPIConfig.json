@@ -63,7 +63,7 @@
     },
 	{
       "jobName": "daily",
-      "active": "false",
+      "active": "true",
       "method": "POST",
       "url": "http://fsm.egov:8080/fsm/v1/_schedular",
       "payload": {
