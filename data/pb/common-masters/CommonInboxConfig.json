@@ -1,0 +1,29 @@
+{
+    "tenantId": "pb",
+    "moduleName": "common-masters",
+    "CommonInboxConfig": [{
+            "moduleName": "PT",
+            "BusinessService": "PT.CREATE",
+            "roles": ["PT_CEMP", "PT_FI"],
+            "active": true
+        },
+        {
+            "moduleName": "TL",
+            "BusinessService": "NewTL",
+            "roles": ["TL_CEMP", "TL_FI"],
+            "active": true
+        },
+        {
+            "moduleName": "PT",
+            "BusinessService": "PT.UPDATE",
+            "roles": ["PT_CEMP", "PT_FI"],
+            "active": true
+        },
+        {
+            "moduleName": "PT",
+            "BusinessService": "PT.MUTATION",
+            "roles": ["PT_CEMP", "PT_FI"],
+            "active": true
+        }
+    ]
+}
