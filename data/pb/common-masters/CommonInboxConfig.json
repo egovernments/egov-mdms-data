@@ -5,25 +5,33 @@
             "moduleName": "PT",
             "BusinessService": "PT.CREATE",
             "roles": ["PT_CEMP", "PT_FI"],
-            "active": true
+            "active": true,
+            "locality":true,
+            "localityModule":"property-services"
         },
         {
             "moduleName": "TL",
             "BusinessService": "NewTL",
             "roles": ["TL_CEMP", "TL_FI"],
-            "active": true
+            "active": true,
+            "locality":true,
+            "localityModule":"tl-services"
         },
         {
             "moduleName": "PT",
             "BusinessService": "PT.UPDATE",
             "roles": ["PT_CEMP", "PT_FI"],
-            "active": true
+            "active": true,
+            "locality":true,
+            "localityModule":"property-services"
         },
         {
             "moduleName": "PT",
             "BusinessService": "PT.MUTATION",
             "roles": ["PT_CEMP", "PT_FI"],
-            "active": true
+            "active": true,
+            "locality":true,
+            "localityModule":"property-services"
         }
     ]
 }
