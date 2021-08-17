@@ -7,7 +7,11 @@
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
             "active": true,
             "locality":true,
-            "localityModule":"property-services"
+            "localityModule":"property-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/property-tax/application-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&type=property",
+                "DEFAULT": "/employee/property-tax/application-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&type=property"
+              }
         },
         {
             "moduleName": "TL",
@@ -15,7 +19,11 @@
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
             "active": true,
             "locality":true,
-            "localityModule":"tl-services"
+            "localityModule":"tl-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/tradelicence/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
         },
         {
             "moduleName": "PT",
@@ -23,7 +31,11 @@
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
             "active": true,
             "locality":true,
-            "localityModule":"property-services"
+            "localityModule":"property-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/property-tax/application-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&type=updateProperty",
+                "DEFAULT": "/employee/property-tax/application-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&type=updateProperty"
+              }
         },
         {
             "moduleName": "PT",
@@ -31,7 +43,11 @@
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
             "active": true,
             "locality":true,
-            "localityModule":"property-services"
+            "localityModule":"property-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/pt-mutation/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/pt-mutation/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
         },
         {
             "moduleName": "TL",
@@ -39,7 +55,11 @@
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
             "active": true,
             "locality":true,
-            "localityModule":"tl-services"
+            "localityModule":"tl-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/tradelicence/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
         },
         {
             "moduleName": "TL",
@@ -47,7 +67,11 @@
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
             "active": true,
             "locality":true,
-            "localityModule":"tl-services"
+            "localityModule":"tl-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/tradelicence/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
         },
         {
             "moduleName": "FireNoc",
@@ -55,7 +79,11 @@
             "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
             "active": true,
             "locality":true,
-            "localityModule":"fireNoc"
+            "localityModule":"fireNoc",
+            "redirectConfig": {
+                "INITIATED": "/employee/fire-noc/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/fire-noc/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
         }
     ]
 }
