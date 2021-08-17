@@ -4,7 +4,7 @@
     "CommonInboxConfig": [{
             "moduleName": "PT",
             "BusinessService": "PT.CREATE",
-            "roles": ["PT_CEMP", "PT_FI"],
+            "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
             "active": true,
             "locality":true,
             "localityModule":"property-services"
@@ -12,7 +12,7 @@
         {
             "moduleName": "TL",
             "BusinessService": "NewTL",
-            "roles": ["TL_CEMP", "TL_FI"],
+            "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
             "active": true,
             "locality":true,
             "localityModule":"tl-services"
@@ -20,7 +20,7 @@
         {
             "moduleName": "PT",
             "BusinessService": "PT.UPDATE",
-            "roles": ["PT_CEMP", "PT_FI"],
+            "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
             "active": true,
             "locality":true,
             "localityModule":"property-services"
@@ -28,10 +28,34 @@
         {
             "moduleName": "PT",
             "BusinessService": "PT.MUTATION",
-            "roles": ["PT_CEMP", "PT_FI"],
+            "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
             "active": true,
             "locality":true,
             "localityModule":"property-services"
+        },
+        {
+            "moduleName": "TL",
+            "BusinessService": "DIRECTRENEWAL",
+            "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
+            "active": true,
+            "locality":true,
+            "localityModule":"tl-services"
+        },
+        {
+            "moduleName": "TL",
+            "BusinessService": "EDITRENEWAL",
+            "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
+            "active": true,
+            "locality":true,
+            "localityModule":"tl-services"
+        },
+        {
+            "moduleName": "FireNoc",
+            "BusinessService": "FIRENOC",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"fireNoc"
         }
     ]
 }
