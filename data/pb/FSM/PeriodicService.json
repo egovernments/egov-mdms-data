@@ -3,7 +3,7 @@
     "moduleName": "FSM",
     "PeriodicService":[
 	{
-	   "timeLimit" : 7200000,
+	   "timeLimit" : 172800000,
 	   "isSchedularConfiguration":true
 	}
 	]
