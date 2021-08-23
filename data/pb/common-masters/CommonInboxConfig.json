@@ -5,8 +5,8 @@
             "moduleName": "PT",
             "BusinessService": "PT.CREATE",
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"property-services",
             "redirectConfig": {
                 "INITIATED": "/employee/property-tax/application-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&type=property",
@@ -18,7 +18,7 @@
             "BusinessService": "NewTL",
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
             "active": true,
-            "locality":true,
+            "locality":false,
             "localityModule":"tl-services",
             "redirectConfig": {
                 "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
@@ -41,8 +41,8 @@
             "moduleName": "PT",
             "BusinessService": "PT.MUTATION",
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"property-services",
             "redirectConfig": {
                 "INITIATED": "/employee/pt-mutation/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^",
@@ -53,8 +53,8 @@
             "moduleName": "TL",
             "BusinessService": "DIRECTRENEWAL",
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"tl-services",
             "redirectConfig": {
                 "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
@@ -65,8 +65,8 @@
             "moduleName": "TL",
             "BusinessService": "EDITRENEWAL",
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"tl-services",
             "redirectConfig": {
                 "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
@@ -84,6 +84,83 @@
                 "INITIATED": "/employee/fire-noc/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
                 "DEFAULT": "/employee/fire-noc/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
               }
+        },{
+            "moduleName": "BPA",
+            "BusinessService": "BPA",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"bpa-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/egov-bpa/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/egov-bpa/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
+        },{
+            "moduleName": "BPA",
+            "BusinessService": "BPA_OC",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"bpa-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/oc-bpa/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/oc-bpa/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
+        },{
+            "moduleName": "BPA",
+            "BusinessService": "NOC-SERVICES",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"noc-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/noc/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
+                "DEFAULT": "/employee/noc/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+              }
+        },{
+            "moduleName": "WNS",
+            "BusinessService": "NewWS1",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"ws-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=WATER",
+                "DEFAULT": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=WATER"
+              }
+        },{
+            "moduleName": "WNS",
+            "BusinessService": "NewSW1",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"sw-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=SEWERAGE",
+                "DEFAULT": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=SEWERAGE"
+              }
+        },{
+            "moduleName": "WNS",
+            "BusinessService": "ModifyWSConnection",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"ws-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=WATER&mode=MODIFY",
+                "DEFAULT": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=WATER&mode=MODIFY"
+              }
+        },{
+            "moduleName": "WNS",
+            "BusinessService": "ModifySWConnection",
+            "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
+            "active": true,
+            "locality":true,
+            "localityModule":"sw-services",
+            "redirectConfig": {
+                "INITIATED": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=SEWERAGE&mode=MODIFY",
+                "DEFAULT": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=SEWERAGE&mode=MODIFY"
+              }
         }
-    ]
+    ]     
 }
