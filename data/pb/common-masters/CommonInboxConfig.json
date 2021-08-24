@@ -5,8 +5,8 @@
             "moduleName": "PT",
             "BusinessService": "PT.CREATE",
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"property-services",
             "redirectConfig": {
                 "INITIATED": "/employee/property-tax/application-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&type=property",
@@ -17,8 +17,8 @@
             "moduleName": "TL",
             "BusinessService": "NewTL",
             "roles": ["TL_CEMP", "TL_DOC_VERIFIER","TL_APPROVER","TL_FIELD_INSPECTOR"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"tl-services",
             "redirectConfig": {
                 "INITIATED": "/employee/tradelicence/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
@@ -41,8 +41,8 @@
             "moduleName": "PT",
             "BusinessService": "PT.MUTATION",
             "roles": ["PT_CEMP", "PT_DOC_VERIFIER","PT_FIELD_INSPECTOR","PT_APPROVER"],
-            "active": true,
-            "locality":true,
+            "active": false,
+            "locality":false,
             "localityModule":"property-services",
             "redirectConfig": {
                 "INITIATED": "/employee/pt-mutation/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^",
@@ -111,7 +111,7 @@
             "BusinessService": "NOC-SERVICES",
             "roles": ["NOC_CEMP", "NOC_DOC_VERIFIER","NOC_FIELD_INSPECTOR","FIRE_NOC_APPROVER","NOC_APPROVER"],
             "active": false,
-            "locality":true,
+            "locality":false,
             "localityModule":"noc-services",
             "redirectConfig": {
                 "INITIATED": "/employee/noc/apply?applicationNumber=^WFBID^&tenantId=^WFTNID^",
