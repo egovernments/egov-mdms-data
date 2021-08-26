@@ -2,7 +2,8 @@
     "tenantId": "pb",
     "moduleName": "PropertyTax",
     "UpdateNumber":[ {
-        "invalid-pattern":"/^[6789][0-9]{9}$/i",
+        "invalidPattern":"^[6789][0-9]{9}$",
+        "invalidNumber":"9999999999",
         "warningEnabled":true,
         "skipEnabled":true,
         "documents":[
