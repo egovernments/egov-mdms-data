@@ -161,6 +161,17 @@
                 "INITIATED": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=SEWERAGE&mode=MODIFY",
                 "DEFAULT": "/employee/wns/search-preview?applicationNumber=^WFBID^&tenantId=^WFTNID^&history=true&service=SEWERAGE&mode=MODIFY"
               }
+        },{
+            "moduleName": "PGR",
+            "BusinessService": "PGR",
+            "roles":["GRO","DGRO","PGR_LME","SUPERVISOR"],
+            "active": true,
+            "locality":true,
+            "localityModule":"pgr-services",
+            "redirectConfig": {
+                "INITIATED": "/digit-ui/employee/pgr/complaint/details/^WFBID^",
+                "DEFAULT":"/digit-ui/employee/pgr/complaint/details/^WFBID^"
+              }
         }
     ]
 }
