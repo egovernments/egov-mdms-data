@@ -1,23 +1,18 @@
 {
     "tenantId": "pb",
-    "moduleName": "Citizen-Engagement",
-    "OccupancyType":
+    "moduleName": "CitizenEngagement",
+    "DocummentCriteria":
     [
       {
-        "name": "Rented",
+        "name": "Property",
         "code": "RENTED",
         "active": true
       },
       {
-        "name": "Self-Occupied",
+        "name": "Example Documents",
         "code": "SELFOCCUPIED",
-        "active": true
-      },
-      {
-        "name": "Unoccupied",
-        "code": "UNOCCUPIED",
         "active": true
       }
     ]
-  }
+}
   
