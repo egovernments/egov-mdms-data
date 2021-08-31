@@ -10718,6 +10718,17 @@
       "serviceCode": "PT",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2197,
+      "name": "Locality searcher endpoint for PGR",
+      "url": "/egov-searcher/locality/pgr-services/_get",
+      "displayName": "PGR locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
