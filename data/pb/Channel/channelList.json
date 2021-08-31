@@ -1,0 +1,12 @@
+{
+  "tenantId": "pb",
+  "moduleName": "Channel",
+  "channelList": [
+    {
+      "businessService": "PT.CREATE",
+      "module": "PT",
+      "action" : "OPEN",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    }
+  ]
+}
