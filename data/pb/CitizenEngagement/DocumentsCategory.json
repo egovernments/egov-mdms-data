@@ -1,0 +1,18 @@
+{
+    "tenantId": "pb",
+    "moduleName": "CitizenEngagement",
+    "DocumentsCategory":
+    [
+      {
+        "name": "Property",
+        "code": "ENGAGEMENT_DOCS_RENTED",
+        "active": true
+      },
+      {
+        "name": "Example Documents",
+        "code": "ENGAGEMENT_DOCS_SELFOCCUPIED",
+        "active": true
+      }
+    ]
+}
+  

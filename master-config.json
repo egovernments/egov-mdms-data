@@ -1229,6 +1229,20 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "ApplicationType": {
+      "masterName": "ApplicationType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "PeriodicService": {
+      "masterName": "PeriodicService",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "Vehicle": {
@@ -1241,6 +1255,22 @@
     },
     "VehicleMakeModel": {
       "masterName": "VehicleMakeModel",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
+  },
+  "EDCR": {
+    "DimensionConfig": {
+      "masterName": "DimensionConfig",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DxfToPdfConfig": {
+      "masterName": "DxfToPdfConfig",
       "isStateLevel": true,
       "uniqueKeys": [
         "$.code"

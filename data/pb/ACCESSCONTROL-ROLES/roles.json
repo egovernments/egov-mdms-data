@@ -576,6 +576,16 @@
       "code": "PT_COLLECTION_EMP",
       "name": "ptcollection emp",
       "description": "PTCollection Register Report"
+    },
+    {
+      "code": "AUTO_ESCALATE",
+      "name": "autoescalation emp",
+      "description": "Auto Escalation Employee"
+    },
+    {
+      "code": "CR_PT",
+      "name": "Property Tax Receipt Cancellator",
+      "description": "Property Tax Receipt Cancelling Employee"
     }
   ]
 }
