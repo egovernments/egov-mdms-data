@@ -4,15 +4,29 @@
     "DocumentsCategory":
     [
       {
-        "name": "Property",
-        "code": "ENGAGEMENT_DOCS_RENTED",
+        "name": "Citizen Charter",
+        "code": "ENGAGEMENT_DOCS_CITIZEN_CHARTER",
         "active": true
       },
       {
-        "name": "Example Documents",
-        "code": "ENGAGEMENT_DOCS_SELFOCCUPIED",
+        "name": "Forms",
+        "code": "ENGAGEMENT_DOCS_FORMS",
+        "active": true
+      },
+      {
+        "name": "Tenders",
+        "code": "ENGAGEMENT_DOCS_TENDERS",
+        "active": true
+      },
+      {
+        "name": "Circulars",
+        "code": "ENGAGEMENT_DOCS_CIRCULARS",
+        "active": true
+      },
+      {
+        "name": "Government Orders",
+        "code": "ENGAGEMENT_DOCS_GOVERNMENT_ORDERS",
         "active": true
       }
     ]
 }
-  
