@@ -207,7 +207,7 @@
           "nextStep": {
             "yes": "rental-details",
             "no": "provide-sub-usage-type",
-            "vacant": "map"
+            "vacant": "vasika-details"
           },
           "hideInEmployee": true
         },
@@ -351,7 +351,7 @@
           "key": "units",
           "withoutLabel": true,
           "nextStep": {
-            "PT_COMMON_NO": "map",
+            "PT_COMMON_NO": "vasika-details",
             "PT_COMMON_YES": "un-occupied-area"
           },
           "hideInEmployee": true
@@ -369,10 +369,46 @@
           },
           "key": "units",
           "withoutLabel": true,
-          "nextStep": "map",
+          "nextStep": "vasika-details",
           "hideInEmployee": true
         }
       ]
+    }, {
+      "head": "ES_NEW_APPLICATION_PROPERTY_VASIKA_DETAILS",
+      "body": [{
+        "route": "vasika-details",
+        "component": "PTVasikaDetails",
+        "nextStep": "allotment-details",
+        "key": "additionalDetails.vasika",
+        "texts": {
+          "header": "PT_VASIKA_HEADER",
+          "cardText": "PT_VASIKA_TEXT",
+          "nextText": "PT_COMMON_NEXT",
+          "skipAndContinueText": "CORE_COMMON_SKIP_CONTINUE"
+        }
+      }, {
+        "route": "allotment-details",
+        "component": "PTAllotmentDetails",
+        "nextStep": "business-details",
+        "key": "additionalDetails.allotment",
+        "texts": {
+          "header": "PT_ALLOTMENT_HEADER",
+          "cardText": "PT_ALLOTMENT_TEXT",
+          "nextText": "PT_COMMON_NEXT",
+          "skipAndContinueText": "CORE_COMMON_SKIP_CONTINUE"
+        }
+      }, {
+        "route": "business-details",
+        "component": "PTBusinessDetails",
+        "nextStep": "map",
+        "key": "additionalDetails.business",
+        "texts": {
+          "header": "PT_BUSINESS_HEADER",
+          "cardText": "PT_BUSINESS_TEXT",
+          "nextText": "PT_COMMON_NEXT",
+          "skipAndContinueText": "CORE_COMMON_SKIP_CONTINUE"
+        }
+      }]
     },
     {
       "head": "ES_NEW_APPLICATION_OWNERSHIP_DETAILS",
