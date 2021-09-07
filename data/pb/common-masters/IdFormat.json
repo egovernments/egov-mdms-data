@@ -577,6 +577,10 @@
     {
       "idname": "echallan.aplnumber",
       "format": "PB-CH-[cy:yyyy-MM-dd]-[SEQ_EG_CH_APL]"
+    },
+    {
+      "format": "DOC-[cy:yyyy-MM-dd]-[SEQ_EG_DOC_ID]",
+      "idname": "du.documentid"
     }
   ]
 }
