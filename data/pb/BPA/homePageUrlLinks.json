@@ -7,12 +7,14 @@
         "serviceType": "NEW_CONSTRUCTION",
         "link": "/building_plan_scrutiny/new_construction",
         "WFState": "INITIATED",
+        "flow": "BPA",
         "active": true
       },{
         "applicationType": "BUILDING_OC_PLAN_SCRUTINY",
         "serviceType": "NEW_CONSTRUCTION",
         "link": "/building_oc_plan_scrutiny/new_construction",
         "WFState": "INITIATED",
+        "flow": "OCBPA",
         "active":true
       }
     ]
