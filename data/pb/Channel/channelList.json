@@ -6,7 +6,7 @@
       "businessService": "PT.CREATE",
       "module": "PT",
       "action" : "OPEN",
-      "channelNames": ["SMS", "EMAIL"]
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
   ]
 }
