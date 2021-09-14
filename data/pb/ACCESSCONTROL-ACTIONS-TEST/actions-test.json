@@ -10773,6 +10773,17 @@
       "serviceCode": "DU",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2203,
+      "name": "egov searcher sewerage services",
+      "url": "/egov-searcher/sewerage-services/sewerageopensearch/_get",
+      "displayName": "Sewerage Locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
