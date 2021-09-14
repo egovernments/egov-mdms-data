@@ -10729,6 +10729,17 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2198,
+      "name": "Locality searcher endpoint for sewerage open search",
+      "url": "https://qa.digit.org/egov-searcher/sewerage-services/sewerageopensearch/_get",
+      "displayName": "sewerage open search searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
