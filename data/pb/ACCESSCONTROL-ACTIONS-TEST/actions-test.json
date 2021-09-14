@@ -18766,6 +18766,17 @@
       "serviceCode": "DU",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2180,
+      "name": "Adding alternate number to a property",
+      "url": "/property-services/property/_addAlternateNumber",
+      "displayName": "Add Alternate Number",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
