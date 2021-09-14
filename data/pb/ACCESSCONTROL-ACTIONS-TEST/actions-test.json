@@ -10729,6 +10729,50 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2199,
+      "name": "Document Uploader: Create document",
+      "url": "/egov-document-uploader/egov-du/document/_create",
+      "displayName": "Create document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2200,
+      "name": "Document Uploader: Search document",
+      "url": "/egov-document-uploader/egov-du/document/_search",
+      "displayName": "Search document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2201,
+      "name": "Document Uploader: Update document",
+      "url": "/egov-document-uploader/egov-du/document/_update",
+      "displayName": "Update document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2202,
+      "name": "Document Uploader: Delete document",
+      "url": "/egov-document-uploader/egov-du/document/_delete",
+      "displayName": "Delete document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
