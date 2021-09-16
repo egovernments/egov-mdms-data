@@ -188,6 +188,22 @@
                "printLayerName":false
             }
          ]
+      },
+      {
+         "sheetName":"COMPLETE_PLAN",
+         "sheetSize":"A0",
+         "sheetSizeEnlargeFactor":2,
+         "orientation":"LANDSCAPE",
+         "removeHatch":false,
+         "planPdfLayerConfigs":[
+            {
+               "layerName":"COMPLETE_PLAN",
+               "layerType":null,
+               "overrideColor":null,
+               "overrideThickness":null,
+               "printLayerName":false
+            }
+         ]
       }
    ]
 }
