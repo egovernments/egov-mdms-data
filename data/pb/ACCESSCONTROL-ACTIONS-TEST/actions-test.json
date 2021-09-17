@@ -18777,6 +18777,72 @@
       "serviceCode": "property-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2181,
+      "name": "Survey Service: Create survey",
+      "url": "/egov-survey-services/egov-ss/survey/_create",
+      "displayName": "Create survey",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "SS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2182,
+      "name": "Survey Service: Search survey",
+      "url": "/egov-survey-services/egov-ss/survey/_search",
+      "displayName": "Search survey",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "SS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2183,
+      "name": "Survey Service: Update survey",
+      "url": "/egov-survey-services/egov-ss/survey/_update",
+      "displayName": "Update survey",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "SS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2184,
+      "name": "Survey Service: Delete survey",
+      "url": "/egov-survey-services/egov-ss/survey/_delete",
+      "displayName": "Delete survey",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "SS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2185,
+      "name": "Survey Service: Response submit",
+      "url": "/egov-survey-services/egov-ss/survey/response/_submit",
+      "displayName": "Submit survey response",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "SS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2186,
+      "name": "Survey Service: Response view",
+      "url": "/egov-survey-services/egov-ss/survey/response/_results",
+      "displayName": "Submit survey response",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "SS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
