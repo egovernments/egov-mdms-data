@@ -59,6 +59,7 @@
                     "nextStep": "pincode",
                     "hideInEmployee": true,
                     "key": "address",
+                    "withoutLabel": true,
                     "texts": {
                         "header": "TL_GEOLOACTION_HEADER",
                         "cardText": "TL_GEOLOCATION_TEXT",
@@ -137,7 +138,7 @@
                     "type": "component",
                     "component": "SelectStreet",
                     "key": "address",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInCitizen": true,
                     "texts": {
                         "headerCaption": "TL_LOCATION_CAPTION",
@@ -170,7 +171,7 @@
                     "type": "component",
                     "route": "landmark",
                     "component": "SelectLandmark",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "texts": {
                         "headerCaption": "TL_LOCATION_CAPTION",
                         "header": "CS_FILE_APPLICATION_PROPERTY_LOCATION_PROVIDE_LANDMARK_TITLE",
@@ -186,7 +187,7 @@
                     "type": "component",
                     "route": "proof",
                     "component": "Proof",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "texts": {
                         "headerCaption": "TL_OWNERS_DETAILS",
                         "header": "TL_OWNERS_PHOTOGRAPH_HEADER",
@@ -220,7 +221,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT",
                         "skipText": ""
                     },
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "key": "TradeDetails",
                     "nextStep": "structure-type",
                     "type": "component",
@@ -238,7 +239,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "TradeDetails",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInEmployee": true,
                     "nextStep": {
                         "TL_COMMON_YES": "Building-type",
@@ -257,7 +258,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "TradeDetails",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInEmployee": true,
                     "nextStep": "commencement-date"
                 },
@@ -273,7 +274,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "TradeDetails",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInEmployee": true,
                     "nextStep": "commencement-date"
                 },
@@ -289,7 +290,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "TradeDetails",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInEmployee": true,
                     "nextStep": "units-details"
                 },
@@ -305,7 +306,7 @@
                         "cardText": "TL_TRADE_UNITS_TEXT",
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "isAccessories",
                     "hideInEmployee": true
                 },
@@ -321,7 +322,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "TradeDetails",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInEmployee": true,
                     "nextStep": {
                         "TL_COMMON_YES": "accessories-details",
@@ -340,7 +341,7 @@
                         "cardText": "TL_TRADE_ACCESSORIES_TEXT",
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "map",
                     "hideInEmployee": true
                 }
@@ -361,7 +362,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "ownershipCategory",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "owner-details"
                 },
                 {
@@ -376,7 +377,7 @@
                         "cardText": "TL_OWNER_DETAILS_TEXT",
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "owner-address",
                     "hideInEmployee": true
                 },
@@ -392,7 +393,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "owners",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "proof-of-identity",
                     "hideInEmployee": true
                 },
@@ -409,7 +410,7 @@
                         "addMultipleText": "PT_COMMON_ADD_APPLICANT_LABEL"
                     },
                     "key": "owners",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "ownership-proof",
                     "hideInEmployee": true
                 },
@@ -425,7 +426,7 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     },
                     "key": "owners",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "nextStep": "proof",
                     "hideInEmployee": true
                 },
@@ -433,7 +434,7 @@
                     "type": "component",
                     "component": "TLOwnerDetailsEmployee",
                     "key": "owners",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "hideInCitizen": true
                 }
             ]
@@ -443,7 +444,7 @@
             "body": [
                 {
                     "component": "TLDocumentsEmployee",
-                    "withoutlabel": true,
+                    "withoutLabel": true,
                     "key": "documents",
                     "type": "component",
                     "hideInCitizen": true
