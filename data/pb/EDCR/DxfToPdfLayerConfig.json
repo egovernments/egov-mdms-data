@@ -77,14 +77,14 @@
          ]
       },
       {
-         "sheetName":"ELEVATION_PLAN_NO_*",
+         "sheetName":"ELEVATION_PLAN_*",
          "sheetSize":"A3",
          "sheetSizeEnlargeFactor":2,
          "orientation":"LANDSCAPE",
          "removeHatch":false,
          "planPdfLayerConfigs":[
             {
-               "layerName":"ELEVATION_PLAN_NO_*",
+               "layerName":"ELEVATION_PLAN_*",
                "layerType":null,
                "overrideColor":null,
                "overrideThickness":null,
@@ -93,14 +93,14 @@
          ]
       },
       {
-         "sheetName":"SECTION_PLAN_NO_*",
+         "sheetName":"SECTION_PLAN_*",
          "sheetSize":"A3",
          "sheetSizeEnlargeFactor":2,
          "orientation":"LANDSCAPE",
          "removeHatch":false,
          "planPdfLayerConfigs":[
             {
-               "layerName":"SECTION_PLAN_NO_*",
+               "layerName":"SECTION_PLAN_*",
                "layerType":null,
                "overrideColor":null,
                "overrideThickness":null,
@@ -182,22 +182,6 @@
             },
             {
                "layerName":"BLK_*_FLR_*_UNITFA",
-               "layerType":null,
-               "overrideColor":null,
-               "overrideThickness":null,
-               "printLayerName":false
-            }
-         ]
-      },
-      {
-         "sheetName":"COMPLETE_PLAN",
-         "sheetSize":"A0",
-         "sheetSizeEnlargeFactor":2,
-         "orientation":"LANDSCAPE",
-         "removeHatch":false,
-         "planPdfLayerConfigs":[
-            {
-               "layerName":"COMPLETE_PLAN",
                "layerType":null,
                "overrideColor":null,
                "overrideThickness":null,
