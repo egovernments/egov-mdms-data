@@ -43,7 +43,7 @@
     {
       "code": "OWNER.IDENTITYPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "dropdownData": [
@@ -131,7 +131,7 @@
     {
       "code": "OWNER.SPECIALCATEGORYPROOF",
       "documentType": "OWNER",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": true,
       "additionalDetails": {
@@ -176,6 +176,13 @@
           "active": true,
           "parentValue": [
             "WIDOW"
+          ]
+        },
+        {
+          "code": "OWNER.SPECIALCATEGORYPROOF.GENERALID",
+          "active": true,
+          "parentValue": [
+            "GENERAL"
           ]
         }
       ],
