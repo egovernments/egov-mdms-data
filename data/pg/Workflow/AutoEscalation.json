@@ -1,0 +1,46 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Workflow",
+    "AutoEscalation": [
+      {
+        "businessService": "NewTL",
+        "module": "tl-services",
+        "state": "PENDINGAPPROVAL",
+        "action": "APPROVE",
+        "active": "false",
+        "stateSLA": 2.0,
+        "businessSLA": null,
+        "topic" : "tl-auto-escalation"
+      },
+      {
+        "businessService": "PGR",
+        "module": "pgr-services",
+        "state": "PENDINGATLME",
+        "action": "FORWARD",
+        "active": "true",
+        "stateSLA": 0.01,
+        "businessSLA": null,
+        "topic": "pgr-auto-escalation"
+      },
+      {
+        "businessService": "PGR",
+        "module": "pgr-services",
+        "state": "PENDINGFORASSIGNMENT",
+        "action": "ASSIGNEDBYAUTOESCALATION",
+        "active": "true",
+        "stateSLA": 0.01,
+        "businessSLA": null,
+        "topic": "pgr-auto-escalation"
+      },
+      {
+        "businessService": "PGR",
+        "module": "pgr-services",
+        "state": "REJECTED",
+        "action": "CANCEL",
+        "active": "true",
+        "stateSLA": 0.01,
+        "businessSLA": null,
+        "topic": "pgr-auto-escalation"
+      }
+    ]
+  }
