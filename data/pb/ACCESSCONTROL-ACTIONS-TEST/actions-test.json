@@ -18843,6 +18843,18 @@
       "serviceCode": "SS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2187,
+      "name": "Stakeholder Registration Payment search",
+      "url": "/collection-services/payments/BPAREG/_search",
+      "displayName": "Stakeholder Registration Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
