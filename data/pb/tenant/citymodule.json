@@ -27,6 +27,7 @@
 	  {
       "module": "PGR",
       "code": "PGR",
+      "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/PGR.png"		  
       "active": true,
       "tenants": [
         {
@@ -43,6 +44,7 @@
     {
       "module": "PT",
       "code": "PT",
+      "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/PT.png"
       "active": true,
       "tenants": [
         {
@@ -97,6 +99,7 @@
     {
       "module": "TL",
       "code": "TL",
+      "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/TL.png"
       "active": false,
       "tenants": [
         {
@@ -132,7 +135,8 @@
    {
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
-       "active": false,
+      "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/OBPS.png"
+      "active": false,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -145,6 +149,7 @@
     {
       "module": "BPAREG",
       "code": "BPAREG",
+      "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/OBPS.png"
       "active": false,
       "tenants": [
         {
