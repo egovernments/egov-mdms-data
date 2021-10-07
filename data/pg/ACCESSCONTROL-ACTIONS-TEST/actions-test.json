@@ -12002,6 +12002,34 @@
       "serviceCode": "",
       "code": null,
       "path": ""
-    }
+    },
+      {
+         "id": 2305,
+         "displayName": "Search Application",
+         "orderNumber": 0,
+         "leftIcon": "",
+          "url": "quickAction",
+         "name": "FSM EMPLOYEE SEARCH APPLICATION",
+         "enabled": true,
+         "navigationURL": "/digit-ui/employee/fsm/search",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2306,
+         "displayName": "Create Application",
+         "orderNumber": 0,
+         "leftIcon": "",
+          "url": "quickAction",
+         "name": "FSM EMPLOYEE CREATE NEW APPLICATION",
+         "enabled": true,
+         "navigationURL": "digit-ui/employee/fsm/new-application",
+         "parentModule": "",
+         "serviceCode": "",
+         "code": "null",
+         "path": ""
+      }
    ]
 }
