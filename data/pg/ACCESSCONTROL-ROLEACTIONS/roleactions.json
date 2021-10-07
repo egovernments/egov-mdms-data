@@ -22932,6 +22932,30 @@
       "actionid": 2304,
       "actioncode": "",
       "tenantId": "pg"
+    },
+        {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2305,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2305,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 2305,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2306,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
