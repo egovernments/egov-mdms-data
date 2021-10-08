@@ -11,6 +11,17 @@
         "businessService": "PGR",
         "active": "true",
         "isStatelevel": "true"
+      },
+      {
+        "businessService": "FSM",
+        "active": "true",
+        "isStatelevel": "true"
+      },
+      {
+        "businessService": "FSM_VEHICLE_TRIP",
+        "active": "true",
+        "isStatelevel": "true"
       }
+        
     ]
   }
