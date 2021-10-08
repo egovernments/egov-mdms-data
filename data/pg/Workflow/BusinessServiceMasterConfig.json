@@ -11,6 +11,11 @@
         "businessService": "PGR",
         "active": "true",
         "isStatelevel": "true"
+      },
+      {
+        "businessService": "FSM",
+        "active": "true",
+        "isStatelevel": "true"
       }
     ]
   }
