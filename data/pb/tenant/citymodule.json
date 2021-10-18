@@ -161,6 +161,20 @@
       ]
     },
     {
+      "module": "OBPS",
+      "code": "OBPS",
+      "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/OBPS.png",
+      "active": true,
+      "tenants": [
+        {
+          "code": "pb.amritsar"
+        },
+	      {
+          "code": "pb.jalandhar"
+        }
+      ]
+    },
+    {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "active": false,
