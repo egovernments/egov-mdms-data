@@ -147,6 +147,19 @@
       ]
     },
     {
+      "module": "OBPS",
+      "code": "OBPS",
+      "active": true,
+      "tenants": [
+        {
+          "code": "pb.amritsar"
+        },
+	      {
+          "code": "pb.jalandhar"
+        }
+      ]
+    },
+    {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "active": false,
