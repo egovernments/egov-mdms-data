@@ -100,7 +100,7 @@
       "module": "TL",
       "code": "TL",
       "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/TL.png",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -136,7 +136,7 @@
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
       "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/OBPS.png",
-       "active": false,
+       "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -150,7 +150,7 @@
       "module": "BPAREG",
       "code": "BPAREG",
       "bannerImage": "http://egov-qa-assets.s3.amazonaws.com/OBPS.png",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.amritsar"
