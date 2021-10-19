@@ -8,7 +8,7 @@
       "active": false,
       "locality":false,
       "redirectConfig": {
-        "DEFAULT": "/digit-ui/citizen/documents/viewDocument?applicationNumber=^WFBID^&tenantId=^WFTNID^"
+        "DEFAULT": "/digit-ui/citizen/engagement/documents/viewDocument?applicationNumber=^WFBID^&tenantId=^WFTNID^"
       }
     }
   ]
