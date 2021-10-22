@@ -1,0 +1,18 @@
+{
+    "tenantId": "pb",
+    "moduleName": "Channel",
+    "channelList": [
+      {
+        "businessService": "PT.CREATE",
+        "module": "PT",
+        "action" : "OPEN",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+      {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "INITIATE",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      }
+    ]
+  }
