@@ -208,7 +208,7 @@
                 "nextStep": {
                     "yes": "rental-details",
                     "no": "provide-sub-usage-type",
-                    "vacant": "vasika-details"
+                    "vacant": "map"
                 },
                 "hideInEmployee": true
             },
@@ -351,7 +351,7 @@
                 "key": "units",
                 "withoutLabel": true,
                 "nextStep": {
-                    "PT_COMMON_NO": "vasika-details",
+                    "PT_COMMON_NO": "map",
                     "PT_COMMON_YES": "un-occupied-area"
                 },
                 "hideInEmployee": true
@@ -369,7 +369,7 @@
                 },
                 "key": "units",
                 "withoutLabel": true,
-                "nextStep": "vasika-details",
+                "nextStep": "map",
                 "hideInEmployee": true
             }
         ]
@@ -390,7 +390,8 @@
                 },
                 "key": "vasikadetails",
                 "nextStep": "allotment-details",                    
-                "type": "component"
+                "type": "component",
+                "hideInEmployee": true
             },
              {
                "route": "allotment-details",
@@ -405,7 +406,8 @@
                 },
                 "key": "vasikadetails",
                   "nextStep": "business-details",                  
-                "type": "component"
+                "type": "component",
+                "hideInEmployee": true
             },
              {
                 "route": "business-details",
@@ -420,7 +422,8 @@
                 },
                 "key": "vasikadetails",
                 "nextStep": "map",                    
-                "type": "component"
+                "type": "component",
+                "hideInEmployee": true
             }
         ]
     },
