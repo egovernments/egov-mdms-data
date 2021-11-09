@@ -183,6 +183,7 @@
     {
       "module": "FSM",
       "code": "FSM",
+      "active":true,
       "tenants": [
         {
           "code": "pg.citya"
