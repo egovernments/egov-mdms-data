@@ -11,7 +11,7 @@
       {
         "businessService": "BPA.CREATE",
         "module": "BPA",
-        "action" : "INITIATE",
+        "action" : "SEND_TO_CITIZEN",
         "channelNames": ["SMS", "EMAIL", "EVENT"]
       }
     ]
