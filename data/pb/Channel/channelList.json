@@ -13,6 +13,19 @@
         "module": "BPA",
         "action" : "SEND_TO_CITIZEN",
         "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+      {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "APPROVE",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+        {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SEND_TO_ARCHITECT",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
       }
+        
     ]
   }
