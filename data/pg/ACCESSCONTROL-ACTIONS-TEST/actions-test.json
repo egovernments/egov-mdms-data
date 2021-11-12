@@ -9529,6 +9529,33 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-      }
+      },
+       {
+      "id": 2093,
+      "name": "Dashboard FSM",
+      "url": "url",
+      "displayName": "FSM",
+      "orderNumber": 14,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.FSM",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/fsm",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2094,
+      "name": "DSS Dashboard Config Facial Sludge Management",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/fsm",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
