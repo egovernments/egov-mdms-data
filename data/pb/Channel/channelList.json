@@ -19,6 +19,42 @@
       "module": "TL",
       "action" : "INITIATE",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "APPLY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "PAY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "APPROVE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "PAY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
   ]
 }
