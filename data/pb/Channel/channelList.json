@@ -55,6 +55,12 @@
       "module": "BPAREG",
       "action" : "PAY",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "NOWORKFLOW",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
   ]
 }
