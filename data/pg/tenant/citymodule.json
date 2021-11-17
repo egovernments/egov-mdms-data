@@ -69,6 +69,7 @@
     {
       "module": "TL",
       "code": "TL",
+      "active":false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -111,6 +112,7 @@
     {
       "module": "UC",
       "code": "UC",
+      "active":false,
       "tenants": [
         {
           "code": "pg.citya"
