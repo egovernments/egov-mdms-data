@@ -40,6 +40,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -111,6 +117,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -177,6 +189,12 @@
             {
               "attribute": {
                 "jsonPath": "*/altContactNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
               },
               "accessType": "PLAIN"
             },
@@ -352,6 +370,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -423,6 +447,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -484,6 +514,12 @@
                 "jsonPath": "*/altContactNumber"
               },
               "accessType": "NONE"
+            },
+            {
+              "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
             },
             {
               "attribute": {
@@ -764,6 +800,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "NONE"
@@ -830,6 +872,12 @@
             {
               "attribute": {
                 "jsonPath": "*/altContactNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
               },
               "accessType": "PLAIN"
             },
@@ -938,6 +986,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -980,6 +1034,12 @@
             {
               "attribute": {
                 "jsonPath": "*/altContactNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
               },
               "accessType": "PLAIN"
             },
@@ -1032,6 +1092,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -1079,6 +1145,12 @@
             },
             {
               "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
@@ -1121,6 +1193,12 @@
             {
               "attribute": {
                 "jsonPath": "*/altContactNumber"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
+                "jsonPath": "*/alternateMobileNumber"
               },
               "accessType": "PLAIN"
             },
