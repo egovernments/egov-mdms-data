@@ -1245,12 +1245,6 @@
             },
             {
               "attribute": {
-                "jsonPath": "*/alternateMobileNumber"
-              },
-              "accessType": "PLAIN"
-            },
-            {
-              "attribute": {
                 "jsonPath": "*/pan"
               },
               "accessType": "PLAIN"
