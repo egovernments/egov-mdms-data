@@ -18,7 +18,7 @@
     {
       "module": "PGR",
       "code": "PGR",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -34,7 +34,7 @@
     {
       "module": "PT",
       "code": "PT",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -66,7 +66,7 @@
     {
       "module": "Receipts",
       "code": "Receipts",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -82,7 +82,7 @@
     {
       "module": "NOC",
       "code": "NOC",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -130,7 +130,7 @@
     {
       "module": "MCollect",
       "code": "MCollect",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -146,7 +146,7 @@
     {
       "module": "HRMS",
       "code": "HRMS",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -200,7 +200,7 @@
     {
       "module": "TL",
       "code": "TL",
-      "active": false,
+      "active": true,
       "tenants": [
         {
           "code": "pb.jalandhar"
