@@ -10862,6 +10862,17 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2211,
+      "name": "Bulk PDF Details",
+      "url": "/pdf-service/v1/_getBulkPdfRecordsDetails",
+      "displayName": "Bulk PDF Details",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
