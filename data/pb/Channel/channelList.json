@@ -15,6 +15,72 @@
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
     {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "SEND_TO_CITIZEN",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "APPROVE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "SEND_TO_ARCHITECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "APPLY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "SKIP_PAYMENT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "PAY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "ADHOC",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "REVOCATE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "SEND_BACK_TO_CITIZEN",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPA.CREATE",
+      "module": "BPA",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
       "businessService": "TL.CREATE",
       "module": "TL",
       "action" : "INITIATE",
