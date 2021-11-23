@@ -12016,6 +12016,22 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
+      },
+       {
+         "id": 2306,
+         "name": "digit-ui FSM",
+         "url": "card",
+         "displayName": "Faecal Sludge Management",
+         "orderNumber": 2,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "",
+         "code": "",
+         "path": "",
+         "navigationURL": "/digit-ui/citizen/",
+         "leftIcon": "custom:localShipping",
+         "rightIcon": "",
+         "queryParams": ""
       }
    ]
 }
