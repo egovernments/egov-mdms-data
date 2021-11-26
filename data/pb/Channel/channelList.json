@@ -71,7 +71,7 @@
     {
       "businessService": "BPA.CREATE",
       "module": "BPA",
-      "action" : "SEND_BACK_TO_CITIZEN",
+      "action" : "SENDBACKTOCITIZEN",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
     {
@@ -126,6 +126,108 @@
       "businessService": "BPAREG.CREATE",
       "module": "BPAREG",
       "action" : "NOWORKFLOW",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "INITIATE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "ACTIVATE_CONNECTION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "CANCEL",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "PAY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "SUBMIT_APPLICATION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "APPROVE_CONNECTION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "SEND_BACK_TO_CITIZEN",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "INACTIVE_CONNECTION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "PENDING_FOR_CITIZEN_ACTION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "RESUBMIT_APPLICATION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "MODIFY_APPLICATION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "VERIFY_AND_FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "SEND_BACK_FOR_DOCUMENT_VERIFICATION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "APPROVE_FOR_CONNECTION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "SEND_BACK_FOR_FIELD_INSPECTION",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "PENDING_FOR_CITIZEN_ACTION",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
   ]
