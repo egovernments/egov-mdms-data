@@ -245,12 +245,6 @@
       {
       "businessService": "NewTL",
       "module": "TL",
-      "action": "FORWARD",
-      "channelNames": ["SMS", "EMAIL", "EVENT"]
-      },
-      {
-      "businessService": "NewTL",
-      "module": "TL",
       "action": "APPROVE",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
       },
