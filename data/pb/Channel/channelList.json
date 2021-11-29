@@ -351,12 +351,6 @@
       "channelNames": ["SMS", "EMAIL", "EVENT"]
       },
       {
-      "businessService": "EDITRENEWAL",
-      "module": "TL",
-      "action": "FORWARD",
-      "channelNames": ["SMS", "EMAIL", "EVENT"]
-      },
-      {
       "businessService": "DIRECTRENEWAL",
       "module": "TL",
       "action": "INITIATE",
