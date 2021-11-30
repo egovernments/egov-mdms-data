@@ -164,6 +164,12 @@
         "action" : "SEND_BACK_TO_CITIZEN",
         "channelNames": ["SMS", "EMAIL", "EVENT"]
       },
+      {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SENDBACKTOCITIZEN",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
        {
         "businessService": "BPA.CREATE",
         "module": "BPA",
