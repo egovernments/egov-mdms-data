@@ -1,7 +1,8 @@
 {
   "tenantId": "pg",
   "moduleName": "tenant",
-  "tenants": [{
+  "tenants": [
+    {
       "code": "pg.citya",
       "name": "City A",
       "description": "City A",
@@ -34,6 +35,40 @@
       "address": "City A Municipal Corporation",
       "contactNumber": "001-2345876"
     },
+    {
+      "code": "pg.testing",
+      "name": "testing",
+      "description": "testing",
+      "pincode": [143001,143002,143003,143004,143005],
+      "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/od.testing/logo.png",
+      "imageId": null,
+      "domainUrl": "https://www.egovernments.org",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "citya@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "testing",
+        "localName": null,
+        "districtCode": "CITYA",
+       "districtTenantCode": "od.testing",
+        "districtName": null,
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1013",
+        "ddrName": "DDR Testing"
+      },
+      "address": "testing Municipal Corporation",
+      "contactNumber": "001-2345876"
+    },
+
     {
       "code": "pg.cityb",
       "name": "City B",

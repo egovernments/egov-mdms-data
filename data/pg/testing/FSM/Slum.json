@@ -1,0 +1,264 @@
+{
+    "tenantId": "pg.testing",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+            "name": "Kathagada juanga sahi",
+            "active": true,
+            "code": "SL001",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Kathagada Parbatia Sahi",
+            "active": true,
+            "code": "SL002",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Kathagada Nua Sahi",
+            "active": true,
+            "code": "SL003",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Shyamacharanpur Sabar Sahi",
+            "active": true,
+            "code": "SL004",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Shyamacharanpur Harijan Sahi",
+            "active": true,
+            "code": "SL005",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Shyamacharanpur (Sai Ganesh Lane)",
+            "active": true,
+            "code": "SL006",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Refuge Colony",
+            "active": true,
+            "code": "SL007",
+            "locality": "VIL2"
+        },
+        {
+            "name": "Chandia sahi",
+            "active": true,
+            "code": "SL008",
+            "locality": "VIL3"
+        },
+        {
+            "name": "Chandamari Sahi",
+            "active": true,
+            "code": "SL009",
+            "locality": "VIL5"
+        },
+        {
+            "name": "Kalara Gada",
+            "active": true,
+            "code": "SL010",
+            "locality": "VIL6"
+        },
+        {
+            "name": "Stadium Back side, Durga Bazar",
+            "active": true,
+            "code": "SL011",
+            "locality": "VIL6"
+        },
+        {
+            "name": "Mali Sahi",
+            "active": true,
+            "code": "SL012",
+            "locality": "VIL6"
+        },
+        {
+            "name": "Danda Sahi",
+            "active": true,
+            "code": "SL013",
+            "locality": "VIL7"
+        },
+        {
+            "name": "Murdangia Sahi",
+            "active": true,
+            "code": "SL014",
+            "locality": "VIL7"
+        },
+        {
+            "name": "Mahisapat Dalei Sahi",
+            "active": true,
+            "code": "SL015",
+            "locality": "VIL8"
+        },
+        {
+            "name": "Bankuala Sahi",
+            "active": true,
+            "code": "SL016",
+            "locality": "VIL8"
+        },
+        {
+            "name": "Gajamara Juanga Sahi",
+            "active": true,
+            "code": "SL017",
+            "locality": "VIL8"
+        },
+        {
+            "name": "Rengali Colony",
+            "active": true,
+            "code": "SL018",
+            "locality": "VIL8"
+        },
+        {
+            "name": "Mahisapat Harijan Sahi-2 & Mahisapat Khaira Sahi",
+            "active": true,
+            "code": "SL019",
+            "locality": "VIL8"
+        },
+        {
+            "name": "Kantanali Kandha Sahi",
+            "active": true,
+            "code": "SL020",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Banamali Prasad Juanga Sahi",
+            "active": true,
+            "code": "SL021",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Fatha Bandha Harijana Sahi",
+            "active": true,
+            "code": "SL022",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Kuntunia Juanga Sahi",
+            "active": true,
+            "code": "SL023",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Fatha Bandha Juanga Sahi",
+            "active": true,
+            "code": "SL024",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Balaram Vihar",
+            "active": true,
+            "code": "SL025",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Kuntunia Nua Sahi",
+            "active": true,
+            "code": "SL026",
+            "locality": "VIL9"
+        },
+        {
+            "name": "Baunsa Patana",
+            "active": true,
+            "code": "SL027",
+            "locality": "VIL10"
+        },
+        {
+            "name": "Bila Sahi",
+            "active": true,
+            "code": "SL028",
+            "locality": "VIL10"
+        },
+        {
+            "name": "Sarjanga Sahi",
+            "active": true,
+            "code": "SL029",
+            "locality": "VIL10"
+        },
+        {
+            "name": "Colony Sahi",
+            "active": true,
+            "code": "SL030",
+            "locality": "VIL10"
+        },
+        {
+            "name": "Rameswarpur Mochi Sahi",
+            "active": true,
+            "code": "SL031",
+            "locality": "VIL18"
+        },
+        {
+            "name": "Bhagabanpur Sabar Sahi",
+            "active": true,
+            "code": "SL032",
+            "locality": "VIL18"
+        },
+        {
+            "name": "Bhagabanpur Juanga Sahi",
+            "active": true,
+            "code": "SL033",
+            "locality": "VIL18"
+        },
+        {
+            "name": "Similia Masani Sahi",
+            "active": true,
+            "code": "SL034",
+            "locality": "VIL19"
+        },
+        {
+            "name": "Similia Sabar Sahi",
+            "active": true,
+            "code": "SL035",
+            "locality": "VIL19"
+        },
+        {
+            "name": "Alasua Sabar Sahi",
+            "active": true,
+            "code": "SL036",
+            "locality": "VIL21"
+        },
+        {
+            "name": "Dhankunia Harijan Sahi",
+            "active": true,
+            "code": "SL037",
+            "locality": "VIL21"
+        },
+        {
+            "name": "Sanjaya Colony",
+            "active": true,
+            "code": "SL038",
+            "locality": "VIL21"
+        },
+        {
+            "name": "Hata Road Harijan Sahi",
+            "active": true,
+            "code": "SL039",
+            "locality": "VIL22"
+        },
+        {
+            "name": "Hata Road Dama Sahi",
+            "active": true,
+            "code": "SL040",
+            "locality": "VIL22"
+        },
+        {
+            "name": "Korian Puruna Sahi",
+            "active": true,
+            "code": "SL041",
+            "locality": "VIL23"
+        },
+        {
+            "name": "Korian Sabar Sahi & Harijan Sahi",
+            "active": true,
+            "code": "SL042",
+            "locality": "VIL23"
+        },
+        {
+            "name": "Korian Juanga Sahi",
+            "active": true,
+            "code": "SL043",
+            "locality": "VIL23"
+        }
+    ]
+}
