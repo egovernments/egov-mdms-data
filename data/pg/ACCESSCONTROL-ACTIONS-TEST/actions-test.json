@@ -12003,7 +12003,7 @@
       "code": null,
       "path": ""
     },
-      {
+    {
          "id": 2305,
          "displayName": "Search FSM Application",
          "orderNumber": 0,
@@ -12016,8 +12016,8 @@
          "serviceCode": "",
          "code": "null",
          "path": ""
-      },
-       {
+    },
+    {
          "id": 2306,
          "name": "digit-ui FSM",
          "url": "card",
@@ -12032,6 +12032,105 @@
          "leftIcon": "custom:localShipping",
          "rightIcon": "",
          "queryParams": ""
-      }
+    },
+   {
+         "id": 2307,
+         "name": "To get the FSM Applications for periodic",
+         "url": "/fsm/v1/_getapplicationsforperiodic",
+         "displayName": "Apply FSM",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "FSM",
+         "code": "null",
+         "path": ""
+    },
+    {
+         "id": 2308,
+         "name": "Create FSM Schedular",
+         "url": "/fsm/v1/_schedular",
+         "displayName": "Apply FSM",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "FSM",
+         "code": "null",
+         "path": ""
+    },
+    {
+         "id": 2309,
+         "name": "Create FSM Periodic Application",
+         "url": "/fsm/v1/_createperiodicapplications",
+         "displayName": "Apply FSM",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "FSM",
+         "code": "null",
+         "path": ""
+    },
+    {
+      "id": 2310,
+      "name": "Locality searcher endpoint for PGR",
+      "url": "/egov-searcher/locality/pgr-services/_get",
+      "displayName": "PGR locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2311,
+      "name": "Document Uploader: Create document",
+      "url": "/egov-document-uploader/egov-du/document/_create",
+      "displayName": "Create document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2312,
+      "name": "Document Uploader: Search document",
+      "url": "/egov-document-uploader/egov-du/document/_search",
+      "displayName": "Search document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2313,
+      "name": "Document Uploader: Update document",
+      "url": "/egov-document-uploader/egov-du/document/_update",
+      "displayName": "Update document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2314,
+      "name": "Document Uploader: Delete document",
+      "url": "/egov-document-uploader/egov-du/document/_delete",
+      "displayName": "Delete document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DU",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2315,
+      "name": "Link alternate mobile number to property",
+      "url": "/property-services/property/_addAlternateNumber",
+      "displayName": "Add Alternate Mobile Numbers",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PT",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
