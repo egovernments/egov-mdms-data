@@ -18866,6 +18866,20 @@
       "serviceCode": "pdf-generator-create",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2189,
+      "name": "DownloadBillsSearch",
+      "url": "url",
+      "displayName": "DownloadBills",
+      "orderNumber": 6,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "abg/billDownload",
+      "path": "BillGenie.DownloadBills",
+      "leftIcon": "action:assignment"
     }
   ]
 }
