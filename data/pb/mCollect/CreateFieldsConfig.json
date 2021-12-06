@@ -1,0 +1,18 @@
+{
+  "tenantId": "pb",
+  "moduleName": "mCollect",
+  "CreateFieldsConfig": [
+    {
+      "head": "",
+      "body": [
+        {
+          "type": "component",
+          "component": "ConsumerDetails",
+          "key": "consomerDetails1",
+          "withoutLabel": true,
+          "hideInCitizen": true
+        }
+      ]
+    }
+  ]
+}
