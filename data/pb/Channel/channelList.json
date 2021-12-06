@@ -229,6 +229,18 @@
       "module": "WS",
       "action" : "PENDING_FOR_CITIZEN_ACTION",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "SEND_BACK",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "SEND_BACK_FOR_DO",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
   ]
 }
