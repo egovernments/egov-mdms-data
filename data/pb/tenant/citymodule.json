@@ -323,6 +323,22 @@
           "name": "Testing"
         }
       ]
+    },
+    {
+      "module": "WS",
+      "code": "WS",
+      "active": true,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
     }
   ]
 }
