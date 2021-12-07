@@ -241,6 +241,18 @@
       "module": "WS",
       "action" : "SEND_BACK_FOR_DO",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "DEMAND",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "WS.CREATE",
+      "module": "WS",
+      "action" : "BILL",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
   ]
 }
