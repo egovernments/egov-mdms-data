@@ -18880,6 +18880,17 @@
       "navigationURL": "abg/billDownload",
       "path": "BillGenie.DownloadBills",
       "leftIcon": "action:assignment"
+    },
+    {
+      "id": 2190,
+      "name": "Bulk PDF Cancel Process",
+      "url": "/pdf-service/v1/_cancelProcess",
+      "displayName": "Bulk PDF Cancel Process",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
     }
   ]
 }
