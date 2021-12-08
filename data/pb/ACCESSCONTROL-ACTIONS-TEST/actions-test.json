@@ -10873,6 +10873,17 @@
       "serviceCode": "pdf-generator-create",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2212,
+      "name": "Bulk PDF Cancel Process",
+      "url": "/pdf-service/v1/_cancelProcess",
+      "displayName": "Bulk PDF Cancel Process",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
