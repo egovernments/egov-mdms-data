@@ -23076,6 +23076,42 @@
       "actionid": 2155,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "AIRPORT_AUTHORITY_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
