@@ -9667,6 +9667,22 @@
       "serviceCode": "FSMDAILYCOLLECTIONREPORT",
       "code": "null",
       "path": "FSM Report"
+    },
+      {
+      "id": 2104,
+      "name": "rainmaker-citizen-fsm",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 4,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "fsm",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen",
+      "leftIcon": "custom:localShipping",
+      "rightIcon": "",
+      "queryParams": ""
     }
    ]
 }
