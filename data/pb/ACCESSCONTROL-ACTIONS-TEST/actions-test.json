@@ -18891,6 +18891,21 @@
       "serviceCode": "pdf-generator-create",
       "code": "null",
       "path": ""
+    }, {
+      "id": 2191,
+      "name": "rainmaker-citizen-fsm",
+      "url": "card",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 4,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "fsm",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen",
+      "leftIcon": "custom:localShipping",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
