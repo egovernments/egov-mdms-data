@@ -9,6 +9,114 @@
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
     {
+      "businessService": "PT.CREATE",
+      "module": "PT",
+      "action" : "VERIFY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.CREATE",
+      "module": "PT",
+      "action" : "FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.CREATE",
+      "module": "PT",
+      "action" : "APPROVE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.CREATE",
+      "module": "PT",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
+      "action" : "OPEN",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
+      "action" : "VERIFY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
+      "action" : "FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
+      "action" : "APPROVE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.MUTATION",
+      "module": "PT",
+      "action" : "OPEN",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.MUTATION",
+      "module": "PT",
+      "action" : "VERIFY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.MUTATION",
+      "module": "PT",
+      "action" : "FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.MUTATION",
+      "module": "PT",
+      "action" : "APPROVE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.MUTATION",
+      "module": "PT",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.MUTATION",
+      "module": "PT",
+      "action" : "PAY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action" : "UPDATE_MOBILE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action" : "ALTERNATE_MOBILE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action" : "DUE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
       "businessService": "BPA.CREATE",
       "module": "BPA",
       "action" : "INITIATE",
