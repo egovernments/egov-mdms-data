@@ -1,0 +1,120 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Channel",
+    "channelList": [
+       {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "INITIATE",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+      {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SEND_TO_CITIZEN",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+      {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "APPROVE",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+        {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SEND_TO_ARCHITECT",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+        {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "APPLY",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+        {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SKIP_PAYMENT",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+        {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "PAY",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+       {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "ADHOC",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+       {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "FORWARD",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+       {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "REVOCATE",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+       {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SEND_BACK_TO_CITIZEN",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+      {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "SENDBACKTOCITIZEN",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+       {
+        "businessService": "BPA.CREATE",
+        "module": "BPA",
+        "action" : "REJECT",
+        "channelNames": ["SMS", "EMAIL", "EVENT"]
+      },
+          {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "APPLY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "PAY",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "REJECT",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "APPROVE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "FORWARD",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "BPAREG.CREATE",
+      "module": "BPAREG",
+      "action" : "NOWORKFLOW",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    }
+    ]
+  }
