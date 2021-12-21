@@ -1,0 +1,54 @@
+{
+  "tenantId": "pb",
+  "moduleName": "XstateWebChatbot",
+  "RatingAndFeedback": [
+    {
+      "groupName": "rating_group_one",
+      "code": "App is working slow",
+      "active": true,
+      "order": 1
+    },
+    {
+      "groupName": "rating_group_one",
+      "code": "Language is not Clear",
+      "active": true,
+      "order": 2
+    },
+    {
+      "groupName": "rating_group_one",
+      "code": "Information is not presented well",
+      "active": true,
+      "order": 3
+    },
+    {
+      "groupName": "rating_group_one",
+      "code": "Others",
+      "active": true,
+      "order": 4
+    },
+    {
+      "groupName": "rating_group_two",
+      "code": "App is working fast",
+      "active": true,
+      "order": 1
+    },
+    {
+      "groupName": "rating_group_two",
+      "code": "Language is Clear",
+      "active": true,
+      "order": 2
+    },
+    {
+      "groupName": "rating_group_two",
+      "code": "Information is presented well",
+      "active": true,
+      "order": 3
+    },
+    {
+      "groupName": "rating_group_two",
+      "code": "Others",
+      "active": true,
+      "order": 4
+    }    
+  ]
+}
