@@ -581,6 +581,11 @@
       "code": "SUPERVISOR",
       "name": "Auto Escalation Supervisor",
       "description": "Escalation to particular role"
+    },
+    {
+      "code": "SYSTEM",
+      "name": "System user",
+      "description": "System user role"
     }
   ]
 }
