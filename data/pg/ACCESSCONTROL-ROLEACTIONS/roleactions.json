@@ -23184,6 +23184,30 @@
       "actionid": 2155,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2316,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPAREG_APPROVER",
+      "actionid": 2316,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPAREG_DOC_VERIFIER",
+      "actionid": 2316,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "UC_EMP",
+      "actionid": 2316,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
