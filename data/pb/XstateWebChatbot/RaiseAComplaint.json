@@ -1,0 +1,67 @@
+{
+    "tenantId": "pb",
+    "moduleName": "XstateWebChatbot",
+    "RaiseAComplaint": [
+      {
+          "groupName": "not_receiving_otp",
+          "code": "Please enter your phone number",
+          "active": true,
+          "order": 1
+      },
+      {
+          "groupName": "unable_to_proceed_forward",
+          "code": "Application is stuck and not moving forward",
+          "active": true,
+          "order": 1
+      },
+      {
+          "groupName": "unable_to_proceed_forward",
+          "code": "Application is showing unexpected error",
+          "active": true,
+          "order": 2
+      },
+      {
+          "groupName": "unable_to_proceed_forward",
+          "code": "Necessary Option not found",
+          "active": true,
+          "order": 3
+      },
+      {
+          "groupName": "bill_amount_is_incorrect",
+          "code": "Please enter your mobile number",
+          "active": true,
+          "order": 1
+      },
+      {
+          "groupName": "application_process_taking_long_time",
+          "code": "Property Registration",
+          "active": true,
+          "order": 1
+      },
+      {
+          "groupName": "application_process_taking_long_time",
+          "code": "Mutation",
+          "active": true,
+          "order": 2
+      },
+      {
+          "groupName": "application_is_getting_rejected",
+          "code": "Property creation",
+          "active": true,
+          "order": 1
+      },
+      {
+          "groupName": "application_is_getting_rejected",
+          "code": "Mutation",
+          "active": true,
+          "order": 2
+      },
+      {
+          "groupName": "others",
+          "code": "Let us know about your complaint",
+          "active": true,
+          "order": 1
+      }
+  ]
+  }
+  
