@@ -117,6 +117,12 @@
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
     {
+      "businessService": "PT",
+      "module": "PT",
+      "action" : "NO_WORKFLOW",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
       "businessService": "BPA.CREATE",
       "module": "BPA",
       "action" : "INITIATE",
