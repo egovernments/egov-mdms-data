@@ -581,6 +581,11 @@
       "code": "SUPERVISOR",
       "name": "Auto Escalation Supervisor",
       "description": "Escalation to particular role"
+    },
+    {
+      "code": "UC_EMP",
+      "name": "Universal Collection Employee",
+      "description": "Universal Miscellaneous Collection Employee"
     }
   ]
 }
