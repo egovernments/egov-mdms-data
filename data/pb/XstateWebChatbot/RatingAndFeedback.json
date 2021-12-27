@@ -4,49 +4,49 @@
   "RatingAndFeedback": [
     {
       "groupName": "rating_group_one",
-      "code": "App is working slow",
+      "code": "XSTATE_WEBCHAT_RATING_1",
       "active": true,
       "order": 1
     },
     {
       "groupName": "rating_group_one",
-      "code": "Language is not Clear",
+      "code": "XSTATE_WEBCHAT_RATING_2",
       "active": true,
       "order": 2
     },
     {
       "groupName": "rating_group_one",
-      "code": "Information is not presented well",
+      "code": "XSTATE_WEBCHAT_RATING_3",
       "active": true,
       "order": 3
     },
     {
       "groupName": "rating_group_one",
-      "code": "Others",
+      "code": "XSTATE_WEBCHAT_RATING_4",
       "active": true,
       "order": 4
     },
     {
       "groupName": "rating_group_two",
-      "code": "App is working fast",
+      "code": "XSTATE_WEBCHAT_RATING_5",
       "active": true,
       "order": 1
     },
     {
       "groupName": "rating_group_two",
-      "code": "Language is Clear",
+      "code": "XSTATE_WEBCHAT_RATING_6",
       "active": true,
       "order": 2
     },
     {
       "groupName": "rating_group_two",
-      "code": "Information is presented well",
+      "code": "XSTATE_WEBCHAT_RATING_7",
       "active": true,
       "order": 3
     },
     {
       "groupName": "rating_group_two",
-      "code": "Others",
+      "code": "XSTATE_WEBCHAT_RATING_4",
       "active": true,
       "order": 4
     }    
