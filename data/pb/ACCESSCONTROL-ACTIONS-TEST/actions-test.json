@@ -10884,6 +10884,18 @@
       "serviceCode": "pdf-generator-create",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2213,
+      "name": "DSS Dashboard Config mCollect",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/mCollect",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
