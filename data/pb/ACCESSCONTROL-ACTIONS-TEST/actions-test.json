@@ -18930,6 +18930,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2194,
+      "name": "DSS Dashboard Config obps",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/obps",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
