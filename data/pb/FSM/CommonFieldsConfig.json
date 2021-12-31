@@ -33,14 +33,20 @@
             "cardText": "CS_FILE_APPLICATION_PROPERTY_SUBTYPE_TEXT",
             "submitBarLabel": "CS_COMMON_NEXT"
           },
-          "nextStep": "pincode"
+          "nextStep": "map"
         }
       ]
     },
     {
       "head": "ES_NEW_APPLICATION_LOCATION_DETAILS",
       "body": [
-      
+        {
+          "route": "map",
+          "component": "SelectGeolocation",
+          "nextStep": "pincode",
+          "hideInEmployee": true,
+          "key": "address"
+        },
         {
           "route": "pincode",
           "component": "SelectPincode",
