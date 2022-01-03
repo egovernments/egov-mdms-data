@@ -10896,6 +10896,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2214,
+      "name": "FilestoreUrl",
+      "url": "/filestore/v1/files",
+      "displayName": "Filestore Url",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "filestore url",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
