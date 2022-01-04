@@ -585,6 +585,14 @@
     {
       "format": "SY-[cy:yyyy-MM-dd]-[SEQ_EG_DOC_ID]",
       "idname": "ss.surveyid"
+    },
+    {
+      "idname": "egov.idgen.bpareg.applicationNum",
+      "format": "PB-BL-[cy:yyyy-MM-dd]-[SEQ_EG_TL_APL]"
+    },
+    {
+      "idname": "egov.idgen.bpareg.licensenumber",
+      "format": "PB-BL-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]"
     }
   ]
 }
