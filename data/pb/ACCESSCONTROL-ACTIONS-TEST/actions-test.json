@@ -18906,6 +18906,54 @@
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2192,
+      "name": "DSS Dashboard Config mCollect",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/mCollect",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2193,
+      "name": "DSS Dashboard Config noc",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/noc",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2194,
+      "name": "DSS Dashboard Config obps",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/obps",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2195,
+      "name": "FilestoreUrl",
+      "url": "/filestore/v1/files",
+      "displayName": "Filestore Url",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "filestore url",
+      "code": "null",
+      "path": ""
     }
   ]
 }
