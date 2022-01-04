@@ -33,7 +33,7 @@
             "cardText": "CS_FILE_APPLICATION_PROPERTY_SUBTYPE_TEXT",
             "submitBarLabel": "CS_COMMON_NEXT"
           },
-          "nextStep": "map"
+          "nextStep": "address"
         }
       ]
     },
@@ -58,6 +58,7 @@
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
           },
           "withoutLabel": true,
+          "hideInEmployee": true,
           "key": "address",
           "nextStep": "address",
           "type": "component"
