@@ -1,0 +1,27 @@
+{
+    "tenantId": "pb",
+    "moduleName": "XstateWebChatbot",
+    "FrequentlyAskedQuestions": [
+      {
+          "groupName": "faq",
+          "question": "What is a property?",
+          "answer": "A building or a open plot under the usage of residential or non-residential purposes are considered as property.",
+          "active": true,
+          "order": 1
+      },
+      {
+          "groupName": "faq",
+          "question": "Why ULBs levy property taxes?",
+          "answer": "ULBs perform certain obligatory functions in its boundary limit and need money to carry out those functions hence the body levy the tax on buildings and open plots.",
+          "active": true,
+          "order": 2
+      },
+      {
+          "groupName": "faq",
+          "question": "Why we as property owners should pay it?",
+          "answer": "We should pay the property tax timely to enable the ULB to keep the city neat and clean, perform maintenance work and other functions.",
+          "active": true,
+          "order": 3
+      }
+    ]
+  }
