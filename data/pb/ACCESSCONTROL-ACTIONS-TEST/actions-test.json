@@ -18954,6 +18954,18 @@
       "serviceCode": "filestore url",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2196,
+      "name": "Dashboard National Overview",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-overview",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
