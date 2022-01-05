@@ -18966,6 +18966,22 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2197,
+      "name": "Dashboard National Overview",
+      "url": "url",
+      "displayName": "National Overview",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Overview",
+      "navigationURL": "integration/dss/overview",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
+    
   ]
 }
