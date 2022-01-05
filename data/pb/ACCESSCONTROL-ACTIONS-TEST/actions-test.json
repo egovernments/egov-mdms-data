@@ -10908,6 +10908,18 @@
       "serviceCode": "filestore url",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2215,
+      "name": "DSS Dashboard Config noc",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/noc",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
