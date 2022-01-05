@@ -18981,6 +18981,33 @@
       "navigationURL": "integration/dss/national-overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2198,
+      "name": "National Ubran Realtime Dashboard",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/NURT_DASHBOARD",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2199,
+      "name": "National Ubran Realtime Dashboard",
+      "url": "url",
+      "displayName": "National Ubran Realtime Dashboard",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Overview",
+      "navigationURL": "integration/dss/NURT_DASHBOARD",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
     
   ]
