@@ -600,6 +600,14 @@
     {
       "format": "PB-SK-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]",
       "idname": "bpareg.licensenumber"
+    },
+    {
+       "format": "PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
+       "idname": "bpa.aplnumber"
+    },
+    {
+       "format": "PB-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_PN]",
+       "idname": "bpa.permitnumber"
     }
   ]
 }
