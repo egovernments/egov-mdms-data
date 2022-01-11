@@ -24076,6 +24076,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "UC_EMP",
+      "actionid": 2213,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "BPA_SUPERVISOR",
       "actionid": 2122,
       "actioncode": "",
@@ -24301,6 +24307,30 @@
     {
       "rolecode": "CITIZEN",
       "actionid": 2195,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2196,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2197,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2198,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2199,
       "actioncode": "",
       "tenantId": "pb"
     }
