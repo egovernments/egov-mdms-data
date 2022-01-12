@@ -19008,6 +19008,18 @@
       "navigationURL": "integration/dss/NURT_DASHBOARD",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2200,
+      "name": "NSS Dashboard Config noc",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/nss-noc",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
     }
     
   ]
