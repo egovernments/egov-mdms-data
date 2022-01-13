@@ -19020,6 +19020,18 @@
       "serviceCode": "NSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2201,
+      "name": "DSS Dashboard Config National Property Tax",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-propertytax",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
     
   ]
