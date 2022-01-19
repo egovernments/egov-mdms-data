@@ -19054,6 +19054,18 @@
       "serviceCode": "NSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2204,
+      "name": "NSS Dashboard Config obps",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/nss-obps",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
