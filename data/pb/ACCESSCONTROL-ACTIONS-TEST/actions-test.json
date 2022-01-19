@@ -10932,6 +10932,28 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2217,
+      "name": "National Dashboard: Ingest Metrics",
+      "url": "/national-dashboard/metric/_ingest",
+      "displayName": "Ingest metrics",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2218,
+      "name": "National Dashboard: Master data ingest",
+      "url": "/national-dashboard/masterdata/_ingest",
+      "displayName": "Ingest master data metrics",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
