@@ -19115,14 +19115,14 @@
       "id": 2208,
       "name": "National Dashboard Water and Sewerage",
       "url": "url",
-      "displayName": "National Dashboard Water and Sewerage",
+      "displayName": "National Dashboard Water & Sewerage",
       "orderNumber": 4,
       "parentModule": "ndss-dashboard",
       "enabled": true,
       "serviceCode": "NDSS",
       "code": "null",
-      "path": "NatDashboard.WS",
-      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-ws",
+      "path": "NatDashboard.Water&Sewerage",
+      "navigationURL": "integration/dss/national-ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
