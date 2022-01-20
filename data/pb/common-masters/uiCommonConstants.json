@@ -86,6 +86,10 @@
                "ulb-ws":{
                   "routePath":"/dashboard/ulb-ws",
                   "isOrigin":true
+               },
+               "national-propertytax":{
+                  "routePath":"/dashboard/national-propertytax",
+                  "isOrigin":true
                }
             }
          },
