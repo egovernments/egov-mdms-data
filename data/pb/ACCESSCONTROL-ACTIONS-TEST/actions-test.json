@@ -19081,6 +19081,21 @@
       "navigationURL": "integration/dss/national-propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2206,
+      "name": "National Dashboard Fire NOC",
+      "url": "url",
+      "displayName": "National Fire NOC",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.FireNOC",
+      "navigationURL": "integration/dss/national-firenoc",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
