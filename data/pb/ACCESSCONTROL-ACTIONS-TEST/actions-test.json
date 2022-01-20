@@ -19096,6 +19096,20 @@
       "navigationURL": "integration/dss/national-firenoc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },{
+      "id": 2207,
+      "name": "National Dashboard OBPS",
+      "url": "url",
+      "displayName": "National Dashboard OBPS",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.OBPS",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-obps",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
