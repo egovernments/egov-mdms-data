@@ -94,6 +94,10 @@
                "national-firenoc":{
                   "routePath":"/dashboard/national-firenoc",
                   "isOrigin":true
+               },
+               "national-ws":{
+                  "routePath":"/dashboard/national-ws",
+                  "isOrigin":true
                }
             }
          },
