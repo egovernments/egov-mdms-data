@@ -19066,6 +19066,21 @@
       "serviceCode": "NSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2205,
+      "name": "National Dashboard Property Tax",
+      "url": "url",
+      "displayName": "National Property Tax",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.PropertyTax",
+      "navigationURL": "integration/dss/national-propertytax",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
