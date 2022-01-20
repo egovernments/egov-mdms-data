@@ -1,0 +1,18 @@
+{
+  "tenantId": "pb",
+  "moduleName": "BPA",
+  "BPAAppicationMapping": [
+    {
+      "code": "NEW_CONSTRUCTION",
+      "active": true,
+      "applicationType":["BUILDING_PLAN_SCRUTINY","BUILDING_OC_PLAN_SCRUTINY"],
+      "roles": ["BPA_VERIFIER","BPA_FIELD_INSPECTOR","BPA_NOC_VERIFIER","BPA_APPROVER"]
+    },
+    {
+      "code": "BPA_STAKEHOLDER_REGISTRATION",
+      "active": true,
+      "applicationType":["BPA_STAKEHOLDER_REGISTRATION"],
+      "roles": ["BPAREG_APPROVER","BPAREG_DOC_VERIFIER"]
+    }
+  ]
+}
