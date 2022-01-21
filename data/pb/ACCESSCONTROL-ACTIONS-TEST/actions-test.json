@@ -19125,6 +19125,18 @@
       "navigationURL": "integration/dss/national-ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2209,
+      "name": "DSS Dashboard Config National Water & Sewerage",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-ws",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
