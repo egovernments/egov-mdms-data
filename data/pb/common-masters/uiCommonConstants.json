@@ -98,6 +98,10 @@
                "national-ws":{
                   "routePath":"/dashboard/national-ws",
                   "isOrigin":true
+               },
+               "national-pgr":{
+                  "routePath":"/dashboard/national-pgr",
+                  "isOrigin":true
                }
             }
          },
