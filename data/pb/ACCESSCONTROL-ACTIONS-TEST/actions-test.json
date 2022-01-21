@@ -19137,6 +19137,21 @@
       "serviceCode": "NSS",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 2210,
+      "name": "National Dashboard pgr",
+      "url": "url",
+      "displayName": "National pgr",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.PGR",
+      "navigationURL": "integration/dss/national-pgr",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
