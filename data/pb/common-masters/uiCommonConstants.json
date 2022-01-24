@@ -94,7 +94,11 @@
               "ulb-fsm":{
                  "routePath":"/dashboard/ulb-fsm",
                  "isOrigin":true
-              }
+              },
+               "national-propertytax":{
+                  "routePath":"/dashboard/national-propertytax",
+                  "isOrigin":true
+               }
            }
         },
         "ui-localisation":{
