@@ -118,6 +118,10 @@
                "national-tradelicense": {
                   "routePath": "/dashboard/national-tradelicense",
                   "isOrigin": true
+               },
+               "NURT_DASHBOARD":{
+                  "routePath":"/dashboard/NURT_DASHBOARD",
+                  "isOrigin":true
                }
             }
          },
