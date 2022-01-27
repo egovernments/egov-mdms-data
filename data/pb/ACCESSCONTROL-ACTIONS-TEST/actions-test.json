@@ -10993,6 +10993,20 @@
       "navigationURL": "integration/dss/national-propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2222,
+      "name": "DownloadBillsSearch",
+      "url": "url",
+      "displayName": "DownloadBills",
+      "orderNumber": 6,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BG",
+      "code": "null",
+      "navigationURL": "abg/billDownload",
+      "path": "BillGenie.DownloadBills",
+      "leftIcon": "action:assignment"
     }
   ]
 }   
