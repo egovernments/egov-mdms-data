@@ -102,6 +102,10 @@
                "national-pgr":{
                   "routePath":"/dashboard/national-pgr",
                   "isOrigin":true
+               },
+               "NURT_DASHBOARD":{
+                  "routePath":"/dashboard/NURT_DASHBOARD",
+                  "isOrigin":true
                }
             }
          },
