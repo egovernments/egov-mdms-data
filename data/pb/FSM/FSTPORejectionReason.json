@@ -1,7 +1,7 @@
 {
     "tenantId": "pb",
     "moduleName": "FSM",
-    "CancelReason": [{
+    "FSTPORejectionReason": [{
             "name": "Septage Source",
             "code": "SEPTAGE_SOURCE",
             "active": true
