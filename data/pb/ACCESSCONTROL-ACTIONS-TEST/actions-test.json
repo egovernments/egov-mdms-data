@@ -11007,6 +11007,33 @@
       "navigationURL": "abg/billDownload",
       "path": "BillGenie.DownloadBills",
       "leftIcon": "action:assignment"
+    },
+    {
+      "id": 2223,
+      "name": "National Ubran Realtime Dashboard",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/NURT_DASHBOARD",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2224,
+      "name": "National Ubran Realtime Dashboard",
+      "url": "url",
+      "displayName": "National Ubran Realtime Dashboard",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.Home",
+      "navigationURL": "integration/dss/NURT_DASHBOARD",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }   
