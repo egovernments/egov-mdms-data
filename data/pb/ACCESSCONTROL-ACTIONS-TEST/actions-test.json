@@ -19152,6 +19152,21 @@
       "navigationURL": "integration/dss/national-pgr",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2211,
+      "name": "National Dashboard Trade License",
+      "url": "url",
+      "displayName": "National Trade License",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.TradeLicense",
+      "navigationURL": "integration/dss/national-tradelicence",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
