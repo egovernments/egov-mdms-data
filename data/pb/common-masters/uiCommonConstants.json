@@ -98,6 +98,10 @@
                "national-propertytax":{
                   "routePath":"/dashboard/national-propertytax",
                   "isOrigin":true
+               },
+               "national-firenoc":{
+                  "routePath":"/dashboard/national-firenoc",
+                  "isOrigin":true
                }
            }
         },
