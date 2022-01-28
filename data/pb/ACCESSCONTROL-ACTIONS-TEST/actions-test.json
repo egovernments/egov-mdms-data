@@ -11034,6 +11034,33 @@
       "navigationURL": "integration/dss/NURT_DASHBOARD",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2225,
+      "name": "NSS Dashboard Config obps",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-firenoc",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2226,
+      "name": "National Dashboard Fire Noc",
+      "url": "url",
+      "displayName": "National Fire Noc",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.FireNoc",
+      "navigationURL": "integration/dss/national-firenoc",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }   
