@@ -11061,6 +11061,33 @@
       "navigationURL": "integration/dss/national-firenoc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2227,
+      "name": "NSS Dashboard Config Water & Sewerage",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-ws",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2228,
+      "name": "National Dashboard Water & Sewerage",
+      "url": "url",
+      "displayName": "National Water & Sewerage",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.Water&Sewerage",
+      "navigationURL": "integration/dss/national-ws",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }   
