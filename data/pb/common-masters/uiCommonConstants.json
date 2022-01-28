@@ -51,6 +51,10 @@
                   "routePath":"/dashboard/propertytax",
                   "isOrigin":true
                },
+               "obps":{
+                  "routePath":"/dashboard/obps",
+                  "isOrigin":true
+               },
                "tradelicense":{
                   "routePath":"/dashboard/tradelicense",
                   "isOrigin":true

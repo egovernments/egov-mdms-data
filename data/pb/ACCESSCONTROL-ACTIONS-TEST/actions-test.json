@@ -19152,6 +19152,21 @@
       "navigationURL": "integration/dss/national-pgr",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2212,
+      "name": "Dashboard OBPS",
+      "url": "url",
+      "displayName": "OBPS",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.OBPS",
+      "navigationURL": "integration/dss/obps",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
