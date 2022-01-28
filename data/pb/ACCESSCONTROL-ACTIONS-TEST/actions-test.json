@@ -19182,6 +19182,18 @@
       "navigationURL": "integration/dss/national-mcollect",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2214,
+      "name": "DSS Dashboard Config National mCollect",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-mcollect",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
