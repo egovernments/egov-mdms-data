@@ -15210,7 +15210,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Home",
-      "navigationURL": "integration/dss/home",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/home",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15225,7 +15225,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.PropertyTax",
-      "navigationURL": "integration/dss/propertytax",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15240,7 +15240,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.TradeLicense",
-      "navigationURL": "integration/dss/tradelicense",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/tradelicense",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15654,7 +15654,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.PGR",
-      "navigationURL": "integration/dss/pgr",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/pgr",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15914,7 +15914,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Overview",
-      "navigationURL": "integration/dss/overview",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -18978,7 +18978,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Overview",
-      "navigationURL": "integration/dss/national-overview",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19078,7 +19078,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.PropertyTax",
-      "navigationURL": "integration/dss/national-propertytax",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19093,7 +19093,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.FireNOC",
-      "navigationURL": "integration/dss/national-firenoc",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-firenoc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },{
@@ -19122,7 +19122,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.Water&Sewerage",
-      "navigationURL": "integration/dss/national-ws",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19164,7 +19164,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.OBPS",
-      "navigationURL": "integration/dss/obps",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/obps",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
