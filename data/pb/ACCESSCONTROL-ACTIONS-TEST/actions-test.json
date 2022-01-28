@@ -19093,7 +19093,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.FireNOC",
-      "navigationURL": "integration/dss/national-firenoc",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/national-firenoc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },{
@@ -19122,7 +19122,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.Water&Sewerage",
-      "navigationURL": "integration/dss/national-ws",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/national-ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19150,6 +19150,21 @@
       "code": "null",
       "path": "NatDashboard.PGR",
       "navigationURL": "integration/dss/national-pgr",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2212,
+      "name": "Dashboard OBPS",
+      "url": "url",
+      "displayName": "OBPS",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.OBPS",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/obps",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
