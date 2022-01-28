@@ -19167,6 +19167,21 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/obps",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2213,
+      "name": "National Dashboard mCollect",
+      "url": "url",
+      "displayName": "National mCollect",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.MCollect",
+      "navigationURL": "integration/dss/national-mcollect",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
