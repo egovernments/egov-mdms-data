@@ -19093,7 +19093,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.FireNOC",
-      "navigationURL": "integration/dss/national-firenoc",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-firenoc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },{
@@ -19122,7 +19122,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.Water&Sewerage",
-      "navigationURL": "integration/dss/national-ws",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19164,7 +19164,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.OBPS",
-      "navigationURL": "integration/dss/obps",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/obps",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
