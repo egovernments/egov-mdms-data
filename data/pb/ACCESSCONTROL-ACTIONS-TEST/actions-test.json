@@ -19194,6 +19194,33 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2215,
+      "name": "National Dashboard Trade license",
+      "url": "url",
+      "displayName": "National tradelicense",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.TradeLicense",
+      "navigationURL": "integration/dss/national-tradelicense",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2216,
+      "name": "DSS Dashboard Config National mCollect",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-tradelicense",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
