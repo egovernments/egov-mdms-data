@@ -106,6 +106,14 @@
                "national-ws":{
                   "routePath":"/dashboard/national-ws",
                   "isOrigin":true
+               },
+               "national-mcollect":{
+                  "routePath":"/dashboard/national-mcollect",
+                  "isOrigin":true
+               },
+               "national-tradelicense":{
+                  "routePath":"/dashboard/national-tradelicense",
+                  "isOrigin":true
                }
            }
         },
