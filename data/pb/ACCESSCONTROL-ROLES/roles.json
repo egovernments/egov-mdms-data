@@ -587,6 +587,11 @@
       "code": "SUPERVISOR",
       "name": "Auto Escalation Supervisor",
       "description": "Escalation to particular role"
+    },
+    {
+      "code": "NATADMIN",
+      "name": "National Dashboard Admin",
+      "description": "Admin role that as access over a Nation"
     }
   ]
 }
