@@ -19140,9 +19140,21 @@
     },
      {
       "id": 2210,
-      "name": "National Dashboard pgr",
+      "name": "DSS Dashboard Config National PGR",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-pgr",
-      "displayName": "National pgr",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2211,
+      "name": "National Dashboard PGR",
+      "url": "url",
+      "displayName": "National PGR",
       "orderNumber": 4,
       "parentModule": "ndss-dashboard",
       "enabled": true,
