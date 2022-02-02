@@ -123,6 +123,12 @@
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
     {
+      "businessService": "PT",
+      "module": "PT",
+      "action" : "ASSESS",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
       "businessService": "BPA.CREATE",
       "module": "BPA",
       "action" : "INITIATE",
