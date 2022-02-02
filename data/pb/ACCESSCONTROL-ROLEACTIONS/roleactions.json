@@ -19909,6 +19909,30 @@
       "actionid": 2233,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "NATADMIN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "NATADMIN",
+      "actionid": 699,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 699,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
