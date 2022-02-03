@@ -11157,6 +11157,36 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/obps",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2234,
+      "name": "National Dashboard OBPS",
+      "url": "url",
+      "displayName": "National Dashboard OBPS",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.OBPS",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-obps",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2235,
+      "name": "National Dashboard pgr",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-pgr",
+      "displayName": "National pgr",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.PGR",
+      "navigationURL": "integration/dss/national-pgr",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }   
