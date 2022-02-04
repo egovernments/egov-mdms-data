@@ -7145,7 +7145,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Ws",
-      "navigationURL": "integration/dss/ws",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -11100,7 +11100,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.MCollect",
-      "navigationURL": "integration/dss/national-mcollect",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/national-mcollect",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
