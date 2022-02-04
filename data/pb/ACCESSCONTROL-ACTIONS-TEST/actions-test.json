@@ -7145,7 +7145,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Ws",
-      "navigationURL": "integration/dss/ws",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -11100,7 +11100,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.MCollect",
-      "navigationURL": "integration/dss/national-mcollect",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/national-mcollect",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -11185,6 +11185,35 @@
       "code": "null",
       "path": "NatDashboard.PGR",
       "navigationURL": "integration/dss/national-pgr",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2236,
+      "name": "Dashboard Firenoc",
+      "url": "url",
+      "displayName": "Firenoc",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Firenoc",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/noc",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    }, {
+      "id": 2237,
+      "name": "Dashboard Mcollect",
+      "url": "url",
+      "displayName": "Mcollect",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.mCollect",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/mCollect",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
