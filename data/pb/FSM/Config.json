@@ -35,6 +35,16 @@
                 "pitDetail"
             ],
             "active":true
+        },
+        {
+            "code":"ALLOW_MODIFY",
+            "WFState":"DSO_INPROGRESS",
+            "override":[
+                "propertyUsage",
+                "sanitationtype",
+                "pitDetail"
+            ],
+            "active":true
         }
 
     ]
