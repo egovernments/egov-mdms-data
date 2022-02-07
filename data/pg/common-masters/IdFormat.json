@@ -673,6 +673,26 @@
          {
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "lcf.trade_license_fee.receipt.id"
-        }
+         },
+         {
+            "format": "DOC-[cy:yyyy-MM-dd]-[SEQ_EG_DOC_ID]",
+            "idname": "du.documentid"
+         },
+         {
+            "format": "PG-SK-[cy:yyyy-MM-dd]-[SEQ_EG_TL_APL]",
+            "idname": "bpareg.aplnumber"
+         },
+         {
+           "format": "PG-SK-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]",
+           "idname": "bpareg.licensenumber"
+         },
+         {
+            "format": "PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
+            "idname": "bpa.aplnumber"
+         },
+         {
+           "format": "PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_PN]",
+           "idname": "bpa.permitnumber"
+         }
     ]
 }
