@@ -3,7 +3,7 @@
     "moduleName": "common-masters",
     "CronJobAPIConfig": [{
         "jobName": "daily",
-        "active": "false",
+        "active": "true",
         "method": "POST",
         "url": "http://tl-services.egov:8080/tl-services/v1/TL/Expiry/_batch",
         "payload": {
@@ -27,7 +27,7 @@
       },
                          {
         "jobName": "daily",
-        "active": "true",
+        "active": "false",
         "method": "POST",
         "url": "http://ws-calculator.egov:8080/ws-calculator/waterCalculator/_jobscheduler",
         "payload": {
@@ -39,7 +39,7 @@
       },
       {
         "jobName": "daily",
-        "active": "true",
+        "active": "false",
         "method": "POST",
         "url": "http://sw-calculator.egov:8080/sw-calculator/sewerageCalculator/_jobscheduler",
         "payload": {
@@ -60,6 +60,18 @@
         "header": {
           "Content-Type": "application/json"
        }
+      },
+   	 {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://fsm.egov:8080/fsm/v1/_schedular",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
       }
+	  }
     ]
   }
