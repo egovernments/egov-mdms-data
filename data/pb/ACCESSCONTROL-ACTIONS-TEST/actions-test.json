@@ -11216,6 +11216,21 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/mCollect",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2238,
+      "name": "Dashboard National Overview",
+      "url": "url",
+      "displayName": "National Overview",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Overview",
+      "navigationURL": "integration/dss/overview",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }   
