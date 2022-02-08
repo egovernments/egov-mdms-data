@@ -94,6 +94,9 @@
                "national-propertytax":{
                   "routePath":"/dashboard/national-propertytax",
                   "isOrigin":true
+               },"national-overview":{
+                  "routePath":"/dashboard/national-overview",
+                  "isOrigin":true
                },
                "national-mcollect":{
                   "routePath":"/dashboard/national-mcollect",
