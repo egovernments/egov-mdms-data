@@ -1259,6 +1259,13 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "VehicleOwner": {
+      "masterName": "VehicleOwner",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "EDCR": {
