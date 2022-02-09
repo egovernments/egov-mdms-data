@@ -1,11 +1,28 @@
 {
   "tenantId": "in",
   "moduleName": "tenant",
-  "tenants": [{
+  "tenants": [
+    {
+      "code": "in.stateb",
+      "name": "State B",
+      "description": "State B"
+    },
+    {
+      "code": "in.statea",
+      "name": "State A",
+      "description": "State A"
+    },
+    {
       "code": "pg.citya",
       "name": "City A",
       "description": "City A",
-      "pincode": [143001,143002,143003,143004,143005],
+      "pincode": [
+        143001,
+        143002,
+        143003,
+        143004,
+        143005
+      ],
       "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.citya/logo.png",
       "imageId": null,
       "domainUrl": "https://www.egovernments.org",
@@ -37,7 +54,13 @@
       "code": "pg.cityb",
       "name": "City B",
       "description": null,
-      "pincode": [143006,143007,143008,143009,143010],
+      "pincode": [
+        143006,
+        143007,
+        143008,
+        143009,
+        143010
+      ],
       "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.cityb/logo.png",
       "imageId": null,
       "domainUrl": "https://www.egovernments.org",
@@ -201,7 +224,13 @@
       "code": "pg.balasore",
       "name": "Balasore Municipality",
       "description": "",
-      "pincode": [756001,756002,756019,756025,756056],
+      "pincode": [
+        756001,
+        756002,
+        756019,
+        756025,
+        756056
+      ],
       "logoId": "https://uat.digit.org/pg-egov-assets/Balasore%20logo.jpg",
       "imageId": null,
       "domainUrl": "http://balasoremunicipality.in/",
@@ -219,7 +248,7 @@
         "districtName": "Balasore",
         "regionName": "null",
         "ulbGrade": "B",
-        "longitude": null ,
+        "longitude": null,
         "latitude": null,
         "shapeFileLocation": null,
         "captcha": null,
@@ -293,5 +322,5 @@
       "contactNumber": "9438256399",
       "helpLineNumber": "9438256399"
     }
-   ]
+  ]
 }
