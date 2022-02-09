@@ -1167,6 +1167,13 @@
         "$.code"
       ]
     },
+    "PaymentType": {
+      "masterName": "PaymentType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "CheckList": {
       "masterName": "CheckList",
       "isStateLevel": true,
