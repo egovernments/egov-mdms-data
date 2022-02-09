@@ -1,20 +1,5 @@
 {
   "tenantId": "in",
-  "tenant": {
-"tenants": 
-	[
-	{
-	"code": "in.stateb",
- 	"name": "State B", 
- 	"description": "State B"
- 	},
- 	{
-	"code": "in.statea",
-	"name": "State A", 
- 	"description": "State A"
- 	}
- 	]
- },
   "citymodule": [
     {
       "module": "PGR",
@@ -22,21 +7,11 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
-
       ]
     },
     {
@@ -45,40 +20,22 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
-   {
+    {
       "module": "Finance",
       "code": "Finance",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -88,19 +45,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -109,19 +57,10 @@
       "code": "FIRENOC",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -130,19 +69,10 @@
       "code": "UC",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -151,19 +81,10 @@
       "code": "BPAREG",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -172,19 +93,10 @@
       "code": "BPAAPPLY",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -193,7 +105,7 @@
       "code": "PGR.WHATSAPP",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         }
       ]
     },
@@ -202,25 +114,13 @@
       "code": "FSM",
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        },
-	{
-          "code": "pg.balasore"
+          "code": "in.stateb"
         }
       ]
-    },  
+    },
     {
       "module": "OBPS",
       "code": "OBPS",
@@ -228,41 +128,23 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
-	  {
+    {
       "module": "Payment",
       "code": "Payment",
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -272,19 +154,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -294,19 +167,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -316,19 +180,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -338,19 +193,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -360,19 +206,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     },
@@ -382,19 +219,10 @@
       "active": true,
       "tenants": [
         {
-          "code": "pg.citya"
+          "code": "in.statea"
         },
         {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
+          "code": "in.stateb"
         }
       ]
     }
