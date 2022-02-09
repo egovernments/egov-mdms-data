@@ -1,0 +1,16 @@
+{
+    "tenantId": "pb",
+    "moduleName": "FSM",
+    "PaymentType": [
+        {
+            "name": "Pay Now",
+            "code": "PAY_NOW",
+            "active": true
+        },
+        {
+            "name": "Pay on Service",
+            "code": "PAY_ON_SERVICE",
+            "active": true
+        }
+    ]
+}
