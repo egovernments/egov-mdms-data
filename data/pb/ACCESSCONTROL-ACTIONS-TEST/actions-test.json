@@ -10923,13 +10923,13 @@
     },
     {
       "id": 2216,
-      "name": "DSS Dashboard Config National Property Tax",
+      "name": "NSS Dashboard Config National Property Tax",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-propertytax",
       "parentModule": "",
-      "displayName": "DSS",
+      "displayName": "NSS",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "DSS",
+      "serviceCode": "NSS",
       "code": "null",
       "path": ""
     },
@@ -10990,7 +10990,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.PropertyTax",
-      "navigationURL": "integration/dss/national-propertytax",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/national-propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -11217,9 +11217,21 @@
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
-    {
+	{
       "id": 2238,
-      "name": "Dashboard National Overview",
+      "name": "NSS Dashboard Config Overview",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-overview",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2239,
+      "name": "National Dashboard Overview",
       "url": "url",
       "displayName": "National Overview",
       "orderNumber": 2,
@@ -11228,7 +11240,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.Overview",
-      "navigationURL": "integration/dss/overview",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/national-overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
