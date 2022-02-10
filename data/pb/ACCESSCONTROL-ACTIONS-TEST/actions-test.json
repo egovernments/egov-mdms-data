@@ -10990,7 +10990,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.PropertyTax",
-      "navigationURL": "/digit-ui/employee/dss/dashboard/national-propertytax",
+      "navigationURL": "integration/dss/national-propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -11240,7 +11240,7 @@
       "serviceCode": "NDSS",
       "code": "null",
       "path": "NatDashboard.Overview",
-      "navigationURL": "/digit-ui/employee/dss/dashboard/national-overview",
+      "navigationURL": "integration/dss/national-overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
