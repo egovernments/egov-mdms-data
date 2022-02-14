@@ -4,12 +4,12 @@
     "PaymentType": [
         {
             "name": "Pay Now",
-            "code": "PAY_NOW",
+            "code": "PRE_PAY",
             "active": true
         },
         {
             "name": "Pay on Service",
-            "code": "PAY_ON_SERVICE",
+            "code": "POST_PAY",
             "active": true
         }
     ]
