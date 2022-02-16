@@ -4,7 +4,7 @@
     "Config": [
         {
             "code":"noOfTrips",
-            "override":false,
+            "override":true,
             "default":1,
             "active":true
         },
