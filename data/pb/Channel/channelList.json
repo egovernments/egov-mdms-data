@@ -163,6 +163,56 @@
       ]
     },
     {
+      "businessService": "PT",
+      "module": "PT",
+      "action": "UPDATE_MOBILE",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action": "ALTERNATE_MOBILE",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action": "DUE",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action": "NO_WORKFLOW",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
+      "businessService": "PT",
+      "module": "PT",
+      "action": "ASSESS",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
       "businessService": "BPA.CREATE",
       "module": "BPA",
       "action": "INITIATE",
