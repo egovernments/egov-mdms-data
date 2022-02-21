@@ -55,6 +55,16 @@
     {
       "businessService": "PT.UPDATE",
       "module": "PT",
+      "action": "SENDBACKTOCITIZEN",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
       "action": "OPEN",
       "channelNames": [
         "SMS",
