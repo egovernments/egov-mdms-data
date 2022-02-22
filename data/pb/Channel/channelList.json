@@ -53,6 +53,16 @@
       ]
     },
     {
+      "businessService": "PT.CREATE",
+      "module": "PT",
+      "action": "SENDBACK",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
       "businessService": "PT.UPDATE",
       "module": "PT",
       "action": "SENDBACKTOCITIZEN",
