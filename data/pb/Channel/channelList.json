@@ -17,6 +17,12 @@
     {
       "businessService": "PT.CREATE",
       "module": "PT",
+      "action" : "PAID",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "PT.CREATE",
+      "module": "PT",
       "action" : "FORWARD",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
