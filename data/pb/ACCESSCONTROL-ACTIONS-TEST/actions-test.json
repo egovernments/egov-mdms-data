@@ -18996,9 +18996,9 @@
     },
     {
       "id": 2199,
-      "name": "National Ubran Realtime Dashboard",
+      "name": "National Urban Realtime Dashboard",
       "url": "url",
-      "displayName": "National Ubran Realtime Dashboard",
+      "displayName": "National Urban Realtime Dashboard",
       "orderNumber": 4,
       "parentModule": "ndss-dashboard",
       "enabled": true,
@@ -19233,6 +19233,22 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2217,
+      "name":"National Urban Realtime Dashboard",
+      "url": "card",
+      "displayName":"National Urban Realtime Dashboard",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "integration",
+      "code": "",
+      "path": "",
+      "navigationURL": "integration/dss/NURT_DASHBOARD",
+      "leftIcon": "places:business-center",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }

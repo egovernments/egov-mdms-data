@@ -586,6 +586,11 @@
       "code": "CR_PT",
       "name": "Property Tax Receipt Cancellator",
       "description": "Property Tax Receipt Cancelling Employee"
+    },
+    {
+      "code": "NATADMIN",
+      "name": "National Dashboard Administrator",
+      "description": "Admin role that as access over a National"
     }
   ]
 }
