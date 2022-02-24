@@ -345,6 +345,28 @@
           "code": "pb.amritsar"
         }
       ]
+    }, 
+    {
+      "module": "NDSS",
+      "code": "NDSS",
+      "active": true,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.derabassi"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.phagwara"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
     }
   ]
 }
