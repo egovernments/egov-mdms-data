@@ -350,6 +350,22 @@
           "code": "pb.amritsar"
         }
       ]
+    }, 
+    {
+      "module": "CommonPT",
+      "code": "CommonPT",
+      "active": true,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
     }
   ]
 }
