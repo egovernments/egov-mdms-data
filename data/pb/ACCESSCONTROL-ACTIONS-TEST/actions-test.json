@@ -11243,6 +11243,22 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/national-overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2240,
+      "name":"National Urban Realtime Dashboard",
+      "url": "card",
+      "displayName":"National Urban Realtime Dashboard",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "integration",
+      "code": "",
+      "path": "",
+      "navigationURL": "integration/dss/NURT_DASHBOARD",
+      "leftIcon": "places:business-center",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }   
