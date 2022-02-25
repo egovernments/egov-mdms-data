@@ -942,6 +942,11 @@
       "masterName": "CalculationAttribute",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "SMSReceiver": {
+      "masterName": "SMSReceiver",
+      "isStateLevel": true,
+      "uniqueKeys": []
     }
   },
   "BPA": {
@@ -1083,6 +1088,11 @@
     },
     "CalculationAttribute": {
       "masterName": "CalculationAttribute",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "SMSReceiver": {
+      "masterName": "SMSReceiver",
       "isStateLevel": true,
       "uniqueKeys": []
     }
