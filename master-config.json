@@ -955,6 +955,11 @@
        "masterName": "dateEffectiveConfig",
       "isStateLevel": true,
       "uniqueKeys": []
+    },
+    "SMSReceiver": {
+      "masterName": "SMSReceiver",
+      "isStateLevel": true,
+      "uniqueKeys": []
     }
   },
   "BPA": {
@@ -1120,6 +1125,11 @@
     },
     "dateEffectiveConfig":{
        "masterName": "dateEffectiveConfig",
+      "isStateLevel": true,
+      "uniqueKeys": []
+    },
+    "SMSReceiver": {
+      "masterName": "SMSReceiver",
       "isStateLevel": true,
       "uniqueKeys": []
     }
