@@ -6271,20 +6271,6 @@
       "path": ""
     },
     {
-      "id": 1827,
-      "name": "BillGenie",
-      "url": "url",
-      "displayName": "BillGenie",
-      "orderNumber": 5,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BG",
-      "code": "null",
-      "navigationURL": "abg/billSearch",
-      "path": "BG",
-      "leftIcon": "action:receipt"
-    },
-    {
       "id": 1828,
       "name": "mSeva Event Create",
       "url": "/egov-user-event/v1/events/_create",
