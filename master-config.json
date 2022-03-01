@@ -77,19 +77,25 @@
     "uiCommonPay": {
       "masterName": "uiCommonPay",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "IdFormat": {
       "masterName": "IdFormat",
       "moduleDefinition": null,
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "Ui-Common-Config": {
       "masterName": "Ui-Common-Config",
       "moduleDefinition": null,
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "Department": {
       "masterName": "Department",
@@ -500,7 +506,9 @@
     "FireCess": {
       "masterName": "FireCess",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "Floor": {
       "masterName": "Floor",
@@ -631,7 +639,9 @@
     "CancerCess": {
       "masterName": "CancerCess",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     }
   },
   "TradeLicense": {
@@ -858,14 +868,18 @@
     "waterSourceWithSubSource": {
       "masterName": "waterSourceWithSubSource",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     }
   },
   "ws-services-calculation": {
     "WaterCess": {
       "masterName": "WaterCess",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "Interest": {
       "masterName": "Interest",
@@ -891,62 +905,86 @@
     "WCBillingSlab": {
       "masterName": "WCBillingSlab",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "WS_CHARGE": {
       "masterName": "WS_CHARGE",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "WS_TIME_PENALTY": {
       "masterName": "WS_TIME_PENALTY",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "WS_WATER_CESS": {
       "masterName": "WS_WATER_CESS",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "MeterStatus": {
       "masterName": "MeterStatus",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "WS_Round_Off": {
       "masterName": "WS_Round_Off",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "PlotSizeSlab": {
       "masterName": "PlotSizeSlab",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "PropertyUsageType": {
       "masterName": "PropertyUsageType",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "FeeSlab": {
       "masterName": "FeeSlab",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "RoadType": {
       "masterName": "RoadType",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "CalculationAttribute": {
       "masterName": "CalculationAttribute",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "SMSReceiver": {
       "masterName": "SMSReceiver",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     }
   },
   "BPA": {
@@ -974,12 +1012,16 @@
     "CalculationType": {
       "masterName": "CalculationType",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "RiskTypeComputation": {
       "masterName": "RiskTypeComputation",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "OccupancyType": {
       "masterName": "OccupancyType",
@@ -1042,7 +1084,9 @@
     "SCBillingSlab": {
       "masterName": "SCBillingSlab",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "billingPeriod": {
       "masterName": "billingPeriod",
@@ -1054,47 +1098,65 @@
     "SW_CHARGE": {
       "masterName": "SW_CHARGE",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "SW_TIME_PENALTY": {
       "masterName": "SW_TIME_PENALTY",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "SW_Round_Off": {
       "masterName": "SW_Round_Off",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "PlotSizeSlab": {
       "masterName": "PlotSizeSlab",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "PropertyUsageType": {
       "masterName": "PropertyUsageType",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "FeeSlab": {
       "masterName": "FeeSlab",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "RoadType": {
       "masterName": "RoadType",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "CalculationAttribute": {
       "masterName": "CalculationAttribute",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     },
     "SMSReceiver": {
       "masterName": "SMSReceiver",
       "isStateLevel": true,
-      "uniqueKeys": []
+      "uniqueKeys": [
+        
+      ]
     }
   },
   "FSM": {
@@ -1111,7 +1173,7 @@
       "uniqueKeys": [
         "$.code"
       ]
-      },
+    },
     "CheckList": {
       "masterName": "CheckList",
       "isStateLevel": true,
@@ -1175,7 +1237,7 @@
         "$.code"
       ]
     },
-"ApplicationType": {
+    "ApplicationType": {
       "masterName": "ApplicationType",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -1190,8 +1252,8 @@
       ]
     }
   },
-  "Vehicle":{
-     "SuctionType": {
+  "Vehicle": {
+    "SuctionType": {
       "masterName": "SuctionType",
       "isStateLevel": true,
       "uniqueKeys": [
@@ -1204,7 +1266,29 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "VehicleOwner": {
+      "masterName": "VehicleOwner",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
-	
+  },
+  "Vendor": {
+    "AgencyType": {
+      "masterName": "AgencyType",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "PaymentPreference": {
+      "masterName": "PaymentPreference",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
   }
 }
