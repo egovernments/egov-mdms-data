@@ -1221,13 +1221,6 @@
     }
   },
   "Vendor": {
-    "AgencyType": {
-      "masterName": "AgencyType",
-      "isStateLevel": false,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    },
     "PaymentPreference": {
       "masterName": "PaymentPreference",
       "isStateLevel": false,
