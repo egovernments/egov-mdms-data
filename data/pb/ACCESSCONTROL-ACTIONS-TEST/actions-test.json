@@ -19249,6 +19249,17 @@
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2218,
+      "name": "SMS Status Reports",
+      "url": "/notification-sms/smsbounce/callback",
+      "displayName": "SMS Status Reports",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "notification-sms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
