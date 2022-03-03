@@ -123,6 +123,16 @@
       ]
     },
     {
+      "businessService": "PT.UPDATE",
+      "module": "PT",
+      "action": "FAILURE",
+      "channelNames": [
+        "SMS",
+        "EMAIL",
+        "EVENT"
+      ]
+    },
+    {
       "businessService": "PT.MUTATION",
       "module": "PT",
       "action": "OPEN",
