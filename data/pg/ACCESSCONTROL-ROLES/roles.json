@@ -586,6 +586,11 @@
       "code": "SYSTEM",
       "name": "System user",
       "description": "System user role"
+    },
+    {
+      "code": "NATADMIN",
+      "name": "National Dashboard Admin",
+      "description": "Admin role that as access over a Nation"
     }
   ]
 }
