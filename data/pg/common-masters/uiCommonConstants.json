@@ -87,13 +87,41 @@
             "routePath": "/dashboard/ulb-ws",
             "isOrigin": true
           },
-          "fsm":{
-            "routePath":"/dashboard/fsm",
-            "isOrigin":true
-              },
-          "ulb-fsm":{
-            "routePath":"/dashboard/ulb-fsm",
-            "isOrigin":true
+          "fsm": {
+            "routePath": "/dashboard/fsm",
+            "isOrigin": true
+          },
+          "ulb-fsm": {
+            "routePath": "/dashboard/ulb-fsm",
+            "isOrigin": true
+          },
+          "national-propertytax": {
+            "routePath": "/dashboard/national-propertytax",
+            "isOrigin": true
+          },
+          "national-firenoc": {
+            "routePath": "/dashboard/national-firenoc",
+            "isOrigin": true
+          },
+          "national-ws": {
+            "routePath": "/dashboard/national-ws",
+            "isOrigin": true
+          },
+          "national-mcollect": {
+            "routePath": "/dashboard/national-mcollect",
+            "isOrigin": true
+          },
+          "national-tradelicense": {
+            "routePath": "/dashboard/national-tradelicense",
+            "isOrigin": true
+          },
+          "national-pgr": {
+            "routePath": "/dashboard/national-pgr",
+            "isOrigin": true
+          },
+          "national-overview": {
+            "routePath": "/dashboard/national-overview",
+            "isOrigin": true
           }
         }
       },
