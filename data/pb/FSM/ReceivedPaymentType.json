@@ -1,0 +1,21 @@
+{
+    "tenantId": "pb",
+    "moduleName": "FSM",
+    "PaymentType": [
+        {
+            "name": "Payed in Cash",
+            "code": "PAYED_IN_CASH",
+            "active": true
+        },
+        {
+            "name": "Payed in Cheque",
+            "code": "PAYED_IN_CHEQUE",
+            "active": true
+        },
+        {
+            "name": "Netbanking",
+            "code": "NETBANKING",
+            "active": true
+        }
+    ]
+}
