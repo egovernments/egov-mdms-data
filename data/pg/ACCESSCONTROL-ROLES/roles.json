@@ -586,6 +586,11 @@
       "code": "SYSTEM",
       "name": "System user",
       "description": "System user role"
+    },
+    {
+      "code": "COMMON_EMPLOYEE",
+      "name": "Basic employee roles",
+      "description": "Basic employee roles"
     }
   ]
 }
