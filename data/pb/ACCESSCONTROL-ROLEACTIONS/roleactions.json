@@ -3,6 +3,24 @@
   "moduleName": "ACCESSCONTROL-ROLEACTIONS",
   "roleactions": [
     {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2062,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_CREATOR_EMP",
+      "actionid": 2062,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2062,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "RO",
       "actionid": 429,
       "actioncode": "",
