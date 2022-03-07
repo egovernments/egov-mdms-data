@@ -487,8 +487,25 @@
       "toDate": 1648751399000,
       "periodCycle": "TWOYEARS",
       "service": "SW",
-      "code": "WC2021",
+      "code": "SC2021",
       "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1648684800000,
+      "toDate": 1680307199000,
+      "periodCycle": "TWOYEARS",
+      "service": "WS",
+      "code": "WC2022",
+      "financialYear": "2022-23"
+    },
+    {
+      "fromDate": 1648684800000,
+      "toDate": 1680307199000,
+      "periodCycle": "TWOYEARS",
+      "service": "SW",
+      "code": "SC2022",
+      "financialYear": "2022-23"
     }
+    
   ]
 }
