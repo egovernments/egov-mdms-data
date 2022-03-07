@@ -5,7 +5,8 @@
     {
       "module": "FSM",
       "code": "FSM",
-      "active": true,    
+      "active": true, 
+      "order":2,   
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -29,6 +30,7 @@
       "code": "PGR",
       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/PGR.png",
       "active": true,
+      "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -46,6 +48,7 @@
       "code": "PT",
       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/PT.png",
       "active": true,
+      "order":1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -62,6 +65,7 @@
       "module": "Payment",
       "code": "Payment",
       "active": true,
+      "order":1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -78,6 +82,7 @@
       "module": "Receipts",
       "code": "Receipts",
       "active": true,
+      "order":3,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -94,6 +99,7 @@
       "module": "NOC",
       "code": "NOC",
       "active": true,
+      "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -110,6 +116,7 @@
       "module": "DSS",
       "code": "DSS",
       "active": true,
+      "order":6,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -132,6 +139,7 @@
       "module": "Engagement",
       "code": "Engagement",
       "active": true,
+      "order":3,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -148,6 +156,7 @@
       "module": "MCollect",
       "code": "MCollect",
       "active": true,
+      "order":1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -164,6 +173,7 @@
       "module": "HRMS",
       "code": "HRMS",
       "active": true,
+      "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -181,6 +191,7 @@
       "module": "QuickPayLinks",
       "code": "QuickPayLinks",
       "active": true,
+      "order":1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -197,6 +208,7 @@
       "module": "Finance",
       "code": "Finance",
       "active": false,
+      "order":4,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -220,6 +232,7 @@
       "code": "TL",
       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/TL.png",
       "active": true,
+      "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -239,6 +252,7 @@
       "module": "FIRENOC",
       "code": "FIRENOC",
       "active": false,
+      "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -256,6 +270,7 @@
       "code": "BPAAPPLY",
       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/OBPS.png",
        "active": true,
+       "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -270,6 +285,7 @@
       "code": "BPAREG",
       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/OBPS.png",
       "active": true,
+      "order":2,
       "tenants": [
         {
           "code": "pb.amritsar"
@@ -284,6 +300,7 @@
       "code": "OBPS",
       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/OBPS.png",
       "active": true,
+      "order":2,
       "tenants": [
         {
           "code": "pb.amritsar"
@@ -297,6 +314,7 @@
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "active": false,
+      "order":4,
       "tenants": [
 	{
           "code": "pb.amritsar",
@@ -320,6 +338,7 @@
       "module": "UC",
       "code": "UC",
       "active": false,
+      "order":2,
       "tenants": [
         {
           "code": "pb.jalandhar",
@@ -339,6 +358,7 @@
       "module": "WS",
       "code": "WS",
       "active": true,
+      "order":1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -355,12 +375,36 @@
       "module": "CommonPT",
       "code": "CommonPT",
       "active": true,
+      "order":3,
       "tenants": [
         {
           "code": "pb.jalandhar"
         },
         {
           "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
+    },
+    {
+      "module": "NDSS",
+      "code": "NDSS",
+      "active": true,
+      "order":5,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.derabassi"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.phagwara"
         },
         {
           "code": "pb.amritsar"
