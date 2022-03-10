@@ -3,7 +3,7 @@
     "moduleName": "dss-dashboard",
     "dashboard-config":[{
     "MODULE_LEVEL":[
-      {"dashboard":null},
+      {"dashboard": null},
       {"propertytax":{"services_name":"Property Tax","filterKey":"PT"}},
       {"tradelicense":{"services_name":"Trade licence","filterKey":"TL"}},
       {"pgr":{"services_name":"PGR","filterKey":"PGR"}},
