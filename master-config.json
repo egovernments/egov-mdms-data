@@ -1109,6 +1109,13 @@
         "$.code"
       ]
       },
+      "PaymentType": {
+      "masterName": "PaymentType",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
     "CheckList": {
       "masterName": "CheckList",
       "isStateLevel": true,
@@ -1201,6 +1208,29 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "VehicleOwner": {
+      "masterName": "VehicleOwner",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+  },
+    "Vendor": {
+    "AgencyType": {
+      "masterName": "AgencyType",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "PaymentPreference": {
+      "masterName": "PaymentPreference",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
+  }
   }
 }
