@@ -6,7 +6,7 @@
       "module": "FSM",
       "code": "FSM",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -20,7 +20,7 @@
       "module": "PGR",
       "code": "PGR",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -37,7 +37,7 @@
       "module": "PT",
       "code": "PT",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -54,7 +54,7 @@
       "module": "Payment",
       "code": "Payment",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -71,7 +71,24 @@
       "module": "Receipts",
       "code": "Receipts",
       "active": true,
-      "order":3,
+      "order": 3,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.phagwara"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
+    },
+    {
+      "module": "Bills",
+      "code": "Bills",
+      "active": true,
+      "order": 3,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -88,7 +105,7 @@
       "module": "NOC",
       "code": "NOC",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -105,7 +122,7 @@
       "module": "DSS",
       "code": "DSS",
       "active": true,
-      "order":6,
+      "order": 6,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -128,7 +145,7 @@
       "module": "Engagement",
       "code": "Engagement",
       "active": true,
-      "order":3,
+      "order": 3,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -145,7 +162,7 @@
       "module": "MCollect",
       "code": "MCollect",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -162,7 +179,7 @@
       "module": "HRMS",
       "code": "HRMS",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -179,7 +196,7 @@
       "module": "QuickPayLinks",
       "code": "QuickPayLinks",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -192,11 +209,11 @@
         }
       ]
     },
-   {
+    {
       "module": "Finance",
       "code": "Finance",
       "active": false,
-      "order":4,
+      "order": 4,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -207,7 +224,7 @@
         {
           "code": "pb.amritsar"
         },
-	{
+        {
           "code": "pb.mohali"
         },
         {
@@ -219,7 +236,7 @@
       "module": "TL",
       "code": "TL",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -229,7 +246,7 @@
         },
         {
           "code": "pb.amritsar"
-        }, 
+        },
         {
           "code": "pb.derabassi"
         }
@@ -239,7 +256,7 @@
       "module": "FIRENOC",
       "code": "FIRENOC",
       "active": false,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -252,11 +269,11 @@
         }
       ]
     },
-   {
+    {
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
       "active": false,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -270,12 +287,12 @@
       "module": "BPAREG",
       "code": "BPAREG",
       "active": false,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.amritsar"
         },
-	      {
+        {
           "code": "pb.jalandhar"
         }
       ]
@@ -284,12 +301,12 @@
       "module": "OBPS",
       "code": "OBPS",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.amritsar"
         },
-	      {
+        {
           "code": "pb.jalandhar"
         }
       ]
@@ -298,11 +315,11 @@
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "active": false,
-      "order":4,
+      "order": 4,
       "tenants": [
         {
           "code": "pb.jalandhar",
-	  "name":"Jalandhar"
+          "name": "Jalandhar"
         },
         {
           "code": "pb.phagwara",
@@ -314,11 +331,11 @@
       "module": "UC",
       "code": "UC",
       "active": false,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "pb.jalandhar",
-	        "name": "Jalandhar"
+          "name": "Jalandhar"
         },
         {
           "code": "pb.phagwara",
@@ -334,7 +351,7 @@
       "module": "CASE_MANAGEMENT",
       "code": "CASE_MANAGEMENT",
       "active": false,
-      "order":4,
+      "order": 4,
       "tenants": [
         {
           "code": "pb.jalandhar",
@@ -354,7 +371,7 @@
       "module": "WS",
       "code": "WS",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -366,12 +383,12 @@
           "code": "pb.amritsar"
         }
       ]
-    }, 
+    },
     {
       "module": "NDSS",
       "code": "NDSS",
       "active": true,
-      "order":5,
+      "order": 5,
       "tenants": [
         {
           "code": "pb.jalandhar"
@@ -389,12 +406,12 @@
           "code": "pb.amritsar"
         }
       ]
-    }, 
+    },
     {
       "module": "CommonPT",
       "code": "CommonPT",
       "active": true,
-      "order":3,
+      "order": 3,
       "tenants": [
         {
           "code": "pb.jalandhar"
