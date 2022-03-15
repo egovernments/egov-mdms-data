@@ -597,6 +597,14 @@
     {
       "idname": "bpareg.licensenumber",
       "format": "PB-SK-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]"
-    }
+    },
+    {
+      "format": "BR/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+      "idname": "birth_cert.receipt.id"
+    },
+    {
+      "format": "DT/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+      "idname": "death_cert.receipt.id"
+    } 
   ]
 }

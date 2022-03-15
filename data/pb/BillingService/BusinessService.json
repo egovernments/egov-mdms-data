@@ -1156,6 +1156,28 @@
       "isAdvanceAllowed": false,
       "isVoucherCreationEnabled": true,
       "isActive": true
+    },
+    {
+      "businessService": "Birth Certificate Fees",
+      "code": "BIRTH_CERT",
+      "collectionModesNotAllowed": ["DD", "POSTAL_ORDER"],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "isCitizen": true,
+      "type": null
+    },
+    {
+      "businessService": "Death Certificate Fees",
+      "code": "DEATH_CERT",
+      "collectionModesNotAllowed": ["DD", "POSTAL_ORDER"],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "isCitizen": true,
+      "type": null
     }
   ]
 }
