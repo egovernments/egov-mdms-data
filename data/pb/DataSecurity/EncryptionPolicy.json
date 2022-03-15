@@ -79,6 +79,27 @@
             "type" : "Normal"
           }
         ]
+      },
+      {
+        "key" : "BndDetail",
+        "attributeList" : [
+          {
+            "jsonPath" : "mobileno",
+            "type" : "Normal"
+          },
+          {
+            "jsonPath" : "emailid",
+            "type" : "Normal"
+          },
+          {
+            "jsonPath" : "aadharno",
+            "type" : "Normal"
+          },
+          {
+            "jsonPath" : "icdcode",
+            "type" : "Normal"
+          } 
+        ]
       }
     ]
 }

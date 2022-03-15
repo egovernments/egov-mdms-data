@@ -256,6 +256,32 @@
           "employeeUrl": "/fire-noc/search"
         }
       ]
+    },
+    {
+      "code": "BIRTH_CERT",
+      "headerBandLabel": "PAYMENT_TL_CONSUMER_CODE",
+      "receiptKey": "birth-certificate",
+      "billKey": "birth-certificate",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
+    },
+    {
+      "code": "DEATH_CERT",
+      "headerBandLabel": "PAYMENT_TL_CONSUMER_CODE",
+      "receiptKey": "death-certificate",
+      "billKey": "death-certificate",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
     }
   ]
 }

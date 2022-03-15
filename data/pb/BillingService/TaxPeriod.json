@@ -505,6 +505,22 @@
       "service": "SW",
       "code": "SC2022",
       "financialYear": "2022-23"
+    },
+    {
+      "fromDate": 1554076800000,
+      "toDate": 1901145600000,
+      "periodCycle": "ANNUAL",
+      "service": "BIRTH_CERT",
+      "code": "BIRTHCERT",
+      "financialYear": "2019-30"
+    },
+    {
+      "fromDate": 1554076800000,
+      "toDate": 1901145600000,
+      "periodCycle": "ANNUAL",
+      "service": "DEATH_CERT",
+      "code": "DEATHCERT",
+      "financialYear": "2019-30"
     }
     
   ]
