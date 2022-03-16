@@ -821,6 +821,18 @@
     {
       "businessService": "MCOLLECT.CREATE",
       "module": "MCOLLECT",
+      "action" : "CANCEL",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "MCOLLECT.CREATE",
+      "module": "MCOLLECT",
+      "action" : "UPDATE",
+      "channelNames": ["SMS", "EMAIL", "EVENT"]
+    },
+    {
+      "businessService": "MCOLLECT.CREATE",
+      "module": "MCOLLECT",
       "action" : "PAYMENT",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     }
