@@ -1801,6 +1801,22 @@
             "name": "Umerkote",
             "active": true,
             "module": "NationalDashboard"
+        },
+        {
+            "stateCode": "Madhya Pradesh",
+            "stateName": "Madhya Pradesh",
+            "code": "mp.ulba",
+            "name": "ULB A",
+            "active": true,
+            "module": "NationalDashboard"
+        },
+        { 
+            "stateCode": "Madhya Pradesh",
+            "stateName": "Madhya Pradesh",
+            "code": "mp.ulbb",
+            "name": "ULB B",
+            "active": true,
+            "module": "NationalDashboard"
         }
     ]
 }
