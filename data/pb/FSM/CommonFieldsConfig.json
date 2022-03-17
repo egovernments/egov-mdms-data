@@ -169,7 +169,7 @@
           },
           "type": "component",
           "key": "pitDetail",
-          "nextStep": null,
+          "nextStep": "select-payment-preference",
           "label": "ES_NEW_APPLICATION_PIT_DIMENSION"
         }
       ]
