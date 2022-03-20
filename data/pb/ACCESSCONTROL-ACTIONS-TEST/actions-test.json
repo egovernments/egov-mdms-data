@@ -19533,6 +19533,21 @@
       "navigationURL": "report/rainmaker-bnd/BirthAndDeathCertificatePayment",
       "leftIcon": "action:assignment",
       "rightIcon": ""
+    },
+    {
+      "id": 2240,
+      "name": "TradeLicenseDailyCollectionReport",
+      "url": "url",
+      "displayName": "Trade License Daily Collection Report",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-tl",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TradeLicenseDailyCollectionReport",
+      "navigationURL": "report/rainmaker-tl/TradeLicenseDailyCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
     }
   ]
 }
