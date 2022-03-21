@@ -19533,6 +19533,78 @@
       "navigationURL": "report/rainmaker-bnd/BirthAndDeathCertificatePayment",
       "leftIcon": "action:assignment",
       "rightIcon": ""
+    },
+    {
+      "id": 2240,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/birth-death-services/common/saveBirthImport",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2241,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/birth-death-services/common/saveDeathImport",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2242,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/birth-death-services/birth/_search",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2243,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/birth-death-services/death/_search",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2244,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/birth-death-services/common/updateBirthImport",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2245,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/birth-death-services/common/updateDeathImport",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }
