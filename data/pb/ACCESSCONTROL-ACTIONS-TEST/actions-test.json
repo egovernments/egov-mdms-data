@@ -19620,6 +19620,60 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2247,
+      "name": "Dashboard Birth",
+      "url": "url",
+      "displayName": "Birth",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.birth",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/birth",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2248,
+      "name": "DSS Dashboard Config Birth",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/birth",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2249,
+      "name": "Dashboard Death",
+      "url": "url",
+      "displayName": "Death",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.death",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/death",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2250,
+      "name": "DSS Dashboard Config Death",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/death",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
