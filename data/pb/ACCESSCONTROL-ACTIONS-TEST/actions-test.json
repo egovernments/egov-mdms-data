@@ -15210,7 +15210,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Home",
-      "navigationURL": "integration/dss/home",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/home",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15225,7 +15225,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.PropertyTax",
-      "navigationURL": "integration/dss/propertytax",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15240,7 +15240,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.TradeLicense",
-      "navigationURL": "integration/dss/tradelicense",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/tradelicense",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15654,7 +15654,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.PGR",
-      "navigationURL": "integration/dss/pgr",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/pgr",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15898,7 +15898,7 @@
       "serviceCode": "integration",
       "code": "",
       "path": "",
-      "navigationURL": "integration/dss/home",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/home",
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
@@ -15914,7 +15914,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Overview",
-      "navigationURL": "integration/dss/overview",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -16134,7 +16134,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Ws",
-      "navigationURL": "integration/dss/ws",
+      "navigationURL": "/digit-ui/employee/payment/integration/dss/ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
