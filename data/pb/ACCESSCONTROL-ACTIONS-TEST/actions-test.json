@@ -19758,7 +19758,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "cbbnd.birth-registration",
-      "navigationURL": "/birth-employee/newRegistration",
+      "navigationURL": "/digit-ui/employee/birth-employee/newRegistration",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19772,8 +19772,8 @@
       "enabled": true,
       "serviceCode": "Birth-Death",
       "code": "null",
-      "path": "cbbnd.death-registration",
-      "navigationURL": "/death-employee/newRegistration",
+      "path": "cbbnd.birth-registration",
+      "navigationURL": "/digit-ui/employee/death-employee/newRegistration",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
