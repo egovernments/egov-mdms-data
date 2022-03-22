@@ -19632,7 +19632,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.birth",
-      "navigationURL": "/digit-ui/employee/dss/dashboard/birth",
+      "navigationURL": "/dss/dashboard/birth",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19659,7 +19659,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.death",
-      "navigationURL": "/digit-ui/employee/dss/dashboard/death",
+      "navigationURL": "/dss/dashboard/death",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19758,7 +19758,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "cbbnd.birth-registration",
-      "navigationURL": "/digit-ui/employee/birth-employee/newRegistration",
+      "navigationURL": "/birth-employee/newRegistration",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19772,8 +19772,8 @@
       "enabled": true,
       "serviceCode": "Birth-Death",
       "code": "null",
-      "path": "cbbnd.birth-registration",
-      "navigationURL": "/digit-ui/employee/death-employee/newRegistration",
+      "path": "cbbnd.death-registration",
+      "navigationURL": "/death-employee/newRegistration",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     }
