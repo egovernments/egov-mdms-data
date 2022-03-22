@@ -19632,7 +19632,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.birth",
-      "navigationURL": "/dss/dashboard/birth",
+      "navigationURL": "dss/dashboard/birth",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19659,7 +19659,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.death",
-      "navigationURL": "/dss/dashboard/death",
+      "navigationURL": "dss/dashboard/death",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19678,7 +19678,7 @@
     {
       "id": 2251,
       "name": "Death New Registration",
-      "url": "/death-employee/newRegistration",
+      "url": "death-employee/newRegistration",
       "parentModule": "",
       "displayName": "Death New Registration",
       "orderNumber": 0,
@@ -19690,7 +19690,7 @@
     {
       "id": 2252,
       "name": "Birth New Registration",
-      "url": "/birth-employee/newRegistration",
+      "url": "birth-employee/newRegistration",
       "parentModule": "",
       "displayName": "Birth New Registration",
       "orderNumber": 0,
@@ -19702,7 +19702,7 @@
     {
       "id": 2253,
       "name": "Birth : My Applications",
-      "url": "/birth-citizen/myApplications",
+      "url": "birth-citizen/myApplications",
       "parentModule": "",
       "displayName": "My Applications",
       "orderNumber": 0,
@@ -19714,7 +19714,7 @@
     {
       "id": 2254,
       "name": "Death : My Applications",
-      "url": "/death-citizen/myApplications",
+      "url": "death-citizen/myApplications",
       "parentModule": "",
       "displayName": "My Applications",
       "orderNumber": 0,
@@ -19758,7 +19758,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "birth-certificate.new-registration",
-      "navigationURL": "/birth-employee/newRegistration",
+      "navigationURL": "birth-employee/newRegistration",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19773,7 +19773,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "death-certificate.new-registration",
-      "navigationURL": "/death-employee/newRegistration",
+      "navigationURL": "death-employee/newRegistration",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19788,7 +19788,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "birth-certificate.search-certificate",
-      "navigationURL": "/birth-death-services/birth/_search",
+      "navigationURL": "birth-death-services/birth/_search",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19803,7 +19803,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "death-certificate.search-certificate",
-      "navigationURL": "/birth-death-services/death/_search",
+      "navigationURL": "birth-death-services/death/_search",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
