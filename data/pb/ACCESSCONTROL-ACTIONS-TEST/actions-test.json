@@ -19557,7 +19557,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "report",
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     },
@@ -19569,7 +19569,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "report",
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     },
@@ -19581,7 +19581,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "report",
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     },
@@ -19593,7 +19593,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "report",
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     },
@@ -19605,7 +19605,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "report",
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     },
@@ -19617,7 +19617,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "report",
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     },
@@ -19672,6 +19672,78 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2251,
+      "name": "Death New Registration",
+      "url": "/death-employee/newRegistration",
+      "parentModule": "",
+      "displayName": "Death New Registration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2252,
+      "name": "Birth New Registration",
+      "url": "/birth-employee/newRegistration",
+      "parentModule": "",
+      "displayName": "Birth New Registration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2253,
+      "name": "Birth : My Applications",
+      "url": "/birth-citizen/myApplications",
+      "parentModule": "",
+      "displayName": "My Applications",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2254,
+      "name": "Death : My Applications",
+      "url": "/death-citizen/myApplications",
+      "parentModule": "",
+      "displayName": "My Applications",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2255,
+      "name": "Birth : Home",
+      "url": "birth-citizen/home",
+      "parentModule": "",
+      "displayName": "Home",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2256,
+      "name": "Death : Home",
+      "url": "death-citizen/home",
+      "parentModule": "",
+      "displayName": "Home",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
     }
