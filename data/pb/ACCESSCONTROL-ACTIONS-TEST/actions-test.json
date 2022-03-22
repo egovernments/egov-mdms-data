@@ -19746,6 +19746,36 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2257,
+      "name": "Birth Registration",
+      "url": "url",
+      "displayName": "Birth Registration",
+      "orderNumber": 4,
+      "parentModule": "rainmaker-bnd",
+      "enabled": true,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": "cbbnd.birth-registration",
+      "navigationURL": "/digit-ui/employee/birth-employee/newRegistration",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2258,
+      "name": "Death Registration",
+      "url": "url",
+      "displayName": "Birth Registration",
+      "orderNumber": 4,
+      "parentModule": "rainmaker-bnd",
+      "enabled": true,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": "cbbnd.birth-registration",
+      "navigationURL": "/digit-ui/employee/death-employee/newRegistration",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
