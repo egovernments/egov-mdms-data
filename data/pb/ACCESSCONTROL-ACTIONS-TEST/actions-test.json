@@ -19789,7 +19789,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "birth-certificate.search-certificate",
-      "navigationURL": "birth-death-services/birth/_search",
+      "navigationURL": "birth-common/getCertificate",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19804,7 +19804,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "death-certificate.search-certificate",
-      "navigationURL": "birth-death-services/death/_search",
+      "navigationURL": "death-common/getCertificate",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
