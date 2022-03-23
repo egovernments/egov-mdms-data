@@ -19542,7 +19542,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.birth",
-      "navigationURL": "dss/dashboard/birth",
+      "navigationURL": "integration/dss/birth",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19569,7 +19569,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.death",
-      "navigationURL": "dss/dashboard/death",
+      "navigationURL": "integration/dss/birth",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19685,7 +19685,7 @@
       "code": "null",
       "path": "death-certificate.new-registration",
       "navigationURL": "death-employee/newRegistration",
-      "leftIcon": "places:business-center",
+      "leftIcon": "custom:library-books",
       "rightIcon": ""
     },
     {
@@ -19700,7 +19700,7 @@
       "code": "null",
       "path": "birth-certificate.search-certificate",
       "navigationURL": "birth-common/getCertificate",
-      "leftIcon": "places:business-center",
+      "leftIcon": "custom:library-books",
       "rightIcon": ""
     },
     {
@@ -19715,7 +19715,7 @@
       "code": "null",
       "path": "death-certificate.search-certificate",
       "navigationURL": "death-common/getCertificate",
-      "leftIcon": "places:business-center",
+      "leftIcon": "custom:library-books",
       "rightIcon": ""
     },
     {
@@ -19894,32 +19894,6 @@
     "serviceCode": "birth-death-services",
     "code": "null",
     "path": ""
-},
-{
-  "id": 2275,
-  "name": "Death Search",
-  "url": "url",
-  "displayName": "Death Search",
-  "orderNumber": 4,
-  "enabled": true,
-  "serviceCode": "BND",
-  "code": "null",
-  "navigationURL": "death-common/getCertificate",
-  "path": "death.searchRegistry",
-  "leftIcon": "custom:library-books"
-},
-{
-  "id": 2276,
-  "name": "Birth Search",
-  "url": "url",
-  "displayName": "Birth Search",
-  "orderNumber": 4,
-  "enabled": true,
-  "serviceCode": "BND",
-  "code": "null",
-  "navigationURL": "birth-common/getCertificate",
-  "path": "birth.searchRegistry",
-  "leftIcon": "custom:library-books"
 },
 {
   "id": 2277,
