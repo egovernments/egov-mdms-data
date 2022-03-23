@@ -19697,6 +19697,7 @@
       "enabled": false,
       "serviceCode": "Birth-Death",
       "code": "null",
+      "leftIcon": "custom:library-books",
       "path": ""
     },
     {
@@ -19759,7 +19760,7 @@
       "code": "null",
       "path": "birth-certificate.new-registration",
       "navigationURL": "birth-employee/newRegistration",
-      "leftIcon": "places:business-center",
+      "leftIcon": "custom:library-books",
       "rightIcon": ""
     },
     {
@@ -19866,6 +19867,172 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": ""
-    }
+    },
+  {
+      "id": 2266,
+      "name": "Get file store id for consumer code",
+      "url": "/birth-death-services/birth/_getfilestoreid",
+      "parentModule": "",
+      "displayName": "Get file store id for consumer code",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+  },
+  {
+      "id": 2267,
+      "name": "my requests",
+      "url": "/birth-death-services/birth/_searchApplications",
+      "parentModule": "",
+      "displayName": "my requests",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+  },
+  {
+      "id": 2268,
+      "name": "rainmaker-citizen-birth",
+      "url": "card",
+      "displayName": "Birth",
+      "orderNumber": 8,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "birth-citizen/home",
+      "leftIcon": "custom:library-books",
+      "rightIcon": "",
+      "queryParams": ""
+  },
+  
+{
+    "id": 2269,
+    "name": "death Search",
+    "url": "/birth-death-services/death/_search",
+    "parentModule": "",
+    "displayName": "death Search",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "birth-death-services",
+    "code": "null",
+    "path": ""
+},
+{
+    "id": 2270,
+    "name": "Download death Cert",
+    "url": "/birth-death-services/death/_download",
+    "parentModule": "",
+    "displayName": "Download death Cert",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "birth-death-services",
+    "code": "null",
+    "path": ""
+},
+{
+    "id": 2271,
+    "name": "Get file store id for consumer code",
+    "url": "/birth-death-services/death/_getfilestoreid",
+    "parentModule": "",
+    "displayName": "Get file store id for consumer code",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "birth-death-services",
+    "code": "null",
+    "path": ""
+},
+{
+    "id": 2272,
+    "name": "my requests",
+    "url": "/birth-death-services/death/_searchApplications",
+    "parentModule": "",
+    "displayName": "my requests",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "birth-death-services",
+    "code": "null",
+    "path": ""
+},
+{
+    "id": 2273,
+    "name": "rainmaker-citizen-death",
+    "url": "card",
+    "displayName": "death",
+    "orderNumber": 8,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "",
+    "code": "",
+    "path": "",
+    "navigationURL": "death-citizen/home",
+    "leftIcon": "custom:library-books",
+    "rightIcon": "",
+    "queryParams": ""
+},
+{
+    "id": 2274,
+    "name": "View Certificate data",
+    "url": "/birth-death-services/birth/_viewCertData",
+    "parentModule": "",
+    "displayName": "View Certificate data",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "birth-death-services",
+    "code": "null",
+    "path": ""
+},
+{
+  "id": 2275,
+  "name": "Death Search",
+  "url": "url",
+  "displayName": "Death Search",
+  "orderNumber": 4,
+  "enabled": true,
+  "serviceCode": "BND",
+  "code": "null",
+  "navigationURL": "death-common/getCertificate",
+  "path": "death.searchRegistry",
+  "leftIcon": "custom:library-books"
+},
+{
+  "id": 2276,
+  "name": "Birth Search",
+  "url": "url",
+  "displayName": "Birth Search",
+  "orderNumber": 4,
+  "enabled": true,
+  "serviceCode": "BND",
+  "code": "null",
+  "navigationURL": "birth-common/getCertificate",
+  "path": "birth.searchRegistry",
+  "leftIcon": "custom:library-books"
+},
+{
+  "id": 2277,
+  "name": "Check Declaration",
+  "url": "/birth-death-services/common/checkDeclaration",
+  "parentModule": "",
+  "displayName": "Check Declaration",
+  "orderNumber": 0,
+  "enabled": false,
+  "serviceCode": "birth-death-services",
+  "code": "null",
+  "path": ""
+}, {
+  "id": 2278,
+  "name": "Update Declaration",
+  "url": "/birth-death-services/common/updateDeclaration",
+  "parentModule": "",
+  "displayName": "Update Declaration",
+  "orderNumber": 0,
+  "enabled": false,
+  "serviceCode": "birth-death-services",
+  "code": "null",
+  "path": ""
+}
   ]
 }
