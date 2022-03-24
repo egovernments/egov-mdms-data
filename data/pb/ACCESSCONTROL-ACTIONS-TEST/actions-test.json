@@ -11245,6 +11245,84 @@
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2241,
+      "name": "TradeLicenseDailyCollectionReport",
+      "url": "url",
+      "displayName": "Trade License Daily Collection Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-tl",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TradeLicenseDailyCollectionReport",
+      "navigationURL": "report/rainmaker-tl/TradeLicenseDailyCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2242,
+      "name": "TradeLicenseDailyCollectionReport",
+      "url": "/report/rainmaker-tl/TradeLicenseDailyCollectionReport/metadata/_get",
+      "displayName": "rainmaker-tl-TradeLicenseDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2243,
+      "name": "TradeLicenseDailyCollectionReport",
+      "url": "/report/rainmaker-tl/TradeLicenseDailyCollectionReport/_get",
+      "displayName": "rainmaker-tl-TradeLicenseDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2244,
+      "name": "TLApplicationStatusReport",
+      "url": "url",
+      "displayName": "Trade License Application Status Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-tl",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TLApplicationStatusReport",
+      "navigationURL": "report/rainmaker-tl/TLApplicationStatusReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2245,
+      "name": "TLApplicationStatusReport",
+      "url": "/report/rainmaker-tl/TLApplicationStatusReport/metadata/_get",
+      "displayName": "TLApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2246,
+      "name": "TLApplicationStatusReport",
+      "url": "/report/rainmaker-tl/TLApplicationStatusReport/_get",
+      "displayName": "rainmaker-tl-TLApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
