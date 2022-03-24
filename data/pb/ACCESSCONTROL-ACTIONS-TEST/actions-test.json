@@ -19917,6 +19917,18 @@
   "serviceCode": "birth-death-services",
   "code": "null",
   "path": ""
-}
+},
+ {
+      "id": 2279,
+      "name": "BirthAndDeathCertificatePayment",
+      "url": "/report/rainmaker-bnd/BirthAndDeathCertificatePayment/_get",
+      "displayName": "Birth-Death Payment Report",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
