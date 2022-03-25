@@ -11323,6 +11323,45 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2247,
+      "name": "TLRegistryReport",
+      "url": "url",
+      "displayName": "Trade License Registry Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-tl",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TLRegistryReport",
+      "navigationURL": "report/rainmaker-tl/TLRegistryReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2248,
+      "name": "TLRegistryReport",
+      "url": "/report/rainmaker-tl/TLRegistryReport/metadata/_get",
+      "displayName": "TLRegistryReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2249,
+      "name": "TLRegistryReport",
+      "url": "/report/rainmaker-tl/TLRegistryReport/_get",
+      "displayName": "rainmaker-tl-TLRegistryReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
