@@ -1,16 +1,16 @@
 {
 	"tenantId": "pb",
 	"moduleName": "BillingService",
-	"ServiceGLCODEMapping": [
+	"GLCode": [
 	{
 		"code": "BIRTH_CERT",
 		"glcode": null,
-		"cb": "pb.testing"
+		"cb": "pb.amritsar"
 	},
 	{
 		"code": "DEATH_CERT",
 		"glcode": null,
-		"cb": "pb.testing"
+		"cb": "pb.amritsar"
 	}
 	]
 }
