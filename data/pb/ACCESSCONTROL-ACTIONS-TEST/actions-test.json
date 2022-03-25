@@ -19941,6 +19941,18 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2281,
+      "name": "PT Payment search",
+      "url": "/collection-services/payments/DEATH_CERT/_search",
+      "displayName": "PT Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
