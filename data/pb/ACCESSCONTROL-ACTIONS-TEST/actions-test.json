@@ -19929,6 +19929,18 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2280,
+      "name": "PT Payment search",
+      "url": "/collection-services/payments/BIRTH_CERT/_search",
+      "displayName": "PT Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
