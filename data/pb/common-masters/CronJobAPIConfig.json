@@ -53,7 +53,7 @@
 	  {
       "jobName": "daily",
       "active": "true",
-      "method": "GET",
+      "method": "POST",
       "url": "https://wordpress-712928-2363034.cloudwaysapps.com/event-job/",
       "header": {
         "Content-Type": "application/json"
