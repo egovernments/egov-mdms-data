@@ -19542,7 +19542,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.birth",
-      "navigationURL": "integration/dss/birth",
+      "navigationURL": "digit-ui/employee/dss/dashboard/birth",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19569,7 +19569,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.death",
-      "navigationURL": "integration/dss/birth",
+      "navigationURL": "digit-ui/employee/dss/dashboard/death",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
