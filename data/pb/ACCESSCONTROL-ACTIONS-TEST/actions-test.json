@@ -11362,6 +11362,45 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2250,
+      "name": "TLRenewalPendingReport",
+      "url": "url",
+      "displayName": "Trade License Renewal Pending Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-tl",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TLRenewalPendingReport",
+      "navigationURL": "report/rainmaker-tl/TLRenewalPendingReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2251,
+      "name": "TLRenewalPendingReport",
+      "url": "/report/rainmaker-tl/TLRenewalPendingReport/metadata/_get",
+      "displayName": "TLRenewalPendingReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2252,
+      "name": "TLRenewalPendingReport",
+      "url": "/report/rainmaker-tl/TLRenewalPendingReport/_get",
+      "displayName": "rainmaker-tl-TLRenewalPendingReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
