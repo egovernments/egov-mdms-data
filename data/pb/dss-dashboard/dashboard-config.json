@@ -7,9 +7,34 @@
     {"propertytax":{"services_name":"Property Tax","filterKey":"PT"}},
     {"tradelicense":{"services_name":"Trade licence","filterKey":"TL"}},
     {"pgr":{"services_name":"PGR","filterKey":"PGR"}},
-    {"ws":{"services_name":"W&S","filterKey":"W&S"}}
+    {"ws":{"services_name":"W&S","filterKey":"W&S"}},
+    {
+                  "OBPS": {
+                    "services_name": "OBPS",
+                    "filterKey": "OBPS"
+                  }
+                },  {
+                    "FIRENOC": {
+                      "services_name": "FIRENOC",
+                      "filterKey": "FIRENOC"
+                    }
+                  },             {
+                    "MCOLLECT": {
+                      "services_name": "MCOLLECT",
+                      "filterKey": "MCOLLECT"
+                    }
+                  },{
+                    "FSM": {
+                      "services_name": "FSM",
+                      "filterKey": "FSM"
+                    }
+                  }   
     ],
-    "SERVICES": ["Property Tax", "Trade licence","PGR"],
+    "SERVICES": ["Property Tax","W&S","MCOLLECT","FSM",
+            "OBPS",
+            "FIRENOC",
+             "Trade licence",
+            "PGR"],
     "MAP_CONFIG":[{
       "type": "Topology",
       "objects": {
