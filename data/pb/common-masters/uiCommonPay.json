@@ -259,9 +259,9 @@
     },
     {
       "code": "BIRTH_CERT",
-      "headerBandLabel": "PAYMENT_TL_CONSUMER_CODE",
-      "receiptKey": "birth-certificate",
-      "billKey": "birth-certificate",
+      "headerBandLabel": "PAYMENT_BND_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedreceipt",
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -272,9 +272,9 @@
     },
     {
       "code": "DEATH_CERT",
-      "headerBandLabel": "PAYMENT_TL_CONSUMER_CODE",
-      "receiptKey": "death-certificate",
-      "billKey": "death-certificate",
+      "headerBandLabel": "PAYMENT_BND_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedreceipt",
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
