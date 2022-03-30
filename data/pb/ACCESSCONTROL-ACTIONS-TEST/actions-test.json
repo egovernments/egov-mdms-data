@@ -19965,6 +19965,28 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2283,
+      "name": "BND receipt search",
+      "url": "/egov-pdf/download/BIRTHDEATH/birth-certificate",
+      "displayName": "BND receipt search",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2284,
+      "name": "BND receipt search",
+      "url": "/egov-pdf/download/BIRTHDEATH/death-certificate",
+      "displayName": "BND receipt search",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
