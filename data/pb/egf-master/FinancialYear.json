@@ -31,20 +31,6 @@
       "module": "FIRENOC"
     },
     {
-      "id": "15",
-      "tenantId": "pb",
-      "finYearRange":  "2021-22",
-      "name":  "2021-22",
-      "code":  "2021-22",
-      "startingDate": 1617215400000,
-      "endingDate": 1648751399000,
-      "active": true,
-      "isActiveForPosting": false,
-      "isClosed": false,
-      "transferClosingBalance": false,
-      "module": "PT"
-    },
-    {
       "id": "22",
       "tenantId": "pb",
       "finYearRange":  "2022-23",
@@ -52,6 +38,20 @@
       "code":  "2022-23",
       "startingDate": 1648751400000,
       "endingDate": 1680287399000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "PT"
+    },
+    {
+      "id": "15",
+      "tenantId": "pb",
+      "finYearRange":  "2021-22",
+      "name":  "2021-22",
+      "code":  "2021-22",
+      "startingDate": 1617215400000,
+      "endingDate": 1648751399000,
       "active": true,
       "isActiveForPosting": false,
       "isClosed": false,
