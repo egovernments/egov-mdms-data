@@ -3,18 +3,18 @@
     "moduleName": "common-masters",
     "uiHomePage": [
         {
-            "homeBannerDesktop": 
+            "appBannerDesktop": 
             {
-                "code": "HOME_BANNER_DESKTOP",
-                "name": "Home Banner Desktop View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
+                "code": "APP_BANNER_DESKTOP",
+                "name": "App Banner Desktop View",
+                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/app-banner-web.jpg",
                 "enabled": true
             },
-            "homeBannerMobile":
+            "appBannerMobile":
             {
-                "code": "HOME_BANNER_MOBILE",
-                "name": "Home Banner Mobile View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
+                "code": "APP_BANNER_MOBILE",
+                "name": "App Banner Mobile View",
+                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/app-banner-mobile.jpg",
                 "enabled": true
             },
             "citizenServicesCard":
@@ -117,7 +117,7 @@
             {
                 "code": "WHATSAPP_BANNER_DESKTOP",
                 "name": "WhatsApp Banner Desktop View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
+                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/whatsapp-web.jpg",
                 "enabled": true,
                 "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
             },
@@ -125,7 +125,7 @@
             {
                 "code": "WHATSAPP_BANNER_MOBILE",
                 "name": "WhatsApp Banner Mobile View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
+                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/whatsapp-mobile.jpg",
                 "enabled": true,
                 "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
             }
