@@ -86,7 +86,39 @@
           "ulb-ws": {
             "routePath": "/dashboard/ulb-ws",
             "isOrigin": true
-          }
+          },
+          "national-propertytax": {
+             "routePath": "/dashboard/national-propertytax",
+             "isOrigin": true
+           },
+           "national-firenoc": {
+              "routePath": "/dashboard/national-firenoc",
+              "isOrigin": true
+           },
+           "national-ws": {
+              "routePath": "/dashboard/national-ws",
+              "isOrigin": true
+           },
+           "national-mcollect": {
+              "routePath": "/dashboard/national-mcollect",
+              "isOrigin": true
+           },
+           "national-tradelicense": {
+              "routePath": "/dashboard/national-tradelicense",
+              "isOrigin": true
+           },
+           "NURT_DASHBOARD":{
+              "routePath":"/dashboard/NURT_DASHBOARD",
+              "isOrigin":true
+           },
+           "national-pgr":{
+              "routePath":"/dashboard/national-pgr",
+              "isOrigin":true
+           },
+           "national-overview":{
+              "routePath":"/dashboard/national-overview",
+              "isOrigin":true
+           }
         }
       },
       "ui-localisation": {
