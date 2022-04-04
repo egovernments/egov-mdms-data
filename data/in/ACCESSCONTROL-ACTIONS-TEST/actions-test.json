@@ -12249,6 +12249,109 @@
 	      "navigationURL": "/digit-ui/employee/dss/dashboard/national-ws",
 	      "leftIcon": "places:business-center",
 	      "rightIcon": ""
-	    }
+	    },
+	   {
+      "id": 2323,
+      "name": "DSS Dashboard Config mCollect",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/mCollect",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+	   {
+      "id": 2324,
+      "name": "DSS Dashboard Config noc",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/noc",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2325,
+      "name": "National Dashboard: Ingest Metrics",
+      "url": "/national-dashboard/metric/_ingest",
+      "displayName": "Ingest metrics",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2326,
+      "name": "National Dashboard: Master data ingest",
+      "url": "/national-dashboard/masterdata/_ingest",
+      "displayName": "Ingest master data metrics",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2327,
+      "name": "DSS Dashboard Config obps",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/obps",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2328,
+      "name": "Dashboard OBPS",
+      "url": "url",
+      "displayName": "OBPS",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.OBPS",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/obps",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+	   {
+      "id": 2329,
+      "name": "Dashboard Firenoc",
+      "url": "url",
+      "displayName": "Firenoc",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Firenoc",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/noc",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2330,
+      "name": "Dashboard Mcollect",
+      "url": "url",
+      "displayName": "Mcollect",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.mCollect",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/mCollect",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    }
    ]
 }
