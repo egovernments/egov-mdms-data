@@ -3,6 +3,34 @@
   "moduleName": "egf-master",
   "FinancialYear": [
     {
+      "id": "25",
+      "tenantId": "pb",
+      "finYearRange":  "2022-23",
+      "name":  "2022-23",
+      "code":  "2022-23",
+      "startingDate": 1648751400000,
+      "endingDate": 1680287399000,
+      "active": true,
+      "isActiveForPosting": true,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "WS"
+    },
+    {
+      "id": "24",
+      "tenantId": "pb",
+      "finYearRange":  "2022-23",
+      "name":  "2022-23",
+      "code":  "2022-23",
+      "startingDate": 1648751400000,
+      "endingDate": 1680287399000,
+      "active": true,
+      "isActiveForPosting": true,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "SW"
+    }
+    {
       "id": "21",
       "tenantId": "pg",
       "finYearRange":  "2022-23",
