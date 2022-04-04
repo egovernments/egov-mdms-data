@@ -122,12 +122,8 @@
                   "routePath":"/dashboard/NURT_DASHBOARD",
                   "isOrigin":true
                },
-               "Birth":{
-                  "routePath":"/dashboard/birth",
-                  "isOrigin":true
-               },
-               "Death":{
-                  "routePath":"/dashboard/death",
+               "birth-death":{
+                  "routePath":"/dashboard/birth-death",
                   "isOrigin":true
                }
             }
