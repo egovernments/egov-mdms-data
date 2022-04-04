@@ -4,7 +4,7 @@
   "FinancialYear": [
     {
       "id": "25",
-      "tenantId": "pb",
+      "tenantId": "pg",
       "finYearRange":  "2022-23",
       "name":  "2022-23",
       "code":  "2022-23",
@@ -18,7 +18,7 @@
     },
     {
       "id": "24",
-      "tenantId": "pb",
+      "tenantId": "pg",
       "finYearRange":  "2022-23",
       "name":  "2022-23",
       "code":  "2022-23",
@@ -29,7 +29,7 @@
       "isClosed": false,
       "transferClosingBalance": false,
       "module": "SW"
-    }
+    },
     {
       "id": "21",
       "tenantId": "pg",
