@@ -581,6 +581,21 @@
       "code": "SUPERVISOR",
       "name": "Auto Escalation Supervisor",
       "description": "Escalation to particular role"
+    },
+    {
+      "code": "SYSTEM",
+      "name": "System user",
+      "description": "System user role"
+    },
+    {
+      "code": "NATADMIN",
+      "name": "National Dashboard Admin",
+      "description": "Admin role that as access over a Nation"
+    },
+    {
+      "code": "COMMON_EMPLOYEE",
+      "name": "Basic employee roles",
+      "description": "Basic employee roles"
     }
   ]
 }
