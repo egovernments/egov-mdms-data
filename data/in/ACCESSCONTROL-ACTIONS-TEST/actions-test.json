@@ -12352,6 +12352,21 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/mCollect",
       "leftIcon": "places:business-center",
       "rightIcon": ""
-    }
+    },
+	   {
+         "id": 2331,
+         "name": "Dashboard Water Sewerage",
+         "url": "url",
+         "displayName": "Water Sewerage",
+         "orderNumber": 11,
+         "parentModule": "dss-dashboard",
+         "enabled": true,
+         "serviceCode": "DSS",
+         "code": "null",
+         "path": "Dashboard.Ws",
+         "navigationURL": "/digit-ui/employee/dss/dashboard/ws",
+         "leftIcon": "places:business-center",
+         "rightIcon": ""
+      }
    ]
 }
