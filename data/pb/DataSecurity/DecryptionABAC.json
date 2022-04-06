@@ -1437,6 +1437,22 @@
             ]
           }
         ]
+      },
+      {
+        "key": "WnsReceiptRegisterReport",
+        "roleAttributeAccessList": [
+          {
+            "roleCode": "EMPLOYEE",
+            "attributeAccessList": [
+              {
+                "attribute": {
+                  "jsonPath": "*/name"
+                },
+                "accessType": "PLAIN"
+              }
+            ]
+          }
+        ]
       }
   ]
 }

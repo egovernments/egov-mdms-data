@@ -20408,7 +20408,48 @@
       "leftIcon": "BillsIcon",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2313,
+      "name": "WnsReceiptRegisterReport",
+      "url": "url",
+      "displayName": "WnS Receipt Register Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-wns",
+      "enabled": true,
+      "serviceCode": "WnS",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TradeLicenseDailyCollectionReport",
+      "navigationURL": "report/rainmaker-wns/WnsReceiptRegisterReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2314,
+      "name": "WnsReceiptRegisterReport",
+      "url": "/report/rainmaker-wns/WnsReceiptRegisterReport/metadata/_get",
+      "displayName": "rainmaker-wns-WnsReceiptRegisterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2315,
+      "name": "WnsReceiptRegisterReport",
+      "url": "/report/rainmaker-wns/WnsReceiptRegisterReport/_get",
+      "displayName": "rainmaker-wns-WnsReceiptRegisterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+     
+      "code": "null",
+      "path": ""
     }
+
 
   ]
 }
