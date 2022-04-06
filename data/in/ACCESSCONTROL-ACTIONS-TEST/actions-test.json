@@ -12367,6 +12367,18 @@
          "navigationURL": "/digit-ui/employee/dss/dashboard/ws",
          "leftIcon": "places:business-center",
          "rightIcon": ""
-      }
+      },
+	   {
+      "id": 2332,
+      "name": "FilestoreUrl",
+      "url": "/filestore/v1/files",
+      "displayName": "Filestore Url",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "filestore url",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
