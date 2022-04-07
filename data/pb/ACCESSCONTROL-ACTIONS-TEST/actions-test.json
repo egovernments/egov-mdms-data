@@ -20448,6 +20448,28 @@
      
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2316,
+      "name": "Calculate Water Bill",
+      "url": "/ws-calculator/waterCalculator/_jobscheduler",
+      "displayName": "Generate Non-Metered Water Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2317,
+      "name": "Sewerage Calculation",
+      "url": "/sw-calculator/sewerageCalculator/_jobscheduler",
+      "displayName": "Generate Sewerage Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "sw-calculator",
+      "code": "null",
+      "path": ""
     }
 
 
