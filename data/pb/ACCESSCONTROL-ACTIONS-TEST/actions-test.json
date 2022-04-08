@@ -20470,6 +20470,46 @@
       "serviceCode": "sw-calculator",
       "code": "null",
       "path": ""
+    },
+ {
+      "id": 2318,
+      "name": "ObpsDailyCollectionReport",
+      "url": "url",
+      "displayName": "OBPS Daily Collection Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-obps",
+      "enabled": true,
+      "serviceCode": "OBPS",
+      "code": "null",
+      "path": "OBPS.Obps Reports.ObpsDailyCollectionReport",
+      "navigationURL": "report/rainmaker-obps/ObpsDailyCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2319,
+      "name": "ObpsDailyCollectionReport",
+      "url": "/report/rainmaker-obps/ObpsDailyCollectionReport/metadata/_get",
+      "displayName": "rainmaker-obps-ObpsDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2320,
+      "name": "ObpsDailyCollectionReport",
+      "url": "/report/rainmaker-obps/ObpsDailyCollectionReport/_get",
+      "displayName": "rainmaker-obps-ObpsDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+     
+      "code": "null",
+      "path": ""
     }
 
 
