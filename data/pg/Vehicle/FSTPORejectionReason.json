@@ -1,0 +1,25 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Vehicle",
+    "FSTPORejectionReason": [{
+            "name": "Septage Source",
+            "code": "SEPTAGE_SOURCE",
+            "active": true
+        },
+        {
+            "name": "Outside operational hours",
+            "code": "OUTSIDE_OPERATIONAL_HOURS",
+            "active": true
+        },
+        {
+            "name": "Under Maintenance",
+            "code": "UNDER_MAINTENANCE",
+            "active": true
+        },
+        {
+            "name": "Others",
+            "code": "OTHERS",
+            "active": true
+        }
+    ]
+}
