@@ -1453,6 +1453,22 @@
             ]
           }
         ]
+      },
+      {
+        "key": "ObpsDailyCollectionReport",
+        "roleAttributeAccessList": [
+          {
+            "roleCode": "EMPLOYEE",
+            "attributeAccessList": [
+              {
+                "attribute": {
+                  "jsonPath": "*/name"
+                },
+                "accessType": "PLAIN"
+              }
+            ]
+          }
+        ]
       }
   ]
 }
