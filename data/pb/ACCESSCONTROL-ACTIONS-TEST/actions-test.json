@@ -11340,7 +11340,7 @@
       "leftIcon": "communication:business",
       "rightIcon": ""
     },
-    
+
     {
       "id": 1581,
       "name": "Exemptions",
@@ -11381,7 +11381,7 @@
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
-    
+
     {
       "id": 1586,
       "name": "bankAccountServiceMapping create",
@@ -14338,6 +14338,7 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "",
+      "sidebar": "digit-ui-links",
       "code": "",
       "path": "",
       "navigationURL": "/digit-ui/citizen",
@@ -17297,7 +17298,7 @@
     {
       "id": 2059,
       "name": "FSM BillingSlab Create",
-       "url": "/fsm-calculator/v1/billingSlab/_create",
+      "url": "/fsm-calculator/v1/billingSlab/_create",
       "displayName": "FSM BillingSlab Create",
       "orderNumber": 1,
       "parentModule": "",
@@ -17309,7 +17310,7 @@
     {
       "id": 2060,
       "name": "FSM BillingSlab Update",
-       "url": "/fsm-calculator/v1/billingSlab/_update",
+      "url": "/fsm-calculator/v1/billingSlab/_update",
       "displayName": "FSM BillingSlab Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -17321,7 +17322,7 @@
     {
       "id": 2061,
       "name": "FSM BillingSlab Search",
-       "url": "/fsm-calculator/v1/billingSlab/_search",
+      "url": "/fsm-calculator/v1/billingSlab/_search",
       "displayName": "FSM BillingSlab Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -17333,7 +17334,7 @@
     {
       "id": 2062,
       "name": "Vehicle Trip Search",
-       "url": "/vehicle/trip/v1/_search",
+      "url": "/vehicle/trip/v1/_search",
       "displayName": "Vehicle Trip Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -17345,7 +17346,7 @@
     {
       "id": 2063,
       "name": "Vehicle Trip Update",
-       "url": "/vehicle/trip/v1/_update",
+      "url": "/vehicle/trip/v1/_update",
       "displayName": "Vehicle Trip Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -17357,7 +17358,7 @@
     {
       "id": 2064,
       "name": "FSM Estimate",
-       "url": "/fsm-calculator/v1/_estimate",
+      "url": "/fsm-calculator/v1/_estimate",
       "displayName": "FSM Estimate",
       "orderNumber": 1,
       "parentModule": "",
@@ -17638,7 +17639,7 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
-    }, 
+    },
     {
       "id": 2086,
       "name": "MiscReceiptRegister",
@@ -17953,7 +17954,8 @@
       "serviceCode": "BILLING_SERVICE",
       "code": "null",
       "path": "Billing Service.GenerateBill"
-    },   {
+    },
+    {
       "id": 2112,
       "name": "Universal Collection",
       "url": "url",
@@ -18272,7 +18274,7 @@
     {
       "id": 2139,
       "name": "Vehicle Trip Search",
-       "url": "/vehicle/trip/v1/_plainsearch",
+      "url": "/vehicle/trip/v1/_plainsearch",
       "displayName": "Vehicle Trip Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -18587,7 +18589,8 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
-    }, {
+    },
+    {
       "id": 2165,
       "name": "PTReceiptCancellation",
       "url": "url",
@@ -18892,7 +18895,8 @@
       "serviceCode": "pdf-generator-create",
       "code": "null",
       "path": ""
-    }, {
+    },
+    {
       "id": 2191,
       "name": "rainmaker-citizen-fsm",
       "url": "card",
@@ -18901,6 +18905,7 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "fsm",
+      "sidebar": "digit-ui-links",
       "code": "",
       "path": "",
       "navigationURL": "/digit-ui/citizen",
@@ -19097,7 +19102,8 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/national-firenoc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
-    },{
+    },
+    {
       "id": 2207,
       "name": "National Dashboard OBPS",
       "url": "url",
@@ -19139,7 +19145,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2210,
       "name": "DSS Dashboard Config National PGR",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-pgr",
@@ -19237,9 +19243,9 @@
     },
     {
       "id": 2217,
-      "name":"National Urban Realtime Dashboard",
+      "name": "National Urban Realtime Dashboard",
       "url": "card",
-      "displayName":"National Urban Realtime Dashboard",
+      "displayName": "National Urban Realtime Dashboard",
       "orderNumber": 2,
       "parentModule": "",
       "enabled": true,
@@ -19262,7 +19268,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2219,
       "name": "BirthRecordsCountReport",
       "url": "/report/rainmaker-bnd/BirthRecordsCountReport/_get",
@@ -19752,7 +19758,7 @@
       "code": "null",
       "path": ""
     },
-  {
+    {
       "id": 2266,
       "name": "Get file store id for consumer code",
       "url": "/birth-death-services/birth/_getfilestoreid",
@@ -19763,8 +19769,8 @@
       "serviceCode": "birth-death-services",
       "code": "null",
       "path": ""
-  },
-  {
+    },
+    {
       "id": 2267,
       "name": "my requests",
       "url": "/birth-death-services/birth/_searchApplications",
@@ -19775,8 +19781,8 @@
       "serviceCode": "birth-death-services",
       "code": "null",
       "path": ""
-  },
-  {
+    },
+    {
       "id": 2268,
       "name": "rainmaker-citizen-birth",
       "url": "card",
@@ -19791,108 +19797,109 @@
       "leftIcon": "custom:library-books",
       "rightIcon": "",
       "queryParams": ""
-  },
-  
-{
-    "id": 2269,
-    "name": "death Search",
-    "url": "/birth-death-services/death/_search",
-    "parentModule": "",
-    "displayName": "death Search",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "birth-death-services",
-    "code": "null",
-    "path": ""
-},
-{
-    "id": 2270,
-    "name": "Download death Cert",
-    "url": "/birth-death-services/death/_download",
-    "parentModule": "",
-    "displayName": "Download death Cert",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "birth-death-services",
-    "code": "null",
-    "path": ""
-},
-{
-    "id": 2271,
-    "name": "Get file store id for consumer code",
-    "url": "/birth-death-services/death/_getfilestoreid",
-    "parentModule": "",
-    "displayName": "Get file store id for consumer code",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "birth-death-services",
-    "code": "null",
-    "path": ""
-},
-{
-    "id": 2272,
-    "name": "my requests",
-    "url": "/birth-death-services/death/_searchApplications",
-    "parentModule": "",
-    "displayName": "my requests",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "birth-death-services",
-    "code": "null",
-    "path": ""
-},
-{
-    "id": 2273,
-    "name": "rainmaker-citizen-death",
-    "url": "card",
-    "displayName": "death",
-    "orderNumber": 8,
-    "parentModule": "",
-    "enabled": true,
-    "serviceCode": "",
-    "code": "",
-    "path": "",
-    "navigationURL": "death-citizen/home",
-    "leftIcon": "custom:library-books",
-    "rightIcon": "",
-    "queryParams": ""
-},
-{
-    "id": 2274,
-    "name": "View Certificate data",
-    "url": "/birth-death-services/birth/_viewCertData",
-    "parentModule": "",
-    "displayName": "View Certificate data",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "birth-death-services",
-    "code": "null",
-    "path": ""
-},
-{
-  "id": 2277,
-  "name": "Check Declaration",
-  "url": "/birth-death-services/common/checkDeclaration",
-  "parentModule": "",
-  "displayName": "Check Declaration",
-  "orderNumber": 0,
-  "enabled": false,
-  "serviceCode": "birth-death-services",
-  "code": "null",
-  "path": ""
-}, {
-  "id": 2278,
-  "name": "Update Declaration",
-  "url": "/birth-death-services/common/updateDeclaration",
-  "parentModule": "",
-  "displayName": "Update Declaration",
-  "orderNumber": 0,
-  "enabled": false,
-  "serviceCode": "birth-death-services",
-  "code": "null",
-  "path": ""
-},
- {
+    },
+
+    {
+      "id": 2269,
+      "name": "death Search",
+      "url": "/birth-death-services/death/_search",
+      "parentModule": "",
+      "displayName": "death Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2270,
+      "name": "Download death Cert",
+      "url": "/birth-death-services/death/_download",
+      "parentModule": "",
+      "displayName": "Download death Cert",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2271,
+      "name": "Get file store id for consumer code",
+      "url": "/birth-death-services/death/_getfilestoreid",
+      "parentModule": "",
+      "displayName": "Get file store id for consumer code",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2272,
+      "name": "my requests",
+      "url": "/birth-death-services/death/_searchApplications",
+      "parentModule": "",
+      "displayName": "my requests",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2273,
+      "name": "rainmaker-citizen-death",
+      "url": "card",
+      "displayName": "death",
+      "orderNumber": 8,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "death-citizen/home",
+      "leftIcon": "custom:library-books",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2274,
+      "name": "View Certificate data",
+      "url": "/birth-death-services/birth/_viewCertData",
+      "parentModule": "",
+      "displayName": "View Certificate data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2277,
+      "name": "Check Declaration",
+      "url": "/birth-death-services/common/checkDeclaration",
+      "parentModule": "",
+      "displayName": "Check Declaration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2278,
+      "name": "Update Declaration",
+      "url": "/birth-death-services/common/updateDeclaration",
+      "parentModule": "",
+      "displayName": "Update Declaration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 2279,
       "name": "BirthAndDeathCertificatePayment",
       "url": "/report/rainmaker-bnd/BirthAndDeathCertificatePayment/_get",
@@ -20446,7 +20453,7 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-     
+
       "code": "null",
       "path": ""
     },
@@ -20472,7 +20479,7 @@
       "code": "null",
       "path": ""
     },
- {
+    {
       "id": 2318,
       "name": "ObpsDailyCollectionReport",
       "url": "url",
@@ -20508,7 +20515,7 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-     
+
       "code": "null",
       "path": ""
     },
@@ -20548,11 +20555,9 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-     
+
       "code": "null",
       "path": ""
     }
-
-
   ]
 }
