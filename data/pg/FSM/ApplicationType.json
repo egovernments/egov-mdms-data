@@ -1,0 +1,15 @@
+{
+    "tenantId": "pg",
+    "moduleName": "FSM",
+    "ApplicationType": [
+       {
+        "code": "ADHOC",
+        "name": "Adhoc Service",
+        "active": true
+      },{
+        "code":"PERIODIC",
+        "name": "Periodic Service",
+        "active":true
+      }
+    ]
+  } 
