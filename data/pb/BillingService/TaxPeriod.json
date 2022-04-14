@@ -945,6 +945,22 @@
       "service": "FSM.TRIP_CHARGES",
       "code": "FSMTRIPCHARGE10YRS",
       "financialYear": "2020-2030"
+    },
+    {
+      "fromDate": 1554076800000,
+      "toDate": 1901145600000,
+      "periodCycle": "ANNUAL",
+      "service": "BIRTH_CERT",
+      "code": "BIRTHCERT",
+      "financialYear": "2019-30"
+    },
+    {
+      "fromDate": 1554076800000,
+      "toDate": 1901145600000,
+      "periodCycle": "ANNUAL",
+      "service": "DEATH_CERT",
+      "code": "DEATHCERT",
+      "financialYear": "2019-30"
     }
   ]
 }
