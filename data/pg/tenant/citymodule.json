@@ -5,9 +5,6 @@
     {
       "module": "PGR",
       "code": "PGR",
-      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/PGR.png",
-      "active": true,
-      "order":2,
       "tenants": [
         {
           "code": "pg.citya"
@@ -30,9 +27,6 @@
     {
       "module": "PT",
       "code": "PT",
-      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/PT.png",
-      "active": true,
-      "order":1,
       "tenants": [
         {
           "code": "pg.citya"
@@ -51,28 +45,9 @@
         }
       ]
     },
-    {
-      "module": "QuickPayLinks",
-      "code": "QuickPayLinks",
-      "active": true,
-      "order":1,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        }
-      ]
-    },
    {
       "module": "Finance",
       "code": "Finance",
-      "active": false,
-      "order":4,
       "tenants": [
         {
           "code": "pg.citya"
@@ -94,9 +69,7 @@
     {
       "module": "TL",
       "code": "TL",
-      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/TL.png",
-      "active": true,
-      "order":2,
+      "active":false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -118,8 +91,6 @@
     {
       "module": "FIRENOC",
       "code": "FIRENOC",
-      "active": false,
-      "order":2,
       "tenants": [
         {
           "code": "pg.citya"
@@ -141,8 +112,7 @@
     {
       "module": "UC",
       "code": "UC",
-      "active": false,
-      "order":2,
+      "active":false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -164,9 +134,6 @@
     {
       "module": "BPAREG",
       "code": "BPAREG",
-      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/OBPS.png",
-      "active": true,
-      "order":2,
       "tenants": [
         {
           "code": "pg.citya"
@@ -188,9 +155,6 @@
     {
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
-      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/OBPS.png",
-      "active": true,
-      "order":2,
       "tenants": [
         {
           "code": "pg.citya"
@@ -212,69 +176,16 @@
     {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
-      "active": false,
-      "order":4,
       "tenants": [
         {
           "code": "pg.citya"
-        }
-      ]
-    },
-    {
-      "module": "OBPS",
-      "code": "OBPS",
-      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/OBPS.png",
-      "active": true,
-      "order":2,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
         }
       ]
     },
     {
       "module": "FSM",
       "code": "FSM",
-      "active": true,
-      "order":2,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        },
-	{
-          "code": "pg.balasore"
-        }
-      ]
-    },
-    {
-      "module": "Payment",
-      "code": "Payment",
-      "active": true,
-      "order":1,
+      "active":true,
       "tenants": [
         {
           "code": "pg.citya"
@@ -293,13 +204,13 @@
         }
       ]
     },
-    {
-      "module": "Receipts",
-      "code": "Receipts",
-      "active": true,
-      "order":3,
-      "tenants": [
-        {
+{
+  "module": "Payment",
+  "code": "Payment",
+  "active": true,
+  "order":1,
+  "tenants": [
+     {
           "code": "pg.citya"
         },
         {
@@ -314,168 +225,7 @@
         {
           "code": "pg.citye"
         }
-      ]
-    },
-    {
-      "module": "NOC",
-      "code": "NOC",
-      "active": true,
-      "order":2,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    },
-    {
-      "module": "DSS",
-      "code": "DSS",
-      "active": true,
-      "order":6,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    },
-    {
-      "module": "Engagement",
-      "code": "Engagement",
-      "active": true,
-      "order":3,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    },
-    {
-      "module": "MCollect",
-      "code": "MCollect",
-      "active": true,
-      "order":1,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    },
-    {
-      "module": "HRMS",
-      "code": "HRMS",
-      "active": true,
-      "order":2,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    },
-    {
-      "module": "CommonPT",
-      "code": "CommonPT",
-      "active": true,
-      "order":3,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    },
-    {
-      "module": "NDSS",
-      "code": "NDSS",
-      "active": true,
-      "order":5,
-      "tenants": [
-        {
-          "code": "pg.citya"
-        },
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.cityd"
-        },
-        {
-          "code": "pg.citye"
-        }
-      ]
-    }
+  ]
+}
   ]
 }
