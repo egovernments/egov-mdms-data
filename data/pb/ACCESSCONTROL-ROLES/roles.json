@@ -592,6 +592,16 @@
       "code": "NATADMIN",
       "name": "National Dashboard Admin",
       "description": "Admin role that as access over a Nation"
+    },
+    {
+      "code": "BND_CEMP",
+      "name": "Birth and Death User",
+      "description": "Birth and Death User"
+    },
+    {
+      "code": "DASHBOARD_REPORT_VIEWER",
+      "name": "Birth and Death Dashboard User",
+      "description": "Birth and Death Dashboard User"
     }
   ]
 }
