@@ -12451,6 +12451,46 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2330,
+      "name": "WnsCollectionRegisterReport",
+      "url": "url",
+      "displayName": "WnS Collection Register Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-wns",
+      "enabled": true,
+      "serviceCode": "WnS",
+      "code": "null",
+      "path": "WnS.Wns Reports.WnSCollectionRegisterReport",
+      "navigationURL": "report/rainmaker-wns/WnsCollectionRegisterReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2331,
+      "name": "WnsCollectionRegisterReport",
+      "url": "/report/rainmaker-wns/WnsCollectionRegisterReport/metadata/_get",
+      "displayName": "rainmaker-wns-WnsCollectionRegisterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2332,
+      "name": "WnsCollectionRegisterReport",
+      "url": "/report/rainmaker-wns/WnsCollectionRegisterReport/_get",
+      "displayName": "rainmaker-wns-WnsCollectionRegisterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+
+      "code": "null",
+      "path": ""
     }    
   ]
 }   
