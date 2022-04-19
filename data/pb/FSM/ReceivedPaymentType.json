@@ -8,8 +8,8 @@
             "active": true
         },
         {
-            "name": "Payed in Cheque",
-            "code": "PAYED_IN_CHEQUE",
+            "name": "Payed in Counter",
+            "code": "PAYED_IN_COUNTER",
             "active": true
         },
         {
@@ -17,10 +17,6 @@
             "code": "NETBANKING",
             "active": true
         },
-        {
-            "name": "Payed in Counter",
-            "code": "PAYED_IN_COUNTER",
-            "active": true
-        }
+        
     ]
 }
