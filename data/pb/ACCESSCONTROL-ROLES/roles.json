@@ -611,6 +611,51 @@
       "code": "DASHBOARD_REPORT_VIEWER",
       "name": "Birth and Death Dashboard User",
       "description": "Birth and Death Dashboard User"
+    },
+    {
+      "code": "BND_APPLICATION_CREATOR_ONE",
+      "name": "Birth and Death Application Creator One",
+      "description": "Birth and Death User that can only create new applications"
+    },
+    {
+      "code": "BND_APPLICATION_CREATOR_TWO",
+      "name": "Birth and Death Application Creator Two",
+      "description": "Birth and Death User that can only create new applications"
+    },
+    {
+      "code": "BND_APPLICATION_VIEWER_ONE",
+      "name": "Birth and Death Application Viewer One",
+      "description": "Birth and Death User that can only search and view applications"
+    },
+    {
+      "code": "BND_APPLICATION_VIEWER_TWO",
+      "name": "Birth and Death Application Viewer Two",
+      "description": "Birth and Death User that can only search and view applications"
+    },
+    {
+      "code": "BND_REPORT_VIEWER_ONE",
+      "name": "Birth and Death Report Viewer One",
+      "description": "Birth and Death User that can view tabular reports"
+    },
+    {
+      "code": "BND_REPORT_VIEWER_TWO",
+      "name": "Birth and Death Report Viewer Two",
+      "description": "Birth and Death User that can view tabular reports"
+    },
+    {
+      "code": "BND_APPLICATION_EDITOR_ONE",
+      "name": "Birth and Death Application Editor One",
+      "description": "Birth and Death User that can edit existing applications"
+    },
+    {
+      "code": "BND_APPLICATION_EDITOR_TWO",
+      "name": "Birth and Death Application Editor Two",
+      "description": "Birth and Death User that can edit existing applications"
+    },
+    {
+      "code": "BND_DSS_DASHBOARD_VIEWER",
+      "name": "Birth and Death State Dashboard Viewer",
+      "description": "User can view DSS for Birth and Death Module"
     }
   ]
 }
