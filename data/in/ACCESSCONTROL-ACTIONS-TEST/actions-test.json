@@ -12394,6 +12394,18 @@
       "navigationURL": "report/rainmaker-wns/WnsReceiptRegisterReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
+    },
+	    {
+      "id": 2334,
+      "name": "WnsReceiptRegisterReport",
+      "url": "/report/rainmaker-wns/WnsReceiptRegisterReport/metadata/_get",
+      "displayName": "rainmaker-wns-WnsReceiptRegisterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
    ]
 }
