@@ -1,0 +1,77 @@
+{
+    "tenantId" : "pb",
+    "moduleName" : "DataSecurity",
+    "AttributeData":[
+
+        {
+            "id": "001",
+            "fieldName": "mobileNumber",
+            "patternId": "001"
+        },
+        {
+            "id": "002",
+            "fieldName": "altContactNumber",
+            "patternId": "001"
+        },
+        {
+            "id": "003",
+            "fieldName": "permanentAddress",
+            "patternId": "002"
+        },
+        {
+            "id": "004",
+            "fieldName": "permanentCity",
+            "patternId": "002"
+        },
+        {
+            "id": "005",
+            "fieldName": "permanentPinCode",
+            "patternId": "003"
+        },
+        {
+            "id": "006",
+            "fieldName": "correspondenceAddress",
+            "patternId": "002"
+        },
+        {
+            "id": "007",
+            "fieldName": "correspondenceCity",
+            "patternId": "002"
+        },
+        {
+            "id": "008",
+            "fieldName": "correspondencePinCode",
+            "patternId": "003"
+        },
+        {
+            "id": "009",
+            "fieldName": "emailId",
+            "patternId": "004"
+        },
+        {
+            "id": "010",
+            "fieldName": "name",
+            "patternId": "002"
+        },
+        {
+            "id": "011",
+            "fieldName": "password",
+            "patternId": "005"
+        },
+        {
+            "id": "012",
+            "fieldName": "gender",
+            "patternId": "006"
+        },
+        {
+            "id": "013",
+            "fieldName": "userName",
+            "patternId": "002"
+        },
+        {
+            "id": "014",
+            "fieldName": "dob",
+            "patternId": "001"
+        }
+    ]
+}
