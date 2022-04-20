@@ -23389,6 +23389,30 @@
       "actionid": 2330,
       "actioncode": "",
       "tenantId": "in"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2333,
+      "actioncode": "",
+      "tenantId": "in"
+    },
+    {
+      "rolecode": "WS_APPROVER",
+      "actionid": 2333,
+      "actioncode": "",
+      "tenantId": "in"
+    },
+    {
+      "rolecode": "SW_CEMP",
+      "actionid": 2333,
+      "actioncode": "",
+      "tenantId": "in"
+    },
+    {
+      "rolecode": "SW_APPROVER",
+      "actionid": 2333,
+      "actioncode": "",
+      "tenantId": "in"
     }
   ]
 }
