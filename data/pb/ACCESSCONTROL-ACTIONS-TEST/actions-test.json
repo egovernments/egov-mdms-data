@@ -12502,6 +12502,38 @@
       "serviceCode": "birth-death-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2334,
+      "name": "rainmaker-employee-birth",
+      "url": "card",
+      "displayName": "Birth",
+      "orderNumber": 8,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "birth-common/getCertificate",
+      "leftIcon": "custom:library-books",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2335,
+      "name": "rainmaker-employee-death",
+      "url": "card",
+      "displayName": "death",
+      "orderNumber": 8,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "death-common/getCertificate",
+      "leftIcon": "custom:library-books",
+      "rightIcon": "",
+      "queryParams": ""
     }     
   ]
 }   
