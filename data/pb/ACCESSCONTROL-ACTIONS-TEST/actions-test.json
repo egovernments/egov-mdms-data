@@ -20608,6 +20608,30 @@
       "leftIcon": "custom:library-books",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 2326,
+      "name": "Birth Plain Search API",
+      "url": "/birth-death-services/birth/_plainsearch",
+      "parentModule": "",
+      "displayName": "Birth Plain Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2327,
+      "name": "Death Plain Search API",
+      "url": "/birth-death-services/death/_plainsearch",
+      "parentModule": "",
+      "displayName": "Death Plain Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
