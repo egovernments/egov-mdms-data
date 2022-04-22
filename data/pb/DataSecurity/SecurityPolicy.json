@@ -1,0 +1,47 @@
+{
+  "tenantId": "pb",
+  "moduleName": "DataSecurity",
+  "SecurityPolicy": [
+    {
+      "model": "User",
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "role": "PGR_LME",
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "mobileNumber",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        },
+        {
+          "role": "GRO",
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
