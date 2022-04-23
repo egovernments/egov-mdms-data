@@ -1166,7 +1166,8 @@
       "isVoucherCreationEnabled": true,
       "isActive": true,
       "isCitizen": true,
-      "type": null
+      "type": "Adhoc"
+
     },
     {
       "businessService": "Death Certificate Fees",
@@ -1177,7 +1178,8 @@
       "isVoucherCreationEnabled": true,
       "isActive": true,
       "isCitizen": true,
-      "type": null
+      "type": "Adhoc"
+
     }
   ]
 }
