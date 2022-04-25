@@ -169,10 +169,57 @@
           },
           "type": "component",
           "key": "pitDetail",
-          "nextStep": null,
+          "nextStep": "select-gender",
           "label": "ES_NEW_APPLICATION_PIT_DIMENSION"
         }
       ]
+    },
+    {
+      "label": "a",
+      "isMandatory": true,
+      "type": "component",
+      "route": "select-trip-number",
+      "key": "selectTripNo",
+      "component": "SelectTripNo",
+      "texts": {
+        "headerCaption": "",
+        "header": "ES_FSM_NUMBER_OF_TRIPS",
+        "cardText": "ES_FSM_NUMBER_OF_TRIPS_TEXT",
+        "submitBarLabel": "CS_COMMON_NEXT"
+      },
+      "nextStep": "property-type"
+    },
+    {
+      "label": "a",
+      "isMandatory": false,
+      "type": "component",
+      "route": "select-payment-preference",
+      "key": "selectPaymentPreference",
+      "component": "SelectPaymentPreference",
+      "texts": {
+        "headerCaption": "",
+        "header": "ES_FSM_PAYMENT_PREFERENCE_LABEL",
+        "cardText": "ES_FSM_PAYMENT_PREFERENCE_TEXT",
+        "submitBarLabel": "CS_COMMON_NEXT",
+        "skipText": "CORE_COMMON_SKIP_CONTINUE"
+      },
+      "nextStep": null
+    },
+    {
+      "label": "a",
+      "isMandatory": false,
+      "type": "component",
+      "route": "select-gender",
+      "key": "selectGender",
+      "component": "SelectGender",
+      "texts": {
+        "headerCaption": "",
+        "header": "CS_COMMON_CHOOSE_GENDER",
+        "cardText": "CS_COMMON_SELECT_GENDER",
+        "submitBarLabel": "CS_COMMON_NEXT",
+        "skipText": "CORE_COMMON_SKIP_CONTINUE"
+      },
+      "nextStep": "select-payment-preference"
     }
   ]
 }
