@@ -7,16 +7,16 @@
             "PT" : {
               "faqs": [
                 { 
-                  "question": "What happens when eDCR scrutiny fails? ",
-                  "answer": "When an eDCR scrutiny fails, the error information is marked across each line item in the output file. The architect can make the corrections accordingly and resubmit the plan real time. This can be done any number of times without incurring any additional charges."
+                  "question": "PT_FAQ_QUES_ONE",
+                  "answer": "PT_FAQ_ANS_ONE"
                 },
                 {
-                  "question": "How do I renew my permit? ",
-                  "answer": "You can renew permits at the counter or through the portal. After logging in, search for the relevant permit application in the portal. Then click on link for the permit that you wish to renew. Next, complete the application for the renewal of permit and click submit."
+                  "question": "PT_FAQ_QUES_TWO",
+                  "answer": "PT_FAQ_ANS_TWO"
                 },
                 {
-                  "question": "How does eDCR Scrutiny works and how much time it takes to get the diagrams scrutinized?  ",
-                  "answer": "The eDCR scrutiny system compares the parameters in the drawings against the by laws set in the corresponding administrative region and evaluates if they are violating. In the output file, against each paramter that is evaluated, there will be an indication to show if that is approved or rejected. The entire scrutiny process takes ~5 seconds"
+                  "question": "PT_FAQ_QUES_THREE",
+                  "answer": "PT_FAQ_ANS_THREE"
                 }
               ]
             },
@@ -24,16 +24,16 @@
             "TL" : {
               "faqs": [
                 { 
-                  "question": "What happens when eDCR scrutiny fails? ",
-                  "answer": "When an eDCR scrutiny fails, the error information is marked across each line item in the output file. The architect can make the corrections accordingly and resubmit the plan real time. This can be done any number of times without incurring any additional charges."
+                  "question": "TL_FAQ_QUES_ONE",
+                  "answer": "TL_FAQ_ANS_ONE"
                 },
                 {
-                  "question": "How do I renew my permit? ",
-                  "answer": "You can renew permits at the counter or through the portal. After logging in, search for the relevant permit application in the portal. Then click on link for the permit that you wish to renew. Next, complete the application for the renewal of permit and click submit."
+                  "question": "TL_FAQ_QUES_TWO",
+                  "answer": "TL_FAQ_ANS_TWO"
                 },
                 {
-                  "question": "How does eDCR Scrutiny works and how much time it takes to get the diagrams scrutinized?  ",
-                  "answer": "The eDCR scrutiny system compares the parameters in the drawings against the by laws set in the corresponding administrative region and evaluates if they are violating. In the output file, against each paramter that is evaluated, there will be an indication to show if that is approved or rejected. The entire scrutiny process takes ~5 seconds"
+                  "question": "TL_FAQ_QUES_THREE",
+                  "answer": "TL_FAQ_ANS_THREE"
                 }
               ]
             }
