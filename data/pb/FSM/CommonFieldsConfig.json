@@ -179,6 +179,7 @@
       "isMandatory": true,
       "type": "component",
       "route": "select-trip-number",
+      "hideInEmployee": true,
       "key": "selectTripNo",
       "component": "SelectTripNo",
       "texts": {
@@ -193,6 +194,7 @@
       "label": "a",
       "isMandatory": false,
       "type": "component",
+      "hideInEmployee": true,
       "route": "select-payment-preference",
       "key": "selectPaymentPreference",
       "component": "SelectPaymentPreference",
@@ -208,6 +210,7 @@
     {
       "label": "a",
       "isMandatory": false,
+      "hideInEmployee": true,
       "type": "component",
       "route": "select-gender",
       "key": "selectGender",
