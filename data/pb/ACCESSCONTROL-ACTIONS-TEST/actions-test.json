@@ -20662,6 +20662,38 @@
       "navigationURL": "death-common/getCertificate",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
+    },
+    {
+      "id": 2330,
+      "name": "PT_HOW_IT_WORKS",
+      "url": "digit-ui-card",
+      "displayName": "How It Works",
+      "orderNumber": 1,
+      "parentModule": "PT",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/pt/howItWorks",
+      "leftIcon": "propertyIcon",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 2330,
+      "name": "PT_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 1,
+      "parentModule": "PT",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/pt/faqs",
+      "leftIcon": "propertyIcon",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
