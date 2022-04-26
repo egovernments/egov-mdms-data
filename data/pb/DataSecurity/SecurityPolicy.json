@@ -16,6 +16,52 @@
           "jsonPath": "mobileNumber",
           "patternId": "001",
           "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "emailId",
+          "jsonPath": "emailId",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "username",
+          "jsonPath": "username",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "altContactNumber",
+          "jsonPath": "altContactNumber",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "pan",
+          "jsonPath": "pan",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "aadhaarNumber",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "guardian",
+          "jsonPath": "guardian",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "permanentAddress",
+          "jsonPath": "permanentAddress/address",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress/address",
+          "defaultVisibility": "NONE"
+        },
+        {
+          "name": "addresses",
+          "jsonPath": "addresses/*/address",
+          "defaultVisibility": "NONE"
         }
       ],
       "roleBasedDecryptionPolicy": [
