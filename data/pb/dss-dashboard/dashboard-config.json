@@ -8,6 +8,7 @@
     {"tradelicense":{"services_name":"Trade licence","filterKey":"TL"}},
     {"pgr":{"services_name":"PGR","filterKey":"PGR"}},
     {"ws":{"services_name":"W&S","filterKey":"W&S"}},
+    {"birth":{"services_name":"BND","filterKey":"BND"}},
     {
                   "OBPS": {
                     "services_name": "OBPS",
@@ -28,13 +29,19 @@
                       "services_name": "FSM",
                       "filterKey": "FSM"
                     }
-                  }   
+                  },
+                  {
+                    "BIRTH": {
+                      "services_name": "BND",
+                      "filterKey": "BND"
+                    }
+                  }        
     ],
     "SERVICES": ["Property Tax","W&S","MCOLLECT","FSM",
             "OBPS",
             "FIRENOC",
              "Trade licence",
-            "PGR"],
+            "PGR","BND"],
     "MAP_CONFIG":[{
       "type": "Topology",
       "objects": {
