@@ -129,7 +129,11 @@
               },"national-overview":{
                  "routePath":"/dashboard/national-overview",
                  "isOrigin":true
-              }
+              },
+              "birth-death":{
+               "routePath":"/dashboard/birth-death",
+               "isOrigin":true
+            }
            }
         },
         "ui-localisation": {

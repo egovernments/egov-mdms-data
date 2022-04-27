@@ -1433,6 +1433,71 @@
             ]
           }
         ]
+      },
+      {
+        "key" : "BndDetail",
+        "roleAttributeAccessList" : [
+          {
+            "roleCode" : "CITIZEN",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/mobileno",
+                  "maskingTechnique" : "mobile"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/emailid"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/aadharno"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/icdcode"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          },
+		  {
+            "roleCode" : "EMPLOYEE",
+            "attributeAccessList" : [
+              {
+                "attribute" : {
+                  "jsonPath" : "*/mobileno",
+                  "maskingTechnique" : "mobile"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/emailid"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/aadharno"
+                },
+                "accessType" : "PLAIN"
+              },
+              {
+                "attribute" : {
+                  "jsonPath" : "*/icdcode"
+                },
+                "accessType" : "PLAIN"
+              }
+            ]
+          }
+        ]
       }
     ]
 }
