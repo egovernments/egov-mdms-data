@@ -2330,7 +2330,32 @@
           "employeeUrl": "/uc/newCollection"
         }
       ]
+    },
+    {
+      "code": "BIRTH_CERT",
+      "headerBandLabel": "PAYMENT_BND_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedreceipt",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
+    },
+    {
+      "code": "DEATH_CERT",
+      "headerBandLabel": "PAYMENT_BND_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedreceipt",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
     }
-
   ]
 }
