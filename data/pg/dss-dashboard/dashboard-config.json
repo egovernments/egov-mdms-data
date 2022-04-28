@@ -12,9 +12,10 @@
                 {"FIRENOC": {"services_name": "FIRENOC","filterKey": "FIRENOC"}},             
                 {"MCOLLECT": {"services_name": "MCOLLECT","filterKey": "MCOLLECT"}},     
                 {"W&S": {"services_name": "W&S","filterKey": "W&S"}},     
-                {"FSM": {"services_name": "FSM","filterKey": "FSM"}}
+                {"FSM": {"services_name": "FSM","filterKey": "FSM"}},
+                {"BND": {"services_name": "BND","filterKey": "BND"}}
             ],
-            "SERVICES": ["Property Tax","W&S","MCOLLECT","FSM","OBPS","FIRENOC","Trade licence","PGR"],
+            "SERVICES": ["Property Tax","W&S","MCOLLECT","FSM","OBPS","FIRENOC","Trade licence","PGR","BND"],
       "MAP_CONFIG":[{
         "type": "Topology",
         "objects": {
