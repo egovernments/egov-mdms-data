@@ -1,0 +1,14 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ws-services-masters",
+  "WSEditApplicationByConfigUser": [
+    {
+      "code": "WS",
+      "active": true,
+      "roles": [
+        "WS_FIELD_INSPECTOR",
+        "SW_FIELD_INSPECTOR"
+      ]
+    }
+  ]
+}
