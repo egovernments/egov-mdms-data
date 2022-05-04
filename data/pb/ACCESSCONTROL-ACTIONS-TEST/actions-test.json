@@ -12534,6 +12534,18 @@
       "leftIcon": "custom:library-books",
       "rightIcon": "",
       "queryParams": ""
-    }     
+    },
+    {
+      "id": 2336,
+      "name": "NSS Dashboard Config bnd",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/nss-bnd",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    }
   ]
 }   
