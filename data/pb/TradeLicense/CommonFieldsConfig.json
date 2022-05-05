@@ -127,11 +127,13 @@
                       "label": "TL_LOCALIZATION_STREET_NAME",
                       "type": "text",
                       "name": "street",
+                      "disable": "window.location.href.includes(`edit-application`)||window.location.href.includes(`renew-trade`)"
                   },
                   {
                       "label": "TL_LOCALIZATION_BUILDING_NO",
                       "type": "text",
                       "name": "doorNo",
+                      "disable": "window.location.href.includes(`edit-application`)||window.location.href.includes(`renew-trade`)"
                   }
               ],
               "nextStep": "landmark"
@@ -152,10 +154,12 @@
                   {
                       "label": "TL_LOCALIZATION_BUILDING_NO",
                       "type": "text",
+                      "name": "doorNo"
                   },
                   {
                       "label": "TL_LOCALIZATION_STREET_NAME",
                       "type": "text",
+                      "name": "street"
                   }
               ]
           },
