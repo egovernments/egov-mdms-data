@@ -21015,19 +21015,7 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "CITIZEN",
-      "actionid": 2307,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "BND_CEMP",
-      "actionid": 2308,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 2308,
       "actioncode": "",
       "tenantId": "pb"
@@ -21284,7 +21272,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-     {
+    {
       "rolecode": "BND_CEMP",
       "actionid": 1890,
       "actioncode": "",
@@ -21731,6 +21719,18 @@
     {
       "rolecode": "DEATH_APPLICATION_EDITOR",
       "actionid": 2315,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2337,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2338,
       "actioncode": "",
       "tenantId": "pb"
     }
