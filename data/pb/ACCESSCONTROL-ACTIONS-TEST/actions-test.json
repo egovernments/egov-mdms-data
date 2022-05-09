@@ -12558,7 +12558,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "birth",
-      "navigationURL": "birth-common/getCertificate",
+      "navigationURL": "birth-citizen/home",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
     },
@@ -12573,7 +12573,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "death",
-      "navigationURL": "death-common/getCertificate",
+      "navigationURL": "death-citizen/home",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
     }
