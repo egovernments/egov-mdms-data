@@ -20733,6 +20733,17 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/pt-home"
+    },
+    {
+      "id": 2331,
+      "name": "BND certificate search",
+      "url": "/citizen/withoutAuth/bnd/viewCertificate",
+      "displayName": "BND certificate search",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
