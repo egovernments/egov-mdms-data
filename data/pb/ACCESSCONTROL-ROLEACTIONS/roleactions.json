@@ -21393,18 +21393,6 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "BIRTH_APPLICATION_VIEWER",
-      "actionid": 2307,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_APPLICATION_VIEWER",
-      "actionid": 2308,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "DEATH_APPLICATION_VIEWER",
       "actionid": 2308,
       "actioncode": "",
@@ -21425,6 +21413,12 @@
     {
       "rolecode": "BIRTH_REPORT_VIEWER",
       "actionid": 2283,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BIRTH_REPORT_VIEWER",
+      "actionid": 2285,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21478,6 +21472,12 @@
     },
     {
       "rolecode": "DEATH_REPORT_VIEWER",
+      "actionid": 2290,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "DEATH_REPORT_VIEWER",
       "actionid": 2325,
       "actioncode": "",
       "tenantId": "pb"
@@ -21485,18 +21485,6 @@
     {
       "rolecode": "BIRTH_APPLICATION_EDITOR",
       "actionid": 2307,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "BIRTH_APPLICATION_EDITOR",
-      "actionid": 2307,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_APPLICATION_EDITOR",
-      "actionid": 2308,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21514,25 +21502,7 @@
     },
     {
       "rolecode": "BIRTH_REPORT_VIEWER",
-      "actionid": 2277,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "BIRTH_REPORT_VIEWER",
       "actionid": 2279,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "BIRTH_REPORT_VIEWER",
-      "actionid": 2278,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "BIRTH_REPORT_VIEWER",
-      "actionid": 2283,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21549,38 +21519,8 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "BIRTH_REPORT_VIEWER",
-      "actionid": 2284,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_REPORT_VIEWER",
-      "actionid": 2280,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_REPORT_VIEWER",
-      "actionid": 2281,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "DEATH_REPORT_VIEWER",
       "actionid": 2282,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_REPORT_VIEWER",
-      "actionid": 2286,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_REPORT_VIEWER",
-      "actionid": 2287,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21675,12 +21615,6 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "DEATH_APPLICATION_EDITOR",
-      "actionid": 2296,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
       "rolecode": "DASHBOARD_REPORT_VIEWER",
       "actionid": 2297,
       "actioncode": "",
@@ -21693,8 +21627,8 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "BIRTH_APPLICATION_EDITOR",
-      "actionid": 2312,
+      "rolecode": "BIRTH_APPLICATION_VIEWER",
+      "actionid": 2311,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -21712,13 +21646,25 @@
     },
     {
       "rolecode": "DEATH_APPLICATION_VIEWER",
-      "actionid": 2315,
+      "actionid": 2312,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_VIEWER",
+      "actionid": 2320,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
       "rolecode": "DEATH_APPLICATION_EDITOR",
-      "actionid": 2315,
+      "actionid": 2312,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_EDITOR",
+      "actionid": 2320,
       "actioncode": "",
       "tenantId": "pb"
     },
