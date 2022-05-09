@@ -21586,12 +21586,6 @@
     },
     {
       "rolecode": "DEATH_APPLICATION_EDITOR",
-      "actionid": 2313,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "DEATH_APPLICATION_EDITOR",
       "actionid": 2294,
       "actioncode": "",
       "tenantId": "pb"
@@ -21628,6 +21622,12 @@
     },
     {
       "rolecode": "BIRTH_APPLICATION_VIEWER",
+      "actionid": 2295,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "BIRTH_APPLICATION_VIEWER",
       "actionid": 2311,
       "actioncode": "",
       "tenantId": "pb"
@@ -21641,6 +21641,12 @@
     {
       "rolecode": "BIRTH_APPLICATION_EDITOR",
       "actionid": 2315,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_VIEWER",
+      "actionid": 2296,
       "actioncode": "",
       "tenantId": "pb"
     },
