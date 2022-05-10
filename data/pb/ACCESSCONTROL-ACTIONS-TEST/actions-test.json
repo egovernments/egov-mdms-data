@@ -19466,7 +19466,7 @@
     {
       "id": 2241,
       "name": "Birth-Death : Birth Save Report",
-      "url": "/birth-death-services/common/saveBirthImport",
+      "url": "/birth-death-services/common/savebirthimport",
       "displayName": "Birth Save",
       "orderNumber": 0,
       "parentModule": "",
@@ -19478,7 +19478,7 @@
     {
       "id": 2242,
       "name": "Birth-Death : Death Save Report",
-      "url": "/birth-death-services/common/saveDeathImport",
+      "url": "/birth-death-services/common/savedeathimport",
       "displayName": "Death Save",
       "orderNumber": 0,
       "parentModule": "",
@@ -19514,7 +19514,7 @@
     {
       "id": 2245,
       "name": "Birth-Death : Birth Update Report",
-      "url": "/birth-death-services/common/updateBirthImport",
+      "url": "/birth-death-services/common/updatebirthimport",
       "displayName": "Birth Update Report",
       "orderNumber": 0,
       "parentModule": "",
@@ -19526,7 +19526,7 @@
     {
       "id": 2246,
       "name": "Birth-Death : Death Update Report",
-      "url": "/birth-death-services/common/updateDeathImport",
+      "url": "/birth-death-services/common/updatedeathimport",
       "displayName": "Death Update Report",
       "orderNumber": 0,
       "parentModule": "",
@@ -19722,7 +19722,7 @@
     {
       "id": 2263,
       "name": "Birth View Certificate",
-      "url": "/birth-death-services/birth/_viewfullCertData",
+      "url": "/birth-death-services/birth/_viewfullcertdata",
       "displayName": "View Certificate",
       "orderNumber": 0,
       "parentModule": "",
@@ -19734,7 +19734,7 @@
     {
       "id": 2264,
       "name": "Death View Certificate",
-      "url": "/birth-death-services/death/_viewfullCertData",
+      "url": "/birth-death-services/death/_viewfullcertdata",
       "displayName": "View Certificate",
       "orderNumber": 0,
       "parentModule": "",
@@ -19746,7 +19746,7 @@
     {
       "id": 2265,
       "name": "Get Hospitals",
-      "url": "/birth-death-services/common/getHospitals",
+      "url": "/birth-death-services/common/gethospitals",
       "displayName": "Get Hospitals",
       "orderNumber": 0,
       "parentModule": "",
@@ -19770,7 +19770,7 @@
     {
       "id": 2267,
       "name": "my requests",
-      "url": "/birth-death-services/birth/_searchApplications",
+      "url": "/birth-death-services/birth/_searchapplications",
       "parentModule": "",
       "displayName": "my requests",
       "orderNumber": 0,
@@ -19835,7 +19835,7 @@
     {
       "id": 2272,
       "name": "my requests",
-      "url": "/birth-death-services/death/_searchApplications",
+      "url": "/birth-death-services/death/_searchapplications",
       "parentModule": "",
       "displayName": "my requests",
       "orderNumber": 0,
@@ -19863,7 +19863,7 @@
     {
       "id": 2274,
       "name": "View Certificate data",
-      "url": "/birth-death-services/birth/_viewCertData",
+      "url": "/birth-death-services/birth/_viewcertdata",
       "parentModule": "",
       "displayName": "View Certificate data",
       "orderNumber": 0,
@@ -20737,7 +20737,7 @@
     {
       "id": 2331,
       "name": "BND certificate search",
-      "url": "/citizen/withoutAuth/bnd/viewCertificate",
+      "url": "/citizen/withoutAuth/bnd/viewcertificate",
       "displayName": "BND certificate search",
       "orderNumber": 3,
       "enabled": false,
