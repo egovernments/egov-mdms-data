@@ -20797,6 +20797,46 @@
       "serviceCode": "NSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2336,
+      "name": "WnsDefaulterReport",
+      "url": "url",
+      "displayName": "WnS Defaulter Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-wns",
+      "enabled": true,
+      "serviceCode": "WnS",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TradeLicenseDailyCollectionReport",
+      "navigationURL": "report/rainmaker-wns/WnsDefaulterReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2337,
+      "name": "WnsDefaulterReport",
+      "url": "/report/rainmaker-wns/WnsDefaulterReport/metadata/_get",
+      "displayName": "rainmaker-wns-WnsDefaulterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2338,
+      "name": "WnsDefaulterReport",
+      "url": "/report/rainmaker-wns/WnsDefaulterReport/_get",
+      "displayName": "rainmaker-wns-WnsDefaulterReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+     
+      "code": "null",
+      "path": ""
     }
   ]
 }
