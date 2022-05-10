@@ -20771,6 +20771,32 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },{
+      "id": 2247,
+      "name": "National Dashboard BND",
+      "url": "url",
+      "displayName": "Birth and Death",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.BND",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-birth-death",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2248,
+      "name": "DSS Dashboard Config Birth and Death",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/nss-birth-death",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
