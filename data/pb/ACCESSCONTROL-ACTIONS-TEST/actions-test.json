@@ -12576,6 +12576,33 @@
       "navigationURL": "death-citizen/home",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
+    },
+    {
+      "id": 2339,
+      "name": "Dashboard Finance",
+      "url": "url",
+      "displayName": "Finance",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Finance",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/finance",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2340,
+      "name": "DSS Dashboard Config Finance",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/finance",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
