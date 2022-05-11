@@ -11964,7 +11964,7 @@
     {
       "id": 2291,
       "name": "Birth-Death : Birth Save Report",
-      "url": "/birth-death-services/common/saveBirthImport",
+      "url": "/birth-death-services/common/savebirthimport",
       "displayName": "Birth Save",
       "orderNumber": 0,
       "parentModule": "",
@@ -11976,7 +11976,7 @@
     {
       "id": 2292,
       "name": "Birth-Death : Death Save Report",
-      "url": "/birth-death-services/common/saveDeathImport",
+      "url": "/birth-death-services/common/savedeathimport",
       "displayName": "Death Save",
       "orderNumber": 0,
       "parentModule": "",
@@ -12012,7 +12012,7 @@
     {
       "id": 2295,
       "name": "Birth-Death : Birth Update Report",
-      "url": "/birth-death-services/common/updateBirthImport",
+      "url": "/birth-death-services/common/updatebirthimport",
       "displayName": "Birth Update Report",
       "orderNumber": 0,
       "parentModule": "",
@@ -12024,7 +12024,7 @@
     {
       "id": 2296,
       "name": "Birth-Death : Death Update Report",
-      "url": "/birth-death-services/common/updateDeathImport",
+      "url": "/birth-death-services/common/updatedeathimport",
       "displayName": "Death Update Report",
       "orderNumber": 0,
       "parentModule": "",
@@ -12220,7 +12220,7 @@
     {
       "id": 2311,
       "name": "Birth View Certificate",
-      "url": "/birth-death-services/birth/_viewfullCertData",
+      "url": "/birth-death-services/birth/_viewfullcertdata",
       "displayName": "View Certificate",
       "orderNumber": 0,
       "parentModule": "",
@@ -12232,7 +12232,7 @@
     {
       "id": 2312,
       "name": "Death View Certificate",
-      "url": "/birth-death-services/death/_viewfullCertData",
+      "url": "/birth-death-services/death/_viewfullcertdata",
       "displayName": "View Certificate",
       "orderNumber": 0,
       "parentModule": "",
@@ -12244,7 +12244,7 @@
     {
       "id": 2313,
       "name": "Get Hospitals",
-      "url": "/birth-death-services/common/getHospitals",
+      "url": "/birth-death-services/common/gethospitals",
       "displayName": "Get Hospitals",
       "orderNumber": 0,
       "parentModule": "",
@@ -12268,7 +12268,7 @@
     {
       "id": 2315,
       "name": "my requests",
-      "url": "/birth-death-services/birth/_searchApplications",
+      "url": "/birth-death-services/birth/_searchapplications",
       "parentModule": "",
       "displayName": "my requests",
       "orderNumber": 0,
@@ -12333,7 +12333,7 @@
     {
       "id": 2320,
       "name": "my requests",
-      "url": "/birth-death-services/death/_searchApplications",
+      "url": "/birth-death-services/death/_searchapplications",
       "parentModule": "",
       "displayName": "my requests",
       "orderNumber": 0,
@@ -12361,7 +12361,7 @@
     {
       "id": 2322,
       "name": "View Certificate data",
-      "url": "/birth-death-services/birth/_viewCertData",
+      "url": "/birth-death-services/birth/_viewcertdata",
       "parentModule": "",
       "displayName": "View Certificate data",
       "orderNumber": 0,
@@ -12558,7 +12558,7 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "birth",
-      "navigationURL": "birth-common/getCertificate",
+      "navigationURL": "birth-citizen/home",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
     },
@@ -12573,9 +12573,63 @@
       "serviceCode": "Birth-Death",
       "code": "null",
       "path": "death",
-      "navigationURL": "death-common/getCertificate",
+      "navigationURL": "death-citizen/home",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
+    },
+    {
+      "id": 2339,
+      "name": "Dashboard Finance",
+      "url": "url",
+      "displayName": "Finance",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Finance",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/finance",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2340,
+      "name": "DSS Dashboard Config Finance",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/finance",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2341,
+      "name": "National Dashboard BND",
+      "url": "url",
+      "displayName": "Birth and Death",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.BND",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/nss-birth-death",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2342,
+      "name": "DSS Dashboard Config Birth and Death",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/nss-birth-death",
+      "parentModule": "",
+      "displayName": "NSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
