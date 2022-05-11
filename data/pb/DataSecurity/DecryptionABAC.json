@@ -1485,6 +1485,22 @@
             ]
           }
         ]
+      },
+      {
+        "key": "WnsDefaulterReport",
+        "roleAttributeAccessList": [
+          {
+            "roleCode": "EMPLOYEE",
+            "attributeAccessList": [
+              {
+                "attribute": {
+                  "jsonPath": "*/name"
+                },
+                "accessType": "PLAIN"
+              }
+            ]
+          }
+        ]
       }
   ]
 }
