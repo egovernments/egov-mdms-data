@@ -13243,6 +13243,36 @@
       "leftIcon": "custom:library-books",
       "rightIcon": "",
       "queryParams": ""
-    }   
+    },
+    {
+      "id": 2328,
+      "name": "Birth Search Certificate",
+      "url": "url",
+      "displayName": "Birth Search Certificate",
+      "orderNumber": 6,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": "birth",
+      "navigationURL": "birth-common/getCertificate",
+      "leftIcon": "custom:library-books",
+      "rightIcon": ""
+    },
+    {
+      "id": 2329,
+      "name": "Death Search Certificate",
+      "url": "url",
+      "displayName": "Death Search Certificate",
+      "orderNumber": 7,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "Birth-Death",
+      "code": "null",
+      "path": "death",
+      "navigationURL": "death-common/getCertificate",
+      "leftIcon": "custom:library-books",
+      "rightIcon": ""
+    }  
    ]
 }
