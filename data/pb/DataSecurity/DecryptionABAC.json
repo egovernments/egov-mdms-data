@@ -1600,8 +1600,71 @@
                 "accessType" : "PLAIN"
               }
             ]
+          },
+          {
+            "key": "WnsDefaulterReport",
+            "roleAttributeAccessList": [
+              {
+                "roleCode": "WS_CEMP",
+                "attributeAccessList": [
+                  {
+                    "attribute": {
+                      "jsonPath": "*/name"
+                    },
+                    "accessType": "PLAIN"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "WnsDefaulterReport",
+            "roleAttributeAccessList": [
+              {
+                "roleCode": "WS_APPROVER",
+                "attributeAccessList": [
+                  {
+                    "attribute": {
+                      "jsonPath": "*/name"
+                    },
+                    "accessType": "PLAIN"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "WnsDefaulterReport",
+            "roleAttributeAccessList": [
+              {
+                "roleCode": "SW_CEMP",
+                "attributeAccessList": [
+                  {
+                    "attribute": {
+                      "jsonPath": "*/name"
+                    },
+                    "accessType": "PLAIN"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "WnsDefaulterReport",
+            "roleAttributeAccessList": [
+              {
+                "roleCode": "SW_APPROVER",
+                "attributeAccessList": [
+                  {
+                    "attribute": {
+                      "jsonPath": "*/name"
+                    },
+                    "accessType": "PLAIN"
+                  }
+                ]
+              }
+            ]
           }
-		  
         ]
       }
     ]
