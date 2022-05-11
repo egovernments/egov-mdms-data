@@ -21634,18 +21634,6 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 2259,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2260,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 2261,
       "actioncode": "",
       "tenantId": "pg"
@@ -24888,6 +24876,18 @@
     {
       "rolecode": "DEATH_APPLICATION_EDITOR",
       "actionid": 2315,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2328,
+      "actioncode": "",
+      "tenantId": "pb"
+    },   
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2329,
       "actioncode": "",
       "tenantId": "pb"
     }
