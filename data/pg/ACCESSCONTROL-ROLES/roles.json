@@ -606,6 +606,46 @@
       "code": "DASHBOARD_REPORT_VIEWER",
       "name": "Birth and Death Dashboard User",
       "description": "Birth and Death Dashboard User"
+    },
+    {
+      "code": "BIRTH_APPLICATION_CREATOR",
+      "name": "Birth Application Creator",
+      "description": "Birth User that can only create new applications"
+    },
+    {
+      "code": "DEATH_APPLICATION_CREATOR",
+      "name": "Death Application Creator",
+      "description": "Death User that can only create new applications"
+    },
+    {
+      "code": "BIRTH_APPLICATION_VIEWER",
+      "name": "Birth Application Viewer",
+      "description": "Birth User that can only search and view applications"
+    },
+    {
+      "code": "DEATH_APPLICATION_VIEWER",
+      "name": "Death Application Viewer",
+      "description": "Death User that can only search and view applications"
+    },
+    {
+      "code": "BIRTH_REPORT_VIEWER",
+      "name": "Birth Report Viewer",
+      "description": "Birth and Death User that can view tabular reports"
+    },
+    {
+      "code": "DEATH_REPORT_VIEWER",
+      "name": "Death Report Viewer",
+      "description": "Death User that can view tabular reports"
+    },
+    {
+      "code": "BIRTH_APPLICATION_EDITOR",
+      "name": "Birth Application Editor",
+      "description": "Birth User that can edit existing applications"
+    },
+    {
+      "code": "DEATH_APPLICATION_EDITOR",
+      "name": "DEATH Application Editor",
+      "description": "Death User that can edit existing applications"
     }
   ]
 }

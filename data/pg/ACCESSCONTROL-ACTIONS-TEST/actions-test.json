@@ -13223,7 +13223,7 @@
       "serviceCode": "",
       "code": "",
       "path": "",
-      "navigationURL": "birth-citizen/home",
+      "navigationURL": "birth-common/getCertificate",
       "leftIcon": "custom:library-books",
       "rightIcon": "",
       "queryParams": ""
@@ -13239,13 +13239,13 @@
       "serviceCode": "",
       "code": "",
       "path": "",
-      "navigationURL": "death-citizen/home",
+      "navigationURL": "death-common/getCertificate",
       "leftIcon": "custom:library-books",
       "rightIcon": "",
       "queryParams": ""
     },
     {
-      "id": 2328,
+      "id": 2403,
       "name": "Birth Search Certificate",
       "url": "url",
       "displayName": "Birth Search Certificate",
@@ -13260,7 +13260,7 @@
       "rightIcon": ""
     },
     {
-      "id": 2329,
+      "id": 2404,
       "name": "Death Search Certificate",
       "url": "url",
       "displayName": "Death Search Certificate",
@@ -13273,6 +13273,30 @@
       "navigationURL": "death-common/getCertificate",
       "leftIcon": "custom:library-books",
       "rightIcon": ""
+    },
+    {
+      "id": 2405,
+      "name": "Birth Plain Search API",
+      "url": "/birth-death-services/birth/_plainsearch",
+      "parentModule": "",
+      "displayName": "Birth Plain Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2406,
+      "name": "Death Plain Search API",
+      "url": "/birth-death-services/death/_plainsearch",
+      "parentModule": "",
+      "displayName": "Death Plain Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "birth-death-services",
+      "code": "null",
+      "path": ""
     }  
    ]
 }
