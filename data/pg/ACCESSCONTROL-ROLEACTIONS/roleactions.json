@@ -24165,6 +24165,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "BIRTH_REPORT_VIEWER",
+      "actionid": 2359,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_REPORT_VIEWER",
+      "actionid": 2359,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BND_CEMP",
       "actionid": 2360,
       "actioncode": "",
@@ -24183,43 +24195,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2361,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2361,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "BND_CEMP",
       "actionid": 2362,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2362,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2362,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "BND_CEMP",
-      "actionid": 2363,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
       "actionid": 2363,
       "actioncode": "",
       "tenantId": "pg"
@@ -24237,12 +24219,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2364,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "CITIZEN",
       "actionid": 2364,
       "actioncode": "",
@@ -24255,31 +24231,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2365,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2365,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "BND_CEMP",
-      "actionid": 2366,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2366,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 2366,
       "actioncode": "",
       "tenantId": "pg"
@@ -24291,25 +24243,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2367,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2367,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "BND_CEMP",
-      "actionid": 2368,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
       "actionid": 2368,
       "actioncode": "",
       "tenantId": "pg"
@@ -24321,14 +24255,20 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "DEATH_APPLICATION_CREATOR",
+      "actionid": 2369,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BND_CEMP",
       "actionid": 2370,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "BND_CEMP",
-      "actionid": 2371,
+      "rolecode": "BIRTH_APPLICATION_CREATOR",
+      "actionid": 2370,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -24339,36 +24279,17 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "BND_CEMP",
-      "actionid": 2372,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "CITIZEN",
       "actionid": 2372,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "BND_CEMP",
-      "actionid": 2373,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "CITIZEN",
       "actionid": 2373,
       "actioncode": "",
       "tenantId": "pg"
     },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2373,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    
     {
       "rolecode": "CITIZEN",
       "actionid": 2374,
@@ -24382,7 +24303,19 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "BIRTH_APPLICATION_CREATOR",
+      "actionid": 2375,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BND_CEMP",
+      "actionid": 2376,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_CREATOR",
       "actionid": 2376,
       "actioncode": "",
       "tenantId": "pg"
@@ -24400,6 +24333,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "BIRTH_APPLICATION_EDITOR",
+      "actionid": 2377,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BIRTH_APPLICATION_VIEWER",
+      "actionid": 2377,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BND_CEMP",
       "actionid": 2378,
       "actioncode": "",
@@ -24407,6 +24352,18 @@
     },
     {
       "rolecode": "CITIZEN",
+      "actionid": 2378,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_EDITOR",
+      "actionid": 2378,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_VIEWER",
       "actionid": 2378,
       "actioncode": "",
       "tenantId": "pg"
@@ -24550,6 +24507,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "DEATH_APPLICATION_VIEWER",
+      "actionid": 2390,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_EDITOR",
+      "actionid": 2390,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "CITIZEN",
       "actionid": 2391,
       "actioncode": "",
@@ -24599,6 +24568,18 @@
     },
     {
       "rolecode": "CITIZEN",
+      "actionid": 2395,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BIRTH_REPORT_VIEWER",
+      "actionid": 2395,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_REPORT_VIEWER",
       "actionid": 2395,
       "actioncode": "",
       "tenantId": "pg"
@@ -24670,13 +24651,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "CITIZEN",
+      "rolecode": "BND_CEMP",
       "actionid": 2401,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CITIZEN",
+      "rolecode": "BND_CEMP",
       "actionid": 2402,
       "actioncode": "",
       "tenantId": "pg"
@@ -24689,12 +24670,6 @@
     },
     {
       "rolecode": "BIRTH_REPORT_VIEWER",
-      "actionid": 2349,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BIRTH_REPORT_VIEWER",
       "actionid": 2348,
       "actioncode": "",
       "tenantId": "pg"
@@ -24702,18 +24677,6 @@
     {
       "rolecode": "BIRTH_REPORT_VIEWER",
       "actionid": 2353,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BIRTH_REPORT_VIEWER",
-      "actionid": 2360,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DASHBOARD_REPORT_VIEWER",
-      "actionid": 2355,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -24737,12 +24700,6 @@
     },
     {
       "rolecode": "DEATH_REPORT_VIEWER",
-      "actionid": 2352,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DEATH_REPORT_VIEWER",
       "actionid": 2356,
       "actioncode": "",
       "tenantId": "pg"
@@ -24750,12 +24707,6 @@
     {
       "rolecode": "DEATH_REPORT_VIEWER",
       "actionid": 2357,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DEATH_REPORT_VIEWER",
-      "actionid": 2358,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -24785,6 +24736,12 @@
     },
     {
       "rolecode": "BIRTH_APPLICATION_VIEWER",
+      "actionid": 2383,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_VIEWER",
       "actionid": 2383,
       "actioncode": "",
       "tenantId": "pg"
@@ -24844,12 +24801,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "DEATH_APPLICATION_EDITOR",
-      "actionid": 2366,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "DASHBOARD_REPORT_VIEWER",
       "actionid": 2367,
       "actioncode": "",
@@ -24862,7 +24813,19 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "BIRTH_APPLICATION_EDITOR",
+      "rolecode": "BIRTH_APPLICATION_VIEWER",
+      "actionid": 2381,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_VIEWER",
+      "actionid": 2382,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEATH_APPLICATION_EDITOR",
       "actionid": 2382,
       "actioncode": "",
       "tenantId": "pg"
@@ -24880,26 +24843,62 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "BND_CEMP",
+      "actionid": 2403,
+      "actioncode": "",
+      "tenantId": "pg"
+    },   
+    {
+      "rolecode": "BIRTH_APPLICATION_VIEWER",
+      "actionid": 2403,
+      "actioncode": "",
+      "tenantId": "pg"
+    },   
+    {
+      "rolecode": "BIRTH_APPLICATION_EDITOR",
+      "actionid": 2403,
+      "actioncode": "",
+      "tenantId": "pg"
+    },   
+    {
+      "rolecode": "BND_CEMP",
+      "actionid": 2404,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "DEATH_APPLICATION_VIEWER",
-      "actionid": 2385,
+      "actionid": 2404,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "DEATH_APPLICATION_EDITOR",
-      "actionid": 2385,
+      "actionid": 2404,
       "actioncode": "",
       "tenantId": "pg"
-    }
+    },
     {
-      "rolecode": "CITIZEN",
-      "actionid": 2328,
+      "rolecode": "BND_CEMP",
+      "actionid": 2405,
       "actioncode": "",
       "tenantId": "pg"
-    },   
+    },
     {
       "rolecode": "CITIZEN",
-      "actionid": 2329,
+      "actionid": 2405,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BND_CEMP",
+      "actionid": 2406,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2406,
       "actioncode": "",
       "tenantId": "pg"
     }
