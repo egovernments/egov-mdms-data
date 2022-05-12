@@ -20133,7 +20133,7 @@
       "name": "ACTION_TEST_WNS_MY_BILLS",
       "url": "digit-ui-card",
       "displayName": "My Bills",
-      "orderNumber": 1,
+      "orderNumber": 5,
       "parentModule": "WS",
       "enabled": true,
       "serviceCode": "",
@@ -20151,7 +20151,7 @@
       "name": "ACTION_TEST_MY_PAYMENTS",
       "url": "digit-ui-card",
       "displayName": "My Payments",
-      "orderNumber": 2,
+      "orderNumber": 1,
       "parentModule": "WS",
       "enabled": true,
       "serviceCode": "",
@@ -20187,7 +20187,7 @@
       "name": "ACTION_TEXT_WS_SEARCH_AND_PAY",
       "url": "digit-ui-card",
       "displayName": "Search & Pay",
-      "orderNumber": 4,
+      "orderNumber": 6,
       "parentModule": "WS",
       "enabled": true,
       "serviceCode": "",
@@ -20205,7 +20205,7 @@
       "name": "ACTION_TEXT_WS_MY_APPLICATION",
       "url": "digit-ui-card",
       "displayName": "My Applications",
-      "orderNumber": 5,
+      "orderNumber": 2,
       "parentModule": "WS",
       "enabled": true,
       "serviceCode": "",
@@ -20223,7 +20223,7 @@
       "name": "ACTION_TEXT_WS_MY_CONNECTION",
       "url": "digit-ui-card",
       "displayName": "My Connections",
-      "orderNumber": 6,
+      "orderNumber": 4,
       "parentModule": "WS",
       "enabled": true,
       "serviceCode": "",
@@ -20771,7 +20771,8 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
-    },{
+    },
+    {
       "id": 2334,
       "name": "National Dashboard BND",
       "url": "url",
@@ -20834,7 +20835,7 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-     
+
       "code": "null",
       "path": ""
     }
