@@ -24843,37 +24843,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "BND_CEMP",
+      "rolecode": "CITIZEN",
       "actionid": 2403,
-      "actioncode": "",
-      "tenantId": "pg"
-    },   
-    {
-      "rolecode": "BIRTH_APPLICATION_VIEWER",
-      "actionid": 2403,
-      "actioncode": "",
-      "tenantId": "pg"
-    },   
-    {
-      "rolecode": "BIRTH_APPLICATION_EDITOR",
-      "actionid": 2403,
-      "actioncode": "",
-      "tenantId": "pg"
-    },   
-    {
-      "rolecode": "BND_CEMP",
-      "actionid": 2404,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "DEATH_APPLICATION_VIEWER",
-      "actionid": 2404,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DEATH_APPLICATION_EDITOR",
+      "rolecode": "CITIZEN",
       "actionid": 2404,
       "actioncode": "",
       "tenantId": "pg"
