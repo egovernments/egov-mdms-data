@@ -11456,7 +11456,9 @@
       "navigationURL": "/digit-ui/citizen/mcollect/search",
       "leftIcon": "MCollectIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/mcollect-home"
     },
     {
       "id": 2257,
@@ -11472,7 +11474,9 @@
       "navigationURL": "/digit-ui/citizen/mcollect/My-Challans",
       "leftIcon": "MCollectIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/mcollect-home"
     },
     {
       "id": 2258,
@@ -11488,7 +11492,9 @@
       "navigationURL": "/digit-ui/citizen/ws/my-bills",
       "leftIcon": "WSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     },
     {
       "id": 2259,
@@ -11504,7 +11510,9 @@
       "navigationURL": "/digit-ui/citizen/ws/my-payments",
       "leftIcon": "WSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     },
     {
       "id": 2260,
@@ -11520,7 +11528,9 @@
       "navigationURL": "/digit-ui/citizen/ws/create-application/docs-required",
       "leftIcon": "WSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     },
     {
       "id": 2261,
@@ -11536,7 +11546,9 @@
       "navigationURL": "/digit-ui/citizen/ws/search",
       "leftIcon": "WSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     },
     {
       "id": 2262,
@@ -11552,7 +11564,9 @@
       "navigationURL": "/digit-ui/citizen/ws/my-applications",
       "leftIcon": "WSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     },
     {
       "id": 2263,
@@ -11568,7 +11582,9 @@
       "navigationURL": "/digit-ui/citizen/ws/my-connections",
       "leftIcon": "WSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     },
     {
       "id": 2264,
@@ -11584,7 +11600,9 @@
       "navigationURL": "/digit-ui/citizen/fsm/new-application",
       "leftIcon": "FSMIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/fsm-home"
     },
     {
       "id": 2265,
@@ -11600,7 +11618,9 @@
       "navigationURL": "/digit-ui/citizen/fsm/my-applications",
       "leftIcon": "FSMIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/fsm-home"
     },
     {
       "id": 2266,
@@ -11616,7 +11636,9 @@
       "navigationURL": "/digit-ui/citizen/pgr/create-complaint/complaint-type",
       "leftIcon": "PGRIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/pgr-home"
     },
     {
       "id": 2267,
@@ -11632,7 +11654,9 @@
       "navigationURL": "/digit-ui/citizen/pgr/complaints",
       "leftIcon": "PGRIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/pgr-home"
     },
     {
       "id": 2268,
@@ -11648,7 +11672,9 @@
       "navigationURL": "/digit-ui/citizen/tl/tradelicence/new-application",
       "leftIcon": "TLIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/tl-home"
     },
     {
       "id": 2269,
@@ -11664,7 +11690,9 @@
       "navigationURL": "/digit-ui/citizen/tl/tradelicence/renewal-list",
       "leftIcon": "TLIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/tl-home"
     },
     {
       "id": 2270,
@@ -11680,7 +11708,9 @@
       "navigationURL": "/digit-ui/citizen/tl/tradelicence/my-application",
       "leftIcon": "TLIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/tl-home"
     },
     {
       "id": 2271,
@@ -11696,7 +11726,9 @@
       "navigationURL": "/digit-ui/citizen/obps/my-applications",
       "leftIcon": "OBPSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/obps-home"
     },
     {
       "id": 2272,
@@ -11712,7 +11744,9 @@
       "navigationURL": "/digit-ui/citizen/obps/stakeholder/apply/stakeholder-docs-required",
       "leftIcon": "OBPSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/obps-home"
     },
     {
       "id": 2273,
@@ -11728,7 +11762,9 @@
       "navigationURL": "/digit-ui/citizen/obps/home",
       "leftIcon": "OBPSIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/obps-home"
     },
     {
       "id": 2274,
@@ -11744,7 +11780,9 @@
       "navigationURL": "/digit-ui/citizen/commonpt/property/citizen-search",
       "leftIcon": "CommonPTIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/commonpt-home"
     },
     {
       "id": 2275,
@@ -11760,7 +11798,9 @@
       "navigationURL": "/digit-ui/citizen/commonpt/property/new-application",
       "leftIcon": "CommonPTIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/commonpt-home"
     },
     {
       "id": 2276,
@@ -11776,7 +11816,9 @@
       "navigationURL": "/digit-ui/citizen/bills/billSearch",
       "leftIcon": "BillsIcon",
       "rightIcon": "",
-      "queryParams": ""
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/bills-home"
     },
     {
       "id": 2277,
