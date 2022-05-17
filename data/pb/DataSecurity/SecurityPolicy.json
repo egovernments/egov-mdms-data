@@ -4,6 +4,10 @@
   "SecurityPolicy": [
     {
       "model": "User",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
       "attributes": [
         {
           "name": "name",
