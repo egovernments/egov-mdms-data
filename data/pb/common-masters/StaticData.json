@@ -1,0 +1,46 @@
+{
+    "tenantId": "pb",
+    "moduleName": "common-masters",
+    "staticData": [
+        {
+            "PT" : {
+                "payViaWhatsApp": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva",
+                "helpline": 
+                { 
+                  "contactOne": "7878787878",
+                  "contactTwo": "7979797979"
+                },
+                "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
+                "applicationProcessingTime": "7-10 days",
+                "applicationProcessingFee": "₹500",
+                "validity": "1 year"
+            },
+        
+            "TL" : {
+                "payViaWhatsApp": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva",
+                "helpline": 
+                { 
+                  "contactOne": "7878787878",
+                  "contactTwo": "7979797979"
+                },
+                "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
+                "applicationProcessingTime": "7-10 days",
+                "applicationProcessingFee": "₹500",
+                "validity": "1 year"
+            },
+
+            "MCOLLECT" : {
+                "payViaWhatsApp": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva",
+                "helpline": 
+                { 
+                  "contactOne": "7878787878",
+                  "contactTwo": "7979797979"
+                },
+                "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
+                "applicationProcessingTime": "7-10 days",
+                "applicationProcessingFee": "₹500",
+                "validity": "1 year"
+            }
+          }
+    ]
+}
