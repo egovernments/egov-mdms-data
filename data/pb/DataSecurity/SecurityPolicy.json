@@ -30,41 +30,49 @@
         {
           "name": "username",
           "jsonPath": "username",
-          "defaultVisibility": "NONE"
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
         },
         {
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
-          "defaultVisibility": "NONE"
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
         },
         {
           "name": "pan",
           "jsonPath": "pan",
+          "patternId": null,
           "defaultVisibility": "NONE"
         },
         {
           "name": "aadhaarNumber",
           "jsonPath": "aadhaarNumber",
+          "patternId": null,
           "defaultVisibility": "NONE"
         },
         {
           "name": "guardian",
           "jsonPath": "guardian",
+          "patternId": null,
           "defaultVisibility": "NONE"
         },
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
+          "patternId": null,
           "defaultVisibility": "NONE"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
+          "patternId": null,
           "defaultVisibility": "NONE"
         },
         {
           "name": "addresses",
           "jsonPath": "addresses/*/address",
+          "patternId": null,
           "defaultVisibility": "NONE"
         }
       ],
