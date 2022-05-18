@@ -15210,7 +15210,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Home",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/home",
+      "navigationURL": "/digit-ui/employee/dss/landing/home",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15225,7 +15225,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.PropertyTax",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/propertytax",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/propertytax",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15240,7 +15240,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.TradeLicense",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/tradelicense",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/tradelicense",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15654,7 +15654,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.PGR",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/pgr",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/pgr",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -15898,7 +15898,7 @@
       "serviceCode": "integration",
       "code": "",
       "path": "",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/home",
+      "navigationURL": "/digit-ui/employee/dss/landing/home",
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
@@ -15914,7 +15914,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Overview",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/overview",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/overview",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -16134,7 +16134,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Ws",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/ws",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/ws",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
@@ -19249,7 +19249,7 @@
       "serviceCode": "integration",
       "code": "",
       "path": "",
-      "navigationURL": "/digit-ui/employee/payment/integration/dss/NURT_DASHBOARD",
+      "navigationURL": "/digit-ui/employee/dss/landing/NURT_DASHBOARD",
       "leftIcon": "places:business-center",
       "rightIcon": "",
       "queryParams": ""
