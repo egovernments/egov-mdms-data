@@ -65,13 +65,13 @@
         },
         {
           "name": "permanentAddress",
-          "jsonPath": "permanentAddress",
+          "jsonPath": "permanentAddress/address",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "correspondenceAddress",
-          "jsonPath": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress/address",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
@@ -92,6 +92,10 @@
             },
             {
               "attribute": "mobileNumber",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "userName",
               "secondLevelVisibility": "PLAIN"
             }
           ]
@@ -170,13 +174,13 @@
         },
         {
           "name": "permanentAddress",
-          "jsonPath": "permanentAddress",
+          "jsonPath": "permanentAddress/address",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
-          "jsonPath": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress/address",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
