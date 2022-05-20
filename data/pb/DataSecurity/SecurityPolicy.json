@@ -28,8 +28,8 @@
           "defaultVisibility": "MASKED"
         },
         {
-          "name": "userName",
-          "jsonPath": "userName",
+          "name": "username",
+          "jsonPath": "username",
           "patternId": "002",
           "defaultVisibility": "MASKED"
         },
@@ -137,8 +137,8 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "userName",
-          "jsonPath": "userName",
+          "name": "username",
+          "jsonPath": "username",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
