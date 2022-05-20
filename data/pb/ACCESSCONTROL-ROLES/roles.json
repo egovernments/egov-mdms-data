@@ -651,6 +651,11 @@
       "code": "DEATH_APPLICATION_EDITOR",
       "name": "DEATH Application Editor",
       "description": "Death User that can edit existing applications"
+    },
+    {
+      "code": "DUMMY_LIST_SELF",
+      "name": "Dummy List Self",
+      "description": "Dummy role for plain access"
     }
   ]
 }
