@@ -33,7 +33,16 @@
                   "contactTwo": "7979797979"
                 },
                 "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK"
-            }
+            },
+            "PGR" : {
+              "payViaWhatsApp": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva",
+              "helpline": 
+              { 
+                "contactOne": "7878787878",
+                "contactTwo": "7979797979"
+              },
+              "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK"
+          }
           }
     ]
 }
