@@ -80,6 +80,12 @@
           "jsonPath": "fatherOrHusbandName",
           "patternId": "002",
           "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "searchUsername",
+          "jsonPath": "userName",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
         }
       ],
       "roleBasedDecryptionPolicy": [
