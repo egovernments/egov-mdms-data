@@ -118,7 +118,7 @@
       ]
     },
     {
-      "model": "UserListSelf",
+      "model": "UserSelf",
       "uniqueIdentifier": {
         "name": "uuid",
         "jsonPath": "uuid"
@@ -127,132 +127,77 @@
         {
           "name": "name",
           "jsonPath": "name",
-          "patternId": "002",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": "001",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "emailId",
           "jsonPath": "emailId",
-          "patternId": "004",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "username",
           "jsonPath": "username",
-          "patternId": "002",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
-          "patternId": "001",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "alternatemobilenumber",
           "jsonPath": "alternatemobilenumber",
-          "patternId": "001",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "pan",
           "jsonPath": "pan",
-          "patternId": "001",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "aadhaarNumber",
           "jsonPath": "aadhaarNumber",
-          "patternId": "001",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "guardian",
           "jsonPath": "guardian",
-          "patternId": "002",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
-          "patternId": "003",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
-          "patternId": "003",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "fatherOrHusbandName",
           "jsonPath": "fatherOrHusbandName",
-          "patternId": "002",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "role": "DUMMY_LIST_SELF",
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "mobileNumber",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "alternatemobilenumber",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "altContactNumber",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "username",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "aadhaarNumber",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "pan",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "emailId",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "guardian",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "permanentAddress",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "correspondenceAddress",
-              "firstLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "fatherOrHusbandName",
-              "firstLevelVisibility": "PLAIN"
-            }
-
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
