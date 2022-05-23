@@ -93,10 +93,6 @@
           "role": "PGR_LME",
           "attributeAccessList": [
             {
-              "attribute": "userName",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
               "attribute": "name",
               "secondLevelVisibility": "PLAIN"
             },
