@@ -80,12 +80,22 @@
           "jsonPath": "fatherOrHusbandName",
           "patternId": "002",
           "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "userName",
+          "jsonPath": "userName",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
         }
       ],
       "roleBasedDecryptionPolicy": [
         {
           "role": "PGR_LME",
           "attributeAccessList": [
+            {
+              "attribute": "userName",
+              "secondLevelVisibility": "PLAIN"
+            },
             {
               "attribute": "name",
               "secondLevelVisibility": "PLAIN"
