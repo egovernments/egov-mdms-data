@@ -8,7 +8,7 @@
         },
         {
             "patternId": "002",
-            "pattern": "\\B[a-z]"
+            "pattern": "\\B[a-zA-Z0-9]"
         },
         {
             "patternId": "003",
