@@ -20860,6 +20860,36 @@
       "serviceCode": "vehicle",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2341,
+      "name": "DSS_ABOUT_DASHBOARD",
+      "url": "url",
+      "displayName": "About Dashboard",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "NatDashboard.About",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/About",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2342,
+      "name": "DSS_FAQS",
+      "url": "url",
+      "displayName": "FAQs",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "NatDashboard.FAQs",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/FAQs",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
