@@ -12819,6 +12819,28 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/pt-home"
+    },
+	{
+      "id": 2352,
+      "name": "Update Vendor/DSO",
+      "url": "/vendor/v1/_update",
+      "displayName": "Update Vendor",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2353,
+      "name": "Update Vehicle Application",
+      "url": "/vehicle/v1/_update",
+      "displayName": "Update Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
     }
   ]
 }   
