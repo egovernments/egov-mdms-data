@@ -20860,6 +20860,36 @@
       "serviceCode": "vehicle",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2341,
+      "name": "About and Purpose",
+      "url": "url",
+      "displayName": "About Dashboard",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.AbouteDashboard",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/AboutDashbard",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2342,
+      "name": "FAQ page",
+      "url": "url",
+      "displayName": "FAQs",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.FAQs",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/FAQs",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
   ]
 }
