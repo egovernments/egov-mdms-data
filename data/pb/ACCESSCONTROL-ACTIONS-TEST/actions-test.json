@@ -20863,7 +20863,7 @@
     },
     {
       "id": 2341,
-      "name": "About and Purpose",
+      "name": "DSS_ABOUT_DASHBOARD",
       "url": "url",
       "displayName": "About Dashboard",
       "orderNumber": 4,
@@ -20871,14 +20871,14 @@
       "enabled": true,
       "serviceCode": "DSS",
       "code": "null",
-      "path": "NatDashboard.AbouteDashboard",
-      "navigationURL": "/digit-ui/employee/dss/dashboard/AboutDashbard",
+      "path": "NatDashboard.About",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/About",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
     {
       "id": 2342,
-      "name": "FAQ page",
+      "name": "DSS_FAQS",
       "url": "url",
       "displayName": "FAQs",
       "orderNumber": 4,
