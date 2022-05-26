@@ -23966,13 +23966,13 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "COMMON_EMPLOYEE",
       "actionid": 701,
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "NATADMIN",
       "actionid": 1890,
       "actioncode": "",
@@ -23996,7 +23996,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "PGR_LME",
       "actionid": 1527,
       "actioncode": "",
@@ -24883,10 +24883,118 @@
       "actionid": 2407,
       "actioncode": "",
       "tenantId": "pg"
-    }, 
+    },
     {
       "rolecode": "NATADMIN",
       "actionid": 2408,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 2041,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 2042,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 2043,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 2044,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPAREG_APPROVER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPAREG_DOC_VERIFIER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_VERIFIER",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_FIELD_INSPECTOR",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_NOC_VERIFIER",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPA_APPROVER",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRE_NOC_APPROVER",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPAREG_APPROVER",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BPAREG_DOC_VERIFIER",
+      "actionid": 2317,
       "actioncode": "",
       "tenantId": "pg"
     }
