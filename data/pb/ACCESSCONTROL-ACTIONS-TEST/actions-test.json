@@ -9065,7 +9065,7 @@
       "code": "null",
       "path": "Billing Service.Amendment"
     },
-      {
+    {
       "id": 2063,
       "name": "FSM Application Audit Search",
       "url": "/fsm/v1/_audit",
@@ -9076,44 +9076,44 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
-      },
-      {
-        "id": 2064,
-        "name": "EmployeeReport",
-        "url": "url",
-        "displayName": "Employee Report",
-        "orderNumber": 1,
-        "parentModule": "",
-        "enabled": true,
-        "serviceCode": "",
-        "code": "null",
-        "path": "HRMS.Reports.EmployeeReport",
-        "navigationURL": "report/hrms/EmployeeReport",
-        "leftIcon": "action:assignment",
-        "rightIcon": ""
-      },
-      {
-        "id": 2065,
-        "name": "RainmakerHRMS-EmployeeReport-Metadata",
-        "url": "/report/hrms/EmployeeReport/metadata/_get",
-        "displayName": "Rainmaker Employee report",
-        "orderNumber": 1,
-        "enabled": false,
-        "serviceCode": "EmployeeReport",
-        "code": "null",
-        "path": "Employee Report"
-      },
-      {
-        "id": 2066,
-        "name": "EmployeeReport",
-        "url": "/report/hrms/EmployeeReport/_get",
-        "displayName": "Employee Report",
-        "orderNumber": 0,
-        "enabled": false,
-        "serviceCode": "EmployeeReport",
-        "code": "null",
-        "path": "Employee Report"
-      },
+    },
+    {
+      "id": 2064,
+      "name": "EmployeeReport",
+      "url": "url",
+      "displayName": "Employee Report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "HRMS.Reports.EmployeeReport",
+      "navigationURL": "report/hrms/EmployeeReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2065,
+      "name": "RainmakerHRMS-EmployeeReport-Metadata",
+      "url": "/report/hrms/EmployeeReport/metadata/_get",
+      "displayName": "Rainmaker Employee report",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "EmployeeReport",
+      "code": "null",
+      "path": "Employee Report"
+    },
+    {
+      "id": 2066,
+      "name": "EmployeeReport",
+      "url": "/report/hrms/EmployeeReport/_get",
+      "displayName": "Employee Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EmployeeReport",
+      "code": "null",
+      "path": "Employee Report"
+    },
     {
       "id": 2067,
       "name": "MDMS GET",
@@ -9125,11 +9125,11 @@
       "serviceCode": "MDMS GET",
       "code": "null",
       "path": ""
-      },
+    },
     {
       "id": 2068,
       "name": "FSM BillingSlab Create",
-       "url": "/fsm-calculator/v1/billingSlab/_create",
+      "url": "/fsm-calculator/v1/billingSlab/_create",
       "displayName": "FSM BillingSlab Create",
       "orderNumber": 1,
       "parentModule": "",
@@ -9141,7 +9141,7 @@
     {
       "id": 2069,
       "name": "FSM BillingSlab Update",
-       "url": "/fsm-calculator/v1/billingSlab/_update",
+      "url": "/fsm-calculator/v1/billingSlab/_update",
       "displayName": "FSM BillingSlab Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -9153,7 +9153,7 @@
     {
       "id": 2070,
       "name": "FSM BillingSlab Search",
-       "url": "/fsm-calculator/v1/billingSlab/_search",
+      "url": "/fsm-calculator/v1/billingSlab/_search",
       "displayName": "FSM BillingSlab Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -9198,11 +9198,11 @@
       "serviceCode": "egov-apportion-service",
       "code": "null",
       "path": ""
-      },
+    },
     {
       "id": 2074,
       "name": "Vehicle Trip Search",
-       "url": "/vehicle/trip/v1/_search",
+      "url": "/vehicle/trip/v1/_search",
       "displayName": "Vehicle Trip Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -9214,7 +9214,7 @@
     {
       "id": 2075,
       "name": "Vehicle Trip Update",
-       "url": "/vehicle/trip/v1/_update",
+      "url": "/vehicle/trip/v1/_update",
       "displayName": "Vehicle Trip Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -9226,7 +9226,7 @@
     {
       "id": 2076,
       "name": "FSM Estimate",
-       "url": "/fsm-calculator/v1/_estimate",
+      "url": "/fsm-calculator/v1/_estimate",
       "displayName": "FSM Estimate",
       "orderNumber": 1,
       "parentModule": "",
@@ -10661,7 +10661,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2193,
       "name": "To get the FSM Applications for periodic",
       "url": "/fsm/v1/_getapplicationsforperiodic",
@@ -11188,7 +11188,8 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/noc",
       "leftIcon": "places:business-center",
       "rightIcon": ""
-    }, {
+    },
+    {
       "id": 2237,
       "name": "Dashboard Mcollect",
       "url": "url",
@@ -11203,7 +11204,7 @@
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
-	{
+    {
       "id": 2238,
       "name": "NSS Dashboard Config Overview",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-overview",
@@ -11232,9 +11233,9 @@
     },
     {
       "id": 2240,
-      "name":"National Urban Realtime Dashboard",
+      "name": "National Urban Realtime Dashboard",
       "url": "card",
-      "displayName":"National Urban Realtime Dashboard",
+      "displayName": "National Urban Realtime Dashboard",
       "orderNumber": 2,
       "parentModule": "",
       "enabled": true,
@@ -11438,7 +11439,6 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-     
       "code": "null",
       "path": ""
     },
@@ -12335,7 +12335,6 @@
       "rightIcon": "",
       "queryParams": ""
     },
-
     {
       "id": 2317,
       "name": "death Search",
@@ -12530,7 +12529,6 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-
       "code": "null",
       "path": ""
     },
@@ -12820,7 +12818,7 @@
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/pt-home"
     },
-	{
+    {
       "id": 2352,
       "name": "Update Vendor/DSO",
       "url": "/vendor/v1/_update",
@@ -12831,7 +12829,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2353,
       "name": "Update Vehicle Application",
       "url": "/vehicle/v1/_update",
@@ -12841,6 +12839,17 @@
       "serviceCode": "vehicle",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2354,
+      "name": "SMS Status Reports",
+      "url": "/notification-sms/smsbounce/callback",
+      "displayName": "SMS Status Reports",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "notification-sms",
+      "code": "null",
+      "path": ""
     }
   ]
-}   
+}
