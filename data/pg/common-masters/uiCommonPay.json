@@ -2335,7 +2335,10 @@
       "code": "BIRTH_CERT",
       "headerBandLabel": "PAYMENT_BND_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
-      "billKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "cancelReceipt": false,
+      "cancelBill": false,
+      "arrears": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
@@ -2348,7 +2351,10 @@
       "code": "DEATH_CERT",
       "headerBandLabel": "PAYMENT_BND_CONSUMER_CODE",
       "receiptKey": "consolidatedreceipt",
-      "billKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "cancelReceipt": false,
+      "cancelBill": false,
+      "arrears": false,
       "buttons": [
         {
           "label": "COMMON_BUTTON_HOME",
