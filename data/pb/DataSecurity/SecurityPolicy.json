@@ -1,0 +1,207 @@
+{
+  "tenantId": "pb",
+  "moduleName": "DataSecurity",
+  "SecurityPolicy": [
+    {
+      "model": "User",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "emailId",
+          "jsonPath": "emailId",
+          "patternId": "004",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "username",
+          "jsonPath": "username",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "altContactNumber",
+          "jsonPath": "altContactNumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "alternatemobilenumber",
+          "jsonPath": "alternatemobilenumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "pan",
+          "jsonPath": "pan",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "aadhaarNumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "guardian",
+          "jsonPath": "guardian",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "permanentAddress",
+          "jsonPath": "permanentAddress/address",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress/address",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "fatherOrHusbandName",
+          "jsonPath": "fatherOrHusbandName",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "searchUsername",
+          "jsonPath": "userName",
+          "patternId": "002",
+          "defaultVisibility": "MASKED"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "role": "PGR_LME",
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "mobileNumber",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "username",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "permanentAddress",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        },
+        {
+          "role": "GRO",
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "UserSelf",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes":[
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "emailId",
+          "jsonPath": "emailId",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "username",
+          "jsonPath": "username",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "altContactNumber",
+          "jsonPath": "altContactNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "alternatemobilenumber",
+          "jsonPath": "alternatemobilenumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "pan",
+          "jsonPath": "pan",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "aadhaarNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "guardian",
+          "jsonPath": "guardian",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "permanentAddress",
+          "jsonPath": "permanentAddress/address",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress/address",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "fatherOrHusbandName",
+          "jsonPath": "fatherOrHusbandName",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    }
+  ]
+}
