@@ -1,0 +1,53 @@
+{
+    "tenantId": "pb",
+    "moduleName": "dss-dashboard",
+    "About": [
+        {
+            "DSS": {
+                "About": [
+                    {
+                        "titleHeader": "DSS_ABOUT_PURPOSE",
+                        "define": "DSS_ABOUT_PURPOSE_DEFINE",
+                        "definePoints": [
+                            {
+                                "point": "QUICKLY_IDENTIFY_DATA"
+                            },
+                            {
+                                "point": "GENERATE_DETAILED_REPORTS"
+                            },
+                            {
+                                "point": "MEASURE_EFFICIENCY"
+                            },
+                            {
+                                "point": "KEY_TERMS"
+                            },
+                            {
+                                "point": "CLARITY_ON_DASHBOARD"
+                            },
+                            {
+                                "point": "ADMINISTRATORS_DEFINE"
+                            },
+                            {
+                                "point": "We/US_DEFINE"
+                            },
+                            {
+                                "point": "STATES_DEFINE"
+                            },
+                            {
+                                "point": "URBAN_DEVELOPMENT_SERVICES_DEFINE"
+                            }
+                        ]
+                    },
+                    {
+                        "titleHeader": "DSS_QUES_WHAT_IS_DATA",
+                        "define": "DSS_ANS_DATA"
+                    },
+                    {
+                        "titleHeader": "DSS_QUES_GET_DATA_FROM_DASHBOARD",
+                        "define": "DSS_ANS_GET_DATA_FROM_DASHBOARD"
+                    }
+                ]
+            }
+        }
+    ]
+}
