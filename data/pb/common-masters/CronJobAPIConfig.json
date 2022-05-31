@@ -88,7 +88,7 @@
     },
     {
       "jobName": "daily",
-      "active": "true",
+      "active": "false",
       "method": "GET",
       "url": "http://egov-filestore.egov:8080/filestore/v1/files/url?tenantId=pb.amritsar&=&fileStoreIds=0fc65c3a-d015-4044-b241-91072419cf5d",
       "header": {
@@ -97,7 +97,7 @@
     },
     {
       "jobName": "daily",
-      "active": "true",
+      "active": "false",
       "method": "POST",
       "url": "http://fsm.egov:8080/fsm/v1/_schedular",
       "payload": {
