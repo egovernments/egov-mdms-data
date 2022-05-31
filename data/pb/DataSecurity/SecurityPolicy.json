@@ -13,79 +13,79 @@
           "name": "name",
           "jsonPath": "name",
           "patternId": "002",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "emailId",
           "jsonPath": "emailId",
           "patternId": "004",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "username",
           "jsonPath": "username",
           "patternId": "002",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "alternatemobilenumber",
           "jsonPath": "alternatemobilenumber",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "pan",
           "jsonPath": "pan",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "aadhaarNumber",
           "jsonPath": "aadhaarNumber",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "guardian",
           "jsonPath": "guardian",
           "patternId": "002",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
           "patternId": "003",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
           "patternId": "003",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "fatherOrHusbandName",
           "jsonPath": "fatherOrHusbandName",
           "patternId": "002",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "searchUsername",
           "jsonPath": "userName",
           "patternId": "002",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -94,18 +94,22 @@
           "attributeAccessList": [
             {
               "attribute": "name",
+              "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
               "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
               "attribute": "username",
+              "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
               "attribute": "permanentAddress",
+              "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
           ]
@@ -115,7 +119,8 @@
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED"
+              "firstLevelVisibility": "MASKED",
+              "secondlevelVisibility": "PLAIN"
             }
           ]
         }
@@ -127,7 +132,7 @@
         "name": "uuid",
         "jsonPath": "uuid"
       },
-      "attributes":[
+      "attributes": [
         {
           "name": "name",
           "jsonPath": "name",
