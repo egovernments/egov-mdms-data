@@ -20940,6 +20940,21 @@
       "navigationURL": "report/fsm/FSMDailyDesludingReport",
       "leftIcon": "action:description",
       "rightIcon": ""
-    }
+    },
+	{
+      "id": 2347,
+      "name": "Dashboard Finance",
+      "url": "url",
+      "displayName": "Finance",
+      "orderNumber": 6,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Finance",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/finance",
+      "leftIcon": "editor:insert-chart",
+      "rightIcon": ""
+    },
   ]
 }
