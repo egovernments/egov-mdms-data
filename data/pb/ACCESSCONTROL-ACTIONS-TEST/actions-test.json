@@ -20903,6 +20903,43 @@
       "serviceCode": "vehicle",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2344,
+      "name": "FSM-FSMDailyDesludingReport-Metadata",
+      "url": "/report/fsm/FSMDailyDesludingReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMDAILYDESLUDINGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2345,
+      "name": "FSMDailyDesludingReport",
+      "url": "/report/fsm/FSMDailyDesludingReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMDAILYDESLUDINGREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2346,
+      "name": "FSMDailyDesludingReport",
+      "url": "url",
+      "displayName": "FSM Daily Desluding Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMDailyDesludingReport",
+      "navigationURL": "report/fsm/FSMDailyDesludingReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     }
   ]
 }

@@ -26014,9 +26014,27 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-	{
+	  {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 2343,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode":"FSM_REPORT_VIEWER",
+      "actionid":2344,
+      "actioncode":"",
+      "tenantId":"pb"
+    },
+    {
+      "rolecode":"FSM_REPORT_VIEWER",
+      "actionid":2345,
+      "actioncode":"",
+      "tenantId":"pb"
+    },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2346,
       "actioncode": "",
       "tenantId": "pb"
     }
