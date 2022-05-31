@@ -20890,6 +20890,19 @@
       "navigationURL": "/digit-ui/employee/dss/national-faqs",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+	
+	 {
+      "id": 2343,
+      "name": "Vehicle Trip Create",
+      "url": "/vehicle/trip/v1/_create",
+      "displayName": "Vehicle Trip Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
     }
   ]
 }
