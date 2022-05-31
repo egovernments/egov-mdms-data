@@ -7,7 +7,10 @@
                 "About": [
                     {
                         "titleHeader": "DSS_ABOUT_PURPOSE",
-                        "define": "DSS_ABOUT_PURPOSE_DEFINE",
+                        "define": [
+                            "DSS_ABOUT_PURPOSE_DEFINE",
+                            "DASHBOARD_BUILT_WITH_PURPOSE"
+                        ],
                         "definePoints": [
                             {
                                 "point": "QUICKLY_IDENTIFY_DATA"
@@ -17,13 +20,15 @@
                             },
                             {
                                 "point": "MEASURE_EFFICIENCY"
-                            },
-                            {
-                                "point": "KEY_TERMS"
-                            },
-                            {
-                                "point": "CLARITY_ON_DASHBOARD"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "titleHeader": "KEY_TERMS",
+                        "define": [
+                            "CLARITY_ON_DASHBOARD"
+                        ],
+                        "definePoints": [
                             {
                                 "point": "ADMINISTRATORS_DEFINE"
                             },
@@ -40,11 +45,93 @@
                     },
                     {
                         "titleHeader": "DSS_QUES_WHAT_IS_DATA",
-                        "define": "DSS_ANS_DATA"
+                        "define": [
+                            "DSS_ANS_DATA"
+                        ]
                     },
                     {
                         "titleHeader": "DSS_QUES_GET_DATA_FROM_DASHBOARD",
-                        "define": "DSS_ANS_GET_DATA_FROM_DASHBOARD"
+                        "define": [
+                            "DSS_ANS_GET_DATA_FROM_DASHBOARD",
+                            "State_aggregates_the_data",
+                            "What_data_is_shared"
+                        ]
+                    },
+                    {
+                        "titleHeader": "DSS_QUES_WHAT_CAN_DASBOARD_VIEWER_SEE_N_DO",
+                        "define": [
+                            "DSS_ANS_WHAT_CAN_DASBOARD_VIEWER_SEE_N_DO"
+                        ],
+                        "definePoints": [
+                            {
+                                "point": "PERFORMANCE_METRICS"
+                            },
+                            {
+                                "point": "RESPECTIVE_STATE'S_PERFORMANCE"
+                            },
+                            {
+                                "point": "PERFORMANCES_IN_FORM_VISUALIZATIONS"
+                            },
+                            {
+                                "point": "SERVICE-WISE_PERFORMANCE"
+                            },
+                            {
+                                "point": "YEAR_PERFORMANCE"
+                            },
+                            {
+                                "point": "FOLLOWING_VIEWER_DO_ON_DASHBOARD "
+                            },
+                            {
+                                "point": "STUDY_THE_PERFORMANCES"
+                            },
+                            {
+                                "point": "SEE_COMPARISONS_OF_INTER-STATE"
+                            },
+                            {
+                                "point": "SEE_COMPARISON_ON_YEAR-WISE"
+                            },
+                            {
+                                "point": "DOWNLOAD_THE_DATASET"
+                            },
+                            {
+                                "point": "SHARE_DATA_ANALYTICS"
+                            }
+                        ]
+                    },
+                    {
+                        "titleHeader": "HOW_DATA_STORED",
+                        "define": [
+                            "DSS_ANS_DATA_STORED"
+                        ]
+                    },
+                    {
+                        "titleHeader": "HOW_DATA_SECURED",
+                        "define": [
+                            "DASHBOARD_RECEIVES_AGGREGATED"
+                        ],
+                        "definePoints": [
+                            {
+                                "point": "DATA_FROM_STATES_TRANSMITTED"
+                            },
+                            {
+                                "point": "API_AUTHENTICATION"
+                            },
+                            {
+                                "point": "ALL_DATASETS_ARE_ENCRYPTED "
+                            },
+                            {
+                                "point": "PERSONALLY_IDENTIFIABLE_INFORMATION"
+                            },
+                            {
+                                "point": "ACCESS-TO_DASHBOARD"
+                            },
+                            {
+                                "point": "REGULAR_SECURITY_AUDITS"
+                            },
+                            {
+                                "point": "NO_LINKAGE_OF_DATA"
+                            }
+                        ]
                     }
                 ]
             }
