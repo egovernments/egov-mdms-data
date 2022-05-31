@@ -50,7 +50,7 @@
         "Content-Type": "application/json"
       }
     },
-	  {
+    {
       "jobName": "daily",
       "active": "true",
       "method": "POST",
@@ -59,7 +59,16 @@
         "Content-Type": "application/json"
       }
     },
-	{
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "https://wordpress-762758-2582952.cloudwaysapps.com/notification-cron-job/",
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
       "jobName": "daily",
       "active": "true",
       "method": "GET",
@@ -68,8 +77,7 @@
         "Content-Type": "application/json"
       }
     },
-	
-	{
+    {
       "jobName": "daily",
       "active": "true",
       "method": "POST",
