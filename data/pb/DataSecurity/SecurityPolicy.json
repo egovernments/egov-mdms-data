@@ -90,7 +90,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "role": "PGR_LME",
+          "roles": [ "PGR_LME", "GRO" ],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -115,7 +115,7 @@
           ]
         },
         {
-          "role": "GRO",
+          "roles": [ "TLCEMP" ],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
