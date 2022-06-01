@@ -20955,6 +20955,80 @@
       "navigationURL": "/digit-ui/employee/dss/dashboard/finance",
       "leftIcon": "editor:insert-chart",
       "rightIcon": ""
+    },
+    {
+      "id": 2348,
+      "name": "FSM-FSMAreaWiseDailyCollectionReport-Metadata",
+      "url": "/report/fsm/FSMAreaWiseDailyCollectionReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMAREAWISEDAILYCOLLECTIONREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2349,
+      "name": "FSMAreaWiseDailyCollectionReport",
+      "url": "/report/fsm/FSMAreaWiseDailyCollectionReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMAREAWISEDAILYCOLLECTIONREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2350,
+      "name": "FSMAreaWiseDailyCollectionReport",
+      "url": "url",
+      "displayName": "FSM Area Wise Collection Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMAreaWiseDailyCollectionReport",
+      "navigationURL": "report/fsm/FSMAreaWiseDailyCollectionReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
+    },
+    {
+      "id": 2351,
+      "name": "FSM-FSTPPlantWithVehicleLogReport-Metadata",
+      "url": "/report/fsm/FSTPPlantWithVehicleLogReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSTPPLANTWITHVEHICLELOGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2352,
+      "name": "FSTPPlantWithVehicleLogReport",
+      "url": "/report/fsm/FSTPPlantWithVehicleLogReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSTPPLANTWITHVEHICLELOGREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2353,
+      "name": "FSTPPlantWithVehicleLogReport",
+      "url": "url",
+      "displayName": "Fstp Plant With Vehicle Log Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSTPPlantWithVehicleLogReport",
+      "navigationURL": "report/fsm/FSTPPlantWithVehicleLogReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     }
   ]
 }

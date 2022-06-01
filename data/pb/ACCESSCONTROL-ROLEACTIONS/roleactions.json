@@ -26037,9 +26037,46 @@
       "actionid": 2346,
       "actioncode": "",
       "tenantId": "pb"
-    },{
+    },
+    {
       "rolecode": "STADMIN",
       "actionid": 2347,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+      {
+      "rolecode":"FSM_REPORT_VIEWER",
+      "actionid":2348,
+      "actioncode":"",
+      "tenantId":"pb"
+    },
+    {
+      "rolecode":"FSM_REPORT_VIEWER",
+      "actionid":2349,
+      "actioncode":"",
+      "tenantId":"pb"
+    },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2350,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode":"FSM_REPORT_VIEWER",
+      "actionid":2351,
+      "actioncode":"",
+      "tenantId":"pb"
+    },
+    {
+      "rolecode":"FSM_REPORT_VIEWER",
+      "actionid":2352,
+      "actioncode":"",
+      "tenantId":"pb"
+    },
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2353,
       "actioncode": "",
       "tenantId": "pb"
     }
