@@ -21101,6 +21101,24 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/tl-home"
+    },
+    {
+      "id": 2359,
+      "name": "OBPS_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 1,
+      "parentModule": "OBPS",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/obps-faq",
+      "leftIcon": "TLIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/obps-home"
     }
   ]
 }

@@ -53,6 +53,23 @@
                   "answer": "MCOLLECT_FAQ_ANS_THREE"
                 }
               ]
+            },
+
+            "OBPS" : {
+              "faqs": [
+                { 
+                  "question": "BPA_FAQ_QUES_ONE",
+                  "answer": "BPA_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "BPA_FAQ_QUES_TWO",
+                  "answer": "BPA_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "BPA_FAQ_QUES_THREE",
+                  "answer": "BPA_FAQ_ANS_THREE"
+                }
+              ]
             }
 
           }
