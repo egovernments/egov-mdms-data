@@ -56,7 +56,8 @@
       "method": "POST",
       "url": "https://wordpress-762758-2582952.cloudwaysapps.com/event-job/",
       "header": {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent": "..."
       }
     },
     {
