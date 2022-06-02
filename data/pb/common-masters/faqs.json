@@ -36,7 +36,25 @@
                   "answer": "TL_FAQ_ANS_THREE"
                 }
               ]
+            },
+
+            "MCOLLECT" : {
+              "faqs": [
+                { 
+                  "question": "MCOLLECT_FAQ_QUES_ONE",
+                  "answer": "MCOLLECT_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "MCOLLECT_FAQ_QUES_TWO",
+                  "answer": "MCOLLECT_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "MCOLLECT_FAQ_QUES_THREE",
+                  "answer": "MCOLLECT_FAQ_ANS_THREE"
+                }
+              ]
             }
+
           }
     ]
 }

@@ -21065,6 +21065,24 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2357,
+      "name": "MCOLLECT_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 1,
+      "parentModule": "MCollect",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/mcollect-faq",
+      "leftIcon": "MCollectIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/mcollect-home"
     }
   ]
 }
