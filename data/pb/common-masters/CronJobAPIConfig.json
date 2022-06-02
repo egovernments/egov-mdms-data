@@ -66,7 +66,8 @@
       "method": "POST",
       "url": "https://wordpress-762758-2582952.cloudwaysapps.com/notification-cron-job/",
       "header": {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent": "..."
       }
     },
     {
@@ -75,7 +76,8 @@
       "method": "POST",
       "url": "https://wordpress-762758-2582952.cloudwaysapps.com/document-cron-job/",
       "header": {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent": "..."
       }
     },
     {
@@ -84,7 +86,8 @@
       "method": "POST",
       "url": "https://wordpress-762758-2582952.cloudwaysapps.com/document-delete-corn-job/",
       "header": {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent": "..."
       }
     },
     {
