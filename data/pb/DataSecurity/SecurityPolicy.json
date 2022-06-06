@@ -90,7 +90,10 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [ "PGR_LME", "GRO" ],
+          "roles": [
+            "PGR_LME",
+            "GRO"
+          ],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -115,7 +118,9 @@
           ]
         },
         {
-          "roles": [ "TLCEMP" ],
+          "roles": [
+            "TLCEMP"
+          ],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -207,6 +212,35 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "EmployeeReport",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "id"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": [
+            "CEMP"
+          ],
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
