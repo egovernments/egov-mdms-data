@@ -12886,6 +12886,19 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+	   {
+      "id": 2358,
+      "name": "Vehicle Trip Create",
+      "url": "/vehicle/trip/v1/_create",
+      "displayName": "Vehicle Trip Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
     }
+	
   ]
 }
