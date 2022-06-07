@@ -1,7 +1,7 @@
 {
     "tenantId" : "pb",
     "moduleName" : "DataSecurity",
-    "PatternData":[
+    "MaskingPatterns":[
         {
             "patternId": "001",
             "pattern": ".(?=.{4})"

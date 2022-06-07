@@ -176,6 +176,42 @@
       "connectionType": "Non Metered",
       "minimumCharge": 200,
       "slabs": []
+    },
+    {
+      "id": "16",
+      "buildingType": "MIXED",
+      "calculationAttribute": "No. of water closets",
+      "connectionType": "Non Metered",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 30
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "buildingType": "MIXED",
+      "calculationAttribute": "No. of toilets",
+      "connectionType": "Non Metered",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 30
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "buildingType": "MIXED",
+      "calculationAttribute": "Flat",
+      "connectionType": "Non Metered",
+      "minimumCharge": 250,
+      "slabs": []
     }
   ]
 }
