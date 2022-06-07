@@ -12886,6 +12886,40 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+	   {
+      "id": 2358,
+      "name": "Vehicle Trip Create",
+      "url": "/vehicle/trip/v1/_create",
+      "displayName": "Vehicle Trip Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2359,
+      "name": "Update Vendor/DSO",
+      "url": "/vendor/v1/_update",
+      "displayName": "Update Vendor",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2360,
+      "name": "Update Vehicle Application",
+      "url": "/vehicle/v1/_update",
+      "displayName": "Update Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
     }
   ]
 }
