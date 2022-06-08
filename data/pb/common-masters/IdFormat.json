@@ -599,13 +599,13 @@
       "format": "PB-SK-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]"
     },
     {
-      "format": "BR/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+      "format": "BR/[CITY.CODE]/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
       "idname": "birth_cert.receipt.id"
     },
     {
-      "format": "DT/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+      "format": "DT/[CITY.CODE]/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
       "idname": "death_cert.receipt.id"
-    },
+    }, 
     {
       "format": "PB-VTR-[cy:yyyy-MM-dd]-[SEQ_EG_VTR_ID]",
       "idname": "vtr.registrationid"
