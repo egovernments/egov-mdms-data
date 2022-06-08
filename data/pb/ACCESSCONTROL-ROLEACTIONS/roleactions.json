@@ -22129,7 +22129,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-	  {
+    {
       "rolecode": "WS_DOC_VERIFIER",
       "actionid": 1936,
       "actioncode": "",
@@ -22143,6 +22143,12 @@
     },
     {
       "rolecode": "WS_APPROVER",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_CLERK",
       "actionid": 1936,
       "actioncode": "",
       "tenantId": "pb"
