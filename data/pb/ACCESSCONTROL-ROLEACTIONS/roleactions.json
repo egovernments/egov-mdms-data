@@ -22128,7 +22128,24 @@
       "actionid": 2214,
       "actioncode": "",
       "tenantId": "pb"
+    },
+	  {
+      "rolecode": "WS_DOC_VERIFIER",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_FIELD_INSPECTOR",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WS_APPROVER",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "pb"
     }
-	
   ]
 }
