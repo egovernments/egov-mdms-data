@@ -58,6 +58,16 @@
             "userRole": "FSM_VIEW_EMP",
             "statuses": [],
             "fixed": true
+        },
+         {
+            "userRole": "FSM_DSO",
+            "statuses": [
+                "DSO_INPROGRESS",
+                "PENDING_DSO_APPROVAL",
+                "COMPLETED"
+            ],
+            "zeroCheck": true,
+            "fixed": false
         }
     ]
 }

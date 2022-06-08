@@ -1947,7 +1947,28 @@
       "isActive": true,
       "type": "Adhoc",
       "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+    },
+    {
+      "businessService": "Birth Certificate Fees",
+      "code": "BIRTH_CERT",
+      "collectionModesNotAllowed": ["DD", "POSTAL_ORDER"],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "isCitizen": true,
+      "type": "Adhoc"
+    },
+    {
+      "businessService": "Death Certificate Fees",
+      "code": "DEATH_CERT",
+      "collectionModesNotAllowed": ["DD", "POSTAL_ORDER"],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "isCitizen": true,
+      "type": "Adhoc"
     }
-
   ]
 }
