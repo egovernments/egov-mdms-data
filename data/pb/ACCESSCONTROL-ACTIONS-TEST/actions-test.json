@@ -12920,6 +12920,117 @@
       "serviceCode": "vehicle",
       "code": "null",
       "path": ""
+    },
+	  {
+      "id": 2361,
+      "name": "FSM-FSMDailyDesludingReport-Metadata",
+      "url": "/report/fsm/FSMDailyDesludingReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMDAILYDESLUDINGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2362,
+      "name": "FSMDailyDesludingReport",
+      "url": "/report/fsm/FSMDailyDesludingReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMDAILYDESLUDINGREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2363,
+      "name": "FSMDailyDesludingReport",
+      "url": "url",
+      "displayName": "FSM Daily Desluding Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMDailyDesludingReport",
+      "navigationURL": "report/fsm/FSMDailyDesludingReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
+    },
+    {
+      "id": 2364,
+      "name": "FSM-FSMAreaWiseDailyCollectionReport-Metadata",
+      "url": "/report/fsm/FSMAreaWiseDailyCollectionReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMAREAWISEDAILYCOLLECTIONREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2365,
+      "name": "FSMAreaWiseDailyCollectionReport",
+      "url": "/report/fsm/FSMAreaWiseDailyCollectionReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMAREAWISEDAILYCOLLECTIONREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2366,
+      "name": "FSMAreaWiseDailyCollectionReport",
+      "url": "url",
+      "displayName": "FSM Area Wise Collection Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMAreaWiseDailyCollectionReport",
+      "navigationURL": "report/fsm/FSMAreaWiseDailyCollectionReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
+    },
+    {
+      "id": 2367,
+      "name": "FSM-FSMFSTPPlantWithVehicleLogReport-Metadata",
+      "url": "/report/fsm/FSMFSTPPlantWithVehicleLogReport/metadata/_get",
+      "displayName": "FSM Metadata Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FSMFSTPPLANTWITHVEHICLELOGREPORTMETA",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2368,
+      "name": "FSMFSTPPlantWithVehicleLogReport",
+      "url": "/report/fsm/FSMFSTPPlantWithVehicleLogReport/_get",
+      "displayName": "FSM Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "FSMFSTPPLANTWITHVEHICLELOGREPORT",
+      "code": "null",
+      "path": "FSM Report"
+    },
+    {
+      "id": 2369,
+      "name": "FSMFSTPPlantWithVehicleLogReport",
+      "url": "url",
+      "displayName": "FSM Fstp Plant With Vehicle Log Report",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "FSM.Reports.FSMFSTPPlantWithVehicleLogReport",
+      "navigationURL": "report/fsm/FSMFSTPPlantWithVehicleLogReport",
+      "leftIcon": "action:description",
+      "rightIcon": ""
     }
   ]
 }
