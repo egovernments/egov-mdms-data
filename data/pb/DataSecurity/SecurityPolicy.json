@@ -212,35 +212,6 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
-    },
-    {
-      "model": "EmployeeReport",
-      "uniqueIdentifier": {
-        "name": "uuid",
-        "jsonPath": "uuid"
-      },
-      "attributes": [
-        {
-          "name": "name",
-          "jsonPath": "name",
-          "patternId": "002",
-          "defaultVisibility": "NONE"
-        }
-      ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": [
-            "GRO"
-          ],
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
