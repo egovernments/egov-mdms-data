@@ -1027,6 +1027,7 @@
       "collectionModesNotAllowed": [
         "DD"
       ],
+      "minAmountPayable": 100,
       "partPaymentAllowed": true,
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
