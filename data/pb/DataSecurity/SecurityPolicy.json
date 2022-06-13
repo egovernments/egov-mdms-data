@@ -216,8 +216,8 @@
     {
       "model": "EmployeeReport",
       "uniqueIdentifier": {
-        "name": "id",
-        "jsonPath": "id"
+        "name": "uuid",
+        "jsonPath": "uuid"
       },
       "attributes": [
         {
