@@ -21119,6 +21119,20 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/obps-home"
+    },
+	   {
+      "id": 2360,
+      "name": "TL",
+      "url": "url",
+      "displayName": "Search",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "navigationURL": "tradelicence/search",
+      "path": "TL.Search",
+      "leftIcon": "social:people"
     }
   ]
 }
