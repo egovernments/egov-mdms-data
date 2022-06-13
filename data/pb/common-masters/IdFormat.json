@@ -609,6 +609,14 @@
     {
       "format": "PB-VTR-[cy:yyyy-MM-dd]-[SEQ_EG_VTR_ID]",
       "idname": "vtr.registrationid"
+    },
+    {
+      "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[DC-SEQ_WS_CON_[TENANT_ID]]",
+      "idname": "waterservice.disconnection.id"
+    },
+    {
+      "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[DC-SEQ_SW_CON_[TENANT_ID]]",
+      "idname": "sewerageservice.disconnection.id"
     }
   ]
 }
