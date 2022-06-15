@@ -30,10 +30,7 @@
                         ],
                         "definePoints": [
                             {
-                                "point": "ADMINISTRATORS_DEFINE"
-                            },
-                            {
-                                "point": "We/US_DEFINE"
+                                "point": "USERS_DEFINE"
                             },
                             {
                                 "point": "STATES_DEFINE"
@@ -53,8 +50,7 @@
                         "titleHeader": "DSS_QUES_GET_DATA_FROM_DASHBOARD",
                         "define": [
                             "DSS_ANS_GET_DATA_FROM_DASHBOARD",
-                            "STATE_AGGREGATES_THE_DATA",
-                            "WHAT_DATA_IS_SHARED"
+                            "STATE_AGGREGATES_THE_DATA"
                         ]
                     },
                     {
@@ -99,16 +95,8 @@
                         ]
                     },
                     {
-                        "titleHeader": "HOW_DATA_STORED",
-                        "define": [
-                            "DSS_ANS_DATA_STORED"
-                        ]
-                    },
-                    {
                         "titleHeader": "HOW_DATA_SECURED",
-                        "define": [
-                            "DASHBOARD_RECEIVES_AGGREGATED"
-                        ],
+                        "define": [],
                         "definePoints": [
                             {
                                 "point": "DATA_FROM_STATES_TRANSMITTED"
@@ -120,13 +108,13 @@
                                 "point": "ALL_DATASETS_ARE_ENCRYPTED "
                             },
                             {
-                                "point": "PERSONALLY_IDENTIFIABLE_INFORMATION"
-                            },
-                            {
                                 "point": "ACCESS-TO_DASHBOARD"
                             },
                             {
                                 "point": "REGULAR_SECURITY_AUDITS"
+                            },
+                            {
+                                "point": "PERSONALLY_IDENTIFIABLE_INFORMATION"
                             },
                             {
                                 "point": "NO_LINKAGE_OF_DATA"
