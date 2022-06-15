@@ -146,73 +146,73 @@
         {
           "name": "name",
           "jsonPath": "name",
-          "patternId": null,
+          "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": null,
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "emailId",
           "jsonPath": "emailId",
-          "patternId": null,
+          "patternId": "004",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "username",
           "jsonPath": "username",
-          "patternId": null,
+          "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
-          "patternId": null,
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "alternatemobilenumber",
           "jsonPath": "alternatemobilenumber",
-          "patternId": null,
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "pan",
           "jsonPath": "pan",
-          "patternId": null,
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "aadhaarNumber",
           "jsonPath": "aadhaarNumber",
-          "patternId": null,
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "guardian",
           "jsonPath": "guardian",
-          "patternId": null,
+          "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
-          "patternId": null,
+          "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
-          "patternId": null,
+          "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "fatherOrHusbandName",
           "jsonPath": "fatherOrHusbandName",
-          "patternId": null,
+          "patternId": "002",
           "defaultVisibility": "PLAIN"
         }
       ],
