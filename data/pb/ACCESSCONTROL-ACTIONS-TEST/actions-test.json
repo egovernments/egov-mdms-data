@@ -13031,6 +13031,30 @@
       "navigationURL": "report/fsm/FSMFSTPPlantWithVehicleLogReport",
       "leftIcon": "action:description",
       "rightIcon": ""
+    },
+    {
+      "id": 2370,
+      "name": "WS Receipt Update",
+      "url": "/collection-services/payments/WS/_workflow",
+      "displayName": "WS Receipt Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2371,
+      "name": "SW Receipt Update",
+      "url": "/collection-services/payments/SW/_workflow",
+      "displayName": "SW Receipt Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
