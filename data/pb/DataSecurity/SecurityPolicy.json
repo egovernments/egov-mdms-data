@@ -111,11 +111,6 @@
               "attribute": "permanentAddress",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "emailId",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
             }
           ]
         },
@@ -124,11 +119,6 @@
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "emailId",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
@@ -216,38 +206,7 @@
           "defaultVisibility": "PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-      {
-          "roles": [ "CSR" ],
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "username",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "emailId",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-    ]
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
