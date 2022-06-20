@@ -70,6 +70,22 @@
                   "answer": "BPA_FAQ_ANS_THREE"
                 }
               ]
+            },
+            "WS":{
+              "faqs": [
+                { 
+                  "question": "WS_FAQ_QUES_ONE",
+                  "answer": "WS_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "WS_FAQ_QUES_TWO",
+                  "answer": "WS_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "WS_FAQ_QUES_THREE",
+                  "answer": "WS_FAQ_ANS_THREE"
+                }
+              ]
             }
 
           }

@@ -21155,6 +21155,24 @@
       "serviceCode": "sw-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2363,
+      "name": "WS_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 3,
+      "parentModule": "WS",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/ws-faq",
+      "leftIcon": "WSIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     }
   ]
 }
