@@ -611,11 +611,11 @@
       "idname": "vtr.registrationid"
     },
     {
-      "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[DC-SEQ_WS_CON_[TENANT_ID]]",
+      "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[DC-SEQ_WS_APP_[TENANT_ID]]",
       "idname": "waterservice.disconnection.id"
     },
     {
-      "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[DC-SEQ_SW_CON_[TENANT_ID]]",
+      "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[DC-SEQ_SW_APP_[TENANT_ID]]",
       "idname": "sewerageservice.disconnection.id"
     }
   ]
