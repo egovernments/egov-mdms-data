@@ -1,5 +1,7 @@
 {
   "tenantId": "pb",
   "moduleName": "BPA",
-  "PermitPlanValidity": 10
+  "PermitPlanValidity": [
+    {"validity" : 10 }
+  ]
 }
