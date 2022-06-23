@@ -1,0 +1,24 @@
+{
+  "tenantId": "pb",
+  "moduleName": "DataSecurity",
+  "SecurityUiConfig": [
+    {
+      "Property": {
+        "owner": {
+          "name": {
+            "canUnMask": true,
+            "roles": ["all"]
+          },
+          "mobileNumber": {
+            "canUnMask": true,
+            "roles": ["all"]
+          },
+          "emailId": {
+            "canUnMask": true,
+            "roles": ["PT_CEMP"]
+          }
+        }
+      }
+    }
+  ]
+}
