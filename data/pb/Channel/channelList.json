@@ -1142,15 +1142,40 @@
         "EVENT"
       ]
     },
-    {
-      "businessService": "SW.CREATE",
-      "module": "SW",
-      "action": "BILL",
-      "channelNames": [
-        "SMS",
-        "EMAIL",
-        "EVENT"
-      ]
+    {	
+      "businessService": "SW.CREATE",	
+      "module": "SW",	
+      "action" : "BILL",	
+      "channelNames": ["SMS", "EMAIL", "EVENT"]	
+    },	
+    {	
+      "businessService": "MCOLLECT.CREATE",	
+      "module": "MCOLLECT",	
+      "action" : "CREATE",	
+      "channelNames": ["SMS", "EMAIL", "EVENT"]	
+    },	
+    {	
+      "businessService": "MCOLLECT.CREATE",	
+      "module": "MCOLLECT",	
+      "action" : "EXPIRE",	
+      "channelNames": ["SMS", "EMAIL", "EVENT"]	
+    },	
+    {	
+      "businessService": "MCOLLECT.CREATE",	
+      "module": "MCOLLECT",	
+      "action" : "CANCEL",	
+      "channelNames": ["SMS", "EMAIL", "EVENT"]	
+    },	
+    {	
+      "businessService": "MCOLLECT.CREATE",	
+      "module": "MCOLLECT",	
+      "action" : "UPDATE",	
+      "channelNames": ["SMS", "EMAIL", "EVENT"]	
+    },	
+    {	
+      "businessService": "MCOLLECT.CREATE",	
+      "module": "MCOLLECT",	
+      "action" : "PAYMENT",	
+      "channelNames": ["SMS", "EMAIL", "EVENT"]	
     }
-  ]
 }
