@@ -128,6 +128,18 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
+        },
+         {
+          "roles": [
+            "PT_CEMP"
+          ],
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
         }
       ]
     },
