@@ -46,6 +46,18 @@
           "defaultVisibility": "PLAIN"
         },
         {
+          "name": "gender",
+          "jsonPath": "gender",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "ownerType",
+          "jsonPath": "ownerType",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
           "name": "pan",
           "jsonPath": "pan",
           "patternId": "001",
@@ -90,7 +102,10 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [ "PGR_LME", "GRO" ],
+          "roles": [
+            "PGR_LME",
+            "GRO"
+          ],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -115,7 +130,9 @@
           ]
         },
         {
-          "roles": [ "TLCEMP" ],
+          "roles": [
+            "TLCEMP"
+          ],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -123,7 +140,7 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
-        }
+        },
       ]
     },
     {
@@ -207,6 +224,64 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "EmployeeReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": [
+            "GRO"
+          ],
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "waterOpenSearch",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": [
+            "GRO"
+          ],
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
