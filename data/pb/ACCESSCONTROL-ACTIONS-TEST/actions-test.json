@@ -21173,6 +21173,17 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/ws-home"
+    },
+    {
+      "id": 2364,
+      "name": "Inbox api for dss search",
+      "url": "/inbox/v1/dss/_search",
+      "displayName": "Inbox api for dss search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Inbox",
+      "code": "null",
+      "path": ""
     }
   ]
 }
