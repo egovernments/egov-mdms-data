@@ -90,10 +90,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "PGR_LME",
-            "GRO"
-          ],
+          "roles": ["PGR_LME", "GRO"],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -118,9 +115,7 @@
           ]
         },
         {
-          "roles": [
-            "TLCEMP"
-          ],
+          "roles": ["TLCEMP"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -129,10 +124,8 @@
             }
           ]
         },
-         {
-          "roles": [
-            "PT_CEMP"
-          ],
+        {
+          "roles": ["PT_CEMP"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -148,12 +141,19 @@
               "attribute": "correspondenceAddress",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
-            },{
+            },
+            {
               "attribute": "name",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
-            },{
+            },
+            {
               "attribute": "emailId",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "permanentAddress",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
@@ -259,9 +259,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "GRO"
-          ],
+          "roles": ["GRO"],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -288,9 +286,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "GRO"
-          ],
+          "roles": ["GRO"],
           "attributeAccessList": [
             {
               "attribute": "name",
