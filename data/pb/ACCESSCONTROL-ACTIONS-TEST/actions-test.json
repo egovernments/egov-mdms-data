@@ -21197,7 +21197,7 @@
       "code": "",
       "path": "",
       "navigationURL": "/citizen/birth-citizen/home",
-      "leftIcon": "birthIcon",
+      "leftIcon": "BirthIcon",
       "rightIcon": "",
       "queryParams": "",
       "sidebar": "digit-ui-links",
@@ -21214,11 +21214,29 @@
       "code": "",
       "path": "",
       "navigationURL": "/citizen/death-citizen/home",
-      "leftIcon": "deathIcon",
+      "leftIcon": "DeathIcon",
       "rightIcon": "",
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/citizen/death-citizen/home"
+    },
+    {
+      "id": 2367,
+      "name": "FirenocCitizen",
+      "url": "digit-ui-card",
+      "displayName": "FireNoc Search",
+      "orderNumber": 1,
+      "parentModule": "FireNoc",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/citizen/fire-noc/home",
+      "leftIcon": "FirenocIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/citizen/fire-noc/home"
     }
   ]
 }
