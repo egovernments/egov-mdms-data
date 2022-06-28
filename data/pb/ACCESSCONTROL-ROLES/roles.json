@@ -647,6 +647,11 @@
       "code": "CR_WS",
       "name": "WS Receipt Cancellator",
       "description": "WS Receipt Cancelling Employee"
+    },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
     }
   ]
 }
