@@ -21237,6 +21237,18 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/citizen/fire-noc/home"
+    },
+    {
+      "id": 2368,
+      "name": "WS Payment search",
+      "url": "/collection-services/payments/WS.ONE_TIME_FEE/_search",
+      "displayName": "WS Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
