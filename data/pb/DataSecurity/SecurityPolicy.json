@@ -46,18 +46,6 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "gender",
-          "jsonPath": "gender",
-          "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "ownerType",
-          "jsonPath": "ownerType",
-          "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "pan",
           "jsonPath": "pan",
           "patternId": "001",
@@ -102,10 +90,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "PGR_LME",
-            "GRO"
-          ],
+          "roles": ["PGR_LME", "GRO"],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -130,13 +115,111 @@
           ]
         },
         {
-          "roles": [
-            "TLCEMP"
-          ],
+          "roles": ["TLCEMP"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
               "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        },
+        {
+          "roles": ["PT_CEMP"],
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "fatherOrHusbandName",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "correspondenceAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "emailId",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "permanentAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        },
+        {
+          "roles": ["INTERNAL_MICROSERVICE_ROLE"],
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "fatherOrHusbandName",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "correspondenceAddress",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "emailId",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "permanentAddress",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "username",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "altContactNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "alternatemobilenumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "pan",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "aadhaarNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "guardian",
+              "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             }
           ]
@@ -241,9 +324,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "GRO"
-          ],
+          "roles": ["GRO"],
           "attributeAccessList": [
             {
               "attribute": "name",
@@ -270,9 +351,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "GRO"
-          ],
+          "roles": ["GRO"],
           "attributeAccessList": [
             {
               "attribute": "name",
