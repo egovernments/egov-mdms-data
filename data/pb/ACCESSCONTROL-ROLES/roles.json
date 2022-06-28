@@ -653,9 +653,9 @@
       "description": "Death User that can edit existing applications"
     },
     {
-      "code": "DUMMY_LIST_SELF",
-      "name": "Dummy List Self",
-      "description": "Dummy role for plain access"
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal microservice role",
+      "description": "Internal role for plain access"
     }
   ]
 }
