@@ -21249,6 +21249,17 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2369,
+      "name": "BPA Count",
+      "url": "/bpa-services/v1/bpa/_count",
+      "displayName": "BPA Count",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BPA",
+      "code": "null",
+      "path": ""
     }
   ]
 }
