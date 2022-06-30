@@ -3,12 +3,15 @@
   "moduleName": "inbox-dss",
   "AggregationData": [
      {
-      "moduleName": "WS",
-	  "visualizationCodes": [
-        "wstotalCollection","wstotalConnection"
+      "module": "WS",
+	  "visualizationCodesWithDateFilter": [
+        "wstotalCollection"
+      ], 
+      "visualizationCodesWithoutDateFilter": [
+        "wstotalCollection"
       ],    
       "enabled": true,
-      "dateRange":1
+      "dateRangeInMonths":12
     },
     {
       "moduleName": "BPA",
