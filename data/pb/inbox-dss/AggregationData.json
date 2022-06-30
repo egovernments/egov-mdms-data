@@ -8,18 +8,22 @@
         "wstotalCollection"
       ], 
       "visualizationCodesWithoutDateFilter": [
-        "wstotalCollection"
+        "wstotalConnection"
       ],    
       "enabled": true,
       "dateRangeInMonths":12
     },
     {
-      "moduleName": "BPA",
-	  "visualizationCodes": [
-        "bpaTotalPlansScrutinized","bpaTotalPermitsIssued"
-      ],    
+      "module": "BPA",
+	  "visualizationCodesWithDateFilter": [
+        "bpaTotalPlansScrutinized",
+        "bpaTotalPermitsIssued"
+      ],
+      "visualizationCodesWithoutDateFilter": [
+        ""
+      ],
       "enabled": true,
-      "dateRange":1
+      "dateRangeInMonths":12
     }
   ]
 }
