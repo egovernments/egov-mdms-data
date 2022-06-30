@@ -21260,6 +21260,17 @@
       "serviceCode": "BPA",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2370,
+      "name": "EDCR Count",
+      "url": "/edcr/rest/dcr/count",
+      "displayName": "EDCR Count",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "EDCR",
+      "code": "null",
+      "path": ""
     }
   ]
 }
