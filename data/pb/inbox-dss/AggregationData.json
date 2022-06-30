@@ -1,0 +1,22 @@
+{
+  "tenantId": "pb",
+  "moduleName": "inbox-dss",
+  "AggregationData": [
+     {
+      "moduleName": "WS",
+	  "visualizationCodes": [
+        "wstotalCollection","wstotalConnection"
+      ],    
+      "enabled": true,
+      "dateRange":1
+    },
+    {
+      "moduleName": "BPA",
+	  "visualizationCodes": [
+        "bpaTotalPlansScrutinized","bpaTotalPermitsIssued"
+      ],    
+      "enabled": true,
+      "dateRange":1
+    }
+  ]
+}
