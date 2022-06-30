@@ -86,24 +86,6 @@
           "jsonPath": "userName",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "gender",
-          "jsonPath": "gender",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "relationship",
-          "jsonPath": "relationship",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "ownerType",
-          "jsonPath": "ownerType",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
