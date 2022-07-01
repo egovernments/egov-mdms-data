@@ -13070,27 +13070,33 @@
     },
     {
       "id": 2373,
-      "name": "Dashboard National About",
-      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-about",
-      "parentModule": "",
-      "displayName": "DSS",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "DSS",
+      "name": "ABOUT DASHBOARD",
+      "url": "url",
+      "displayName": "About Dashboard",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
       "code": "null",
-      "path": ""
+      "path": "NatDashboard.About",
+      "navigationURL": "/digit-ui/employee/dss/national-about",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     },
     {
       "id": 2374,
-      "name": "Dashboard National FAQs",
-      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-faqs",
-      "parentModule": "",
-      "displayName": "DSS",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "DSS",
+      "name": "FAQS",
+      "url": "url",
+      "displayName": "FAQs",
+      "orderNumber": 4,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
       "code": "null",
-      "path": ""
+      "path": "NatDashboard.FAQs",
+      "navigationURL": "/digit-ui/employee/dss/national-faqs",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
  ]
 
