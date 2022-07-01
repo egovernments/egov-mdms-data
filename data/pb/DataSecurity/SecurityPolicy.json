@@ -138,27 +138,12 @@
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "gender",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
               "attribute": "correspondenceAddress",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
               "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "relationship",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "ownerType",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
