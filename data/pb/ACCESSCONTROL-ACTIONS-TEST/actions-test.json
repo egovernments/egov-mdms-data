@@ -13067,6 +13067,30 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2373,
+      "name": "Dashboard National About",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-about",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2374,
+      "name": "Dashboard National FAQs",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-faqs",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
  ]
 
