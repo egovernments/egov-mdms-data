@@ -86,6 +86,18 @@
           "jsonPath": "userName",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "gender",
+          "jsonPath": "gender",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "relationship",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -149,6 +161,16 @@
             },
             {
               "attribute": "guardian",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "gender",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "relationship",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
