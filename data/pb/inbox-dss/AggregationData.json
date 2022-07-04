@@ -3,27 +3,32 @@
   "moduleName": "inbox-dss",
   "AggregationData": [
      {
-      "module": "WS",
-	  "visualizationCodesWithDateFilter": [
-        "wstotalCollection"
-      ], 
-      "visualizationCodesWithoutDateFilter": [
-        "wstotalConnection"
-      ],    
-      "enabled": true,
-      "dateRangeInMonths":12
-    },
-    {
-      "module": "BPA",
-	  "visualizationCodesWithDateFilter": [
-        "bpaTotalPlansScrutinized",
-        "bpaTotalPermitsIssued"
-      ],
-      "visualizationCodesWithoutDateFilter": [
-        
-      ],
-      "enabled": true,
-      "dateRangeInMonths":12
-    }
+         "module":"WS",
+         "visualizationCode":[
+            {
+               "code":"wstotalCollection",
+               "dateRange":12
+            },
+            {
+               "code":"wstotalConnection",
+               "dateRange":0
+            }
+         ],
+         "enabled":true
+      },
+      {
+         "module":"BPA",
+         "visualizationCode":[
+            {
+               "code":"bpaTotalPlansScrutinized",
+               "dateRange":12
+            },
+            {
+               "code":"bpaTotalPermitsIssued",
+               "dateRange":12
+            }
+         ],
+         "enabled":true
+      }
   ]
 }
