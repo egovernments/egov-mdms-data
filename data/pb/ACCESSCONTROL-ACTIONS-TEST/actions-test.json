@@ -21271,6 +21271,30 @@
       "serviceCode": "EDCR",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2371,
+      "name": "WS Payment search",
+      "url": "/collection-services/payments/WS.ONE_TIME_FEE/_search",
+      "displayName": "WS Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2372,
+      "name": "WS Payment search",
+      "url": "/collection-services/payments/SW.ONE_TIME_FEE/_search",
+      "displayName": "WS Payment search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
