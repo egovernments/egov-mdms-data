@@ -125,53 +125,15 @@
           ]
            },
          {
-            "roles": [
-                "PT_CEMP"
-            ],
-            "attributeAccessList": [
-                {
-                    "attribute": "mobileNumber",
-                    "firstLevelVisibility": "PLAIN",
-                    "secondLevelVisibility": "PLAIN",
-                    "patternId": "002"
-                },
-              {
-              "attribute": "fatherOrHusbandNameOrGardianName",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN",
-                "patternId": "002"
-            },
+          "roles": [
+            "PT_CEMP"
+          ],
+          "attributeAccessList": [
             {
-              "attribute": "correspondenceAddress",
+              "attribute": "mobileNumber",
               "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN",
-              "patternId": "002"
-            },
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN",
-              "patternId": "002"
-            },
-            {
-              "attribute": "emailId",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN",
-              "patternId": "002"
-            },
-            {
-              "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN",
-              "patternId": "002"
-            },
-              {
-              "attribute": "Gender",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN",
-              "patternId": "002"
+              "secondLevelVisibility": "PLAIN"
             }
-
           ]
         },
         {
