@@ -356,6 +356,33 @@
           ]
         }
       ]
+    },
+    {
+      "model": "Property",
+      "uniqueIdentifier": {
+        "name": "acknowldgementNumber",
+        "jsonPath": "acknowldgementNumber"
+      },
+      "attributes": [
+        {
+          "name": "address",
+          "jsonPath": "address/street",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE","PT_CEMP"],
+          "attributeAccessList": [
+            {
+              "attribute": "address",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
