@@ -15,6 +15,7 @@
       "code": "null",
       "path": "Boundary Module.Get location by LocationName"
     },
+
     {
       "id": 7,
       "name": "Search Boundary by BoundryTypeName and HierarchyTypeName",
@@ -13097,6 +13098,24 @@
       "navigationURL": "/digit-ui/employee/dss/national-faqs",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+    {
+      "id": 2375,
+      "name": "FirenocCitizen",
+      "url": "digit-ui-card",
+      "displayName": "FireNoc Search",
+      "orderNumber": 1,
+      "parentModule": "FireNoc",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/citizen/fire-noc/home",
+      "leftIcon": "FirenocIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/citizen/fire-noc/home"
     }
  ]
 
