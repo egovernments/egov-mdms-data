@@ -131,7 +131,7 @@
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
-              "firstLevelVisibility": "PLAIN",
+              "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
@@ -146,7 +146,7 @@
             },
             {
               "attribute": "name",
-              "firstLevelVisibility": "MASKED",
+              "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             },
             {
@@ -182,7 +182,7 @@
             },
             {
               "attribute": "name",
-              "firstLevelVisibility": "MASKED",
+              "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             },
             {
@@ -192,6 +192,16 @@
             },
             {
               "attribute": "permanentAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "guardian",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "gender",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
