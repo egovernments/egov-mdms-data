@@ -13097,7 +13097,44 @@
       "navigationURL": "/digit-ui/employee/dss/national-faqs",
       "leftIcon": "places:business-center",
       "rightIcon": ""
+    },
+  {
+      "id": 2376,
+      "name": "BirthCitizen",
+      "url": "digit-ui-card",
+      "displayName": "Birth Search",
+      "orderNumber": 1,
+      "parentModule": "Birth",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/citizen/birth-citizen/home",
+      "leftIcon": "BirthIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/citizen/birth-citizen/home"
+    },
+{
+      "id": 2377,
+      "name": "DeathCitizen",
+      "url": "digit-ui-card",
+      "displayName": "Death Search",
+      "orderNumber": 1,
+      "parentModule": "Death",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/citizen/death-citizen/home",
+      "leftIcon": "DeathIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/citizen/death-citizen/home"
     }
+
  ]
 
 }
