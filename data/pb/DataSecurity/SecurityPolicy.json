@@ -360,8 +360,8 @@
     {
       "model": "Property",
       "uniqueIdentifier": {
-        "name": "acknowldgementNumber",
-        "jsonPath": "acknowldgementNumber"
+        "name": "propertyIds",
+        "jsonPath": "propertyIds"
       },
       "attributes": [
         {

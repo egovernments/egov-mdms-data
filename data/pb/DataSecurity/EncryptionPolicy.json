@@ -100,6 +100,15 @@
             "type" : "Normal"
           } 
         ]
+      },
+      {
+        "key" : "Property",
+        "attributeList" : [
+          {
+            "jsonPath" : "address/street",
+            "type" : "Normal"
+          }
+        ]
       }
     ]
 }

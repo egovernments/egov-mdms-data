@@ -1501,6 +1501,36 @@
             ]
           }
         ]
-      }
+      },
+      {
+          "key" : "Property",
+          "roleAttributeAccessList" : [
+            {
+              "roleCode" : "CITIZEN",
+              "attributeAccessList" : [
+                {
+                  "attribute" : {
+                    "jsonPath" : "*/street",
+                    "maskingTechnique" : "mobile"
+                  },
+                  "accessType" : "PLAIN"
+                }
+              ]
+            },
+            {
+              "roleCode" : "EMPLOYEE",
+              "attributeAccessList" : [
+                {
+                  "attribute" : {
+                    "jsonPath" : "*/street",
+                    "maskingTechnique" : "mobile"
+                  },
+                  "accessType" : "PLAIN"
+                }
+              ]
+            }
+        
+          ]
+        }
   ]
 }
