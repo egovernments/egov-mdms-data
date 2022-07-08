@@ -383,6 +383,22 @@
           ]
         }
       ]
+    },
+    {
+      "model": "PrivacyAuditReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "dataviewedby",
+          "jsonPath": "dataviewedby",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
