@@ -360,23 +360,45 @@
     {
       "model": "Property",
       "uniqueIdentifier": {
-        "name": "propertyIds",
-        "jsonPath": "propertyIds"
+        "name": "propertyId",
+        "jsonPath": "propertyId"
       },
       "attributes": [
         {
-          "name": "address",
+          "name": "street",
           "jsonPath": "address/street",
-          "patternId": "001",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "doorNo",
+          "jsonPath": "address/doorNo",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "landmark",
+          "jsonPath": "address/landmark",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","PT_CEMP"],
+          "roles": ["EMPLOYEE"],
           "attributeAccessList": [
             {
-              "attribute": "address",
+              "attribute": "street",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "doorNo",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "landmark",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
@@ -399,6 +421,110 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "WaterConnection",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "applicationNo"
+      },
+      "attributes": [
+        {
+          "name": "connectionHoldersMobileNumber",
+          "jsonPath": "connectionHolders/*/mobileNumber",
+          "patternId": "007",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "fatherOrHusbandName",
+          "jsonPath": "connectionHolders/*/fatherOrHusbandName",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "gender",
+          "jsonPath": "connectionHolders/*/gender",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "ownerType",
+          "jsonPath": "connectionHolders/*/ownerType",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "correspondenceAddress",
+          "jsonPath": "connectionHolders/*/correspondenceAddress",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": "008",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "assignerMobileNumber",
+          "jsonPath": "assigner/*/mobileNumber",
+          "patternId": "007",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE"],
+          "attributeAccessList": [
+            {
+              "attribute": "connectionHoldersMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "gender",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "fatherOrHusbandName",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "ownerType",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "relationship",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "correspondenceAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "connectionHoldersMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
