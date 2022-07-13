@@ -13326,6 +13326,42 @@
       "path": ""
     },
       {
+      "id": 2409,
+      "name": "Vendor Driver Create",
+      "url": "/Vendor/driver/v1/_create",
+      "displayName": "Vendor Driver Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2410,
+      "name": "Vendor Driver Update",
+      "url": "/Vendor/driver/v1/_update",
+      "displayName": "Vendor Driver Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2411,
+      "name": "Vendor Driver Search",
+      "url": "/Vendor/driver/v1/_search",
+      "displayName": "Vendor Driver Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 2413,
       "name": "Update Vendor/DSO",
       "url": "/vendor/v1/_update",
@@ -13336,7 +13372,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2414,
       "name": "Update Vehicle Application",
       "url": "/vehicle/v1/_update",
@@ -13344,7 +13380,7 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "vehicle",
-      "code": "null",
+       "code": "null",
       "path": ""
     }
    ]
