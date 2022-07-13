@@ -13360,6 +13360,28 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2413,
+      "name": "Update Vendor/DSO",
+      "url": "/vendor/v1/_update",
+      "displayName": "Update Vendor",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2414,
+      "name": "Update Vehicle Application",
+      "url": "/vehicle/v1/_update",
+      "displayName": "Update Vehicle",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vehicle",
+       "code": "null",
+      "path": ""
     }
    ]
 }
