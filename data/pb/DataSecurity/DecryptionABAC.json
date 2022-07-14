@@ -1470,6 +1470,22 @@
           }
         ]
       },
+    {
+      "key": "ObpsApplicationStatusReport",
+      "roleAttributeAccessList": [
+        {
+          "roleCode": "EMPLOYEE",
+          "attributeAccessList": [
+            {
+              "attribute": {
+                "jsonPath": "*/name"
+              },
+              "accessType": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
       {
         "key": "WnsCollectionRegisterReport",
         "roleAttributeAccessList": [
