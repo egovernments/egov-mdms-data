@@ -11,7 +11,10 @@
                             "DSS_ABOUT_PURPOSE_DEFINE",
                             "DASHBOARD_BUILT_WITH_PURPOSE"
                         ],
-                        "definePoints": [
+                        "subdefine": [
+                            "NATIONAL_URBAN_DASHBOARD_ENABLES"
+                       ],
+                        "subdefinePoints": [
                             {
                                 "point": "QUICKLY_IDENTIFY_DATA"
                             },
@@ -49,7 +52,9 @@
                     {
                         "titleHeader": "DSS_QUES_GET_DATA_FROM_DASHBOARD",
                         "define": [
-                            "DSS_ANS_GET_DATA_FROM_DASHBOARD",
+                            "DSS_ANS_GET_DATA_FROM_DASHBOARD"
+                        ],
+                        "subdefine": [
                             "STATE_AGGREGATES_THE_DATA"
                         ]
                     },
@@ -57,6 +62,9 @@
                         "titleHeader": "DSS_QUES_WHAT_CAN_DASBOARD_VIEWER_SEE_N_DO",
                         "define": [
                             "DSS_ANS_WHAT_CAN_DASBOARD_VIEWER_SEE_N_DO"
+                        ],
+                        "subdefine": [
+                            "FOLLOWING_VIEWER_DO_ON_DASHBOARD"
                         ],
                         "definePoints": [
                             {
@@ -73,10 +81,9 @@
                             },
                             {
                                 "point": "YEAR_PERFORMANCE"
-                            },
-                            {
-                                "point": "FOLLOWING_VIEWER_DO_ON_DASHBOARD"
-                            },
+                            }
+                        ],
+                        "subdefinePoints": [
                             {
                                 "point": "STUDY_THE_PERFORMANCES"
                             },
