@@ -21334,6 +21334,17 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2376,
+      "name": "Inbox api for privacy audit logs",
+      "url": "/inbox/v1/elastic/_search",
+      "displayName": "Inbox api for privacy audit logs",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Inbox",
+      "code": "null",
+      "path": ""
     }
   ]
 }
