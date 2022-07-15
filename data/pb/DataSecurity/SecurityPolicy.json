@@ -450,21 +450,74 @@
       },
       "attributes": [
         {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": "007",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "ownerType",
+          "jsonPath": "connectionHolders/*/ownerType",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        },        
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": "008",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE"],
+          "attributeAccessList": [
+            
+            {
+              "attribute": "ownerType",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+           
+            {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "WaterConnectionOwner",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+      
+        {
           "name": "connectionHoldersMobileNumber",
-          "jsonPath": "connectionHolders/*/mobileNumber",
+          "jsonPath": "mobileNumber",
           "patternId": "007",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "fatherOrHusbandName",
-          "jsonPath": "connectionHolders/*/fatherOrHusbandName",
+          "jsonPath": "fatherOrHusbandName",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "gender",
-          "jsonPath": "connectionHolders/*/gender",
-          "patternId": "002",
+          "jsonPath": "gender",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress",
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -474,26 +527,14 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "relationship",
-          "jsonPath": "connectionHolders/*/relationship",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "correspondenceAddress",
-          "jsonPath": "connectionHolders/*/correspondenceAddress",
-          "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "plumberInfoMobileNumber",
           "jsonPath": "plumberInfo/*/mobileNumber",
           "patternId": "008",
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "assignerMobileNumber",
-          "jsonPath": "assigner/*/mobileNumber",
+          "name": "assigneeMobileNumber",
+          "jsonPath": "assignes/*/mobileNumber",
           "patternId": "007",
           "defaultVisibility": "PLAIN"
         }
@@ -523,12 +564,12 @@
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "relationship",
+              "attribute": "correspondenceAddress",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "correspondenceAddress",
+              "attribute": "ownerType",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
@@ -538,7 +579,7 @@
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "connectionHoldersMobileNumber",
+              "attribute": "assigneeMobileNumber",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
