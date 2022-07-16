@@ -450,12 +450,6 @@
       },
       "attributes": [
         {
-          "name": "mobileNumber",
-          "jsonPath": "mobileNumber",
-          "patternId": "007",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "ownerType",
           "jsonPath": "connectionHolders/*/ownerType",
           "patternId": "005",
