@@ -218,6 +218,21 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
+        },
+        {
+          "roles": ["CITIZEN"],
+          "attributeAccessList": [
+            {
+              "attribute": "correspondenceAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "permanentAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
         }
       ]
     },
