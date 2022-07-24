@@ -432,6 +432,22 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "GROPerformanceReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "employee",
+          "jsonPath": "employee",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
