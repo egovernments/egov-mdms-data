@@ -416,6 +416,22 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "LMEPerformanceReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "employee",
+          "jsonPath": "employee",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
