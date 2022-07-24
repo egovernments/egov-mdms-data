@@ -400,6 +400,22 @@
           ]
         }
       ]
+    },
+    {
+      "model": "DescriptionReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
