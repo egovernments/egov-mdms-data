@@ -400,6 +400,54 @@
           ]
         }
       ]
+    },
+    {
+      "model": "DescriptionReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "LMEPerformanceReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "employee",
+          "jsonPath": "employee",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "GROPerformanceReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "employee",
+          "jsonPath": "employee",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
