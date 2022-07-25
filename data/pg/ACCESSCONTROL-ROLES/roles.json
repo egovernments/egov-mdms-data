@@ -593,6 +593,11 @@
       "description": "Admin role that as access over a Nation"
     },
     {
+      "code": "NDA_SYSTEM",
+      "name": "National Dashboard Systeme user",
+      "description": "Push data through adopter for all states"
+    },
+    {
       "code": "COMMON_EMPLOYEE",
       "name": "Basic employee roles",
       "description": "Basic employee roles"
