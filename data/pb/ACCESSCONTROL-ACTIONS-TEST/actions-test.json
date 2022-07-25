@@ -11414,7 +11414,7 @@
       "enabled": true,
       "serviceCode": "WnS",
       "code": "null",
-      "path": "TradeLicense.Trade License Reports.TradeLicenseDailyCollectionReport",
+      "path": "WnS.Wns Reports.WnSReceiptRegisterReport",
       "navigationURL": "report/rainmaker-wns/WnsReceiptRegisterReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -12682,7 +12682,7 @@
       "enabled": true,
       "serviceCode": "WnS",
       "code": "null",
-      "path": "TradeLicense.Trade License Reports.TradeLicenseDailyCollectionReport",
+      "path": "WnS.Wns Reports.WnSDefaulterReport",
       "navigationURL": "report/rainmaker-wns/WnsDefaulterReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
