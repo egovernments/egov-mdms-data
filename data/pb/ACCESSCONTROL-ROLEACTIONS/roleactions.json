@@ -7724,7 +7724,6 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-
     {
       "rolecode": "EGF_BILL_CREATOR",
       "actionid": 1593,
@@ -20501,30 +20500,6 @@
     },
     {
       "rolecode": "WS_CEMP",
-      "actionid": 2253,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 2253,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2253,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 2253,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
       "actionid": 2254,
       "actioncode": "",
       "tenantId": "pb"
@@ -21329,30 +21304,6 @@
     },
     {
       "rolecode": "WS_CEMP",
-      "actionid": 2330,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 2330,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2330,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 2330,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
       "actionid": 2331,
       "actioncode": "",
       "tenantId": "pb"
@@ -21764,7 +21715,7 @@
       "actionid": 2341,
       "actioncode": "",
       "tenantId": "pb"
-    }, 
+    },
     {
       "rolecode": "NATADMIN",
       "actionid": 2342,
@@ -21773,30 +21724,6 @@
     },
     {
       "rolecode": "WS_CEMP",
-      "actionid": 2343,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 2343,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2343,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 2343,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
       "actionid": 2344,
       "actioncode": "",
       "tenantId": "pb"
@@ -21843,7 +21770,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-     {
+    {
       "rolecode": "SW_CEMP",
       "actionid": 2151,
       "actioncode": "",
@@ -21969,7 +21896,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-	{
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 2353,
       "actioncode": "",
@@ -22071,13 +21998,13 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-	  {
+    {
       "rolecode": "PT_APPROVER",
       "actionid": 2033,
       "actioncode": "",
       "tenantId": "pb"
     },
-	  {
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 2355,
       "actioncode": "",
@@ -22113,7 +22040,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-		{
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 2356,
       "actioncode": "",
@@ -22149,7 +22076,7 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-		{
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 2357,
       "actioncode": "",
@@ -22184,25 +22111,26 @@
       "actionid": 2357,
       "actioncode": "",
       "tenantId": "pb"
-    },{
+    },
+    {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 2358,
       "actioncode": "",
       "tenantId": "pb"
     },
-	{
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 2359,
       "actioncode": "",
       "tenantId": "pb"
     },
-	{
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 2360,
       "actioncode": "",
       "tenantId": "pb"
     },
-	  {
+    {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 2214,
       "actioncode": "",
@@ -22232,17 +22160,17 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-	  {
-      "rolecode":"FSM_REPORT_VIEWER",
-      "actionid":2361,
-      "actioncode":"",
-      "tenantId":"pb"
+    {
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2361,
+      "actioncode": "",
+      "tenantId": "pb"
     },
     {
-      "rolecode":"FSM_REPORT_VIEWER",
-      "actionid":2362,
-      "actioncode":"",
-      "tenantId":"pb"
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2362,
+      "actioncode": "",
+      "tenantId": "pb"
     },
     {
       "rolecode": "FSM_REPORT_VIEWER",
@@ -22251,16 +22179,16 @@
       "tenantId": "pb"
     },
     {
-      "rolecode":"FSM_REPORT_VIEWER",
-      "actionid":2364,
-      "actioncode":"",
-      "tenantId":"pb"
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2364,
+      "actioncode": "",
+      "tenantId": "pb"
     },
     {
-      "rolecode":"FSM_REPORT_VIEWER",
-      "actionid":2365,
-      "actioncode":"",
-      "tenantId":"pb"
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2365,
+      "actioncode": "",
+      "tenantId": "pb"
     },
     {
       "rolecode": "FSM_REPORT_VIEWER",
@@ -22269,16 +22197,16 @@
       "tenantId": "pb"
     },
     {
-      "rolecode":"FSM_REPORT_VIEWER",
-      "actionid":2367,
-      "actioncode":"",
-      "tenantId":"pb"
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2367,
+      "actioncode": "",
+      "tenantId": "pb"
     },
     {
-      "rolecode":"FSM_REPORT_VIEWER",
-      "actionid":2368,
-      "actioncode":"",
-      "tenantId":"pb"
+      "rolecode": "FSM_REPORT_VIEWER",
+      "actionid": 2368,
+      "actioncode": "",
+      "tenantId": "pb"
     },
     {
       "rolecode": "FSM_REPORT_VIEWER",
@@ -22340,25 +22268,25 @@
       "actioncode": "",
       "tenantId": "pb"
     },
-   {
-      "rolecode":"CITIZEN",
-      "actionid":2375,
-      "actioncode":"",
-      "tenantId":"pb"
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2375,
+      "actioncode": "",
+      "tenantId": "pb"
     },
-   {
-      "rolecode":"CITIZEN",
-      "actionid":2376,
-      "actioncode":"",
-      "tenantId":"pb"
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2376,
+      "actioncode": "",
+      "tenantId": "pb"
     },
-   {
-      "rolecode":"CITIZEN",
-      "actionid":2377,
-      "actioncode":"",
-      "tenantId":"pb"
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2377,
+      "actioncode": "",
+      "tenantId": "pb"
     },
-   {
+    {
       "rolecode": "CITIZEN",
       "actionid": 2378,
       "actioncode": "",
@@ -22367,6 +22295,42 @@
     {
       "rolecode": "CITIZEN",
       "actionid": 2379,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WATER_REPORT_VIEWER",
+      "actionid": 2330,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SEWERAGE_REPORT_VIEWER",
+      "actionid": 2330,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WATER_REPORT_VIEWER",
+      "actionid": 2253,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SEWERAGE_REPORT_VIEWER",
+      "actionid": 2253,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WATER_REPORT_VIEWER",
+      "actionid": 2343,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SEWERAGE_REPORT_VIEWER",
+      "actionid": 2343,
       "actioncode": "",
       "tenantId": "pb"
     }
