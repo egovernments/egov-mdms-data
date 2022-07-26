@@ -12855,7 +12855,7 @@
     {
       "id": 2355,
       "name": "Vendor Driver Create",
-      "url": "/Vendor/driver/v1/_create",
+      "url": "/vendor/driver/v1/_create",
       "displayName": "Vendor Driver Create",
       "orderNumber": 1,
       "parentModule": "",
@@ -12867,7 +12867,7 @@
 	{
       "id": 2356,
       "name": "Vendor Driver Update",
-      "url": "/Vendor/driver/v1/_update",
+      "url": "/vendor/driver/v1/_update",
       "displayName": "Vendor Driver Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -12879,7 +12879,7 @@
 	{
       "id": 2357,
       "name": "Vendor Driver Search",
-      "url": "/Vendor/driver/v1/_search",
+      "url": "/vendor/driver/v1/_search",
       "displayName": "Vendor Driver Search",
       "orderNumber": 1,
       "parentModule": "",
