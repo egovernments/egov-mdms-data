@@ -25,6 +25,18 @@
       "code": "MODIFY_SEWERAGE_CONNECTION",
       "name": "Modify Sewerage Connection",
       "businessService":"ModifySWConnection"
+    },
+    {
+      "id": 5,
+      "code": "DISCONNECT_WATER_CONNECTION",
+      "name": "Disconnect Water Connection",
+      "businessService":"DisconnectWSConnection"
+    },
+    {
+      "id": 6,
+      "code": "DISCONNECT_SEWERAGE_CONNECTION",
+      "name": "Disconnect Sewerage Connection",
+      "businessService":"DisconnectSWConnection"
     }
   ]
 }
