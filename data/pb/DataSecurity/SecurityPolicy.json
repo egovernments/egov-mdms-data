@@ -442,7 +442,18 @@
           "defaultVisibility":"PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["GRO"],
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     },
     {
       "model": "GROPerformanceReport",
