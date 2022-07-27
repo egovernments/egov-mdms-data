@@ -306,6 +306,48 @@
       "address": "Dhenkanal Municipality",
       "contactNumber": "9438256399",
       "helpLineNumber": "9438256399"
-    }
+    },
+      {
+      "code": "pg.angul",
+      "name": "Angul",
+      "description": "Angul",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": "https://sujog.odisha.gov.in",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "angulmunicipality@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "pincode":[
+        759122,
+        759132,
+        759123,
+        759143
+      ],
+      "city": {
+        "name": "Angul",
+        "localName": null,
+        "districtCode": "Angul",
+        "districtName": "Angul",
+        "regionName": "Angul",
+        "ulbGrade": "Angul Municipality",
+        "longitude": 0,
+        "latitude": 0,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "ANG",
+        "ddrName": "Angul",
+        "wsBillHeaderLine1": "OFFICE OF THE AE/JE",
+        "wsBillHeaderLine2": "PUBLIC HEALTH ENGINEERING ORGANIZATION : Angul",
+        "districtTenantCode": "od.angul"
+      },
+      "address": "AT/PO-Amlapada,Dist-Angul, Pin-759122",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
+    },
   ]
 }
