@@ -13184,6 +13184,24 @@
       "leftIcon": "propertyIcon",
       "rightIcon": "",
       "queryParams": ""
+    },
+   {
+      "id": 2380,
+      "name": "TL_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 1,
+      "parentModule": "TL",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/tl-faq",
+      "leftIcon": "TLIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/tl-home"
     }
 
  ]
