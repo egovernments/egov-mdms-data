@@ -489,7 +489,25 @@
           "code": "pb.amritsar"
         }
       ]
-    },{
+    },
+    {
+      "module": "BR",
+      "code": "BR",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
+    },
+{
       "module": "Works",
       "code": "Works",
       "active": true,
