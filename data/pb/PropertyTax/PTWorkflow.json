@@ -5,7 +5,7 @@
      {
          "businessService":"PT.CREATEWITHWNS",
          "initialAction":"OPEN",
-         "inWorkflowStatusAllowed":false,
+         "inWorkflowStatusAllowed":true,
          "enable":true
      },
      {
