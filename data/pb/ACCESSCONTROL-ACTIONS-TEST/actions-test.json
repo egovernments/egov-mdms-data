@@ -13202,8 +13202,42 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/tl-home"
+    },
+   {
+      "id": 2381,
+      "name": "MCOLLECT_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 1,
+      "parentModule": "MCollect",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/mcollect-faq",
+      "leftIcon": "MCollectIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/mcollect-home"
+    },
+   {
+      "id": 2382,
+      "name": "WS_FAQ_S",
+      "url": "digit-ui-card",
+      "displayName": "FAQs",
+      "orderNumber": 3,
+      "parentModule": "WS",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/ws-faq",
+      "leftIcon": "WSIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     }
-
- ]
-
+  ]
 }
