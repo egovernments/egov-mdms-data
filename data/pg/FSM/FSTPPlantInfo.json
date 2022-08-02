@@ -23,6 +23,17 @@
             "PlantOperationalTimings": "10.00am-06.00pm",
             "PlantOperationalCapacityKLD": "100",
             "ULBS": "pg.cityc"
-        }
+        },
+        {  
+            "PlantCode": "ANG003",
+            "PlantName": "ANGUL Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "ANGUL",
+            "PlusCode": "R4RX+JX",
+            "PlantOperationalTimings": "09.00am-05.00pm",
+            "PlantOperationalCapacityKLD": "18",
+            "ULBS": "pg.angul"
+        }  
     ]
 }
