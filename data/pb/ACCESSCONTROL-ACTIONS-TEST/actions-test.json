@@ -21363,6 +21363,33 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/ws-home"
+    },
+    {
+      "id": 2378,
+      "name": "Dashboard IFIX",
+      "url": "url",
+      "displayName": "IFIX",
+      "orderNumber": 14,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.IFIX",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/ifix",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2379,
+      "name": "DSS Dashboard Config IFIX",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/ifix",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
