@@ -13238,6 +13238,17 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/ws-home"
+    },
+    {
+      "id": 2383,
+      "name": "Inbox api for privacy audit logs",
+      "url": "/inbox/v1/elastic/_search",
+      "displayName": "Inbox api for privacy audit logs",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Inbox",
+      "code": "null",
+      "path": ""
     }
   ]
 }
