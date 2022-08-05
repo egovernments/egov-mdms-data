@@ -5,7 +5,12 @@
         {
             "allowedUrls":  [
                 "pt/property/citizen-search",
-                "pt/property/new-application/info"
+                "pt/property/new-application/info",
+                "pt/property/property-mutation/search-property",
+                "payment/my-bills/PT",
+                "pt/property/my-applications",
+                "pt/property/my-properties",
+                "pt/property/my-payments"
             ]
         }
     ]
