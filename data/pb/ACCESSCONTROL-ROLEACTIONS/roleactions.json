@@ -20483,30 +20483,6 @@
     },
     {
       "rolecode": "WS_CEMP",
-      "actionid": 2254,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 2254,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2254,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 2254,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
       "actionid": 2255,
       "actioncode": "",
       "tenantId": "pb"
@@ -21281,30 +21257,6 @@
     },
     {
       "rolecode": "WS_CEMP",
-      "actionid": 2331,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 2331,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2331,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 2331,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
       "actionid": 2332,
       "actioncode": "",
       "tenantId": "pb"
@@ -21696,30 +21648,6 @@
     {
       "rolecode": "NATADMIN",
       "actionid": 2342,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_CEMP",
-      "actionid": 2344,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "WS_APPROVER",
-      "actionid": 2344,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_CEMP",
-      "actionid": 2344,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "SW_APPROVER",
-      "actionid": 2344,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -22313,6 +22241,42 @@
     {
       "rolecode": "CITIZEN",
       "actionid": 2383,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WATER_REPORT_VIEWER",
+      "actionid": 2254,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SEWERAGE_REPORT_VIEWER",
+      "actionid": 2254,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WATER_REPORT_VIEWER",
+      "actionid": 2231,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SEWERAGE_REPORT_VIEWER",
+      "actionid": 2231,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "WATER_REPORT_VIEWER",
+      "actionid": 2344,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SEWERAGE_REPORT_VIEWER",
+      "actionid": 2344,
       "actioncode": "",
       "tenantId": "pb"
     }
