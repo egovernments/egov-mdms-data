@@ -181,29 +181,6 @@
       ]
     },
     {
-      "head": "ES_TITLE_PAYMENT_DETAILS",
-      "body": [
-        {
-          "type": "component",
-          "key": "tripData",
-          "withoutLabel": true,
-          "component": "SelectTripData"
-        },
-        {
-          "type": "component",
-          "key": "paymentPreference",
-          "withoutLabel": true,
-          "component": "SelectPaymentType"
-        },
-        {
-          "type": "component",
-          "key": "advancepaymentPreference",
-          "withoutLabel": true,
-          "component": "AdvanceCollection"
-        }
-      ]
-    },
-    {
       "head": "CS_FILE_ADDITIONAL_DETAILS",
       "hideInEmployee": true,
       "body": [
@@ -258,6 +235,29 @@
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
           },
           "nextStep": null
+        }
+      ]
+    },
+    {
+      "head": "ES_TITLE_PAYMENT_DETAILS",
+      "body": [
+        {
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTripData"
+        },
+        {
+          "type": "component",
+          "key": "paymentPreference",
+          "withoutLabel": true,
+          "component": "SelectPaymentType"
+        },
+        {
+          "type": "component",
+          "key": "advancepaymentPreference",
+          "withoutLabel": true,
+          "component": "AdvanceCollection"
         }
       ]
     }
