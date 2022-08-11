@@ -458,7 +458,7 @@
       "roleBasedDecryptionPolicy": []
     },
     {
-      "model": "WaterConnection",
+      "model": "WnSConnection",
       "uniqueIdentifier": {
         "name": "applicationNo",
         "jsonPath": "applicationNo"
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "model": "WaterConnectionOwner",
+      "model": "WnSConnectionOwner",
       "uniqueIdentifier": {
         "name": "uuid",
         "jsonPath": "uuid"
