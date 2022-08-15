@@ -675,6 +675,33 @@
       ],
       "roleBasedDecryptionPolicy": [
       ]
+    },
+    {
+      "model": "InboxWnS",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "applicationNo"
+      },
+      "attributes": [
+        {
+          "name": "mobileNumber",
+          "jsonPath": "moduleSearchCriteria/mobileNumber",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE"],
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
