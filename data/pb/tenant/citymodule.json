@@ -523,6 +523,23 @@
           "code": "pb.amritsar"
         }
       ]
+    },
+    {
+      "module": "BillAmendment",
+      "code": "BillAmendment",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
     }
   ]
 }
