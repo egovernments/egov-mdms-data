@@ -13267,6 +13267,24 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/obps-home"
+    },
+    {
+      "id": 2385,
+      "name": "PT_MY_PAYMENTS",
+      "url": "digit-ui-card",
+      "displayName": "My Payments",
+      "orderNumber": 9,
+      "parentModule": "PT",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/pt/property/my-payments",
+      "leftIcon": "propertyIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/pt-home"
     }
   ]
 }
