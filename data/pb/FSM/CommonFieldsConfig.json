@@ -33,7 +33,7 @@
             "cardText": "CS_FILE_APPLICATION_PROPERTY_SUBTYPE_TEXT",
             "submitBarLabel": "CS_COMMON_NEXT"
           },
-          "nextStep": "map"
+          "nextStep": "address"
         }
       ]
     },
@@ -58,6 +58,7 @@
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
           },
           "withoutLabel": true,
+          "hideInEmployee": true,
           "key": "address",
           "nextStep": "address",
           "type": "component"
@@ -170,6 +171,12 @@
           "key": "pitDetail",
           "nextStep": "select-gender",
           "label": "ES_NEW_APPLICATION_PIT_DIMENSION"
+        },
+        {
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTrips"
         }
       ]
     },
@@ -228,6 +235,29 @@
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
           },
           "nextStep": null
+        }
+      ]
+    },
+    {
+      "head": "ES_TITLE_PAYMENT_DETAILS",
+      "body": [
+        {
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTripData"
+        },
+        {
+          "type": "component",
+          "key": "paymentPreference",
+          "withoutLabel": true,
+          "component": "SelectPaymentType"
+        },
+        {
+          "type": "component",
+          "key": "advancepaymentPreference",
+          "withoutLabel": true,
+          "component": "AdvanceCollection"
         }
       ]
     }
