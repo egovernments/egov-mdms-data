@@ -702,12 +702,6 @@
           "jsonPath": "name",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "payername",
-          "jsonPath": "payername",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -745,6 +739,33 @@
         }
       ],
       "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "InboxWnS",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "applicationNo"
+      },
+      "attributes": [
+        {
+          "name": "mobileNumber",
+          "jsonPath": "moduleSearchCriteria/mobileNumber",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE"],
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
       ]
     }
   ]
