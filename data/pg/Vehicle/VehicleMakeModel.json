@@ -16,12 +16,17 @@
             "amount": "500"
         },
         {
-            "code": "MAHINDRA.BOLERO_PICKUP",
-            "name": "Bolero Pickup",
+            "code": "TRACTOR",
+            "name": "TRACTOR",
+            "active": true
+        },
+        {
+            "code": "TRACTOR.408",
+            "name": "TRACTOR 408",
             "active": true,
-            "make": "MAHINDRA",
-            "capacity": "4000",
-            "amount": "800"
+            "make": "TRACTOR",
+            "capacity": "6000",
+            "amount": "1200"
         },
         {
             "code": "TATA",
