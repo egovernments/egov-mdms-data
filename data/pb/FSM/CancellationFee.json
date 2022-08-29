@@ -1,0 +1,18 @@
+{
+  "tenantId": "pb",
+  "moduleName": "FSM",
+  "CancellationFee": [
+    {
+      "name": "FixedValue",
+      "code": "FIXEDVALUE",
+      "active": true,
+      "cancellationAmount":"100"
+    },
+	  {
+      "name": "PercentageValue",
+      "code": "PERCENTAGEVALUE",
+      "active": true,
+      "cancellationPercentage":"10"
+    }
+  ]  
+}
