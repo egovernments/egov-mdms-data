@@ -778,6 +778,108 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "PropertyDecrypDisabled",
+      "uniqueIdentifier": {
+        "name": "propertyId",
+        "jsonPath": "propertyId"
+      },
+      "attributes": [
+        {
+          "name": "street",
+          "jsonPath": "address/street",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "doorNo",
+          "jsonPath": "address/doorNo",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "landmark",
+          "jsonPath": "address/landmark",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "WnSConnectionDecrypDisabled",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "applicationNo"
+      },
+      "attributes": [
+        {
+          "name": "ownerType",
+          "jsonPath": "connectionHolders/*/ownerType",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "WnSConnectionOwnerDecrypDisabled",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "connectionHoldersMobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "fatherOrHusbandName",
+          "jsonPath": "fatherOrHusbandName",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "gender",
+          "jsonPath": "gender",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "correspondenceAddress",
+          "jsonPath": "correspondenceAddress",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "ownerType",
+          "jsonPath": "connectionHolders/*/ownerType",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "assigneeMobileNumber",
+          "jsonPath": "assignes/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
