@@ -696,6 +696,54 @@
           ]
         }
       ]
+    },
+    {
+      "model": "PTReceiptRegister",
+      "uniqueIdentifier": {
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "PTCollectionReport",
+      "uniqueIdentifier": {
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "DefaulterReport",
+      "uniqueIdentifier": {
+        "name": "user_uuid",
+        "jsonPath": "user_uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
