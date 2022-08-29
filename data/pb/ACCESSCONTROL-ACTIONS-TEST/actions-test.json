@@ -17377,6 +17377,18 @@
       "code": "null",
       "path": ""
     },
+	    {
+      "id": 2381,
+      "name": "FSM Cancellation Fee Calculation",
+      "url": "/fsm-calculator/v1/_cancellationFee",
+      "displayName": "FSM Advance Balance Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
     {
       "id": 2065,
       "name": "digit-ui FSM",
