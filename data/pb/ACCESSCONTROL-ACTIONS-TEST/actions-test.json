@@ -9236,6 +9236,31 @@
       "code": "null",
       "path": ""
     },
+	 {
+      "id": 2400,
+      "name": "FSM Advance Balance Calculation",
+      "url": "/fsm-calculator/v1/_advanceBalanceCalculate",
+      "displayName": "FSM Advance Balance Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+	    {
+      "id": 2401,
+      "name": "FSM Cancellation Fee Calculation",
+      "url": "/fsm-calculator/v1/_cancellationFee",
+      "displayName": "FSM Advance Balance Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+	
     {
       "id": 2077,
       "name": "Encrypt",
