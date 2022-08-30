@@ -15,7 +15,6 @@
       "code": "null",
       "path": "Boundary Module.Get location by LocationName"
     },
-
     {
       "id": 7,
       "name": "Search Boundary by BoundryTypeName and HierarchyTypeName",
@@ -9236,7 +9235,7 @@
       "code": "null",
       "path": ""
     },
-	 {
+    {
       "id": 2077,
       "name": "Encrypt",
       "url": "/egov-enc-service/crypto/v1/_encrypt",
@@ -12864,7 +12863,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2356,
       "name": "Vendor Driver Update",
       "url": "/vendor/driver/v1/_update",
@@ -12876,7 +12875,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2357,
       "name": "Vendor Driver Search",
       "url": "/vendor/driver/v1/_search",
@@ -12888,7 +12887,7 @@
       "code": "null",
       "path": ""
     },
-	   {
+    {
       "id": 2358,
       "name": "Vehicle Trip Create",
       "url": "/vehicle/trip/v1/_create",
@@ -12900,7 +12899,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2359,
       "name": "Update Vendor/DSO",
       "url": "/vendor/v1/_update",
@@ -12911,7 +12910,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2360,
       "name": "Update Vehicle Application",
       "url": "/vehicle/v1/_update",
@@ -12922,7 +12921,7 @@
       "code": "null",
       "path": ""
     },
-	  {
+    {
       "id": 2361,
       "name": "FSM-FSMDailyDesludingReport-Metadata",
       "url": "/report/fsm/FSMDailyDesludingReport/metadata/_get",
@@ -13117,7 +13116,7 @@
       "sidebar": "digit-ui-links",
       "sidebarURL": "/citizen/fire-noc/home"
     },
-{
+    {
       "id": 2376,
       "name": "BirthCitizen",
       "url": "digit-ui-card",
@@ -13135,7 +13134,7 @@
       "sidebar": "digit-ui-links",
       "sidebarURL": "/citizen/birth-citizen/home"
     },
-{
+    {
       "id": 2377,
       "name": "DeathCitizen",
       "url": "digit-ui-card",
@@ -13185,7 +13184,7 @@
       "rightIcon": "",
       "queryParams": ""
     },
-   {
+    {
       "id": 2380,
       "name": "TL_FAQ_S",
       "url": "digit-ui-card",
@@ -13203,7 +13202,7 @@
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/tl-home"
     },
-   {
+    {
       "id": 2381,
       "name": "MCOLLECT_FAQ_S",
       "url": "digit-ui-card",
@@ -13221,7 +13220,7 @@
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/mcollect-home"
     },
-   {
+    {
       "id": 2382,
       "name": "WS_FAQ_S",
       "url": "digit-ui-card",
@@ -13250,7 +13249,7 @@
       "code": "null",
       "path": ""
     },
-   {
+    {
       "id": 2384,
       "name": "OBPS_FAQ_S",
       "url": "digit-ui-card",
@@ -13307,6 +13306,84 @@
       "parentModule": "",
       "enabled": false,
       "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2402,
+      "name": "ObpsDailyCollectionReport",
+      "url": "url",
+      "displayName": "OBPS Daily Collection Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-obps",
+      "enabled": true,
+      "serviceCode": "OBPS",
+      "code": "null",
+      "path": "OBPS.Obps Reports.ObpsDailyCollectionReport",
+      "navigationURL": "report/rainmaker-obps/ObpsDailyCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2403,
+      "name": "ObpsDailyCollectionReport",
+      "url": "/report/rainmaker-obps/ObpsDailyCollectionReport/metadata/_get",
+      "displayName": "rainmaker-obps-ObpsDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2404,
+      "name": "ObpsDailyCollectionReport",
+      "url": "/report/rainmaker-obps/ObpsDailyCollectionReport/_get",
+      "displayName": "rainmaker-obps-ObpsDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2405,
+      "name": "ObpsApplicationStatusReport",
+      "url": "url",
+      "displayName": "OBPS Application Status Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-obps",
+      "enabled": true,
+      "serviceCode": "OBPS",
+      "code": "null",
+      "path": "OBPS.Obps Reports.ObpsApplicationStatusReport",
+      "navigationURL": "report/rainmaker-obps/ObpsApplicationStatusReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2406,
+      "name": "ObpsApplicationStatusReport",
+      "url": "/report/rainmaker-obps/ObpsApplicationStatusReport/metadata/_get",
+      "displayName": "rainmaker-obps-ObpsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2407,
+      "name": "ObpsApplicationStatusReport",
+      "url": "/report/rainmaker-obps/ObpsApplicationStatusReport/_get",
+      "displayName": "rainmaker-obps-ObpsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
       "code": "null",
       "path": ""
     }

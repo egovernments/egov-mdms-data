@@ -662,6 +662,11 @@
       "code": "SEWERAGE_REPORT_VIEWER",
       "name": "Sewerage Report Viewer",
       "description": "Sewerage Connection User that can view reports"
+    },
+    {
+      "code": "OBPS_REPORT_VIEWER",
+      "name": "OBPS Report Viewer",
+      "description": "OBPS User that can view OBPS reports"
     }
   ]
 }
