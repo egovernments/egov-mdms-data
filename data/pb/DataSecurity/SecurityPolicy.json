@@ -491,26 +491,6 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
-        },
-        {
-          "roles": ["CITIZEN"],
-          "attributeAccessList": [
-            {
-              "attribute": "street",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "doorNo",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "landmark",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
         }
       ]
     },
