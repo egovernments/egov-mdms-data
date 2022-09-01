@@ -21402,6 +21402,42 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2380,
+      "name": "Birth registration module create",
+      "url": "/birth-registration/birth-services/v1/registration/_create",
+      "parentModule": "",
+      "displayName": "Birth registration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BTR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2381,
+      "name": "Birth registration module update",
+      "url": "/birth-registration/birth-services/v1/registration/_update",
+      "parentModule": "",
+      "displayName": "Birth registration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BTR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2382,
+      "name": "Birth registration module search",
+      "url": "/birth-registration/birth-services/v1/registration/_search",
+      "parentModule": "",
+      "displayName": "Birth registration",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BTR",
+      "code": "null",
+      "path": ""
     }
   ]
 }
