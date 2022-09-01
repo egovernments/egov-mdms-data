@@ -11340,7 +11340,6 @@
       "leftIcon": "communication:business",
       "rightIcon": ""
     },
-
     {
       "id": 1581,
       "name": "Exemptions",
@@ -11381,7 +11380,6 @@
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
-
     {
       "id": 1586,
       "name": "bankAccountServiceMapping create",
@@ -17366,30 +17364,6 @@
       "path": ""
     },
     {
-      "id": 2380,
-      "name": "FSM Advance Balance Calculation",
-      "url": "/fsm-calculator/v1/_advanceBalanceCalculate",
-      "displayName": "FSM Advance Balance Calculation",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": false,
-      "serviceCode": "",
-      "code": "null",
-      "path": ""
-    },
-	    {
-      "id": 2381,
-      "name": "FSM Cancellation Fee Calculation",
-      "url": "/fsm-calculator/v1/_cancellationFee",
-      "displayName": "FSM Advance Balance Calculation",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": false,
-      "serviceCode": "",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 2065,
       "name": "digit-ui FSM",
       "url": "card",
@@ -19129,7 +19103,7 @@
       "name": "National Dashboard OBPS",
       "url": "url",
       "displayName": "National Dashboard OBPS",
-      "orderNumber":7,
+      "orderNumber": 7,
       "parentModule": "ndss-dashboard",
       "enabled": true,
       "serviceCode": "NDSS",
@@ -19819,7 +19793,6 @@
       "rightIcon": "",
       "queryParams": ""
     },
-
     {
       "id": 2269,
       "name": "death Search",
@@ -20530,7 +20503,6 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-
       "code": "null",
       "path": ""
     },
@@ -20592,7 +20564,6 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-
       "code": "null",
       "path": ""
     },
@@ -20632,7 +20603,6 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-
       "code": "null",
       "path": ""
     },
@@ -20859,11 +20829,10 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "report",
-
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2339,
       "name": "Update Vendor/DSO",
       "url": "/vendor/v1/_update",
@@ -20874,7 +20843,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2340,
       "name": "Update Vehicle Application",
       "url": "/vehicle/v1/_update",
@@ -20915,8 +20884,7 @@
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
-	
-	 {
+    {
       "id": 2343,
       "name": "Vehicle Trip Create",
       "url": "/vehicle/trip/v1/_create",
@@ -21054,7 +21022,7 @@
       "leftIcon": "action:description",
       "rightIcon": ""
     },
-	{
+    {
       "id": 2354,
       "name": "Vendor Driver Create",
       "url": "/vendor/driver/v1/_create",
@@ -21066,7 +21034,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2355,
       "name": "Vendor Driver Update",
       "url": "/vendor/driver/v1/_update",
@@ -21078,7 +21046,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2356,
       "name": "Vendor Driver Search",
       "url": "/vendor/driver/v1/_search",
@@ -21144,7 +21112,7 @@
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/obps-home"
     },
-	   {
+    {
       "id": 2360,
       "name": "TL",
       "url": "url",
@@ -21226,7 +21194,8 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/citizen/birth-citizen/home"
-    },{
+    },
+    {
       "id": 2366,
       "name": "DeathCitizen",
       "url": "digit-ui-card",
@@ -21417,6 +21386,30 @@
     },
     {
       "id": 2380,
+      "name": "FSM Advance Balance Calculation",
+      "url": "/fsm-calculator/v1/_advanceBalanceCalculate",
+      "displayName": "FSM Advance Balance Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2381,
+      "name": "FSM Cancellation Fee Calculation",
+      "url": "/fsm-calculator/v1/_cancellationFee",
+      "displayName": "FSM Advance Balance Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2382,
       "name": "Birth registration module create",
       "url": "/birth-registration/birth-services/v1/registration/_create",
       "parentModule": "",
@@ -21428,7 +21421,7 @@
       "path": ""
     },
     {
-      "id": 2381,
+      "id": 2383,
       "name": "Birth registration module update",
       "url": "/birth-registration/birth-services/v1/registration/_update",
       "parentModule": "",
@@ -21440,7 +21433,7 @@
       "path": ""
     },
     {
-      "id": 2382,
+      "id": 2384,
       "name": "Birth registration module search",
       "url": "/birth-registration/birth-services/v1/registration/_search",
       "parentModule": "",
