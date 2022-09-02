@@ -89,6 +89,19 @@
             "amount": "1000"
         },
         {
+            "code": "TAKE",
+            "name": "TAKE",
+            "active": true
+        },
+        {
+            "code": "TAKE.TRACTOR",
+            "name": "TAKE TRACTOR",
+            "active": true,
+            "make": "TAKE",
+            "capacity": "7000",
+            "amount": "900"
+        },
+        {
             "code": "SONALIKA",
             "name": "Sonalika",
             "active": true
