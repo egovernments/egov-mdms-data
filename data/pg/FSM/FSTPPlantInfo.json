@@ -34,6 +34,17 @@
             "PlantOperationalTimings": "09.00am-05.00pm",
             "PlantOperationalCapacityKLD": "18",
             "ULBS": "pg.angul"
-        }  
+        },
+        {  
+            "PlantCode": "ASK004",
+            "PlantName": "ASKA Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Balangir",
+            "PlusCode": "MFG7+8H",
+            "PlantOperationalTimings": "10.00am-06.00pm",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.aska"
+        }
     ]
 }
