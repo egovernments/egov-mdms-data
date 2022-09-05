@@ -348,6 +348,45 @@
       "address": "Angul Municipality",
       "contactNumber": "14420",
       "helpLineNumber": "14420"
+    },
+    {
+      "code": "pg.aska",
+      "name": "Aska",
+      "description": "Aska",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "askanac@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "pincode":[
+        761110
+      ],
+      "city": {
+        "name": "Aska",
+        "localName": null,
+        "districtCode": "Aska",
+        "districtName": "Aska",
+        "regionName": "Aska",
+        "ulbGrade": "Aska Municipality",
+         "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "ASK",
+        "ddrName": "Aska",
+        "wsBillHeaderLine1": "OFFICE OF THE AE/JE",
+        "wsBillHeaderLine2": "PUBLIC HEALTH ENGINEERING ORGANIZATION : Aska",
+        "districtTenantCode": "pg.Aska"
+      },
+      "address": "Aska Municipality",
+      "contactNumber": "14420",
+      "helpLineNumber": "14420"
     }
   ]
 }
