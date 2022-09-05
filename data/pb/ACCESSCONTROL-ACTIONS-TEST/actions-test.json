@@ -13386,6 +13386,24 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2408,
+      "name": "PRIVACY_AUDIT_REPORT",
+      "url": "digit-ui-card",
+      "displayName": "Privacy Audit Report",
+      "orderNumber": 8,
+      "parentModule": "WS",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/Audit",
+      "leftIcon": "WSIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
     }
   ]
 }
