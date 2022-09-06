@@ -340,25 +340,25 @@
           "withoutLabel": true,
           "nextStep": "other-trade-details",
           "hideInEmployee": true
+        },
+        {
+          "isMandatory": true,
+          "type": "component",
+          "route": "other-trade-details",
+          "key": "TradeDetails",
+          "component": "SelectOtherTradeDetails",
+          "texts": {
+            "headerCaption": "",
+            "header": "TL_OTHER_TRADE_DETAILS_HEADER",
+            "cardText": "",
+            "submitBarLabel": "CS_COMMON_NEXT",
+            "skipText": "CORE_COMMON_SKIP_CONTINUE"
+          },
+          "withoutLabel": true,
+          "nextStep": "know-your-property",
+          "hideInEmployee": true
         }
       ]
-    },
-    {
-      "isMandatory": true,
-      "type": "component",
-      "route": "other-trade-details",
-      "key": "TradeDetails",
-      "component": "SelectOtherTradeDetails",
-      "texts": {
-        "headerCaption": "",
-        "header": "TL_OTHER_TRADE_DETAILS_HEADER",
-        "cardText": "",
-        "submitBarLabel": "CS_COMMON_NEXT",
-        "skipText": "CORE_COMMON_SKIP_CONTINUE"
-      },
-      "withoutLabel": true,
-      "nextStep": "know-your-property",
-      "hideInEmployee": true
     },
     {
       "head": "ES_NEW_APPLICATION_OWNERSHIP_DETAILS",
