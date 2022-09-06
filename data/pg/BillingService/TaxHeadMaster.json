@@ -733,7 +733,8 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": "5",
-      "isRequired": false
+      "isRequired": false,
+      "IsBillamend": true
     },
     {
       "category": "TAX",
@@ -743,7 +744,8 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": "6",
-      "isRequired": false
+      "isRequired": false,
+      "IsBillamend": true
     },
     {
       "category": "TAX",
@@ -753,7 +755,8 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": "5",
-      "isRequired": false
+      "isRequired": false,
+      "IsBillamend": true
     },
     {
       "category": "TAX",
@@ -763,7 +766,8 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": "6",
-      "isRequired": false
+      "isRequired": false,
+      "IsBillamend": true
     },
     {
       "category": "ADVANCE_COLLECTION",

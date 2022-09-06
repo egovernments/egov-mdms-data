@@ -701,6 +701,14 @@
         {
             "format": "DT/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
             "idname": "death_cert.receipt.id"
+        },
+        {
+            "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_WS_APP_[TENANT_ID]]",
+            "idname": "waterservice.disconnection.id"
+        },
+        {
+            "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_SW_APP_[TENANT_ID]]",
+            "idname": "sewerageservice.disconnection.id"
         }
     ]
 }

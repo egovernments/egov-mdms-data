@@ -646,6 +646,16 @@
       "code": "DEATH_APPLICATION_EDITOR",
       "name": "DEATH Application Editor",
       "description": "Death User that can edit existing applications"
+    },
+    {
+      "code": "WATER_REPORT_VIEWER",
+      "name": "Water Report Viewer",
+      "description": "Water Connection User that can view reports"
+    },
+    {
+      "code": "SEWERAGE_REPORT_VIEWER",
+      "name": "Sewerage Report Viewer",
+      "description": "Sewerage Connection User that can view reports"
     }
   ]
 }
