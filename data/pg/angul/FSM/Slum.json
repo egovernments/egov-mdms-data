@@ -1,59 +1,18 @@
 {
-    "tenantId": "pg.angul",
-    "moduleName": "FSM",
-    "Slum": [
-    {
-        "name": "Aampada",
-        "active": "true",
-        "code": "ANSL001",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Larkipali Harijan Pada",
-        "active": "true",
-        "code": "ANSL002",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Jam Pada",
-        "active": "true",
-        "code": "ANSL003",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Juin Pada",
-        "active": "true",
-        "code": "ANSL004",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Iti Pada",
-        "active": "true",
-        "code": "ANSL005",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Gopabandhu Nagar",
-        "active": "true",
-        "code": "ANSL006",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Swadhin Nagar",
-        "active": "true",
-        "code": "ANSL007",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Kandhpalipada",
-        "active": "true",
-        "code": "ANSL008",
-        "locality": "VIL1"
-    },
-    {
-        "name": "Nanda Pada",
-        "active": "true",
-        "code": "ANSL009",
-        "locality": "VIL1"
-    }]
+	"tenantId": "pg.angul",
+	"moduleName": "FSM",
+	"Slum": [
+		{
+			"name": "Aampada",
+			"active": "true",
+			"code": "ANSL001",
+			"locality": "VIL1"
+		},
+		{
+			"name": "Larkipali Harijan Pada",
+			"active": "true",
+			"code": "ANSL002",
+			"locality": "VIL1"
+		}
+	]
 }
