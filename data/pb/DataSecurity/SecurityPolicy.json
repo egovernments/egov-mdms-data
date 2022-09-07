@@ -473,7 +473,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE"],
+          "roles": ["EMPLOYEE"],[CITIZEN],
           "attributeAccessList": [
             {
               "attribute": "street",
