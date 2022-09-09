@@ -516,7 +516,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE"],
+          "roles": ["EMPLOYEE","CITIZEN"],
           "attributeAccessList": [
             
             {
@@ -587,7 +587,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE"],
+          "roles": ["EMPLOYEE","CITIZEN"],
           "attributeAccessList": [
             {
               "attribute": "connectionHoldersMobileNumber",
