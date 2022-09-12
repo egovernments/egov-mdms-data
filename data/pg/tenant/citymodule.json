@@ -476,6 +476,57 @@
           "code": "pg.citye"
         }
       ]
+    },
+    {
+      "module": "SW",
+      "code": "SW",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
+    },
+    {
+      "module": "BillAmendment",
+      "code": "BillAmendment",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
+    },
+    {
+      "module": "Bills",
+      "code": "Bills",
+      "active": true,
+      "order": 3,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
     }
   ]
 }
