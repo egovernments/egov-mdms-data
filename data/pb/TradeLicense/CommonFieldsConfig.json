@@ -340,9 +340,7 @@
           "withoutLabel": true,
           "nextStep": "other-trade-details",
           "hideInEmployee": true
-        }
-      ]
-    },
+     },
      {
           "isMandatory": true,
           "type": "component",
@@ -355,10 +353,10 @@
             "cardText": "",
             "submitBarLabel": "CS_COMMON_NEXT",
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
-          },
-            "withoutLabel": true,
-            "nextStep": "know-your-property",
-            "hideInEmployee": true
+        },
+          "withoutLabel": true,
+          "nextStep": "know-your-property",
+          "hideInEmployee": true
         }
       ]
     },
