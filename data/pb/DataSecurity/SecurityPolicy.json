@@ -473,7 +473,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN"],
+          "roles": ["EMPLOYEE","CITIZEN","QAWSCE","QAWSDV","QAWSFI","QAWSAP","QAWSCL"],
           "attributeAccessList": [
             {
               "attribute": "street",
