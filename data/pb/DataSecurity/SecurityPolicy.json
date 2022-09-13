@@ -473,7 +473,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN"],
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "street",
@@ -516,7 +516,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN"],
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             
             {
@@ -587,7 +587,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN"],
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "connectionHoldersMobileNumber",
