@@ -656,6 +656,12 @@
       "code": "SEWERAGE_REPORT_VIEWER",
       "name": "Sewerage Report Viewer",
       "description": "Sewerage Connection User that can view reports"
+    },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
     }
+    
   ]
 }
