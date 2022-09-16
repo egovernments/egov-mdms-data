@@ -1154,8 +1154,8 @@
       "collectionModesNotAllowed": [
         "DD"
       ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": true,
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
       "isVoucherCreationEnabled": true,
       "isActive": true
     },
