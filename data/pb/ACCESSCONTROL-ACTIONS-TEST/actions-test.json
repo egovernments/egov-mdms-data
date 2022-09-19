@@ -13416,6 +13416,18 @@
       "serviceCode": "COLLECTION",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2409,
+      "name": "Hoarding Payment Workflow",
+      "url": "/collection-services/payments/ADVT.Hoardings/_workflow",
+      "displayName": "Hoarding Payment Workflow",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
     }
   ]
 }
