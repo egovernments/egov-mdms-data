@@ -5,7 +5,7 @@
       {
         "indexKey":"userLogin",
         "indexName":"privacy-audit-data",
-        "query":"{\"query\":{\"bool\":{\"must\":[{\"match_phrase\":{\"Data.plainAccessRequest.recordId\":\"$uuid\"}},{\"range\":{\"Data.timestamp\":{\"gte\":\"$fromDate\",\"lte\":\"$toDate\"}}}],\"must_not\":[],\"should\":[]}}}",
+        "query":"{\"from\": \"$offset\", \"size\": \"$limit\", \"sort\": [ { \"Data.timestamp\": { \"order\": \"$sortOrder\" } } ],\"query\":{\"bool\":{\"must\":[{\"match_phrase\":{\"Data.plainAccessRequest.recordId\":\"$uuid\"}},{\"range\":{\"Data.timestamp\":{\"gte\":\"$fromDate\",\"lte\":\"$toDate\"}}}],\"must_not\":[],\"should\":[]}}}",
         "placeHolders":["$uuid", "$fromDate", "$toDate"]
       }
     ]
