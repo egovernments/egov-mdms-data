@@ -512,6 +512,12 @@
           "jsonPath": "plumberInfo/*/mobileNumber",
           "patternId": "008",
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -524,9 +530,13 @@
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
-           
             {
               "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "relationship",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
@@ -843,6 +853,12 @@
         {
           "name": "plumberInfoMobileNumber",
           "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
           "patternId": null,
           "defaultVisibility": "PLAIN"
         }
