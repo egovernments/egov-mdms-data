@@ -13717,7 +13717,7 @@
       "name": "ABOUT DASHBOARD",
       "url": "url",
       "displayName": "About Dashboard",
-      "orderNumber": 4,
+      "orderNumber": 11,
       "parentModule": "ndss-dashboard",
       "enabled": true,
       "serviceCode": "NDSS",
@@ -13732,7 +13732,7 @@
       "name": "FAQS",
       "url": "url",
       "displayName": "FAQs",
-      "orderNumber": 4,
+      "orderNumber": 12,
       "parentModule": "ndss-dashboard",
       "enabled": true,
       "serviceCode": "NDSS",
@@ -14119,6 +14119,21 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/bills-home"
+    },
+    {
+      "id": 2461,
+      "name": "National Urban Realtime Dashboard",
+      "url": "url",
+      "displayName": "National Urban Realtime Landing page",
+      "orderNumber": 1,
+      "parentModule": "ndss-dashboard",
+      "enabled": true,
+      "serviceCode": "NDSS",
+      "code": "null",
+      "path": "NatDashboard.Home",
+      "navigationURL": "/digit-ui/employee/dss/landing/NURT_DASHBOARD",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
    ]
 }
