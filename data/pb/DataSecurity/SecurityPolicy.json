@@ -125,7 +125,7 @@
           ]
            },
          {
-          "roles": ["WS_CEMP","CITIZEN","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["WS_CEMP"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -155,11 +155,6 @@
             },
             {
               "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "guardian",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
