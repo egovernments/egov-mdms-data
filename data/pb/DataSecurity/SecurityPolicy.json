@@ -598,6 +598,12 @@
           "jsonPath": "assignes/*/mobileNumber",
           "patternId": "001",
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -630,7 +636,7 @@
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "ownerType",
+              "attribute": "relationship",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
