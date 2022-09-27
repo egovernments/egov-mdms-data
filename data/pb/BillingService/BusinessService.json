@@ -5,6 +5,7 @@
     {
       "businessService": "PropertyTax",
       "code": "PT",
+      "isBillAmendmentEnabled":"true",
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
@@ -18,7 +19,7 @@
     {
       "businessService": "WaterCharges",
       "code": "WC",
-      "isBillAmendmentEnabled":false,
+      "isBillAmendmentEnabled":"true",
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
@@ -82,49 +83,8 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
-    },
-    {
-      "businessService": "Taxes.House Tax",
-      "code": "TX.House_Tax",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
-    },
-    {
-      "businessService": "Taxes.Property tax 13-14",
-      "code": "TX.Property_tax_13_14",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
-    },
-    {
-      "businessService": "Taxes.Property Tax Dishonoured Cheque Payment",
-      "code": "TX.Property_Tax_Dishonoured_Cheque_Payment",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Advertisement Tax.Hoardings",
@@ -133,7 +93,7 @@
         "DD"
       ],
       "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
+      "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
       "type": "Adhoc",
@@ -147,37 +107,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
-    },
-    {
-      "businessService": "Advertisement Tax.Canopy Fee",
-      "code": "ADVT.Canopy_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
-    },
-    {
-      "businessService": "Advertisement Tax.Outdoor Media Display Fee",
-      "code": "ADVT.Outdoor_Media_Display_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
-      "isVoucherCreationEnabled": false,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Rents.Municipal Shops Rent",
@@ -240,42 +172,6 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Rents.Sale of Land",
-      "code": "RT.Sale_of_Land",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Rents.Service Tax/GST of Rent of MC Properties",
-      "code": "RT.Service_Tax_GST_of_Rent_of_MC_Properties",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Rents.Street vendor ICARD/Certificate Fees",
-      "code": "RT.Street_vendor_ICARD/Certificate_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
       "businessService": "ADMIN Fees.Election rally fees",
       "code": "ADMN.Election_rally_fees",
       "collectionModesNotAllowed": [
@@ -312,32 +208,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "ADMIN Fees.Parking Booking Fee",
-      "code": "ADMN.Parking_Booking_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
       "businessService": "Finance Fees.Advance Provident Fund",
       "code": "FN.Advance_Provident_Fund",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Finance Fees.Security Deposit Fee (Refundable Fee)",
-      "code": "FN.Security_Deposit_Fee_Refundable_Fee",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -384,30 +256,6 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Challans.Collection and Demolition Waste Challan fee",
-      "code": "CH.Collection_and_Demolition_Waste_Challan_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Challans.Buring of Waste Challan fee",
-      "code": "CH.Buring_of_Waste_Challan_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
       "businessService": "Fee Town Planning.Telecom tower fees",
       "code": "FTP.Telecom_tower_fees",
       "collectionModesNotAllowed": [
@@ -427,11 +275,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Fee Town Planning.Draftsmen fees",
@@ -446,8 +292,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Fee Town Planning.Composition fees",
-      "code": "FTP.Composition_fees",
+      "businessService": "Fee Town Planning.Compremasing fees",
+      "code": "FTP.Compremasing_fees",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -566,8 +412,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Fee Town Planning.Leave encashment and gratuity",
-      "code": "FTP.Leave_encashment_and_gratuity",
+      "businessService": "Fee Town Planning.Leave encashment and gratuty",
+      "code": "FTP.Leave_encashment_and_gratuty",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -650,200 +496,20 @@
       "type": "Adhoc"
     },
     {
+      "businessService": "OTHER.Misc Challans",
+      "code": "OTHER.Misc_Challans",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true,
+      "type": "Adhoc"
+    },
+    {
       "businessService": "Naksha/Building Manual Fees.Regularisation of Buildings",
       "code": "NKS.Regularisation_of_Buildings",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Hadud Certificate Fees",
-      "code": "NKS.Hadud_Certificate_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.No Dues Certificate",
-      "code": "NKS.No_Dues_Certificate",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Colony Sambandhi fees",
-      "code": "NKS.Colony_Sambandhi_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Naksha fees",
-      "code": "NKS.Naksha_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Building fees",
-      "code": "NKS.Building_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Boundary Wall fees",
-      "code": "NKS.Boundary_Wall_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Malba fees",
-      "code": "NKS.Malba_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Development fees",
-      "code": "NKS.Development_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Change of Land Use Fees",
-      "code": "NKS.Change_of_Land_Use_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Under_Development_Fees",
-      "code": "NKS.Under_Development_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Economic Weaker Section Scheme Charges",
-      "code": "NKS.Economic_Weaker_Section_Scheme_Charges",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Economic Weaker Section Projects Fees",
-      "code": "NKS.Economic_Weaker_Section_Projects_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Rain Harvesting Charges",
-      "code": "NKS.Rain_Harvesting_Charges",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Sub division charges fee",
-      "code": "NKS.Sub_division_charges_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Building safety Certificate fee",
-      "code": "NKS.Building_safety_Certificate_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Naksha/Building Manual Fees.Information Certificate fee",
-      "code": "NKS.Information_Certificate_fee",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -868,18 +534,6 @@
     {
       "businessService": "Work Fee.Tender Form Fee",
       "code": "WF.Tender Form Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Work Fee.OFC Permission fees",
-      "code": "WF.OFC_Permission_fees",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -933,11 +587,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Taxes.Transfer Property Fees",
@@ -947,11 +599,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "ADMIN Fees.RTI",
@@ -990,8 +640,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Tehbazaari Fee.Challan Under section 156,121 etc",
-      "code": "Tehbazaari Fee.Challan_Under_section_156_121_etc",
+      "businessService": "Tehbazaari Fee.Challan Under section 156",
+      "code": "Tehbazaari Fee.Challan_Under_section_156",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1026,8 +676,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Other Fees.Misc Challans",
-      "code": "OTHER.Misc_Challans",
+      "businessService": "OTHER.No due certificate electricity",
+      "code": "OTHER.No_due_certificate_electricity",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1038,212 +688,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Other Fees.No Due Certificate electricity",
-      "code": "OTHER.No_Due_Certificate_electricity",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Registery and bank loan",
-      "code": "OTHER.Registery_and_bank_loan",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Water Charges",
-      "code": "OTHER.Water_Charges",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Other fees",
-      "code": "OTHER.Other_fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.NOC Fees",
-      "code": "OTHER.NOC_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Fire NOC fee",
-      "code": "OTHER.Fire_NOC_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Fire Tender Fee",
-      "code": "OTHER.Fire_Tender_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Fire Call Report Fee",
-      "code": "OTHER.Fire_Call_Report_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Bus Adda Fee",
-      "code": "OTHER.Bus_Adda_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Dispensary Fee",
-      "code": "OTHER.Dispensary_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.License fee (Slaughter House)",
-      "code": "OTHER.License_fee_Slaughter_House",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Candy fee (Slaughter House)",
-      "code": "OTHER.Candy_fee_Slaughter_House",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Conservancy fee",
-      "code": "OTHER.Conservancy_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Street Light Pole Transfer fee",
-      "code": "OTHER.Street_Light_Pole_Transfer_fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Sale of Compost Fees",
-      "code": "OTHER.Sale_of_Compost_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Sale of Recyclable Fees",
-      "code": "OTHER.Sale_of_Recyclable_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Dog Registration",
-      "code": "OTHER.Dog_Registration",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Other Fees.Swimming Pool And Gymnactics Hall Fees",
-      "code": "OTHER.Swimming_Pool_And_Gymnactics_Hall_Fees",
+      "businessService": "OTHER.registery and bank loan",
+      "code": "OTHER.registery_and_bank_loan",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1327,19 +773,7 @@
     },
     {
       "businessService": "Cess.Cow Cess",
-      "code": "CSS.Cow_Cess",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "Cess.Labor Cess",
-      "code": "CSS.Labor_Cess",
+      "code": "CSS.cow_cess",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1362,8 +796,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "Tehbazaari Fee.Rehri/Rickshaw Challan",
-      "code": "TB.Rehri_Rickshaw_Challan",
+      "businessService": "Tehbazaari Fee.Rehri Challan",
+      "code": "TB.Rehri_Challan",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1374,20 +808,8 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "License Fee.Rehri/Rickshaw Fee",
-      "code": "LCF.Rehri_Rickshaw_Fee",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "License Fee.Trade License Fee",
-      "code": "LCF.Trade_License_Fee",
+      "businessService": "License Fee.Manual Rikshaw",
+      "code": "LCF.Manual_Rikshaw",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1506,30 +928,6 @@
       "type": "Adhoc"
     },
     {
-      "businessService": "O&M Fee.Sewerage Disconnection/Connection Fees",
-      "code": "OM.Sewerage_Disconnection_Connection_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
-      "businessService": "O&M Fee.Road Cut Fees",
-      "code": "OM.Road_Cut_Fees",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc"
-    },
-    {
       "businessService": "Advertisement Tax.Light Wala Board",
       "code": "ADVT.Light_Wala_Board",
       "collectionModesNotAllowed": [
@@ -1537,11 +935,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Advertisement Tax.Wall Paint Advertisement",
@@ -1551,11 +947,9 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
       "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "type": "Adhoc"
     },
     {
       "businessService": "Advertisement Tax.Gas Balloon Advertisement",
@@ -1565,11 +959,8 @@
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Adhoc",
-      "billGineiURL" : "egov-searcher/bill-genie/mcollectbills/_get"
+      "isActive": true
     },
     {
       "businessService": "Revenue Grants",
@@ -1655,7 +1046,7 @@
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false,
-     "billGineiURL" : "egov-searcher/bill-genie/seweragebills/_get",
+      "billGineiURL" : "egov-searcher/bill-genie/seweragebills/_get",
       "isBillAmendmentEnabled":true
     },
     {
@@ -1681,10 +1072,21 @@
       "isActive": true
     },
     {
+      "businessService": "BPA.NEWCONSTRUCTION_LOW_RISK_PERMIT_FEE",
+      "code": "BPA.LOW_RISK_PERMIT_FEE",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "isActive": true
+    },
+    {
       "businessService": "PT.MUTATION",
       "code": "PT.MUTATION",
       "collectionModesNotAllowed": [
-        "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
+        "DD"
       ],
       "partPaymentAllowed": false,
       "isAdvanceAllowed": false,
@@ -1713,17 +1115,6 @@
       "isVoucherCreationEnabled": true,
       "isActive": true
     },
-    {
-      "businessService": "BPA.NEWCONSTRUCTION_LOW_RISK_PERMIT_FEE",
-      "code": "BPA.LOW_RISK_PERMIT_FEE",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true
-    },
      {
       "businessService": "SW.ONE_TIME_FEE",
       "code": "SW.ONE_TIME_FEE",
@@ -1735,7 +1126,7 @@
       "isVoucherCreationEnabled": true,
       "isActive": true
     },
-    {
+     {
       "businessService": "BPA.NEWCONSTRUCTION_OC_APP_FEE",
       "code": "BPA.NC_OC_APP_FEE",
       "collectionModesNotAllowed": [
@@ -1763,7 +1154,7 @@
       "collectionModesNotAllowed": [
         "DD"
       ],
-      "partPaymentAllowed": false,
+      "partPaymentAllowed": true,
       "isAdvanceAllowed": false,
       "isVoucherCreationEnabled": true,
       "isActive": true
@@ -1778,6 +1169,7 @@
       "isActive": true,
       "isCitizen": true,
       "type": "Adhoc"
+
     },
     {
       "businessService": "Death Certificate Fees",
@@ -1789,6 +1181,7 @@
       "isActive": true,
       "isCitizen": true,
       "type": "Adhoc"
+
     }
   ]
 }
