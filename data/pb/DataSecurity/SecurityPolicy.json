@@ -66,13 +66,13 @@
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
-          "patternId": "003",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
-          "patternId": "003",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -573,7 +573,7 @@
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress",
-          "patternId": "003",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         },
         {
