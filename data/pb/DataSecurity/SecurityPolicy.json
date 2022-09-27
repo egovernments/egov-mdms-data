@@ -125,7 +125,7 @@
           ]
            },
          {
-          "roles": ["WS_CEMP","CITIZEN","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["WS_CEMP"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -155,11 +155,6 @@
             },
             {
               "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "guardian",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
@@ -560,7 +555,7 @@
         {
           "name": "connectionHoldersMobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": "007",
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -578,7 +573,7 @@
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress",
-          "patternId": "001",
+          "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -590,13 +585,19 @@
         {
           "name": "plumberInfoMobileNumber",
           "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": "008",
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "assigneeMobileNumber",
           "jsonPath": "assignes/*/mobileNumber",
-          "patternId": "007",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -630,7 +631,7 @@
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "ownerType",
+              "attribute": "relationship",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
@@ -917,6 +918,12 @@
           "name": "assigneeMobileNumber",
           "jsonPath": "assignes/*/mobileNumber",
           "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         }
       ],
