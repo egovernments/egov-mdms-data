@@ -621,6 +621,10 @@
     {
       "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_SW_APP_[TENANT_ID]]",
       "idname": "sewerageservice.disconnection.id"
+    },
+    {
+      "format": "PB-DTR-[cy:yyyy-MM-dd]-[SEQ_EG_DTR_ID]",
+      "idname": "anuragpanda-dtr.registrationid"
     }
   ]
 }
