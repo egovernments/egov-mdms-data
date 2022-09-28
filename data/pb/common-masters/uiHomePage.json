@@ -51,11 +51,11 @@
                         "navigationUrl": "/digit-ui/citizen/tl-home"
                     },
                     {
-                        "code": "CITIZEN_SERVICE_BPA",
-                        "name": "BPA",
-                        "label": "CS_COMMON_INBOX_BPA",
+                        "code": ""CITIZEN_SERVICE_WS",
+                        "name": "Water & Sewerage",
+                        "label": "ACTION_TEST_WATER_AND_SEWERAGE",
                         "enabled": true,
-                        "navigationUrl": "/digit-ui/citizen/obps-home"
+                        "navigationUrl": "/digit-ui/citizen/ws-home"
                     }
                 ]
             },
