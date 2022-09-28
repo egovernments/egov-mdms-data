@@ -615,6 +615,10 @@
       "idname": "btr.registrationid"
     },
     {
+      "format": "PB-DTR-[cy:yyyy-MM-dd]-[SEQ_EG_DTR_ID]",
+      "idname": "dtr.registrationid"
+    },
+    {
       "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_WS_APP_[TENANT_ID]]",
       "idname": "waterservice.disconnection.id"
     },
