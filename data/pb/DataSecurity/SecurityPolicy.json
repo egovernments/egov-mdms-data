@@ -928,6 +928,142 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "TradeLicenseRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "StateTradeLicenseCancelledRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TradeLicenseCancelledRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "StateLevelTradeLicenseRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TradeLicenseDailyCollectionReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TLApplicationStatusReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TLRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TLRenewalPendingReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
     }
   ]
 }
