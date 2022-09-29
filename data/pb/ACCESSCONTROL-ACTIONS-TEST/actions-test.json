@@ -21443,6 +21443,42 @@
       "serviceCode": "BTR",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2385,
+      "name": "Death registration module create",
+      "url": "/death-registration/death-services/v1/registration/_create",
+      "parentModule": "",
+      "displayName": "Death registration",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "DTR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2386,
+      "name": "Death registration module update",
+      "url": "/death-registration/death-services/v1/registration/_update",
+      "parentModule": "",
+      "displayName": "Death registration",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "DTR",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2387,
+      "name": "Death registration module search",
+      "url": "/death-registration/death-services/v1/registration/_search",
+      "parentModule": "",
+      "displayName": "Death registration",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "DTR",
+      "code": "null",
+      "path": ""
     }
   ]
 }
