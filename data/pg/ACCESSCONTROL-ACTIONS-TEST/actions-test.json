@@ -6954,7 +6954,7 @@
          "serviceCode": "wns",
          "code": "",
          "path": "",
-         "navigationURL": "wns-citizen/home",
+         "navigationURL": "digit-ui/citizen/ws-home",
          "leftIcon": "custom:water-tap",
          "rightIcon": "",
          "queryParams": ""
@@ -6969,7 +6969,7 @@
          "enabled": true,
          "serviceCode": "wns",
          "code": "null",
-         "navigationURL": "wns-citizen/home",
+         "navigationURL": "digit-ui/citizen/ws-home",
          "path": "wns",
          "leftIcon": "custom:water-tap",
          "rightIcon": ""
