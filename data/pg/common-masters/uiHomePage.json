@@ -7,14 +7,14 @@
             {
                 "code": "APP_BANNER_DESKTOP",
                 "name": "App Banner Desktop View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-uat-assets/app-banner-web.jpg",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
                 "enabled": true
             },
             "appBannerMobile":
             {
                 "code": "APP_BANNER_MOBILE",
                 "name": "App Banner Mobile View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-uat-assets/app-banner-mobile.jpg",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
                 "enabled": true
             },
             "citizenServicesCard":
@@ -117,7 +117,7 @@
             {
                 "code": "WHATSAPP_BANNER_DESKTOP",
                 "name": "WhatsApp Banner Desktop View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-uat-assets/whatsapp-web.jpg",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
                 "enabled": true,
                 "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
             },
@@ -125,7 +125,7 @@
             {
                 "code": "WHATSAPP_BANNER_MOBILE",
                 "name": "WhatsApp Banner Mobile View",
-                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-uat-assets/whatsapp-mobile.jpg",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
                 "enabled": true,
                 "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
             }
