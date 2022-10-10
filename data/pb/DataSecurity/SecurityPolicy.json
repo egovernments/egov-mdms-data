@@ -119,7 +119,7 @@
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED",
+              "firstLevelVisibility": "ENCRYPTED",
               "secondLevelVisibility": "PLAIN"
             }
           ]
