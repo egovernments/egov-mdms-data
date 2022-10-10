@@ -112,23 +112,8 @@
                     "enabled": true,
                     "navigationUrl": "/digit-ui/citizen/engagement/whats-new"
                   }
-            },
-            "whatsAppBannerDesktop":
-            {
-                "code": "WHATSAPP_BANNER_DESKTOP",
-                "name": "WhatsApp Banner Desktop View",
-                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
-                "enabled": true,
-                "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
-            },
-            "whatsAppBannerMobile":
-            {
-                "code": "WHATSAPP_BANNER_MOBILE",
-                "name": "WhatsApp Banner Mobile View",
-                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
-                "enabled": true,
-                "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
             }
+            
         }  
     ]
 }
