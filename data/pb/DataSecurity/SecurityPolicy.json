@@ -6,7 +6,7 @@
       "model": "User",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -232,7 +232,7 @@
       "model": "UserSelf",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -314,7 +314,7 @@
       "model": "EmployeeReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -341,7 +341,7 @@
       "model": "waterOpenSearch",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -368,7 +368,7 @@
       "model": "DescriptionReport",
       "uniqueIdentifier":{
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes":[
         {
@@ -395,7 +395,7 @@
       "model": "LMEPerformanceReport",
       "uniqueIdentifier":{
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes":[
         {
@@ -422,7 +422,7 @@
       "model": "GROPerformanceReport",
       "uniqueIdentifier":{
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes":[
         {
@@ -448,8 +448,8 @@
     {
       "model": "Property",
       "uniqueIdentifier": {
-        "name": "propertyId",
-        "jsonPath": "propertyId"
+        "name": "uuid",
+        "jsonPath": "/owners/0/uuid"
       },
       "attributes": [
         {
@@ -548,7 +548,7 @@
       "model": "WnSConnectionOwner",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
       
@@ -653,7 +653,7 @@
       "model": "ObpsApplicationStatusReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -676,7 +676,7 @@
       "model": "ObpsDailyCollectionReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -693,7 +693,7 @@
       "model": "WnsReceiptRegisterReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -710,7 +710,7 @@
       "model": "WnsCollectionRegisterReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -727,7 +727,7 @@
       "model": "WnsDefaulterReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -771,7 +771,7 @@
       "model": "PTReceiptRegister",
       "uniqueIdentifier": {
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes": [
         {
@@ -787,7 +787,7 @@
       "model": "PTCollectionReport",
       "uniqueIdentifier": {
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes": [
         {
@@ -803,7 +803,7 @@
       "model": "DefaulterReport",
       "uniqueIdentifier": {
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes": [
         {
@@ -819,7 +819,7 @@
       "model": "PropertyDecrypDisabled",
       "uniqueIdentifier": {
         "name": "propertyId",
-        "jsonPath": "propertyId"
+        "jsonPath": "/propertyId"
       },
       "attributes": [
         {
@@ -847,7 +847,7 @@
       "model": "WnSConnectionDecrypDisabled",
       "uniqueIdentifier": {
         "name": "applicationNo",
-        "jsonPath": "applicationNo"
+        "jsonPath": "/applicationNo"
       },
       "attributes": [
         {
@@ -875,7 +875,7 @@
       "model": "WnSConnectionOwnerDecrypDisabled",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -933,7 +933,7 @@
       "model": "TradeLicenseRegistryReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -950,7 +950,7 @@
       "model": "StateTradeLicenseCancelledRegistryReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -967,7 +967,7 @@
       "model": "TradeLicenseCancelledRegistryReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -984,7 +984,7 @@
       "model": "StateLevelTradeLicenseRegistryReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -1001,7 +1001,7 @@
       "model": "TradeLicenseDailyCollectionReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -1018,7 +1018,7 @@
       "model": "TLApplicationStatusReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -1035,7 +1035,7 @@
       "model": "TLRegistryReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -1052,7 +1052,7 @@
       "model": "TLRenewalPendingReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
