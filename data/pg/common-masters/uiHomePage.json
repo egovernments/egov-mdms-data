@@ -112,8 +112,23 @@
                     "enabled": true,
                     "navigationUrl": "/digit-ui/citizen/engagement/whats-new"
                   }
+            },
+            "whatsAppBannerDesktop":
+            {
+                "code": "WHATSAPP_BANNER_DESKTOP",
+                "name": "WhatsApp Banner Desktop View",
+                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/whatsapp-web.jpg",
+                "enabled": true,
+                "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
+            },
+            "whatsAppBannerMobile":
+            {
+                "code": "WHATSAPP_BANNER_MOBILE",
+                "name": "WhatsApp Banner Mobile View",
+                "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/whatsapp-mobile.jpg",
+                "enabled": true,
+                "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
             }
-            
         }  
     ]
 }
