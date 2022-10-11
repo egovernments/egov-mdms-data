@@ -497,8 +497,8 @@
 {
       "model": "WnSConnection",
       "uniqueIdentifier": {
-        "name": "applicationNo",
-        "jsonPath": "applicationNo"
+        "name": "uuid",
+        "jsonPath": "/connectionHolders/0/uuid"
       },
       "attributes": [
         {
@@ -846,8 +846,8 @@
     {
       "model": "WnSConnectionDecrypDisabled",
       "uniqueIdentifier": {
-        "name": "applicationNo",
-        "jsonPath": "/applicationNo"
+        "name": "uuid",
+        "jsonPath": "/connectionHolders/0/uuid"
       },
       "attributes": [
         {
