@@ -6,7 +6,7 @@
       "model": "User",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -66,13 +66,13 @@
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
-          "patternId": "003",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
-          "patternId": "003",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -123,15 +123,16 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
-        },
-        {
-          "roles": ["WS_CEMP","SW_CEMP"],
+           },
+         {
+          "roles": ["WS_CEMP"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
+            
             {
               "attribute": "fatherOrHusbandName",
               "firstLevelVisibility": "MASKED",
@@ -143,17 +144,23 @@
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "permanentAddress",
+              "attribute": "name",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "emailId",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
             {
-              "attribute": "guardian",
+              "attribute": "permanentAddress",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
           ]
         },
+         
         {
           "roles": ["INTERNAL_MICROSERVICE_ROLE"],
           "attributeAccessList": [
@@ -218,21 +225,6 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
-        },
-        {
-          "roles": ["CITIZEN"],
-          "attributeAccessList": [
-            {
-              "attribute": "correspondenceAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
         }
       ]
     },
@@ -240,7 +232,7 @@
       "model": "UserSelf",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -322,7 +314,7 @@
       "model": "EmployeeReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -349,7 +341,7 @@
       "model": "waterOpenSearch",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -373,26 +365,91 @@
       ]
     },
     {
-      "model": "PrivacyAuditReport",
-      "uniqueIdentifier": {
-        "name": "uuid",
-        "jsonPath": "uuid"
+      "model": "DescriptionReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "/user_uuid"
       },
-      "attributes": [
+      "attributes":[
         {
-          "name": "dataviewedby",
-          "jsonPath": "dataviewedby",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["GRO"],
+          "attributeAccessList": [
+            {
+              "attribute": "name",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "LMEPerformanceReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "/user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "employee",
+          "jsonPath": "employee",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["GRO"],
+          "attributeAccessList": [
+            {
+              "attribute": "employee",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "GROPerformanceReport",
+      "uniqueIdentifier":{
+        "name": "user_uuid",
+        "jsonPath": "/user_uuid"
+      },
+      "attributes":[
+        {
+          "name": "employee",
+          "jsonPath": "employee",
+          "patternId": "002",
+          "defaultVisibility":"PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["GRO"],
+          "attributeAccessList": [
+            {
+              "attribute": "employee",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     },
     {
       "model": "Property",
       "uniqueIdentifier": {
-        "name": "propertyId",
-        "jsonPath": "propertyId"
+        "name": "uuid",
+        "jsonPath": "/owners/0/uuid"
       },
       "attributes": [
         {
@@ -416,20 +473,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "EMPLOYEE",
-            "CITIZEN",
-            "WS_CEMP",
-            "WS_DOC_VERIFIER",
-            "WS_FIELD_INSPECTOR",
-            "WS_APPROVER",
-            "WS_CLERK",
-            "SW_CEMP",
-            "SW_DOC_VERIFIER",
-            "SW_FIELD_INSPECTOR",
-            "SW_APPROVER",
-            "SW_CLERK"
-          ],
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "street",
@@ -450,11 +494,11 @@
         }
       ]
     },
-    {
+{
       "model": "WnSConnection",
       "uniqueIdentifier": {
-        "name": "applicationNo",
-        "jsonPath": "applicationNo"
+        "name": "uuid",
+        "jsonPath": "/connectionHolders/0/uuid"
       },
       "attributes": [
         {
@@ -462,7 +506,7 @@
           "jsonPath": "connectionHolders/*/ownerType",
           "patternId": "005",
           "defaultVisibility": "PLAIN"
-        },
+        },        
         {
           "name": "plumberInfoMobileNumber",
           "jsonPath": "plumberInfo/*/mobileNumber",
@@ -478,21 +522,9 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "EMPLOYEE",
-            "CITIZEN",
-            "WS_CEMP",
-            "WS_DOC_VERIFIER",
-            "WS_FIELD_INSPECTOR",
-            "WS_APPROVER",
-            "WS_CLERK",
-            "SW_CEMP",
-            "SW_DOC_VERIFIER",
-            "SW_FIELD_INSPECTOR",
-            "SW_APPROVER",
-            "SW_CLERK"
-          ],
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
+       
             {
               "attribute": "ownerType",
               "firstLevelVisibility": "MASKED",
@@ -516,9 +548,10 @@
       "model": "WnSConnectionOwner",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
+      
         {
           "name": "connectionHoldersMobileNumber",
           "jsonPath": "mobileNumber",
@@ -540,7 +573,7 @@
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress",
-          "patternId": "003",
+          "patternId": "005",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -570,20 +603,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": [
-            "EMPLOYEE",
-            "CITIZEN",
-            "WS_CEMP",
-            "WS_DOC_VERIFIER",
-            "WS_FIELD_INSPECTOR",
-            "WS_APPROVER",
-            "WS_CLERK",
-            "SW_CEMP",
-            "SW_DOC_VERIFIER",
-            "SW_FIELD_INSPECTOR",
-            "SW_APPROVER",
-            "SW_CLERK"
-          ],
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "connectionHoldersMobileNumber",
@@ -629,11 +649,11 @@
         }
       ]
     },
-    {
+     {
       "model": "ObpsApplicationStatusReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -656,7 +676,7 @@
       "model": "ObpsDailyCollectionReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -673,7 +693,7 @@
       "model": "WnsReceiptRegisterReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -690,7 +710,7 @@
       "model": "WnsCollectionRegisterReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -707,7 +727,7 @@
       "model": "WnsDefaulterReport",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -751,7 +771,7 @@
       "model": "PTReceiptRegister",
       "uniqueIdentifier": {
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes": [
         {
@@ -767,7 +787,7 @@
       "model": "PTCollectionReport",
       "uniqueIdentifier": {
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes": [
         {
@@ -783,7 +803,7 @@
       "model": "DefaulterReport",
       "uniqueIdentifier": {
         "name": "user_uuid",
-        "jsonPath": "user_uuid"
+        "jsonPath": "/user_uuid"
       },
       "attributes": [
         {
@@ -799,7 +819,7 @@
       "model": "PropertyDecrypDisabled",
       "uniqueIdentifier": {
         "name": "propertyId",
-        "jsonPath": "propertyId"
+        "jsonPath": "/propertyId"
       },
       "attributes": [
         {
@@ -826,8 +846,8 @@
     {
       "model": "WnSConnectionDecrypDisabled",
       "uniqueIdentifier": {
-        "name": "applicationNo",
-        "jsonPath": "applicationNo"
+        "name": "uuid",
+        "jsonPath": "/connectionHolders/0/uuid"
       },
       "attributes": [
         {
@@ -855,7 +875,7 @@
       "model": "WnSConnectionOwnerDecrypDisabled",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
@@ -899,8 +919,151 @@
           "jsonPath": "assignes/*/mobileNumber",
           "patternId": null,
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "relationship",
+          "jsonPath": "connectionHolders/*/relationship",
+          "patternId": "005",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": []
-    } ]
+    },
+    {
+      "model": "TradeLicenseRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "StateTradeLicenseCancelledRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TradeLicenseCancelledRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "StateLevelTradeLicenseRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TradeLicenseDailyCollectionReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TLApplicationStatusReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TLRegistryReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    },
+    {
+      "model": "TLRenewalPendingReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
+    }
+  ]
 }

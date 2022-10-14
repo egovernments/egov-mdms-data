@@ -21479,6 +21479,18 @@
       "serviceCode": "DTR",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2388,
+      "name": "Vehicle Trip Decrease",
+      "url": "/vehicle/trip/v1/_conStructTripDecreaseRequest",
+      "displayName": "Vehicle Trip Decrease",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "vehicle",
+      "code": "null",
+      "path": ""
     }
   ]
 }

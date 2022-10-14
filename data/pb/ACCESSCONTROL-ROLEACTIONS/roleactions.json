@@ -22623,6 +22623,18 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "FSM_DSO",
+      "actionid": 2063,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2063,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 2062,
       "actioncode": "",
@@ -26567,6 +26579,18 @@
     {
       "rolecode": "EMPLOYEE",
       "actionid": 2387,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 2388,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+	  {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 2388,
       "actioncode": "",
       "tenantId": "pb"
     }
