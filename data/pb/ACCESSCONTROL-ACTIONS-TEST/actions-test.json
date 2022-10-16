@@ -21491,6 +21491,24 @@
       "serviceCode": "vehicle",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2389,
+      "name": "PIRAMAL_CREATE_PIRAMAL",
+      "url": "digit-ui-card",
+      "displayName": "Apply for Piramal",
+      "orderNumber": 1,
+      "parentModule": "PIRAMAL",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/piramal/new-application",
+      "leftIcon": "PiramalIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/tl-home"
     }
   ]
 }
