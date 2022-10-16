@@ -540,6 +540,23 @@
           "code": "pb.amritsar"
         }
       ]
+    },
+    {
+      "module": "Piramal",
+      "code": "Piramal",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
     }
   ]
 }
