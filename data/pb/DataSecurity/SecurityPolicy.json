@@ -125,7 +125,7 @@
           ]
            },
          {
-          "roles": ["WS_CEMP"],
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -155,6 +155,11 @@
             },
             {
               "attribute": "permanentAddress",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "guardian",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             }
@@ -506,12 +511,6 @@
           "jsonPath": "connectionHolders/*/ownerType",
           "patternId": "005",
           "defaultVisibility": "PLAIN"
-        },        
-        {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": "008",
-          "defaultVisibility": "PLAIN"
         },
         {
           "name": "relationship",
@@ -524,14 +523,9 @@
         {
           "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
-       
+            
             {
               "attribute": "ownerType",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "plumberInfoMobileNumber",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
@@ -750,7 +744,7 @@
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": "005",
+          "patternId": "001",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -853,12 +847,6 @@
         {
           "name": "ownerType",
           "jsonPath": "connectionHolders/*/ownerType",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
           "patternId": null,
           "defaultVisibility": "PLAIN"
         },
@@ -1026,6 +1014,12 @@
           "jsonPath": "name",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "currentowner",
+          "jsonPath": "currentowner",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -1064,6 +1058,49 @@
       ],
       "roleBasedDecryptionPolicy": [
       ]
+    },
+    {
+      "model": "WnSConnectionPlumber",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "/applicationNo"
+      },
+      "attributes": [  
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "attributeAccessList": [
+           {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "WnSConnectionPlumberDecrypDisabled",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "/applicationNo"
+      },
+      "attributes": [
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
