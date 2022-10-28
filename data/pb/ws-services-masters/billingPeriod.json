@@ -17,6 +17,14 @@
       "demandEndDateMillis": 2592000000,
       "demandExpiryDate": 0,
       "demandGenerationDateMillis": 345600000
+    },
+    {
+      "active": true,
+      "connectionType": "Bulk-supply",
+      "billingCycle": "monthly",
+      "demandEndDateMillis": 2592000000,
+      "demandExpiryDate": 0,
+      "demandGenerationDateMillis": 345600000
     }
   ]
 }
