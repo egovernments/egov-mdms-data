@@ -123,16 +123,26 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
-           },
-         {
-          "roles": ["WS_CEMP"],
+          },
+        {
+          "roles": ["REINDEXING_ROLE"],
+          "attributeAccessList": [
+            {
+              "attribute": "mobileNumber",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        },
+        {
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"
+          ],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
-            
             {
               "attribute": "fatherOrHusbandName",
               "firstLevelVisibility": "MASKED",
@@ -491,6 +501,26 @@
               "secondLevelVisibility": "PLAIN"
             }
           ]
+          },
+        {
+          "roles": ["REINDEXING_ROLE"],
+          "attributeAccessList": [
+            {
+              "attribute": "street",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "doorNo",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "landmark",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
         }
       ]
     },
@@ -523,8 +553,7 @@
       "roleBasedDecryptionPolicy": [
         {
           "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
-          "attributeAccessList": [
-            
+          "attributeAccessList": [  
             {
               "attribute": "ownerType",
               "firstLevelVisibility": "MASKED",
@@ -538,6 +567,21 @@
             {
               "attribute": "relationship",
               "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+          },
+        {
+          "roles": ["REINDEXING_ROLE"],
+          "attributeAccessList": [
+            {
+              "attribute": "ownerType",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "relationship",
+              "firstLevelVisibility": "ENCRYPTED",
               "secondLevelVisibility": "PLAIN"
             }
           ]
@@ -643,6 +687,51 @@
             {
               "attribute": "assigneeMobileNumber",
               "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+          },
+        {
+          "roles": ["REINDEXING_ROLE"],
+          "attributeAccessList": [
+            {
+              "attribute": "connectionHoldersMobileNumber",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "gender",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "fatherOrHusbandName",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "ownerType",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "correspondenceAddress",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "relationship",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+              },
+            {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "assigneeMobileNumber",
+              "firstLevelVisibility": "ENCRYPTED",
               "secondLevelVisibility": "PLAIN"
             }
           ]
@@ -1064,6 +1153,59 @@
       ],
       "roleBasedDecryptionPolicy": [
       ]
+    },
+    
+      "model": "WnSConnectionPlumber",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "/applicationNo"
+      },
+      "attributes": [  
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "attributeAccessList": [
+           {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+           },
+        {
+          "roles": ["REINDEXING_ROLE"],
+          "attributeAccessList": [
+            {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "ENCRYPTED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+          }
+      ]
+    },
+    {
+      "model": "WnSConnectionPlumberDecrypDisabled",
+      "uniqueIdentifier": {
+         "name": "applicationNo",
+        "jsonPath": "/applicationNo"
+   },
+      "attributes": [
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
