@@ -417,6 +417,222 @@
       "connectionType": "Non Metered",
       "minimumCharge": 250,
       "slabs": []
+    },
+    {
+      "id": "24",
+      "buildingType": "RESIDENTIAL",
+      "calculationAttribute": "No. of taps",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "buildingType": "RESIDENTIAL",
+      "calculationAttribute": "Pipe Size",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "buildingType": "NONRESIDENTIAL",
+      "calculationAttribute": "Pipe Size",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+       {
+      "id": "27",
+      "buildingType": "NONRESIDENTIAL",
+      "calculationAttribute": "No. of taps",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "buildingType": "Commercial",
+      "calculationAttribute": "Pipe Size",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "buildingType": "Commercial",
+      "calculationAttribute": "No. of taps",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "buildingType": "Government",
+      "calculationAttribute": "No. of taps",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "buildingType": "Government",
+      "calculationAttribute": "Pipe Size",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "buildingType": "Partly Commercial",
+      "calculationAttribute": "No. of taps",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "buildingType": "Partly Commercial",
+      "calculationAttribute": "Pipe Size",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 0
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "buildingType": "RESIDENTIAL",
+      "calculationAttribute": "Flat",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": []
+    },
+    {
+      "id": "35",
+      "buildingType": "NONRESIDENTIAL",
+      "calculationAttribute": "Flat",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": []
+    },
+    {
+      "id": "36",
+      "buildingType": "Commercial",
+      "calculationAttribute": "Flat",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": []
+    },
+    {
+      "id": "37",
+      "buildingType": "Government",
+      "calculationAttribute": "Flat",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": []
+    },
+    {
+      "id": "38",
+      "buildingType": "Partly commercial",
+      "calculationAttribute": "Flat",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": []
+    },
+    {
+      "id": "39",
+      "buildingType": "MIXED",
+      "calculationAttribute": "No. of taps",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 100
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "buildingType": "MIXED",
+      "calculationAttribute": "Pipe Size",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": [
+        {
+          "from": 0,
+          "to": 1000000000,
+          "charge": 150
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "buildingType": "MIXED",
+      "calculationAttribute": "Flat",
+      "connectionType": "Bulk-supply",
+      "minimumCharge": 0,
+      "slabs": []
     }
   ]
 }
