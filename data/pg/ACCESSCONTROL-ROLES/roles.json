@@ -666,6 +666,11 @@
       "code": "CR_WS",
       "name": "WS Receipt Cancellator",
       "description": "WS Receipt Cancelling Employee"
+    },
+    {
+      "code": "REINDEXING_ROLE",
+      "name": "Reindexing Role",
+      "description": "Role for reindexing for encrypted data access"  
     }
   ]
 }
