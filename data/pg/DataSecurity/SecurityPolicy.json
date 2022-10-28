@@ -125,7 +125,7 @@
           ]
            },
          {
-          "roles": ["WS_CEMP"],
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -508,12 +508,6 @@
           "defaultVisibility": "PLAIN"
         },        
         {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": "008",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "relationship",
           "jsonPath": "connectionHolders/*/relationship",
           "patternId": "005",
@@ -527,11 +521,6 @@
             
             {
               "attribute": "ownerType",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "plumberInfoMobileNumber",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
             },
@@ -857,12 +846,6 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "relationship",
           "jsonPath": "connectionHolders/*/relationship",
           "patternId": null,
@@ -1064,6 +1047,50 @@
       ],
       "roleBasedDecryptionPolicy": [
       ]
+    },
+    {
+      "model": "WnSConnectionPlumber",
+      "uniqueIdentifier": {
+        "name": "applicationNo",
+        "jsonPath": "/applicationNo"
+      },
+      "attributes": [  
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "attributeAccessList": [
+           {
+              "attribute": "plumberInfoMobileNumber",
+              "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model": "WnSConnectionPlumberDecrypDisabled",
+      "uniqueIdentifier": {
+        "name": "applicationno",
+        "jsonPath": "/applicationno"
+      },
+      "attributes": [
+        {
+          "name": "plumberInfoMobileNumber",
+          "jsonPath": "plumberInfo/*/mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
+  
