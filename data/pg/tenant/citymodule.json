@@ -478,6 +478,23 @@
       ]
     },
     {
+      "module": "WS",
+      "code": "WS",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
+    },
+    {
       "module": "SW",
       "code": "SW",
       "active": true,
