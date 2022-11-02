@@ -25789,6 +25789,18 @@
       "actionid": 2422,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "REINDEXING_ROLE",
+      "actionid": 695,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "REINDEXING_ROLE",
+      "actionid": 1897,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
