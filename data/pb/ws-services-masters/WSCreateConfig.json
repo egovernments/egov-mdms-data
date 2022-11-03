@@ -135,18 +135,18 @@
                         "submitBarLabel": "CS_COMMON_NEXT"
                     }
                 },
-                //{
-                //    "route": "plumber-preference",
-                //    "component": "WSPlumberPreference",
-                //    "key": "plumberPreference",
-                //    "nextStep": "document-details",
-                //    "texts": {
-                //        "headerCaption": "WS_COMMON_CONNECTION_DETAIL",
-                //        "header": "WS_PLUMBER_PREFERENCE",
-                //        "cardText": "",
-                //        "submitBarLabel": "CS_COMMON_NEXT"
-                //    }
-                //},
+                {
+                    "route": "plumber-preference",
+                    "component": "WSPlumberPreference",
+                    "key": "plumberPreference",
+                    "nextStep": "document-details",
+                    "texts": {
+                        "headerCaption": "WS_COMMON_CONNECTION_DETAIL",
+                        "header": "WS_PLUMBER_PREFERENCE",
+                        "cardText": "",
+                        "submitBarLabel": "CS_COMMON_NEXT"
+                    }
+                },
                 {
                     "route": "document-details",
                     "component": "WSDocumentDetails",
