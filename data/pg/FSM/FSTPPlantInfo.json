@@ -45,6 +45,17 @@
             "PlantOperationalTimings": "10.00am-06.00pm",
             "PlantOperationalCapacityKLD": "10",
             "ULBS": "pg.aska"
-        }
+        },
+        {  
+            "PlantCode": "ROUR005",
+            "PlantName": "Rourkela Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Rourkela",
+            "PlusCode": "6RCQ+HX",
+            "PlantOperationalTimings": "06.00am-03.00pm",
+            "PlantOperationalCapacityKLD": "40",
+            "ULBS": "pg.rourkela"
+        }  
     ]
 }

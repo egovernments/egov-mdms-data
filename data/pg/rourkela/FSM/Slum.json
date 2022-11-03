@@ -1,0 +1,792 @@
+{
+    "tenantId": "pg.rourkela",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+         "name": "Burutola",
+         "active": true,
+         "code": "RKSL001",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Birijatola",
+         "active": true,
+         "code": "RKSL002",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pharsatola",
+         "active": true,
+         "code": "RKSL003",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tanty Tola",
+         "active": true,
+         "code": "RKSL004",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Oram Tola",
+         "active": true,
+         "code": "RKSL005",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Khaparatola",
+         "active": true,
+         "code": "RKSL006",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopapali",
+         "active": true,
+         "code": "RKSL007",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nayaktola",
+         "active": true,
+         "code": "RKSL008",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Naditola",
+         "active": true,
+         "code": "RKSL009",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Singtola-1",
+         "active": true,
+         "code": "RKSL010",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Mundary Tola",
+         "active": true,
+         "code": "RKSL011",
+         "locality": "VIL1"
+        },
+        {
+         "name": "PatraTOla",
+         "active": true,
+         "code": "RKSL012",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhanda Tola",
+         "active": true,
+         "code": "RKSL013",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pradhanpalli",
+         "active": true,
+         "code": "RKSL014",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bandhposh",
+         "active": true,
+         "code": "RKSL015",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tisco Area",
+         "active": true,
+         "code": "RKSL016",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kishantola",
+         "active": true,
+         "code": "RKSL017",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Chhend Basti",
+         "active": true,
+         "code": "RKSL018",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Khadiatoli",
+         "active": true,
+         "code": "RKSL019",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bankia Basti",
+         "active": true,
+         "code": "RKSL020",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tulsitola",
+         "active": true,
+         "code": "RKSL021",
+         "locality": "VIL1"
+        },
+        {
+         "name": "kalingabihar Basti",
+         "active": true,
+         "code": "RKSL022",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Panposh Basti",
+         "active": true,
+         "code": "RKSL023",
+         "locality": "VIL1"
+        },
+        {
+         "name": "TUngritola",
+         "active": true,
+         "code": "RKSL024",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Balughat",
+         "active": true,
+         "code": "RKSL025",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ruptola ",
+         "active": true,
+         "code": "RKSL026",
+         "locality": "VIL1"
+        },
+        {
+         "name": "ManI Colony",
+         "active": true,
+         "code": "RKSL027",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Banglatola",
+         "active": true,
+         "code": "RKSL028",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Deogaon",
+         "active": true,
+         "code": "RKSL029",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nabakrushnanagar basti",
+         "active": true,
+         "code": "RKSL030",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Balijodi Basti",
+         "active": true,
+         "code": "RKSL031",
+         "locality": "VIL1"
+        },
+        {
+         "name": "IDL colony",
+         "active": true,
+         "code": "RKSL032",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopabandhunagar",
+         "active": true,
+         "code": "RKSL033",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dharmdihi",
+         "active": true,
+         "code": "RKSL034",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhanj colony",
+         "active": true,
+         "code": "RKSL035",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sonaparbat",
+         "active": true,
+         "code": "RKSL036",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Mantola A&amp;B",
+         "active": true,
+         "code": "RKSL037",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Parking Basti Basti",
+         "active": true,
+         "code": "RKSL038",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gadhatola",
+         "active": true,
+         "code": "RKSL039",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rajiv Basti",
+         "active": true,
+         "code": "RKSL040",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gajapatipalli-2",
+         "active": true,
+         "code": "RKSL041",
+         "locality": "VIL1"
+        },
+        {
+         "name": "swapnapuri Basti",
+         "active": true,
+         "code": "RKSL042",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kaharia Bahal",
+         "active": true,
+         "code": "RKSL043",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gangadharpalli",
+         "active": true,
+         "code": "RKSL044",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Keshari Nagar",
+         "active": true,
+         "code": "RKSL045",
+         "locality": "VIL1"
+        },
+        {
+         "name": "ITI Shanti Nagar",
+         "active": true,
+         "code": "RKSL046",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Netaji Nagar",
+         "active": true,
+         "code": "RKSL047",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Byasa Nagar",
+         "active": true,
+         "code": "RKSL048",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pakistan Coloney",
+         "active": true,
+         "code": "RKSL049",
+         "locality": "VIL1"
+        },
+        {
+         "name": "FCI  Basti",
+         "active": true,
+         "code": "RKSL050",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kalinga Vihar-2",
+         "active": true,
+         "code": "RKSL051",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bagbudi Basti A",
+         "active": true,
+         "code": "RKSL052",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bagbudi Basti  D",
+         "active": true,
+         "code": "RKSL053",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dhamarabasti",
+         "active": true,
+         "code": "RKSL054",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bput site Basti",
+         "active": true,
+         "code": "RKSL055",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kalyan Nagar Basti",
+         "active": true,
+         "code": "RKSL056",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Harihar nagar",
+         "active": true,
+         "code": "RKSL057",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Durgapur - DAV Jhumpudi",
+         "active": true,
+         "code": "RKSL058",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Jharana Basti",
+         "active": true,
+         "code": "RKSL059",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ambedkar Nagar Basti",
+         "active": true,
+         "code": "RKSL060",
+         "locality": "VIL1"
+        },
+        {
+         "name": "DAV - Akhandalamani Basti",
+         "active": true,
+         "code": "RKSL061",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Basanti Coloney,Kumbharpada",
+         "active": true,
+         "code": "RKSL062",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Haripur Basti",
+         "active": true,
+         "code": "RKSL063",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kusthashram Basti",
+         "active": true,
+         "code": "RKSL064",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Malgodam  Durgapur basti",
+         "active": true,
+         "code": "RKSL065",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Malgodam Good sideBasti",
+         "active": true,
+         "code": "RKSL066",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Malgodam Basti",
+         "active": true,
+         "code": "RKSL067",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nehru Palli",
+         "active": true,
+         "code": "RKSL068",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Madhusudanpalli",
+         "active": true,
+         "code": "RKSL069",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Madhusudan Palli -A",
+         "active": true,
+         "code": "RKSL070",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Madhusudan Palli ,Kalimandir",
+         "active": true,
+         "code": "RKSL071",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Vivekanandpalli",
+         "active": true,
+         "code": "RKSL072",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Railway Coloney Jhumpudi",
+         "active": true,
+         "code": "RKSL073",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Church Basti",
+         "active": true,
+         "code": "RKSL074",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopabandhupalli ",
+         "active": true,
+         "code": "RKSL075",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Station to Shanti bhawan",
+         "active": true,
+         "code": "RKSL076",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Indira Nagar - I",
+         "active": true,
+         "code": "RKSL077",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Indira Nagar - II",
+         "active": true,
+         "code": "RKSL078",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Timber Coloney - I",
+         "active": true,
+         "code": "RKSL079",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopabandhupalli - II",
+         "active": true,
+         "code": "RKSL080",
+         "locality": "VIL1"
+        },
+        {
+         "name": " Gandhi Rd Basti",
+         "active": true,
+         "code": "RKSL081",
+         "locality": "VIL1"
+        },
+        {
+         "name": "G.T.Lane - Traffic Gate",
+         "active": true,
+         "code": "RKSL082",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Old Station Road",
+         "active": true,
+         "code": "RKSL083",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Machhali Basti",
+         "active": true,
+         "code": "RKSL084",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Lal Building - Teligu para",
+         "active": true,
+         "code": "RKSL085",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Daily Market Basti",
+         "active": true,
+         "code": "RKSL086",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nehrupalli",
+         "active": true,
+         "code": "RKSL087",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Birja palli",
+         "active": true,
+         "code": "RKSL088",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Maa Kalyani Jhumpudi",
+         "active": true,
+         "code": "RKSL089",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kumbharpara (manu pattanayak gali)",
+         "active": true,
+         "code": "RKSL090",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kharia para to Orampara upper",
+         "active": true,
+         "code": "RKSL091",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Oram Para(national club toharipradhan house)",
+         "active": true,
+         "code": "RKSL092",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Plant Site and Janta Nivas Gali",
+         "active": true,
+         "code": "RKSL093",
+         "locality": "VIL1"
+        },
+        {
+         "name": " Janta Nivas Gali",
+         "active": true,
+         "code": "RKSL094",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Plant Site Routpara",
+         "active": true,
+         "code": "RKSL095",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sarala Market",
+         "active": true,
+         "code": "RKSL096",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Glamour Gali",
+         "active": true,
+         "code": "RKSL097",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Islam Nagar",
+         "active": true,
+         "code": "RKSL098",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Queresi Mahalla",
+         "active": true,
+         "code": "RKSL099",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Hasanpur",
+         "active": true,
+         "code": "RKSL100",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ganjam Basti - Mohulpalli",
+         "active": true,
+         "code": "RKSL101",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Giridharipara",
+         "active": true,
+         "code": "RKSL102",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Utkal Palli",
+         "active": true,
+         "code": "RKSL103",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Saw mill Basti",
+         "active": true,
+         "code": "RKSL104",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhawanipur Basti",
+         "active": true,
+         "code": "RKSL105",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nanda Para",
+         "active": true,
+         "code": "RKSL106",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nanda Para,Leprosy colony",
+         "active": true,
+         "code": "RKSL107",
+         "locality": "VIL1"
+        },
+        {
+         "name": "nayabazar Market  Basti",
+         "active": true,
+         "code": "RKSL108",
+         "locality": "VIL1"
+        },
+        {
+         "name": "nayabazar leprosy colony-ii",
+         "active": true,
+         "code": "RKSL109",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Koel Nagar D Block Itavati basti",
+         "active": true,
+         "code": "RKSL110",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Suvadra Basti",
+         "active": true,
+         "code": "RKSL111",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Koel Nagar B,C",
+         "active": true,
+         "code": "RKSL112",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopal Toli",
+         "active": true,
+         "code": "RKSL113",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tunguri Tolli",
+         "active": true,
+         "code": "RKSL114",
+         "locality": "VIL1"
+        },
+        {
+         "name": "KHADIATOLA",
+         "active": true,
+         "code": "RKSL115",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Shakti Nagar (Girijatoli)",
+         "active": true,
+         "code": "RKSL116",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kantajhar east",
+         "active": true,
+         "code": "RKSL117",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kantajhar  South",
+         "active": true,
+         "code": "RKSL118",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Diesel Chowk - Siva mandir Basti",
+         "active": true,
+         "code": "RKSL119",
+         "locality": "VIL1"
+        },
+        {
+         "name": "E Sec-to - Gandhi Nagar",
+         "active": true,
+         "code": "RKSL120",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bagda Basti",
+         "active": true,
+         "code": "RKSL121",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Chudi Basti",
+         "active": true,
+         "code": "RKSL122",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nepali Basti",
+         "active": true,
+         "code": "RKSL123",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sarada Palli",
+         "active": true,
+         "code": "RKSL124",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Adarshgram Dçabin",
+         "active": true,
+         "code": "RKSL125",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Guala Khattal",
+         "active": true,
+         "code": "RKSL126",
+         "locality": "VIL1"
+        },
+        {
+         "name": "C'Sect Jhumpudi",
+         "active": true,
+         "code": "RKSL127",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gundicha Palli - I",
+         "active": true,
+         "code": "RKSL128",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gundicha Palli - II",
+         "active": true,
+         "code": "RKSL129",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sect.A Jhumpudi",
+         "active": true,
+         "code": "RKSL130",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sect.B Filter House",
+         "active": true,
+         "code": "RKSL131",
+         "locality": "VIL1"
+        }
+       ]
+}
