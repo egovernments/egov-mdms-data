@@ -114,7 +114,7 @@
                     "component": "WSWaterConnectionDetails",
                     "key": "waterConectionDetails",
                     "nextStep": "sewerage-connection-details",
-                    "WATER": "plumber-preference",
+                    "WATER": "document-details",
                     "texts": {
                         "headerCaption": "WS_COMMON_CONNECTION_DETAIL",
                         "header": "WS_WATER_CONNECTION_DETAILS",
@@ -126,8 +126,8 @@
                     "route": "sewerage-connection-details",
                     "component": "WSSewerageConnectionDetails",
                     "key": "sewerageConnectionDetails",
-                    "nextStep": "plumber-preference",
-                    "SEWERAGE": "plumber-preference",
+                    "nextStep": "document-details",
+                    "SEWERAGE": "document-details",
                     "texts": {
                         "headerCaption": "WS_COMMON_CONNECTION_DETAIL",
                         "header": "PDF_STATIC_LABEL_SW_CONSOLIDATED_ACKNOWELDGMENT_LOGO_SUB_HEADER",
