@@ -387,6 +387,42 @@
       "address": "Aska Municipality",
       "contactNumber": "14420",
       "helpLineNumber": "14420"
+    },
+    {
+      "code": "pg.rourkela",
+      "name": "Rourkela",
+      "description": "Rourkela",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "rourkela@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "city": {
+        "name": "Rourkela",
+        "localName": null,
+        "districtCode": "Sundargarh",
+        "districtName": "Sundargarh",
+        "regionName": "Rourkela",
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 74.8722642,
+        "latitude": 31.6339793,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "RRK",
+        "ddrName": "Sundargarh",
+        "wsBillHeaderLine1": "WATCO, OFFICE OF THE GENERAL MANAGER",
+        "wsBillHeaderLine2": "WATCO DIVISION : ROURKELA",
+        "districtTenantCode": "pg.rourkela"
+      },
+      "address": "Rourkela Municipal Corporation",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
     }
   ]
 }
