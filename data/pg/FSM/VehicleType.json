@@ -69,6 +69,22 @@
             "active": true,
             "capacity": "8000 Ltrs",
             "amount": "800"
+        },
+        {
+            "code": "TATA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "TATA",
+            "capacity": "1500",
+            "amount": "600"
+        },
+        {
+            "code": "TATA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "TATA",
+            "capacity": "1501",
+            "amount": "600"
         }
     ]
 }

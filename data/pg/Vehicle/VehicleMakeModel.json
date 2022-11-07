@@ -113,6 +113,22 @@
             "make": "SONALIKA",
             "capacity": "8000",
             "amount": "1000"
+        },
+        {
+            "code": "TATA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "TATA",
+            "capacity": "1500",
+            "amount": "600"
+        },
+        {
+            "code": "TATA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "TATA",
+            "capacity": "1501",
+            "amount": "600"
         }
     ]
 }
