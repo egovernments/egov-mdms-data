@@ -523,6 +523,22 @@
           "code": "pb.amritsar"
         }
       ]
+    },{
+      "module": "Death",
+      "code": "Death",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.nawanshahr"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
     },
     {
       "module": "BillAmendment",
