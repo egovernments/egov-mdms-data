@@ -14420,6 +14420,18 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2481,
+      "name": "DSS Dashboard Config Finance",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/finance",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+      }
    ]
 }
