@@ -14342,6 +14342,18 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/pt-home"
-   }
+   },
+   {
+      "id": 2475,
+      "name": "DSS Dashboard Config Finance",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/finance",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
