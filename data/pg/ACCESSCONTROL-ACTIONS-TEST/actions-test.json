@@ -14342,6 +14342,84 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/pt-home"
-   }
+   },
+   {
+      "id": 2475,
+      "name": "ObpsDailyCollectionReport",
+      "url": "url",
+      "displayName": "OBPS Daily Collection Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-obps",
+      "enabled": true,
+      "serviceCode": "OBPS",
+      "code": "null",
+      "path": "OBPS.Obps Reports.ObpsDailyCollectionReport",
+      "navigationURL": "report/rainmaker-obps/ObpsDailyCollectionReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2476,
+      "name": "ObpsDailyCollectionReport",
+      "url": "/report/rainmaker-obps/ObpsDailyCollectionReport/metadata/_get",
+      "displayName": "rainmaker-obps-ObpsDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2477,
+      "name": "ObpsDailyCollectionReport",
+      "url": "/report/rainmaker-obps/ObpsDailyCollectionReport/_get",
+      "displayName": "rainmaker-obps-ObpsDailyCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2478,
+      "name": "ObpsApplicationStatusReport",
+      "url": "url",
+      "displayName": "OBPS Application Status Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-obps",
+      "enabled": true,
+      "serviceCode": "OBPS",
+      "code": "null",
+      "path": "OBPS.Obps Reports.ObpsApplicationStatusReport",
+      "navigationURL": "report/rainmaker-obps/ObpsApplicationStatusReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2479,
+      "name": "ObpsApplicationStatusReport",
+      "url": "/report/rainmaker-obps/ObpsApplicationStatusReport/metadata/_get",
+      "displayName": "rainmaker-obps-ObpsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2480,
+      "name": "ObpsApplicationStatusReport",
+      "url": "/report/rainmaker-obps/ObpsApplicationStatusReport/_get",
+      "displayName": "rainmaker-obps-ObpsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    }
    ]
 }

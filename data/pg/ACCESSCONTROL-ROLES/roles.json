@@ -671,6 +671,11 @@
       "code": "REINDEXING_ROLE",
       "name": "Reindexing Role",
       "description": "Role for reindexing for encrypted data access"
+    },
+    {
+      "code": "OBPS_REPORT_VIEWER",
+      "name": "OBPS Report Viewer",
+      "description": "OBPS User that can view OBPS reports"
     }
   ]
 }
