@@ -1,0 +1,18 @@
+{
+  "tenantId": "pb",
+  "moduleName": "FSM",
+  "AdvancePayment": [
+    {
+      "name": "FixedValue",
+      "code": "FIXEDVALUE",
+      "active": true,
+      "advanceAmount":"200"
+    },
+	  {
+      "name": "PercentageValue",
+      "code": "PERCENTAGEVALUE",
+      "active": true,
+      "advancePercantage":"10"
+    }
+  ]  
+}
