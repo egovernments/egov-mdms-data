@@ -24,7 +24,7 @@
             "PlantOperationalCapacityKLD": "100",
             "ULBS": "pg.cityc"
         },
-        {  
+        {
             "PlantCode": "ANG003",
             "PlantName": "Angul FSTP",
             "active": true,
@@ -35,7 +35,7 @@
             "PlantOperationalCapacityKLD": "18",
             "ULBS": "pg.angul"
         },
-        {  
+        {
             "PlantCode": "ASK004",
             "PlantName": "ASKA Plant",
             "active": true,
@@ -46,7 +46,7 @@
             "PlantOperationalCapacityKLD": "10",
             "ULBS": "pg.aska"
         },
-        {  
+        {
             "PlantCode": "ROUR005",
             "PlantName": "Rourkela Septage Treatment Plant",
             "active": true,
@@ -56,6 +56,28 @@
             "PlantOperationalTimings": "06.00am-03.00pm",
             "PlantOperationalCapacityKLD": "40",
             "ULBS": "pg.rourkela"
-        }  
+        },
+        {
+            "PlantCode": "NIMA006",
+            "PlantName": "Nimapara Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Nimapara",
+            "PlusCode": "3223+GF",
+            "PlantOperationalTimings": "08.00am-06.00pm",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.nimapara"
+        },
+        {
+            "PlantCode": "PURI007",
+            "PlantName": "Puri Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Puri",
+            "PlusCode": "RRCJ+CV",
+            "PlantOperationalTimings": "08.00am-06.00pm",
+            "PlantOperationalCapacityKLD": "50",
+            "ULBS": "pg.puri"
+        }
     ]
 }
