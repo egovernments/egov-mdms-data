@@ -21,14 +21,13 @@
         {
           "code": "pg.citye"
         }
-
       ]
     },
     {
       "module": "Engagement",
       "code": "Engagement",
       "active": true,
-      "order":3,
+      "order": 3,
       "tenants": [
         {
           "code": "pg.citya"
@@ -68,7 +67,7 @@
         }
       ]
     },
-   {
+    {
       "module": "Finance",
       "code": "Finance",
       "tenants": [
@@ -92,7 +91,7 @@
     {
       "module": "TL",
       "code": "TL",
-      "active":false,
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -135,7 +134,7 @@
     {
       "module": "UC",
       "code": "UC",
-      "active":false,
+      "active": false,
       "tenants": [
         {
           "code": "pg.citya"
@@ -208,7 +207,7 @@
     {
       "module": "FSM",
       "code": "FSM",
-      "active":true,
+      "active": true,
       "tenants": [
         {
           "code": "pg.citya"
@@ -226,13 +225,19 @@
           "code": "pg.citye"
         },
         {
-           "code": "pg.angul"
+          "code": "pg.angul"
         },
         {
           "code": "pg.aska"
         },
         {
           "code": "pg.rourkela"
+        },
+        {
+          "code": "pg.nimapara"
+        },
+        {
+          "code": "pg.puri"
         }
       ]
     },
@@ -240,7 +245,7 @@
       "module": "DSS",
       "code": "DSS",
       "active": true,
-      "order":6,
+      "order": 6,
       "tenants": [
         {
           "code": "pg.citya"
@@ -259,13 +264,13 @@
         }
       ]
     },
-{
-  "module": "Payment",
-  "code": "Payment",
-  "active": true,
-  "order":1,
-  "tenants": [
-     {
+    {
+      "module": "Payment",
+      "code": "Payment",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
           "code": "pg.citya"
         },
         {
@@ -280,7 +285,7 @@
         {
           "code": "pg.citye"
         }
-  ]
-}
+      ]
+    }
   ]
 }

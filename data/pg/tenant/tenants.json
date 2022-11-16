@@ -423,6 +423,77 @@
       "address": "Rourkela Municipal Corporation",
       "contactNumber": "1800 121 6833",
       "helpLineNumber": "1800 121 6833"
+    },
+    {
+      "code": "pg.nimapara",
+      "name": "Nimapara",
+      "description": "Nimapara",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "nimapara@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "Nimapara",
+        "localName": null,
+        "districtCode": "Puri",
+        "districtName": "Puri",
+        "regionName": "Puri",
+        "ulbGrade": "NAC",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "NIM",
+        "ddrName": "Puri",
+        "wsBillHeaderLine1": "WATCO,OFFICE OF THE  MANAGER",
+        "wsBillHeaderLine2": "WATCO SUB-DIVISION : NIMAPARA",
+        "districtTenantCode": "pg.nimapara"
+      },
+      "address": "Nimapara NAC",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
+    },
+    {
+      "code": "pg.puri",
+      "name": "Puri",
+      "description": "Puri",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "puri@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "city": {
+        "name": "Puri",
+        "localName": null,
+        "districtCode": "Puri",
+        "districtName": "Puri",
+        "regionName": "Puri",
+        "ulbGrade": "Municipality",
+        "longitude": 74.8722642,
+        "latitude": 31.6339793,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "PRI",
+        "ddrName": "Puri",
+        "wsBillHeaderLine1": "WATCO,OFFICE OF THE GENERAL MANAGER",
+        "wsBillHeaderLine2": "WATCO DIVISION : PURI",
+        "districtTenantCode": "pg.puri"
+      },
+      "address": "Puri Municipality",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
     }
   ]
 }
