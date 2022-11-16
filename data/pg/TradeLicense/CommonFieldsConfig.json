@@ -491,10 +491,8 @@
                     "withoutLabel": true,
                     "nextStep": "other-trade-details",
                     "hideInEmployee": true
-                }
-            ]
-        },
-        {
+                },
+                {
             "isMandatory": true,
             "type": "component",
             "route": "other-trade-details",
@@ -510,7 +508,9 @@
             "withoutLabel": true,
             "nextStep": "know-your-property",
             "hideInEmployee": true
-          },
+          }
+        ]
+      },
         {
             "head": "ES_NEW_APPLICATION_OWNERSHIP_DETAILS",
             "body": [
