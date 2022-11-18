@@ -14,7 +14,7 @@
         },
         {
           "name": "status",
-          "path": "Data.applicationStatus.keyword",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
           "isMandatory": false
         },
         {
