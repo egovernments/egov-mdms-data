@@ -494,6 +494,42 @@
       "address": "Puri Municipality",
       "contactNumber": "1800 121 6833",
       "helpLineNumber": "1800 121 6833"
+    },
+    {
+      "code": "pg.sambalpur",
+      "name": "Sambalpur",
+      "description": "Sambalpur",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "sambalpur@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM",
+        "Sat": "9.00 AM - 12.00 PM"
+      },
+      "city": {
+        "name": "Sambalpur",
+        "localName": null,
+        "districtCode": "Sambalpur",
+        "districtName": "Sambalpur",
+        "regionName": "Sambalpur",
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 74.8722642,
+        "latitude": 31.6339793,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "SMB",
+        "ddrName": "Sambalpur",
+        "wsBillHeaderLine1": "OFFICE OF THE AE/JE",
+        "wsBillHeaderLine2": "PUBLIC HEALTH ENGINEERING ORGANIZATION : Sambalpur",
+        "districtTenantCode": "pg.sambalpur"
+      },
+      "address": "Sambalpur Municipal Corporation",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
     }
   ]
 }

@@ -78,6 +78,17 @@
             "PlantOperationalTimings": "08.00am-06.00pm",
             "PlantOperationalCapacityKLD": "50",
             "ULBS": "pg.puri"
+        },
+        {  
+            "PlantCode": "SAMB008",
+            "PlantName": "Sambalpur Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Sambalpur",
+            "PlusCode": "F2H3+GC",
+            "PlantOperationalTimings": "08.00am-05.00pm",
+            "PlantOperationalCapacityKLD": "20",
+            "ULBS": "pg.sambalpur"
         }
     ]
 }

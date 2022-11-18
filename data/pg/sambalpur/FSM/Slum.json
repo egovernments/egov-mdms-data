@@ -1,0 +1,1032 @@
+{
+    "tenantId": "pg.sambalpur",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+         "name": "Mahatab Nagar",
+         "active": true,
+         "code": "SASL001",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Midha Pada",
+         "active": true,
+         "code": "SASL002",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tiar Pada",
+         "active": true,
+         "code": "SASL003",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Orma Pada",
+         "active": true,
+         "code": "SASL004",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Campus Pada",
+         "active": true,
+         "code": "SASL005",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhuin Dungri",
+         "active": true,
+         "code": "SASL006",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Madiadunguri",
+         "active": true,
+         "code": "SASL007",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Golgunda",
+         "active": true,
+         "code": "SASL008",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gualapada",
+         "active": true,
+         "code": "SASL009",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Belerapada",
+         "active": true,
+         "code": "SASL010",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gandhi Pada",
+         "active": true,
+         "code": "SASL011",
+         "locality": "VIL1"
+        },
+        {
+         "name": "B.M.Pada",
+         "active": true,
+         "code": "SASL012",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Taljhupdi Pada",
+         "active": true,
+         "code": "SASL013",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Attachakki Pada",
+         "active": true,
+         "code": "SASL014",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Canal Pada",
+         "active": true,
+         "code": "SASL015",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tripathy Pada",
+         "active": true,
+         "code": "SASL016",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sweeper Colony",
+         "active": true,
+         "code": "SASL017",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Central Line",
+         "active": true,
+         "code": "SASL018",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Majhipali",
+         "active": true,
+         "code": "SASL019",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sadheipali",
+         "active": true,
+         "code": "SASL020",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Santoshima Pada",
+         "active": true,
+         "code": "SASL021",
+         "locality": "VIL1"
+        },
+        {
+         "name": "1R colony",
+         "active": true,
+         "code": "SASL022",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Old Burla",
+         "active": true,
+         "code": "SASL023",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Goud Pali",
+         "active": true,
+         "code": "SASL024",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Shakti Nagar",
+         "active": true,
+         "code": "SASL025",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kirba-1",
+         "active": true,
+         "code": "SASL026",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kirba - 2",
+         "active": true,
+         "code": "SASL027",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Panitankipada",
+         "active": true,
+         "code": "SASL028",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Telugupada",
+         "active": true,
+         "code": "SASL029",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pathanbandha",
+         "active": true,
+         "code": "SASL030",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kressorpada",
+         "active": true,
+         "code": "SASL031",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Mahanadi Bridge",
+         "active": true,
+         "code": "SASL032",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Chakrabartypada",
+         "active": true,
+         "code": "SASL033",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Panitankipada",
+         "active": true,
+         "code": "SASL034",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Falsakanta",
+         "active": true,
+         "code": "SASL035",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kalupada",
+         "active": true,
+         "code": "SASL036",
+         "locality": "VIL1"
+        },
+        {
+         "name": "1st gap",
+         "active": true,
+         "code": "SASL037",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gujatala",
+         "active": true,
+         "code": "SASL038",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Keutpada",
+         "active": true,
+         "code": "SASL039",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Brundabatipada",
+         "active": true,
+         "code": "SASL040",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gandhi Nagar",
+         "active": true,
+         "code": "SASL041",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Goudpada",
+         "active": true,
+         "code": "SASL042",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gurudwarpada",
+         "active": true,
+         "code": "SASL043",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kapupada",
+         "active": true,
+         "code": "SASL044",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Christianpada",
+         "active": true,
+         "code": "SASL045",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Thanapada",
+         "active": true,
+         "code": "SASL046",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kadampada (Substation Basti)",
+         "active": true,
+         "code": "SASL047",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Malipada",
+         "active": true,
+         "code": "SASL048",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nuabazar",
+         "active": true,
+         "code": "SASL049",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Machhapada",
+         "active": true,
+         "code": "SASL050",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tarasinghpada",
+         "active": true,
+         "code": "SASL051",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Christianpada",
+         "active": true,
+         "code": "SASL052",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rickshawpada",
+         "active": true,
+         "code": "SASL053",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Neempalli",
+         "active": true,
+         "code": "SASL054",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Naradhi",
+         "active": true,
+         "code": "SASL055",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Lariapada",
+         "active": true,
+         "code": "SASL056",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Larpank Khadiapada",
+         "active": true,
+         "code": "SASL057",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhangamunda",
+         "active": true,
+         "code": "SASL058",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tikirapada Bharpada",
+         "active": true,
+         "code": "SASL059",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Saplahara",
+         "active": true,
+         "code": "SASL060",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhangamunda(Khadiapada &amp; Harijan pada)",
+         "active": true,
+         "code": "SASL061",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nuajamunda",
+         "active": true,
+         "code": "SASL062",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Vejra Pali",
+         "active": true,
+         "code": "SASL063",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Silapathar",
+         "active": true,
+         "code": "SASL064",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nua Gujatal",
+         "active": true,
+         "code": "SASL065",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sahajbahal",
+         "active": true,
+         "code": "SASL066",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rajapada",
+         "active": true,
+         "code": "SASL067",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopalpalli Tikrapada",
+         "active": true,
+         "code": "SASL068",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Makhnapada Basti",
+         "active": true,
+         "code": "SASL069",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rani Bagicha Bareipalli",
+         "active": true,
+         "code": "SASL070",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tetel Pada",
+         "active": true,
+         "code": "SASL071",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nua Pada ",
+         "active": true,
+         "code": "SASL072",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopal Palli",
+         "active": true,
+         "code": "SASL073",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dumer Pada",
+         "active": true,
+         "code": "SASL074",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ramed Harijan Pada",
+         "active": true,
+         "code": "SASL075",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ramed VIL1ge",
+         "active": true,
+         "code": "SASL076",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pardesi Pada ",
+         "active": true,
+         "code": "SASL077",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Munga pada",
+         "active": true,
+         "code": "SASL078",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nuabandh Pada",
+         "active": true,
+         "code": "SASL079",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pujari pada",
+         "active": true,
+         "code": "SASL080",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kadam Mal",
+         "active": true,
+         "code": "SASL081",
+         "locality": "VIL1"
+        },
+        {
+         "name": "KANIJURI",
+         "active": true,
+         "code": "SASL082",
+         "locality": "VIL1"
+        },
+        {
+         "name": "DURGAPALI(UPARPADA)",
+         "active": true,
+         "code": "SASL083",
+         "locality": "VIL1"
+        },
+        {
+         "name": "DURGAPALI(TALIPADA)",
+         "active": true,
+         "code": "SASL084",
+         "locality": "VIL1"
+        },
+        {
+         "name": "LAXMIDUNGURI",
+         "active": true,
+         "code": "SASL085",
+         "locality": "VIL1"
+        },
+        {
+         "name": "BAGHARMA KHADIA PADA",
+         "active": true,
+         "code": "SASL086",
+         "locality": "VIL1"
+        },
+        {
+         "name": "KUSUM PADA",
+         "active": true,
+         "code": "SASL087",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Chandan Nagar",
+         "active": true,
+         "code": "SASL088",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Madlia- Jhudipada",
+         "active": true,
+         "code": "SASL089",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Talvata Pada",
+         "active": true,
+         "code": "SASL090",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Madha Bandha",
+         "active": true,
+         "code": "SASL091",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhulia Pada",
+         "active": true,
+         "code": "SASL092",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bada Bazaar",
+         "active": true,
+         "code": "SASL093",
+         "locality": "VIL1"
+        },
+        {
+         "name": "SUNARI DHOBA PADA",
+         "active": true,
+         "code": "SASL094",
+         "locality": "VIL1"
+        },
+        {
+         "name": "TIWARI PADA",
+         "active": true,
+         "code": "SASL095",
+         "locality": "VIL1"
+        },
+        {
+         "name": "MAJHIPADA-BADBAZAR",
+         "active": true,
+         "code": "SASL096",
+         "locality": "VIL1"
+        },
+        {
+         "name": "KUSTAPADA",
+         "active": true,
+         "code": "SASL097",
+         "locality": "VIL1"
+        },
+        {
+         "name": "KEUTA PADA",
+         "active": true,
+         "code": "SASL098",
+         "locality": "VIL1"
+        },
+        {
+         "name": "GINGIRA PADA",
+         "active": true,
+         "code": "SASL099",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kamli Bazar Basti",
+         "active": true,
+         "code": "SASL100",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ghunguti pada",
+         "active": true,
+         "code": "SASL101",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Amri Pada",
+         "active": true,
+         "code": "SASL102",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Malli Bari",
+         "active": true,
+         "code": "SASL103",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Keut Pada",
+         "active": true,
+         "code": "SASL104",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Daldalli Pada",
+         "active": true,
+         "code": "SASL105",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Panika Pada",
+         "active": true,
+         "code": "SASL106",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bangla Pada",
+         "active": true,
+         "code": "SASL107",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bangali Pada",
+         "active": true,
+         "code": "SASL108",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Thaku Pada",
+         "active": true,
+         "code": "SASL109",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Station Pada",
+         "active": true,
+         "code": "SASL110",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Behera munda",
+         "active": true,
+         "code": "SASL111",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Mil Pada",
+         "active": true,
+         "code": "SASL112",
+         "locality": "VIL1"
+        },
+        {
+         "name": "panchgachia",
+         "active": true,
+         "code": "SASL113",
+         "locality": "VIL1"
+        },
+        {
+         "name": "santi nagar",
+         "active": true,
+         "code": "SASL114",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Gopal mal",
+         "active": true,
+         "code": "SASL115",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Goala pada",
+         "active": true,
+         "code": "SASL116",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Danipali",
+         "active": true,
+         "code": "SASL117",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nuapada",
+         "active": true,
+         "code": "SASL118",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rani Bandh ",
+         "active": true,
+         "code": "SASL119",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Majhipada ",
+         "active": true,
+         "code": "SASL120",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dukhupada ",
+         "active": true,
+         "code": "SASL121",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Budharaja Telipada Ramgad",
+         "active": true,
+         "code": "SASL122",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Katardhua ",
+         "active": true,
+         "code": "SASL123",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Adibashi Kol Pada",
+         "active": true,
+         "code": "SASL124",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nandram Tank",
+         "active": true,
+         "code": "SASL125",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Manik Munda ",
+         "active": true,
+         "code": "SASL126",
+         "locality": "VIL1"
+        },
+        {
+         "name": "LIC Colony Modipada ",
+         "active": true,
+         "code": "SASL127",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Samaleswari Colony",
+         "active": true,
+         "code": "SASL128",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rohidas Nagar(Chamar Pada)",
+         "active": true,
+         "code": "SASL129",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nandini Colony ",
+         "active": true,
+         "code": "SASL130",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Malibagicha",
+         "active": true,
+         "code": "SASL131",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tanlapara",
+         "active": true,
+         "code": "SASL132",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Patnayak Pada",
+         "active": true,
+         "code": "SASL133",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dhoba Pada ",
+         "active": true,
+         "code": "SASL134",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sahu Colony",
+         "active": true,
+         "code": "SASL135",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ambedkar Nagar",
+         "active": true,
+         "code": "SASL136",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ghushri Judabandha",
+         "active": true,
+         "code": "SASL137",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bihidarbandha",
+         "active": true,
+         "code": "SASL138",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Thelkopara",
+         "active": true,
+         "code": "SASL139",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dhutrapara",
+         "active": true,
+         "code": "SASL140",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bahalpada",
+         "active": true,
+         "code": "SASL141",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Ekdopara",
+         "active": true,
+         "code": "SASL142",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Siddeswarberna",
+         "active": true,
+         "code": "SASL143",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dehuri Pali",
+         "active": true,
+         "code": "SASL144",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Khajuriyapada",
+         "active": true,
+         "code": "SASL145",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Birsa Munda",
+         "active": true,
+         "code": "SASL146",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Tangar Pali",
+         "active": true,
+         "code": "SASL147",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Samleipadar",
+         "active": true,
+         "code": "SASL148",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sarlakani",
+         "active": true,
+         "code": "SASL149",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sarlakani-Gandhi Colony",
+         "active": true,
+         "code": "SASL150",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sarla",
+         "active": true,
+         "code": "SASL151",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Jhankarpada-City Station",
+         "active": true,
+         "code": "SASL152",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Nagenchoti",
+         "active": true,
+         "code": "SASL153",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Rastrapati Colony",
+         "active": true,
+         "code": "SASL154",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sakhipada",
+         "active": true,
+         "code": "SASL155",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Pension Pada",
+         "active": true,
+         "code": "SASL156",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Kalibadi-Daleipada",
+         "active": true,
+         "code": "SASL157",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Saliabagicha-Danibandh",
+         "active": true,
+         "code": "SASL158",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Danibandha",
+         "active": true,
+         "code": "SASL159",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Mayabagicha",
+         "active": true,
+         "code": "SASL160",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Motijharan",
+         "active": true,
+         "code": "SASL161",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Sunapali",
+         "active": true,
+         "code": "SASL162",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhutapada",
+         "active": true,
+         "code": "SASL163",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Charibati",
+         "active": true,
+         "code": "SASL164",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Govinda Tola ",
+         "active": true,
+         "code": "SASL165",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Turipada",
+         "active": true,
+         "code": "SASL166",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Dhanupali ",
+         "active": true,
+         "code": "SASL167",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhatra Amburaipada",
+         "active": true,
+         "code": "SASL168",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Bhatra Gandhi Mandir",
+         "active": true,
+         "code": "SASL169",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Betrapada",
+         "active": true,
+         "code": "SASL170",
+         "locality": "VIL1"
+        },
+        {
+         "name": "Mahabirpada",
+         "active": true,
+         "code": "SASL171",
+         "locality": "VIL1"
+        }
+       ]
+}
