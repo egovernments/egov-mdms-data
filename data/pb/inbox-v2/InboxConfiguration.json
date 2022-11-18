@@ -1,0 +1,27 @@
+{
+  "tenantId": "pb",
+  "moduleName": "INBOX",
+  "InboxQueryConfiguration": [
+    {
+      "module": "WS",
+      "index": "ws-inbox-test",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true
+        },
+        {
+          "name": "applicationStatus",
+          "path": "Data.applicationStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "locality",
+          "path": "Data.locality.keyword",
+          "isMandatory": false
+        }
+      ]
+    }
+  ]
+}
