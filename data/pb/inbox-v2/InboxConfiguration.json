@@ -9,7 +9,8 @@
         {
           "name": "tenantId",
           "path": "Data.tenantId.keyword",
-          "isMandatory": true
+          "isMandatory": true,
+          "operator": "EQUAL"
         },
         {
           "name": "applicationStatus",
@@ -20,6 +21,18 @@
           "name": "locality",
           "path": "Data.locality.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "fromDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
         }
       ]
     }
