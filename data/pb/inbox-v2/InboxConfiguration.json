@@ -13,7 +13,7 @@
           "operator": "EQUAL"
         },
         {
-          "name": "applicationStatus",
+          "name": "status",
           "path": "Data.applicationStatus.keyword",
           "isMandatory": false
         },
