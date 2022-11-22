@@ -35,12 +35,10 @@
           "operator": "LTE"
         }
       ],
-      "sortBy": [
-        {
+      "sortBy": {
           "path": "Data.additionalDetails.appCreatedDate",
           "defaultOrder": "ASC"
         }
-      ]
     }
   ]
 }
