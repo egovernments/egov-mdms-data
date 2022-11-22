@@ -1155,8 +1155,8 @@
       ]
     },
     {
-      "businessService": "WS.CREATE",
-      "module": "WS",
+      "businessService": "SW.CREATE",
+      "module": "SW",
       "action" : "EXECUTE_DISCONNECTION",
       "channelNames": ["SMS", "EMAIL", "EVENT"]
     },
