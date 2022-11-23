@@ -39,7 +39,7 @@
           "path": "Data.additionalDetails.appCreatedDate",
           "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps"]
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps"]
     }
   ]
 }
