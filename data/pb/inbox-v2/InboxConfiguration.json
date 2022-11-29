@@ -18,6 +18,12 @@
           "isMandatory": false
         },
         {
+          "name": "mobileNumber",
+          "path": "Data.mobileNumberHash.keyword",
+          "isMandatory": false,
+          "isHashingRequired": true
+        },
+        {
           "name": "locality",
           "path": "Data.locality.keyword",
           "isMandatory": false
