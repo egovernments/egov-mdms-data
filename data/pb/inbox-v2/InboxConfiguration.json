@@ -18,8 +18,24 @@
           "isMandatory": false
         },
         {
+          "name": "mobileNumber",
+          "path": "Data.mobileNumberHash.keyword",
+          "isMandatory": false,
+          "isHashingRequired": true
+        },
+        {
           "name": "locality",
           "path": "Data.locality.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.workflow.assignes.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.applicationNo.keyword",
           "isMandatory": false
         },
         {
@@ -39,7 +55,7 @@
           "path": "Data.additionalDetails.appCreatedDate",
           "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps"]
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps","Data.applicationNo","Data.workflow","Data.locality"]
     }
   ]
 }
