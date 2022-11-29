@@ -23,6 +23,16 @@
           "isMandatory": false
         },
         {
+          "name": "assignee",
+          "path": "Data.workflow.assignes.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.applicationNo.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "fromDate",
           "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
@@ -39,7 +49,7 @@
           "path": "Data.additionalDetails.appCreatedDate",
           "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps"]
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps","Data.applicationNo","Data.workflow.assignes","Data.locality"]
     }
   ]
 }
