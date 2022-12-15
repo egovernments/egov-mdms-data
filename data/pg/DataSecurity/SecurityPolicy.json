@@ -397,7 +397,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK","PT_APPROVER", "PT_CEMP", "PT_COLLECTION_EMP", "PT_FIELD_INSPECTOR", "PT_DOC_VERIFIER"],
+          "roles": ["CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK","PT_APPROVER", "PT_CEMP", "PT_COLLECTION_EMP", "PT_FIELD_INSPECTOR", "PT_DOC_VERIFIER"],
           "attributeAccessList": [
             {
               "attribute": "street",
@@ -460,7 +460,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [          
             {
               "attribute": "ownerType",
@@ -550,7 +550,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "connectionHoldersMobileNumber",
@@ -1085,7 +1085,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
            {
               "attribute": "plumberInfoMobileNumber",
