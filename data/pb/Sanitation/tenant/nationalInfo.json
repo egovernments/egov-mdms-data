@@ -1,0 +1,1766 @@
+{
+  "tenantId": "pb",
+  "moduleName": "tenant",
+  "nationalInfo": [
+    {
+      "stateCode": "Punjab",
+      "stateName": "Punjab",
+      "code": "pb.amritsar",
+      "name": "Amritsar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Punjab",
+      "stateName": "Punjab",
+      "code": "pb.jalandhar",
+      "name": "Jalandhar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Punjab",
+      "stateName": "Punjab",
+      "code": "pb.phagwara",
+      "name": "Phagwara",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Punjab",
+      "stateName": "Punjab",
+      "code": "pb.nawanshahr",
+      "name": "Nawanshahr",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Punjab",
+      "stateName": "Punjab",
+      "code": "pb.derabassi",
+      "name": "Derabassi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttar Pradesh",
+      "stateName": "Uttar Pradesh",
+      "code": "up.agra",
+      "name": "Derabassi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.dehradun",
+      "name": "Dehradun",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.haldwani",
+      "name": "Haldwani",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.haridwar",
+      "name": "Haridwar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.roorkee",
+      "name": "Roorkee",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.rudrapur",
+      "name": "Rudrapur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kashipur",
+      "name": "Kashipur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.rishikesh",
+      "name": "Rishikesh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kotdwar",
+      "name": "Kotdwar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.mahuwadawara",
+      "name": "Mahuwadawara",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.shaktigarh",
+      "name": "Shaktigarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.jaspur",
+      "name": "Jaspur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.almora",
+      "name": "Almora",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.chamba",
+      "name": "Chamba",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.uttarkashi",
+      "name": "Uttarkashi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.joshimath",
+      "name": "Joshimath",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.karnaprayag",
+      "name": "Karnaprayag",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.pokhari",
+      "name": "Pokhari",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.augustmuni",
+      "name": "Augustmuni",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.ukhimath",
+      "name": "Ukhimath",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.lohaghat",
+      "name": "Lohaghat",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.bageshwar",
+      "name": "Bageshwar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.bhimtal",
+      "name": "Bhimtal",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.pithoragarh",
+      "name": "Pithoragarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.berinag",
+      "name": "Berinag",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kaladhungi",
+      "name": "Kaladhungi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gadarpur",
+      "name": "Gadarpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gairsain",
+      "name": "Gairsain",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.manglaur",
+      "name": "manglaur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.srinagar",
+      "name": "Srinagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.bhowali",
+      "name": "Bhowali",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.tilwara",
+      "name": "Tilwara",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.banbasa",
+      "name": "Banbasa",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kedarnath",
+      "name": "Kedarnath",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.swargashramjonk",
+      "name": "swargashram jonk",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.pauri",
+      "name": "Pauri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gauchar",
+      "name": "Gauchar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.ramnagar",
+      "name": "Ramnagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.dwarahat",
+      "name": "Dwarahat",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gaja",
+      "name": "Gaja",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.chamiyala",
+      "name": "Chamiyala",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.vikasnagar",
+      "name": "Vikasnagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.rudraprayag",
+      "name": "Rudraprayag",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.lalkuan",
+      "name": "lalkuan",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.mahuakheraganj",
+      "name": "Mahua Kheraganj",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.dugadda",
+      "name": "Dugadda",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.ghansali",
+      "name": "Ghansali",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.narendranagar",
+      "name": "Narendranagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.testing",
+      "name": "Testing",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.barkot",
+      "name": "Barkot",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.chinyalisaur",
+      "name": "Chinyalisaur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gangotri",
+      "name": "Gangotri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kirtinagar",
+      "name": "Kirtinagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.lambgaon",
+      "name": "Lambgaon",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.munikireti",
+      "name": "Munikireti",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.nandprayag",
+      "name": "Nandprayag",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.purola",
+      "name": "Purola",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.tharali",
+      "name": "Tharali",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.bhagwanpur",
+      "name": "Bhagwanpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.chamoligopeshwar",
+      "name": "Chamoli Gopeshwar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.didihat",
+      "name": "Didihat",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.doiwala",
+      "name": "Doiwala",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gularbhoj",
+      "name": "Gularbhoj",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.jhabrera",
+      "name": "Jhabrera",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.naugaon",
+      "name": "Naugaon",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.tehri",
+      "name": "Tehri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.laksar",
+      "name": "Laksar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.pipalkoti",
+      "name": "PIPALKOTI",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.gangolihat",
+      "name": "Gangolihat",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.devaprayag",
+      "name": "Devaprayag",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.nanakmatta",
+      "name": "Nanakmatta",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.dharchula",
+      "name": "Dharchula ",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.herbertpur",
+      "name": "Herbertpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.sitarganj",
+      "name": "Sitarganj",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.sultanpur",
+      "name": "Sultanpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.bazpur",
+      "name": "Bazpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.khatima",
+      "name": "Khatima",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.dineshpur",
+      "name": "Dineshpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kichha",
+      "name": "Kichha",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.badrinath",
+      "name": "Badrinath",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.tanakpur",
+      "name": "Tanakpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.pirankaliyar",
+      "name": "Piran kaliyar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.kapkot",
+      "name": "Kapkot",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.champawat",
+      "name": "Champawat",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.uttarkhand",
+      "name": "Uttarkhand",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.mussorie",
+      "name": "Mussorie",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.nainital",
+      "name": "Nainital",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.landhaura",
+      "name": "Landhaura",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.satpuli",
+      "name": "Satpuli",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Uttarakhand",
+      "stateName": "Uttarakhand",
+      "code": "uk.bhikiyasain",
+      "name": "Bhikiyasain",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.cuttack",
+      "name": "Cuttack",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.jatni",
+      "name": "Jatni",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.angul",
+      "name": "Angul",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.choudwar",
+      "name": "Choudwar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.berhampurdevelopmentauthority",
+      "name": "Berhampur Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.birmitrapur",
+      "name": "Birmitrapur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.berhampur",
+      "name": "Berhampur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.chatrapur",
+      "name": "Chatrapur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.cuttackdevelopmentauthority",
+      "name": "Cuttack Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.gopalpur",
+      "name": "Gopalpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kalinganagardevelopmentauthority",
+      "name": "Kalinga Nagar Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.khordha",
+      "name": "Khordha",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.konark",
+      "name": "Konark",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.paradeep",
+      "name": "Paradeep",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.paradipdevelopmentauthority",
+      "name": "Paradip Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.puri",
+      "name": "Puri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.purikonarkdevelopmentauthority",
+      "name": "Puri Konark Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.rajgangpur",
+      "name": "Rajgangpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.rourkela",
+      "name": "Rourkela",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.rourkeladevelopmentauthority",
+      "name": "Rourkela Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.sambalpur",
+      "name": "Sambalpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.sambalpurdevelopmentauthority",
+      "name": "Sambalpur Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.sundargarh",
+      "name": "Sundargarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.talcher",
+      "name": "Talcher",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.talcherangulmeramandalidevelopmentauthority",
+      "name": "Talcher Angul Meramandali Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "Odisha",
+      "name": "Odisha",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.vyasanagar",
+      "name": "Vyasanagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.testing",
+      "name": "testing",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.balasore",
+      "name": "Balasore",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.dhenkanal",
+      "name": "Dhenkanal",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.anandapur",
+      "name": "Anandapur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.aska",
+      "name": "Aska",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.athagarh",
+      "name": "Athagarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.athmallik",
+      "name": "Athmallik",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.attabira",
+      "name": "Attabira",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.balangir",
+      "name": "Balangir",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.balimela",
+      "name": "Balimela",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.balliguda",
+      "name": "Balliguda ",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.balugaon",
+      "name": "Balugaon",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.banki",
+      "name": "Banki",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.banpur",
+      "name": "Banpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bargarh",
+      "name": "Bargarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.barbil",
+      "name": "Barbil",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.baripada",
+      "name": "Baripada",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.barpali",
+      "name": "Barpali",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.basudevpur",
+      "name": "Basudevpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bellaguntha",
+      "name": "Bellaguntha",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.belpahar",
+      "name": "Belpahar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bhadrak",
+      "name": "Bhadrak",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bhanjanagar",
+      "name": "Bhanjanagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bhawanipatna",
+      "name": "Bhawanipatna",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bhuban",
+      "name": "Bhuban",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bhubaneswar",
+      "name": "Bhubaneswar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bhubaneswardevelopmentauthority",
+      "name": "Bhubaneswar Development Authority",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.bijepur",
+      "name": "Bijepur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.binka",
+      "name": "Binka",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.boudhgarh",
+      "name": "Boudhgarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.brajrajnagar",
+      "name": "Brajrajnagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.buguda",
+      "name": "Buguda",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.champua",
+      "name": "Champua",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.chandbali",
+      "name": "Chandbali",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.chikiti",
+      "name": "Chikiti",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.daspalla",
+      "name": "Daspalla",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.deogarh",
+      "name": "Deogarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.dhamnagar",
+      "name": "Dhamnagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.dharamgarh",
+      "name": "Dharamgarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.digapahandi",
+      "name": "Digapahandi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.gudayagiri",
+      "name": "G. Udayagiri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.ganjam",
+      "name": "Ganjam",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.gudari",
+      "name": "Gudari",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.gunupur",
+      "name": "Gunupur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.hindol",
+      "name": "Hindol",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.hinjilicut",
+      "name": "Hinjilicut",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.jagatsinghpur",
+      "name": "Jagatsinghpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.jajpur",
+      "name": "Jajpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.jaleswar",
+      "name": "Jaleswar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.jeypore",
+      "name": "Jeypore",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.jharsuguda",
+      "name": "Jharsuguda",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.joda",
+      "name": "Joda",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.junagarh",
+      "name": "Junagarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kamakhyanagar",
+      "name": "Kamakhyanagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kantabanji",
+      "name": "Kantabanji",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.karanjia",
+      "name": "Karanjia",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kashinagar",
+      "name": "Kashinagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kabisuryanagar",
+      "name": "Kabisuryanagar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kendrapara",
+      "name": "Kendrapara",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.keonjhargarh",
+      "name": "Keonjhargarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kesinga",
+      "name": "Kesinga",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.khallikote",
+      "name": "Khallikote",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.khandapada",
+      "name": "Khandapada",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.khariar",
+      "name": "Khariar",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.khariarroad",
+      "name": "Khariar Road",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kodala",
+      "name": "Kodala",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.koraput",
+      "name": "Koraput",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kotpad",
+      "name": "Kotpad",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.kuchinda",
+      "name": "Kuchinda",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.malkangiri",
+      "name": "Malkangiri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.nayagarh",
+      "name": "Nayagarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.nilgiri",
+      "name": "Nilgiri",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.nimapara",
+      "name": "Nimapara",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.nabarangpur",
+      "name": "Nabarangpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.nuapada",
+      "name": "Nuapada",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.odagaon",
+      "name": "Odagaon",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.padampur",
+      "name": "Padampur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.paralakhemundi",
+      "name": "Paralakhemundi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.patnagarh",
+      "name": "Patnagarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.pattamundai",
+      "name": "Pattamundai",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.phulbani",
+      "name": "Phulbani",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.pipli",
+      "name": "Pipli",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.polasara",
+      "name": "Polasara",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.purushottampur",
+      "name": "Purushottampur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.rairangpur",
+      "name": "Rairangpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.rambha",
+      "name": "Rambha",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.ranpur",
+      "name": "Ranpur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.rayagada",
+      "name": "Rayagada",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.redhakhol",
+      "name": "Redhakhol",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.sonepur",
+      "name": "Sonepur",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.soro",
+      "name": "Soro",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.surada",
+      "name": "Surada",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.sunabeda",
+      "name": "Sunabeda",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.tarbha",
+      "name": "Tarbha",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.titilagarh",
+      "name": "Titilagarh",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.tusura",
+      "name": "Tusura",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.udala",
+      "name": "Udala",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Odisha",
+      "stateName": "Odisha",
+      "code": "od.umerkote",
+      "name": "Umerkote",
+      "active": true,
+      "module": "NationalDashboard"
+    }
+  ]
+}
