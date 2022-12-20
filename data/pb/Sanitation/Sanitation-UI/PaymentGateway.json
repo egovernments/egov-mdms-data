@@ -1,0 +1,10 @@
+{
+  "tenantId": "pb",
+  "moduleName": "FSM-UI",
+  "PaymentGateway": [
+    {
+      "gateway": "AXIS",
+      "active": true
+    }
+  ]
+}

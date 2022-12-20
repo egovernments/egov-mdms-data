@@ -1,0 +1,14 @@
+{
+  "tenantId": "pb",
+  "moduleName": "DocumentUploader",
+  "UlbLevelCategories": [
+    {
+      "ulb": "pb.amritsar",
+      "categoryList": ["CATEGORY_CITIZEN_CHARTER","CATEGORY_FORMS","CATEGORY_TENDERS","CATEGORY_CIRCULARS","CATEGORY_GOVERNMENT_ORDERS"]
+    },
+    {
+      "ulb": "pb.jalandhar",
+      "categoryList": ["CATEGORY_CITIZEN_CHARTER","CATEGORY_FORMS","CATEGORY_TENDERS","CATEGORY_CIRCULARS","CATEGORY_GOVERNMENT_ORDERS"]
+    }
+  ]
+}
