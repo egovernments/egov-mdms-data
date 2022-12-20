@@ -21511,6 +21511,17 @@
       "sidebarURL": "/digit-ui/citizen/tl-home"
     },
     {
+      "id": 2392,
+      "name": "CreatedByme FSM Application",
+      "url": "/fsm/v1/_createdbyme",
+      "displayName": "Createdby me FSM Application",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 2390,
       "name": "CS_HOME_APPLY_FOR_DESLUDGING",
       "url": "sanitation-ui-card",
