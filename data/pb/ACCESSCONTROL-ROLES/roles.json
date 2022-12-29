@@ -672,6 +672,11 @@
       "code": "REINDEXING_ROLE",
       "name": "Reindexing Role",
       "description": "Role for reindexing for encrypted data access"
+    },
+    {
+      "code": "NDA_SYSTEM",
+      "name": "National Dashboard Systeme user",
+      "description": "Push data through adopter for all states"
     }
   ]
 }
