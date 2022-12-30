@@ -676,6 +676,11 @@
       "code": "OBPS_REPORT_VIEWER",
       "name": "OBPS Report Viewer",
       "description": "OBPS User that can view OBPS reports"
+    },
+    {
+      "code": "TL_REPORT_VIEWER",
+      "name": "TL Report Viewer",
+      "description": "TL User that can view TL reports"
     }
   ]
 }
