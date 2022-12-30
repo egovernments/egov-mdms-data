@@ -14546,6 +14546,17 @@
          "serviceCode": "report",
          "code": "null",
          "path": ""
-       }
+       },
+    {
+      "id": 2488,
+      "name": "National Dashboard: Ingest Metrics",
+      "url": "/national-dashboard/metric/_ingest",
+      "displayName": "Ingest metrics",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "NSS",
+      "code": "null",
+      "path": ""
+    }
    ]
 }
