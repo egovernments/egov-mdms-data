@@ -676,6 +676,11 @@
       "code": "OBPS_REPORT_VIEWER",
       "name": "OBPS Report Viewer",
       "description": "OBPS User that can view OBPS reports"
+    },
+    {
+      "code": "NDA_SYSTEM",
+      "name": "National Dashboard Systeme user",
+      "description": "Push data through adopter for all states"
     }
   ]
 }
