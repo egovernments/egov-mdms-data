@@ -4806,21 +4806,6 @@
       "rightIcon": ""
     },
     {
-      "id": 1715,
-      "name": "TradeLicenseRegistryReport",
-      "url": "url",
-      "displayName": "Trade License Registry Report",
-      "orderNumber": 1,
-      "parentModule": "rainmaker-tl",
-      "enabled": true,
-      "serviceCode": "TL",
-      "code": "null",
-      "path": "TradeLicense.Trade License Reports.TradeLicenseRegistryReport",
-      "navigationURL": "report/rainmaker-tl/TradeLicenseRegistryReport",
-      "leftIcon": "action:assignment",
-      "rightIcon": ""
-    },
-    {
       "id": 1716,
       "name": "TradeWiseCollectionReport",
       "url": "url",
@@ -4832,21 +4817,6 @@
       "code": "null",
       "path": "TradeLicense.Trade License Reports.TradeWiseCollectionReport",
       "navigationURL": "report/rainmaker-tl/TradeWiseCollectionReport",
-      "leftIcon": "action:assignment",
-      "rightIcon": ""
-    },
-    {
-      "id": 1717,
-      "name": "TradeLicenseApplicationStatusReport",
-      "url": "url",
-      "displayName": "Trade License Application Status Report",
-      "orderNumber": 3,
-      "parentModule": "rainmaker-tl",
-      "enabled": true,
-      "serviceCode": "TL",
-      "code": "null",
-      "path": "TradeLicense.Trade License Reports.TradeLicenseApplicationStatusReport",
-      "navigationURL": "report/rainmaker-tl/TradeLicenseApplicationStatusReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
@@ -7268,34 +7238,10 @@
       "path": ""
     },
     {
-      "id": 1915,
-      "name": "TradeLicenseApplicationStatusReport",
-      "url": "/report/rainmaker-tl/TradeLicenseApplicationStatusReport/_get",
-      "displayName": "rainmaker-tl-TradeLicenseApplicationStatusReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
-    },
-    {
       "id": 1916,
       "name": "TradeWiseCollectionReport",
       "url": "/report/rainmaker-tl/TradeWiseCollectionReport/_get",
       "displayName": "rainmaker-tl-TradeWiseCollectionReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1917,
-      "name": "TradeLicenseRegistryReport",
-      "url": "/report/rainmaker-tl/TradeLicenseRegistryReport/_get",
-      "displayName": "rainmaker-tl-TradeLicenseRegistryReport",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
