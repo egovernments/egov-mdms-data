@@ -681,6 +681,11 @@
       "code": "NDA_SYSTEM",
       "name": "National Dashboard Systeme user",
       "description": "Push data through adopter for all states"
+    },
+    {
+      "code": "TL_REPORT_VIEWER",
+      "name": "TL Report Viewer",
+      "description": "TL User that can view TL reports"
     }
   ]
 }
