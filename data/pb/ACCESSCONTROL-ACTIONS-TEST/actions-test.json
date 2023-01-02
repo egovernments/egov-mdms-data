@@ -7172,34 +7172,10 @@
       "path": ""
     },
     {
-      "id": 1905,
-      "name": "TradeLicenseApplicationStatusReport",
-      "url": "/report/rainmaker-tl/TradeLicenseApplicationStatusReport/metadata/_get",
-      "displayName": "rainmaker-tl-TradeLicenseApplicationStatusReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
-    },
-    {
       "id": 1906,
       "name": "TradeWiseCollectionReport",
       "url": "/report/rainmaker-tl/TradeWiseCollectionReport/metadata/_get",
       "displayName": "rainmaker-tl-TradeWiseCollectionReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 1907,
-      "name": "TradeLicenseRegistryReport",
-      "url": "/report/rainmaker-tl/TradeLicenseRegistryReport/metadata/_get",
-      "displayName": "rainmaker-tl-TradeLicenseRegistryReport",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
