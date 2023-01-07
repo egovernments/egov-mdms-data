@@ -21545,6 +21545,42 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/sanitation-ui/citizen/fsm-home"
+    },
+     {
+      "id": 2392,
+      "name": "FSM zeropricing Create",
+      "url": "/fsm-calculator/v1/zeropricing/_create",
+      "displayName": "FSM zeropricing Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2393,
+      "name": "FSM zeropricing Update",
+      "url": "/fsm-calculator/v1/zeropricing/_update",
+      "displayName": "FSM zeropricing Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2394,
+      "name": "FSM zeropricing Search",
+      "url": "/fsm-calculator/v1/zeropricing/_search",
+      "displayName": "FSM zeropricing Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
