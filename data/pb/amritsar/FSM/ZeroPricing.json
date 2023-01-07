@@ -1,9 +1,9 @@
 {
     "tenantId": "pb.amritsar",
     "moduleName": "FSM",
-    "ZeroPricing":[
+    "zeroPricing":[
 	{
-	   "zeroPricing" : true,	
+	   "zeroPricingStatus" : true,	
 	}
 	]
 }
