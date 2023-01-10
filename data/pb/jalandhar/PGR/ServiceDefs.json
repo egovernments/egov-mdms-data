@@ -6,9 +6,9 @@
       "serviceCode": "MEDICINENOTAVAILABLE",
       "name": "Medicine Not Available",
       "keywords": "medicine, availability, stock",
-      "department": "Inventory",
+      "department": "DEPT_25",
       "slaHours": 336,
-      "menuPath": "Inventory",
+      "menuPath": "Health",
       "active": true,
       "order": 1
     }
