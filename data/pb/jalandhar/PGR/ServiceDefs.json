@@ -1,0 +1,16 @@
+{
+  "tenantId": "pb.jalandhar",
+  "moduleName": "RAINMAKER-PGR",
+  "ServiceDefs": [
+    {
+      "serviceCode": "MEDICINENOTAVAILABLE",
+      "name": "Medicine Not Available",
+      "keywords": "medicine, availability, stock",
+      "department": "Inventory",
+      "slaHours": 336,
+      "menuPath": "Inventory",
+      "active": true,
+      "order": 1
+    }
+  ]
+}
