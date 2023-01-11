@@ -1,0 +1,16 @@
+{
+  "tenantId": "",
+  "moduleName": "RAINMAKER-PGR",
+  "ServiceDefs": [
+    {
+      "serviceCode": "MEDICINENOTAVAILABLE",
+      "name": "Medicine Not Available",
+      "keywords": "medicine, availability, stock",
+      "department": "",
+      "slaHours": 336,
+      "menuPath": "Health",
+      "active": true,
+      "order": 1
+    }
+  ]
+}
