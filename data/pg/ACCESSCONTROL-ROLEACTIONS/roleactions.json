@@ -25819,6 +25819,18 @@
       "actionid": 2488,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_DOC_VERIFIER",
+      "actionid": 1957,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_FIELD_INSPECTOR",
+      "actionid": 1957,
+      "actioncode": "",
+      "tenantId": "pg"	  
     }
   ]
 }
