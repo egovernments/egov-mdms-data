@@ -5,6 +5,7 @@
     {
       "module": "FSM",
       "code": "FSM",
+      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/FSM.png",
       "active": true,
       "order": 2,
       "tenants": [
@@ -19,6 +20,7 @@
     {
       "module": "PGR",
       "code": "PGR",
+      "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/PGR.png",
       "active": true,
       "order": 2,
       "tenants": [
@@ -36,6 +38,7 @@
     {
       "module": "PT",
       "code": "PT",
+      "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/PT.png",
       "active": true,
       "order": 1,
       "tenants": [
@@ -218,6 +221,7 @@
     {
       "module": "TL",
       "code": "TL",
+      "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/TL.png",
       "active": true,
       "order": 2,
       "tenants": [
@@ -255,6 +259,7 @@
     {
       "module": "BPAAPPLY",
       "code": "BPAAPPLY",
+      "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/OBPS.png",
       "active": false,
       "order": 2,
       "tenants": [
@@ -269,6 +274,7 @@
     {
       "module": "BPAREG",
       "code": "BPAREG",
+      "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/OBPS.png",
       "active": false,
       "order": 2,
       "tenants": [
@@ -283,6 +289,7 @@
     {
       "module": "OBPS",
       "code": "OBPS",
+      "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/OBPS.png",
       "active": true,
       "order": 2,
       "tenants": [
@@ -353,6 +360,7 @@
     {
       "module": "WS",
       "code": "WS",
+      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/WS.png",
       "active": true,
       "order": 1,
       "tenants": [
@@ -410,6 +418,7 @@
     {
       "module": "Bills",
       "code": "Bills",
+      "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/Bill.png",
       "active": true,
       "order": 3,
       "tenants": [
