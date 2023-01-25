@@ -22292,24 +22292,58 @@
       "actioncode": "",
       "tenantId": "pb"
     },
+	{
+      "id": 2410,
+      "name": "FSM zeropricing Create",
+      "url": "/fsm-calculator/v1/zeropricing/_create",
+      "displayName": "FSM zeropricing Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2411,
+      "name": "FSM zeropricing Update",
+      "url": "/fsm-calculator/v1/zeropricing/_update",
+      "displayName": "FSM zeropricing Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2412,
+      "name": "FSM zeropricing Search",
+      "url": "/fsm-calculator/v1/zeropricing/_search",
+      "displayName": "FSM zeropricing Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    }
+  ==========================
+  
+  {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 2410,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+
 	 {
       "rolecode": "FSM_ADMIN",
       "actionid": 2411,
       "actioncode": "",
       "tenantId": "pb"
     },
-	 {
-      "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 2411,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-	{
-      "rolecode": "CITIZEN",
-      "actionid": 2411,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
+	 
 	 {
       "rolecode": "FSM_ADMIN",
       "actionid": 2412,
