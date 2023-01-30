@@ -92,11 +92,6 @@
         {
           "roles": ["REINDEXING_ROLE"],
           "attributeAccessList": [
-            {
-              "attribute": "mobileNumber",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         },
         {
@@ -377,21 +372,9 @@
       },
       "attributes": [
         {
-          "name": "street",
-          "jsonPath": "address/street",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "doorNo",
-          "jsonPath": "address/doorNo",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "landmark",
-          "jsonPath": "address/landmark",
-          "patternId": "005",
+          "name": "sample",
+          "jsonPath": "sample",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -399,41 +382,11 @@
         {
           "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK","PT_APPROVER", "PT_CEMP", "PT_COLLECTION_EMP", "PT_FIELD_INSPECTOR", "PT_DOC_VERIFIER"],
           "attributeAccessList": [
-            {
-              "attribute": "street",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "doorNo",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "landmark",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         },
         {
           "roles": ["REINDEXING_ROLE"],
           "attributeAccessList": [
-            {
-              "attribute": "street",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "doorNo",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "landmark",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         }
       ]
@@ -446,15 +399,9 @@
       },
       "attributes": [
         {
-          "name": "ownerType",
-          "jsonPath": "connectionHolders/*/ownerType",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "relationship",
-          "jsonPath": "connectionHolders/*/relationship",
-          "patternId": "005",
+          "name": "sample",
+          "jsonPath": "sample",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -462,31 +409,11 @@
         {
           "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [          
-            {
-              "attribute": "ownerType",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "relationship",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         },
         {
           "roles": ["REINDEXING_ROLE"],
           "attributeAccessList": [
-            {
-              "attribute": "ownerType",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "relationship",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         }
       ]
@@ -498,53 +425,10 @@
         "jsonPath": "/uuid"
       },
       "attributes": [
-      
         {
-          "name": "connectionHoldersMobileNumber",
-          "jsonPath": "mobileNumber",
-          "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "fatherOrHusbandName",
-          "jsonPath": "fatherOrHusbandName",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "gender",
-          "jsonPath": "gender",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "correspondenceAddress",
-          "jsonPath": "correspondenceAddress",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "ownerType",
-          "jsonPath": "connectionHolders/*/ownerType",
-          "patternId": "005",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "assigneeMobileNumber",
-          "jsonPath": "assignes/*/mobileNumber",
-          "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "relationship",
-          "jsonPath": "connectionHolders/*/relationship",
-          "patternId": "005",
+          "name": "sample",
+          "jsonPath": "sample",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -552,91 +436,11 @@
         {
           "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
-            {
-              "attribute": "connectionHoldersMobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "gender",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "fatherOrHusbandName",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "ownerType",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "correspondenceAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "relationship",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "plumberInfoMobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "assigneeMobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         },
         {
           "roles": ["REINDEXING_ROLE"],
           "attributeAccessList": [
-            {
-              "attribute": "connectionHoldersMobileNumber",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "gender",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "fatherOrHusbandName",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "ownerType",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "correspondenceAddress",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "relationship",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "plumberInfoMobileNumber",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "assigneeMobileNumber",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         }
       ]
@@ -740,9 +544,9 @@
       },
       "attributes": [
         {
-          "name": "mobileNumber",
-          "jsonPath": "mobileNumber",
-          "patternId": "001",
+          "name": "sample",
+          "jsonPath": "sample",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -750,11 +554,6 @@
         {
           "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
-            {
-              "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         }
       ]
@@ -815,20 +614,8 @@
       },
       "attributes": [
         {
-          "name": "street",
-          "jsonPath": "address/street",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "doorNo",
-          "jsonPath": "address/doorNo",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "landmark",
-          "jsonPath": "address/landmark",
+          "name": "sample",
+          "jsonPath": "sample",
           "patternId": null,
           "defaultVisibility": "PLAIN"
         }
@@ -843,14 +630,8 @@
       },
       "attributes": [
         {
-          "name": "ownerType",
-          "jsonPath": "connectionHolders/*/ownerType",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "relationship",
-          "jsonPath": "connectionHolders/*/relationship",
+          "name": "sample",
+          "jsonPath": "sample",
           "patternId": null,
           "defaultVisibility": "PLAIN"
         }
@@ -865,51 +646,9 @@
       },
       "attributes": [
         {
-          "name": "connectionHoldersMobileNumber",
-          "jsonPath": "mobileNumber",
+          "name": "sample",
+          "jsonPath": "sample",
           "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "fatherOrHusbandName",
-          "jsonPath": "fatherOrHusbandName",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "gender",
-          "jsonPath": "gender",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "correspondenceAddress",
-          "jsonPath": "correspondenceAddress",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "ownerType",
-          "jsonPath": "connectionHolders/*/ownerType",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "assigneeMobileNumber",
-          "jsonPath": "assignes/*/mobileNumber",
-          "patternId": null,
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "relationship",
-          "jsonPath": "connectionHolders/*/relationship",
-          "patternId": "005",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -1077,9 +816,9 @@
       },
       "attributes": [  
         {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
-          "patternId": "001",
+          "name": "sample",
+          "jsonPath": "sample",
+          "patternId": null,
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -1087,21 +826,11 @@
         {
           "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
-           {
-              "attribute": "plumberInfoMobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         },
         {
           "roles": ["REINDEXING_ROLE"],
           "attributeAccessList": [
-            {
-              "attribute": "plumberInfoMobileNumber",
-              "firstLevelVisibility": "ENCRYPTED",
-              "secondLevelVisibility": "PLAIN"
-            }
           ]
         }
       ]
@@ -1114,8 +843,8 @@
       },
       "attributes": [
         {
-          "name": "plumberInfoMobileNumber",
-          "jsonPath": "plumberInfo/*/mobileNumber",
+          "name": "sample",
+          "jsonPath": "sample",
           "patternId": null,
           "defaultVisibility": "PLAIN"
         }
