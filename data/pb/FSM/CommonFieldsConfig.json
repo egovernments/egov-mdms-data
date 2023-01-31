@@ -248,12 +248,6 @@
         },
         {
           "type": "component",
-          "key": "paymentPreference",
-          "withoutLabel": true,
-          "component": "SelectPaymentType"
-        },
-        {
-          "type": "component",
           "key": "advancepaymentPreference",
           "withoutLabel": true,
           "component": "AdvanceCollection"
