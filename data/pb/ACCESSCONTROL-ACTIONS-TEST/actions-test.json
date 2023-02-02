@@ -21581,6 +21581,45 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2395,
+      "name": "TLApplicationStatusReport",
+      "url": "url",
+      "displayName": "Trade License Application Status Report",
+      "orderNumber": 2,
+      "parentModule": "rainmaker-tl",
+      "enabled": true,
+      "serviceCode": "TL",
+      "code": "null",
+      "path": "TradeLicense.Trade License Reports.TLApplicationStatusReport",
+      "navigationURL": "report/rainmaker-tl/TLApplicationStatusReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 2396,
+      "name": "TLApplicationStatusReport",
+      "url": "/report/rainmaker-tl/TLApplicationStatusReport/metadata/_get",
+      "displayName": "TLApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2397,
+      "name": "TLApplicationStatusReport",
+      "url": "/report/rainmaker-tl/TLApplicationStatusReport/_get",
+      "displayName": "rainmaker-tl-TLApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
