@@ -21620,6 +21620,20 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2398,
+      "name": "FIRE-NOC",
+      "url": "quickAction",
+      "displayName": "Search Fire Noc",
+      "orderNumber": 4,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "FIRE-NOC",
+      "code": "null",
+      "navigationURL": "fire-noc/inbox",
+      "path": "FIRE-NOC.Search",
+      "leftIcon": "social:people"
     }
   ]
 }
