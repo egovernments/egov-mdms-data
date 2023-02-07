@@ -11791,6 +11791,23 @@
       "actionid": 1800,
       "actioncode": "",
       "tenantId": "pg"
+    },{
+      "rolecode": "NOC_DOC_VERIFIER",
+      "actionid": 1800,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_FIELD_INSPECTOR",
+      "actionid": 1800,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_APPROVER",
+      "actionid": 1800,
+      "actioncode": "",
+      "tenantId": "pg"
     },
     {
       "rolecode": "NOC_CEMP",
@@ -13810,6 +13827,23 @@
     },
     {
       "rolecode": "NOC_CEMP",
+      "actionid": 1932,
+      "actioncode": "",
+      "tenantId": "pg"
+    },{
+      "rolecode": "NOC_DOC_VERIFIER",
+      "actionid": 1932,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_FIELD_INSPECTOR",
+      "actionid": 1932,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "NOC_APPROVER",
       "actionid": 1932,
       "actioncode": "",
       "tenantId": "pg"
