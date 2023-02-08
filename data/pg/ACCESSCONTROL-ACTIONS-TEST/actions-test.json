@@ -14545,6 +14545,20 @@
       "serviceCode": "SS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2495,
+      "name": "FIRE-NOC",
+      "url": "quickAction",
+      "displayName": "Fire Noc Inbox",
+      "orderNumber": 4,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "FIRE-NOC",
+      "code": "null",
+      "navigationURL": "fire-noc/inbox",
+      "path": "FIRE-NOC.Search",
+      "leftIcon": "social:people"
     }
     
    ]
