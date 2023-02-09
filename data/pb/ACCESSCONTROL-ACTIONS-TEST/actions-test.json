@@ -21634,6 +21634,33 @@
       "navigationURL": "fire-noc/inbox",
       "path": "FIRE-NOC.Search",
       "leftIcon": "social:people"
+    },
+    {
+      "id": 2399,
+      "name": "Report PT",
+      "url": "url",
+      "displayName": "Report-PT",
+      "orderNumber": 14,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.IFIX",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/ptReport",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 2400,
+      "name": "DSS Report Config PT",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/ptReport",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
