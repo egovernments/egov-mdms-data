@@ -13392,6 +13392,42 @@
       "navigationURL": "fire-noc/inbox",
       "path": "FIRE-NOC.FireNocInbox",
       "leftIcon": "social:people"
+    },
+    {
+      "id": 2414,
+      "name": "ApplicationStatusReport",
+      "url": "/report/rainmaker-noc/ApplicationStatusReport/metadata/_get",
+      "displayName": "rainmaker-firenoc-ApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2415,
+      "name": "ChannelsReport",
+      "url": "/report/rainmaker-noc/ChannelsReport/metadata/_get",
+      "displayName": "rainmaker-firenoc-ChannelsReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2416,
+      "name": "CollectionReport",
+      "url": "report/rainmaker-noc/CollectionReport/metadata/_get",
+      "displayName": "rainmaker-firenoc-CollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }
