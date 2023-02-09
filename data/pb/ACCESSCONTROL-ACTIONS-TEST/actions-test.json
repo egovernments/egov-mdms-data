@@ -13396,14 +13396,14 @@
     {
       "id": 2413,
       "name": "FIRE-NOC",
-      "url": "url",
-      "displayName": "Search",
-      "orderNumber": 3,
+      "url": "quickAction",
+      "displayName": "Fire Noc Inbox",
+      "orderNumber": 4,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "FIRE-NOC",
       "code": "null",
-      "navigationURL": "fire-noc/search",
+      "navigationURL": "fire-noc/inbox",
       "path": "FIRE-NOC.FireNocInbox",
       "leftIcon": "social:people"
     }
