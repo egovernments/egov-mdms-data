@@ -11942,19 +11942,19 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_CEMP",
+      "rolecode": "FIRENOC_REPORT_VIEWER",
       "actionid": 1809,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_CEMP",
+      "rolecode": "FIRENOC_REPORT_VIEWER",
       "actionid": 1810,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "NOC_CEMP",
+      "rolecode": "FIRENOC_REPORT_VIEWER",
       "actionid": 1811,
       "actioncode": "",
       "tenantId": "pg"
@@ -12094,84 +12094,6 @@
     {
       "rolecode": "NOC_CEMP",
       "actionid": 1825,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1811,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_APPROVER",
-      "actionid": 1811,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_FIELD_INSPECTOR",
-      "actionid": 1811,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_DOC_VERIFIER",
-      "actionid": 1811,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1811,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1810,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_APPROVER",
-      "actionid": 1810,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_FIELD_INSPECTOR",
-      "actionid": 1810,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_DOC_VERIFIER",
-      "actionid": 1810,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1810,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "NOC_APPROVER",
-      "actionid": 1809,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1809,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1809,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -25901,25 +25823,61 @@
       "rolecode": "NOC_CEMP",
       "actionid": 2495,
       "actioncode": "",
-      "tenantId": "pb"
+      "tenantId": "pg"
     },
     {
       "rolecode": "NOC_DOC_VERIFIER",
       "actionid": 2495,
       "actioncode": "",
-      "tenantId": "pb"
+      "tenantId": "pg"
     },
     {
       "rolecode": "NOC_FIELD_INSPECTOR",
       "actionid": 2495,
       "actioncode": "",
-      "tenantId": "pb"
+      "tenantId": "pg"
     },
     {
       "rolecode": "NOC_APPROVER",
       "actionid": 2495,
       "actioncode": "",
-      "tenantId": "pb"
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRENOC_REPORT_VIEWER",
+      "actionid": 2496,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRENOC_REPORT_VIEWER",
+      "actionid": 2497,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRENOC_REPORT_VIEWER",
+      "actionid": 2498,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRENOC_REPORT_VIEWER",
+      "actionid": 2499,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRENOC_REPORT_VIEWER",
+      "actionid": 2500,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FIRENOC_REPORT_VIEWER",
+      "actionid": 2501,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

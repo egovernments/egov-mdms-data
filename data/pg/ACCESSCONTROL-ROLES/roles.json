@@ -686,6 +686,11 @@
       "code": "TL_REPORT_VIEWER",
       "name": "TL Report Viewer",
       "description": "TL User that can view TL reports"
+    },
+    {
+      "code": "FIRENOC_REPORT_VIEWER",
+      "name": "FireNOC Report Viewer",
+      "description": "FireNOC User that can view FireNOC reports"
     }
   ]
 }
