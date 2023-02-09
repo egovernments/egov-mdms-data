@@ -13444,7 +13444,7 @@
     {
       "id": 2418,
       "name": "ChannelsReport",
-      "url": "/report/rainmaker-noc/ChannelsReport/metadata/_get",
+      "url": "/report/rainmaker-noc/ChannelsReport/_get",
       "displayName": "rainmaker-noc-ChannelsReport",
       "orderNumber": 1,
       "parentModule": "",
@@ -13456,7 +13456,7 @@
     {
       "id": 2419,
       "name": "CollectionReport",
-      "url": "/report/rainmaker-noc/CollectionReport/metadata/_get",
+      "url": "/report/rainmaker-noc/ChannelsReport/_get",
       "displayName": "rainmaker-noc-CollectionReport",
       "orderNumber": 1,
       "parentModule": "",
