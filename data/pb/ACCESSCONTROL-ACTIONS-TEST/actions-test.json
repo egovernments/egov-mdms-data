@@ -13428,6 +13428,42 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2417,
+      "name": "ApplicationStatusReport",
+      "url": "/report/rainmaker-noc/ApplicationStatusReport/_get",
+      "displayName": "rainmaker-noc-ApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2418,
+      "name": "ChannelsReport",
+      "url": "/report/rainmaker-noc/ChannelsReport/_get",
+      "displayName": "rainmaker-noc-ChannelsReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2419,
+      "name": "CollectionReport",
+      "url": "/report/rainmaker-noc/ChannelsReport/_get",
+      "displayName": "rainmaker-noc-CollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": ""
     }
   ]
 }
