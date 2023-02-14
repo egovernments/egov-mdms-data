@@ -14631,6 +14631,21 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2502,
+      "name": "Dashboard Finance",
+      "url": "url",
+      "displayName": "Finance",
+      "orderNumber": 15,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Finance",
+      "navigationURL": "/digit-ui/employee/dss/dashboard/finance",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
     }
     
    ]
