@@ -25878,6 +25878,24 @@
       "actionid": 2501,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_FINANCE",
+      "actionid": 2502,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DASHBOARD_REPORT_VIEWER",
+      "actionid": 2502,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 2502,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
