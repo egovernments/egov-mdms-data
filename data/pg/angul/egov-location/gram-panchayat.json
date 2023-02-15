@@ -1,0 +1,62 @@
+{
+    "tenantId": "pg.angul",
+    "moduleName": "egov-location",
+    "TenantBoundary": [
+      {
+        "hierarchyType": {
+          "code": "REVENUE",
+          "name": "REVENUE"
+        },
+        "boundary": {
+          "id": 1,
+          "boundaryNum": 1,
+          "name": "Angul",
+          "localname": "Angul",
+          "longitude": null,
+          "latitude": null,
+          "label": "City",
+          "code": "pg.angul",
+          "children": [
+            {
+              "id": "2",
+              "boundaryNum": 1,
+              "name": "Baniabahal",
+              "localname": "Baniabahal",
+              "longitude": null,
+              "latitude": null,
+              "label": "GramPanchayat",
+              "code": "VIL1"
+            }
+          ]
+        }
+      },
+      {
+        "hierarchyType": {
+          "code": "ADMIN",
+          "name": "ADMIN"
+        },
+        "boundary": {
+          "id": 1,
+          "boundaryNum": 1,
+          "name": "Angul",
+          "localname": "Angul",
+          "longitude": null,
+          "latitude": null,
+          "label": "City",
+          "code": "pg.angul",
+          "children": [
+            {
+              "id": "2",
+              "boundaryNum": 1,
+              "name": "Baniabahal",
+              "localname": "Baniabahal",
+              "longitude": null,
+              "latitude": null,
+              "label": "GramPanchayat",
+              "code": "VIL1"
+            }
+          ]
+        }
+      }
+    ]
+  }
