@@ -2,228 +2,182 @@
   "tenantId": "pb.amritsar",
   "moduleName": "egov-location",
   "TenantBoundary": [{
-    "hierarchyType": {
-      "code": "REVENUE",
-      "name": "REVENUE"
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Angul",
+        "localname": "Angul",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "od.angul",
+        "children": [{
+            "id": "2",
+            "boundaryNum": 1,
+            "name": "Baniabahal",
+            "localname": "Baniabahal",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL1"
+          },
+          {
+            "id": "3",
+            "boundaryNum": 1,
+            "name": "Hulurisinga",
+            "localname": "Hulurisinga",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL2"
+          },
+          {
+            "id": "4",
+            "boundaryNum": 1,
+            "name": "Angul town",
+            "localname": "Angul town",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL3"
+          },
+          {
+            "id": "5",
+            "boundaryNum": 1,
+            "name": "Other",
+            "localname": "Other",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL4"
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "GP 1",
+            "localname": "GP1",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "GP1",
+            "children": [{
+                "id": 11,
+                "boundaryNum": 1,
+                "name": "Village 1",
+                "localname": "Village local 1",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Village",
+                "code": "SUN04",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              },
+              {
+                "id": 12,
+                "boundaryNum": 1,
+                "name": "Village 2",
+                "localname": "Village local 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Village",
+                "code": "SUN11",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "boundaryNum": 1,
+            "name": "GP 2",
+            "localname": "GP2",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "GP2",
+            "children": [{
+                "id": 13,
+                "boundaryNum": 1,
+                "name": "Village 3",
+                "localname": "Village local 3",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Village",
+                "code": "SUN04",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              },
+              {
+                "id": 14,
+                "boundaryNum": 1,
+                "name": "Village 4",
+                "localname": "Village local 4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Village",
+                "code": "SUN11",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
     },
-    "boundary": {
-      "id": 1,
-      "boundaryNum": 1,
-      "name": "Amritsar",
-      "localname": "Amritsar",
-      "longitude": null,
-      "latitude": null,
-      "label": "City",
-      "code": "pb.amritsar",
-      "children": [{
-          "id": 5,
-          "boundaryNum": 1,
-          "name": "GP 1",
-          "localname": "GP1",
-          "longitude": null,
-          "latitude": null,
-          "label": "GP",
-          "code": "GP1",
-          "children": [{
-              "id": 4,
-              "boundaryNum": 1,
-              "name": "Village 1",
-              "localname": "Village local 1",
-              "longitude": 74.871552,
-              "latitude": 31.63089,
-              "label": "Village",
-              "code": "SUN04",
-              "pincode": [143001],
-              "area": "V-Area1",
-              "children": []
-            },
-            {
-              "id": 5,
-              "boundaryNum": 1,
-              "name": "Village 2",
-              "localname": "Village local 2",
-              "longitude": null,
-              "latitude": null,
-              "label": "Village",
-              "code": "SUN11",
-              "pincode": [143001],
-              "area": "V-Area1",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "boundaryNum": 1,
-          "name": "GP 2",
-          "localname": "GP2",
-          "longitude": null,
-          "latitude": null,
-          "label": "GP",
-          "code": "GP2",
-          "children": [{
-              "id": 4,
-              "boundaryNum": 1,
-              "name": "Village 3",
-              "localname": "Village local 3",
-              "longitude": 74.871552,
-              "latitude": 31.63089,
-              "label": "Village",
-              "code": "SUN04",
-              "pincode": [143001],
-              "area": "V-Area1",
-              "children": []
-            },
-            {
-              "id": 5,
-              "boundaryNum": 1,
-              "name": "Village 4",
-              "localname": "Village local 4",
-              "longitude": null,
-              "latitude": null,
-              "label": "Village",
-              "code": "SUN11",
-              "pincode": [143001],
-              "area": "V-Area1",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "boundaryNum": 1,
-          "name": "Zone 1",
-          "localname": "Zone1",
-          "longitude": null,
-          "latitude": null,
-          "label": "Zone",
-          "code": "Z1",
-          "children": [{
-              "id": 3,
-              "boundaryNum": 1,
-              "name": "Block 1",
-              "localname": "Block1",
-              "longitude": null,
-              "latitude": null,
-              "label": "Block",
-              "code": "B1",
-              "children": [{
-                  "id": 4,
-                  "boundaryNum": 1,
-                  "name": "Ajit Nagar - Area1",
-                  "localname": "Ajit Nagar - Area1",
-                  "longitude": 74.871552,
-                  "latitude": 31.63089,
-                  "label": "Locality",
-                  "code": "SUN04",
-                  "pincode": [143001],
-                  "area": "Area1",
-                  "children": []
-                },
-                {
-                  "id": 5,
-                  "boundaryNum": 1,
-                  "name": "Back Side 33 KVA Grid Patiala Road - Area1",
-                  "localname": "Back Side 33 KVA Grid Patiala Road - Area1",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN11",
-                  "pincode": [143001],
-                  "area": "Area1",
-                  "children": []
-                },
-                {
-                  "id": 6,
-                  "boundaryNum": 1,
-                  "name": "Back Side 66 KVA Grid Patiala Road - Area2",
-                  "localname": "Back Side 66 KVA Grid Patiala Road - Area2",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN12",
-                  "pincode": [143001],
-                  "area": "Area2",
-                  "children": []
-                },
-                {
-                  "id": 7,
-                  "boundaryNum": 1,
-                  "name": "Back Side Civil Courts Colony - Area1",
-                  "localname": "Back Side Civil Courts Colony - Area1",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN13",
-                  "pincode": [143001],
-                  "area": "Area1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": 8,
-              "boundaryNum": 1,
-              "name": "Block 2",
-              "localname": "Block2",
-              "longitude": null,
-              "latitude": null,
-              "label": "Block",
-              "code": "B2",
-              "children": [{
-                  "id": 9,
-                  "boundaryNum": 1,
-                  "name": "Backside Brijbala Hospital - Area3",
-                  "localname": "Backside Brijbala Hospital - Area3",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN20",
-                  "area": "Area3",
-                  "children": []
-                },
-                {
-                  "id": 10,
-                  "boundaryNum": 1,
-                  "name": "Bigharwal Chowk to Railway Station - Area2",
-                  "localname": "Bigharwal Chowk to Railway Station - Area2",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN35",
-                  "area": "Area2",
-                  "children": []
-                },
-                {
-                  "id": 11,
-                  "boundaryNum": 1,
-                  "name": "Chandar Colony Biggarwal Road - Area2",
-                  "localname": "Chandar Colony Biggarwal Road - Area2",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN40",
-                  "pincode": [143001],
-                  "area": "Area2",
-                  "children": []
-                },
-                {
-                  "id": 12,
-                  "boundaryNum": 1,
-                  "name": "Deep Rice Mill Road - Area1",
-                  "localname": "Deep Rice Mill Road - Area1",
-                  "longitude": null,
-                  "latitude": null,
-                  "label": "Locality",
-                  "code": "SUN55",
-                  "area": "Area1",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Angul",
+        "localname": "Angul",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "od.angul",
+        "children": [{
+            "id": "2",
+            "boundaryNum": 1,
+            "name": "Baniabahal",
+            "localname": "Baniabahal",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL1"
+          },
+          {
+            "id": "3",
+            "boundaryNum": 1,
+            "name": "Hulurisinga",
+            "localname": "Hulurisinga",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL2"
+          },
+          {
+            "id": "4",
+            "boundaryNum": 1,
+            "name": "Angul town",
+            "localname": "Angul town",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "VIL3"
+          }
+        ]
+      }
     }
-  }]
+  ]
 }
