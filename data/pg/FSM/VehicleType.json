@@ -85,6 +85,54 @@
             "make": "TATA",
             "capacity": "1501",
             "amount": "600"
+        },
+        {
+            "code": "ASHOK-LEYLAND.TATA709-EX",
+            "name": "TATA709-EX",
+            "active": true,
+            "make": "ASHOK-LEYLAND",
+            "capacity": "3000",
+            "amount": "1800"
+        },
+        {
+            "code": "MAHINDRA.TRACTOR",
+            "name": "TRACTOR",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "3000",
+            "amount": "1200"
+        },
+        {
+            "code": "MAHINDRA.PICKUP",
+            "name": "Pickup",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "3000",
+            "amount": "1000"
+        },
+        {
+            "code": "MAHINDRA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "1000",
+            "amount": "950"
+        },
+        {
+            "code": "TATA.TRUCK2",
+            "name": "TRUCK2",
+            "active": true,
+            "make": "TATA",
+            "capacity": "3000",
+            "amount": "900"
+        },
+        {
+            "code": "MAHINDRA.PICKUP2",
+            "name": "Pickup2",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "1000",
+            "amount": "800"
         }
     ]
 }

@@ -1,0 +1,36 @@
+{
+    "tenantId": "pg.dhamnagar",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+            "name": "Habib Nagar-1",
+            "active": true,
+            "code": "DHAM001",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Habib Nagar-2",
+            "active": true,
+            "code": "DHAM002",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Alasuapada",
+            "active": true,
+            "code": "DHAM003",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Banua Adibasi Sahi",
+            "active": true,
+            "code": "DHAM004",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Harijana Colony",
+            "active": true,
+            "code": "DHAM005",
+            "locality": "VIL1"
+        }
+    ]
+}
