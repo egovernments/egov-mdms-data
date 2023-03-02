@@ -112,7 +112,7 @@
           {
               "type": "component",
               "route": "street",
-              "component": "SelectStreet",
+              "component": "TLSelectStreet",
               "key": "address",
               "withoutLabel": true,
               "hideInEmployee": true,
@@ -140,7 +140,7 @@
           },
           {
               "type": "component",
-              "component": "SelectStreet",
+              "component": "TLSelectStreet",
               "key": "address",
               "withoutLabel": true,
               "hideInCitizen": true,
