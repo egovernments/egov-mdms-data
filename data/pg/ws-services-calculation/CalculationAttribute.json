@@ -13,6 +13,12 @@
       "code": "NONMETERED",
       "attribute": "Pipe Size",
       "active": true
+    },
+    {
+      "name": "Bulk-supply",
+      "code": "Bulk-supply",
+      "attribute": "Pipe Size",
+      "active": true    
     }
   ]
 }

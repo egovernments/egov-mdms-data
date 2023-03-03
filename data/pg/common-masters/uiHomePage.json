@@ -1,0 +1,134 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "uiHomePage": [
+        {
+            "appBannerDesktop": 
+            {
+                "code": "APP_BANNER_DESKTOP",
+                "name": "App Banner Desktop View",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
+                "enabled": true
+            },
+            "appBannerMobile":
+            {
+                "code": "APP_BANNER_MOBILE",
+                "name": "App Banner Mobile View",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/app-banner-mobile.jpg",
+                "enabled": true
+            },
+            "citizenServicesCard":
+            {
+                "code": "HOME_CITIZEN_SERVICES_CARD",
+                "name": "Home Citizen services Card",
+                "enabled": true,
+                "headerLabel": "DASHBOARD_CITIZEN_SERVICES_LABEL",
+                "sideOption": {
+                    "name": "DASHBOARD_VIEW_ALL_LABEL",
+                    "enabled": true,
+                    "navigationUrl": "/digit-ui/citizen/all-services"
+                  },
+                "props": [
+                    {
+                        "code": "CITIZEN_SERVICE_PGR",
+                        "name": "Complaints",
+                        "label": "ES_PGR_HEADER_COMPLAINT",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/pgr-home"
+                    },
+                    {
+                        "code": "CITIZEN_SERVICE_PT",
+                        "name": "Property Tax",
+                        "label": "MODULE_PT",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/pt-home"
+                    },
+                    {
+                        "code": "CITIZEN_SERVICE_TL",
+                        "name": "Trade Licence",
+                        "label": "MODULE_TL",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/tl-home"
+                    },
+                    {
+                        "code": "CITIZEN_SERVICE_WS",
+                        "name": "Water & Sewerage",
+                        "label": "ACTION_TEST_WATER_AND_SEWERAGE",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/ws-home"
+                    }
+                ]
+            },
+            "informationAndUpdatesCard":
+            {
+                "code": "HOME_CITIZEN_INFO_UPDATE_CARD",
+                "name": "Home Citizen Information and Updates card",
+                "enabled": true,
+                "headerLabel": "CS_COMMON_DASHBOARD_INFO_UPDATES",
+                "sideOption": {
+                    "name": "DASHBOARD_VIEW_ALL_LABEL",
+                    "enabled": true,
+                    "navigationUrl": ""
+                  },
+                "props": [
+                    {
+                        "code": "CITIZEN_MY_CITY",
+                        "name": "My City",
+                        "label": "CS_HEADER_MYCITY",
+                        "enabled": true,
+                        "navigationUrl": ""
+                    },
+                    {
+                        "code": "CITIZEN_EVENTS",
+                        "name": "Events",
+                        "label": "EVENTS_EVENTS_HEADER",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/engagement/events"
+                    },
+                    {
+                        "code": "CITIZEN_DOCUMENTS",
+                        "name": "Documents",
+                        "label": "CS_COMMON_DOCUMENTS",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/engagement/docs"
+                    },
+                    {
+                        "code": "CITIZEN_SURVEYS",
+                        "name": "Surveys",
+                        "label": "CS_COMMON_SURVEYS",
+                        "enabled": true,
+                        "navigationUrl": "/digit-ui/citizen/engagement/surveys/list"
+                    }
+                ]
+            },
+            "whatsNewSection":
+            {
+                "code": "WHATSNEW",
+                "name": "What's New",
+                "enabled": true,
+                "headerLabel": "DASHBOARD_WHATS_NEW_LABEL",
+                "sideOption": {
+                    "name": "DASHBOARD_VIEW_ALL_LABEL",
+                    "enabled": true,
+                    "navigationUrl": "/digit-ui/citizen/engagement/whats-new"
+                  }
+            },
+            "whatsAppBannerDesktop":
+            {
+                "code": "WHATSAPP_BANNER_DESKTOP",
+                "name": "WhatsApp Banner Desktop View",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/whatsapp-web.jpg",
+                "enabled": true,
+                "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
+            },
+            "whatsAppBannerMobile":
+            {
+                "code": "WHATSAPP_BANNER_MOBILE",
+                "name": "WhatsApp Banner Mobile View",
+                "bannerUrl": "https://uat.digit.org/egov-uat-assets/whatsapp-mobile.jpg",
+                "enabled": true,
+                "navigationUrl": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva"
+            }
+        }  
+    ]
+}

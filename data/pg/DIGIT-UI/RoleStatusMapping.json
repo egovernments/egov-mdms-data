@@ -45,7 +45,10 @@
         },
         {
             "userRole": "FSM_COLLECTOR",
-            "statuses": ["PENDING_APPL_FEE_PAYMENT"],
+            "statuses": [
+                "PENDING_APPL_FEE_PAYMENT",
+                 "DSO_INPROGRESS"
+            ],
             "zeroCheck": false,
             "fixed": true
         },
