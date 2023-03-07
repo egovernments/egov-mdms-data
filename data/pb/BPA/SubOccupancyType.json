@@ -123,18 +123,6 @@
          "colorCode":null
       },
       {
-         "name":"Old Age Home",
-         "code":"A2",
-         "active":true,
-         "occupancyType":"A",
-         "maxCoverage":30.0,
-         "minFar":0.0,
-         "maxFar":1.2,
-         "orderNumber":11,
-         "description":"Old Age Home/Care Centre for differently abled persons /Mentally Challenged/Working Women/Men Hostel/ Adult Education Centre/Orphanage/Children’s Centre/Night Shelter",
-         "colorCode":null
-      },
-      {
          "name":"Service Apartment",
          "code":"A-SA",
          "active":true,
@@ -360,18 +348,6 @@
          "maxFar":1.25,
          "orderNumber":41,
          "description":"Diagnostic Centre.",
-         "colorCode":null
-      },
-      {
-         "name":"Veterinary Hospital for pet animals and birds",
-         "code":"C-VHPAB",
-         "active":true,
-         "occupancyType":"C",
-         "maxCoverage":30.0,
-         "minFar":0.0,
-         "maxFar":2.30,
-         "orderNumber":42,
-         "description":"Veterinary Hospital for pet animals and birds",
          "colorCode":null
       },
       {
@@ -876,18 +852,6 @@
          "maxFar":2.15,
          "orderNumber":33,
          "description":"small factories and etc needs to be defind, falls in industrial",
-         "colorCode":null
-      },
-      {
-         "name":"Junction Stations, Intermediate Stations and Substations",
-         "code":"H-JSISS",
-         "active":true,
-         "occupancyType":"H",
-         "maxCoverage":25.0,
-         "minFar":0.0,
-         "maxFar":2.35,
-         "orderNumber":60,
-         "description":"Junction Stations, Intermediate Stations and Substations",
          "colorCode":null
       },
       {
