@@ -56,10 +56,84 @@
               "latitude": null,
               "label": "Locality",
               "code": "VIL4"
-            }
+            },
+            {
+              "id": 6,
+              "boundaryNum": 1,
+              "name": "GP 1",
+              "localname": "GP 1",
+              "longitude": null,
+              "latitude": null,
+              "label": "GramPanchayat",
+              "code": "GP1",
+              "children": [{
+                  "id": 11,
+                  "boundaryNum": 1,
+                  "name": "village 1",
+                  "localname": "Village local 1",
+                  "longitude": 74.871552,
+                  "latitude": 31.63089,
+                  "label": "Village",
+                  "code": "SUN04",
+                  "pincode": [143001],
+                  "area": "V-Area1",
+                  "children": []
+                },
+                {
+                  "id": 12,
+                  "boundaryNum": 1,
+                  "name": "village 2",
+                  "localname": "Village local 2",
+                  "longitude": null,
+                  "latitude": null,
+                  "label": "Village",
+                  "code": "SUN11",
+                  "pincode": [143001],
+                  "area": "V-Area1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "boundaryNum": 1,
+              "name": "GP 2",
+              "localname": "GP 2",
+              "longitude": null,
+              "latitude": null,
+              "label": "GramPanchayat",
+              "code": "GP 2",
+              "children": [{
+                  "id": 13,
+                  "boundaryNum": 1,
+                  "name": "village 3",
+                  "localname": "Village local 3",
+                  "longitude": 74.871552,
+                  "latitude": 31.63089,
+                  "label": "Village",
+                  "code": "SUN04",
+                  "pincode": [143001],
+                  "area": "V-Area1",
+                  "children": []
+                },
+                {
+                  "id": 14,
+                  "boundaryNum": 1,
+                  "name": "village 4",
+                  "localname": "Village local 4",
+                  "longitude": null,
+                  "latitude": null,
+                  "label": "Village",
+                  "code": "SUN11",
+                  "pincode": [143001],
+                  "area": "V-Area1",
+                  "children": []
+                }
           ]
         }
-      },
+      ]
+    }
+  },
       {
         "hierarchyType": {
           "code": "ADMIN",
