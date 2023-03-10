@@ -1,0 +1,29 @@
+export const RatingAndFeedBack = {
+    isCitizenRatingEnabled : true,
+    headerByRating: [
+        {
+            minvalue : 1,
+            maxvalue : 3,
+            code : "CS_WHAT_WENT_GOOD"
+        },
+        {
+            minvalue : 4,
+            maxvalue : 5,
+            code : "CS_WHAT_WENT_WRONG"
+        }
+    ],
+    enabledScreensList:[
+        {
+            bussinessService : "PT",
+            screenfrom : "pt/property/new-application/acknowledgement",
+            cardHeader : "PT_RATE_HELP_TEXT1",
+            cardText : "PT_RATE_CARD_TEXT1",
+        },
+        {
+            bussinessService : "PT",
+            screenfrom : "pt/property/property-mutation/acknowledgement",
+            cardHeader : "PT_RATE_HELP_TEXT2",
+            cardText : "PT_RATE_CARD_TEXT2",
+        }
+    ]
+}
