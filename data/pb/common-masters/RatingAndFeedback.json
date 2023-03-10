@@ -1,31 +1,42 @@
 {
     "tenantId": "pb",
     "moduleName": "common-masters",
-    "isCitizenRatingEnabled" : true,
-    "headerByRating": [
+    "RatingAndFeedback": [
         {
-            "minvalue" : 1,
-            "maxvalue" : 3,
-            "code" : "CS_WHAT_WENT_GOOD"
+            "type" : "isCitizenRatingEnabled",
+            "value" : true
         },
         {
-            "minvalue" : 4,
-            "maxvalue" : 5,
-            "code" : "CS_WHAT_WENT_WRONG"
-        }
-    ],
-    "enabledScreensList":[
-        {
-            "bussinessService" : "PT",
-            "screenfrom" : "pt/property/new-application/acknowledgement",
-            "cardHeader" : "PT_RATE_HELP_TEXT1",
-            "cardText" : "PT_RATE_CARD_TEXT1"
+            "type" : "headerByRating",
+            "value" : [
+                {
+                    "minvalue" : 1,
+                    "maxvalue" : 3,
+                    "code" : "CS_WHAT_WENT_GOOD"
+                },
+                {
+                    "minvalue" : 4,
+                    "maxvalue" : 5,
+                    "code" : "CS_WHAT_WENT_WRONG"
+                }
+            ]
         },
         {
-            "bussinessService" : "PT",
-            "screenfrom" : "pt/property/property-mutation/acknowledgement",
-            "cardHeader" : "PT_RATE_HELP_TEXT2",
-            "cardText" : "PT_RATE_CARD_TEXT2"
+            "type" : "enabledScreensList",
+            "value" : [
+                {
+                    "bussinessService" : "PT",
+                    "screenfrom" : "pt/property/new-application/acknowledgement",
+                    "cardHeader" : "PT_RATE_HELP_TEXT1",
+                    "cardText" : "PT_RATE_CARD_TEXT1"
+                },
+                {
+                    "bussinessService" : "PT",
+                    "screenfrom" : "pt/property/property-mutation/acknowledgement",
+                    "cardHeader" : "PT_RATE_HELP_TEXT2",
+                    "cardText" : "PT_RATE_CARD_TEXT2"
+                }
+            ]
         }
     ]
 }
