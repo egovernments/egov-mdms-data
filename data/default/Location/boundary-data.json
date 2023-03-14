@@ -1,0 +1,210 @@
+{
+  "tenantId": "default",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Tete",
+        "localname": "Tete",
+        "longitude": null,
+        "latitude": null,
+        "label": "Province",
+        "code": "LC00001",
+        "children": [
+          {
+            "id": "2",
+            "boundaryNum": 1,
+            "name": "Angónia",
+            "localname": "Angónia",
+            "longitude": null,
+            "latitude": null,
+            "label": "District",
+            "code": "LC00002",
+            "children": [
+              {
+                "id": "3",
+                "boundaryNum": 1,
+                "name": "Ulongué",
+                "localname": "Ulongué",
+                "longitude": null,
+                "latitude": null,
+                "label": "AdministrativeProvince",
+                "code": "LC00003",
+                "area": "",
+                "children": [
+                  {
+                    "id": "4",
+                    "boundaryNum": 1,
+                    "name": "TAU L1",
+                    "localname": "TAU L1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "LC00004",
+                    "area": "",
+                    "children": [
+                      {
+                        "id": "5",
+                        "boundaryNum": 1,
+                        "name": "TAU L1 V1",
+                        "localname": "TAU L1 V1",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC00005",
+                        "area": "",
+                        "children": []
+                      },
+                      {
+                        "id": "6",
+                        "boundaryNum": 1,
+                        "name": "TAU L1 V2",
+                        "localname": "TAU L1 V2",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC00006",
+                        "area": "",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7",
+                    "boundaryNum": 1,
+                    "name": "TAU L2",
+                    "localname": "TAU L2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "LC00007",
+                    "area": "",
+                    "children": [
+                      {
+                        "id": "8",
+                        "boundaryNum": 1,
+                        "name": "TAU L2 V1",
+                        "localname": "TAU L2 V1",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC00008",
+                        "area": "",
+                        "children": []
+                      },
+                      {
+                        "id": "9",
+                        "boundaryNum": 1,
+                        "name": "TAU L2 V2",
+                        "localname": "TAU L2 V2",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC00009",
+                        "area": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "10",
+                "boundaryNum": 1,
+                "name": "Dómuè",
+                "localname": "Dómuè",
+                "longitude": null,
+                "latitude": null,
+                "label": "AdministrativeProvince",
+                "code": "LC000010",
+                "area": "",
+                "children": [
+                  {
+                    "id": "11",
+                    "boundaryNum": 1,
+                    "name": "TAD L1",
+                    "localname": "TAD L1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "LC000011",
+                    "area": "",
+                    "children": [
+                      {
+                        "id": "12",
+                        "boundaryNum": 1,
+                        "name": "TAD L1 V1",
+                        "localname": "TAD L1 V1",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC000012",
+                        "area": "",
+                        "children": []
+                      },
+                      {
+                        "id": "13",
+                        "boundaryNum": 1,
+                        "name": "TAD L1 V2",
+                        "localname": "TAD L1 V2",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC000013",
+                        "area": "",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "14",
+                    "boundaryNum": 1,
+                    "name": "TAD L2",
+                    "localname": "TAD L2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "LC000014",
+                    "area": "",
+                    "children": [
+                      {
+                        "id": "15",
+                        "boundaryNum": 1,
+                        "name": "TAD L2 V1",
+                        "localname": "TAD L2 V1",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC000015",
+                        "area": "",
+                        "children": []
+                      },
+                      {
+                        "id": "16",
+                        "boundaryNum": 1,
+                        "name": "TAD L2 V2",
+                        "localname": "TAD L2 V2",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Village",
+                        "code": "LC000016",
+                        "area": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
