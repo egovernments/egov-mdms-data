@@ -13386,6 +13386,50 @@
       "serviceCode": "report",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2420,
+      "name": "Enter Meter Reading",
+      "url": "/service-request/service/definition/v1/_create",
+      "displayName": "Create Service Definition",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2421,
+      "name": "Enter Meter Reading",
+      "url": "/service-request/service/definition/v1/_search",
+      "displayName": "Search Service Definition",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2422,
+      "name": "Enter Meter Reading",
+      "url": "/service-request/service/v1/_create",
+      "displayName": "Create Service Response",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2423,
+      "name": "Enter Meter Reading",
+      "url": "/service-request/service/v1/_search",
+      "displayName": "Search Service Response",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
     }
   ]
 }
