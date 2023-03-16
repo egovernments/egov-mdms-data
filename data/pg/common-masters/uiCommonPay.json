@@ -3,6 +3,23 @@
   "moduleName": "common-masters",
   "uiCommonPay": [
     {
+      "code": "FSM.TRIP_CHARGES",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "fsm-receipt",
+      "billKey": "fsm-receipt",
+      "cancelReceipt":false,
+      "cancelBill": false,
+      "pdfModule":"PAYMENT",
+      "arrears": false,
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/",
+          "employeeUrl": "/inbox"
+        }
+      ]
+    },
+    {
       "code": "PT",
       "headerBandLabel": "PT_COMMON_TABLE_COL_PT_ID",
       "receiptKey": "property-receipt",
