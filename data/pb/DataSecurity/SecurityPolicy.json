@@ -90,41 +90,6 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["PGR_LME", "GRO"],
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "username",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "permanentAddress",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        },
-        {
-          "roles": ["TLCEMP"],
-          "attributeAccessList": [
-            {
-              "attribute": "mobileNumber",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        },
-        {
           "roles": ["REINDEXING_ROLE"],
           "attributeAccessList": [
             {
@@ -175,7 +140,6 @@
             }
           ]
         },
-         
         {
           "roles": ["INTERNAL_MICROSERVICE_ROLE"],
           "attributeAccessList": [
@@ -339,18 +303,7 @@
           "defaultVisibility": "PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": ["GRO"],
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     },
     {
       "model": "waterOpenSearch",
@@ -366,18 +319,7 @@
           "defaultVisibility": "PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": ["GRO"],
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     },
     {
       "model": "DescriptionReport",
@@ -393,18 +335,7 @@
           "defaultVisibility":"PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": ["GRO"],
-          "attributeAccessList": [
-            {
-              "attribute": "name",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     },
     {
       "model": "LMEPerformanceReport",
@@ -420,18 +351,7 @@
           "defaultVisibility":"PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": ["GRO"],
-          "attributeAccessList": [
-            {
-              "attribute": "employee",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     },
     {
       "model": "GROPerformanceReport",
@@ -447,18 +367,7 @@
           "defaultVisibility":"PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": ["GRO"],
-          "attributeAccessList": [
-            {
-              "attribute": "employee",
-              "firstLevelVisibility": "MASKED",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     },
     {
       "model": "Property",
@@ -488,7 +397,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK","PT_APPROVER", "PT_CEMP", "PT_COLLECTION_EMP", "PT_FIELD_INSPECTOR", "PT_DOC_VERIFIER","SUPERUSER"],
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK","PT_APPROVER", "PT_CEMP", "PT_COLLECTION_EMP", "PT_FIELD_INSPECTOR", "PT_DOC_VERIFIER"],
           "attributeAccessList": [
             {
               "attribute": "street",
@@ -529,7 +438,7 @@
         }
       ]
     },
-{
+    {
       "model": "WnSConnection",
       "uniqueIdentifier": {
         "name": "uuid",
@@ -551,8 +460,8 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
-          "attributeAccessList": [          
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "attributeAccessList": [
             {
               "attribute": "ownerType",
               "firstLevelVisibility": "MASKED",
@@ -589,7 +498,7 @@
         "jsonPath": "/uuid"
       },
       "attributes": [
-      
+
         {
           "name": "connectionHoldersMobileNumber",
           "jsonPath": "mobileNumber",
@@ -641,7 +550,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "connectionHoldersMobileNumber",
@@ -732,7 +641,7 @@
         }
       ]
     },
-     {
+    {
       "model": "ObpsApplicationStatusReport",
       "uniqueIdentifier": {
         "name": "uuid",
@@ -839,7 +748,7 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE"],
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
             {
               "attribute": "mobileNumber",
@@ -1166,7 +1075,7 @@
         "name": "applicationNo",
         "jsonPath": "/applicationNo"
       },
-      "attributes": [  
+      "attributes": [
         {
           "name": "plumberInfoMobileNumber",
           "jsonPath": "plumberInfo/*/mobileNumber",
@@ -1176,9 +1085,9 @@
       ],
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE","CITIZEN","WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
+          "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
           "attributeAccessList": [
-           {
+            {
               "attribute": "plumberInfoMobileNumber",
               "firstLevelVisibility": "MASKED",
               "secondLevelVisibility": "PLAIN"
