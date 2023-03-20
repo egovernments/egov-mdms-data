@@ -9687,7 +9687,7 @@
     {
       "id": 2409,
       "name": "Vendor Driver Create",
-      "url": "/Vendor/driver/v1/_create",
+      "url": "/vendor/driver/v1/_create",
       "displayName": "Vendor Driver Create",
       "orderNumber": 1,
       "parentModule": "",
@@ -9699,7 +9699,7 @@
 	{
       "id": 2410,
       "name": "Vendor Driver Update",
-      "url": "/Vendor/driver/v1/_update",
+      "url": "/vendor/driver/v1/_update",
       "displayName": "Vendor Driver Update",
       "orderNumber": 1,
       "parentModule": "",
@@ -9711,7 +9711,7 @@
 	{
       "id": 2411,
       "name": "Vendor Driver Search",
-      "url": "/Vendor/driver/v1/_search",
+      "url": "/vendor/driver/v1/_search",
       "displayName": "Vendor Driver Search",
       "orderNumber": 1,
       "parentModule": "",
@@ -9753,6 +9753,30 @@
      "serviceCode": "vehicle",
      "code": "null",
      "path": ""
+    },
+    {
+      "id": 2416,
+      "name": "FSM Advance Balance Calculation",
+      "url": "/fsm-calculator/v1/_advancebalancecalculate",
+      "displayName": "FSM Advance Balance Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2417,
+      "name": "FSM Cancellation Fee Calculation",
+      "url": "/fsm-calculator/v1/_cancellationfee",
+      "displayName": "FSM Cancellation Fee Calculation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
    ]
 }
