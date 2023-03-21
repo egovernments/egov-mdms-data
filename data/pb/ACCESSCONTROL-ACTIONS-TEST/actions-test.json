@@ -13430,6 +13430,28 @@
       "serviceCode": "service-request",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2424,
+      "name": "Inbox Search ofr uI",
+      "url": "/inbox/v2/_search",
+      "displayName": "Inbox Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2425,
+      "name": "Inbox api for privacy audit logs",
+      "url": "/inbox/v2/elastic/_search",
+      "displayName": "Inbox api for privacy audit logs",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Inbox",
+      "code": "null",
+      "path": ""
     }
   ]
 }
