@@ -32,6 +32,12 @@
       "code": "DEFENCEID",
       "ownerTypeCode": "DEFENSE",
       "active": true
+    },
+    {
+      "name": "General ID proof",
+      "code": "GENERALID",
+      "ownerTypeCode": "GENERAL",
+      "active": true
     }
   ]
 }

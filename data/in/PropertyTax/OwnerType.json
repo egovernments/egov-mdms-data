@@ -58,6 +58,17 @@
       }
     },
     {
+      "name": "General",
+      "code": "GENERAL",
+      "active": true,
+      "fromFY": "2015-16",
+      "exemption": {
+        "rate": 100.0,
+        "maxAmount": null,
+        "flatAmount": null
+      }
+    },
+    {
       "name": "None of the above",
       "code": "NONE",
       "active": true,
