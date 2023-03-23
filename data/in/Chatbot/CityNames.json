@@ -1,0 +1,26 @@
+{
+    "tenantId": "in",
+    "moduleName": "Chatbot",
+    "CityNames": [
+        {
+            "locale": "en",
+            "cities": [
+                "Tenant U",
+                "Tenant V",
+                "Tenant W",
+                "City D",
+                "City E"
+            ]
+        },
+        {
+            "locale": "hi",
+            "cities": [
+                "किरायेदार यू",
+                "किरायेदार वी",
+                "किरायेदार डब्ल्यू",
+                "शहर डी",
+                "शहर ई"
+            ]
+        }
+    ]
+}

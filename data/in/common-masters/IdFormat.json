@@ -7,6 +7,10 @@
             "idname": "watercharges.metered.receipt.id"
         },
         {
+            "format": "BILL-[SEQ_EGOV_COMMON_TEST_AUTOCRE]",
+            "idname": "billnumberid"
+        },
+        {
             "format": "PT/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
             "idname": "pt.receipt.id"
         },
@@ -569,6 +573,143 @@
         {
             "idname": "fsm.aplnumber",
             "format": "[CITY.CODE]-FSM-[cy:yyyy-MM-dd]-[SEQ_EGOV_FSM]"
+        },
+        {
+            "idname": "echallan.aplnumber",
+            "format": "PG-CH-[cy:yyyy-MM-dd]-[SEQ_EG_CH_APL]"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "advt.gas_balloon_advertisement.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "tx.property_tax_2013_14.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "tx.property tax_dishonoured_cheque_payment.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "rt.sale_of_land.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "rt.service_tax_gst_of_rent_of_mc_properties.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "rt.street_vendor_icard_certificate_fees.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "fn.tender_earnest_money_deposit_refundable fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "fn.security_deposit_fee_refundable fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "ch.collection_and_demolition_waste_challan_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "ch.burning_of_waste_challan_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "nks.sub_division_charges_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "nks.information_certificate_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "nks.building_safety_certificate_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.dispensary_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.license_fee_slaughter_house.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.candy_fee_slaughter_house.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.conservancy_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.street_light_pole_transfer_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.sale_of_compost_fees.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.sale_of_recyclable_fees.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.dog_registration.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "other.swimming_pool_and_gymnactics_hall_fees.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "lcf.rehri_rickshaw_fee.receipt.id"
+        },
+        {
+            "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
+            "idname": "lcf.trade_license_fee.receipt.id"
+        },
+        {
+            "format": "DOC-[cy:yyyy-MM-dd]-[SEQ_EG_DOC_ID]",
+            "idname": "du.documentid"
+        },
+        {
+            "format": "PG-SK-[cy:yyyy-MM-dd]-[SEQ_EG_TL_APL]",
+            "idname": "bpareg.aplnumber"
+        },
+        {
+            "format": "PG-SK-[cy:yyyy-MM-dd]-[SEQ_EG_PT_LN]",
+            "idname": "bpareg.licensenumber"
+        },
+        {
+            "format": "PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_APN]",
+            "idname": "bpa.aplnumber"
+        },
+        {
+            "format": "PG-BP-[cy:yyyy-MM-dd]-[SEQ_EG_BP_PN]",
+            "idname": "bpa.permitnumber"
+        },
+        {
+            "format": "BR/[CITY.CODE]/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+            "idname": "birth_cert.receipt.id"
+        },
+        {
+            "format": "DT/[CITY.CODE]/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+            "idname": "death_cert.receipt.id"
+        },
+        {
+            "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_WS_APP_[TENANT_ID]]",
+            "idname": "waterservice.disconnection.id"
+        },
+        {
+            "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_SW_APP_[TENANT_ID]]",
+            "idname": "sewerageservice.disconnection.id"
         }
     ]
-}
+  }
+  

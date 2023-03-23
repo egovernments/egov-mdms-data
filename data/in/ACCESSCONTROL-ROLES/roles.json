@@ -596,6 +596,101 @@
       "code": "COMMON_EMPLOYEE",
       "name": "Basic employee roles",
       "description": "Basic employee roles"
+    },
+    {
+      "code": "BND_CEMP",
+      "name": "Birth and Death User",
+      "description": "Birth and Death User"
+    },
+    {
+      "code": "DASHBOARD_REPORT_VIEWER",
+      "name": "Birth and Death Dashboard User",
+      "description": "Birth and Death Dashboard User"
+    },
+    {
+      "code": "BIRTH_APPLICATION_CREATOR",
+      "name": "Birth Application Creator",
+      "description": "Birth User that can only create new applications"
+    },
+    {
+      "code": "DEATH_APPLICATION_CREATOR",
+      "name": "Death Application Creator",
+      "description": "Death User that can only create new applications"
+    },
+    {
+      "code": "BIRTH_APPLICATION_VIEWER",
+      "name": "Birth Application Viewer",
+      "description": "Birth User that can only search and view applications"
+    },
+    {
+      "code": "DEATH_APPLICATION_VIEWER",
+      "name": "Death Application Viewer",
+      "description": "Death User that can only search and view applications"
+    },
+    {
+      "code": "BIRTH_REPORT_VIEWER",
+      "name": "Birth Report Viewer",
+      "description": "Birth and Death User that can view tabular reports"
+    },
+    {
+      "code": "DEATH_REPORT_VIEWER",
+      "name": "Death Report Viewer",
+      "description": "Death User that can view tabular reports"
+    },
+    {
+      "code": "BIRTH_APPLICATION_EDITOR",
+      "name": "Birth Application Editor",
+      "description": "Birth User that can edit existing applications"
+    },
+    {
+      "code": "DEATH_APPLICATION_EDITOR",
+      "name": "DEATH Application Editor",
+      "description": "Death User that can edit existing applications"
+    },
+    {
+      "code": "WATER_REPORT_VIEWER",
+      "name": "Water Report Viewer",
+      "description": "Water Connection User that can view reports"
+    },
+    {
+      "code": "SEWERAGE_REPORT_VIEWER",
+      "name": "Sewerage Report Viewer",
+      "description": "Sewerage Connection User that can view reports"
+    },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
+    },
+    {
+      "code": "CR_WS",
+      "name": "WS Receipt Cancellator",
+      "description": "WS Receipt Cancelling Employee"
+    },
+    {
+      "code": "REINDEXING_ROLE",
+      "name": "Reindexing Role",
+      "description": "Role for reindexing for encrypted data access"
+    },
+    {
+      "code": "OBPS_REPORT_VIEWER",
+      "name": "OBPS Report Viewer",
+      "description": "OBPS User that can view OBPS reports"
+    },
+    {
+      "code": "NDA_SYSTEM",
+      "name": "National Dashboard Systeme user",
+      "description": "Push data through adopter for all states"
+    },
+    {
+      "code": "TL_REPORT_VIEWER",
+      "name": "TL Report Viewer",
+      "description": "TL User that can view TL reports"
+    },
+    {
+      "code": "FIRENOC_REPORT_VIEWER",
+      "name": "FireNOC Report Viewer",
+      "description": "FireNOC User that can view FireNOC reports"
     }
   ]
 }
