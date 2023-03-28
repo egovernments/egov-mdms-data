@@ -1,0 +1,30 @@
+{
+    "tenantId": "pg.gudari",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+            "name": "Harijan Sahi",
+            "active": true,
+            "code": "GUDA001",
+            "locality": "JLC476"
+        },
+        {
+            "name": "Harijan Colony",
+            "active": true,
+            "code": "GUDA002",
+            "locality": "JLC478"
+        },
+        {
+            "name": "Gandhi Nagar",
+            "active": true,
+            "code": "GUDA003",
+            "locality": "JLC478"
+        },
+        {
+            "name": "Sabar Sahi",
+            "active": true,
+            "code": "GUDA004",
+            "locality": "JLC479"
+        }
+    ]
+}

@@ -89,6 +89,61 @@
             "PlantOperationalTimings": "08.00am-05.00pm",
             "PlantOperationalCapacityKLD": "20",
             "ULBS": "pg.sambalpur"
+        },
+        {  
+            "PlantCode": "ANAN009",
+            "PlantName": "Anandapur Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Salapda near MCC 2 ward no -12 Anandapur Municipality",
+            "PlusCode": "Q625+GJ",
+            "PlantOperationalTimings": "9.00 AM - 5.00 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.anandapur"
+        },
+        {  
+            "PlantCode": "BANK010",
+            "PlantName": "Banki NAC Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Meghatota, Brahmapura, Banki, Cuttack",
+            "PlusCode": "2RH6+97",
+            "PlantOperationalTimings": "9:00 AM - 8:00 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.banki"
+        },
+        {  
+            "PlantCode": "GUDA011",
+            "PlantName": "Gudari Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "At/po Bamani Dangar Road, NAC Gudari, Rayagada",
+            "PlusCode": "8QXP+MF",
+            "PlantOperationalTimings": "9.00 AM - 6.00PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.gudari"
+        },
+        {  
+            "PlantCode": "DHAM012",
+            "PlantName": "Dhamnagar Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Alasuapada(ward no -3),Jaynagar,Dhamnagar",
+            "PlusCode": "WCHQ+48",
+            "PlantOperationalTimings": "8.00 AM - 5.00 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.dhamnagar"
+        },
+        {  
+            "PlantCode": "KESI013",
+            "PlantName": "Kesinga NAC Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "AT-DUMERMUNDA, TAHASIL-KESINGA, KALAHANDI",
+            "PlusCode": "GC3C+J59",
+            "PlantOperationalTimings": "09:00 AM - 05:00 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.kesinga"
         }
     ]
 }
