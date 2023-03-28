@@ -129,6 +129,54 @@
             "make": "TATA",
             "capacity": "1501",
             "amount": "600"
+        },
+        {
+            "code": "Mahindra.TRUCK_MOUNTED",
+            "name": "TRUCK_MOUNTED",
+            "active": true,
+            "make": "Mahindra",
+            "capacity": "1000",
+            "amount": "1000"
+        },
+        {
+            "code": "Mahindra.Tractor1",
+            "name": "Tractor1",
+            "active": true,
+            "make": "Mahindra",
+            "capacity": "3000",
+            "amount": "0"
+        },
+        {
+            "code": "MAHINDRA.PICKUP1",
+            "name": "Pickup1",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "3000",
+            "amount": "1000"
+        },
+        {
+            "code": "MAHINDRA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "1000",
+            "amount": "950"
+        },
+        {
+            "code": "MAHINDRA.PICKUP2",
+            "name": "Pickup2",
+            "active": true,
+            "make": "MAHINDRA",
+            "capacity": "1000",
+            "amount": "1000"
+        },
+        {
+            "code": "Mahindra.Tractor2",
+            "name": "Tractor2",
+            "active": true,
+            "make": "Mahindra",
+            "capacity": "3000",
+            "amount": "1500"
         }
     ]
 }

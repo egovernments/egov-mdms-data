@@ -1,0 +1,264 @@
+{
+  "tenantId": "pg.gudari",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Gudari",
+        "localname": "Gudari",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.gudari",
+        "children": [
+          {
+            "id": "1c5dbabd-e04a-44e1-ac27-1fea19fac28f",
+            "boundaryNum": 1,
+            "name": "ZONE_WEST",
+            "localname": "ZONE_WEST",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "JZN1",
+            "children": [
+              {
+                "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+                "boundaryNum": 1,
+                "name": "WARD_32",
+                "localname": "WARD_32",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD32",
+                "children": [
+                  {
+                    "id": "6e286d0a-d141-49b2-8d3e-35cb7251fdee",
+                    "boundaryNum": 1,
+                    "name": "Main Road Abadpura",
+                    "localname": "Main Road Abadpura",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC476",
+                    "pincode": [
+                      143001
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": "62679cab-680f-43ab-85ca-1ab89a91d3a4",
+                    "boundaryNum": 1,
+                    "name": "Gali No,. 2 To Gali No. 6",
+                    "localname": "Gali No,. 2 To Gali No. 6",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC477",
+                    "pincode": [
+                      143002
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": "70c48267-09f4-44e5-8a09-dda5d5c83a99",
+                    "boundaryNum": 1,
+                    "name": "Preet Nagar",
+                    "localname": "Preet Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC478",
+                    "pincode": [
+                      143003
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": "2d88d556-3a4b-462b-b17d-bbf65b2f21a4",
+                    "boundaryNum": 1,
+                    "name": "Rameshwar Colony",
+                    "localname": "Rameshwar Colony",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC479",
+                    "pincode": [
+                      143004
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "8b6a74db-d5d0-40ec-a810-df4a319acfb9",
+                "boundaryNum": 1,
+                "name": "WARD_33",
+                "localname": "WARD_33",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD33",
+                "children": [
+                  {
+                    "id": "f3cabc5a-8596-4c4c-ad05-9863342fa176",
+                    "boundaryNum": 1,
+                    "name": "Avtar Nagar",
+                    "localname": "Avtar Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC485",
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": "1842c74f-158e-4b8f-94de-b3b838fdf7e0",
+                    "boundaryNum": 1,
+                    "name": "New Avtar Nagar",
+                    "localname": "New Avtar Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC486",
+                    "area": "Area1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "eee94089-c88f-4d2e-a980-06b5372dd856",
+                "boundaryNum": 1,
+                "name": "WARD_34",
+                "localname": "WARD_34",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD34",
+                "children": [
+                  {
+                    "id": "11448ad3-ff6a-4026-8d9a-d3d0cdb75680",
+                    "boundaryNum": 1,
+                    "name": "Bhargo Nagar",
+                    "localname": "Bhargo Nagar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC497",
+                    "area": "Area1",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "f2d8fdfe-9f78-499c-99da-fd33a06e7778",
+            "boundaryNum": 1,
+            "name": "ZONE_NORTH",
+            "localname": "ZONE_NORTH",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "JZN2",
+            "children": [
+              {
+                "id": "199f5a68-384d-49d4-9e07-504a174ead15",
+                "boundaryNum": 1,
+                "name": "WARD_1",
+                "localname": "WARD_1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD1",
+                "children": [
+                  {
+                    "id": "1951084c-7c09-49ca-9642-842ca2c274a3",
+                    "boundaryNum": 1,
+                    "name": "Ashok Vihar",
+                    "localname": "Ashok Vihar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC1",
+                    "area": "Area3",
+                    "children": []
+                  },
+                  {
+                    "id": "90c0c04c-e86d-49f2-8623-dbd08bf22fd5",
+                    "boundaryNum": 1,
+                    "name": "Bank Colony",
+                    "localname": "Bank Colony",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "JLC2",
+                    "area": "Area3",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Gudari",
+        "localname": "Gudari",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.gudari",
+        "children": [
+          {
+            "id": "2",
+            "boundaryNum": 1,
+            "name": "Baniabahal",
+            "localname": "Baniabahal",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "JLC476"
+          },
+          {
+            "id": "3",
+            "boundaryNum": 1,
+            "name": "Hulurisinga",
+            "localname": "Hulurisinga",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "JLC477"
+          },
+          {
+            "id": "4",
+            "boundaryNum": 1,
+            "name": "Gudari town",
+            "localname": "Gudari town",
+            "longitude": null,
+            "latitude": null,
+            "label": "Locality",
+            "code": "JLC478"
+          }
+        ]
+      }
+    }
+  ]
+}
