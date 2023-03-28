@@ -89,6 +89,61 @@
             "PlantOperationalTimings": "08.00am-05.00pm",
             "PlantOperationalCapacityKLD": "20",
             "ULBS": "pg.sambalpur"
+        },
+        {  
+            "PlantCode": "BALU009",
+            "PlantName": "Balugaon Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "NEAR MCC & MRF, AKHUPOKHARA",
+            "PlusCode": "Q625+GJ",
+            "PlantOperationalTimings": "",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.balugaon"
+        },
+        {  
+            "PlantCode": "BINI010",
+            "PlantName": "Binika Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Papakshya Road, Binika, Ward No 11, Near Horticulture Office, Binika",
+            "PlusCode": "2RH6+97",
+            "PlantOperationalTimings": "9:00 AM - 6:00 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.binika"
+        },
+        {  
+            "PlantCode": "GUDA011",
+            "PlantName": "Gudari Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "At/po Bamani Dangar Road, NAC Gudari, Rayagada",
+            "PlusCode": "8QXP+MF",
+            "PlantOperationalTimings": "9.00 AM - 6.00PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.gudari"
+        },
+        {  
+            "PlantCode": "DHAM012",
+            "PlantName": "Dhamnagar Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Alasuapada(ward no -3),Jaynagar,Dhamnagar",
+            "PlusCode": "WCHQ+48",
+            "PlantOperationalTimings": "8.00 AM - 5.00 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.dhamnagar"
+        },
+        {  
+            "PlantCode": "KEND013",
+            "PlantName": "Kendrapara Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "ODISHO, Ward no. 07, Kendrapara",
+            "PlusCode": "GC3C+J59",
+            "PlantOperationalTimings": "09:00 AM - 06:00 PM",
+            "PlantOperationalCapacityKLD": "20",
+            "ULBS": "pg.kendrapara"
         }
     ]
 }
