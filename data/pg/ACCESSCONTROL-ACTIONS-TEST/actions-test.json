@@ -9777,6 +9777,42 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2418,
+      "name": "CS_HOME_APPLY_FOR_DESLUDGING",
+      "url": "digit-ui-card",
+      "displayName": "Apply for Emptying of Septic Tank/Pit",
+      "orderNumber": 1,
+      "parentModule": "FSM",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/fsm/new-application",
+      "leftIcon": "FSMIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/ws-home"
+    },
+    {
+      "id": 2419,
+      "name": "CS_HOME_MY_APPLICATIONS",
+      "url": "digit-ui-card",
+      "displayName": "My Applications",
+      "orderNumber": 2,
+      "parentModule": "FSM",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/digit-ui/citizen/fsm/my-applications",
+      "leftIcon": "FSMIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/digit-ui/citizen/fsm-home"
     }
    ]
 }
