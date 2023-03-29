@@ -593,11 +593,6 @@
       "description": "Admin role that as access over a Nation"
     },
     {
-      "code": "NDA_SYSTEM",
-      "name": "National Dashboard Systeme user",
-      "description": "Push data through adopter for all states"
-    },
-    {
       "code": "COMMON_EMPLOYEE",
       "name": "Basic employee roles",
       "description": "Basic employee roles"
@@ -651,6 +646,51 @@
       "code": "DEATH_APPLICATION_EDITOR",
       "name": "DEATH Application Editor",
       "description": "Death User that can edit existing applications"
+    },
+    {
+      "code": "WATER_REPORT_VIEWER",
+      "name": "Water Report Viewer",
+      "description": "Water Connection User that can view reports"
+    },
+    {
+      "code": "SEWERAGE_REPORT_VIEWER",
+      "name": "Sewerage Report Viewer",
+      "description": "Sewerage Connection User that can view reports"
+    },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
+    },
+    {
+      "code": "CR_WS",
+      "name": "WS Receipt Cancellator",
+      "description": "WS Receipt Cancelling Employee"
+    },
+    {
+      "code": "REINDEXING_ROLE",
+      "name": "Reindexing Role",
+      "description": "Role for reindexing for encrypted data access"
+    },
+    {
+      "code": "OBPS_REPORT_VIEWER",
+      "name": "OBPS Report Viewer",
+      "description": "OBPS User that can view OBPS reports"
+    },
+    {
+      "code": "NDA_SYSTEM",
+      "name": "National Dashboard Systeme user",
+      "description": "Push data through adopter for all states"
+    },
+    {
+      "code": "TL_REPORT_VIEWER",
+      "name": "TL Report Viewer",
+      "description": "TL User that can view TL reports"
+    },
+    {
+      "code": "FIRENOC_REPORT_VIEWER",
+      "name": "FireNOC Report Viewer",
+      "description": "FireNOC User that can view FireNOC reports"
     }
   ]
 }

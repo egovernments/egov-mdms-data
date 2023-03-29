@@ -695,12 +695,20 @@
             "idname": "bpa.permitnumber"
         },
         {
-            "format": "BR/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+            "format": "BR/[CITY.CODE]/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
             "idname": "birth_cert.receipt.id"
         },
         {
-            "format": "DT/CB/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
+            "format": "DT/[CITY.CODE]/[cb.name]/[fy:yyyy]/[SEQ_EGOV_COMMON]",
             "idname": "death_cert.receipt.id"
+        },
+        {
+            "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_WS_APP_[TENANT_ID]]",
+            "idname": "waterservice.disconnection.id"
+        },
+        {
+            "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/DC-[SEQ_SW_APP_[TENANT_ID]]",
+            "idname": "sewerageservice.disconnection.id"
         }
     ]
 }

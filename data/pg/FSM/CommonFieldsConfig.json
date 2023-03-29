@@ -168,8 +168,89 @@
           },
           "type": "component",
           "key": "pitDetail",
-          "nextStep": null,
+          "nextStep": "select-gender",
           "label": "ES_NEW_APPLICATION_PIT_DIMENSION"
+        },
+        {
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTrips"
+        }
+      ]
+    },
+    {
+      "head": "CS_FILE_ADDITIONAL_DETAILS",
+      "hideInEmployee": true,
+      "body": [
+        {
+          "label": "a",
+          "isMandatory": true,
+          "type": "component",
+          "route": "select-trip-number",
+          "key": "selectTripNo",
+          "component": "SelectTripNo",
+          "hideInEmployee": true,
+          "texts": {
+            "headerCaption": "",
+            "header": "ES_FSM_SERVICE_REQUEST",
+            "cardText": "ES_FSM_SERVICE_REQUEST_TEXT",
+            "skipText": "CORE_COMMON_SKIP_CONTINUE",
+            "submitBarLabel": "CS_COMMON_NEXT",
+            "skipLabel": "CS_COMMON_SERVICE_SKIP_INFO"
+          },
+          "nextStep": "property-type"
+        },
+        {
+          "label": "a",
+          "isMandatory": false,
+          "type": "component",
+          "route": "select-gender",
+          "hideInEmployee": true,
+          "key": "selectGender",
+          "component": "SelectGender",
+          "texts": {
+            "headerCaption": "",
+            "header": "CS_COMMON_CHOOSE_GENDER",
+            "cardText": "CS_COMMON_SELECT_GENDER",
+            "submitBarLabel": "CS_COMMON_NEXT",
+            "skipText": "CORE_COMMON_SKIP_CONTINUE"
+          },
+          "nextStep": "select-payment-preference"
+        },
+        {
+          "label": "a",
+          "isMandatory": false,
+          "type": "component",
+          "route": "select-payment-preference",
+          "key": "selectPaymentPreference",
+          "hideInEmployee": true,
+          "component": "SelectPaymentPreference",
+          "texts": {
+            "headerCaption": "",
+            "header": "ES_FSM_PAYMENT_PREFERENCE_LABEL",
+            "cardText": "ES_FSM_PAYMENT_PREFERENCE_TEXT",
+            "submitBarLabel": "CS_COMMON_NEXT",
+            "skipText": "CORE_COMMON_SKIP_CONTINUE"
+          },
+          "nextStep": null
+        }
+      ]
+    },
+    {
+      "head": "ES_TITLE_PAYMENT_DETAILS",
+      "body": [
+        {
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTripData"
+        },
+        {
+          "type": "component",
+          "key": "advancepaymentPreference",
+          "withoutLabel": true,
+          "component": "AdvanceCollection"
         }
       ]
     }
