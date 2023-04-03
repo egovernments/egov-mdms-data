@@ -1,0 +1,202 @@
+{
+    "tenantId": "pb",
+    "moduleName": "common-masters",
+    "TermsOfUse": [
+        {
+            "header": "",
+            "paragragh": [
+                {
+                    "paras": [
+                        "CITIZEN_CONSENT_FORM_PP_PRIVANCY_SECURITY_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CITIZEN_CONSENT_FORM_PP_POWERED_BY_DIGIT_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CITIZEN_CONSENT_FORM_PP_DD_DEAL_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CITIZEN_CONSENT_FORM_PP_REFERS_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CITIZEN_CONSENT_FORM_PP_ACCESS_AVAIL_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                }
+            ]
+        },
+        {
+            "header": "CCF_PP_ADHERENCE_TO_DATA_LABEL",
+            "paragragh": [
+                "CCF_PP_ADHERENCE_TO_DATA_INFO_LABEL"
+            ]
+        },
+        {
+            "header": "CCF_PP_DATA_DO_WE_COLLECT_LABEL",
+            "paragragh": [
+                {
+                    "paras": [
+                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_1_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_2_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_3_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_4_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_5_LABEL"
+                    ],
+                    "linkLabels": [
+                        "CCF_PP_DATA_DO_WE_COLLECT_PP_LINK_LABEL"
+                    ],
+                    "links": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "CCF_PP_DO_WE_COLLECT_THIS_DATA_LABEL",
+            "paragragh": [
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_COLLECT_THIS_DATA_INFO_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "CCF_PP_DO_WE_STORE_THIS_DATA_LABEL",
+            "paragragh": [
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_1_LABEL",
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_1_1_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_2_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_3_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_4_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_5_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                },
+                {
+                    "paras": [
+                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_6_LABEL"
+                    ],
+                    "linkLabels": [
+                        "here."
+                    ],
+                    "links": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "CCF_PP_HOW_DO_WE_PROCESS_LABEL",
+            "bulletinPoints": [
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_1_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_2_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_3_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_4_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_5_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_6_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_7_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_8_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_9_LABEL",
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_10_LABEL"
+            ],
+            "subParagragh": [
+                "CCF_PP_HOW_DO_WE_PROCESS_INFO_11_LABEL"
+            ]
+        }
+    ]
+}
