@@ -6,13 +6,13 @@
       "isCitizenConsentFormEnabled": true,
       "checkBoxLabel": [
         {
-          "linkPrefix": "I agree to DIGIT's",
-          "link": "Terms of Use",
+          "linkPrefix": "CCF_I_AGREE_THE_DIGITS",
+          "link": "CCF_TERM_OF_USE",
           "linkPostfix": ""
         },
         {
-          "linkPrefix": "and",
-          "link": "privacy policy",
+          "linkPrefix": "CCF_AND",
+          "link": "CCF_PRIVACY_POLICY",
           "linkPostfix": ""
         }
       ]
