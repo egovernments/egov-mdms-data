@@ -3,26 +3,19 @@
   "moduleName": "common-masters",
   "CitizenConsentForm": [
     {
-      "isCitizenConsentForm": true,
-      "label": "CCF_I_AGREE_THE_DIGITS_",
-      "link": "CCF_TERM_OF_USE",
-      "key": "TERMS",
-      "TERMS": [
-        "CCF_TERM_OF_USE_1",
-        "CCF_TERM_OF_USE_2"
-      ],
-      "active": true
-    },
-    {
-      "isCitizenConsentForm": true,
-      "label": "CCF_AND",
-      "link": "CCF_PRIVACY_POLICY",
-      "key": "POLICY",
-      "POLICY": [
-        "CCF_PRIVACY_POLICY_1",
-        "CCF_PRIVACY_POLICY_2"
-      ],
-      "active": true
+      "isCitizenConsentFormEnabled": true,
+      "checkBoxLabel": [
+        {
+          "linkPrefix": "I agree to DIGIT’s",
+          "link": "Terms of Use",
+          "linkPostfix": ""
+        },
+        {
+          "linkPrefix": "and",
+          "link": "privacy policy",
+          "linkPostfix": ""
+        }
+      ]
     }
   ]
 }
