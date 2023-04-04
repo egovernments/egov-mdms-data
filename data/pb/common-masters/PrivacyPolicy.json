@@ -7,35 +7,14 @@
             "paragragh": [
                 {
                     "paras": [
-                        "CITIZEN_CONSENT_FORM_PP_PRIVANCY_SECURITY_LABEL"
+                        "CCF_RESPECT_PRIVACY_OF_USERS_LABEL"
                     ],
                     "linkLabels": [],
                     "links": []
                 },
                 {
                     "paras": [
-                        "CITIZEN_CONSENT_FORM_PP_POWERED_BY_DIGIT_LABEL"
-                    ],
-                    "linkLabels": [],
-                    "links": []
-                },
-                {
-                    "paras": [
-                        "CITIZEN_CONSENT_FORM_PP_DD_DEAL_LABEL"
-                    ],
-                    "linkLabels": [],
-                    "links": []
-                },
-                {
-                    "paras": [
-                        "CITIZEN_CONSENT_FORM_PP_REFERS_LABEL"
-                    ],
-                    "linkLabels": [],
-                    "links": []
-                },
-                {
-                    "paras": [
-                        "CITIZEN_CONSENT_FORM_PP_ACCESS_AVAIL_LABEL"
+                        "CCF_PRIVACY_PLOICY_DESCRIBES_LABEL"
                     ],
                     "linkLabels": [],
                     "links": []
@@ -43,11 +22,11 @@
             ]
         },
         {
-            "header": "CCF_PP_ADHERENCE_TO_DATA_LABEL",
+            "header": "CCF_ADHERENCE_TO_DATA_PRINCIPLES_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_ADHERENCE_TO_DATA_INFO_LABEL"
+                        "CCF_ADHERENCE_TO_DATA_PRINCIPLES_INFO_LABEL"
                     ],
                     "linkLabels": [],
                     "links": []
@@ -55,46 +34,38 @@
             ]
         },
         {
-            "header": "CCF_PP_DATA_DO_WE_COLLECT_LABEL",
+            "header": "CCF_COLLECT_AND_PROGRAM_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_1_LABEL"
+                        "CCF_COLLECT_INFO_IMPROVE_LABEL",
+                        "CCF_COLLECT_INFO_ADMINISTRATIVE_LABEL"
                     ],
                     "linkLabels": [],
                     "links": []
                 },
                 {
                     "paras": [
-                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_2_LABEL"
+                        "CCF_COLLECT_IP_ADDRESS_LABEL"
                     ],
                     "linkLabels": [],
                     "links": []
                 },
                 {
                     "paras": [
-                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_3_LABEL"
+                        "CCF_COLLECT_IP_SERVICES_USED_LABEL"
                     ],
                     "linkLabels": [],
-                    "links": []
-                },
-                {
-                    "paras": [
-                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_4_LABEL"
-                    ],
-                    "linkLabels": [
-                        "CCF_PP_DATA_DO_WE_COLLECT_PP_LINK_LABEL"
-                    ],
                     "links": []
                 }
             ]
         },
         {
-            "header": "CCF_PP_DO_WE_COLLECT_THIS_DATA_LABEL",
+            "header": "CCF_COLLECT_THIS_DATA_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_COLLECT_THIS_DATA_INFO_LABEL"
+                        "CCF_COLLECT_THIS_DATA_INFO_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -106,12 +77,12 @@
             ]
         },
         {
-            "header": "CCF_PP_DO_WE_STORE_THIS_DATA_LABEL",
+            "header": "CCF_STORE_THIS_DATA_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_1_LABEL",
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_1_1_LABEL"
+                        "CCF_STORE_SECURE_MANNER_LABEL",
+                        "CCF_STORE_REVIEW_EDIT_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -122,7 +93,7 @@
                 },
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_2_LABEL"
+                        "CCF_STORE_DELETE_YOUR_ACCOUNT_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -133,7 +104,7 @@
                 },
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_3_LABEL"
+                        "CCF_STORE_RECREATE_PROFILE_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -144,7 +115,7 @@
                 },
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_4_LABEL"
+                        "CCF_STORE_UNREGISTER_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -155,7 +126,7 @@
                 },
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_5_LABEL"
+                        "CCF_STORE_DISCONNECT_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -166,10 +137,10 @@
                 },
                 {
                     "paras": [
-                        "CCF_PP_DO_WE_STORE_THIS_DATA_INFO_6_LABEL"
+                        "CCF_STORE_SECURITY_MEASURES_LABEL"
                     ],
                     "linkLabels": [
-                        "here."
+                        ""
                     ],
                     "links": [
                         ""
@@ -178,29 +149,41 @@
             ]
         },
         {
-            "header": "CCF_PP_HOW_DO_WE_PROCESS_LABEL",
+            "header": "CCF_PROCESS_DISCLOSE_SHARE_LABEL",
+            "paragragh": [
+                {
+                    "paras": [
+                        "CCF_PROCESS_DISCLOSE_SHARE_INFO_LABEL"
+                    ],
+                    "linkLabels": [
+                        ""
+                    ],
+                    "links": [
+                        ""
+                    ]
+                }
+            ],
             "bulletinPoints": [
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_1_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_2_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_3_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_4_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_5_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_6_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_7_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_8_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_9_LABEL",
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_10_LABEL"
+                "CCF_PROCESS_DISCLOSE_SHARE_PROVIDE_SERVICES_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_METADATA_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_EMPLOYEES_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_RESOLVING_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_MONITIRING_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_DETECTING_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_CONDUCTING_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_ORDER_TO_COMPLY_LABEL",
+                "CCF_PROCESS_DISCLOSE_SHARE_PAYMENTS_LABEL"
             ],
             "subParagragh": [
-                "CCF_PP_HOW_DO_WE_PROCESS_INFO_11_LABEL"
+                "CCF_PROCESS_DISCLOSE_SHARE_NOT_SHARE_LABEL"
             ]
         },
         {
-            "header": "CCF_PP_HOW_DO_WE_PROTECT_LABEL",
+            "header": "CCF_PROTECT_PERSONALLY_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_HOW_DO_WE_PROTECT_INFO_LABEL"
+                        "CCF_PROTECT_PERSONALLY_INFO_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -212,11 +195,11 @@
             ]
         },
         {
-            "header": "CCF_PP_CAN_THIS_POLICY_CHANGED_LABEL",
+            "header": "CCF_POLICY_BE_CHANGED_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_CAN_THIS_POLICY_CHANGED_INFO_LABEL"
+                        "CCF_POLICY_BE_CHANGED_INFO_LABEL"
                     ],
                     "linkLabels": [
                         ""
@@ -228,30 +211,14 @@
             ]
         },
         {
-            "header": "CCF_PP_DATA_COLLECTION_PROCESSING_LABEL",
+            "header": "CCF_DATA_COLLECTION_SHARING_LABEL",
             "paragragh": [
                 {
                     "paras": [
-                        "CCF_PP_DATA_COLLECTION_PROCESSING_INFO_LABEL"
+                        "CCF_DATA_COLLECTION_SHARING_INFO_LABEL"
                     ],
                     "linkLabels": [
                         ""
-                    ],
-                    "links": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "header": "CCF_PP_GRIEVANCES_LABEL",
-            "paragragh": [
-                {
-                    "paras": [
-                        "CCF_PP_GRIEVANCES_INFO_LABEL"
-                    ],
-                    "linkLabels": [
-                        "CCF_PP_GRIEVANCES_INFO_LINK_LABEL"
                     ],
                     "links": [
                         ""
