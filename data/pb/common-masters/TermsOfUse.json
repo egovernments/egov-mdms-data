@@ -45,7 +45,13 @@
         {
             "header": "CCF_PP_ADHERENCE_TO_DATA_LABEL",
             "paragragh": [
-                "CCF_PP_ADHERENCE_TO_DATA_INFO_LABEL"
+                {
+                    "paras": [
+                        "CCF_PP_ADHERENCE_TO_DATA_INFO_LABEL"
+                    ],
+                    "linkLabels": [],
+                    "links": []
+                }
             ]
         },
         {
@@ -76,19 +82,10 @@
                     "paras": [
                         "CCF_PP_DATA_DO_WE_COLLECT_INFO_4_LABEL"
                     ],
-                    "linkLabels": [],
-                    "links": []
-                },
-                {
-                    "paras": [
-                        "CCF_PP_DATA_DO_WE_COLLECT_INFO_5_LABEL"
-                    ],
                     "linkLabels": [
                         "CCF_PP_DATA_DO_WE_COLLECT_PP_LINK_LABEL"
                     ],
-                    "links": [
-                        ""
-                    ]
+                    "links": []
                 }
             ]
         },
