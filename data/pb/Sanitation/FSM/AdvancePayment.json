@@ -5,14 +5,14 @@
     {
       "name": "FixedValue",
       "code": "FIXEDVALUE",
-      "active": true,
+      "active": false,
       "advanceAmount":"200"
     },
 	  {
       "name": "PercentageValue",
       "code": "PERCENTAGEVALUE",
-      "active": true,
-      "advancePercantage":"10"
+      "active": false,
+      "advancePercentage":"50"
     }
   ]  
 }

@@ -58,7 +58,6 @@
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
           },
           "withoutLabel": true,
-          "hideInEmployee": true,
           "key": "address",
           "nextStep": "address",
           "type": "component"
@@ -246,12 +245,6 @@
           "key": "tripData",
           "withoutLabel": true,
           "component": "SelectTripData"
-        },
-        {
-          "type": "component",
-          "key": "paymentPreference",
-          "withoutLabel": true,
-          "component": "SelectPaymentType"
         },
         {
           "type": "component",

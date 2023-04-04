@@ -5,13 +5,13 @@
     {
       "name": "FixedValue",
       "code": "FIXEDVALUE",
-      "active": true,
+      "active": false,
       "cancellationAmount":"100"
     },
 	  {
       "name": "PercentageValue",
       "code": "PERCENTAGEVALUE",
-      "active": true,
+      "active": false,
       "cancellationPercentage":"10"
     }
   ]  
