@@ -1,6 +1,9 @@
 {
-    "tenantId": "pg.angul",
-    "moduleName": "FSM",
-    “URCEnable”:true,
-    “villageHierarchyAvailable”:true
+	"tenantId": "pg.angul",
+	"moduleName": "FSM",
+	"urcConfig": [{
+		"URCEnable": true,
+		"villageHierarchyAvailable": true
+	}
+    ]
 }
