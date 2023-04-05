@@ -112,7 +112,7 @@
           {
               "type": "component",
               "route": "street",
-              "component": "SelectStreet",
+              "component": "TLSelectStreet",
               "key": "address",
               "withoutLabel": true,
               "hideInEmployee": true,
@@ -137,6 +137,31 @@
                   }
               ],
               "nextStep": "landmark"
+          },
+          {
+              "type": "component",
+              "component": "TLSelectStreet",
+              "key": "address",
+              "withoutLabel": true,
+              "hideInCitizen": true,
+              "texts": {
+                  "headerCaption": "TL_LOCATION_CAPTION",
+                  "header": "TL_ADDRESS_HEADER",
+                  "cardText": "TL_STREET_TEXT",
+                  "submitBarLabel": "CS_COMMON_NEXT"
+              },
+              "inputs": [
+                  {
+                      "label": "TL_LOCALIZATION_BUILDING_NO",
+                      "type": "text",
+                      "name": "doorNo"
+                  },
+                  {
+                      "label": "TL_LOCALIZATION_STREET_NAME",
+                      "type": "text",
+                      "name": "street"
+                  }
+              ]
           },
           {
               "type": "component",
