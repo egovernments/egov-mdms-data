@@ -34,14 +34,14 @@
                 "label": "Block",
                 "code": "B1",
                 "children": [{
-                    "id": 4,
+                    "id": "2",
                     "boundaryNum": 1,
-                    "name": "Ajit Nagar - Area1",
-                    "localname": "Ajit Nagar - Area1",
+                    "name": "Baniabahal",
+                    "localname": "Baniabahal",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN04",
+                    "code": "VIL1",
                     "pincode": [
                       143001
                     ],
@@ -49,16 +49,16 @@
                     "children": []
                   },
                   {
-                    "id": 5,
+                    "id": "3",
                     "boundaryNum": 1,
-                    "name": "Back Side 33 KVA Grid Patiala Road - Area1",
-                    "localname": "Back Side 33 KVA Grid Patiala Road - Area1",
+                    "name": "Hulurisinga",
+                    "localname": "Hulurisinga",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN11",
+                    "code": "VIL2",
                     "pincode": [
-                      143002
+                      143001
                     ],
                     "area": "Area1",
                     "children": []
@@ -75,31 +75,29 @@
                 "label": "Block",
                 "code": "B2",
                 "children": [{
-                    "id": 9,
+                    "id": "4",
                     "boundaryNum": 1,
-                    "name": "Backside Brijbala Hospital - Area3",
-                    "localname": "Backside Brijbala Hospital - Area3",
+                    "name": "Angul town",
+                    "localname": "Angul town",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN20",
+                    "code": "VIL3",
                     "pincode": [
-                      143005
+                      143001
                     ],
-                    "area": "Area3",
+                    "area": "Area1",
                     "children": []
                   },
                   {
-                    "id": 10,
+                    "id": "5",
                     "boundaryNum": 1,
-                    "name": "Bigharwal Chowk to Railway Station - Area2",
-                    "localname": "Bigharwal Chowk to Railway Station - Area2",
+                    "name": "Other",
+                    "localname": "Other",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN35",
-                    "area": "Area2",
-                    "children": []
+                    "code": "VIL4"
                   }
                 ]
               }
@@ -122,7 +120,7 @@
                 "longitude": 74.871552,
                 "latitude": 31.63089,
                 "label": "Village",
-                "code": "SUN04",
+                "code": "VIL1",
                 "pincode": [
                   143001
                 ],
@@ -137,7 +135,7 @@
                 "longitude": null,
                 "latitude": null,
                 "label": "Village",
-                "code": "SUN11",
+                "code": "VIL2",
                 "pincode": [
                   143001
                 ],
@@ -163,7 +161,7 @@
                 "longitude": 74.871552,
                 "latitude": 31.63089,
                 "label": "Village",
-                "code": "SUN04",
+                "code": "VIL3",
                 "pincode": [
                   143001
                 ],
@@ -178,7 +176,7 @@
                 "longitude": null,
                 "latitude": null,
                 "label": "Village",
-                "code": "SUN11",
+                "code": "VIL4",
                 "pincode": [
                   143001
                 ],
@@ -203,7 +201,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pg.angul",
+        "code": "pb.angul",
         "children": [{
             "id": 2,
             "boundaryNum": 1,
@@ -223,14 +221,14 @@
                 "label": "Block",
                 "code": "B1",
                 "children": [{
-                    "id": 4,
+                    "id": "2",
                     "boundaryNum": 1,
-                    "name": "Ajit Nagar - Area1",
-                    "localname": "Ajit Nagar - Area1",
+                    "name": "Baniabahal",
+                    "localname": "Baniabahal",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN04",
+                    "code": "VIL1",
                     "pincode": [
                       143001
                     ],
@@ -238,16 +236,16 @@
                     "children": []
                   },
                   {
-                    "id": 5,
+                    "id": "3",
                     "boundaryNum": 1,
-                    "name": "Back Side 33 KVA Grid Patiala Road - Area1",
-                    "localname": "Back Side 33 KVA Grid Patiala Road - Area1",
+                    "name": "Hulurisinga",
+                    "localname": "Hulurisinga",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN11",
+                    "code": "VIL2",
                     "pincode": [
-                      143002
+                      143001
                     ],
                     "area": "Area1",
                     "children": []
@@ -264,31 +262,29 @@
                 "label": "Block",
                 "code": "B2",
                 "children": [{
-                    "id": 9,
+                    "id": "4",
                     "boundaryNum": 1,
-                    "name": "Backside Brijbala Hospital - Area3",
-                    "localname": "Backside Brijbala Hospital - Area3",
+                    "name": "Angul town",
+                    "localname": "Angul town",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN20",
+                    "code": "VIL3",
                     "pincode": [
-                      143005
+                      143001
                     ],
-                    "area": "Area3",
+                    "area": "Area1",
                     "children": []
                   },
                   {
-                    "id": 10,
+                    "id": "5",
                     "boundaryNum": 1,
-                    "name": "Bigharwal Chowk to Railway Station - Area2",
-                    "localname": "Bigharwal Chowk to Railway Station - Area2",
+                    "name": "Other",
+                    "localname": "Other",
                     "longitude": null,
                     "latitude": null,
                     "label": "Locality",
-                    "code": "SUN35",
-                    "area": "Area2",
-                    "children": []
+                    "code": "VIL4"
                   }
                 ]
               }
@@ -311,7 +307,7 @@
                 "longitude": 74.871552,
                 "latitude": 31.63089,
                 "label": "Village",
-                "code": "SUN04",
+                "code": "VIL1",
                 "pincode": [
                   143001
                 ],
@@ -326,7 +322,7 @@
                 "longitude": null,
                 "latitude": null,
                 "label": "Village",
-                "code": "SUN11",
+                "code": "VIL2",
                 "pincode": [
                   143001
                 ],
@@ -352,7 +348,7 @@
                 "longitude": 74.871552,
                 "latitude": 31.63089,
                 "label": "Village",
-                "code": "SUN04",
+                "code": "VIL3",
                 "pincode": [
                   143001
                 ],
@@ -367,7 +363,7 @@
                 "longitude": null,
                 "latitude": null,
                 "label": "Village",
-                "code": "SUN11",
+                "code": "VIL4",
                 "pincode": [
                   143001
                 ],
