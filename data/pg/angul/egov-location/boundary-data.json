@@ -1,5 +1,5 @@
 {
-  "tenantId": "pb.angul",
+  "tenantId": "pg.angul",
   "moduleName": "egov-location",
   "TenantBoundary": [{
       "hierarchyType": {
@@ -14,7 +14,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pb.amritsar",
+        "code": "pg.angul",
         "children": [{
             "id": 2,
             "boundaryNum": 1,
@@ -203,7 +203,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pb.amritsar",
+        "code": "pg.angul",
         "children": [{
             "id": 2,
             "boundaryNum": 1,
