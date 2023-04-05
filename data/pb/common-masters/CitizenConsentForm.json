@@ -4,12 +4,13 @@
   "CitizenConsentForm": [
     {
       "isCitizenConsentFormEnabled": true,
-      "checkBoxLabel": [
+      "checkBoxLabels": [
         {
           "linkPrefix": "CCF_I_AGREE_THE_DIGITS",
           "link": "CCF_PRIVACY_POLICY",
           "linkId": "PrivacyPolicy",
-          "linkPostfix": ""
+          "linkPostfix": "",
+          "en_IN": "https://s3.ap-south-1.amazonaws.com/egov-qa-assets/privacyPolicy-en_IN.pdf"
         }
       ]
     }
