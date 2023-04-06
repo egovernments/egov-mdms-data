@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg.sambalpur",
+    "moduleName": "FSM",
+    "AdvancePayment": [
+        {
+        "name": "PercentageValue",
+        "code": "PERCENTAGEVALUE",
+        "active": true,
+        "advancePercentage":"100"
+      }
+    ]  
+  }

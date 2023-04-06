@@ -1,0 +1,11 @@
+{
+	"tenantId": "pg.aska",
+	"moduleName": "FSM",
+	"FixedAmount": [{
+		"name": "FixedValue",
+		"code": "FIXEDVALUE",
+		"active": true,
+		"advanceAmount": "0"
+	}
+]
+}
