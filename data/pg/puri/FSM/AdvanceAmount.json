@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg.puri",
+    "moduleName": "FSM",
+    "AdvancePayment": [
+        {
+        "name": "PercentageValue",
+        "code": "PERCENTAGEVALUE",
+        "active": true,
+        "advancePercentage":"0"
+      }
+    ]  
+  }
