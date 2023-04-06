@@ -31,6 +31,20 @@
       "module": "FIRENOC"
     },
     {
+      "id": "25",
+      "tenantId": "pb",
+      "finYearRange":  "2023-24",
+      "name":  "2023-24",
+      "code":  "2023-24",
+      "startingDate": 1680287400000,
+      "endingDate": 1711909799000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "PT"
+    },
+    {
       "id": "22",
       "tenantId": "pb",
       "finYearRange":  "2022-23",
