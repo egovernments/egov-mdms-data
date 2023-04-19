@@ -1,5 +1,5 @@
 {
-    "tenantId": "pg.angul",
+    "tenantId": "pg",
     "moduleName": "FSM",
     "AdvancePayment": [
       {
@@ -7,6 +7,12 @@
         "code": "FIXEDVALUE",
         "active": true,
         "advanceAmount":"200"
+      },
+        {
+        "name": "PercentageValue",
+        "code": "PERCENTAGEVALUE",
+        "active": false,
+        "advancePercentage":"50"
       }
     ]  
   }
