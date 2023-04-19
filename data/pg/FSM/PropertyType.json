@@ -168,6 +168,14 @@
             "maxAmount": "5900"
         },
         {
+            "name": "Private Toilets",
+            "code": "INSTITUTIONAL.PRIVATE_TOILETS",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
             "name": "Mosque",
             "code": "INSTITUTIONAL.MOSQUE",
             "active": true,
