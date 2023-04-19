@@ -1215,13 +1215,6 @@
             "$.code"
         ]
     },
-	"AdvancePayment": {
-			"masterName": "AdvancePayment",
-			"isStateLevel": true,
-			"uniqueKeys": [
-				"$.code"
-			]
-		},
 		"CancellationFee": {
 			"masterName": "CancellationFee",
 			"isStateLevel": true,
