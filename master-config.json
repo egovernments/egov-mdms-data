@@ -1217,7 +1217,7 @@
     },
 	"AdvancePayment": {
 			"masterName": "AdvancePayment",
-			"isStateLevel": true,
+			"isStateLevel": false,
 			"uniqueKeys": [
 				"$.code"
 			]
