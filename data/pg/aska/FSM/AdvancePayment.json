@@ -1,0 +1,19 @@
+{
+    "tenantId": "pg.aska",
+    "moduleName": "FSM",
+    "AdvancePayment": [
+      {
+        "name": "FixedValue",
+        "code": "FIXEDVALUE",
+        "active": true,
+        "advanceAmount":"100"
+      },
+        {
+        "name": "PercentageValue",
+        "code": "PERCENTAGEVALUE",
+        "active": false,
+        "advancePercentage":"50"
+      }
+    ]  
+  }
+  
