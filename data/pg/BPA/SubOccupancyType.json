@@ -51,7 +51,7 @@
          "colorCode":2
       },
       {
-         "name":"Hostel/ Residential building Lodging purpose/Guest house",
+         "name":"Hostel/ Residential Building Lodging Purpose/Guest House",
          "code":"A-HRLG",
          "active":true,
          "occupancyType":"A",
@@ -63,7 +63,7 @@
          "colorCode":2
       },
       {
-         "name":"Row housing",
+         "name":"Row Housing",
          "code":"A-RH",
          "active":true,
          "occupancyType":"A",
@@ -71,11 +71,11 @@
          "minFar":3.0,
          "maxFar":4.0,
          "orderNumber":6,
-         "description":"Row housing",
+         "description":"Row Housing",
          "colorCode":2
       },
        {
-         "name":"workcum-residential",
+         "name":"Workcum-Residential",
          "code":"A-WR",
          "active":true,
          "occupancyType":"A",
@@ -120,18 +120,6 @@
          "maxFar":0.2,
          "orderNumber":10,
          "description":"Farm house",
-         "colorCode":null
-      },
-      {
-         "name":"Old Age Home",
-         "code":"A2",
-         "active":true,
-         "occupancyType":"A",
-         "maxCoverage":30.0,
-         "minFar":0.0,
-         "maxFar":1.2,
-         "orderNumber":11,
-         "description":"Old Age Home/Care Centre for differently abled persons /Mentally Challenged/Working Women/Men Hostel/ Adult Education Centre/Orphanage/Children’s Centre/Night Shelter",
          "colorCode":null
       },
       {
@@ -219,7 +207,7 @@
          "colorCode":null
       },
       {
-         "name":"Physical Education Centre etc.",
+         "name":"Physical Education Centre etc",
          "code":"B-PEC",
          "active":true,
          "occupancyType":"B",
@@ -231,7 +219,7 @@
          "colorCode":null
       },
       {
-         "name":"School for Mentally Challenged.",
+         "name":"School for Mentally Challenged",
          "code":"B-SMC",
          "active":true,
          "occupancyType":"B",
@@ -243,7 +231,7 @@
          "colorCode":null
       },
       {
-         "name":"School for differently abled persons.",
+         "name":"School for Differently abled People",
          "code":"B-SDAP",
          "active":true,
          "occupancyType":"B",
@@ -255,7 +243,7 @@
          "colorCode":null
       },
       {
-         "name":"Education and Research Centre (large campus i.e. above 8 Ha.)",
+         "name":"Education and Research Centre (large campus i.e. above 8 Ha)",
          "code":"B-ERC",
          "active":true,
          "occupancyType":"B",
@@ -267,7 +255,7 @@
          "colorCode":null
       },
       {
-         "name":"Hospital/*Tertiary Health care Centre",
+         "name":"Hospital/*Tertiary Health Care Centre",
          "code":"C-HTHCC",
          "active":true,
          "occupancyType":"C",
@@ -279,7 +267,7 @@
          "colorCode":null
       },
       {
-         "name":"Maternity Home Nursing Home",
+         "name":"Maternity Nursing Home",
          "code":"C-MHNH",
          "active":true,
          "occupancyType":"C",
@@ -351,7 +339,7 @@
          "colorCode":null
       },
       {
-         "name":"Diagnostic Centre.",
+         "name":"Diagnostic Centre",
          "code":"C-DC",
          "active":true,
          "occupancyType":"C",
@@ -363,19 +351,7 @@
          "colorCode":null
       },
       {
-         "name":"Veterinary Hospital for pet animals and birds",
-         "code":"C-VHPAB",
-         "active":true,
-         "occupancyType":"C",
-         "maxCoverage":30.0,
-         "minFar":0.0,
-         "maxFar":2.30,
-         "orderNumber":42,
-         "description":"Veterinary Hospital for pet animals and birds",
-         "colorCode":null
-      },
-      {
-         "name":"Dispensary for pe animals and birds.",
+         "name":"Dispensary for Pet Animals and Birds",
          "code":"C-DPAB",
          "active":true,
          "occupancyType":"C",
@@ -387,7 +363,7 @@
          "colorCode":null
       },
       {
-         "name":"Veterinary Hospital for pet animals and birds",
+         "name":"Veterinary Hospital for Pet Animals and Birds",
          "code":"C-VHPAB",
          "active":true,
          "occupancyType":"C",
@@ -423,7 +399,7 @@
          "colorCode":null
       },
       {
-         "name":"Super specialty medical facilities/hospitals",
+         "name":"Super Specialty Medical Facilities/Hospitals",
          "code":"C-SSMFH",
          "active":true,
          "occupancyType":"C",
@@ -435,7 +411,7 @@
          "colorCode":null
       },
       {
-         "name":"Medical  Occupancy- (staff quarters and Hostels)",
+         "name":"Medical Occupancy - (Staff Quarters and Hostels)",
          "code":"C-MO",
          "active":true,
          "occupancyType":"C",
@@ -471,7 +447,7 @@
          "colorCode":null
       },
       {
-         "name":"Theatre building",
+         "name":"Theatre Building",
          "code":"D-TB",
          "active":true,
          "occupancyType":"D",
@@ -483,7 +459,7 @@
          "colorCode":null
       },
       {
-         "name":"auditoria buildings",
+         "name":"Auditoria Buildings",
          "code":"D-AB",
          "active":true,
          "occupancyType":"D",
@@ -555,7 +531,7 @@
          "colorCode":null
       },
       {
-         "name":"Places of congregation",
+         "name":"Places of Congregation",
          "code":"D-PC",
          "active":true,
          "occupancyType":"D",
@@ -567,7 +543,7 @@
          "colorCode":null
       },
       {
-         "name":"Place of workship",
+         "name":"Place of Workship",
          "code":"D-PW",
          "active":true,
          "occupancyType":"D",
@@ -579,7 +555,7 @@
          "colorCode":null
       },
       {
-         "name":"Multipurpose Community Hall.",
+         "name":"Multipurpose Community Hall",
          "code":"E-MCH",
          "active":true,
          "occupancyType":"E",
@@ -591,7 +567,7 @@
          "colorCode":null
       },
       {
-         "name":"Banquet hall/Marriage Hall",
+         "name":"Banquet Hall/Marriage Hall",
          "code":"E-BHMH",
          "active":true,
          "occupancyType":"E",
@@ -603,7 +579,7 @@
          "colorCode":null
       },
       {
-         "name":"Community Recreational Club.",
+         "name":"Community Recreational Club",
          "code":"E-CRC",
          "active":true,
          "occupancyType":"E",
@@ -627,7 +603,7 @@
          "colorCode":null
       },
       {
-         "name":"Socio- cultural activities such as auditorium , music, dance & drama centre, mediation & spiritual centre etc",
+         "name":"Socio - Cultural Activities such as Auditorium , Music, Dance & Drama Centre, Mediation & Spiritual Centre et",
          "code":"E-SCAAMDDCMSC",
          "active":true,
          "occupancyType":"E",
@@ -651,7 +627,7 @@
          "colorCode":null
       },
       {
-         "name":"Science centre",
+         "name":"Science Centre",
          "code":"E-SC",
          "active":true,
          "occupancyType":"E",
@@ -659,7 +635,7 @@
          "minFar":0.0,
          "maxFar":2.75,
          "orderNumber":88,
-         "description":"Science centre",
+         "description":"Science Centre",
          "colorCode":null
       },
       {
@@ -735,7 +711,7 @@
          "colorCode":null
       },
       {
-         "name":"Night Shelter.",
+         "name":"Night Shelter",
          "code":"E-NS",
          "active":true,
          "occupancyType":"E",
@@ -855,7 +831,7 @@
          "colorCode":null
       },
       {
-         "name":"Industrial Buildings (Factories, Workshops, etc.)",
+         "name":"Industrial Buildings (Factories, Workshops, etc)",
          "code":"G-IB",
          "active":true,
          "occupancyType":"G",
@@ -867,7 +843,7 @@
          "colorCode":null
       },
       {
-         "name":"small factories and etc needs to be defined, falls in industrial",
+         "name":"Small Factories and etc needs to be defined, falls in Industrial",
          "code":"G-SFFI",
          "active":true,
          "occupancyType":"G",
@@ -876,18 +852,6 @@
          "maxFar":2.15,
          "orderNumber":33,
          "description":"small factories and etc needs to be defind, falls in industrial",
-         "colorCode":null
-      },
-      {
-         "name":"Junction Stations, Intermediate Stations and Substations",
-         "code":"H-JSISS",
-         "active":true,
-         "occupancyType":"H",
-         "maxCoverage":25.0,
-         "minFar":0.0,
-         "maxFar":2.35,
-         "orderNumber":60,
-         "description":"Junction Stations, Intermediate Stations and Substations",
          "colorCode":null
       },
       {
@@ -903,7 +867,7 @@
          "colorCode":null
       },
       {
-         "name":"heritage buildings",
+         "name":"Heritage Buildings",
          "code":"H-HB",
          "active":true,
          "occupancyType":"H",
@@ -915,7 +879,7 @@
          "colorCode":null
       },
       {
-         "name":"heritage precincts",
+         "name":"Heritage Precincts",
          "code":"H-HP",
          "active":true,
          "occupancyType":"H",
@@ -975,7 +939,7 @@
          "colorCode":null
       },
       {
-         "name":"Burial and cremation grounds",
+         "name":"Burial and Cremation Grounds",
          "code":"H-BCG",
          "active":true,
          "occupancyType":"H",
@@ -1011,7 +975,7 @@
          "colorCode":null
       },
     {
-         "name":"Compressed Natural Gas (CNG) mother station",
+         "name":"Compressed Natural Gas (CNG) Mother Station",
          "code":"I-CNGMS",
          "active":true,
          "occupancyType":"I",
@@ -1131,7 +1095,7 @@
          "colorCode":null
       },
       {
-         "name":"Sports and amenity structures",
+         "name":"Sports and Amenity Structures",
          "code":"K-SAS",
          "active":true,
          "occupancyType":"I",
@@ -1143,7 +1107,7 @@
          "colorCode":null
       },
       {
-         "name":"Religious shrine",
+         "name":"Religious Shrine",
          "code":"L-RS",
          "active":true,
          "occupancyType":"L",
