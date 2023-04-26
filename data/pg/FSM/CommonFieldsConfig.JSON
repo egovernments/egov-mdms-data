@@ -54,26 +54,12 @@
           "withoutLabel": true,
           "key": "address",
           "nextStep": "address",
+         
           "type": "component"
         },
         {
           "route": "address",
           "component": "SelectAddress",
-          "withoutLabel": true,
-          "texts": {
-            "headerCaption": "CS_FILE_APPLICATION_PROPERTY_LOCATION_LABEL",
-            "header": "CS_FILE_APPLICATION_PROPERTY_LOCATION_ADDRESS_TEXT",
-            "cardText": "CS_FILE_APPLICATION_PROPERTY_LOCATION_CITY_MOHALLA_TEXT",
-            "submitBarLabel": "CS_COMMON_NEXT"
-          },
-          "key": "address",
-          "nextStep": "locality-gramPanchayat",
-          "isMandatory": true,
-          "type": "component"
-        },
-        {
-          "route": "locality-gramPanchayat",
-          "component": "SelectLocalityOrGramPanchayat",
           "withoutLabel": true,
           "texts": {
             "headerCaption": "CS_FILE_APPLICATION_PROPERTY_LOCATION_LABEL",
@@ -179,12 +165,6 @@
           "key": "pitDetail",
           "nextStep": "select-gender",
           "label": "ES_NEW_APPLICATION_PIT_DIMENSION"
-        },
-        {
-        "type": "component",
-        "key": "tripData",
-        "withoutLabel": true,
-        "component": "SelectTrips"
         }
       ]
     },
@@ -243,23 +223,6 @@
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
           },
           "nextStep": null
-        }
-      ]
-    },
-    {
-      "head": "ES_TITLE_PAYMENT_DETAILS",
-      "body": [
-        {
-          "type": "component",
-          "key": "tripData",
-          "withoutLabel": true,
-          "component": "SelectTripData"
-        },
-        {
-          "type": "component",
-          "key": "advancepaymentPreference",
-          "withoutLabel": true,
-          "component": "AdvanceCollection"
         }
       ]
     }
