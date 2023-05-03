@@ -659,6 +659,30 @@
           "jsonPath": "currentowner",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "mobilenumber",
+          "jsonPath": "mobilenumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+	      {
+          "name": "emailid",
+          "jsonPath": "emailid",
+          "patternId": "004",
+          "defaultVisibility": "PLAIN"
+        },
+	      {
+          "name": "altContactNumber",
+          "jsonPath": "altContactNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+	      {
+          "name": "emailUser",
+          "jsonPath": "emailUser",
+          "patternId": "004",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
