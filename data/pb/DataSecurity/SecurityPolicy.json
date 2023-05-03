@@ -673,14 +673,14 @@
           "defaultVisibility": "PLAIN"
         },
 	      {
-          "name": "altContactNumber",
-          "jsonPath": "altContactNumber",
+          "name": "altcontactnumber",
+          "jsonPath": "altcontactnumber",
           "patternId": "001",
           "defaultVisibility": "PLAIN"
         },
 	      {
-          "name": "emailUser",
-          "jsonPath": "emailUser",
+          "name": "emailuser",
+          "jsonPath": "emailuser",
           "patternId": "004",
           "defaultVisibility": "PLAIN"
         }
