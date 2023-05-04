@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
     "moduleName": "FSM",
-    "RejectionReason": [
+    "SendbackReason": [
         {
             "name": "Not able",
             "code": "CANNOT_CONTACT",
