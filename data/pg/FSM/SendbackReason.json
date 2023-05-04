@@ -1,0 +1,16 @@
+{
+    "tenantId": "pg",
+    "moduleName": "FSM",
+    "SendbackReason": [
+        {
+            "name": "Not able",
+            "code": "CANNOT_CONTACT",
+            "active": true
+        },
+        {
+            "name": "Others",
+            "code": "OTHERS",
+            "active": true
+        }
+    ]
+}
