@@ -11,9 +11,7 @@
             "code": "MAHINDRA.BOLERO_PICKUP",
             "name": "Bolero Pickup",
             "active": true,
-            "make": "MAHINDRA",
-            "capacity": "5000",
-            "amount": "500"
+            "make": "MAHINDRA"
         },
         {
             "code": "TRACTOR",
@@ -21,11 +19,17 @@
             "active": true
         },
         {
-            "code": "TRACTOR.408",
-            "name": "TRACTOR 408",
+            "code": "TRACTOR1.408",
+            "name": "TRACTOR1 408",
+            "active": true,
+            "make": "TRACTOR"
+        },
+        {
+            "code": "TRACTOR2.408",
+            "name": "TRACTOR2 408",
             "active": true,
             "make": "TRACTOR",
-            "capacity": "6000",
+            "capacity": "8000",
             "amount": "1200"
         },
         {
@@ -161,14 +165,6 @@
             "make": "MAHINDRA",
             "capacity": "1000",
             "amount": "950"
-        },
-        {
-            "code": "MAHINDRA.PICKUP2",
-            "name": "Pickup2",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "1000"
         },
         {
             "code": "Mahindra.Tractor2",
