@@ -1,5 +1,5 @@
 {
-  "tenantId": "pg",
+  "tenantId": "od",
   "moduleName": "FSM",
   "CommonFieldsConfig": [
     {
@@ -40,7 +40,7 @@
     {
       "head": "ES_NEW_APPLICATION_LOCATION_DETAILS",
       "body": [
-      
+        
         {
           "route": "address",
           "component": "SelectAddress",
@@ -84,7 +84,7 @@
           "withoutLabel": true,
           "key": "address",
           "nextStep": "check-slum",
-         
+
           "type": "component"
         },
         {
@@ -182,10 +182,10 @@
           "label": "ES_NEW_APPLICATION_PIT_DIMENSION"
         },
         {
-        "type": "component",
-        "key": "tripData",
-        "withoutLabel": true,
-        "component": "SelectTrips"
+          "type": "component",
+          "key": "tripData",
+          "withoutLabel": true,
+          "component": "SelectTrips"
         }
       ]
     },
