@@ -33,7 +33,7 @@
             "cardText": "CS_FILE_APPLICATION_PROPERTY_SUBTYPE_TEXT",
             "submitBarLabel": "CS_COMMON_NEXT"
           },
-          "nextStep": "pincode"
+          "nextStep": "address"
         }
       ]
     },
@@ -41,22 +41,6 @@
       "head": "ES_NEW_APPLICATION_LOCATION_DETAILS",
       "body": [
       
-        {
-          "route": "pincode",
-          "component": "SelectPincode",
-          "texts": {
-            "headerCaption": "",
-            "header": "CS_FILE_APPLICATION_PINCODE_LABEL",
-            "cardText": "CS_FILE_APPLICATION_PINCODE_TEXT",
-            "submitBarLabel": "CS_COMMON_NEXT",
-            "skipText": "CORE_COMMON_SKIP_CONTINUE"
-          },
-          "withoutLabel": true,
-          "key": "address",
-          "nextStep": "address",
-         
-          "type": "component"
-        },
         {
           "route": "address",
           "component": "SelectAddress",
@@ -83,8 +67,24 @@
             "submitBarLabel": "CS_COMMON_NEXT"
           },
           "key": "address",
-          "nextStep": "check-slum",
+          "nextStep": "pincode",
           "isMandatory": true,
+          "type": "component"
+        },
+        {
+          "route": "pincode",
+          "component": "SelectPincode",
+          "texts": {
+            "headerCaption": "",
+            "header": "CS_FILE_APPLICATION_PINCODE_LABEL",
+            "cardText": "CS_FILE_APPLICATION_PINCODE_TEXT",
+            "submitBarLabel": "CS_COMMON_NEXT",
+            "skipText": "CORE_COMMON_SKIP_CONTINUE"
+          },
+          "withoutLabel": true,
+          "key": "address",
+          "nextStep": "check-slum",
+         
           "type": "component"
         },
         {
