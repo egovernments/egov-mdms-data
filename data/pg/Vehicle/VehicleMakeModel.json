@@ -14,20 +14,14 @@
             "make": "MAHINDRA"
         },
         {
-            "code": "MAHINDRA.PICKUP1",
-            "name": "Pickup1",
+            "code": "MAHINDRA.PICKUP",
+            "name": "Pickup",
             "active": true,
             "make": "MAHINDRA"
         },
         {
-            "code": "Mahindra.Tractor1",
-            "name": "Tractor1",
-            "active": true,
-            "make": "MAHINDRA"
-        },
-        {
-            "code": "Mahindra.Tractor2",
-            "name": "Tractor2",
+            "code": "Mahindra.Tractor",
+            "name": "Tractor",
             "active": true,
             "make": "MAHINDRA"
         },
@@ -168,6 +162,12 @@
             "code": "SARAJ",
             "name": "SARAJ",
             "active": true
+        },
+        {
+            "code": "SARAJ.TRACTOR",
+            "name": "TRACTOR",
+            "active": true,
+            "make": "SARAJ"
         },
         {
             "code": "SARAJ.TRACTOR",
