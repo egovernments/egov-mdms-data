@@ -15,14 +15,6 @@
         },
         {
             "code": "MAHINDRA.PICKUP",
-            "name": "Pickup",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
             "name": "PICKUP",
             "active": true,
             "make": "MAHINDRA",
@@ -53,7 +45,7 @@
             "active": true
         },
         {
-            "code": "TRACTOR.408",
+            "code": "TRACTOR1.408",
             "name": "TRACTOR1 408",
             "active": true,
             "make": "TRACTOR",
@@ -61,7 +53,7 @@
             "amount": "1000"
         },
         {
-            "code": "TRACTOR.408",
+            "code": "TRACTOR2.408",
             "name": "TRACTOR2 408",
             "active": true,
             "make": "TRACTOR",
@@ -179,7 +171,17 @@
             "code": "SARAJ.TRACTOR",
             "name": "TRACTOR",
             "active": true,
-            "make": "SARAJ"
+            "make": "SARAJ",
+            "capacity": "1000",
+            "amount": "600"
+        },
+        {
+            "code": "SARAJ.TRACTOR",
+            "name": "TRACTOR",
+            "active": true,
+            "make": "SARAJ",
+            "capacity": "2000",
+            "amount": "600"
         }
     ]
 }
