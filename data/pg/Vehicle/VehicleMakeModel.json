@@ -11,634 +11,82 @@
             "code": "MAHINDRA.BOLERO_PICKUP",
             "name": "Bolero Pickup",
             "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "600"
+            "make": "MAHINDRA"
         },
         {
-            "code": "MAHINDRA.BOLERO_BS 6",
-            "name": "Bolero BS 6",
+            "code": "MAHINDRA.PICKUP",
+            "name": "Pickup",
             "active": true,
             "make": "MAHINDRA",
             "capacity": "1000",
-            "amount": "800"
+            "amount": "630"
         },
         {
-            "code": "MAHINDRA.Bolero_Pik-up_CBC_MS1.3T",
-            "name": "Bolero Pik-up CBC MS 1.3 T",
+            "code": "MAHINDRA.PICKUP",
+            "name": "PICKUP",
             "active": true,
             "make": "MAHINDRA",
             "capacity": "1000",
-            "amount": "800"
+            "amount": "630"
         },
         {
-            "code": "MAHINDRA.Bolero_Pick Up_FB_CBC_PS",
-            "name": "Pick Up,FB CBC PS 1.7T XL BS-VI",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "1000"
-        },
-        {
-            "code": "MAHINDRA.TRACTOR1",
-            "name": "Tractor 3000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "1600"
-        },
-        {
-            "code": "MAHINDRA.TRACTOR2",
-            "name": "Tractor 3500",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3500",
-            "amount": "1600"
-        },
-        {
-            "code": "MAHINDRA.TRACTOR",
+            "code": "Mahindra.Tractor",
             "name": "Tractor",
             "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "1600"
+            "make": "MAHINDRA"
         },
         {
-            "code": "MAHINDRA.TRACTOR",
+            "code": "MAHINDRA.TRUCK",
+            "name": "TRUCK",
+            "active": true,
+            "make": "MAHINDRA"
+        },
+        {
+            "code": "Mahindra.TRUCK_MOUNTED",
+            "name": "TRUCK_MOUNTED",
+            "active": true,
+            "make": "MAHINDRA"
+        },
+        {
+            "code": "TRACTOR",
             "name": "TRACTOR",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "MAHINDRA.PICKUP1",
-            "name": "PICKUP 1000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "800"
-        },
-        {
-            "code": "MAHINDRA.PICKUP2",
-            "name": "PICKUP 3000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "800"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
-            "name": "PICKUP",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "800"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
-            "name": "Pickup",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "400"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
-            "name": "Pickup",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "1000"
-        },
-        {
-            "code": "MAHINDRA.TRACTOR",
-            "name": "Mahindra Tractor",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "700"
-        },
-        {
-            "code": "MAHINDRA.TRACTOR",
-            "name": "Mahindra Tractor",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "MAHINDRA.TRACTOR",
-            "name": "Mahindra Tractor",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "2000"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
-            "name": "Mahindra Pickup",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "700"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
-            "name": "PICKUP",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "500"
-        },
-        {
-            "code": "MAHINDRA.PICKUP",
-            "name": "PICKUP",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.TRUCKMOUNTED1",
-            "name": "Truck Mounted 1000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.TRUCKMOUNTED2",
-            "name": "Truck Mounted 3000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.Truck1",
-            "name": "Truck 1000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "1000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.Truck2",
-            "name": "Truck 3000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.Truck3",
-            "name": "Truck 4000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "4000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.Truck4",
-            "name": "Truck 5000",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "5000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.407Truck",
-            "name": "Truck 407",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.Truck609",
-            "name": "Truck609",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "2500",
-            "amount": "630"
-        },
-        {
-            "code": "MAHINDRA.575DI",
-            "name": "Tractor575DI",
-            "active": true,
-            "make": "MAHINDRA",
-            "capacity": "3000",
-            "amount": "630"
-        },
-        {
-            "code": "EICHER",
-            "name": "EICHER",
             "active": true
         },
         {
-            "code": "EICHER",
-            "name": "TRUCK 3000",
+            "code": "TRACTOR.408",
+            "name": "TRACTOR1 408",
             "active": true,
-            "make": "EICHER",
-            "capacity": "3000",
-            "amount": "2500"
-        },
-        {
-            "code": "EICHER.PICKUP",
-            "name": "PICKUP",
-            "active": true,
-            "make": "EICHER",
-            "capacity": "3500",
-            "amount": "1100"
-        },
-        {
-            "code": "EICHER.TRUCK",
-            "name": "Truck 4500",
-            "active": true,
-            "make": "EICHER",
-            "capacity": "4500",
+            "make": "TRACTOR",
+            "capacity": "1000",
             "amount": "1000"
         },
         {
-            "code": "EICHER.TRUCK1",
-            "name": "Truck 3000",
+            "code": "TRACTOR.408",
+            "name": "TRACTOR2 408",
             "active": true,
-            "make": "EICHER",
-            "capacity": "3000",
-            "amount": "1000"
+            "make": "TRACTOR",
+            "capacity": "2000",
+            "amount": "1200"
         },
         {
-            "code": "EICHER.TRUCK2",
-            "name": "Truck 3500",
-            "active": true,
-            "make": "EICHER",
-            "capacity": "3500",
-            "amount": "950"
+            "code": "TRACK",
+            "name": "TRACK",
+            "active": true
         },
-        {
-            "code": "EICHER.TRACTOR",
-            "name": "TRACTOR",
+         {
+            "code": "TRACK.409",
+            "name": "TRACK.409",
             "active": true,
-            "make": "EICHER",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "EICHER",
-            "name": "TRUCK",
-            "active": true,
-            "make": "EICHER",
-            "capacity": "3000",
-            "amount": "1000"
+            "make": "TRACK",
+            "capacity": "1000",
+            "amount": "0"
         },
         {
             "code": "TATA",
             "name": "TATA",
             "active": true
         },
-        {
-            "code": "TATA.ACE",
-            "name": "TATA ACE",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA.EICHER",
-            "name": "TRUCK",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "900"
-        },
-        {
-            "code": "TATA.EICHER",
-            "name": " PICK UP",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "900"
-        },
-        {
-            "code": "TATA.LPT709/34",
-            "name": "TATA LPT709/34",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.LPT_700_E",
-            "name": "TATA LPT 700 E",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.1112",
-            "name": "TATA 1112",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.407",
-            "name": "TATA 407",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.610",
-            "name": "TATA 610 SFC DCR33CBC 100B6M5 BS-VI",
-            "active": true,
-            "make": "TATA",
-            "capacity": "2500",
-            "amount": "700"
-        },
-        {
-            "code": "TATA.709",
-            "name": "TATA709 3000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.TATA709",
-            "name": "TATA709 4000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "4000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA709.TRUCK",
-            "name": "TRUCK709",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA909.TRUCK",
-            "name": "TRUCK 909",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "2000"
-        },
-        {
-            "code": "TATA.409",
-            "name": "Truck 409",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA.TRUCK_LPT709EX/34",
-            "name": "TRUCK LPT 709EX/34",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA.TATA_TRUCK",
-            "name": "TATA TRUCK",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.TRUCK",
-            "name": "TRUCK 3000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA.TRUCK1",
-            "name": "TRUCK 4000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "4000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.TRUCK2",
-            "name": "TRUCK 3000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.TRUCK3",
-            "name": "TRUCK 6000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "6000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.TRUCK4",
-            "name": "TRUCK 1500",
-            "active": true,
-            "make": "TATA",
-            "capacity": "1500",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.TRUCK5",
-            "name": "TRUCK 2000",
-            "active": true,
-            "make": "TATA",
-            "capacity": "2000",
-            "amount": "1200"
-        },
-        {
-            "code": "TATA.BOLERO",
-            "name": "Bolero",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.MotorsSFC407",
-            "name": "TATA SFC 407",
-            "active": true,
-            "make": "TATA",
-            "capacity": "4300",
-            "amount": "2000"
-        },
-        {
-            "code": "TATA.708Ex",
-            "name": "TATA 708Ex TRUCK",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA.MotorsLimited",
-            "name": "Tata Motors Limited Truck",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.MotorsBS3",
-            "name": "Tata Motors BS3",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1500"
-        },
-        {
-            "code": "TATA.MotorsLimited_Truck407",
-            "name": "Tata Motors Truck 407",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1200"
-        },
-        {
-            "code": "TATA.Pickup",
-            "name": "Pickup",
-            "active": true,
-            "make": "TATA",
-            "capacity": "1000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.709EF",
-            "name": "709EF Truck",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.TATA709EX",
-            "name": "709 EX TURBO TRUCK",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.LPT709/38EX",
-            "name": "LPT 709/38 EX BS-III",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.YODHAPickUp",
-            "name": "YODHA PickUp",
-            "active": true,
-            "make": "TATA",
-            "capacity": "1500",
-            "amount": "999"
-        },
-        {
-            "code": "TATA.407",
-            "name": "Tata 407",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.TRUCK",
-            "name": "TRUCK",
-            "active": true,
-            "make": "TATA",
-            "capacity": "4000",
-            "amount": "1000"
-        },
-        {
-            "code": "TATA.TRUCK",
-            "name": "Truck",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1200"
-        },
-        {
-            "code": "TATA.TRUCK",
-            "name": "Tuck",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "958"
-        },
-        {
-            "code": "TATA.TRUCK",
-            "name": "Tuck",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "948"
-        },
-        {
-            "code": "TATA.TRUCK",
-            "name": "Truck",
-            "active": true,
-            "make": "TATA",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TRACTOR",
-            "name": "Tractor",
-            "active": true
-        },
-        {
-            "code": "TRACTOR.SWARAJ_735",
-            "name": "Tracktor Swaraj 735",
-            "active": true,
-            "make": "TRACTOR",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TRACTOR.SWARAJ",
-            "name": "Tracktor Swaraj",
-            "active": true,
-            "make": "TRACTOR",
-            "capacity": "5000",
-            "amount": "1600"
-        },
-        {
-            "code": "TRACTOR.DI-740_III_CM_SERIES",
-            "name": "Tracktor DI-740 III CM SERIES",
-            "active": true,
-            "make": "TRACTOR",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
-            "code": "TRACTOR.Truck",
-            "name": "Truck",
-            "active": true,
-            "make": "TRACTOR",
-            "capacity": "3000",
-            "amount": "1000"
-        },
-        {
+         {
             "code": "TRUCK",
             "name": "TRUCK",
             "active": true
@@ -652,125 +100,75 @@
             "amount": "200"
         },
         {
-            "code": "SWARAJ",
-            "name": "SWARAJ",
-            "active": true
-        },
-        {
-            "code": "SWARAJ.TRACTOR",
-            "name": "TRACTOR 5000",
+            "code": "TATA.LPT709/34",
+            "name": "TATA LPT709/34",
             "active": true,
-            "make": "SWARAJ",
-            "capacity": "5000",
-            "amount": "1800"
+            "make": "TATA",
+            "capacity": "2000",
+            "amount": "200"
         },
         {
-            "code": "SWARAJ.TRACTOR1",
-            "name": "TRACTOR 3000",
+            "code": "TATA.407",
+            "name": "TATA 407",
             "active": true,
-            "make": "SWARAJ",
-            "capacity": "3000",
-            "amount": "2000"
-        },
-        {
-            "code": "SWARAJ.TRACTOR",
-            "name": "TRACTOR",
-            "active": true,
-            "make": "SWARAJ",
-            "capacity": "5000",
-            "amount": "2000"
-        },
-        {
-            "code": "SWARAJ.Truck",
-            "name": "Truck",
-            "active": true,
-            "make": "SWARAJ",
-            "capacity": "3000",
-            "amount": "1800"
-        },
-        {
-            "code": "BOLERO",
-            "name": "BOLERO",
-            "active": true
-        },
-        {
-            "code": "BOLERO.PICKUP",
-            "name": "PICKUP 1000",
-            "active": true,
-            "make": "BOLERO",
+            "make": "TATA",
             "capacity": "1000",
-            "amount": "1200"
+            "amount": "100"
         },
         {
-            "code": "BOLERO.PICKUP1",
-            "name": "PICKUP 3000",
+            "code": "TAFE",
+            "name": "TAFE",
+            "active": true
+        },
+        {
+            "code": "TAFE.TRACTOR_45DI",
+            "name": "TAFE Tractor 45DI",
             "active": true,
-            "make": "BOLERO",
-            "capacity": "3000",
+            "make": "TAFE",
+            "capacity": "10000",
             "amount": "1000"
         },
         {
-            "code": "BOLERO.PICKUP",
-            "name": "PICKUP",
-            "active": true,
-            "make": "PICKUP",
-            "capacity": "1000",
-            "amount": "1200"
-        },
-        {
-            "code": "TPS",
-            "name": "TPS",
+            "code": "TAKE",
+            "name": "TAKE",
             "active": true
         },
         {
-            "code": "TPS.TRUCK",
-            "name": "TRUCK 3000",
+            "code": "TAKE.TRACTOR",
+            "name": "TAKE TRACTOR",
             "active": true,
-            "make": "TPS",
-            "capacity": "3000",
-            "amount": "2000"
-        },
-        {
-            "code": "TPS.TRUCK1",
-            "name": "TRUCK 1000",
-            "active": true,
-            "make": "TPS",
-            "capacity": "1000",
-            "amount": "2000"
-        },
-        {
-            "code": "SONALIKA",
-            "name": "SONALIKA",
-            "active": true
-        },
-        {
-            "code": "SONALIKA.TRACTOR",
-            "name": "TRACTOR",
-            "active": true,
-            "make": "SONALIKA",
-            "capacity": "3000",
+            "make": "TAKE",
+            "capacity": "7000",
             "amount": "900"
         },
         {
-            "code": "TATAEICHER",
-            "name": "TATA EICHER",
+            "code": "SONALIKA",
+            "name": "Sonalika",
             "active": true
         },
         {
-            "code": "TATAEICHER.Truck",
-            "name": "Truck",
+            "code": "SONALIKA.TRACTOR_35DI",
+            "name": "Sonalika Tractor 35DI",
             "active": true,
-            "make": "TATAEICHER",
-            "capacity": "3000",
-            "amount": "1500"
+            "make": "SONALIKA",
+            "capacity": "8000",
+            "amount": "1000"
         },
         {
-            "code": "TATAEICHER.PickUp",
-            "name": "PickUp",
+            "code": "TATA.TRUCK",
+            "name": "TRUCK",
             "active": true,
-            "make": "TATAEICHER",
-            "capacity": "3000",
-            "amount": "1500"
+            "make": "TATA",
+            "capacity": "1500",
+            "amount": "600"
+        },
+        {
+            "code": "TATA.TRUCK1",
+            "name": "TRUCK",
+            "active": true,
+            "make": "TATA",
+            "capacity": "1501",
+            "amount": "600"
         },
         {
             "code": "SARAJ",
@@ -781,9 +179,7 @@
             "code": "SARAJ.TRACTOR",
             "name": "TRACTOR",
             "active": true,
-            "make": "SARAJ",
-            "capacity": "5000",
-            "amount": "900"
+            "make": "SARAJ"
         }
     ]
 }
