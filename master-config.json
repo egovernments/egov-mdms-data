@@ -1095,6 +1095,12 @@
     }
   },
   "FSM": {
+    "CommonFieldsConfig":
+    {
+        "masterName": "CommonFieldsConfig",
+        "isStateLevel": true,
+        "uniqueKeys": []
+    },
     "ApplicationChannel":
     {
         "masterName": "ApplicationChannel",
