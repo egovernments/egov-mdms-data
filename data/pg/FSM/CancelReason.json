@@ -3,17 +3,17 @@
     "moduleName": "FSM",
     "CancelReason": [
         {
-            "name": "Duplicate application",
+            "name": "Duplicate Applications",
             "code": "DUPLICATE",
             "active": true
         },
         {
-            "name": "Not able to contact applicant",
+            "name": "Unable to contact the Applicant",
             "code": "CANNOT_CONTACT_APPLICANT",
             "active": true
         },
         {
-            "name": "Citizen Denied Request",
+            "name": "Applicant denied the request",
             "code": "CITIZEN_DENIED_REQUEST",
             "active": true
         },

@@ -2,18 +2,23 @@
     "tenantId": "pg",
     "moduleName": "Vehicle",
     "FSTPORejectionReason": [{
-            "name": "Septage Source",
-            "code": "SEPTAGE_SOURCE",
+            "name": "Approach Road to FSTP is inaccessible",
+            "code": "FSTP_INACCESS",
             "active": true
         },
         {
-            "name": "Outside operational hours",
-            "code": "OUTSIDE_OPERATIONAL_HOURS",
+            "name": "Over Utilization of the FSTP Capacity (>100% Capacity Utilization)",
+            "code": "OVER_UTILIZE",
             "active": true
         },
         {
-            "name": "Under Maintenance",
+            "name": "FSTP under maintenance",
             "code": "UNDER_MAINTENANCE",
+            "active": true
+        },
+        {
+            "name": "Vehicle breakdown on the way to FSTP",
+            "code": "VEHICLE_BREAKDOWN",
             "active": true
         },
         {
