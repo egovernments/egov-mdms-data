@@ -1145,6 +1145,23 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+     {
+      "model": "FSMDailyCollectionReport",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "jsonPath": "name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+      ]
     }
   ]
 }
