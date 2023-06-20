@@ -1,0 +1,10 @@
+{
+    "tenantId": "pg",
+    "moduleName": "commonUiConfig",
+    "CBOBillInboxConfig": [
+        {
+            "rejectedCode" : "REJECTED",
+            "approvedCode" : "APPROVED" 
+        }
+    ]
+}

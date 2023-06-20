@@ -1,0 +1,48 @@
+{
+    "tenantId": "pg",
+    "moduleName": "works",
+    "KickoffChecklist": [
+        {
+            "title": "Is the work site handed over?",
+            "code": "KICKOFFCHEKCLIST_QUES_1",
+            "active": true,
+            "type": "MULTIPLE_ANSWER_TYPE"
+        },
+        {
+            "title": "Project Start date/ Date of Commencement",
+            "code": "KICKOFFCHEKCLIST_QUES_2",
+            "active": true,
+            "type": "DATE_ANSWER_TYPE"
+        },
+        {
+            "title": "Labour Start date/ Date of Commencement",
+            "code": "KICKOFFCHEKCLIST_QUES_3",
+            "active": true,
+            "type": "DATE_ANSWER_TYPE"
+        },
+        {
+            "title": "Is the first aid available?",
+            "code": "KICKOFFCHEKCLIST_QUES_4",
+            "active": true,
+            "type": "MULTIPLE_ANSWER_TYPE"
+        },
+        {
+            "title": "Is the rest shade available?",
+            "code": "KICKOFFCHEKCLIST_QUES_5",
+            "active": true,
+            "type": "MULTIPLE_ANSWER_TYPE"
+        },
+        {
+            "title": "Are the Water Facilities available?",
+            "code": "KICKOFFCHEKCLIST_QUES_6",
+            "active": true,
+            "type": "MULTIPLE_ANSWER_TYPE"
+        },
+        {
+            "title": "Upload site photos",
+            "code": "KICKOFFCHEKCLIST_QUES_7",
+            "active": true,
+            "type": "UPLOAD_ANSWER_TYPE"
+        }
+    ]
+}

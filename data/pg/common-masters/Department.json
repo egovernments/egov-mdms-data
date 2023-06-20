@@ -1,0 +1,46 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "Department": [
+    {
+      "name": "Administration",
+      "code": "ADM",
+      "active": true
+    },
+    {
+    "name": "Tax",
+    "code": "REV",
+    "active": true
+    },
+    {
+      "name": "Accounts",
+      "code": "ACC",
+      "active": true
+    },
+    {
+      "name": "Public Health and Sanitation",
+      "code": "PHS",
+      "active": true
+    },
+    {
+      "name": "Works",
+      "code": "WRK",
+      "active": true
+    },
+    {
+      "name": "Town Planning",
+      "code": "TWP",
+      "active": true
+    },
+    {
+      "name": "National Urban Livelihood Mission",
+      "code": "NULM",
+      "active": true
+    },
+    {
+      "name": "Public Relations",
+      "code": "PR",
+      "active": true
+    }
+  ]
+}

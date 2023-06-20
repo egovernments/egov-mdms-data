@@ -1,0 +1,41 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "BeneficiaryType": [
+    {
+      "name": "General",
+      "code": "General",
+      "active": true
+    },
+    {
+      "name": "SC",
+      "code": "SC",
+      "active": true
+    },
+    {
+      "name": "ST",
+      "code": "ST",
+      "active": true
+    },
+    {
+      "name": "BC",
+      "code": "BC",
+      "active": true
+    },
+    {
+      "name": "Minority",
+      "code": "Minority",
+      "active": true
+    },
+    {
+      "name": "Women",
+      "code": "Women",
+      "active": true
+    },
+    {
+      "name": "Children",
+      "code": "Children",
+      "active": true
+    }
+  ]
+}

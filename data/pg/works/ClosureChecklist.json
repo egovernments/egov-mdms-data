@@ -1,0 +1,30 @@
+{
+    "tenantId": "pg",
+    "moduleName": "works",
+    "ClosureChecklist": [
+        {
+            "title": "What is the labour end date?",
+            "code": "CLOSURECHECKLIST_QUES_1",
+            "active": true,
+            "type": "DATE_ANSWER_TYPE"
+        },
+        {
+            "title": "Are All Muster rolls submitted?",
+            "code": "CLOSURECHECKLIST_QUES_2",
+            "active": true,
+            "type": "MULTIPLE_ANSWER_TYPE"
+        },
+        {
+            "title": "Is the final Bill submitted?",
+            "code": "CLOSURECHECKLIST_QUES_3",
+            "active": true,
+            "type": "MULTIPLE_ANSWER_TYPE"
+        },
+        {
+            "title": "Upload Site Photos",
+            "code": "CLOSURECHECKLIST_QUES_4",
+            "active": true,
+            "type": "UPLOAD_ANSWER_TYPE"
+        }
+    ]
+}

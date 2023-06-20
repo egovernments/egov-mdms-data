@@ -1,0 +1,91 @@
+{
+    "tenantId": "pg",
+    "moduleName": "expense",
+    "ApplicableCharges": [
+        {
+            "id": "1",
+            "code": "SC",
+            "service": "works.supervision",
+            "active": true,
+            "calculationType": "percentage",
+            "value": "7.5",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "2",
+            "code": "LC",
+            "service": "works.purchase",
+            "active": true,
+            "calculationType":"lumpsum",
+            "value":"1000",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "20",
+            "code": "ITTDS",
+            "service": "works.purchase",
+            "description": "IT TDS",
+            "active": true,
+            "calculationType": "percentage",
+            "value": "10",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "21",
+            "code": "ROM",
+            "service": "works.purchase",
+            "description": "Royalty on minerals",
+            "active": true,
+            "calculationType":"lumpsum",
+            "value": null,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "22",
+            "code": "ECB",
+            "service": "works.purchase",
+            "description": "Empty Cement Bag",
+            "active": true,
+            "calculationType":"lumpsum",
+            "value": null,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "23",
+            "service": "works.purchase",
+            "code": "GSTTDS",
+            "description": "GST TDS",
+            "active": true,
+            "calculationType":"percentage",
+            "value": "12",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "24",
+            "service": "works.purchase",
+            "code": "GST",
+            "description": "GST",
+            "active": true,
+            "calculationType":"lumpsum",
+            "value": null,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "25",
+            "code": "LC",
+            "service": "works.wages",
+            "active": true,
+            "calculationType":"percentage",
+            "value":"1",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "NatureOfWork": [
+    {
+      "name": "Capital",
+      "code": "Capital",
+      "active": true
+    },
+    {
+      "name": "Operation & Maintenance",
+      "code": "Operation & Maintenance",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "TypeOfWork": [
+    {
+      "name": "Road",
+      "code": "Road",
+      "active": true,
+      "subTypes": [
+        {
+          "name": "Road Forming",
+          "code": "RD01",
+          "active": true
+        },
+        {
+          "name": "Road Widening",
+          "code": "RD02",
+          "active": true
+        },
+        {
+          "name": "Maintenance",
+          "code": "RD03",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "code": "Bridge",
+      "active": true
+    }
+  ]
+}

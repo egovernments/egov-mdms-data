@@ -1,0 +1,78 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "ProjectType": [
+    {
+      "id": 1,
+      "name": "Mini Park",
+      "code": "MP-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": ["MP001", "MP002"]
+    },
+    {
+      "id": 5,
+      "name": "Child Play Station",
+      "code": "CPS-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 9,
+      "name": "Open Air Gym",
+      "code": "OAG-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 13,
+      "name": "Water Body",
+      "code": "WB-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 17,
+      "name": "Walking Track",
+      "code": "WT-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 21,
+      "name": "Playground",
+      "code": "PG-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 25,
+      "name": "Loo",
+      "code": "LOO-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 29,
+      "name": "Vending Zone",
+      "code": "VZ-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    }
+  ]
+}

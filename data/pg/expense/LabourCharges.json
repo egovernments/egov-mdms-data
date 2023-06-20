@@ -1,0 +1,193 @@
+{
+    "tenantId": "pg",
+    "moduleName": "expense",
+    "LabourCharges": [
+         {
+             "id": 1,
+             "service": "works.wages",
+             "code": "UNSKILLED.CARPENTER",
+             "gender": "female",
+             "active": true,
+             "amount": 150,
+             "unit": "day",
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+            "id": 2,
+            "service": "works.wages",
+            "code": "UNSKILLED.MALE_MULIA",
+            "gender": "male",
+            "active": true,
+            "amount": 10,
+            "unit": "hour",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+         },
+         {
+            "id": "2",
+            "service": "works.wages",
+            "code": "UNSKILLED.FEMALE_MULIA",
+            "gender": "female",
+            "active": true,
+            "amount": 150,
+            "unit": "hour",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+         },
+         {
+             "id": "3",
+             "service": "works.wages",
+             "code": "UNSKILLED.SCAVENGER",
+             "gender": "all",
+             "active": true,
+             "amount": 150,
+             "unit": "day",
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "4",
+             "service": "works.wages",
+             "code": "UNSKILLED.CHAIN_MAN",
+             "gender": "all",
+             "active": true,
+             "amount": 150,
+             "unit": "day",
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "5",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.MALE_MULIA",
+             "gender": "male",
+             "active": true,
+             "amount": 170,
+             "unit": "day",
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "6",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.FEMALE_MULIA",
+             "gender": "female",
+             "active": true,
+             "amount": 190,
+             "unit": "day",
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "7",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.SCAVENGER",
+             "gender": "all",
+             "active": true,
+             "amount": 170,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "8",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.SANGI_MULIA",
+             "gender": "all",
+             "active": true,
+             "amount": 170,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "9",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.HAMMER_MAN",
+             "gender": "all",
+             "active": true,
+             "amount": 170,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "10",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.CLEANER",
+             "gender": "all",
+             "active": true,
+             "amount": 170,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "11",
+             "service": "works.wages",
+             "code": "HIGHLY_SKILLED.PLUMBER",
+             "gender": "all",
+             "active": true,
+             "amount": 205,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+            "id": "12",
+            "service": "works.wages",
+            "code": "HIGHLY_SKILLED.MASON",
+            "gender": "all",
+            "active": true,
+            "amount": 205,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+         },
+         {
+             "id": "13",
+             "service": "works.wages",
+             "code": "HIGHLY_SKILLED.PAINTER",
+             "gender": "all",
+             "active": true,
+             "amount": 205,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "14",
+             "service": "works.wages",
+             "code": "HIGHLY_SKILLED.FITTER",
+             "gender": "all",
+             "active": true,
+             "amount": 205,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "15",
+             "service": "works.wages",
+             "code": "OTHERS.BORING_MISTRY",
+             "gender": "all",
+             "active": true,
+             "amount": 205,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "16",
+             "service": "works.wages",
+             "code": "OTHERS.WINCH_OPERATOR",
+             "gender": "all",
+             "active": true,
+             "amount": 205,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         },
+         {
+             "id": "17",
+             "service": "works.wages",
+             "code": "OTHERS.HELPER_WELL_SINKER",
+             "gender": "all",
+             "active": true,
+             "amount": 190,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
+         }
+     ]
+}

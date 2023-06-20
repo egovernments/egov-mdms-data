@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "finance",
+  "BudgetHead": [
+    {
+      "name": "ADM",
+      "code": "01",	 
+      "active": true
+    },
+	{
+      "name": "ACC",
+      "code": "02",	 
+      "active": true
+    },	
+    {
+      "name": "ENG",
+      "code": "03",	 
+      "active": true
+    }
+  ]
+}
