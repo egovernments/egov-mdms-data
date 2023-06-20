@@ -1147,21 +1147,33 @@
       "roleBasedDecryptionPolicy": []
     },
      {
-      "model": "FSMDailyCollectionReport",
-      "uniqueIdentifier": {
-        "name": "uuid",
-        "jsonPath": "/uuid"
-      },
-      "attributes": [
-        {
-          "name": "name",
-          "jsonPath": "name",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        }
+  "model": "FSMDailyCollectionReport",
+  "uniqueIdentifier": {
+    "name": "uuid",
+    "jsonPath": "uuid"
+  },
+  "attributes": [
+    {
+      "name": "name",
+      "jsonPath": "name",
+      "patternId": "002",
+      "defaultVisibility": "PLAIN"
+    }
+  ],
+  "roleBasedDecryptionPolicy": [
+    {
+      "roles": [
+        "FSM_REPORT_VIEWER"
       ],
-      "roleBasedDecryptionPolicy": [
+      "attributeAccessList": [
+        {
+          "attribute": "name",
+          "firstLevelVisibility": "MASKED",
+          "secondLevelVisibility": "PLAIN"
+        }
       ]
     }
+  ]
+}
   ]
 }
