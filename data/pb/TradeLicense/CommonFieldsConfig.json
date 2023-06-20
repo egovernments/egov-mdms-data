@@ -112,7 +112,7 @@
           {
               "type": "component",
               "route": "street",
-              "component": "SelectStreet",
+              "component": "TLSelectStreet",
               "key": "address",
               "withoutLabel": true,
               "hideInEmployee": true,
@@ -140,7 +140,7 @@
           },
           {
               "type": "component",
-              "component": "SelectStreet",
+              "component": "TLSelectStreet",
               "key": "address",
               "withoutLabel": true,
               "hideInCitizen": true,
@@ -166,7 +166,7 @@
           {
               "type": "component",
               "route": "landmark",
-              "component": "SelectLandmark",
+              "component": "TLSelectLandmark",
               "withoutLabel": true,
               "texts": {
                   "headerCaption": "TL_LOCATION_CAPTION",
@@ -340,8 +340,8 @@
           "withoutLabel": true,
           "nextStep": "other-trade-details",
           "hideInEmployee": true
-        },
-        {
+     },
+     {
           "isMandatory": true,
           "type": "component",
           "route": "other-trade-details",
@@ -353,7 +353,7 @@
             "cardText": "",
             "submitBarLabel": "CS_COMMON_NEXT",
             "skipText": "CORE_COMMON_SKIP_CONTINUE"
-          },
+        },
           "withoutLabel": true,
           "nextStep": "know-your-property",
           "hideInEmployee": true
@@ -398,7 +398,7 @@
           "type": "component",
           "route": "owner-address",
           "isMandatory": true,
-          "component": "SelectOwnerAddress",
+          "component": "TLSelectOwnerAddress",
           "texts": {
             "headerCaption": "TL_OWNERS_DETAILS",
             "header": "TL_OWNERS_ADDRESS",
