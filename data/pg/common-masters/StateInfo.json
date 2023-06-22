@@ -1,0 +1,85 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "StateInfo": [
+    {
+      "name": "Demo",
+      "code": "pg",
+      "qrCodeURL": "https://raw.githubusercontent.com/egovernments/frontend/master/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/qrImage.png",
+      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/banner-bg.jpg",
+      "logoUrl": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/mseva-white-logo.png",
+      "logoUrlWhite": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/mukta-white-logo.png",
+      "statelogo":"https://s3.ap-south-1.amazonaws.com/works-dev-asset/pg/logo.png",
+      "hasLocalisation": true,
+      "enableWhatsApp": true,
+      "defaultUrl": {
+        "citizen": "/user/register",
+        "employee": "/user/login"
+      },
+      "languages": [
+        {
+          "label": "ENGLISH",
+          "value": "en_IN"
+        },
+        {
+          "label": "हिंदी",
+          "value": "hi_IN"
+        }
+      ],
+      "localizationModules": [
+        {
+          "label": "rainmaker-abg",
+          "value": "rainmaker-abg"
+        },
+        {
+          "label": "rainmaker-common",
+          "value": "rainmaker-common"
+        },
+        {
+          "label": "rainmaker-noc",
+          "value": "rainmaker-noc"
+        },
+        {
+          "label": "rainmaker-pt",
+          "value": "rainmaker-pt"
+        },
+        {
+          "label": "rainmaker-uc",
+          "value": "rainmaker-uc"
+        },
+        {
+          "label": "rainmaker-pgr",
+          "value": "rainmaker-pgr"
+        },
+        {
+          "label": "rainmaker-fsm",
+          "value": "rainmaker-fsm"
+        },
+        {
+          "label": "rainmaker-tl",
+          "value": "rainmaker-tl"
+        },
+        {
+          "label": "rainmaker-hr",
+          "value": "rainmaker-hr"
+        },
+        {
+          "label": "rainmaker-test",
+          "value": "rainmaker-test"
+        },
+        {
+          "label": "finance-erp",
+          "value": "finance-erp"
+        },
+        {
+          "label": "rainmaker-receipt",
+          "value": "rainmaker-receipt"
+        },
+        {
+          "label": "rainmaker-dss",
+          "value": "rainmaker-dss"
+        }
+      ]
+    }
+  ]
+}

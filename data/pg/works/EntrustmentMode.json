@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "EntrustmentMode": [
+    {
+      "name": "Nomination",
+      "code": "NOMINATION",
+      "active": true
+    },
+    {
+      "name": "e-Procurement",
+      "code": "E_PROCUREMENT",
+      "active": true
+    },
+    {
+      "name": "Tendering",
+      "code": "TENDERING",
+      "active": true
+    }
+  ]
+}

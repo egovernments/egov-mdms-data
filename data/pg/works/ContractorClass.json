@@ -1,0 +1,20 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "ContractorClass": [
+    {
+      "grade": "Grade-1",
+      "description": "Grade-1",
+      "minimumAmount": 5000000,
+      "maximumAmount": 10000000,
+      "active": true
+    },
+    {
+      "grade": "Grade-2",
+      "description": "Grade-2",
+      "minimumAmount": 1000000,
+      "maximumAmount": 5000000,
+      "active": true
+    }
+  ]
+}

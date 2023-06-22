@@ -1,0 +1,138 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "Designation": [
+    {
+      "code": "WRK_EE",
+      "name": "Executive Engineer",
+      "description": "Executive Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_DEE",
+      "name": "Deputy Executive Engineer",
+      "description": "Deputy Executive Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_AEE",
+      "name": "Assistant Executive Engineer",
+      "description": "Assistant Executive Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_ME",
+      "name": "Municipal Engineer",
+      "description": "Municipal Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_CE",
+      "name": "City Engineer",
+      "description": "City Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_AE",
+      "name": "Assistant Engineer",
+      "description": "Assistant Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_JE",
+      "name": "Junior Engineer",
+      "description": "Junior Engineer",
+      "active": true
+    },
+    {
+      "code": "WRK_RI",
+      "name": "Revenue Inspector",
+      "description": "Revenue Inspector",
+      "active": true
+    },
+    {
+      "code": "WRK_AM",
+      "name": "Ameen",
+      "description": "Ameen",
+      "active": true
+    },
+    {
+      "code": "WRK_DA",
+      "name": "Dealing Assistant",
+      "description": "Dealing Assistant",
+      "active": true
+    },
+    {
+      "code": "WRK_PC",
+      "name": "Program Coordinator (MUKTA)",
+      "description": "Program Coordinator (MUKTA)",
+      "active": true
+    },
+    {
+      "code": "WRK_IE",
+      "name": "Implementation Expert (MUKTA)",
+      "description": "Implementation Expert (MUKTA)",
+      "active": true
+    },
+    {
+      "code": "WRK_AE",
+      "name": "Account Expert (MUKTA)",
+      "description": "Account Expert (MUKTA)",
+      "active": true
+    },
+    {
+      "code": "ACC_AO",
+      "name": "Accounts Officer",
+      "description": "Accounts Officer",
+      "active": true
+    },
+    {
+      "code": "ACC_JAO",
+      "name": "Junior Accounts Officer",
+      "description": "Junior Accounts Officer",
+      "active": true
+    },
+    {
+      "code": "ADM_MC",
+      "name": "Commissioner",
+      "description": "Commissioner",
+      "active": true
+    },
+    {
+      "code": "ADM_ADMC",
+      "name": "Additional Commissioner",
+      "description": "Additional Commissioner",
+      "active": true
+    },
+    {
+      "code": "ADM_DMC",
+      "name": "Deputy Commissioner",
+      "description": "Deputy Commissioner",
+      "active": true
+    },
+    {
+      "code": "ADM_AMC",
+      "name": "Assistant Commissioner",
+      "description": "Assistant Commissioner",
+      "active": true
+    },
+    {
+      "code": "ADM_EO",
+      "name": "Executive Officer",
+      "description": "Executive Officer",
+      "active": true
+    },
+    {
+      "code": "ADM_AEO",
+      "name": "Assistant Executive Officer",
+      "description": "Assistant Executive Officer",
+      "active": true
+    },
+    {
+      "code": "Tax",
+      "name": "Ward Officer",
+      "description": "Ward Officer",
+      "active": true
+    }
+  ]
+}

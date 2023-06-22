@@ -1,0 +1,55 @@
+{
+    "tenantId": "pg",
+    "moduleName": "works",
+    "Overheads": [
+        {
+            "id": "1",
+            "code": "SC",
+            "description": "Supervision Charge",
+            "active": true,
+            "isAutoCalculated":true,
+            "isWorkOrderValue":true,
+            "type": "percentage",
+            "value": "7.5",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "2",
+            "code": "GST",
+            "description": "Goods and Service Tax",
+            "active": true,
+            "isAutoCalculated":true,
+            "type":"percentage",
+            "value":"18",
+            "isWorkOrderValue":true,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+        {
+            "id": "3",
+            "code": "REW",
+            "description": "Royalty on Earth Work",
+            "active": false,
+            "isAutoCalculated": false,
+            "type":"lumpsum",
+            "isWorkOrderValue": false,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        },
+       
+        {
+            "id": "4",
+            "code": "TST",
+            "description": "Testing Overhead",
+            "active": true,
+            "isAutoCalculated": true,
+            "type": "lumpsum",
+            "value": "5000",
+            "isWorkOrderValue": true,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
+        }
+
+    ]
+}

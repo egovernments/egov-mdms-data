@@ -1,0 +1,96 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "WageSeekerSkills": [
+         {
+             "id": 1,
+             "code": "UNSKILLED.CARPENTER",
+             "active": true
+         },
+         {
+            "id": 2,
+            "code": "UNSKILLED.MALE_MULIA",
+            "active": true
+         },
+         {
+            "id": "2",
+            "code": "UNSKILLED.FEMALE_MULIA",
+            "active": true
+         },
+         {
+             "id": "3",
+             "code": "UNSKILLED.SCAVENGER",
+             "active": true
+         },
+         {
+             "id": "4",
+             "code": "UNSKILLED.CHAIN_MAN",
+             "active": true
+         },
+         {
+             "id": "5",
+             "code": "SEMI_SKILLED.MALE_MULIA",
+             "active": true
+         },
+         {
+             "id": "6",
+             "code": "SEMI_SKILLED.FEMALE_MULIA",
+             "active": true
+         },
+         {
+             "id": "7",
+             "code": "SEMI_SKILLED.SCAVENGER",
+             "active": true
+         },
+         {
+             "id": "8",
+             "code": "SEMI_SKILLED.SANGI_MULIA",
+             "active": true
+         },
+         {
+             "id": "9",
+             "code": "SEMI_SKILLED.HAMMER_MAN",
+             "active": true
+         },
+         {
+             "id": "10",
+             "code": "SEMI_SKILLED.CLEANER",
+             "active": true
+         },
+         {
+             "id": "11",
+             "code": "HIGHLY_SKILLED.PLUMBER",
+             "active": true
+         },
+         {
+            "id": "12",
+            "code": "HIGHLY_SKILLED.MASON",
+            "active": true
+         },
+         {
+             "id": "13",
+             "code": "HIGHLY_SKILLED.PAINTER",
+             "active": true
+         },
+         {
+             "id": "14",
+             "code": "HIGHLY_SKILLED.FITTER",
+             "active": true
+         },
+         {
+             "id": "15",
+             "code": "OTHERS.BORING_MISTRY",
+             "active": true
+         },
+         {
+             "id": "16",
+             "code": "OTHERS.WINCH_OPERATOR",
+             "active": true
+         },
+         {
+             "id": "17",
+             "code": "OTHERS.HELPER_WELL_SINKER",
+             "active": true
+         }
+     ]
+}
