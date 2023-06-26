@@ -1161,18 +1161,6 @@
     }
   ],
   "roleBasedDecryptionPolicy": [
-    {
-      "roles": [
-        "FSM_REPORT_VIEWER"
-      ],
-      "attributeAccessList": [
-        {
-          "attribute": "name",
-          "firstLevelVisibility": "MASKED",
-          "secondLevelVisibility": "PLAIN"
-        }
-      ]
-    }
   ]
 }
   ]
