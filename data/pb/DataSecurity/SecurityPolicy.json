@@ -1168,7 +1168,7 @@
       "attributeAccessList": [
         {
           "attribute": "name",
-          "firstLevelVisibility": "PLAIN",
+          "firstLevelVisibility": "MASKED",
           "secondLevelVisibility": "PLAIN"
         }
       ]
