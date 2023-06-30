@@ -672,39 +672,76 @@
       "helpLineNumber": ""
     },
     {
-      "code": "pg.kesinga",
-      "name": "Kesinga NAC",
-      "description": "Kesinga",
+      "code": "pg.athagarh",
+      "name": "Athagarh",
+      "description": "Athagarh",
       "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
       "imageId": null,
-      "domainUrl": null,
+      "domainUrl": "https://sujog.odisha.gov.in",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
-      "emailId": "kesinganac@gmail.com",
+      "emailId": "helpdesk.sujog@odisha.gov.in",
       "OfficeTimings": {
-        "Mon - Fri": "9.00 AM - 5.00PM"
+        "Mon - Fri": "9.00 AM - 6.00 PM"
       },
       "city": {
-        "name": "Kesinga",
+        "name": "Athagarh",
         "localName": null,
-        "districtCode": "Kesinga",
-        "districtName": "Kesinga",
-        "regionName": "Kesinga",
-        "ulbGrade": "Municipal Corporation",
-        "longitude": 83.23,
-        "latitude": 20.2,
+        "districtCode": "Cuttack",
+        "districtName": "Cuttack",
+        "regionName": "Cuttack",
+        "ulbGrade": "NAC",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
         "shapeFileLocation": null,
         "captcha": null,
-        "code": "KESI",
-        "ddrName": "Kesinga",
+        "code": "ATH",
+        "ddrName": "Cuttack",
         "wsBillHeaderLine1": "OFFICE OF THE AE/JE",
-        "wsBillHeaderLine2": "PUBLIC HEALTH ENGINEERING ORGANIZATION : Kesinga",
-        "districtTenantCode": "pg.kesinga"
+        "wsBillHeaderLine2": "PUBLIC HEALTH ENGINEERING ORGANIZATION : Athagarh",
+        "bpaPermitHeader": "Athagarh",
+        "districtTenantCode": "pg.athagarh"
       },
-      "address": "NAC KESINGA, WARD NO-6, KESINGA,KALAHANDI-766012",
-      "contactNumber": "",
-      "helpLineNumber": "06670-222020, 14420"
+      "address": "Athagarh NAC",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
+    },
+    {
+      "code": "pg.kotpad",
+      "name": "Kotpad",
+      "description": "Kotpad",
+      "logoId": "https://digitaldesksujog051120.blob.core.windows.net/assets/Logos/odlogo.png",
+      "imageId": null,
+      "domainUrl": "https://sujog.odisha.gov.in",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "helpdesk.sujog@odisha.gov.in",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "Kotpad",
+        "localName": null,
+        "districtCode": "Koraput",
+        "districtName": "Koraput",
+        "regionName": "Koraput",
+        "ulbGrade": "NAC",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "KOT",
+        "ddrName": "Koraput",
+        "wsBillHeaderLine1": "OFFICE OF THE AE/JE",
+        "wsBillHeaderLine2": "PUBLIC HEALTH ENGINEERING ORGANIZATION : Kotpad",
+        "bpaPermitHeader": "Kotpad",
+        "districtTenantCode": "pg.kotpad"
+      },
+      "address": "Kotpad NAC",
+      "contactNumber": "1800 121 6833",
+      "helpLineNumber": "1800 121 6833"
     }
   ]
 }

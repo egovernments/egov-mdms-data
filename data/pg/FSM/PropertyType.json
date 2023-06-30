@@ -41,14 +41,6 @@
             "maxAmount": "5000"
         },
         {
-            "name": "Community Toilets",
-            "code": "COMMERCIAL.COMMUNITY_TOILETS",
-            "active": true,
-            "propertyType": "COMMERCIAL",
-            "minAmount": "1000",
-            "maxAmount": "1200"
-        },
-        {
             "name": "Hotel",
             "code": "COMMERCIAL.HOTEL",
             "active": true,
@@ -151,6 +143,110 @@
             "propertyType": "COMMERCIAL",
             "minAmount": "5200",
             "maxAmount": "5500"
+        },
+        {
+            "name": "Jatri Navas",
+            "code": "COMMERCIAL.JATRI_NAVAS",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Kalyan Mandap",
+            "code": "COMMERCIAL.KALYAN_MANDAP",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Town Hall",
+            "code": "COMMERCIAL.TOWN_HALL",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Old Age Society",
+            "code": "COMMERCIAL.OLD_AGE_SOCIETY",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Old Bus Stand",
+            "code": "COMMERCIAL.OLD_BUS_STAND",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "New Bus Stand",
+            "code": "COMMERCIAL.NEW_BUS_STAND",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Temple",
+            "code": "COMMERCIAL.TEMPLE",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Vending Zone",
+            "code": "COMMERCIAL.VENDING_ZONE",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Medical Campus",
+            "code": "COMMERCIAL.MEDICAL_CAMPUS",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "ULB Office",
+            "code": "COMMERCIAL.ULB_OFFICE",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Night Shelter House",
+            "code": "COMMERCIAL.NIGHT_SHELTER_HOUSE",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Market Complex",
+            "code": "COMMERCIAL.MARKET_COMPLEX",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Auditorium",
+            "code": "COMMERCIAL.AUDITORIUM",
+            "active": true,
+            "propertyType": "COMMERCIAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
         },
         {
             "name": "Institutional",
@@ -286,6 +382,494 @@
             "propertyType": "INSTITUTIONAL",
             "minAmount": "10100",
             "maxAmount": "10500"
+        },
+        {
+            "name": "Govt high school",
+            "code": "INSTITUTIONAL.GOVT_HIGH_SCHOOL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Govt Hospital",
+            "code": "INSTITUTIONAL.GOVT_HOSPITAL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Govt School",
+            "code": "INSTITUTIONAL.GOVT_SCHOOL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Fire Station",
+            "code": "INSTITUTIONAL.FIRE_STATION",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Forest Office",
+            "code": "INSTITUTIONAL.FOREST_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "SubCollector Office",
+            "code": "INSTITUTIONAL.SUBCOLLECTOR_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Tahsil Office",
+            "code": "INSTITUTIONAL.TAHSIL_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Block Office",
+            "code": "INSTITUTIONAL.BLOCK_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "BEO Office",
+            "code": "INSTITUTIONAL.BEO_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Public ward department",
+            "code": "INSTITUTIONAL.PUBLIC_WARD_DEPARTMENT",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Public Health Department",
+            "code": "INSTITUTIONAL.PUBLIC_HEALTH_DEPARTMENT",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Irrigation",
+            "code": "INSTITUTIONAL.IRRIGATION",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Rural water supply",
+            "code": "INSTITUTIONAL.RURAL_WATER_SUPPLY",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Govt College",
+            "code": "INSTITUTIONAL.GOVT_COLLEGE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Sub Register Office",
+            "code": "INSTITUTIONAL.SUB_REGISTER_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Govt Office",
+            "code": "INSTITUTIONAL.GOVT_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "District Rural Development Agency",
+            "code": "INSTITUTIONAL.DISTRICT_RURAL_DEVELOPMENT_AGENCY",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Micro Composting Centre",
+            "code": "INSTITUTIONAL.MICRO_COMPOSTING_CENTRE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Material Recovery Facility",
+            "code": "INSTITUTIONAL.MATERIAL_RECOVERY_FACILITY",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Municipality Office",
+            "code": "INSTITUTIONAL.MUNICIPALITY_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Circuit House",
+            "code": "INSTITUTIONAL.CIRCUIT_HOUSE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Notified area council Office",
+            "code": "INSTITUTIONAL.NOTIFIED_AREA_COUNCIL_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Kalyanmandap",
+            "code": "INSTITUTIONAL.KALYANMANDAP",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "PMC Hall",
+            "code": "INSTITUTIONAL.PMC_HALL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Wealth Center",
+            "code": "INSTITUTIONAL.WEALTH_CENTER",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Ahar Kendra",
+            "code": "INSTITUTIONAL.AHAR_KENDRA",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Senior Citizen Hall",
+            "code": "INSTITUTIONAL.SENIOR_CITIZEN_HALL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Press Club",
+            "code": "INSTITUTIONAL.PRESS_CLUB",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Notified area council",
+            "code": "INSTITUTIONAL.NOTIFIED_AREA_COUNCIL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "SeTP Plant",
+            "code": "INSTITUTIONAL.SETP_PLANT",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Guest House",
+            "code": "INSTITUTIONAL.GUEST_HOUSE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "COURT",
+            "code": "INSTITUTIONAL.COURT",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Treasury Office",
+            "code": "INSTITUTIONAL.TREASURY_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Magistrate Office",
+            "code": "INSTITUTIONAL.MAGISTRATE_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Bar Association",
+            "code": "INSTITUTIONAL.BAR_ASSOCIATION",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Balangibandha-1",
+            "code": "INSTITUTIONAL.BALANGIBANDHA_1",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Balangibandha-2",
+            "code": "INSTITUTIONAL.BALANGIBANDHA_2",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Dakhinakali Urinal",
+            "code": "INSTITUTIONAL.DAKHINAKALI_URINAL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Near DHH Urinal",
+            "code": "INSTITUTIONAL.NEAR_DHH_URINAL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "New Bus Stand Urinal",
+            "code": "INSTITUTIONAL.NEW_BUS_STAND_URINAL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Trinath Chhaka Urinal",
+            "code": "INSTITUTIONAL.TRINATH_CHHAKA_URINAL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Community Toilets",
+            "code": "INSTITUTIONAL.COMMUNITY_TOILETS",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Collector Office",
+            "code": "INSTITUTIONAL.COLLECTOR_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Odisha Adarsha Vidyalaya",
+            "code": "INSTITUTIONAL.ODISHA_ADARSHA_VIDYALAYA",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Mo Toilet",
+            "code": "INSTITUTIONAL.MO_TOILET",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "SSD High school",
+            "code": "INSTITUTIONAL.SSD_HIGH_SCHOOL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Welfare Center",
+            "code": "INSTITUTIONAL.WELFARE_CENTER",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "Thana",
+            "code": "INSTITUTIONAL.THANA",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Town Hall",
+            "code": "INSTITUTIONAL.TOWN_HALL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Library",
+            "code": "INSTITUTIONAL.LIBRARY",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Municipality Staff Quarter",
+            "code": "INSTITUTIONAL.MUNICIPALITY_STAFF_QUARTER",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Notified Area Council Building",
+            "code": "INSTITUTIONAL.NOTIFIED_AREA_BUILDING",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Medical",
+            "code": "INSTITUTIONAL.MEDICAL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		 {
+            "name": "Sub Treasury",
+            "code": "INSTITUTIONAL.SUB_TREASURY",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Function Hall",
+            "code": "INSTITUTIONAL.FUNCTION_HALL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Sub Jail",
+            "code": "INSTITUTIONAL.SUB_JAIL",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Portable Toilets",
+            "code": "INSTITUTIONAL.PORTABLE_TOILETS",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Auditorium",
+            "code": "INSTITUTIONAL.AUDITORIUM",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "SP Office",
+            "code": "INSTITUTIONAL.SP_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+		{
+            "name": "Quarter",
+            "code": "INSTITUTIONAL.QUARTER",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
+        },
+        {
+            "name": "ULB Office",
+            "code": "INSTITUTIONAL.ULB_OFFICE",
+            "active": true,
+            "propertyType": "INSTITUTIONAL",
+            "minAmount": "0",
+            "maxAmount": "1600"
         }
     ]
 }
