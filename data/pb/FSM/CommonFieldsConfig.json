@@ -33,7 +33,7 @@
             "cardText": "CS_FILE_APPLICATION_PROPERTY_SUBTYPE_TEXT",
             "submitBarLabel": "CS_COMMON_NEXT"
           },
-          "nextStep": "address"
+          "nextStep": "map"
         }
       ]
     },
@@ -42,14 +42,14 @@
       "body": [
         {
           "route": "map",
-          "component": "SelectGeolocation",
+          "component": "FSMSelectGeolocation",
           "nextStep": "pincode",
           "hideInEmployee": true,
           "key": "address"
         },
         {
           "route": "pincode",
-          "component": "SelectPincode",
+          "component": "FSMSelectPincode",
           "texts": {
             "headerCaption": "",
             "header": "CS_FILE_APPLICATION_PINCODE_LABEL",
@@ -64,7 +64,7 @@
         },
         {
           "route": "address",
-          "component": "SelectAddress",
+          "component": "FSMSelectAddress",
           "withoutLabel": true,
           "texts": {
             "headerCaption": "CS_FILE_APPLICATION_PROPERTY_LOCATION_LABEL",
@@ -108,7 +108,7 @@
         {
           "type": "component",
           "route": "street",
-          "component": "SelectStreet",
+          "component": "FSMSelectStreet",
           "key": "address",
           "withoutLabel": true,
           "texts": {
@@ -123,7 +123,7 @@
         {
           "type": "component",
           "route": "landmark",
-          "component": "SelectLandmark",
+          "component": "FSMSelectLandmark",
           "withoutLabel": true,
           "texts": {
             "headerCaption": "CS_FILE_APPLICATION_PROPERTY_LOCATION_LABEL",
