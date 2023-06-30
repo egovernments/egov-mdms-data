@@ -144,6 +144,28 @@
             "PlantOperationalTimings": "09:00 AM - 05:00 PM",
             "PlantOperationalCapacityKLD": "10",
             "ULBS": "pg.kesinga"
-        }
+        },
+        {
+            "PlantCode": "ATHA_039",
+            "PlantName": "Athagarh Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Athagarh",
+            "PlusCode": "GJCG+2R",
+            "PlantOperationalTimings": "9.00 AM to 5.00PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.athagarh"
+        },
+        {
+            "PlantCode": "KOTP_061",
+            "PlantName": "Kotpad Septage Treatment Plant",
+            "active": true,
+            "PlantType": "SeTP",
+            "PlantLocation": "Kotpad",
+            "PlusCode": "48R9+C4",
+            "PlantOperationalTimings": "08:00 AM -5:30 PM",
+            "PlantOperationalCapacityKLD": "10",
+            "ULBS": "pg.kotpad"
+        } 
     ]
 }

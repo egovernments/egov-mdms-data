@@ -1,0 +1,30 @@
+{
+    "tenantId": "pg.athagarh",
+    "moduleName": "FSM",
+    "Slum": [
+        {
+            "name": "Rasarasikpur",
+            "active": true,
+            "code": "ATHA001",
+            "locality": "VIL1"
+        },
+        {
+            "name": "New Bus Stand",
+            "active": true,
+            "code": "ATHA002",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Kalu Basti - 1",
+            "active": true,
+            "code": "ATHA003",
+            "locality": "VIL1"
+        },
+        {
+            "name": "Kalu Basti - 2",
+            "active": true,
+            "code": "ATHA004",
+            "locality": "VIL1"
+        }
+    ]
+}
