@@ -9214,7 +9214,7 @@
     },
     {
       "id": 2082,
-      "name": "digit-ui FSM",
+      "name": "FSM Home",
       "url": "card",
       "displayName": "Faecal Sludge Management",
       "orderNumber": 2,
@@ -9222,7 +9222,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "",
-      "path": "",
+      "path": "FSM.Home",
       "navigationURL": "/digit-ui/employee/",
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
@@ -9246,7 +9246,7 @@
     },
     {
       "id": 2084,
-      "displayName": "CreateNewApplication",
+      "displayName": "Create New Application",
       "orderNumber": 0,
       "leftIcon": "",
       "url": "url",
@@ -9256,11 +9256,11 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSM.Create New Application"
     },
     {
       "id": 2085,
-      "displayName": "EmployeeInbox",
+      "displayName": "Employee Inbox",
       "orderNumber": 0,
       "leftIcon": "",
       "url": "url",
@@ -9270,7 +9270,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSM.Employee Inbox"
     },
     {
       "id": 2086,
@@ -9306,13 +9306,13 @@
       "orderNumber": 0,
       "leftIcon": "",
       "url": "url",
-      "name": "FSM FSTP INBOX",
+      "name": "FSTP INBOX",
       "enabled": true,
       "navigationURL": "/digit-ui/employee/fsm/fstp-inbox",
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSM.FSTP.Inbox"
     },
     {
       "id": 2089,
@@ -9330,7 +9330,7 @@
     },
     {
       "id": 2090,
-      "displayName": "SearchApplication",
+      "displayName": "Search Application",
       "orderNumber": 0,
       "leftIcon": "",
       "url": "url",
@@ -9340,7 +9340,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSM.Search Application"
     },
     {
       "id": 2091,
