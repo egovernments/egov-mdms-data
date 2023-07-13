@@ -1,0 +1,68 @@
+{
+    "tenantId": "pb",
+    "moduleName": "commonUiConfig",
+    "HomeScreenCardConfig": [
+        {
+            "order": 1,
+            "header": "HOME_BIRTH_REGISTRATION",
+            "displayName": "Birth Registration",
+            "label": "BIRTH_REGISTRATION",
+            "active": true,
+            "icon": "assets/svg/birth-icon.svg",
+            "links": [
+                {
+                    "order": 1,
+                    "key": "HOME_BIRTH_REGISTRATION_CREATE",
+                    "displayName": "Create Birth Registration",
+                    "label": "CREATE_BIRTH_REGISTRATION",
+                    "active": true
+                },
+                {
+                    "order": 2,
+                    "key": "HOME_BIRTH_REGISTRATION_SEARCH",
+                    "displayName": "Search Birth Registration",
+                    "label": "SEARCH_BIRTH_REGISTRATION",
+                    "active": true
+                },
+                {
+                    "order": 3,
+                    "key": "HOME_BIRTH_REGISTRATION_UPDATE",
+                    "displayName": "Update Birth Registration",
+                    "label": "UPDATE_BIRTH_REGISTRATION",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "order": 2,
+            "header": "HOME_DEATH_REGISTRATION",
+            "displayName": "Death Registration",
+            "label": "DEATH_REGISTRATION",
+            "active": true,
+            "icon": "assets/svg/death-icon.svg",
+            "links": [
+                {
+                    "order": 1,
+                    "key": "HOME_DEATH_REGISTRATION_CREATE",
+                    "displayName": "Create Death Registration",
+                    "label": "CREATE_DEATH_REGISTRATION",
+                    "active": true
+                },
+                {
+                    "order": 2,
+                    "key": "HOME_DEATH_REGISTRATION_SEARCH",
+                    "displayName": "Search Death Registration",
+                    "label": "SEARCH_DEATH_REGISTRATION",
+                    "active": true
+                },
+                {
+                    "order": 3,
+                    "key": "HOME_DEATH_REGISTRATION_UPDATE",
+                    "displayName": "Update Death Registration",
+                    "label": "UPDATE_DEATH_REGISTRATION",
+                    "active": false
+                }
+            ]
+        }
+    ]
+}
