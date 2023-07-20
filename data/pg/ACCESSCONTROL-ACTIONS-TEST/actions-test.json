@@ -9813,6 +9813,22 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/digit-ui/citizen/fsm-home"
+    },
+    {
+      "id": 2420,
+      "name": "rainmaker-citizen-fsm",
+      "url": "url",
+      "displayName": "Faecal Sludge Management",
+      "orderNumber": 8,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "fsm",
+      "code": "",
+      "path": "fsm",
+      "navigationURL": "/digit-ui/citizen",
+      "leftIcon": "custom:localShipping",
+      "rightIcon": "",
+      "queryParams": ""
     }
    ]
 }
