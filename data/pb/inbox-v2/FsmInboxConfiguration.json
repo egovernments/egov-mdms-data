@@ -19,8 +19,9 @@
           },
           {
             "name": "mobileNumber",
-            "path": "Data.fsm.citizen.keyword",
-            "isMandatory": false
+            "path": "Data.mobileNumberHash.keyword",
+            "isMandatory": false,
+            "isHashingRequired": true
           },
           {
             "name": "locality",
@@ -51,10 +52,10 @@
           }
         ],
         "sortBy": {
-            "path": "Data.additionalDetails.appCreatedDate",
-            "defaultOrder": "ASC"
+            "path": "Data.@timestamp",
+            "defaultOrder": "DESC"
         },
-        "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps","Data.applicationNo","Data.workflow","Data.locality"]
+        "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId","Data.applicationNo","Data.workflow","Data.locality"]
       }
     ]
   }
