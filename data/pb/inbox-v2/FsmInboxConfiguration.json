@@ -1,62 +1,61 @@
 {
-    "tenantId": "pb",
-    "moduleName": "INBOX",
-    "InboxQueryConfiguration": [
-      {
-        "module": "FSM",
-        "index": "fsm",
-        "allowedSearchCriteria": [
-          {
-            "name": "tenantId",
-            "path": "Data.tenantId.keyword",
-            "isMandatory": true,
-            "operator": "EQUAL"
-          },
-          {
-            "name": "status",
-            "path": "Data.currentProcessInstance.state.uuid.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "mobileNumber",
-            "path": "Data.mobileNumberHash.keyword",
-            "isMandatory": false,
-            "isHashingRequired": true
-          },
-          {
-            "name": "locality",
-            "path": "Data.locality.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "assignee",
-            "path": "Data.workflow.assignes.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "applicationNumber",
-            "path": "Data.applicationNo.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "fromDate",
-            "path": "Data.auditDetails.createdTime",
-            "isMandatory": false,
-            "operator": "GTE"
-          },
-          {
-            "name": "toDate",
-            "path": "Data.auditDetails.createdTime",
-            "isMandatory": false,
-            "operator": "LTE"
-          }
-        ],
-        "sortBy": {
-            "path": "Data.@timestamp",
-            "defaultOrder": "DESC"
+  "tenantId": "pb",
+  "moduleName": "INBOX",
+  "InboxQueryConfiguration": [
+    {
+      "module": "FSM",
+      "index": "fsm",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
         },
-        "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId","Data.applicationNo","Data.workflow","Data.locality"]
-      }
-    ]
-  }
-  
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "mobileNumber",
+          "path": "Data.mobileNumberHash.keyword",
+          "isMandatory": false,
+          "isHashingRequired": true
+        },
+        {
+          "name": "locality",
+          "path": "Data.locality.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.workflow.assignes.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.applicationNo.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "fromDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+          "path": "Data.@timestamp",
+          "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId","Data.applicationNo","Data.workflow","Data.locality"]
+    }
+  ]
+}
