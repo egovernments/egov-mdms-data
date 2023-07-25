@@ -33,7 +33,7 @@
             "cardText": "CS_FILE_APPLICATION_PROPERTY_SUBTYPE_TEXT",
             "submitBarLabel": "CS_COMMON_NEXT"
           },
-          "nextStep": "address"
+          "nextStep": "pincode"
         }
       ]
     },
@@ -67,7 +67,7 @@
             "submitBarLabel": "CS_COMMON_NEXT"
           },
           "key": "address",
-          "nextStep": "pincode",
+          "nextStep": "select-trip-number",
           "isMandatory": true,
           "type": "component"
         },
