@@ -13441,6 +13441,30 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2425,
+      "name": "MDMS v2 create",
+      "url": "/mdms-v2/schema/v1/_create",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2426,
+      "name": "MDMS v2 Search",
+      "url": "/mdms-v2/schema/v1/_search",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
