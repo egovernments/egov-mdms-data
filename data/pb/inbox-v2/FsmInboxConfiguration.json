@@ -19,9 +19,8 @@
         },
         {
           "name": "mobileNumber",
-          "path": "Data.mobileNumberHash.keyword",
-          "isMandatory": false,
-          "isHashingRequired": true
+          "path": "Data.mobileNumber.keyword",
+          "isMandatory": false
         },
         {
           "name": "locality",
