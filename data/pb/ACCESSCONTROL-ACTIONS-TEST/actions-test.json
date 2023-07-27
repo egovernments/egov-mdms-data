@@ -13465,6 +13465,30 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2427,
+      "name": "MDMS v2 Create data",
+      "url": "/mdms-v2/v2/_create/common-masters.Sample",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2428,
+      "name": "MDMS v2 Search Data",
+      "url": "/mdms-v2/v1/_search/common-masters.Sample",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    } 
   ]
 }
