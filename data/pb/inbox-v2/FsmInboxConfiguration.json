@@ -3,7 +3,7 @@
   "moduleName": "INBOX",
   "InboxQueryConfiguration": [
     {
-      "module": "FSM",
+      "module": "fsm",
       "index": "fsm-inbox",
       "allowedSearchCriteria": [
         {
