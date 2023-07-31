@@ -13489,6 +13489,42 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2429,
+      "name": "MDMS v2 Search Data 2",
+      "url": "/mdms-v2/v2/_search/TradeLicense.TradeSubType",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2430,
+      "name": "MDMS v2 Search Data 3",
+      "url": "/mdms-v2/v1/_search",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2431,
+      "name": "MDMS v2 update data",
+      "url": "/mdms-v2/v2/_update/TradeLicense.Usage",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
     } 
   ]
 }
