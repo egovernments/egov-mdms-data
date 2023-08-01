@@ -4,7 +4,7 @@
   "InboxQueryConfiguration": [
     {
       "module": "fsm",
-      "index": "fsm-inbox",
+      "index": "fsm-inbox-enriched",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
