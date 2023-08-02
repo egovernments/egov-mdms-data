@@ -99,7 +99,8 @@
                 {
                     "name": "applicationNumber",
                     "path": "Data.applicationNo.keyword",
-                    "isMandatory": false
+                    "isMandatory": false,
+                    "operator": "WILDCARD"
                 },
                 {
                     "name": "fromDate",
