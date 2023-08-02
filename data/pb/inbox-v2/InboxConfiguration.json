@@ -93,7 +93,7 @@
                 },
                 {
                     "name": "assignee",
-                    "path": "Data.currentProcessInstance.assignes[0].uuid.keyword",
+                    "path": "Data.currentProcessInstance.assignes.uuid.keyword",
                     "isMandatory": false
                 },
                 {
