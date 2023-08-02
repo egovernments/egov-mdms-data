@@ -1,61 +1,132 @@
 {
-  "tenantId": "pb",
-  "moduleName": "INBOX",
-  "InboxQueryConfiguration": [
-    {
-      "module": "WS",
-      "index": "water-inbox ",
-      "allowedSearchCriteria": [
+    "tenantId": "pb",
+    "moduleName": "INBOX",
+    "InboxQueryConfiguration": [
         {
-          "name": "tenantId",
-          "path": "Data.tenantId.keyword",
-          "isMandatory": true,
-          "operator": "EQUAL"
+            "module": "WS",
+            "index": "water-inbox ",
+            "allowedSearchCriteria": [
+                {
+                    "name": "tenantId",
+                    "path": "Data.tenantId.keyword",
+                    "isMandatory": true,
+                    "operator": "EQUAL"
+                },
+                {
+                    "name": "status",
+                    "path": "Data.currentProcessInstance.state.uuid.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "mobileNumber",
+                    "path": "Data.mobileNumberHash.keyword",
+                    "isMandatory": false,
+                    "isHashingRequired": true
+                },
+                {
+                    "name": "locality",
+                    "path": "Data.locality.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "assignee",
+                    "path": "Data.workflow.assignes.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "applicationNumber",
+                    "path": "Data.applicationNo.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "fromDate",
+                    "path": "Data.auditDetails.createdTime",
+                    "isMandatory": false,
+                    "operator": "GTE"
+                },
+                {
+                    "name": "toDate",
+                    "path": "Data.auditDetails.createdTime",
+                    "isMandatory": false,
+                    "operator": "LTE"
+                }
+            ],
+            "sortBy": {
+                "path": "Data.additionalDetails.appCreatedDate",
+                "defaultOrder": "ASC"
+            },
+            "sourceFilterPathList": [
+                "Data.currentProcessInstance",
+                "Data.auditDetails",
+                "Data.additionalDetails",
+                "Data.tenantId",
+                "Data.proposedTaps",
+                "Data.applicationNo",
+                "Data.workflow",
+                "Data.locality"
+            ]
         },
         {
-          "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "mobileNumber",
-          "path": "Data.mobileNumberHash.keyword",
-          "isMandatory": false,
-          "isHashingRequired": true
-        },
-        {
-          "name": "locality",
-          "path": "Data.locality.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "assignee",
-          "path": "Data.workflow.assignes.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "applicationNumber",
-          "path": "Data.applicationNo.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "fromDate",
-          "path": "Data.auditDetails.createdTime",
-          "isMandatory": false,
-          "operator": "GTE"
-        },
-        {
-          "name": "toDate",
-          "path": "Data.auditDetails.createdTime",
-          "isMandatory": false,
-          "operator": "LTE"
+            "module": "fsm",
+            "index": "fsm-application",
+            "allowedSearchCriteria": [
+                {
+                    "name": "tenantId",
+                    "path": "Data.tenantId.keyword",
+                    "isMandatory": true,
+                    "operator": "EQUAL"
+                },
+                {
+                    "name": "status",
+                    "path": "Data.currentProcessInstance.state.uuid.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "mobileNumber",
+                    "path": "Data.mobileNumber.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "locality",
+                    "path": "Data.locality.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "assignee",
+                    "path": "Data.currentProcessInstance.assignes[0].uuid.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "applicationNumber",
+                    "path": "Data.applicationNo.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "fromDate",
+                    "path": "Data.auditDetails.createdTime",
+                    "isMandatory": false,
+                    "operator": "GTE"
+                },
+                {
+                    "name": "toDate",
+                    "path": "Data.auditDetails.createdTime",
+                    "isMandatory": false,
+                    "operator": "LTE"
+                }
+            ],
+            "sortBy": {
+                "path": "Data.@timestamp",
+                "defaultOrder": "DESC"
+            },
+            "sourceFilterPathList": [
+                "Data.currentProcessInstance",
+                "Data.auditDetails",
+                "Data.additionalDetails",
+                "Data.tenantId",
+                "Data.applicationNo",
+                "Data.workflow",
+                "Data.locality"
+            ]
         }
-      ],
-      "sortBy": {
-          "path": "Data.additionalDetails.appCreatedDate",
-          "defaultOrder": "ASC"
-      },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId", "Data.proposedTaps","Data.applicationNo","Data.workflow","Data.locality"]
-    }
-  ]
+    ]
 }
