@@ -815,6 +815,22 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "ChallanStatusRegistry",
+      "uniqueIdentifier": {
+        "name": "uuid",
+        "jsonPath": "/uuid"
+      },
+      "attributes": [
+        {
+          "name": "consumername",
+          "jsonPath": "consumername",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
