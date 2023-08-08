@@ -13549,6 +13549,31 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
-    } 
+    },
+    {
+      "id": 2435,
+      "name": "MDMS v2 update data",
+      "url": "/mdms-v2/v2/_update/common-masters.Sample",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2436,
+      "name": "MDMS v2 update data2",
+      "url": "/mdms-v2/v2/_update/TradeLicense.Usage",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    }
+
   ]
 }
