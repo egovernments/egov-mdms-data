@@ -13585,6 +13585,80 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2438,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Update Department Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-master&masterName=Department",
+      "path": "9MDMS.commonmasterDepartment",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2439,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/common-master.Department",
+      "displayName": "create Department Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2440,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/common-master.Department",
+      "displayName": "Update Department Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2441,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Update EmployeeType Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=hrms&masterName=EmployeeType",
+      "path": "9MDMS.hrmsEmployeeType",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2442,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/hrms.Department",
+      "displayName": "create EmployeeType Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2443,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/hrms.Department",
+      "displayName": "Update EmployeeType Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
