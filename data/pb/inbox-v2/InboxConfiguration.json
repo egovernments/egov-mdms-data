@@ -97,8 +97,8 @@
                     "isMandatory": false
                 },
                 {
-                    "name": "applicationNo",
-                    "path": "Data.applicationNos.keyword",
+                    "name": "applicationNos",
+                    "path": "Data.applicationNo.keyword",
                     "isMandatory": false,
                     "operator": "WILDCARD"
                 },
