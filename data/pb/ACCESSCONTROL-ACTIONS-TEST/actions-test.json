@@ -13733,6 +13733,43 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2450,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Trade ",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=Trade&masterName=Fields",
+      "path": "9MDMS.TradeFields",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2451,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/Trade.Fields",
+      "displayName": "Create Trade Fields",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2452,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/Trade.Fields",
+      "displayName": "Update Trade Fields",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
