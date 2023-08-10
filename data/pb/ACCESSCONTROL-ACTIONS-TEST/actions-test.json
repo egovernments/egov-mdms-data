@@ -13659,6 +13659,80 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2444,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Sor non work",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=NonWork",
+      "path": "9MDMS.SORNonWork",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2445,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/SOR.NonWork",
+      "displayName": "Create SOR NonWork",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2446,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/SOR.NonWork",
+      "displayName": "Update SOR NonWork",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2447,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Trade License",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=Trade&masterName=License",
+      "path": "9MDMS.TradeLicense",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2448,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/Trade.License",
+      "displayName": "Create Trade License",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2449,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/Trade.License",
+      "displayName": "Update Trade License",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
