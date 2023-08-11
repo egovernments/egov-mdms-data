@@ -13807,6 +13807,43 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2456,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Trade ",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=Trade&masterName=Details",
+      "path": "9MDMS.TradeDetails",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2457,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/Trade.Details",
+      "displayName": "Create Trade Details",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2458,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/Trade.Details",
+      "displayName": "Update Trade Details",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
