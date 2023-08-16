@@ -45,9 +45,6 @@
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
                 "populators": {
                   "name": "applicationNos",
                   "error": "ERR_INVALID_APPLICATION_NO",
@@ -178,9 +175,6 @@
                 "type": "apidropdown",
                 "isMandatory": false,
                 "disable": false,
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
                 "populators": {
                   "name": "locality",
                   "type": "locality",
