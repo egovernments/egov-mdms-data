@@ -65,7 +65,7 @@
                   "name": "mobileNumber",
                   "error": "ERR_INVALID_MOBILE_NUMBER",
                   "validation": {
-                    "pattern": "^[0-9]{0,10}+$",
+                    "pattern": "^[0-9]{0,10}$",
                     "minlength": 3,
                     "maxlength": 10
                   }
