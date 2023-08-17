@@ -13844,6 +13844,43 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2459,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Trade ",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=Trade&masterName=Array",
+      "path": "9MDMS.TradeArray",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2460,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/Trade.Array",
+      "displayName": "Create Trade Array",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2461,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/Trade.Array",
+      "displayName": "Update Trade Array",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
