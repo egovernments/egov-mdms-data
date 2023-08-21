@@ -4,13 +4,18 @@
   "tenants": [
     {
       "code": "in",
-      "name": "State B",
-      "description": "State B"
+      "name": "India",
+      "description": "India"
     },
     {
-      "code": "in.statea",
-      "name": "State A",
-      "description": "State A"
+      "code": "in.state1",
+      "name": "State 1",
+      "description": "State 1"
+    },
+    {
+      "code": "in.state2",
+      "name": "State 2",
+      "description": "State 2"
     },
     {
       "code": "pg.citya",
