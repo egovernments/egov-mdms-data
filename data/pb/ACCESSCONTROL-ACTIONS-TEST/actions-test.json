@@ -13881,6 +13881,21 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2462,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/workbench-ui/employee/",
+      "leftIcon": "action:home",
+      "rightIcon": ""
     }
   ]
 }
