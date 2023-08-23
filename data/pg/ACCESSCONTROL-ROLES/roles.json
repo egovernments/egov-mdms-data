@@ -206,6 +206,11 @@
       "code": "INTERNAL_MICROSERVICE_ROLE",
       "name": "Internal Microservice Role",
       "description": "Internal role for plain access"
+    },
+    {
+      "code": "MDMS_ADMIN",
+      "name": "MDMS Admin",
+      "description": "Default role for workbench user"
     }
   ]
 }
