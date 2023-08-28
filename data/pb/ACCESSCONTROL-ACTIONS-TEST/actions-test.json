@@ -14213,6 +14213,43 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2489,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Workflow Business",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=Workflow&masterName=Business",
+      "path": "9MDMS.WorkflowBusiness",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2490,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/Workflow.Business",
+      "displayName": "Create Trade Workflow Business",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2491,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/Workflow.Business",
+      "displayName": "Update Workflow Business",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
