@@ -14398,6 +14398,42 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },{
+      "id": 2504,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "default roleaction 2",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=default&masterName=roleaction2",
+      "path": "9MDMS.defaultroleaction2",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2505,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/default.roleaction2",
+      "displayName": "Create default roleaction2",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2506,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/default.roleaction2",
+      "displayName": "Update default roleaction2",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
