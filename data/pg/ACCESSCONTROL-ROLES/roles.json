@@ -211,6 +211,11 @@
       "code": "MDMS_ADMIN",
       "name": "MDMS Admin",
       "description": "Default role for workbench user"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "Localisation admin",
+      "description": "LOC_ADMIN"
     }
   ]
 }
