@@ -161,7 +161,7 @@
                   "columns": [
                     {
                       "label": "WORKS_ORDER_ID",
-                      "jsonPath": "businessObject.contractNumber",
+                      "jsonPath": "ProcessInstance.businessId",
                       "additionalCustomization": true
                     },
                     {

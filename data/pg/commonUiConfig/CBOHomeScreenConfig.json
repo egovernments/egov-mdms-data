@@ -32,10 +32,10 @@
         },
         {
             "order": 5,
-            "key": "HOME_CLOSURE_REQUESTS",
-            "displayName": "Closure Requests",
-            "label": "WORKS_CLOSURE_REQUESTS",
-            "active": false
+            "key": "HOME_SERVICE_REQUESTS",
+            "displayName": "My Service Requests",
+            "label": "HOME_SERVICE_REQUESTS",
+            "active": true
         },
         {
             "order": 6,

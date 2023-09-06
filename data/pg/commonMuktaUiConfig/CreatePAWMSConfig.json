@@ -1,10 +1,11 @@
 {
   "tenantId": "pg",
   "moduleName": "commonMuktaUiConfig",
-  "SearchBillWMSConfig": [
+  "CreatePAWMSConfig": [
     {
-      "label": "EXP_SEARCH_BILL",
+      "label": "EXP_CREATE_PA",
       "type": "search",
+      "actionRole": "BILL_ACCOUNTANT",
       "apiDetails": {
         "serviceName": "/wms/expense/_search",
         "requestParam": {},
@@ -15,7 +16,7 @@
         },
         "minParametersForSearchForm": 1,
         "masterName": "commonUiConfig",
-        "moduleName": "SearchBillWMSConfig",
+        "moduleName": "CreatePAWMSConfig",
         "tableFormJsonPath": "requestBody.inbox",
         "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
         "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
@@ -162,7 +163,8 @@
                     "end": "createdTo"
                   }
                 }
-              }
+              },
+              {}
             ]
           },
           "label": "",
@@ -211,7 +213,10 @@
             ],
             "enableGlobalSearch": false,
             "enableColumnSort": true,
-            "resultsJsonPath": "items"
+            "resultsJsonPath": "items",
+            "showCheckBox": true,
+            "checkBoxActionLabel": "ES_COMMON_GENERATE_PAYMENT_ADVICE",
+            "showTableInstruction": "EXP_CREATE_PA_INSTRUCTION"
           },
           "children": {},
           "show": true

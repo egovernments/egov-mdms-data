@@ -151,7 +151,13 @@
         {
           "name": "workOrderNumber",
           "path": "Data.contractNumber.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisedWorkOrderNumber",
+          "path": "Data.supplementNumber.keyword",
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {

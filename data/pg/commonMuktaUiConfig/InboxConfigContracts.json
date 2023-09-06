@@ -11,7 +11,7 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["CONTRACT"],
+              "businessService": ["CONTRACT","CONTRACT-REVISION"],
               "moduleName": "contract-service"
             },
             "moduleSearchCriteria": {}
