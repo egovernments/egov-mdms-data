@@ -1,0 +1,97 @@
+{
+  "tenantId": "default",
+  "moduleName": "dss-dashboard",
+  "About": [
+    {
+      "DSS": {
+        "About": [
+          {
+            "titleHeader": "DSS_ABOUT_PURPOSE",
+            "define": ["DSS_ABOUT_PURPOSE_INFO","DSS_ABOUT_PURPOSE_DEFINE","DSS_ABOUT_DASHBOARD_USE"]
+          },
+          {
+            "titleHeader": "DSS_ABOUT_QUES_DASHBOARD_USE",
+            "define": ["DSS_ABOUT_ANS_DASHBOARD_USECASE_A","DSS_ABOUT_ANS_DASHBOARD_USECASE_B"]
+          },
+          {
+            "titleHeader": "DSS_ABOUT_KEY_TERMS",
+            "define": ["DSS_ABOUT_CLARITY_ON_DASHBOARD"],
+            "definePoints": [
+              {
+                "point": "DSS_ABOUT_USERS_DEFINE"
+              },
+              {
+                "point": "DSS_ABOUT_BOUNDARIES_DATA"
+              },
+              {
+                "point": "DSS_ABOUT_UNIQUE_CHAR"
+              }
+            ]
+          },
+          {
+            "titleHeader": "DSS_ABOUT_QUES_WHAT_IS_DATA",
+            "define": ["DSS_ABOUT_DASHBOARD_DESIGN","DSS_ABOUT_DASHBOARD_OBJECTIVE","DSS_ABOUT_DASHBOARD_USE_IDENTIFIERS"]
+          },
+          {
+            "titleHeader": "DSS_ABOUT_QUES_GET_DATA_FROM_DASHBOARD",
+            "define": ["DSS_ABOUT_ANS_GET_CAMPAIGN","DSS_ABOUT_ANS_GET_CAMPAIGN_FLW","DSS_ABOUT_ANS_GET_MANAGERS","DSS_ABOUT_ANS_GET_HCM","DSS_ABOUT_ANS_GET_ALTERNATIVE"]
+          },
+          {
+            "titleHeader": "DSS_ABOUT_QUES_WHAT_CAN_DASHBOARD_VIEWER_SEE_AND_DO",
+            "define": ["DSS_ABOUT_ANS_WHAT_CAN_DASHBOARD_VIEWER_SEE_AND_DO"],
+            "subdefine": ["DSS_ABOUT_FOLLOWING_VIEWER_DO_ON_DASHBOARD"],
+            "definePoints": [
+              {
+                "point": "DSS_ABOUT_PERFORMANCE_METRICS"
+              },
+              {
+                "point": "DSS_ABOUT_SERVICE_LEVEL_PERFORMANCE"
+              },
+              {
+                "point": "DSS_ABOUT_PERFORMANCES_IN_FORM_VISUALIZATIONS"
+              },
+              {
+                "point": "DSS_ABOUT_AREA_BOUNDARY"
+              }
+            ],
+            "subdefinePoints": [
+              {
+                "point": "DSS_ABOUT_ANALYZE_PERFORMANCE"
+              },
+              {
+                "point": "DSS_ABOUT_MONITOR_PERFORMANCE"
+              },
+              {
+                "point": "DSS_ABOUT_COMPARE_PERFORMANCE"
+              }
+            ]
+          },
+          {
+            "titleHeader": "DSS_ABOUT_QUES_HOW_DATA_SECURED",
+            "define": ["DSS_ABOUT_ANS_DATA_SECURITY"],
+            "definePoints": [
+              {
+                "point": "DSS_ABOUT_ACCESS_CONTROL"
+              },
+              {
+                "point": "DSS_ABOUT_ENCRYPTION"
+              },
+              {
+                "point": "DSS_ABOUT_DATA_MASKING"
+              },
+              {
+                "point": "DSS_ABOUT_REGULAR_BACKUPS"
+              },
+              {
+                "point": "DSS_ABOUT_SECURE_HOSTING"
+              },
+              {
+                "point": "DSS_ABOUT_REGULAR_SECURITY_AUDITS"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

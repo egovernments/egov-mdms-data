@@ -1,0 +1,282 @@
+{
+  "tenantId": "default",
+  "moduleName": "dss-dashboard",
+  "FAQs": [
+    {
+      "DSS": {
+        "FAQs": [
+          {
+            "question": "DSS_FAQ_QUES_ONE_VARIOUS_ACRYNOMS_DSS_STAND",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_ACRYNOMS_LISTED_BELOW"
+              }
+            ],
+            "acrynom": [
+              {
+                "acr": "DSS_FAQ_#",
+                "fullForm": "DSS_FAQ_NUMBER"
+              },
+              {
+                "acr": "DSS_FAQ_%",
+                "fullForm": "DSS_FAQ_PERCENTAGE"
+              },{
+                "acr": "DSS_FAQ_HH",
+                "fullForm": "DSS_FAQ_HOUSEHOLD"
+              },{
+                "acr": "DSS_FAQ_FLW",
+                "fullForm": "DSS_FAQ_FIELD_LEVEL_WORKERS"
+              },{
+                "acr": "DSS_FAQ_AP",
+                "fullForm": "DSS_FAQ_ADMINISTRATIVE_POST"
+              }
+              
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_TWO_CAMPAIGN_LEVEL_USER_VIEW",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_ANS_CAMPAIGN_LEVEL_USER_VIEW"
+              }
+            ],
+            "nestedAnswer": [
+              [
+                {
+                  "ans": "DSS_FAQ_NATIONAL_USER"
+                },
+                {
+                  "point": "DSS_FAQ_NATIONAL_ACCESS_TO_NATIONAL"
+                },
+                {
+                  "point": "DSS_FAQ_NATIONAL_ABILITY_TO_VIEW"
+                },
+                {
+                  "point": "DSS_FAQ_NATIONAL_VIEW_DISTRICT"
+                },
+                {
+                  "point": "DSS_FAQ_NATIONAL_CAN_DRILL_DOWN"
+                }
+              ],
+              [
+                {
+                  "ans": "DSS_FAQ_PROVINCIAL_USER"
+                },
+                {
+                  "point": "DSS_FAQ_PROVINCIAL_NO_ACCESS_TO_NATIONAL"
+                },
+                {
+                  "point": "DSS_FAQ_PROVINCIAL_LANDS_ON_PROVINCE"
+                },
+                {
+                  "point": "DSS_FAQ_PROVINCIAL_CAN_VIEW_DISTRICT"
+                }
+              ],
+              [
+                {
+                  "ans": "DSS_FAQ_DISTRICT_USER_ROLE"
+                },
+                {
+                  "point": "DSS_FAQ_DISTRICT_NO_ACCESS_TO_NATIONAL"
+                },
+                {
+                  "point": "DSS_FAQ_DISTRICT_CAN_ONLY_KPI"
+                },
+                {
+                  "point": "DSS_FAQ_DISTRICT_CAN_DRILL_DOWN"
+                }
+              ]
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_THREE_SEE_TOTAL_NUMBER_OF_TEAMS",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_ANS_SEE_TOTAL_NUMBER_OF_TEAMS"
+              },
+              {
+                "point": "DSS_FAQ_ACCESS_TO_OVERVIEW_SECTION"
+              },
+              {
+                "point": "DSS_FAQ_LOOK_FOR_DATA_SYNC"
+              },
+              {
+                "point": "DSS_FAQ_TOTAL_USER_CREATED_COUNT"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_FOUR_NATIONAL_USER_VIEW_TOTAL_HOUSEHOLD",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_ANS_NATIONAL_USER_VIEW_TOTAL_HOUSEHOLD"
+              },
+              {
+                "point": "DSS_FAQ_HOUSEHOLD_LOGIN_TO_DASHBOARD"
+              },
+              {
+                "point": "DSS_FAQ_HOUSEHOLD_NAVIGATE"
+              },
+              {
+                "point": "DSS_FAQ_TOTAL_HOUSEHOLD_VISITED_DATA"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_FIVE_NATIONAL_USER_VIEW_TOTAL_BEDNETS",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_ANS_NATIONAL_USER_VIEW_TOTAL_BEDNETS"
+              },
+              {
+                "point": "DSS_FAQ_LOGIN_TO_DASHBOARD"
+              },
+              {
+                "point": "DSS_FAQ_USER_WILL_BE_DIRECTED"
+              },
+              {
+                "point": "DSS_FAQ_TOP_BEDNETS_CARD"
+              },
+              {
+                "point": "DSS_FAQ_TOTAL_METRICS_DISTRIBUTED_METRIC"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_SIX_VIEW_DASHBOARD_DATA_SYNCED",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_ANS_VIEW_DASHBOARD_DATA_SYNCED"
+              },
+              {
+                "point": "DSS_FAQ_GO_TO_PROVINCE"
+              },
+              {
+                "point": "DSS_FAQ_SELECT_THE_OVERVIEW"
+              },
+              {
+                "point": "DSS_FAQ_LOOK_FOR_DATA_SYNC"
+              },
+              {
+                "point": "DSS_FAQ_SYNC_RATE_METRIC"
+              },
+              {
+                "point": "DSS_FAQ_SYNC_RATE_SHOWS_PROPORTION"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_SEVEN_QUES_SEE_POPULATION_COVERED",
+            "answer":[
+              {
+                "ans": "DSS_FAQ_ANS_SEE_POPULATION_COVERED"
+              }
+            ],
+            "nestedAnswer": [
+              [
+                {
+                  "ans": "DSS_FAQ_NATIONAL_OR_PROVINCIAL"
+                },
+                {
+                  "point": "DSS_FAQ_NAVIGATE_TO_PROVINCE"
+                },
+                {
+                  "point": "DSS_FAQ_CLICK_ON_REGISTRATION_DELIVERY"
+                },
+                {
+                  "point": "DSS_FAQ_VIEW_POPULATION_COVERAGE"
+                },
+                {
+                  "point": "DSS_FAQ_BAR_GRAPH_LISTS_ALL_DISTRICTS"
+                },
+                {
+                  "point": "DSS_FAQ_BAR_GRAPH_SHOWS_COUNT"
+                }
+              ],
+              [
+                {
+                  "ans" : "DSS_FAQ_DISTRICT_USER"
+                },
+                {
+                  "point": "DSS_FAQ_NAVIGATE_TO_DASHBOARD"
+                },
+                {
+                  "point": "DSS_FAQ_OVERVIEW_SECTION"
+                },
+                {
+                  "point": "DSS_FAQ_POPULATION_COVERED_METRIC"
+                }
+              ]
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_EIGHT_HOW_CAN_I_DRILL_DOWN",
+            "answer":[
+              {
+                "ans": "DSS_FAQ_TO_DRILL_DOWN_BOUNDARY"
+              },
+              {
+                "ans": "DSS_FAQ_TO_USER_CAN_NAVIGATE"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_NINE_VIEW_VALUES_ON_GRAPH",
+            "answer":[
+              {
+                "point": "DSS_FAQ_VIEW_VALUES_ON_LINE"
+              },
+              {
+                "point": "DSS_FAQ_VIEW_VALUES_ON_PIE"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_TEN_DOWNLOAD_DASHBOARD",
+            "answer": [
+              {
+                "ans": "DSS_FAQ_STEPS_TO_DOWNLOAD"
+              },
+              {
+                "point": "DSS_FAQ_TO_DOWNLOAD_ENTIRE_PAGE"
+              },
+              {
+                "point": "DSS_FAQ_TO_SHARE_ENTIRE_PAGE"
+              },
+              {
+                "point": "DSS_FAQ_TO_DOWNLOAD_INDIVIDUAL_CARD"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_ELEVEN_HH_VIEW_COVERAGE_RANKING",
+            "answer":[
+              {
+                "ans": "DSS_FAQ_VIEW_COMPARE_COVERAGE"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_TWELVE_VIEW_LIST_OF_PROVINCES",
+            "answer":[
+              {
+                "ans": "DSS_FAQ_ANS_LIST_OF_PROVINCES"
+              },
+              {
+                "ans": "DSS_FAQ_PROVINCIAL_DISTRICT_ACCESS_NATIONAL"
+              }
+            ]
+          },
+          {
+            "question": "DSS_FAQ_QUES_THIRTEEN_FIND_DEFINITION_OF_KPI",
+            "answer":[
+              {
+                "ans": "DSS_FAQ_ANS_DEFINITION_OF_KPI"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

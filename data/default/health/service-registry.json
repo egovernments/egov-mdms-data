@@ -1,0 +1,466 @@
+{
+  "tenantId": "default",
+  "moduleName": "HCM-SERVICE-REGISTRY",
+  "serviceRegistry": [
+    {
+      "service": "USER",
+      "actions": [
+        {
+          "action": "login",
+          "entityName": "User",
+          "path": "/user/oauth/token"
+        },
+        {
+          "action": "search",
+          "entityName": "User",
+          "path": "/user/v1/_search"
+        },
+        {
+          "action": "update",
+          "entityName": "User",
+          "path": "/user/profile/_update"
+        }
+      ]
+    },
+    {
+      "service": "SERVICE",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "service",
+          "path": "/service-request/service/v1/_create"
+        },
+          {
+          "action": "search",
+          "entityName": "ServiceDefinition",
+          "path": "/service-request/service/definition/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "MDMS",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "MDMS",
+          "path": "/egov-mdms-service/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "LOCALIZATION",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Localization",
+          "path": "/localization-service/messages/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "INDIVIDUAL",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "Individual",
+          "path": "/individual/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "Individual",
+          "path": "/individual/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "Individual",
+          "path": "/individual/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "Individual",
+          "path": "/individual/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "Individual",
+          "path": "/individual/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "Individual",
+          "path": "/individual/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "Individual",
+          "path": "/individual/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "HOUSEHOLD",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "Household",
+          "path": "/household/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "Household",
+          "path": "/household/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "Household",
+          "path": "/household/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "Household",
+          "path": "/household/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "Household",
+          "path": "/household/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "Household",
+          "path": "/household/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "Household",
+          "path": "/household/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "HOUSEHOLD-MEMBER",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "HouseholdMember",
+          "path": "/household/member/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "PROJECT-BENEFICIARY",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "ProjectBeneficiary",
+          "path": "/project/beneficiary/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "TASK",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "Task",
+          "path": "/project/task/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "Task",
+          "path": "/project/task/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "Task",
+          "path": "/project/task/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "Task",
+          "path": "/project/task/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "Task",
+          "path": "/project/task/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "Task",
+          "path": "/project/task/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "Task",
+          "path": "/project/task/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "STOCK",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "Stock",
+          "path": "/stock/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "Stock",
+          "path": "/stock/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "Stock",
+          "path": "/stock/v1/_search"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "Stock",
+          "path": "/stock/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "Stock",
+          "path": "/stock/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "Stock",
+          "path": "/stock/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "STOCK-RECONCILIATION",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "StockReconciliation",
+          "path": "/stock/reconciliation/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "StockReconciliation",
+          "path": "/stock/reconciliation/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "StockReconciliation",
+          "path": "/stock/reconciliation/v1/_search"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "StockReconciliation",
+          "path": "/stock/reconciliation/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "StockReconciliation",
+          "path": "/stock/reconciliation/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "StockReconciliation",
+          "path": "/stock/reconciliation/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "PROJECT-STAFF",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "ProjectStaff",
+          "path": "/project/staff/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "PROJECT",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Project",
+          "path": "/project/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "PROJECT-RESOURCE",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "ProjectResource",
+          "path": "/project/resource/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "PRODUCT",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Product",
+          "path": "/product/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "PRODUCT-VARIANT",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "ProductVariant",
+          "path": "/product/variant/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "PROJECT-FACILITY",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "ProjectFacility",
+          "path": "/project/facility/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "FACILITY",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Facility",
+          "path": "/facility/v1/_search"
+        }
+      ]
+    },
+    {
+      "service": "PGR",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Complaints",
+          "path": "/pgr-services/v2/request/_search"
+        },
+        {
+          "action": "create",
+          "entityName": "Complaints",
+          "path": "/pgr-services/v2/request/_create"
+        }
+      ]
+    },
+    {
+      "service": "BANDWIDTH-CHECK",
+      "actions": [
+        {
+          "action": "bandwidth",
+          "entityName": "InternetSpeed",
+          "path": "/project/check/bandwidth"
+        }
+      ]
+    },
+    {
+      "service": "ADVERSE-EVENT",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "AdverseEvent",
+          "path": "/project/task/adverse_event/v1/bulk/_delete"
+        }
+      ]
+    }
+  ]
+}

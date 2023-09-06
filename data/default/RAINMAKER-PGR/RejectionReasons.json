@@ -1,0 +1,10 @@
+{
+  "tenantId": "default",
+  "moduleName": "RAINMAKER-PGR",
+  "RejectionReasons": [
+    {
+      "code": "REASON1",
+      "name": "Invalid Complaint"
+    }
+  ]
+}

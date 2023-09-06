@@ -1,0 +1,172 @@
+{
+  "tenantId": "default",
+  "moduleName": "Workflow",
+  "BusinessService": [
+    {
+      "tenantId": "default",
+      "uuid": "d6536787-f590-4e00-85b2-434198902252",
+      "businessService": "PGR",
+      "business": "pgr-services",
+      "businessServiceSla": 432000000,
+      "states": [
+        {
+          "auditDetails": {
+            "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "createdTime": 1680526024538,
+            "lastModifiedTime": 1680526024538
+          },
+          "uuid": "11beb7b7-9a13-47ec-afd2-bea9bd380b16",
+          "tenantId": "default",
+          "businessServiceId": "PGR",
+          "sla": null,
+          "state": null,
+          "applicationStatus": null,
+          "docUploadRequired": false,
+          "isStartState": true,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "auditDetails": {
+                "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "createdTime": 1680526024538,
+                "lastModifiedTime": 1680526024538
+              },
+              "uuid": "b2e3e65c-d191-44d1-bfd4-73e9c7bfbe51",
+              "tenantId": "default",
+              "currentState": "11beb7b7-9a13-47ec-afd2-bea9bd380b16",
+              "action": "CREATE",
+              "nextState": "8db017dd-0acd-4544-a48d-d8bf33a2ebb9",
+              "roles": [
+                "REGISTRAR",
+                "DISTRIBUTOR",
+                "WAREHOUSE_MANAGER",
+                "HELPDESK_USER",
+                "SYSTEM_ADMINISTRATOR"
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "auditDetails": {
+            "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "createdTime": 1680526024538,
+            "lastModifiedTime": 1680526024538
+          },
+          "uuid": "8db017dd-0acd-4544-a48d-d8bf33a2ebb9",
+          "tenantId": "default",
+          "businessServiceId": "PGR",
+          "sla": null,
+          "state": "PENDING_ASSIGNMENT",
+          "applicationStatus": "PENDING_ASSIGNMENT",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": false,
+          "actions": [
+            {
+              "auditDetails": {
+                "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "createdTime": 1680526024538,
+                "lastModifiedTime": 1680526024538
+              },
+              "uuid": "ae1ab712-a663-485e-963b-e70b1576594a",
+              "tenantId": "default",
+              "currentState": "8db017dd-0acd-4544-a48d-d8bf33a2ebb9",
+              "action": "RESOLVE",
+              "nextState": "6f58ceed-a0de-46ec-af25-3616cbdb994f",
+              "roles": [
+                "HELPDESK_USER",
+                "L2_SUPPORT",
+                "PROGRAMMATIC_SUPPORT",
+                "SYSTEM_ADMINISTRATOR"
+              ],
+              "active": true
+            },
+            {
+              "auditDetails": {
+                "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "createdTime": 1680526024538,
+                "lastModifiedTime": 1680526024538
+              },
+              "uuid": "f3fabaed-f89f-4cd1-a949-a3a2dacff415",
+              "tenantId": "default",
+              "currentState": "8db017dd-0acd-4544-a48d-d8bf33a2ebb9",
+              "action": "PENDING_ASSIGNMENT",
+              "nextState": "8db017dd-0acd-4544-a48d-d8bf33a2ebb9",
+              "roles": [
+                "HELPDESK_USER",
+                "L2_SUPPORT",
+                "PROGRAMMATIC_SUPPORT",
+                "SYSTEM_ADMINISTRATOR"
+              ],
+              "active": true
+            },
+            {
+              "auditDetails": {
+                "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+                "createdTime": 1680526024538,
+                "lastModifiedTime": 1680526024538
+              },
+              "uuid": "a5ef9717-e3b0-4143-b6b9-aafbc904d610",
+              "tenantId": "default",
+              "currentState": "8db017dd-0acd-4544-a48d-d8bf33a2ebb9",
+              "action": "REJECT",
+              "nextState": "38e9938f-5990-4189-8c4a-acf9fa3f061b",
+              "roles": [
+                "HELPDESK_USER",
+                "SYSTEM_ADMINISTRATOR"
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "auditDetails": {
+            "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "createdTime": 1680526024538,
+            "lastModifiedTime": 1680526024538
+          },
+          "uuid": "6f58ceed-a0de-46ec-af25-3616cbdb994f",
+          "tenantId": "default",
+          "businessServiceId": "PGR",
+          "sla": null,
+          "state": "RESOLVED",
+          "applicationStatus": "RESOLVED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true,
+          "isStateUpdatable": false,
+          "actions": null
+        },
+        {
+          "auditDetails": {
+            "createdBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "lastModifiedBy": "adf829ff-7a65-4e8b-b1a7-191ec298e79e",
+            "createdTime": 1680526024538,
+            "lastModifiedTime": 1680526024538
+          },
+          "uuid": "38e9938f-5990-4189-8c4a-acf9fa3f061b",
+          "tenantId": "default",
+          "businessServiceId": "PGR",
+          "sla": null,
+          "state": "REJECTED",
+          "applicationStatus": "REJECTED",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true,
+          "isStateUpdatable": false,
+          "actions": null
+        }
+      ]
+    }
+  ]
+}

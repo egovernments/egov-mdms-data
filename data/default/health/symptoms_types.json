@@ -1,0 +1,21 @@
+{
+    "tenantId": "default",
+    "moduleName": "HCM-SYMPTOMS-TYPES",
+    "symptomsTypes": [
+        {
+            "code": "VOMITTING",
+            "name": "Vomitting",
+            "active": true
+        },
+        {
+            "code": "FEVER",
+            "name": "Fever",
+            "active": true
+        },
+        {
+            "code": "DIARRHOEA",
+            "name": "Diarrhoea",
+            "active": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "tenantId": "default",
+  "moduleName": "Workflow",
+  "BusinessServiceMasterConfig": [
+    {
+      "businessService": "NewTL",
+      "active": "true",
+      "isStatelevel": "true"
+    },
+    {
+      "businessService": "PGR",
+      "active": "true",
+      "isStatelevel": "true"
+    },
+    {
+      "businessService": "DisconnectSWConnection1",
+      "active": "true",
+      "isStatelevel": "false"
+    }
+  ]
+}

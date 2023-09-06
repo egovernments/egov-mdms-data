@@ -1,0 +1,1415 @@
+{
+  "tenantId": "default",
+  "moduleName": "dss-dashboard",
+  "Calculations": [
+    {
+      "DSS": {
+        "Calculations": [
+          {
+            "tabName": "DSS_HEALTH_NATIONAL",
+            "cards": [
+              {
+                "cardName": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS_VISITED_TODAY",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS_VISITED_TODAY_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS_VISITED_TODAY_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS_VISITED_TODAY_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS_VISITED_TODAY_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLDS_VISITED_TODAY_FIVE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED_THREE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_NATIONAL_POPULATION_COVERED",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_POPULATION_COVERED_TODAY",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERED_TODAY_ONE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_TOTAL_POPULATION_COVERED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_POPULATION_COVERED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_POPULATION_COVERED_TWO"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_NATIONAL_BEDNETS_DISTRIBUTED",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_BEDNETS_DISTRIBUTED_TODAY",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_BEDNETS_DISTRIBUTED_TODAY_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_BEDNETS_DISTRIBUTED_TODAY_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_TOTAL_BEDNETS_DISTRIBUTED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_BEDNETS_DISTRIBUTED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_BEDNETS_DISTRIBUTED_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_BEDNETS_DISTRIBUTED_THREE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_FOUR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_FIVE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_NATIONAL_COVERAGE_BY_PROVINCE",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_TOTAL_HOUSEHOLDS_VISITED_THREE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_HOUSEHOLD_COVERAGE_FOUR"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_NATIONAL_POPULATION_COVERAGE_FIVE"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tabName": "DSS_HEALTH_OVERVIEW",
+            "cards": [
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_DATA_SYNC",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_TOTAL_USERS_CREATED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_USERS_CREATED_ONE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_TOTAL_USERS_SYNCED_ATLEAST_ONCE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_USERS_SYNCED_ATLEAST_ONCE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_USERS_SYNCED_ATLEAST_ONCE_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_SYNC_RATE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_SYNC_RATE_ONE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_VISITED",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_VISITED_DATE_RANGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_VISITED_DATE_RANGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_VISITED_DATE_RANGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_VISITED_DATE_RANGE_THREE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_TOTAL_HOUSEHOLDS_VISITED_CUMULATIVE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_HOUSEHOLDS_VISITED_CUMULATIVE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_HOUSEHOLDS_VISITED_CUMULATIVE_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_TARGETED_DATE_RANGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_TARGETED_DATE_RANGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_TARGETED_DATE_RANGE_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_COVERAGE_CUMULATIVE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_COVERAGE_CUMULATIVE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_COVERAGE_CUMULATIVE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_COVERAGE_CUMULATIVE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLDS_COVERAGE_CUMULATIVE_FOUR"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERED",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERED_DATE_RANGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERED_DATE_RANGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERED_DATE_RANGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERED_DATE_RANGE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERED_DATE_RANGE_FOUR"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_TOTAL_POPULATION_COVERED_CUMULATIVE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_POPULATION_COVERED_CUMULATIVE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_POPULATION_COVERED_CUMULATIVE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_POPULATION_COVERED_CUMULATIVE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_POPULATION_COVERED_CUMULATIVE_FOUR"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_POPULATION_TARGETED_DATE_RANGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_TARGETED_DATE_RANGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_TARGETED_DATE_RANGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_TARGETED_DATE_RANGE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_TARGETED_DATE_RANGE_FOUR"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERAGE_CUMULATIVE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERAGE_CUMULATIVE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERAGE_CUMULATIVE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_POPULATION_COVERAGE_CUMULATIVE_THREE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_BEDNETS_DISTRIBUTED",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_BEDNETS_DISTRIBUTED_DATE_RANGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_DISTRIBUTED_DATE_RANGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_DISTRIBUTED_DATE_RANGE_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_TOTAL_BEDNETS_DISTRIBUTED_CUMULATIVE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_BEDNETS_DISTRIBUTED_CUMULATIVE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_BEDNETS_DISTRIBUTED_CUMULATIVE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_BEDNETS_DISTRIBUTED_CUMULATIVE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_BEDNETS_DISTRIBUTED_CUMULATIVE_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_TOTAL_BEDNETS_DISTRIBUTED_CUMULATIVE_FIVE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_BEDNETS_TARGETED_DATE_RANGE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_TARGETED_DATE_RANGE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_TARGETED_DATE_RANGE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_TARGETED_DATE_RANGE_THREE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_OVERVIEW_BEDNETS_COVERAGE_CUMULATIVE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_COVERAGE_CUMULATIVE_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_COVERAGE_CUMULATIVE_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_COVERAGE_CUMULATIVE_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_COVERAGE_CUMULATIVE_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_COVERAGE_CUMULATIVE_FIVE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_BEDNETS_NOT_DELIVERED",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_NOT_DELIVERED_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_NOT_DELIVERED_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_NOT_DELIVERED_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_NOT_DELIVERED_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_BEDNETS_NOT_DELIVERED_FIVE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_COMPLAINTS",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_COMPLAINTS_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_COMPLAINTS_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_COMPLAINTS_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_COMPLAINTS_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_COMPLAINTS_FIVE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_HOUSEHOLD_COVERAGE_RANKING",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLD_COVERAGE_RANKING_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLD_COVERAGE_RANKING_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLD_COVERAGE_RANKING_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLD_COVERAGE_RANKING_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_HOUSEHOLD_COVERAGE_RANKING_FIVE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY_FIVE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_NO_OF_DAYS_TO_LAST_INVENTORY_SIX"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE_FIVE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_OVERVIEW_OVERALL_CHECKLISTS_COMPLETION_RATE_SIX"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tabName": "DSS_HEALTH_REGISTRATION_DELIVERY",
+            "tabOverview": [
+              {
+                "para": "DSS_CALCULATION_REEGISTRATION_AND_DELIVERY_TAB_OVERVIEW_ONE"
+              },
+              {
+                "para": "DSS_CALCULATION_REEGISTRATION_AND_DELIVERY_TAB_OVERVIEW_TWO"
+              },
+              {
+                "point": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TAB_OVERVIEW_THREE"
+              },
+              {
+                "point": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TAB_OVERVIEW_FOUR"
+              },
+              {
+                "point": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TAB_OVERVIEW_FIVE"
+              }
+            ],
+            "cards": [
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_FIVE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_POPULATION_COVERED",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_POPULATION_COVERED_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_POPULATION_COVERED_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_POPULATION_COVERED_THREE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_DISTRIBUTED",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_DISTRIBUTED_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_DISTRIBUTED_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_DISTRIBUTED_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_DISTRIBUTED_FOUR"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_NOT_DELIVERED",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_NOT_DELIVERED_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_NOT_DELIVERED_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_BEDNETS_NOT_DELIVERED_THREE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_MAP",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_MAP_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_MAP_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_HOUSEHOLDS_VISITED_MAP_THREE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_HOUSEHOLD",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_HOUSEHOLD_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_HOUSEHOLD_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_HOUSEHOLD_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_HOUSEHOLD_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_HOUSEHOLD_FIVE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION_FIVE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_POPULATION_SIX"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_BEDNETS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_BEDNETS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_BEDNETS_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_BEDNETS_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_BEDNETS_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_TARGET_ACHIEVEMENT_BEDNETS_FIVE"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_HOUSEHOLD",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_HOUSEHOLD_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_HOUSEHOLD_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_HOUSEHOLD_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_HOUSEHOLD_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_HOUSEHOLD_FIVE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_POPULATION",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_POPULATION_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_POPULATION_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_POPULATION_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_POPULATION_FOUR"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_POPULATION_FIVE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_BEDNETS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_BEDNETS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_PLANNED_VS_ACTUAL_PROGRESS_BEDNETS_TWO"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_BOUNDARY",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_BOUNDARY_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_BOUNDARY_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_BOUNDARY_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_BOUNDARY_FOUR"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_DAY",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_DAY_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_REGISTRATION_AND_DELIVERY_SUMMARY_REPORT_DAY_TWO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tabName": "DSS_HEALTH_COMPLAINTS",
+            "tabOverview": [
+              {
+                "para": "DSS_CALCULATION_COMPLAINTS_TAB_OVERVIEW_ONE"
+              }
+            ],
+            "cards": [
+              {
+                "cardName": "DSS_CALCULATION_COMPLAINTS_BY_BOUNDARY",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_BOUNDARY_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_BOUNDARY_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_BOUNDARY_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_BOUNDARY_FOUR"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_COMPLAINTS_BY_TYPE",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_FOUR"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_COMPLAINTS_BY_STATUS",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_STATUS_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_STATUS_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_STATUS_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_STATUS_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_STATUS_FIVE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR_FIVE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_COMPLAINTS_BY_TYPE_STACKED_BAR_SIX"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_BOUNDARY_WISE_SHARE_OF_COMPLAINTS",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_BOUNDARY_WISE_SHARE_OF_COMPLAINTS_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_BOUNDARY_WISE_SHARE_OF_COMPLAINTS_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_BOUNDARY_WISE_SHARE_OF_COMPLAINTS_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_BOUNDARY_WISE_SHARE_OF_COMPLAINTS_FOUR"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR_FIVE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_AVERAGE_COMPLAINTS_RESOLUTION_TIME_HOURS_BAR_SIX"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS",
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_ONE"
+                      }
+                    ],
+                    "nestedCalculation": [
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_BOUNDARY",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_BOUNDARY_ONE"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REGISTERED",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REGISTERED_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REGISTERED_TWO"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_RESOLVED",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_RESOLVED_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_RESOLVED_TWO"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REJECTED",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REJECTED_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REJECTED_TWO"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_REJECTED_THREE"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_OPEN",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_OPEN_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_OPEN_TWO"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_BOUNDARY_TOGGLE_OPEN_THREE"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_ONE"
+                      }
+                    ],
+                    "nestedCalculation": [
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_DATE",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_DATE_ONE"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_REGISTERED",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_REGISTERED_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_REGISTERED_TWO"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_RESOLVED",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_RESOLVED_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_RESOLVED_TWO"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_REJECTED",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_REJECTED_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_REJECTED_TWO"
+                          }
+                        ]
+                      },
+                      {
+                        "heading": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_OPEN",
+                        "cals": [
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_OPEN_ONE"
+                          },
+                          {
+                            "para": "DSS_CALCULATION_SUMMARY_REPORT_TOTAL_COMPLAINTS_DAY_TOGGLE_OPEN_TWO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_TWO"
+                  }
+                ],
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_BOUNDARY",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_BOUNDARY_ONE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_SIX_HOURS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_SIX_HOURS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_SIX_HOURS_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_SIX_TO_TWELVE_HOURS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_SIX_TO_TWELVE_HOURS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_SIX_TO_TWELVE_HOURS_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_TWELVE_TO_TWENTY_FOUR_HOURS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_TWELVE_TO_TWENTY_FOUR_HOURS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_TWELVE_TO_TWENTY_FOUR_HOURS_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_TWENTY_FOUR_FOURTY_EIGHT_HOURS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_TWENTY_FOUR_FOURTY_EIGHT_HOURS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_TWENTY_FOUR_FOURTY_EIGHT_HOURS_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_FOURTY_EIGHT_HOURS",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_FOURTY_EIGHT_HOURS_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_SUMMARY_REPORT_OPEN_COMPLAINTS_OPEN_SINCE_FOURTY_EIGHT_HOURS_TWO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tabName": "DSS_HEALTH_INVENTORY",
+            "tabOverview": [
+              {
+                "para": "DSS_CALCULATION_INVENTORY_TAB_OVERVIEW_ONE"
+              },
+              {
+                "para": "DSS_CALCULATION_INVENTORY_TAB_OVERVIEW_TWO"
+              }
+            ],
+            "cards": [
+              {
+                "cardName": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_POINTS_HEADING"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_POINT_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_POINT_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_POINT_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_POINT_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_NO_OF_DAYS_TO_LAST_INTVENTORY_THREE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_INVENTORY_STOCK_IN_HAND",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_STOCK_IN_HAND_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_STOCK_IN_HAND_POINT_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_STOCK_IN_HAND_POINT_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_STOCK_IN_HAND_TWO"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_INVENTORY_WAREHOUSE_DISTRIBUTION",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_WAREHOUSE_DISTRIBUTION_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_WAREHOUSE_DISTRIBUTION_TWO"
+                  },
+                  {
+                    "point": "DSS_CALCULATION_INVENTORY_WAREHOUSE_DISTRIBUTION_THREE"
+                  },
+                  {
+                    "point": "DSS_CALCULATION_INVENTORY_WAREHOUSE_DISTRIBUTION_FOUR"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_TWO"
+                  }
+                ],
+                "subCalculation": [
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_BOUNDARY_NAME",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_BOUNDARY_NAME_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_BOUNDARY_NAME_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_TO_RECEIVE_AS_PER_MICROPLAN",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_TO_RECEIVE_AS_PER_MICROPLAN_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_TO_RECEIVE_AS_PER_MICROPLAN_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_TO_RECEIVE_AS_PER_MICROPLAN_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_TO_RECEIVE_AS_PER_MICROPLAN_FOUR"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RECEIVED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RECEIVED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RECEIVED_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_DISTRIBUTED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_DISTRIBUTED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_DISTRIBUTED_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RETURNED",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RETURNED_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RETURNED_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_RETURNED_THREE"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_IN_STOCK",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_IN_STOCK_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_NETS_IN_STOCK_TWO"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_DAYS_TO_LAST",
+                    "cals": [
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_DAYS_TO_LAST_ONE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_DAYS_TO_LAST_TWO"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_DAYS_TO_LAST_THREE"
+                      },
+                      {
+                        "para": "DSS_CALCULATION_INVENTORY_SUMMARY_REPORT_DAYS_TO_LAST_FOUR"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tabName": "DSS_HEALTH_SUPERVISION",
+            "tabOverview": [
+              {
+                "para": "DSS_CALCULATION_SUPERVISION_TAB_OVERVIEW_ONE"
+              },
+              {
+                "para": "DSS_CALCULATION_SUPERVISION_TAB_OVERVIEW_TWO"
+              },
+              {
+                "para": "DSS_CALCULATION_SUPERVISION_TAB_OVERVIEW_THREE"
+              }
+            ],
+            "cards": [
+              {
+                "cardName": "DSS_CALCULATION_SUPERVISION_NATIONAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_NATIONAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_NATIONAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_NATIONAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_NATIONAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_FOUR"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_SUPERVISION_PROVINCIAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_PROVINCIAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_PROVINCIAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_PROVINCIAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_THREE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_PROVINCIAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_FOUR"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_PROVINCIAL_SUPERVISORS_CHECKLIST_COMPLETION_RATE_FIVE"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_SUPERVISION_DISTRICT_SUPERVISORS_CHECKLIST_COMPLETION_RATE",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_DISTRICT_SUPERVISORS_CHECKLIST_COMPLETION_RATE_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_DISTRICT_SUPERVISORS_CHECKLIST_COMPLETION_RATE_TWO"
+                  },
+                  {
+                    "point": "DSS_CALCULATION_SUPERVISION_DISTRICT_SUPERVISORS_CHECKLIST_COMPLETION_RATE_POINT_ONE"
+                  },
+                  {
+                    "point": "DSS_CALCULATION_SUPERVISION_DISTRICT_SUPERVISORS_CHECKLIST_COMPLETION_RATE_POINT_TWO"
+                  }
+                ]
+              },
+              {
+                "cardName": "DSS_CALCULATION_SUPERVISION_DATA_SYNC",
+                "calculation": [
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_DATA_SYNC_ONE"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_DATA_SYNC_TWO"
+                  },
+                  {
+                    "para": "DSS_CALCULATION_SUPERVISION_DATA_SYNC_THREE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

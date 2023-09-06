@@ -1,0 +1,18 @@
+{
+  "tenantId": "default",
+  "moduleName": "egov-hrms",
+  "EmploymentTest": [
+    {
+      "code": "PRELIMS",
+      "active": true
+    },
+    {
+      "code": "APTITUDETEST",
+      "active": true
+    },
+    {
+      "code": "MAINS",
+      "active": true
+    }
+  ]
+} 
