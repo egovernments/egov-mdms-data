@@ -158,6 +158,25 @@
       ]
     }
   },
+  "DIGIT-UI": {
+		"ApiCachingSettings": {
+			"masterName": "ApiCachingSettings",
+			"isStateLevel": true,
+			"uniqueKeys": []
+		},
+		"RoleActionMetadata": {
+			"masterName": "RoleActionMetadata",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": []
+		},
+		"RoleStatusMapping": {
+			"masterName": "RoleStatusMapping",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": []
+		}
+	},
   "egf-master": {
     "Fund": {
       "masterName": "Fund",
@@ -408,7 +427,15 @@
       "uniqueKeys": [
         "$.code"
       ]
-    }
+    },
+    "footer": {
+			"masterName": "footer",
+			"isStateLevel": true,
+			"moduleDefinition": null,
+			"uniqueKeys": [
+				"$.code"
+			]
+		}
   },
   "works": {
     "ScheduleCategory": {
@@ -793,7 +820,14 @@
       "uniqueKeys": [
         "$.code"
       ]
-    }
+    },
+    "GLCode": {
+			"masterName": "GLCode",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		}
   },
   "FinanceModule": {
     "BusinessServiceMapping": {
@@ -1250,6 +1284,22 @@
     "PaymentPreference": {
       "masterName": "PaymentPreference",
       "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
+  },
+  "EDCR": {
+    "DimensionConfig": {
+      "masterName": "DimensionConfig",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "DxfToPdfConfig": {
+      "masterName": "DxfToPdfConfig",
+      "isStateLevel": true,
       "uniqueKeys": [
         "$.code"
       ]

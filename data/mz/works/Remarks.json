@@ -1,0 +1,21 @@
+{
+  "tenantId": "mz",
+  "moduleName": "works",
+  "Remarks": [
+    {
+      "id": 1,
+      "tenantId": "mz",
+      "typeOfDocument": "Work Order / Notice",
+      "remarksType": "Approval / Show Cause / Rejection",
+      "remarksDetails": [
+        {
+          "id": 1,
+          "tenantId": "mz",
+          "remarks": null,
+          "remarksDescription": "Reviewed and approved",
+          "editable": true
+        }
+      ]
+    }
+  ]
+}

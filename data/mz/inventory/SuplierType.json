@@ -1,0 +1,31 @@
+{
+  "tenantId": "mz",
+  "moduleName": "inventory",
+  "SuplierType": [
+    {
+      "tenantId": "mz",
+      "code": "INDIVIDUAL",
+      "name": "individual"
+    },
+    {
+      "tenantId": "mz",
+      "code": "FIRM",
+      "name": "firm"
+    },
+    {
+      "tenantId": "mz",
+      "code": "COMPANY",
+      "name": "company"
+    },
+    {
+      "tenantId": "mz",
+      "code": "REGISTERED",
+      "name": "registered"
+    },
+    {
+      "tenantId": "mz",
+      "code": "SOCIETY",
+      "name": "society"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM-PROJECT",
+  "projectConfiguration": [{
+      "beneficiaryTypes": [
+        "INDIVIDUAL",
+        "HOUSEHOLD",
+        "STRUCTURE"
+      ],
+      "taskStrategies": [
+        "FIXED",
+        "MOBILE",
+        "DOORTODOOR"
+      ],
+      "projectStatuses": [
+        "CREATED",
+        "INPROGRESS",
+        "COMPLETE",
+        "ABANDONED"
+      ],
+      "taskStatuses": [
+        "SCHEDULED",
+        "IN_PROGRESS",
+        "COMPLETED"
+      ],
+      "identifierTypes": [
+        "NATIONAL_ID",
+        "TAX_ID",
+        "SYSTEM_GENERATED_ID"
+      ],
+      "projectGroups": [
+        "MALARIA",
+        "POLIO"
+      ]
+    }]
+}

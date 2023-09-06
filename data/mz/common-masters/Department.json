@@ -1,0 +1,34 @@
+{
+  "tenantId": "mz",
+  "moduleName": "common-masters",
+  "Department": [
+    {
+      "id": "1",
+      "name": "NMCP",
+      "code": "NMCP",
+      "active": true,
+      "tenantId": "mz"
+    },
+    {
+      "id": "2",
+      "name": "TECH",
+      "code": "TECH",
+      "active": true,
+      "tenantId": "mz"
+    },
+    {
+      "id": "3",
+      "name": "WAREHOUSE",
+      "code": "WAREHOUSE",
+      "active": true,
+      "tenantId": "mz"
+    },
+    {
+      "id": "4",
+      "name": "ADMINISTRATION",
+      "code": "ADM",
+      "active": true,
+      "tenantId": "mz"
+    }
+  ]
+}

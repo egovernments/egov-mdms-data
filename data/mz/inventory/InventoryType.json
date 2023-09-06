@@ -1,0 +1,16 @@
+{
+  "tenantId": "mz",
+  "moduleName": "inventory",
+  "InventoryType": [
+    {
+      "tenantId": "mz",
+      "code": "ASSET",
+      "name": "Asset"
+    },
+    {
+      "tenantId": "mz",
+      "code": "CONSUMABLE",
+      "name": "consumable"
+    }
+  ]
+}

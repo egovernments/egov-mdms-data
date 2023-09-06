@@ -1,0 +1,24 @@
+{
+  "tenantId": "mz",
+  "moduleName": "works",
+  "ModeOfAllotment": [
+    {
+      "id": 3,
+      "name": "Nomination",
+      "tenantId": "mz",
+      "code": "Nomination"
+    },
+    {
+      "id": 1,
+      "name": "E-Procurement",
+      "tenantId": "mz",
+      "code": "EProcurement"
+    },
+    {
+      "id": 2,
+      "name": "Tendering",
+      "tenantId": "mz",
+      "code": "Tendering"
+    }
+  ]
+}

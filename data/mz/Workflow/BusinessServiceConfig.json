@@ -1,0 +1,10 @@
+{
+  "tenantId": "mz",
+  "moduleName": "Workflow",
+  "BusinessServiceConfig": [
+    {
+      "code": "PGR",
+      "isStateLevel": true
+    }
+  ]
+}

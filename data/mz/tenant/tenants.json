@@ -1,0 +1,36 @@
+{
+  "tenantId": "mz",
+  "moduleName": "tenant",
+  "tenants": [
+    {
+      "code": "mz",
+      "name": "mz Corportation",
+      "description": "mz Corportation",
+      "logoId": "https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/kar/state-images/250px-Seal_of_Karnataka.svg.png",
+      "imageId": "",
+      "domainUrl": null,
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": null,
+      "integrateProjectService": true,
+      "city": {
+        "name": "mz Corporation",
+        "localName": null,
+        "districtCode": "KC",
+        "districtName": "KC1",
+        "regionName": "KC-Region",
+        "ulbGrade": "KC1",
+        "longitude": 78.02439864,
+        "latitude": 15.82223689,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "defa",
+        "ddrName": "mz-DDR"
+      },
+      "address": null,
+      "contactNumber": "9980770587",
+      "helpLineNumber": "9980770587"
+    }
+  ]
+}

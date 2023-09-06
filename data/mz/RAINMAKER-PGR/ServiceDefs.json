@@ -1,0 +1,36 @@
+{
+  "tenantId": "mz",
+  "moduleName": "RAINMAKER-PGR",
+  "ServiceDefs": [
+    {
+      "serviceCode": "SyncNotWorking",
+      "name": "Sync Not Working",
+      "keywords": "sync, not, working",
+      "department": "TECH",
+      "slaHours": 336,
+      "menuPath": "Sync",
+      "active": true,
+      "order": 1
+    },
+    {
+      "serviceCode": "NotEnoughStock",
+      "name": "Not Enough Stock",
+      "keywords": "not, enough, stock",
+      "department": "WAREHOUSE",
+      "slaHours": 336,
+      "menuPath": "Sync",
+      "active": true,
+      "order": 1
+    },
+    {
+      "serviceCode": "Other",
+      "name": "Other",
+      "keywords": "other",
+      "department": "ADM",
+      "slaHours": 336,
+      "menuPath": "Sync",
+      "active": true,
+      "order": 1
+    }
+  ]
+}

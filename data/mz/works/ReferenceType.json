@@ -1,0 +1,30 @@
+{
+  "tenantId": "mz",
+  "moduleName": "works",
+  "ReferenceType": [
+    {
+      "id": 1,
+      "code": "DemandfromMember",
+      "tenantId": "mz",
+      "name": "Demand from Member"
+    },
+    {
+      "id": 2,
+      "code": "Demandfrompublic",
+      "tenantId": "mz",
+      "name": "Demand from public"
+    },
+    {
+      "id": 3,
+      "code": "DepartmentalInitiative",
+      "tenantId": "mz",
+      "name": "Departmental Initiative"
+    },
+    {
+      "id": 4,
+      "code": "Other",
+      "tenantId": "mz",
+      "name": "Other"
+    }
+  ]
+}

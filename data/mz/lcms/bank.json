@@ -1,0 +1,31 @@
+{
+  "tenantId": "mz",
+  "moduleName": "lcms",
+  "bank": [
+    {
+      "name": "AXIS BANK",
+      "code": "AXIS",
+      "tenantId": "mz"
+    },
+    {
+      "name": "ICICI BANK LTD",
+      "code": "ICICI",
+      "tenantId": "mz"
+    },
+    {
+      "name": "HDFC BANK",
+      "code": "HDFC",
+      "tenantId": "mz"
+    },
+    {
+      "name": "STATE BANK OF INDIA",
+      "code": "SBI",
+      "tenantId": "mz"
+    },
+    {
+      "name": "BANK OF MAHARASHTRA",
+      "code": "BOM",
+      "tenantId": "mz"
+    }
+  ]
+}

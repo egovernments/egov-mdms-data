@@ -1,0 +1,26 @@
+{
+  "tenantId": "mz",
+  "moduleName": "swm",
+  "FuelType": [
+    {
+      "tenantId": "mz",
+      "name": "Diesel",
+      "code": "Fuel Type Code 1"
+    },
+    {
+      "tenantId": "mz",
+      "name": "Petrol",
+      "code": "Fuel Type Code 2"
+    },
+    {
+      "tenantId": "mz",
+      "name": "CNG",
+      "code": "Fuel Type Code 3"
+    },
+    {
+      "tenantId": "mz",
+      "name": "Electricity",
+      "code": "Fuel Type Code 4"
+    }
+  ]
+}

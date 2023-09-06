@@ -1,0 +1,36 @@
+{
+  "tenantId": "mz",
+  "moduleName": "egf-master",
+  "Function": [
+    {
+      "id": "1",
+      "name": "GENERAL ADMINISTRATION",
+      "code": "00",
+      "level": 0,
+      "active": false,
+      "parentid": null,
+      "version": 0,
+      "tenantid": "mz"
+    },
+    {
+      "id": "2",
+      "name": "PUBLIC WORKS",
+      "code": "20",
+      "level": 0,
+      "active": false,
+      "parentid": null,
+      "version": 0,
+      "tenantid": "mz"
+    },
+    {
+      "id": "3",
+      "name": "REVENUE",
+      "code": "90",
+      "level": 0,
+      "active": false,
+      "parentid": null,
+      "version": 0,
+      "tenantid": "mz"
+    }
+  ]
+}
