@@ -1,0 +1,74 @@
+{
+  "tenantId": "mz",
+  "moduleName": "common-masters",
+  "IdFormat": [
+    {
+      "format": "PVAR-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_PVAR]",
+      "idname": "product.variant.id"
+    },
+    {
+      "format": "P-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_P]",
+      "idname": "product.id"
+    },
+    {
+      "format": "PTS-[cy:yyyy-MM-dd]-[SEQ_PROJECT_STAFF_PTS]",
+      "idname": "project.staff.id"
+    },
+    {
+      "format": "H-[cy:yyyy-MM-dd]-[SEQ_HOUSEHOLD_H]",
+      "idname": "household.id"
+    },
+    {
+      "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+      "idname": "individual.id"
+    },
+    {
+      "format": "ID-[cy:yyyy-MM-dd]-[SEQ_IDENTIFIER_ID]",
+      "idname": "identifier.id"
+    },
+    {
+      "format": "SGID-[cy:yyyy-MM-dd]-[SEQ_IDENTIFIER_SG_ID]",
+      "idname": "sys.gen.identifier.id"
+    },
+    {
+      "format": "PT-[cy:yyyy-MM-dd]-[SEQ_PROJECT_TASK_PT]",
+      "idname": "project.task.id"
+    },
+    {
+      "format": "PTB-[cy:yyyy-MM-dd]-[SEQ_PROJECT_BENEFICIARY_PTB]",
+      "idname": "project.beneficiary.id"
+    },
+    {
+      "format": "S-[cy:yyyy-MM-dd]-[SEQ_STOCK_S]",
+      "idname": "stock.id"
+    },
+    {
+      "format": "PJT-[cy:yyyy-MM-dd]-[SEQ_PROJECT_PJT]",
+      "idname": "project.number"
+    },
+    {
+      "format": "SY-[cy:yyyy-MM-dd]-[SEQ_SURVEY_SY]",
+      "idname": "ss.surveyid"
+    },
+    {
+      "format": "SR-[cy:yyyy-MM-dd]-[SEQ_STOCK_SR]",
+      "idname": "stock.reconciliation.id"
+    },
+    {
+      "format": "F-[cy:yyyy-MM-dd]-[SEQ_FACILITY_SR]",
+      "idname": "facility.id"
+    },
+    {
+      "format": "PR-[cy:yyyy-MM-dd]-[SEQ_PROJECT_RESOURCE_PR]",
+      "idname": "project.resource.id"
+    },
+    {
+      "format": "PF-[cy:yyyy-MM-dd]-[SEQ_PROJECT_FACILITY_PF]",
+      "idname": "project.facility.id"
+    },
+    {
+      "format": "PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
+      "idname": "pgr.servicerequestid"
+    }
+  ]
+}

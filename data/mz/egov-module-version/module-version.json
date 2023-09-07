@@ -1,0 +1,18 @@
+{
+    "tenantId": "mz",
+    "moduleName": "module-version",
+    "ROW_VERSIONS": [
+        {
+            "module": "HCM-SERVICE-REGISTRY",
+            "version": "0.1"
+        },
+        {
+            "module": "egov-location",
+            "version": "0.2"
+        },
+        {
+            "module": "HCM-FIELD-APP-CONFIG",
+            "version": "0.1"
+        }
+    ]
+}

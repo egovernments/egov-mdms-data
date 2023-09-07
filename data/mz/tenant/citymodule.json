@@ -1,0 +1,39 @@
+{
+  "tenantId": "mz",
+  "moduleName": "tenant",
+  "citymodule": [
+    {
+      "module": "DSS",
+      "code": "DSS",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+      {
+      "module": "PGR",
+      "code": "PGR",
+      "active": true,
+      "order": 2,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "HRMS",
+      "code": "HRMS",
+      "active": true,
+      "order": 3,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    }
+  ]
+}

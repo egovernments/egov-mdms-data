@@ -1,0 +1,91 @@
+{
+  "tenantId": "mz",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "SYSTEM_ADMINISTRATOR",
+      "name": "System Administrator",
+      "description": "System Administrator"
+    },
+    {
+      "code": "REGISTRAR",
+      "name": "Registrar",
+      "description": "Registrar"
+    },
+    {
+      "code": "DISTRIBUTOR",
+      "name": "Distributor",
+      "description": "Distributor"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "Super User",
+      "description": "Super User. Can change all master data and has access to all the system screens."
+    },
+    {
+      "code": "NATIONAL_SUPERVISOR",
+      "name": "National Supervisor",
+      "description": "Supervisor who can view National health dashboard"
+    },
+    {
+      "code": "PROVINCIAL_SUPERVISOR",
+      "name": "Provincial Supervisor",
+      "description": "Supervisor who can view Provincial health dashboard"
+    },
+    {
+      "code": "DISTRICT_SUPERVISOR",
+      "name": "District Supervisor",
+      "description": "Supervisor who can view District health dashboard"
+    },
+    {
+      "code": "FIELD_SUPERVISOR",
+      "name": "Field Supervisor",
+      "description": "Supervisor who can view Field health dashboard"
+    },
+    {
+      "code": "SUPERVISOR",
+      "name": "Supervisor",
+      "description": "Supervisor"
+    },
+    {
+      "code": "WAREHOUSE_MANAGER",
+      "name": "Warehouse Manager",
+      "description": "Warehouse manager"
+    },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
+    },
+    {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Citizen who can raise complaint"
+    },
+    {
+      "code": "PGR-ADMIN",
+      "name": "PGR Administrator",
+      "description": "Admin role that has super access over the system"
+    },
+    {
+      "code": "HRMS_ADMIN",
+      "name": "HRMS Admin",
+      "description": "HRMS Admin"
+    },
+    {
+      "code": "HELPDESK_USER",
+      "name": "HELPDESK USER",
+      "description": "HELPDESK USER"
+    },
+    {
+      "code": "L2_SUPPORT",
+      "name": "L2 Support",
+      "description": "L2 Support"
+    },
+    {
+      "code": "CSR",
+      "name": "CSR",
+      "description": "CSR"
+    }
+  ]
+}
