@@ -14636,7 +14636,54 @@
       "serviceCode": "service-request",
       "code": "null",
       "path": ""
-    }
-    
+    },
+    {
+      "id": 2509,
+      "name": "MDMS v2 create",
+      "url": "/mdms-v2/schema/v1/_create",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2510,
+      "name": "MDMS v2 Search",
+      "url": "/mdms-v2/schema/v1/_search",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2511,
+      "name": "MDMS v2 Create data",
+      "url": "/mdms-v2/v2/_create/common-masters.Sample",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2512,
+      "name": "MDMS v2 Search Data",
+      "url": "/mdms-v2/v1/_search/common-masters.Sample",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    } 
    ]
 }
