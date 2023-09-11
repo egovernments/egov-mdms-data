@@ -1993,6 +1993,48 @@
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORType",
       "path": "9MDMS.SORSORType",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 162,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "master1",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
+      "path": "9MDMS.9MASTERDATA.master1",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 163,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "master2",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
+      "path": "9MDMS.9MASTERDATA.master2",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 164,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "master3",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
+      "path": "9MDMS.9MASTERDATA.masterMore.master3",
+      "leftIcon": "dynamic:ContractIcon"
     }
   ]
 }
