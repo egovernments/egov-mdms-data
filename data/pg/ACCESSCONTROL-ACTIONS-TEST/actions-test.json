@@ -2161,6 +2161,20 @@
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
       "path": "9TEST.MENUTHREE.OPTION3",
       "leftIcon": "dynamic:HRIcon"
+    },
+    {
+      "id": 177,
+      "name": "TEST",
+      "url": "url",
+      "displayName": "Only",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TEST",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
+      "path": "9TEST.ONLY",
+      "leftIcon": "dynamic:HRIcon"
     }
   ]
 }
