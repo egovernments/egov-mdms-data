@@ -696,6 +696,16 @@
       "code": "PT_REPORT_VIEWER",
       "name": "PT Report Viewer",
       "description": "PT User that can view PT reports"
+    },
+    {
+      "code": "MDMS_ADMIN",
+      "name": "MDMS ADMIN",
+      "description": "MDMS User that can create and search schema"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "Localisation admin",
+      "description": "LOC_ADMIN"
     }
   ]
 }
