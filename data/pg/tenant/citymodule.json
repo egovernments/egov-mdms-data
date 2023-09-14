@@ -222,6 +222,22 @@
                 "code": "pg.citya"
             }
         ]
+    },{
+        "module": "Measurement",
+        "code": "Measurement",
+        "active": true,
+        "order": 13,
+        "tenants": [
+            {
+                "code": "pg.cityb"
+            },
+            {
+                "code": "pg.cityc"
+            },
+            {
+                "code": "pg.citya"
+            }
+        ]
     },
         {
            "module": "Sample",
