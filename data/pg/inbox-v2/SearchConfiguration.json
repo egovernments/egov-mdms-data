@@ -755,7 +755,9 @@
         "Data.Measurements.status",
         "Data.Contracts.additionalDetails",
         "Data.Measurements.measurementNumber",
-        "Data.Measurements.referenceId"
+        "Data.Measurements.referenceId",
+        "Data.Measurements.measures",
+        "Data.Measurements.id"
       ]
     }
   ]
