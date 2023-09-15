@@ -216,6 +216,26 @@
       "code": "LOC_ADMIN",
       "name": "Localisation admin",
       "description": "LOC_ADMIN"
+    },
+    {
+      "code": "MB_CREATOR",
+      "name": "MB_CREATOR",
+      "description": "Default role for MB service creator"
+    },
+    {
+      "code": "MB_VERIFIER",
+      "name": "MB_VERIFIER",
+      "description": "Default role for MB service verifier"
+    },
+    {
+      "code": "MB_APPROVER",
+      "name": "MB_APPROVER",
+      "description": "Default role for MB service approver"
+    },
+    {
+      "code": "MB_VIEWER",
+      "name": "MB_VIEWER",
+      "description": "Default role for MB service viewer"
     }
   ]
 }
