@@ -705,6 +705,58 @@
         "Data.auditDetails",
         "Data.additionalDetails"
       ]
+    },
+    {
+      "module": "measurement-service",
+      "index": "measurement-service",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.Measurements.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "measurementNumber",
+          "path": "Data.Measurements.measurementNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.Measurements.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.Contracts.status.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.Measurements.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.Measurements.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.Measurements.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.Measurements.status",
+        "Data.Contracts.additionalDetails",
+        "Data.Measurements.measurementNumber",
+        "Data.Measurements.referenceId"
+      ]
     }
   ]
 }
