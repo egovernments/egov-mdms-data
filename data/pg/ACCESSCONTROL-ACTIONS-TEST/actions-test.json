@@ -14918,6 +14918,44 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2544,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Health Project",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=Health-Project&masterName=Project",
+      "path": "9MDMS.Health-ProjectProject",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2545,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/Health-Project.Project",
+      "displayName": "Create Health Project",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2546,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/Health-Project.Project",
+      "displayName": "Update Health Project",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
    ]
 }
