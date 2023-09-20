@@ -231,6 +231,24 @@
           "maxFilesAllowed": 0
         }
       ]
+    },
+    {
+      "module": "Measurement",
+      "allowedFileTypes": ["jpeg","jpg","png"],
+      "maxSizeInMB": 2,
+      "bannerLabel": "MB_UPLOAD_BANNER",
+      "documents": [
+        {
+          "code": "MB_MEASUREMENT_BOOK",
+          "name" : "img_measurement_book",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : true,
+          "allowedFileTypes": [],
+          "maxSizeInMB": null,
+          "maxFilesAllowed": 10
+        }
+      ]
     }
   ]
 }
