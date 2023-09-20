@@ -14844,6 +14844,42 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },{
+      "id": 2538,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Roleactions Roles",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLES&masterName=rolesroles",
+      "path": "9MDMS.ACCESSCONTROL-ROLESrolesroles",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2539,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.rolesroles",
+      "displayName": "Create AACCESSCONTROL-ROLES rolesroles",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 2540,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.rolesroles",
+      "displayName": "Update ACCESSCONTROL-ROLES rolesroles",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
    ]
 }
