@@ -2215,7 +2215,7 @@
     {
       "id": 181,
       "name": "Create Measurement",
-      "url": "/measurement/v1/_create",
+      "url": "/measurement-service/measurement/v1/_create",
       "parentModule": "measurement-book",
       "displayName": "Create measurement book",
       "orderNumber": 0,
@@ -2227,7 +2227,7 @@
     {
       "id": 182,
       "name": "Update Measurement",
-      "url": "/measurement/v1/_update",
+      "url": "/measurement-service/measurement/v1/_update",
       "parentModule": "measurement-book",
       "displayName": "Update measurement book",
       "orderNumber": 0,
@@ -2239,7 +2239,7 @@
     {
       "id": 183,
       "name": "Search Measurement",
-      "url": "/measurement/v1/_search",
+      "url": "/measurement-service/measurement/v1/_search",
       "parentModule": "measurement-book",
       "displayName": "Search measurement book",
       "orderNumber": 0,
