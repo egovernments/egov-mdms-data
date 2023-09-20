@@ -14930,6 +14930,44 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2545,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Default health field appconfiguration",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=default-health&masterName=field-app-configuration",
+      "path": "9MDMS.default-healthfield-app-configuration",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 2546,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/default-health.field-app-configuration",
+      "displayName": "Create default-health.field-app-configuration",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2547,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/default-health.field-app-configuration",
+      "displayName": "Update default-health.field-app-configuration",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
    ]
 }
