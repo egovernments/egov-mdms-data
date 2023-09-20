@@ -14918,6 +14918,18 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2544,
+      "name": "MDMS v2 create data 2",
+      "url": "/mdms-v2/v2/_create/TradeLicense.TradeType",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
     }
    ]
 }
