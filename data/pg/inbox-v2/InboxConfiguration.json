@@ -276,6 +276,48 @@
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.totalAmount",  "Data.additionalDetails", "Data.businessService","Data.currentProcessInstance", "Data.auditDetails","Data.referenceId"]
+    },
+    {
+      "module": "measurement-service",
+      "index": "measurement-service-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Measurement.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "measurementNumber",
+          "path": "Measurement.measurementNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectId",
+          "path": "contracts.additionalDetails.projectID.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectType",
+          "path": "contracts.additionalDetails.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Measurement.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Measurements.referenceId",
+        "Contracts.additionalDetails",
+        "Measurements.workflow",
+        "Measurements.wfStatus",
+        "Contracts.processInstance"
+      ]
     }
+
   ]
 }
