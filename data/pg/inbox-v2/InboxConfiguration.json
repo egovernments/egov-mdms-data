@@ -283,31 +283,31 @@
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Measurements.tenantId.keyword",
+          "path": "Measurement.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "measurementNumber",
-          "path": "Measurements.measurementNumber.keyword",
+          "path": "Measurement.measurementNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "projectId",
-          "path": "Contracts.additionalDetails.projectID.keyword",
+          "path": "contracts.additionalDetails.projectID.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "projectType",
-          "path": "Contracts.additionalDetails.projectType.keyword",
+          "path": "contracts.additionalDetails.projectType.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         }
       ],
       "sortBy": {
-        "path": "Measurements.auditDetails.createdTime",
+        "path": "Measurement.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
