@@ -259,12 +259,6 @@
           "operator": "EQUAL"
         },
         {
-          "name": "revisedWorkOrderNumber",
-          "path": "Data.supplementNumber.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
-        },
-        {
           "name": "status",
           "path": "Data.currentProcessInstance.state.state.keyword",
           "operator": "IN",
@@ -580,130 +574,57 @@
       ]
     },
     {
-      "module": "expense-payment",
-      "index": "expense-payment-index",
+      "module": "measurement-service",
+      "index": "measurement-service-index",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Data.tenantId.keyword",
+          "path": "Data.Measurement.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
-          "name": "status",
-          "path": "Data.status",
-          "isMandatory": false
-        },
-        {
-          "name": "billNumber",
-          "path": "Data.bills.additionalDetails.billNumber.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "referenceId",
-          "path": "Data.bills.additionalDetails.referenceId.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "createdFrom",
-          "path": "Data.auditDetails.createdTime",
-          "isMandatory": false,
-          "operator": "GTE"
-        },
-        {
-          "name": "createdTo",
-          "path": "Data.auditDetails.createdTime",
-          "isMandatory": false,
-          "operator": "LTE"
-        }
-      ],
-      "sortBy": {
-        "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "DESC"
-      },
-      "sourceFilterPathList": [
-        "Data.id",
-        "Data.tenantId",
-        "Data.netPayableAmount",
-        "Data.netPaidAmount",
-        "Data.paymentNumber",
-        "Data.status",
-        "Data.bills",
-        "Data.auditDetails",
-        "Data.additionalDetails"
-      ]
-    },
-    {
-      "module": "ifms-pi",
-      "index": "ifms-pi-index",
-      "allowedSearchCriteria": [
-        {
-          "name": "tenantId",
-          "path": "Data.tenantId.keyword",
-          "isMandatory": true,
-          "operator": "EQUAL"
-        },
-        {
-          "name": "jitBillNo",
-          "path": "Data.jitBillNo.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
-        },
-        {
-          "name": "piType",
-          "path": "Data.piType.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
-        },
-        {
-          "name": "status",
-          "path": "Data.piStatus.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
-        },
-        {
-          "name": "billNumber",
-          "path": "Data.additionalDetails.billNumber.keyword",
+          "name": "measurementNumber",
+          "path": "Data.Measurement.measurementNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "referenceId",
-          "path": "Data.additionalDetails.referenceId.keyword",
+          "path": "Data.Measurement.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.contracts.status.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "createdFrom",
-          "path": "Data.auditDetails.createdTime",
+          "path": "Data.Measurement.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "createdTo",
-          "path": "Data.auditDetails.createdTime",
+          "path": "Data.Measurement.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         }
       ],
       "sortBy": {
-        "path": "Data.auditDetails.createdTime",
+        "path": "Data.Measurement.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
-        "Data.id",
-        "Data.tenantId",
-        "Data.jitBillNo",
-        "Data.parentPiNumber",
-        "Data.muktaReferenceId",
-        "Data.numBeneficiaries",
-        "Data.grossAmount",
-        "Data.netAmount",
-        "Data.piStatus",
-        "Data.piErrorResp",
-        "Data.beneficiaryDetails",
-        "Data.auditDetails",
-        "Data.additionalDetails"
+        "Data.Measurement.status",
+        "Data.contracts.additionalDetails",
+        "Data.Measurement.measurementNumber",
+        "Data.Measurement.referenceId",
+        "Data.Measurement.measures",
+        "Data.Measurement.id"
       ]
     }
   ]
