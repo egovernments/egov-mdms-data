@@ -579,52 +579,52 @@
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Data.Measurements.tenantId.keyword",
+          "path": "Data.Measurement.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "measurementNumber",
-          "path": "Data.Measurements.measurementNumber.keyword",
+          "path": "Data.Measurement.measurementNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "referenceId",
-          "path": "Data.Measurements.referenceId.keyword",
+          "path": "Data.Measurement.referenceId.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "status",
-          "path": "Data.Contracts.status.keyword",
+          "path": "Data.contracts.status.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "createdFrom",
-          "path": "Data.Measurements.auditDetails.createdTime",
+          "path": "Data.Measurement.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "createdTo",
-          "path": "Data.Measurements.auditDetails.createdTime",
+          "path": "Data.Measurement.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         }
       ],
       "sortBy": {
-        "path": "Data.Measurements.auditDetails.createdTime",
+        "path": "Data.Measurement.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
-        "Data.Measurements.status",
-        "Data.Contracts.additionalDetails",
-        "Data.Measurements.measurementNumber",
-        "Data.Measurements.referenceId",
-        "Data.Measurements.measures",
-        "Data.Measurements.id"
+        "Data.Measurement.status",
+        "Data.contracts.additionalDetails",
+        "Data.Measurement.measurementNumber",
+        "Data.Measurement.referenceId",
+        "Data.Measurement.measures",
+        "Data.Measurement.id"
       ]
     }
   ]
