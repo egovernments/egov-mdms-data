@@ -705,6 +705,60 @@
         "Data.auditDetails",
         "Data.additionalDetails"
       ]
+    },
+    {
+      "module": "measurement-service",
+      "index": "measurement-service-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.Measurement.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "measurementNumber",
+          "path": "Data.Measurement.measurementNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.Measurement.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.contracts.status.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.Measurement.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.Measurement.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.Measurement.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.Measurement.status",
+        "Data.contracts.additionalDetails",
+        "Data.Measurement.measurementNumber",
+        "Data.Measurement.referenceId",
+        "Data.Measurement.measures",
+        "Data.Measurement.id"
+      ]
     }
   ]
 }
