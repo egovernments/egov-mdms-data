@@ -283,39 +283,47 @@
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Measurement.tenantId.keyword",
+          "path": "Data.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "measurementNumber",
-          "path": "Measurement.measurementNumber.keyword",
+          "path": "Data.measurementNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "projectId",
-          "path": "contracts.additionalDetails.projectID.keyword",
+          "path": "Contract.additionalDetails.projectID.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "projectType",
-          "path": "contracts.additionalDetails.projectType.keyword",
+          "path": "Contract.additionalDetails.projectType.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         }
       ],
       "sortBy": {
-        "path": "Measurement.auditDetails.createdTime",
+        "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
-        "Measurements.referenceId",
-        "Contracts.additionalDetails",
-        "Measurements.workflow",
-        "Measurements.wfStatus",
-        "Contracts.processInstance"
+        "Data.referenceId",
+        "Data.id",
+        "Data.measurementNumber",
+        "Data.measures",
+        "Data.history",
+        "Data.currentProcessInstance",
+        "Data.additionalDetails",
+        "Data.workflow",
+        "Data.wfStatus",
+        "Contract.additionalDetails",
+        "Contract.id",
+        "Contract.contractNumber",
+        "Contract.additionalDetails"
       ]
     }
 
