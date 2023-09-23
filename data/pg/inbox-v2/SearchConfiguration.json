@@ -761,11 +761,11 @@
         "Data.additionalDetails",
         "Data.workflow",
         "Data.wfStatus",
-        "Contract.additionalDetails",
-        "Contract.id",
-        "Contract.status",
-        "Contract.contractNumber",
-        "Contract.additionalDetails"
+        "Data.contract.additionalDetails",
+        "Data.contract.id",
+        "Data.contract.status",
+        "Data.contract.contractNumber",
+        "Data.contract.additionalDetails"
         
       ]
     }
