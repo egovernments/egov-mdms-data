@@ -295,13 +295,13 @@
         },
         {
           "name": "projectId",
-          "path": "Contract.additionalDetails.projectID.keyword",
+          "path": "Data.contract.additionalDetails.projectID.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "projectType",
-          "path": "Contract.additionalDetails.projectType.keyword",
+          "path": "Data.contract.additionalDetails.projectType.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         }
@@ -320,10 +320,10 @@
         "Data.additionalDetails",
         "Data.workflow",
         "Data.wfStatus",
-        "Contract.additionalDetails",
-        "Contract.id",
-        "Contract.contractNumber",
-        "Contract.additionalDetails"
+        "Data.contract.additionalDetails",
+        "Data.contract.id",
+        "Data.contract.contractNumber",
+        "Data.contract.additionalDetails"
       ]
     }
 
