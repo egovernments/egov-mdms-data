@@ -730,9 +730,9 @@
         },
         {
           "name": "status",
-          "path": "Contract.status.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "operator": "IN",
+          "isMandatory": false
         },
         {
           "name": "createdFrom",
