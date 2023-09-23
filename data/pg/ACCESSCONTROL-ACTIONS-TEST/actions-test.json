@@ -2211,6 +2211,18 @@
       "serviceCode": "measurement-book",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 181,
+      "name": "Search WMS Measurement Service",
+      "url": "/wms/measurement-service/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search measurement book",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    }    
   ]
 }
