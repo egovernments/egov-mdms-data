@@ -712,52 +712,61 @@
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Data.Measurement.tenantId.keyword",
+          "path": "Data.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "measurementNumber",
-          "path": "Data.Measurement.measurementNumber.keyword",
+          "path": "Data.measurementNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "referenceId",
-          "path": "Data.Measurement.referenceId.keyword",
+          "path": "Data.referenceId.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "status",
-          "path": "Data.contracts.status.keyword",
+          "path": "Contract.status.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "createdFrom",
-          "path": "Data.Measurement.auditDetails.createdTime",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "createdTo",
-          "path": "Data.Measurement.auditDetails.createdTime",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         }
       ],
       "sortBy": {
-        "path": "Data.Measurement.auditDetails.createdTime",
+        "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
-        "Data.Measurement.status",
-        "Data.contracts.additionalDetails",
-        "Data.Measurement.measurementNumber",
-        "Data.Measurement.referenceId",
-        "Data.Measurement.measures",
-        "Data.Measurement.id"
+        "Data.id",
+        "Data.referenceId",
+        "Data.measurementNumber",
+        "Data.measures",
+        "Data.history",
+        "Data.currentProcessInstance",
+        "Data.additionalDetails",
+        "Data.workflow",
+        "Data.wfStatus",
+        "Contract.additionalDetails",
+        "Contract.id",
+        "Contract.status",
+        "Contract.contractNumber",
+        "Contract.additionalDetails"
+        
       ]
     }
   ]
