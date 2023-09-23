@@ -2534,6 +2534,30 @@
       "actionid": 180,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 181,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VERIFIER",
+      "actionid": 181,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_APPROVER",
+      "actionid": 181,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VIEWER",
+      "actionid": 181,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
