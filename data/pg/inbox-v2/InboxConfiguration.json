@@ -305,11 +305,17 @@
           "operator": "EQUAL"
         },
         {
+          "name": "ward",
+          "path": "Data.contract.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "projectType",
           "path": "Data.contract.additionalDetails.projectType.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         }
+
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
