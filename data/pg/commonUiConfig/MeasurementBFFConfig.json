@@ -1,0 +1,18 @@
+{
+    "tenantId": "pg",
+    "moduleName": "commonUiConfig",
+    "MeasurementBFFConfig": [
+        {
+            "path": "contractNumber",
+            "jsonPath": "$.contracts[*].contractNumber"
+        },
+        {
+            "path": "estimateId",
+            "jsonPath": "$.contracts[*].lineItems[*].estimateId"
+        },
+        {
+            "path": "measurements",
+            "jsonPath": "$.contracts[*].lineItems[*].additionalDetails.measurement"
+        }
+    ]
+}
