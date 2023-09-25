@@ -310,6 +310,11 @@
           "isMandatory": false
         },
         {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "projectType",
           "path": "Data.contract.additionalDetails.projectType.keyword",
           "isMandatory": false,
