@@ -288,6 +288,11 @@
           "operator": "EQUAL"
         },
         {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "measurementNumber",
           "path": "Data.measurementNumber.keyword",
           "isMandatory": false,
