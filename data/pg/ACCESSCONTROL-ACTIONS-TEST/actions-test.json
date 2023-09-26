@@ -2176,7 +2176,7 @@
       "path": "9TEST.ONLY",
       "leftIcon": "dynamic:HRIcon"
     },
-     {
+    {
       "id": 178,
       "name": "Create Measurement Service",
       "url": "/measurement-service/v1/_create",
@@ -2223,6 +2223,18 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
-    }    
+    },
+    {
+      "id": 182,
+      "name": "Search Mukta Measurement Service",
+      "url": "/mukta-services/measurement/_search",
+      "parentModule": "mukta-services",
+      "displayName": "Mukta search measurement book",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mukta-services",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
