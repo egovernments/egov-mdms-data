@@ -89,6 +89,10 @@
     {
       "format": "MB/[fy:yyyy-yy]/[SEQ_MEASUREMENT_NUM]",
       "idname": "mb.reference.number"
-    }
+    },
+   {
+      "format": "SOR_[SEQ_SOR_REF_NUM]",
+      "idname": "works.sor.number"
+    },
   ]
 }
