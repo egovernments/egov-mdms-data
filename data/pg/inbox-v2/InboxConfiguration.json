@@ -288,6 +288,11 @@
           "operator": "EQUAL"
         },
         {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "measurementNumber",
           "path": "Data.measurementNumber.keyword",
           "isMandatory": false,
@@ -300,11 +305,22 @@
           "operator": "EQUAL"
         },
         {
+          "name": "ward",
+          "path": "Data.contract.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "projectType",
           "path": "Data.contract.additionalDetails.projectType.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         }
+
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
@@ -315,6 +331,7 @@
         "Data.id",
         "Data.measurementNumber",
         "Data.measures",
+        "Data.auditDetails",
         "Data.history",
         "Data.currentProcessInstance",
         "Data.additionalDetails",

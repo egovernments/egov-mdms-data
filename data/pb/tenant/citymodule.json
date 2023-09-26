@@ -500,6 +500,23 @@
           "code": "pb.amritsar"
         }
         ]
+    },
+    {
+      "module": "Tqm",
+      "code": "Tqm",
+      "active": true,
+      "order": 14,
+      "tenants": [
+         {
+        "code": "pb.jalandhar"
+      },
+      {
+        "code": "pb.nawanshahr"
+      },
+      {
+        "code": "pb.amritsar"
+      }
+      ]
     }
   ]
 }
