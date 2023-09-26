@@ -2354,7 +2354,6 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-  
     {
       "rolecode": "MDMS_ADMIN",
       "actionid": 135,
@@ -2556,6 +2555,30 @@
     {
       "rolecode": "MB_VIEWER",
       "actionid": 181,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 182,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VIEWER",
+      "actionid": 182,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_APPROVER",
+      "actionid": 182,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VERIFIER",
+      "actionid": 182,
       "actioncode": "",
       "tenantId": "pg"
     }
