@@ -3,16 +3,20 @@
     "moduleName": "commonUiConfig",
     "MeasurementBFFConfig": [
         {
-            "path": "contractNumber",
-            "jsonPath": "$.contracts[*].contractNumber"
+            "path": "contract",
+            "jsonPath": "$.contract"
         },
         {
-            "path": "estimateId",
-            "jsonPath": "$.contracts[*].lineItems[*].estimateId"
+            "path": "estimate",
+            "jsonPath": "$.estimate"
         },
         {
-            "path": "measurements",
-            "jsonPath": "$.contracts[*].lineItems[*].additionalDetails.measurement"
+            "path": "measurement",
+            "jsonPath": "$.measurement"
+        },
+        {
+            "path": "allMeasurements",
+            "jsonPath": "$.allMeasurements"
         }
     ]
 }
