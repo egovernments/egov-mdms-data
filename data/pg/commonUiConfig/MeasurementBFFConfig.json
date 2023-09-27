@@ -4,19 +4,19 @@
     "MeasurementBFFConfig": [
         {
             "path": "contract",
-            "jsonPath": "$.contracts"
+            "jsonPath": "$.contract"
         },
         {
             "path": "estimate",
-            "jsonPath": "$.estimates"
+            "jsonPath": "$.estimate"
         },
         {
             "path": "measurement",
-            "jsonPath": "$.uniqueMeasurements"
+            "jsonPath": "$.measurement"
         },
         {
             "path": "allMeasurements",
-            "jsonPath": "$.measurements"
+            "jsonPath": "$.allMeasurements"
         }
     ]
 }
