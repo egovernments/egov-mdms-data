@@ -3,11 +3,11 @@
     "moduleName": "commonUiConfig",
     "MeasurementBFFConfig": [
         {
-            "path": "contractNumber",
+            "path": "contract",
             "jsonPath": "$.contracts"
         },
         {
-            "path": "estimateId",
+            "path": "estimate",
             "jsonPath": "$.estimates"
         },
         {
@@ -15,7 +15,7 @@
             "jsonPath": "$.uniqueMeasurements"
         },
         {
-            "path": "measurements",
+            "path": "allMeasurements",
             "jsonPath": "$.measurements"
         }
     ]
