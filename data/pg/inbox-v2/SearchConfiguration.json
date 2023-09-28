@@ -737,7 +737,8 @@
         {
           "name": "ward",
           "path": "Data.contract.additionalDetails.ward.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectId",
