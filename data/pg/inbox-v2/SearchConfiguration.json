@@ -735,6 +735,23 @@
           "isMandatory": false
         },
         {
+          "name": "ward",
+          "path": "Data.contract.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectId",
+          "path": "Data.contract.additionalDetails.projectID.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.contract.additionalDetails.projectName.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "createdFrom",
           "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
