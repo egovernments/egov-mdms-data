@@ -632,6 +632,10 @@
     {
       "format": "PB-DTR-[cy:yyyy-MM-dd]-[SEQ_EG_DTR_ID]",
       "idname": "dtr.registrationid"
+    },
+    {
+      "idname": "pqm.aplnumber",
+      "format": "[CITY.CODE]-PQM-[cy:yyyy-MM-dd]-[SEQ_EGOV_PQM]"
     }
   ]
 }
