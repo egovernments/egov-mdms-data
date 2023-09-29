@@ -423,42 +423,42 @@
       ]
     },
     {
-      "service": "ADVERSE-EVENT",
+      "service": "SIDE-EFFECT",
       "actions": [
         {
           "action": "create",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/_create"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/_create"
         },
         {
           "action": "update",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/_update"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/_update"
         },
         {
           "action": "search",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/_search"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/_search"
         },
         {
           "action": "delete",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/_delete"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/_delete"
         },
         {
           "action": "bulk_create",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/bulk/_create"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/bulk/_create"
         },
         {
           "action": "bulk_update",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/bulk/_update"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/bulk/_update"
         },
         {
           "action": "bulk_delete",
-          "entityName": "AdverseEvent",
-          "path": "/project/task/adverse_event/v1/bulk/_delete"
+          "entityName": "SideEffect",
+          "path": "/referral-management/side_effect/v1/bulk/_delete"
         }
       ]
     }
