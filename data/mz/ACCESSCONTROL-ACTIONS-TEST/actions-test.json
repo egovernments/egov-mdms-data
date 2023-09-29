@@ -12428,7 +12428,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     },
@@ -12440,7 +12440,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     },
@@ -12452,7 +12452,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     },
@@ -12464,7 +12464,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     },
@@ -12476,7 +12476,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     },
@@ -12488,7 +12488,7 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     },
@@ -12500,7 +12500,91 @@
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
-      "serviceCode": "project",
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1660,
+      "name": "Referral Create",
+      "url": "/referral-management/referral/v1/_create",
+      "displayName": "Referral Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1661,
+      "name": "Referral Update",
+      "url": "/referral-management/referral/v1/_update",
+      "displayName": "Referral Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1662,
+      "name": "Referral Delete",
+      "url": "/referral-management/referral/v1/_delete",
+      "displayName": "Referral Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1663,
+      "name": "Referral Search",
+      "url": "/referral-management/referral/v1/_search",
+      "displayName": "Referral Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1664,
+      "name": "Referral Bulk Create",
+      "url": "/referral-management/referral/v1/bulk/_create",
+      "displayName": "Referral Bulk Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1665,
+      "name": "Referral Bulk Update",
+      "url": "/referral-management/referral/v1/bulk/_update",
+      "displayName": "Referral Bulk Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1666,
+      "name": "Referral Bulk Delete",
+      "url": "/referral-management/referral/v1/bulk/_delete",
+      "displayName": "Referral Bulk Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
     }
