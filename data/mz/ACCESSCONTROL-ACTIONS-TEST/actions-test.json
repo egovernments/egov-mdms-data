@@ -12423,7 +12423,7 @@
     {
       "id": 1653,
       "name": "Side Effect Create",
-      "url": "/referral-management/side_effect/v1/_create",
+      "url": "/referral-management/side-effect/v1/_create",
       "displayName": "Side Effect Create",
       "orderNumber": 0,
       "parentModule": "",
@@ -12435,7 +12435,7 @@
     {
       "id": 1654,
       "name": "Side Effect Update",
-      "url": "/referral-management/side_effect/v1/_update",
+      "url": "/referral-management/side-effect/v1/_update",
       "displayName": "Side Effect Update",
       "orderNumber": 0,
       "parentModule": "",
@@ -12447,7 +12447,7 @@
     {
       "id": 1655,
       "name": "Side Effect Search",
-      "url": "/referral-management/side_effect/v1/_search",
+      "url": "/referral-management/side-effect/v1/_search",
       "displayName": "Side Effect Search",
       "orderNumber": 0,
       "parentModule": "",
@@ -12459,7 +12459,7 @@
     {
       "id": 1656,
       "name": "Side Effect Bulk Create",
-      "url": "/referral-management/side_effect/v1/bulk/_create",
+      "url": "/referral-management/side-effect/v1/bulk/_create",
       "displayName": "Side Effect Bulk Create",
       "orderNumber": 0,
       "parentModule": "",
@@ -12471,7 +12471,7 @@
     {
       "id": 1657,
       "name": "Side Effect Bulk Update",
-      "url": "/referral-management/side_effect/v1/bulk/_update",
+      "url": "/referral-management/side-effect/v1/bulk/_update",
       "displayName": "Side Effect Bulk Update",
       "orderNumber": 0,
       "parentModule": "",
@@ -12483,7 +12483,7 @@
     {
       "id": 1658,
       "name": "Side Effect Delete",
-      "url": "/referral-management/side_effect/v1/_delete",
+      "url": "/referral-management/side-effect/v1/_delete",
       "displayName": "Side Effect Delete",
       "orderNumber": 0,
       "parentModule": "",
@@ -12495,7 +12495,7 @@
     {
       "id": 1659,
       "name": "Side Effect Bulk Delete",
-      "url": "/referral-management/side_effect/v1/bulk/_delete",
+      "url": "/referral-management/side-effect/v1/bulk/_delete",
       "displayName": "Side Effect Bulk Delete",
       "orderNumber": 0,
       "parentModule": "",
@@ -12507,7 +12507,7 @@
     {
       "id": 1660,
       "name": "Referral Create",
-      "url": "/referral-management/referral/v1/_create",
+      "url": "/referral-management/v1/_create",
       "displayName": "Referral Create",
       "orderNumber": 0,
       "parentModule": "",
@@ -12519,7 +12519,7 @@
     {
       "id": 1661,
       "name": "Referral Update",
-      "url": "/referral-management/referral/v1/_update",
+      "url": "/referral-management/v1/_update",
       "displayName": "Referral Update",
       "orderNumber": 0,
       "parentModule": "",
@@ -12531,7 +12531,7 @@
     {
       "id": 1662,
       "name": "Referral Delete",
-      "url": "/referral-management/referral/v1/_delete",
+      "url": "/referral-management/v1/_delete",
       "displayName": "Referral Delete",
       "orderNumber": 0,
       "parentModule": "",
@@ -12543,7 +12543,7 @@
     {
       "id": 1663,
       "name": "Referral Search",
-      "url": "/referral-management/referral/v1/_search",
+      "url": "/referral-management/v1/_search",
       "displayName": "Referral Search",
       "orderNumber": 0,
       "parentModule": "",
@@ -12555,7 +12555,7 @@
     {
       "id": 1664,
       "name": "Referral Bulk Create",
-      "url": "/referral-management/referral/v1/bulk/_create",
+      "url": "/referral-management/v1/bulk/_create",
       "displayName": "Referral Bulk Create",
       "orderNumber": 0,
       "parentModule": "",
@@ -12567,7 +12567,7 @@
     {
       "id": 1665,
       "name": "Referral Bulk Update",
-      "url": "/referral-management/referral/v1/bulk/_update",
+      "url": "/referral-management/v1/bulk/_update",
       "displayName": "Referral Bulk Update",
       "orderNumber": 0,
       "parentModule": "",
@@ -12579,7 +12579,7 @@
     {
       "id": 1666,
       "name": "Referral Bulk Delete",
-      "url": "/referral-management/referral/v1/bulk/_delete",
+      "url": "/referral-management/v1/bulk/_delete",
       "displayName": "Referral Bulk Delete",
       "orderNumber": 0,
       "parentModule": "",
