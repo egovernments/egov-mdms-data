@@ -465,6 +465,34 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "Organisation",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "contactName",
+          "jsonPath": "contactName",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "contactMobileNumber",
+          "jsonPath": "contactMobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "contactEmail",
+          "jsonPath": "contactEmail",
+          "patternId": "004",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
