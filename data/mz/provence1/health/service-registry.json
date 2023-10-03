@@ -428,37 +428,37 @@
         {
           "action": "create",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/_create"
+          "path": "/referral-management/side-effect/v1/_create"
         },
         {
           "action": "update",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/_update"
+          "path": "/referral-management/side-effect/v1/_update"
         },
         {
           "action": "search",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/_search"
+          "path": "/referral-management/side-effect/v1/_search"
         },
         {
           "action": "delete",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/_delete"
+          "path": "/referral-management/side-effect/v1/_delete"
         },
         {
           "action": "bulk_create",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/bulk/_create"
+          "path": "/referral-management/side-effect/v1/bulk/_create"
         },
         {
           "action": "bulk_update",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/bulk/_update"
+          "path": "/referral-management/side-effect/v1/bulk/_update"
         },
         {
           "action": "bulk_delete",
           "entityName": "SideEffect",
-          "path": "/referral-management/side_effect/v1/bulk/_delete"
+          "path": "/referral-management/side-effect/v1/bulk/_delete"
         }
       ]
     },
