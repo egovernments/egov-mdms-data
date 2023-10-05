@@ -1,0 +1,11 @@
+{
+    "tenantId": "pg",
+    "moduleName": "works",
+    "MeasurementPeriod": [
+      {
+        "reference": "CONTRACT",
+        "period": 7,      
+        "active": true
+      }
+    ]
+}
