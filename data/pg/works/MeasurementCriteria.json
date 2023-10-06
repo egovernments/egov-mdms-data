@@ -1,0 +1,14 @@
+{
+    "tenantId": "pg",
+    "moduleName": "works",
+    "MeasurementCriteria": [
+      {
+        "reference": "CONTRACT",
+        "period": 7,
+        "contractStatus":"ACTIVE",
+        "measurementWorkflowStatus": "APPROVED",
+        "enableMeasurementAfterContractEndDate":false,
+        "active": true
+      }
+    ]
+}
