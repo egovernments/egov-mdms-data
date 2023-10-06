@@ -1,6 +1,6 @@
 {
     "tenantId": "pg",
-    "moduleName": "commonUiConfig",
+    "moduleName": "works",
     "MeasurementBFFConfig": [
         {
             "path": "contract",
@@ -13,6 +13,14 @@
         {
             "path": "measurement",
             "jsonPath": "$.measurement"
+        },
+        {
+             "path": "period",
+            "jsonPath": "$.period"
+        },
+        {
+             "path": "musterRollNumber",
+            "jsonPath": "$.musterRoll.musterRollNumber"
         },
         {
             "path": "allMeasurements",
