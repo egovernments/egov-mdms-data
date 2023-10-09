@@ -212,6 +212,22 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "ProjectType": {
+      "masterName": "ProjectType",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "NatureOfWork": {
+      "masterName": "NatureOfWork",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "DIGIT-UI": {
@@ -499,7 +515,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+				"$.code"
       ]
     },
     "BusinessService": {
@@ -507,7 +523,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+				"$.code"
       ]
     },
     "ApplicableCharges": {
@@ -515,7 +531,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+				"$.code"
       ]
     }
   },
@@ -579,7 +595,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+        "$.code"
       ]
     },
     "Overheads": {
@@ -587,7 +603,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+        "$.code"
       ]
     },
     "OICRoles": {
@@ -595,7 +611,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+        "$.code"
       ]
     },
     "ContractType": {
@@ -603,7 +619,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+        "$.code"
       ]
     },
     "SorId": {
@@ -611,7 +627,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+        "$.code"
       ]
     },
     "Category": {
@@ -619,7 +635,7 @@
       "isStateLevel": true,
       "moduleDefinition": null,
       "uniqueKeys": [
-        
+        "$.code"
       ]
     }
   },
