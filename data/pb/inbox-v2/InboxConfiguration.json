@@ -134,6 +134,12 @@
             "index": "pqm-application",
             "allowedSearchCriteria": [
                 {
+                    "name": "ids",
+                    "path": "Data.id.keyword",
+                    "isMandatory": false,
+                    "operator": "WILDCARD"
+                },
+                {
                     "name": "tenantId",
                     "path": "Data.tenantId.keyword",
                     "isMandatory": true,
@@ -145,25 +151,34 @@
                     "isMandatory": false
                 },
                 {
-                    "name": "processCode",
+                    "name": "processCodes",
                     "path": "Data.processCode.keyword",
                     "isMandatory": false
                 },
                 {
-                    "name": "plantCode",
+                    "name": "plantCodes",
                     "path": "Data.plantCode.keyword",
                     "isMandatory": false
                 },
                 {
-                    "name": "assignee",
-                    "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+                    "name": "stageCodes",
+                    "path": "Data.stageCode.keyword",
                     "isMandatory": false
                 },
                 {
-                    "name": "applicationNos",
-                    "path": "Data.applicationNo.keyword",
-                    "isMandatory": false,
-                    "operator": "WILDCARD"
+                    "name": "materialCodes",
+                    "path": "Data.materialCode.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "wfStatus",
+                    "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+                    "isMandatory": false
+                },
+                {
+                    "name": "testType",
+                    "path": "Data.testType.keyword",
+                    "isMandatory": false
                 },
                 {
                     "name": "fromDate",
@@ -187,8 +202,11 @@
                 "Data.auditDetails",
                 "Data.processCode",
                 "Data.tenantId",
-                "Data.applicationNo",
-                "Data.plantCode"
+                "Data.id",
+                "Data.plantCode",
+                "Data.stageCode",
+                "Data.materialCode",
+                "Data.testType"  
             ]
         }
     ]
