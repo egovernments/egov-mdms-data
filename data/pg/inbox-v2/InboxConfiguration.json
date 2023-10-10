@@ -343,7 +343,132 @@
         "Data.contract.contractNumber",
         "Data.contract.additionalDetails"
       ]
-    }
+    },
+    {
+      "module": "fsm",
+      "index": "fsm-application",
+      "allowedSearchCriteria": [
+          {
+              "name": "tenantId",
+              "path": "Data.tenantId.keyword",
+              "isMandatory": true,
+              "operator": "EQUAL"
+          },
+          {
+              "name": "status",
+              "path": "Data.currentProcessInstance.state.uuid.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "mobileNumber",
+              "path": "Data.mobileNumber.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "locality",
+              "path": "Data.locality.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "assignee",
+              "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "applicationNos",
+              "path": "Data.applicationNo.keyword",
+              "isMandatory": false,
+              "operator": "WILDCARD"
+          },
+          {
+              "name": "fromDate",
+              "path": "Data.auditDetails.createdTime",
+              "isMandatory": false,
+              "operator": "GTE"
+          },
+          {
+              "name": "toDate",
+              "path": "Data.auditDetails.createdTime",
+              "isMandatory": false,
+              "operator": "LTE"
+          }
+      ],
+      "sortBy": {
+          "path": "Data.@timestamp",
+          "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+          "Data.currentProcessInstance",
+          "Data.auditDetails",
+          "Data.additionalDetails",
+          "Data.tenantId",
+          "Data.applicationNo",
+          "Data.workflow",
+          "Data.locality"
+      ]
+  },
+  {
+      "module": "pqm",
+      "index": "pqm-application",
+      "allowedSearchCriteria": [
+          {
+              "name": "tenantId",
+              "path": "Data.tenantId.keyword",
+              "isMandatory": true,
+              "operator": "EQUAL"
+          },
+          {
+              "name": "status",
+              "path": "Data.currentProcessInstance.state.uuid.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "processCode",
+              "path": "Data.processCode.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "plantCode",
+              "path": "Data.plantCode.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "assignee",
+              "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+              "isMandatory": false
+          },
+          {
+              "name": "applicationNos",
+              "path": "Data.applicationNo.keyword",
+              "isMandatory": false,
+              "operator": "WILDCARD"
+          },
+          {
+              "name": "fromDate",
+              "path": "Data.auditDetails.createdTime",
+              "isMandatory": false,
+              "operator": "GTE"
+          },
+          {
+              "name": "toDate",
+              "path": "Data.auditDetails.createdTime",
+              "isMandatory": false,
+              "operator": "LTE"
+          }
+      ],
+      "sortBy": {
+          "path": "Data.@timestamp",
+          "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+          "Data.currentProcessInstance",
+          "Data.auditDetails",
+          "Data.processCode",
+          "Data.tenantId",
+          "Data.applicationNo",
+          "Data.plantCode"
+      ]
+  }
 
   ]
 }
