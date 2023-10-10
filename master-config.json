@@ -319,6 +319,24 @@
       ]
     }
   },
+  "ifms": {
+    "HeadOfAccounts": {
+      "masterName": "HeadOfAccounts",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SchemeDetails": {
+      "masterName": "SchemeDetails",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
+  },
   "swm": {
     "VehicleType": {
       "masterName": "VehicleType",
