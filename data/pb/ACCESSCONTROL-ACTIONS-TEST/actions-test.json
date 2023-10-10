@@ -13445,7 +13445,7 @@
     {
       "id": 2425,
       "name": "Create PQM Application",
-      "url": "/pqm/v1/_create",
+      "url": "/pqm-service/v1/_create",
       "displayName": "Apply PQM Appliacations",
       "orderNumber": 0,
       "enabled": false,
@@ -13456,7 +13456,7 @@
     {
       "id": 2426,
       "name": "Search PQM Application",
-      "url": "/pqm/v1/_update",
+      "url": "/pqm-service/v1/_update",
       "displayName": "Update PQM Appliacations",
       "orderNumber": 1,
       "enabled": false,
@@ -13467,7 +13467,7 @@
     {
       "id": 2427,
       "name": "Update PQM Application",
-      "url": "/pqm/v1/_search",
+      "url": "/pqm-service/v1/_search",
       "displayName": "Search PQM Appliacations",
       "orderNumber": 0,
       "enabled": false,
