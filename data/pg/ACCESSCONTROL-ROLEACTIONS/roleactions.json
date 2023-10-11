@@ -4193,14 +4193,14 @@
         "tenantId": "pg"
       },
       {
-        "rolecode": "FSM_ADMIN",
-        "actionid": 293,
+        "rolecode": "PQM_ADMIN",
+        "actionid": 22,
         "actioncode": "",
         "tenantId": "pg"
       },
       {
-        "rolecode": "FSM_EMP_FSTPO",
-        "actionid": 293,
+        "rolecode": "PQM_TP_OPERATOR",
+        "actionid": 22,
         "actioncode": "",
         "tenantId": "pg"
       },
@@ -4208,7 +4208,7 @@
       "rolecode": "SUPERUSER",
       "actionid": 294,
       "actioncode": "",
-      "tenantId": "pb"
+      "tenantId": "pg"
     }
     
   ]
