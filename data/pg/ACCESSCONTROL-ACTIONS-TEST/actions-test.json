@@ -3626,17 +3626,6 @@
       "path": "FSM Report"
     },
     {
-      "id": 293,
-      "name": "Update PQM Application",
-      "url": "/pqm/v1/_search",
-      "displayName": "Search PQM Appliacations",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "PQM",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 294,
       "name": "BusinessService Create",
       "url": "/egov-workflow-v2/egov-wf/businessservice/_create",
@@ -3995,7 +3984,7 @@
     {
       "id": 325,
       "name": "Create PQM Application",
-      "url": "/pqm/v1/_create",
+      "url": "/pqm-service/v1/_create",
       "displayName": "Apply PQM Appliacations",
       "orderNumber": 0,
       "enabled": false,
@@ -4006,7 +3995,7 @@
     {
       "id": 326,
       "name": "Search PQM Application",
-      "url": "/pqm/v1/_update",
+      "url": "/pqm-service/v1/_update",
       "displayName": "Update PQM Appliacations",
       "orderNumber": 1,
       "enabled": false,
@@ -4017,7 +4006,7 @@
     {
       "id": 327,
       "name": "Update PQM Application",
-      "url": "/pqm/v1/_search",
+      "url": "/pqm-service/v1/_search",
       "displayName": "Search PQM Appliacations",
       "orderNumber": 0,
       "enabled": false,
