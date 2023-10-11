@@ -1,0 +1,21 @@
+{
+    "tenantId": "pg",
+    "moduleName": "FSM",
+    "ReceivedPaymentType": [
+        {
+            "name": "Payed in Cash",
+            "code": "PAYED_IN_CASH",
+            "active": true
+        },
+        {
+            "name": "Payed in Counter",
+            "code": "PAYED_IN_COUNTER",
+            "active": true
+        },
+        {
+            "name": "Netbanking",
+            "code": "NETBANKING",
+            "active": true
+        }
+    ]
+}
