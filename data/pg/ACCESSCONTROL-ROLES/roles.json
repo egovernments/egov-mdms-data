@@ -236,6 +236,718 @@
       "code": "MB_VIEWER",
       "name": "MB_VIEWER",
       "description": "Default role for MB service viewer"
-    }
+    },
+      {
+        "code": "CITIZEN",
+        "name": "Citizen",
+        "description": "Citizen who can raise complaint"
+      },
+      {
+        "code": "EMPLOYEE",
+        "name": "Employee",
+        "description": "Default role for all employees"
+      },
+      {
+        "code": "SUPERUSER",
+        "name": "Super User",
+        "description": "System Administrator. Can change all master data and has access to all the system screens."
+      },
+      {
+        "code": "GO",
+        "name": "Grievance Officer",
+        "description": "Heads the grivance cell. Also all complaints that cannot be routed based on the rules are routed to Grievance Officer."
+      },
+      {
+        "code": "RO",
+        "name": "Redressal Officer",
+        "description": "Employees that address citizens grievances."
+      },
+      {
+        "code": "GA",
+        "name": "Grivance Administrator",
+        "description": "System Administator for PGR. Can change PGR Master data only."
+      },
+      {
+        "code": "GRO",
+        "name": "Grievance Routing Officer",
+        "description": "Grievance Routing Officer"
+      },
+      {
+        "code": "ASSET_ADMINISTRATOR",
+        "name": "Asset Administrator",
+        "description": "Asset Administrator"
+      },
+      {
+        "code": "ULB_OPERATOR",
+        "name": "ULB Operator",
+        "description": "ULB Operator"
+      },
+      {
+        "code": "EMPLOYEE_ADMIN",
+        "name": "EMPLOYEE ADMIN",
+        "description": "EMPLOYEE ADMIN"
+      },
+      {
+        "code": "PROPERTY_APPROVER",
+        "name": "Property Approver",
+        "description": "Property Approver"
+      },
+      {
+        "code": "PROPERTY_VERIFIER",
+        "name": "Property Verifier",
+        "description": "Property Verifier"
+      },
+      {
+        "code": "AssetReportViewer",
+        "name": "AssetReportViewer",
+        "description": "AssetReportViewer"
+      },
+      {
+        "code": "AssetCreator",
+        "name": "AssetCreator",
+        "description": "AssetCreator"
+      },
+      {
+        "code": "PTIS_MASTER",
+        "name": "PTIS Master",
+        "description": "Who has a access to Property Tax Masters"
+      },
+      {
+        "code": "PTIS_ADMIN",
+        "name": "PTIS Admin",
+        "description": "Who has a access to change tax rates, factor etc"
+      },
+      {
+        "code": "TL_ADMIN",
+        "name": "TL Admin",
+        "description": "Who has a access to Trade License Masters"
+      },
+      {
+        "code": "TL_CREATOR",
+        "name": "TL Creator",
+        "description": "Who has a access to Trade License Services"
+      },
+      {
+        "code": "COLL_OPERATOR",
+        "name": "Collection Operator",
+        "description": "Can Create, Search and Update Receipt"
+      },
+      {
+        "code": "BANK_COLL_OPERATOR",
+        "name": "Bank Collection Operator",
+        "description": "Can Create, Search Receipt"
+      },
+      {
+        "code": "CSC_COLL_OPERATOR",
+        "name": "CSC Collection Operator",
+        "description": "Can Create, Search Receipt"
+      },
+      {
+        "code": "LEGACY_RECEIPT_CREATOR",
+        "name": "Legacy Receipt Creator",
+        "description": "Legacy Receipt Creator"
+      },
+      {
+        "code": "TL_APPROVER",
+        "name": "TL Approver",
+        "description": "Who has a access to Trade License Workflow"
+      },
+      {
+        "code": "COLL_REP_VIEW",
+        "name": "Collection Report Viewer",
+        "description": "Collection Report Viewer can view Reports"
+      },
+      {
+        "code": "COMMISSIONER",
+        "name": "Commissioner",
+        "description": "Commissioner"
+      },
+      {
+        "code": "AE_CREATOR",
+        "name": "Abstract Estimate Creator",
+        "description": "Who has a access to create Abstract Estimate"
+      },
+      {
+        "code": "WORKS_FINANCIAL_APPROVER",
+        "name": "Financials Approver",
+        "description": "Who has a access to capture Financial details and budgetary/financial sanction"
+      },
+      {
+        "code": "DE_CREATOR",
+        "name": "Detailed Estimate Creator",
+        "description": "Who has a access to create Detailed Estimate"
+      },
+      {
+        "code": "LOA_CREATOR",
+        "name": "LOA Creator",
+        "description": "Who has a access to create Letter Of Acceptance"
+      },
+      {
+        "code": "WO_CREATOR",
+        "name": "WO Creator",
+        "description": "Who has a access to create Work Order"
+      },
+      {
+        "code": "WORKS_BILL_CREATOR",
+        "name": "Works Bill Creator",
+        "description": "Who has a access to create Contractor Bill"
+      },
+      {
+        "code": "CONTRACTOR_ADVANCE_CREATOR",
+        "name": "Contractor Advance creator",
+        "description": "Who has a access to create Contractor Advance"
+      },
+      {
+        "code": "MB_CREATOR",
+        "name": "MB creator",
+        "description": "Who has a access to create MB"
+      },
+      {
+        "code": "WORKS_APPROVER",
+        "name": "Works Approver",
+        "description": "Who has a access to approve/verify Works objects"
+      },
+      {
+        "code": "WORKS_ADMINISTRATOR",
+        "name": "Works Administrator",
+        "description": "Who has a access to all the transactions, masters and reports"
+      },
+      {
+        "code": "WORKS_MASTER_CREATOR",
+        "name": "Works Master creator",
+        "description": "Who has a access to all the works masters."
+      },
+      {
+        "code": "DGRO",
+        "name": "Department Grievance Routing Officer",
+        "description": "GRO for a sepcific dept who assings the grievances to last mile employees"
+      },
+      {
+        "code": "CSR",
+        "name": "Customer Support Representative",
+        "description": "Employee who files and follows up complaints on behalf of the citizen"
+      },
+      {
+        "code": "PGR-ADMIN",
+        "name": "PGR Administrator",
+        "description": "Admin role that has super access over the system"
+      },
+      {
+        "code": "CEMP",
+        "name": "Counter Employee",
+        "description": "Employee at the counter who performs assessment on behalf of citizen"
+      },
+      {
+        "code": "FEMP",
+        "name": "Field Employee",
+        "description": "Employee on the field"
+      },
+      {
+        "code": "PTADMIN",
+        "name": "ULB Administrator",
+        "description": "Admin role that as access over an ulb"
+      },
+      {
+        "code": "STADMIN",
+        "name": "State Administrator",
+        "description": "Admin role that as access over a state"
+      },
+      {
+        "code": "EGF_BILL_CREATOR",
+        "name": "EGF Bill Creator",
+        "description": "Employee who creates Bills in finance "
+      },
+      {
+        "code": "EGF_BILL_APPROVER",
+        "name": "EGF Bill Approver",
+        "description": "Employee who takes part in  Bills  approval in finance "
+      },
+      {
+        "code": "EGF_VOUCHER_CREATOR",
+        "name": "Finance Voucher Creator",
+        "description": "One who can create a voucher"
+      },
+      {
+        "code": "EGF_VOUCHER_APPROVER",
+        "name": "Finance Voucher Approver",
+        "description": "One who can approve a voucher"
+      },
+      {
+        "code": "EGF_PAYMENT_CREATOR",
+        "name": "Finance Payment Creator",
+        "description": "One who can create a payment"
+      },
+      {
+        "code": "EGF_PAYMENT_APPROVER",
+        "name": "Finance Payment Approver",
+        "description": "One who can approve a payment"
+      },
+      {
+        "code": "EGF_MASTER_ADMIN",
+        "name": "Finance Master Admin",
+        "description": "One who is the administrator for all master data in Finance"
+      },
+      {
+        "code": "EGF_REPORT_VIEW",
+        "name": "Finance Report View",
+        "description": "One who has acess to all financial reports"
+      },
+      {
+        "code": "COLL_RECEIPT_CREATOR",
+        "name": "Collections Receipt Creator",
+        "description": "One who can create and approve a receipt and receipt voucher"
+      },
+      {
+        "code": "COLL_REMIT_TO_BANK",
+        "name": "Collections Remitter",
+        "description": "One who can remit the instruments to bank"
+      },
+     {
+        "code": "SYS_INTEGRATOR_FINANCE",
+        "name": "System Integrator Finance",
+        "description": "Role for allowing system integration of Finance app with rainmaker"
+      },
+      {
+        "code": "SYS_INTEGRATOR_WATER_SEW",
+        "name": "System Integrator W&S",
+        "description": "Role for allowing system integration of Water and Sewerage app with rainmaker"
+      },
+      {
+        "code": "TL_CEMP",
+        "name": "TL Counter Employee",
+        "description": "Counter Employee in Trade License who files TL on behalf of the citizen"
+      },
+      {
+        "code": "TL_APPROVER",
+        "name": "TL Approver",
+        "description": "Approver who verifies and approves the TL application"
+      },
+     {
+        "code": "EMPLOYEE_FINANCE",
+        "name": "Employee Finance",
+        "description": "All Employees who use Finance application"
+      },
+      {
+        "code": "EGF_ADMINISTRATOR",
+        "name": "Finance Adminsitrator",
+        "description": "All Employees who are Finance application administrator"
+      },
+      {
+        "code": "PGR_LME",
+        "name": "PGR Last Mile Employee",
+        "description": "PGR Last mile employee to whom the request can be assigned"
+      },
+      {
+        "code": "TL_FIELD_INSPECTOR",
+        "name": "TL Field Inspector",
+        "description": "Trade license field inspector"
+      },
+      {
+        "code": "TL_DOC_VERIFIER",
+        "name": "TL doc verifier",
+        "description": "Trade license document verifier"
+      },
+      {
+        "code": "NOC_CEMP",
+        "name": "NoC counter employee",
+        "description": "Fire NOC Counter Employee"
+      },
+      {
+        "code": "NOC_DOC_VERIFIER",
+        "name": "NoC Doc Verifier",
+        "description": "Fire NOC document verifier"
+      },
+      {
+        "code": "NOC_FIELD_INSPECTOR",
+        "name": "NoC Field Inpector",
+        "description": "Fire NOC  Field Inpector"
+      },
+      {
+        "code": "NOC_APPROVER",
+        "name": "NoC counter Approver",
+        "description": "Fire NOC Approver"
+      },
+      {
+        "code": "BPA_ARCHITECT",
+        "name": "BPA Architect",
+        "description": "BPA Architect"
+      },
+      {
+        "code": "BPA_ENGINEER",
+        "name": "BPA Engineer",
+        "description": "BPA Engineer"
+      },
+      {
+        "code": "BPA_BUILDER",
+        "name": "BPA Builder",
+        "description": "BPA Builder"
+      },
+      {
+        "code": "BPA_STRUCTURALENGINEER",
+        "name": "BPA Structural Engineer",
+        "description": "BPA Structural Engineer"
+      },
+      {
+  
+        "code": "BPA_TOWNPLANNER",
+        "name": "BPA Town Planner",
+        "description": "BPA Town Planner"
+      },
+      {
+        "code": "BPA_SUPERVISOR",
+        "name": "BPA Supervisor",
+        "description": "BPA Supervisor"
+      },
+      {
+        "code": "ANONYMOUS",
+        "name": "Anonymous User",
+        "description": "Anonymous User to be used in case of no auth"
+      },
+      {
+        "code": "BPAREG_APPROVER",
+        "name": "BPAREG Approver",
+        "description": "BPA Stakeholder workflow Approver"
+      },
+      {
+        "code": "BPAREG_DOC_VERIFIER",
+        "name": "BPAREG doc verifier",
+        "description": "BPA Stakeholder workflow document verifier"
+      },
+      {
+        "code": "BPAREG_EMPLOYEE",
+        "name": "BPAREG Employee",
+        "description": "BPA Stakeholder Employee"
+      },
+      {
+        "code": "BPA_APPROVER",
+        "name": "BPA Services Approver",
+        "description": "BPA Services workflow Approver"
+      },
+      {
+        "code": "BPA_VERIFIER",
+        "name": "BPA Services verifier",
+        "description": "BPA Services workflow document & field inspection verifier"
+      },
+      {
+        "code": "CITY_ADMIN",
+        "name": "Admin of a ULB",
+        "description": "Admin of ULB to get access to the ULB level"
+      },
+      {
+        "code": "WS_CEMP",
+        "name": "WS Counter Employee",
+        "description": "WS counter employee can take action as citizen"
+      },
+      {
+        "code": "WS_DOC_VERIFIER",
+        "name": "WS Document Verifier",
+        "description": "WS Document Verifier"
+      },
+      {
+        "code": "WS_FIELD_INSPECTOR",
+        "name": "WS Field Inspector",
+        "description": "WS Inspector can take action like verify and forword, send back to do"
+      },
+      {
+        "code": "WS_APPROVER",
+        "name": "WS Approver",
+        "description": "WS Approver can approve the connection application"
+      },
+      {
+        "code": "WS_CLERK",
+        "name": "WS Clerk",
+        "description": "WS Clerk can activate the connection application"
+      },
+      {
+        "code": "SW_CEMP",
+        "name": "SW Counter Employee",
+        "description": "SW counter employee can take action as citizen"
+      },
+      {
+        "code": "SW_DOC_VERIFIER",
+        "name": "SW Document Verifier",
+        "description": "SW Document Verifier"
+      },
+      {
+        "code": "SW_FIELD_INSPECTOR",
+        "name": "SW Field Inspector",
+        "description": "SW Inspector can take action like verify and forword, send back to do"
+      },
+      {
+        "code": "SW_APPROVER",
+        "name": "SW Approver",
+        "description": "SW Approver can approve the connection application"
+      },
+      {
+        "code": "SW_CLERK",
+        "name": "SW Clerk",
+        "description": "SW Clerk can activate the connection application"
+      },
+      {
+        "code": "PT_CEMP",
+        "name": "PT Counter Employee",
+        "description": "Property Counter Employee"
+      },
+      {
+        "code": "PT_DOC_VERIFIER",
+        "name": "PT Doc Verifier",
+        "description": "Property Document Verifier"
+      },
+      {
+        "code": "PT_FIELD_INSPECTOR",
+        "name": "PT Field Inspector",
+        "description": "Property Field Inspector"
+      },
+      {
+        "code": "PT_APPROVER",
+        "name": "PT Counter Approver",
+        "description": "PT Approver"
+      },
+      {
+        "code": "SYSTEM",
+        "name": "System user",
+        "description": "System user role"
+      },
+      {
+        "code": "BPA_FIELD_INSPECTOR",
+        "name": "BPA Field Inspector",
+        "description": "BPA Service field inspector"
+      },
+      {
+        "code": "BPA_NOC_VERIFIER",
+        "name": "BPA NOC Verifier",
+        "description": "BPA Service NOC verifier"
+      },
+      {
+        "code": "FIRE_NOC_APPROVER",
+        "name": "Fire Noc Department Approver",
+        "description": "Fire Noc application approver"
+      },
+      {
+        "code": "AIRPORT_AUTHORITY_APPROVER",
+        "name": "Airport authority Approver",
+        "description": "Airport authority application approver"
+      },
+      {
+        "code": "CFC",
+        "name": "Citizen Feedback Centre",
+        "description": "Citizen Feedback Centre"
+      },
+      {
+        "code": "FSM_CREATOR_EMP",
+        "name": "FSM Employee Application Creator",
+        "description": "FSM Employee Application Creator"
+      },
+      {
+        "code": "FSM_EDITOR_EMP",
+        "name": "FSM Employee Application Editor",
+        "description": "FSM Employee Application Editor"
+      },
+      {
+        "code": "FSM_VIEW_EMP",
+        "name": "FSM Employee Application Viewer",
+        "description": "FSM Employee Application Viewer"
+      },
+      {
+        "code": "FSM_REPORT_VIEWER",
+        "name": "FSM Employee Report Viewer",
+        "description": "FSM Employee Report Viewer"
+      },
+      {
+        "code": "FSM_DASHBOARD_VIEWER",
+        "name": "FSM Employee Dashboard Viewer",
+        "description": "FSM Employee Dashboard Viewer"
+      },
+      {
+        "code": "FSM_ADMIN",
+        "name": "FSM Administrator",
+        "description": "FSM Administrator"
+      },
+      {
+        "code": "FSM_DSO",
+        "name": "FSM Desluding Operator",
+        "description": "FSM Desluding Operator"
+      },
+      {
+        "code": "FSM_DRIVER",
+        "name": "FSM Driver",
+        "description": "FSM Driver"
+      },
+      {
+        "code": "FSM_EMP_FSTPO",
+        "name": "FSM FSTP Opperator",
+        "description": "FSM FSTP Opperator"
+      },
+      {
+        "code": "FSM_COLLECTOR",
+        "name": "FSM Payment Collector",
+        "description": "FSM  Payment Collector"
+      },
+      {
+        "code": "QA_AUTOMATION",
+        "name": "QA Automation",
+        "description": "QA Automation Role"
+      },
+      {
+        "code": "HRMS_ADMIN",
+        "name": "HRMS Admin",
+        "description": "HRMS Admin"
+      },
+      {
+        "code": "UC_EMP",
+        "name": "Universal Collection Employee",
+        "description": "Universal Miscellaneous Collection Employee"
+      },
+      {
+        "code": "ANONYMUS",
+        "name": "Any User",
+        "description": "Can Transform the Data"
+      },
+      {
+        "code": "CR_PT",
+        "name": "Property Tax Receipt Cancellator",
+        "description": "Property Tax Receipt Cancelling Employee"
+      },
+      {
+        "code": "AUTO_ESCALATE",
+        "name": "Auto Escalation Employee",
+        "description": "Auto Escalation Employee"
+      },
+      {
+        "code": "PT_COLLECTION_EMP",
+        "name": "Property Tax Collection Employee",
+        "description": "PTCollection Register Report"
+      },
+      {
+        "code": "SUPERVISOR",
+        "name": "Auto Escalation Supervisor",
+        "description": "Escalation to particular role"
+      },
+      {
+        "code": "NATADMIN",
+        "name": "National Dashboard Admin",
+        "description": "Admin role that as access over a Nation"
+      },
+      {
+        "code": "BND_CEMP",
+        "name": "Birth and Death User",
+        "description": "Birth and Death User"
+      },
+      {
+        "code": "DASHBOARD_REPORT_VIEWER",
+        "name": "Birth and Death Dashboard User",
+        "description": "Birth and Death Dashboard User"
+      },
+      {
+        "code": "BIRTH_APPLICATION_CREATOR",
+        "name": "Birth Application Creator",
+        "description": "Birth User that can only create new applications"
+      },
+      {
+        "code": "DEATH_APPLICATION_CREATOR",
+        "name": "Death Application Creator",
+        "description": "Death User that can only create new applications"
+      },
+      {
+        "code": "BIRTH_APPLICATION_VIEWER",
+        "name": "Birth Application Viewer",
+        "description": "Birth User that can only search and view applications"
+      },
+      {
+        "code": "DEATH_APPLICATION_VIEWER",
+        "name": "Death Application Viewer",
+        "description": "Death User that can only search and view applications"
+      },
+      {
+        "code": "BIRTH_REPORT_VIEWER",
+        "name": "Birth Report Viewer",
+        "description": "Birth and Death User that can view tabular reports"
+      },
+      {
+        "code": "DEATH_REPORT_VIEWER",
+        "name": "Death Report Viewer",
+        "description": "Death User that can view tabular reports"
+      },
+      {
+        "code": "BIRTH_APPLICATION_EDITOR",
+        "name": "Birth Application Editor",
+        "description": "Birth User that can edit existing applications"
+      },
+      {
+        "code": "DEATH_APPLICATION_EDITOR",
+        "name": "DEATH Application Editor",
+        "description": "Death User that can edit existing applications"
+      },
+      {
+        "code": "CR_WS",
+        "name": "WS Receipt Cancellator",
+        "description": "WS Receipt Cancelling Employee"
+      },
+      {
+        "code": "INTERNAL_MICROSERVICE_ROLE",
+        "name": "Internal Microservice Role",
+        "description": "Internal role for plain access"
+      },
+      {
+        "code": "WATER_REPORT_VIEWER",
+        "name": "Water Report Viewer",
+        "description": "Water Connection User that can view reports"
+      },
+      {
+        "code": "SEWERAGE_REPORT_VIEWER",
+        "name": "Sewerage Report Viewer",
+        "description": "Sewerage Connection User that can view reports"
+      },
+      {
+        "code": "OBPS_REPORT_VIEWER",
+        "name": "OBPS Report Viewer",
+        "description": "OBPS User that can view OBPS reports"
+      },
+      {
+        "code": "REINDEXING_ROLE",
+        "name": "Reindexing Role",
+        "description": "Role for reindexing for encrypted data access"
+      },
+      {
+        "code": "NDA_SYSTEM",
+        "name": "National Dashboard Systeme user",
+        "description": "Push data through adopter for all states"
+      },
+      {
+        "code": "TL_REPORT_VIEWER",
+        "name": "TL Report Viewer",
+        "description": "TL User that can view TL reports"
+      },
+      {
+        "code": "FIRENOC_REPORT_VIEWER",
+        "name": "Fire Noc Report Viewer",
+        "description": "Fire Noc User that can view Fire Noc reports"
+      },
+      {
+        "code": "PT_REPORT_VIEWER",
+        "name": "PT Report Viewer",
+        "description": "PT User that can view PT reports"
+      },
+      {
+        "code": "MDMS_ADMIN",
+        "name": "MDMS Admin",
+        "description": "Mdms admin"
+      },
+      {
+        "code": "LOC_ADMIN",
+        "name": "Localisation admin",
+        "description": "LOC_ADMIN"
+      },
+      {
+        "code": "PQM_ADMIN",
+        "name": "PQM Admin",
+        "description": "Pqm Admin"
+      },
+      {
+        "code": "PQM_TP_OPERATOR",
+        "name": "PQM TP OPERATOR",
+        "description": "Pqm tp Operator"
+      }
+    
   ]
 }
