@@ -255,6 +255,23 @@
                    "code": "pg.citya"
                }
            ]
-       }
+       },
+       {
+        "module": "Tqm",
+        "code": "Tqm",
+        "active": true,
+        "order": 14,
+        "tenants": [
+            {
+                "code": "pg.cityb"
+            },
+            {
+                "code": "pg.cityc"
+            },
+            {
+                "code": "pg.citya"
+            }
+        ]
+      }
     ]
 }
