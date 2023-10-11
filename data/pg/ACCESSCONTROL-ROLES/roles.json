@@ -236,6 +236,58 @@
       "code": "MB_VIEWER",
       "name": "MB_VIEWER",
       "description": "Default role for MB service viewer"
-    }
+    },
+    {
+      "code": "FSM_CREATOR_EMP",
+      "name": "FSM Employee Application Creator",
+      "description": "FSM Employee Application Creator"
+    },
+    {
+      "code": "FSM_EDITOR_EMP",
+      "name": "FSM Employee Application Editor",
+      "description": "FSM Employee Application Editor"
+    },
+    {
+      "code": "FSM_DASHBOARD_VIEWER",
+      "name": "FSM Employee Dashboard Viewer",
+      "description": "FSM Employee Dashboard Viewer"
+    },
+    {
+      "code": "FSM_ADMIN",
+      "name": "FSM Administrator",
+      "description": "FSM Administrator"
+    },
+    {
+      "code": "FSM_EMP_FSTPO",
+      "name": "FSM FSTP Opperator",
+      "description": "FSM FSTP Opperator"
+    },
+    {
+      "code": "FSM_COLLECTOR",
+      "name": "FSM Payment Collector",
+      "description": "FSM  Payment Collector"
+    },
+    {
+      "code": "MDMS_ADMIN",
+      "name": "MDMS Admin",
+      "description": "Mdms admin"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "Localisation admin",
+      "description": "LOC_ADMIN"
+    },
+    {
+      "code": "PQM_ADMIN",
+      "name": "PQM Admin",
+      "description": "Pqm Admin"
+    },
+    {
+      "code": "PQM_TP_OPERATOR",
+      "name": "PQM TP OPERATOR",
+      "description": "Pqm tp Operator"
+    }  
   ]
 }
+  
+
