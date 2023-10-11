@@ -248,11 +248,6 @@
         "description": "Default role for all employees"
       },
       {
-        "code": "SUPERUSER",
-        "name": "Super User",
-        "description": "System Administrator. Can change all master data and has access to all the system screens."
-      },
-      {
         "code": "GO",
         "name": "Grievance Officer",
         "description": "Heads the grivance cell. Also all complaints that cannot be routed based on the rules are routed to Grievance Officer."
