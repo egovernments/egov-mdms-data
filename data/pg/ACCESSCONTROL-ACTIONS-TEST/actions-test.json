@@ -4065,18 +4065,6 @@
       "path": ""
     },
     {
-      "id": 332,
-      "name": "Workflow search",
-      "url": "/egov-workflow-v2/egov-wf/process/_search",
-      "parentModule": "",
-      "displayName": "Workflow search",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "egov-workflow-v2",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 334,
       "name": "WorkflowProcessCount",
       "url": "/egov-workflow-v2/egov-wf/process/_count",
@@ -4203,18 +4191,6 @@
       "navigationURL": "integration/uploader/home",
       "path": "Uploader.Home",
       "leftIcon": "places:business-center"
-    },
-    {
-      "id": 344,
-      "name": "Workflow search",
-      "url": "/egov-workflow-v2/egov-wf/process/_search",
-      "parentModule": "",
-      "displayName": "Workflow search",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "egov-workflow-v2",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 345,
