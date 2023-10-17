@@ -419,7 +419,7 @@
           },
           {
               "name": "status",
-              "path": "Data.currentProcessInstance.state.uuid.keyword",
+              "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
               "isMandatory": false
           },
           {
@@ -435,6 +435,16 @@
         {
               "name": "materialCodes",
               "path": "Data.materialCode.keyword",
+              "isMandatory": false
+          },
+        {
+              "name": "stageCodes",
+              "path": "Data.stageCode.keyword",
+              "isMandatory": false
+          },
+        {
+              "name": "scheduledDate",
+              "path": "Data.scheduledDate.keyword",
               "isMandatory": false
           },
           {
@@ -466,12 +476,16 @@
           "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
-          "Data.currentProcessInstance",
-          "Data.auditDetails",
-          "Data.processCode",
+          "Data.id",
           "Data.tenantId",
-          "Data.applicationNo",
-          "Data.plantCode"
+          "Data.plantCode",
+          "Data.materialCode",
+          "Data.stageCode",
+          "Data.processCode",
+          "Data.scheduledDate",
+          "Data.auditDetails",
+          "Data.currentProcessInstance"
+          
       ]
   }
 
