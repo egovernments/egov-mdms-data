@@ -13474,6 +13474,17 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2428,
+      "name": "Update PQM Application",
+      "url": "/pqm-service/v1/_createWithWorkflow",
+      "displayName": "Create PQM Appliacation with Workflow",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
