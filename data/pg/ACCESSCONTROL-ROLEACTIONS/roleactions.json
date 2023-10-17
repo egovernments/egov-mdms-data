@@ -2748,13 +2748,13 @@
     },
     {
       "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_EDITOR_EMP",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -2766,37 +2766,37 @@
       },
     {
       "rolecode": "FSM_VIEW_EMP",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_ADMIN",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_DRIVER",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_COLLECTOR",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_DSO",
-      "actionid": 333,
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -4209,6 +4209,24 @@
     "actionid": 294,
     "actioncode": "",
     "tenantId": "pg"
-   }
+   },
+   {
+    "rolecode": "PQM_ADMIN",
+    "actionid": 22,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+  {
+    "rolecode": "PQM_TP_OPERATOR",
+    "actionid": 22,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+  {
+    "rolecode": "SUPERUSER",
+    "actionid": 22,
+    "actioncode": "",
+    "tenantId": "pg"
+  }
   ]
 }
