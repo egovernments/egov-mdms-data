@@ -419,7 +419,7 @@
           },
           {
               "name": "status",
-              "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+              "path": "Data.currentProcessInstance.state.uuid.keyword",
               "isMandatory": false
           },
           {
