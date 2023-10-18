@@ -3003,12 +3003,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 347,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "FSM_EDITOR_EMP",
       "actionid": 330,
       "actioncode": "",
@@ -3093,11 +3087,11 @@
       "tenantId": "pg"
     },
     {
-        "rolecode": "CITIZEN",
-        "actionid": 295,
-        "actioncode": "",
-        "tenantId": "pg"
-      },
+      "rolecode": "CITIZEN",
+      "actionid": 295,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
     {
       "rolecode": "FSM_VIEW_EMP",
       "actionid": 22,
@@ -4514,7 +4508,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-  {
+    {
       "rolecode": "PQM_ADMIN",
       "actionid": 327,
       "actioncode": "",
@@ -4539,64 +4533,64 @@
       "tenantId": "pg"
     },
     {
-    "rolecode": "SUPERUSER",
-    "actionid": 294,
-    "actioncode": "",
-    "tenantId": "pg"
-   },
-   {
-    "rolecode": "PQM_ADMIN",
-    "actionid": 22,
-    "actioncode": "",
-    "tenantId": "pg"
-  },
-  {
-    "rolecode": "PQM_TP_OPERATOR",
-    "actionid": 22,
-    "actioncode": "",
-    "tenantId": "pg"
-  },
-  {
-    "rolecode": "SUPERUSER",
-    "actionid": 22,
-    "actioncode": "",
-    "tenantId": "pg"
-  },
-  {
-   "rolecode": "PQM_ADMIN",
-   "actionid": 229,
-   "actioncode": "",
-   "tenantId": "pg"
-  },
-  {
-   "rolecode": "PQM_TP_OPERATOR",
-   "actionid": 229,
-   "actioncode": "",
-   "tenantId": "pg"
-  },
-  {
-   "rolecode": "SUPERUSER",
-   "actionid": 229,
-   "actioncode": "",
-   "tenantId": "pg"
-  },
-  {
-   "rolecode": "PQM_ADMIN",
-   "actionid": 226,
-   "actioncode": "",
-   "tenantId": "pg"
-  },
-  {
-   "rolecode": "PQM_TP_OPERATOR",
-   "actionid": 226,
-   "actioncode": "",
-   "tenantId": "pg"
-  },
-  {
-   "rolecode": "SUPERUSER",
-   "actionid": 226,
-   "actioncode": "",
-   "tenantId": "pg"
-  }
+      "rolecode": "SUPERUSER",
+      "actionid": 294,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 229,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 229,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 229,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 226,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 226,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 226,
+      "actioncode": "",
+      "tenantId": "pg"
+    }
   ]
 }
