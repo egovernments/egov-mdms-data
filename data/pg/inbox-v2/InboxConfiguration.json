@@ -423,6 +423,11 @@
               "isMandatory": false
           },
           {
+              "name": "wfStatus",
+              "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+              "isMandatory": false
+          },
+          {
               "name": "processCodes",
               "path": "Data.processCode.keyword",
               "isMandatory": false
