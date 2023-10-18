@@ -3395,8 +3395,7 @@
       "serviceCode": "FSMREQUESTREPORT_METADATA",
       "code": "null",
       "path": "FSM Report"
-    }
-    ,
+    },
     {
       "id": 274,
       "name": "FSM-DailyCollectionReport-Metadata",
@@ -3931,8 +3930,7 @@
       "serviceCode": "fsm-calculator",
       "code": "null",
       "path": ""
-    }
-    ,
+    },
     {
       "id": 321,
       "name": "FSM Estimate",
@@ -4099,7 +4097,6 @@
       "code": "null",
       "path": "Billing Service.SearchDemand"
     },
-    
     {
       "id": 336,
       "name": "Locality searcher endpoint for FSM",
@@ -4231,6 +4228,18 @@
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 346,
+      "name": "schema Create",
+      "url": "/mdms-v2/schema/v1/_create",
+      "parentModule": "",
+      "displayName": "Schema Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
