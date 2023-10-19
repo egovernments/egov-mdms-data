@@ -4240,6 +4240,18 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 347,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/PQM.SourceType",
+      "displayName": "create PQM.SourceType",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
