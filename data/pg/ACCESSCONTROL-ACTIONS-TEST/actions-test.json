@@ -4240,6 +4240,17 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 347,
+      "name": "Create PQM Application",
+      "url": "/pqm-service/v1/_createWithWorkflow",
+      "displayName": "Apply PQM Applications",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
