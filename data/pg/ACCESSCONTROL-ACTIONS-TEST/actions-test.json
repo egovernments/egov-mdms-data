@@ -4253,6 +4253,21 @@
       "serviceCode": "msea-event-notification",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 360,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "sanitation",
+      "enabled": true,
+      "serviceCode": "sanitation",
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/sanitation-ui/employee/",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     }
   ]
 }
