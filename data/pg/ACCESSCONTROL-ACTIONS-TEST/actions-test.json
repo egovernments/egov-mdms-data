@@ -4242,7 +4242,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 359,
+      "name": "mSeva Event Search",
+      "url": "/egov-user-event/v1/events/_search",
+      "displayName": "mSeva Event Notification",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "msea-event-notification",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
     
