@@ -261,6 +261,7 @@
         "code": "Tqm",
         "active": true,
         "order": 14,
+        "additionalComponent": ["Test"],
         "tenants": [
             {
                 "code": "pg.cityb"
