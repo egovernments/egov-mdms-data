@@ -57,16 +57,6 @@
       "bannerLabel": "ESTIMATE_UPLOAD_BANNER_TEXT",
       "documents": [
         {
-          "code": "DETAILED_ESTIMATE",
-          "name" : "ESTIMATE_DOC_DETAILED_ESTIMATE",
-          "active": true,
-          "isMandatory": false,
-          "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
-          "maxFilesAllowed": 1
-        },
-        {
           "code": "LABOUR_ANALYSIS",
           "name" : "ESTIMATE_DOC_LABOUR_ANALYSIS",
           "active": true,
