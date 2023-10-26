@@ -177,6 +177,7 @@
            "code": "DSS",
            "active": true,
            "order": 10,
+           "additionalComponent": "Test",
            "tenants": [
                {
                    "code": "pg.cityb"
