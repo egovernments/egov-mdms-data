@@ -177,7 +177,6 @@
            "code": "DSS",
            "active": true,
            "order": 10,
-           "additionalComponent": "Test",
            "tenants": [
                {
                    "code": "pg.cityb"
@@ -262,7 +261,7 @@
         "code": "Tqm",
         "active": true,
         "order": 14,
-        "additionalComponent": ["Test"],
+        "additionalComponent": "Test",
         "tenants": [
             {
                 "code": "pg.cityb"
