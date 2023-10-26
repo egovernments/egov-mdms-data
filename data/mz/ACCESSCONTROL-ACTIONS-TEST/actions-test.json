@@ -12665,6 +12665,18 @@
       "navigationURL": "/health-ui/employee/hrms/inbox",
       "path": "HRMS.Search",
       "leftIcon": "social:people"
+    },
+    {
+      "id": 1673,
+      "name": "Downsync",
+      "url": "/referralmanagement/beneficiary-downsync/v1/_get",
+      "displayName": "Downsync",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
     }
   ]
 }
