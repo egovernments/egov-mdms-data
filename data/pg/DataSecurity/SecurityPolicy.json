@@ -335,6 +335,18 @@
           "jsonPath": "address/*/street",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "username",
+          "jsonPath": "userDetails/username",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "password",
+          "jsonPath": "userDetails/password",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
