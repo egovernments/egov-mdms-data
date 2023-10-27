@@ -281,21 +281,15 @@
        "active": true,
        "order": 2,
        "tenants": [
-        {
-          "code": "pb.jalandhar"
-        },
-        {
-          "code": "pb.amritsar"
-        },
-        {
-          "code": "pb.nawanshahr"
-        },
-        {
-          "code": "pb.phagwara"
-        },
-        {
-          "code": "pb.derabassi"
-        }
+            {
+                "code": "pg.cityb"
+            },
+            {
+                "code": "pg.cityc"
+            },
+            {
+                "code": "pg.citya"
+            }
       ]
     }
 ]
