@@ -156,6 +156,78 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+    "MusterRoll": {
+      "masterName": "MusterRoll",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "WageSeekerSkills": {
+      "masterName": "WageSeekerSkills",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "OrgType": {
+      "masterName": "OrgType",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "OrgFunctionCategory": {
+      "masterName": "OrgFunctionCategory",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "OrgFunctionClass": {
+      "masterName": "OrgFunctionClass",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "OrgTaxIdentifier": {
+      "masterName": "OrgTaxIdentifier",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "OrgTransferCode": {
+      "masterName": "OrgTransferCode",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "ProjectType": {
+      "masterName": "ProjectType",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "NatureOfWork": {
+      "masterName": "NatureOfWork",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "DIGIT-UI": {
@@ -244,6 +316,24 @@
       "uniqueKeys": [
         "$.code",
         "$.tenantId"
+      ]
+    }
+  },
+  "ifms": {
+    "HeadOfAccounts": {
+      "masterName": "HeadOfAccounts",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SchemeDetails": {
+      "masterName": "SchemeDetails",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
       ]
     }
   },
@@ -437,6 +527,32 @@
 			]
 		}
   },
+  "expense": {
+    "HeadCodes": {
+      "masterName": "HeadCodes",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+				"$.code"
+      ]
+    },
+    "BusinessService": {
+      "masterName": "BusinessService",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+				"$.code"
+      ]
+    },
+    "ApplicableCharges": {
+      "masterName": "ApplicableCharges",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+				"$.code"
+      ]
+    }
+  },
   "works": {
     "ScheduleCategory": {
       "masterName": "ScheduleCategory",
@@ -490,6 +606,54 @@
       "uniqueKeys": [
         "$.code",
         "$.tenantId"
+      ]
+    },
+    "CBORoles": {
+      "masterName": "CBORoles",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "Overheads": {
+      "masterName": "Overheads",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "OICRoles": {
+      "masterName": "OICRoles",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "ContractType": {
+      "masterName": "ContractType",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SorId": {
+      "masterName": "SorId",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "Category": {
+      "masterName": "Category",
+      "isStateLevel": true,
+      "moduleDefinition": null,
+      "uniqueKeys": [
+        "$.code"
       ]
     }
   },
