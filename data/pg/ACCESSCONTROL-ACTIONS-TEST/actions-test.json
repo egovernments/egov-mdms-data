@@ -3863,17 +3863,6 @@
       "path": ""
     },
     {
-      "id": 315,
-      "name": "Update Vehicle Application",
-      "url": "/vehicle/v1/_update",
-      "displayName": "Update Vehicle",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "vehicle",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 316,
       "name": "Vehicle Trip Create",
       "url": "/vehicle/trip/v1/_create",
