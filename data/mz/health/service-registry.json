@@ -506,7 +506,7 @@
       "service": "DOWNSYNC",
       "actions": [
         {
-          "action": "downsync",
+          "action": "search",
           "entityName": "Downsync",
           "path": "/referralmanagement/beneficiary-downsync/v1/_get"
         }
