@@ -4265,7 +4265,7 @@
     },
     {
       "id": 349,
-      "name": "Search PQM Application",
+      "name": "Update PQM Application",
       "url": "/pqm/v1/_update",
       "displayName": "Update PQM Appliacations",
       "orderNumber": 1,
@@ -4276,9 +4276,20 @@
     },
     {
       "id": 350,
-      "name": "Update PQM Application",
+      "name": "Search  PQM Application",
       "url": "/pqm/v1/_search",
-      "displayName": "Search PQM Appliacations",
+      "displayName": "Search PQM Applications",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 351,
+      "name": "Search PQM Application",
+      "url": "/inbox/v2/_search",
+      "displayName": "Search PQM Applications",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "PQM",
