@@ -275,7 +275,17 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.totalAmount",  "Data.additionalDetails", "Data.businessService","Data.currentProcessInstance", "Data.auditDetails","Data.referenceId"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.billNumber",
+        "Data.totalAmount",
+        "Data.additionalDetails",
+        "Data.businessService",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.referenceId"
+      ]
     },
     {
       "module": "measurement-service",
@@ -321,7 +331,6 @@
           "isMandatory": false,
           "operator": "EQUAL"
         }
-
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
@@ -343,7 +352,91 @@
         "Data.contract.contractNumber",
         "Data.contract.additionalDetails"
       ]
+    },
+    {
+      "module": "pqm",
+      "index": "pqm-application",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "wfStatus",
+          "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "processCodes",
+          "path": "Data.processCode.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "plantCodes",
+          "path": "Data.plantCode.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "materialCodes",
+          "path": "Data.materialCode.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "stageCodes",
+          "path": "Data.stageCode.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "scheduledDate",
+          "path": "Data.scheduledDate.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "ids",
+          "path": "Data.id.keyword",
+          "isMandatory": false,
+          "operator": "WILDCARD"
+        },
+        {
+          "name": "fromDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.@timestamp",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.id",
+        "Data.tenantId",
+        "Data.plantCode",
+        "Data.materialCode",
+        "Data.stageCode",
+        "Data.processCode",
+        "Data.scheduledDate",
+        "Data.auditDetails",
+        "Data.currentProcessInstance"
+      ]
     }
-
   ]
 }
