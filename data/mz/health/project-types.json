@@ -275,6 +275,21 @@
               ],
               "deliveryStrategy": "INDIRECT",
               "id": 4
+            },
+            {
+              "mandatoryWaitSinceLastDeliveryInDays": "20",
+              "ProductVariants": [
+                {
+                  "productVariantId": "PVAR-2023-02-22-000021",
+                  "quantity": 1
+                },
+                {
+                  "productVariantId": "PVAR-2023-03-03-000023",
+                  "quantity": 1
+                }
+              ],
+              "deliveryStrategy": "INDIRECT",
+              "id": 5
             }
           ]
         },
