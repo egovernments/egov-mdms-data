@@ -4296,6 +4296,17 @@
      "serviceCode": "egov-workflow-v2",
      "code": "null",
      "path": ""
-   }
+   },
+   {
+    "id": 357,
+    "name": "Search  PQM Application",
+    "url": "/pqm/v1/_search",
+    "displayName": "Search PQM Applications",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "PQM",
+    "code": "null",
+    "path": ""
+  }
   ]
 }
