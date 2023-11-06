@@ -4268,6 +4268,43 @@
       "navigationURL": "/sanitation-ui/employee/",
       "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
+    },{
+      "id": 361,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Manage PQM SourceType",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=SourceType",
+      "path": "9MDMS.PQM.SourceType",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 362,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/PQM.SourceType",
+      "displayName": "create PQM.SourceType",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 363,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_update/PQM.SourceType",
+      "displayName": "Update PQM.SourceType",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
