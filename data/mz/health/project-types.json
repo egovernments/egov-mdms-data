@@ -282,6 +282,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 4,
+              "deliveryStrategy": "INDIRECT",
+              "mandatoryWaitSinceLastDeliveryInDays": null,
+              "doseCriteria": [
+                {
+                  "condition": "3<=age<11",
+                  "ProductVariants": [
+                    {
+                      "productVariantId": "PVAR-2023-11-03-000004",
+                      "quantity": 1
+                    }
+                  ]
+                },
+                {
+                  "condition": "12<=age<60",
+                  "ProductVariants": [
+                    {
+                      "productVariantId": "PVAR-2023-11-03-000005",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
