@@ -261,6 +261,7 @@
         "code": "Tqm",
         "active": true,
         "order": 14,
+        "additionalComponent": "TqmAdminNotification",
         "tenants": [
             {
                 "code": "pg.cityb"
@@ -272,6 +273,24 @@
                 "code": "pg.citya"
             }
         ]
-      }
+      },
+      {
+       "module": "FSM",
+       "code": "FSM",
+       "bannerImage": "https://egov-qa-assets.s3.amazonaws.com/FSM.png",
+       "active": true,
+       "order": 2,
+       "tenants": [
+            {
+                "code": "pg.cityb"
+            },
+            {
+                "code": "pg.cityc"
+            },
+            {
+                "code": "pg.citya"
+            }
+      ]
+    }
     ]
 }
