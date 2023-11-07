@@ -4307,6 +4307,17 @@
     "serviceCode": "PQM",
     "code": "null",
     "path": ""
+  },
+  {
+   "id": 358,
+   "name": "Search  PQM Application",
+   "url": "/mdms-v2/v2/_search",
+   "displayName": "Search PQM Applications",
+   "orderNumber": 0,
+   "enabled": false,
+   "serviceCode": "PQM",
+   "code": "null",
+   "path": ""
   }
   ]
 }
