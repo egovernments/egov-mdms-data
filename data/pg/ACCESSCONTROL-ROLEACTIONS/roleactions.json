@@ -4741,6 +4741,36 @@
       "actionid": 145,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 359,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 359,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 359,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 359,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 359,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
