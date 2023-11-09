@@ -404,8 +404,8 @@
           "isMandatory": false
         },
         {
-          "name": "ids",
-          "path": "Data.id.keyword",
+          "name": "testIds",
+          "path": "Data.testId.keyword",
           "isMandatory": false,
           "operator": "WILDCARD"
         },
@@ -427,7 +427,7 @@
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
-        "Data.id",
+        "Data.testId",
         "Data.tenantId",
         "Data.plantCode",
         "Data.materialCode",
