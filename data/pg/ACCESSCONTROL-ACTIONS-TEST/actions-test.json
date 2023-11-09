@@ -4329,6 +4329,34 @@
     "serviceCode": "msea-event-notification",
     "code": "null",
     "path": ""
-  }
+  },
+ {
+      "id": 360,
+      "name": "DASHBOARD",
+      "url": "url",
+      "displayName": "KIBANA Home",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "iframe",
+      "code": "null",
+      "navigationURL": "/sanitation-ui/employee/utilities/iframe/elastic/home",
+      "path": "iframe.HOME",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+ {
+      "id": 361,
+      "name": "DASHBOARD",
+      "url": "url",
+      "displayName": "KIBANA HCM DASHBOARD",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "iframe",
+      "code": "null",
+      "navigationURL": "/sanitation-ui/employee/utilities/iframe/elastic/hcm",
+      "path": "iframe.HCM",
+      "leftIcon": "dynamic:ContractIcon"
+    },
   ]
 }
