@@ -34,6 +34,11 @@
                "home": {
                   "routePath": "/login/",
                   "isOrigin": true
+               },
+               "hcm": {
+                  "routePath": "/login/s/smc-campaign/app/dashboards#/view/9dcb4380-7ed2-11ee-8fa8-eb29192d3778?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15M,to:now))",
+                  "isOrigin": true,
+                  "title": "DASHBOARD_HCM"
                }
             }
          }
