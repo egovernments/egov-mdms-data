@@ -10,19 +10,25 @@
                   "isOrigin": true
                }
             }
-         }
-      },
-      {
-         "kibana": {
+         },
+          "kibana": {
             "iframe-routes": {
                "home": {
                   "routePath": "/kibana/",
                   "isOrigin": true
                }
             }
-         }
-      },
-    {
+         },
+         "kube": {
+            "iframe-routes": {
+               "home": {
+                  "routePath": "/#/login/",
+                  "isOrigin": false,
+                  "domain": "https://unified-qa-dashboard.digit.org",
+                  "title": "DASHBOARD_KUBE"
+               }
+            }
+         },
          "elastic": {
             "iframe-routes": {
                "home": {
