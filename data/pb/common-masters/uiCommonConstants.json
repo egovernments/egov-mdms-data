@@ -37,6 +37,26 @@
                }
             }
          },
+          {
+            "kibana": {
+               "iframe-routes": {
+                  "home": {
+                     "routePath": "/kibana/",
+                     "isOrigin": true
+                  }
+               }
+            }
+         },
+       {
+            "elastic": {
+               "iframe-routes": {
+                  "home": {
+                     "routePath": "/login/",
+                     "isOrigin": true
+                  }
+               }
+            }
+         },
          "dss": {
             "iframe-routes": {
                "home": {
