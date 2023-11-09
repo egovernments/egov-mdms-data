@@ -517,6 +517,23 @@
         "code": "pb.amritsar"
       }
       ]
-    }
+    },
+    {
+      "module": "Utilities",
+      "code": "Utilities",
+      "active": true,
+      "order": 14,
+      "tenants": [
+         {
+        "code": "pb.jalandhar"
+      },
+      {
+        "code": "pb.nawanshahr"
+      },
+      {
+        "code": "pb.amritsar"
+      }
+      ]
+    },
   ]
 }
