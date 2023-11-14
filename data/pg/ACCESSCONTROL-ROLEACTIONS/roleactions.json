@@ -4782,7 +4782,18 @@
       "actionid": 361,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 362,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 362,
+      "actioncode": "",
+      "tenantId": "pg"
     }
-    
   ]
 }
