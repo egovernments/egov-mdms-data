@@ -4357,6 +4357,21 @@
       "navigationURL": "/sanitation-ui/employee/utilities/iframe/elastic/hcm",
       "path": "iframe.HCM",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 362,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "sanitation",
+      "enabled": true,
+      "serviceCode": "sanitation",
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/sanitation-ui/employee/",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     }
   ]
 }
