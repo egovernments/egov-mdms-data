@@ -248,6 +248,16 @@
       "description": "FSM Employee Application Editor"
     },
     {
+      "code": "FSM_VIEW_EMP",
+      "name": "FSM Employee Application Viewer",
+      "description": "FSM Employee Application Viewer"
+    },
+    {
+      "code": "FSM_REPORT_VIEWER",
+      "name": "FSM Employee Report Viewer",
+      "description": "FSM Employee Report Viewer"
+    },
+    {
       "code": "FSM_DASHBOARD_VIEWER",
       "name": "FSM Employee Dashboard Viewer",
       "description": "FSM Employee Dashboard Viewer"
@@ -256,6 +266,16 @@
       "code": "FSM_ADMIN",
       "name": "FSM Administrator",
       "description": "FSM Administrator"
+    },
+    {
+      "code": "FSM_DSO",
+      "name": "FSM Desluding Operator",
+      "description": "FSM Desluding Operator"
+    },
+    {
+      "code": "FSM_DRIVER",
+      "name": "FSM Driver",
+      "description": "FSM Driver"
     },
     {
       "code": "FSM_EMP_FSTPO",
