@@ -4295,6 +4295,39 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 364,
+      "name": "Create Plant User Mapping",
+      "url": "/pqm-service/plant/user/v1/_create",
+      "displayName": "Create plant-individual mapping",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 365,
+      "name": "Update Plant User Mapping",
+      "url": "/pqm-service/plant/user/v1/_update",
+      "displayName": "Update plant-individual mapping",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 366,
+      "name": "Search Plant User Mapping",
+      "url": "/pqm-service/plant/user/v1/_search",
+      "displayName": "Search plant-individual mapping",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
