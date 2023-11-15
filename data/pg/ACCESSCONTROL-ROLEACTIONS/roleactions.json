@@ -4808,6 +4808,12 @@
         "actionid": 363,
         "actioncode": "",
         "tenantId": "pg"
+      },
+      {
+        "rolecode": "PQM_CRONJOB_SCHEDULER",
+        "actionid": 364,
+        "actioncode": "",
+        "tenantId": "pg"
       }
   ]
 }

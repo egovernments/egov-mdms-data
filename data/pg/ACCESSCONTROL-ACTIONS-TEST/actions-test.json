@@ -4295,6 +4295,17 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 364,
+      "name": "Schedule PQM Application",
+      "url": "/pqm-service/v1/_scheduler",
+      "displayName": "Schedule PQM Applications",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
