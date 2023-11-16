@@ -34,6 +34,17 @@
           "code": "mz"
         }
       ]
-    }
+    },
+    {
+            "module": "Project",
+            "code": "Project",
+            "active": true,
+            "order": 8,
+            "tenants": [
+                {
+                    "code": "mz"
+                }
+            ]
+        }
   ]
 }
