@@ -4383,6 +4383,30 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 364,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/PQM.SourceType",
+      "displayName": "create PQM.SourceType",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 365,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_update/PQM.SourceType",
+      "displayName": "Update PQM.SourceType",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
