@@ -35,6 +35,28 @@
         }
       ]
     },
+      {
+        "module": "Workbench",
+        "code": "Workbench",
+        "active": true,
+        "order": 13,
+        "tenants": [
+            {
+                    "code": "mz"
+                }
+        ]
+    },
+        {
+           "module": "Sample",
+           "code": "Sample",
+           "active": true,
+           "order": 12,
+           "tenants": [
+              {
+                    "code": "mz"
+                }
+           ]
+       },
     {
             "module": "Project",
             "code": "Project",
