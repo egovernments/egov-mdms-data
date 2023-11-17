@@ -4842,6 +4842,36 @@
       "actionid": 23,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
