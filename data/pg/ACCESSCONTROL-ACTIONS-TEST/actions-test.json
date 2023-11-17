@@ -4407,6 +4407,21 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 366,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "workbench",
+      "enabled": true,
+      "serviceCode": "workbench",
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/workbench-ui/employee/",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     }
   ]
 }
