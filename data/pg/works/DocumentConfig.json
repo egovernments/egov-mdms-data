@@ -242,11 +242,12 @@
     {
       "module": "Photograph",
       "allowedFileTypes": ["jpeg","jpg"],
+      "hideHeader": true,
       "maxSizeInMB": 5,
       "documents": [
         {
-          "code": "MB_MEASUREMENT_BOOK",
-          "name" : "img_measurement_book",
+          "code": "photograph",
+          "name" : "img_photo",
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
