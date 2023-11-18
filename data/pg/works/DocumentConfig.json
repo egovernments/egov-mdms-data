@@ -238,6 +238,23 @@
           "maxFilesAllowed": 10
         }
       ]
+    },
+    {
+      "module": "Photograph",
+      "allowedFileTypes": ["jpeg","jpg"],
+      "maxSizeInMB": 2,
+      "documents": [
+        {
+          "code": "MB_MEASUREMENT_BOOK",
+          "name" : "img_measurement_book",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": [],
+          "maxSizeInMB": null,
+          "maxFilesAllowed": 10
+        }
+      ]
     }
   ]
 }
