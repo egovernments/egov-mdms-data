@@ -242,7 +242,7 @@
     {
       "module": "Photograph",
       "allowedFileTypes": ["jpeg","jpg"],
-      "maxSizeInMB": 2,
+      "maxSizeInMB": 5,
       "documents": [
         {
           "code": "MB_MEASUREMENT_BOOK",
@@ -250,9 +250,9 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": [],
-          "maxSizeInMB": null,
-          "maxFilesAllowed": 10
+          "allowedFileTypes": ["jpeg","jpg"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
         }
       ]
     }
