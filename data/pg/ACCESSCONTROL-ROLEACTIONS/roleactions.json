@@ -4878,6 +4878,12 @@
       "actionid": 26,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
