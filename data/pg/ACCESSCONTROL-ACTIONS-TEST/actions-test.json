@@ -4422,6 +4422,50 @@
       "navigationURL": "/workbench-ui/employee/",
       "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
+    },
+    {
+      "id": 367,
+      "name": "Create Plant User Mapping",
+      "url": "/pqm-service/plant/user/v1/_create",
+      "displayName": "Create plant-individual mapping",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 368,
+      "name": "Update Plant User Mapping",
+      "url": "/pqm-service/plant/user/v1/_update",
+      "displayName": "Update plant-individual mapping",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 369,
+      "name": "Search Plant User Mapping",
+      "url": "/pqm-service/plant/user/v1/_search",
+      "displayName": "Search plant-individual mapping",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 370,
+      "name": "Create Workbench UiSchema",
+      "url": "/mdms-v2/v2/_create/Workbench.UISchema",
+      "displayName": "Create workbench ui-schema",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
