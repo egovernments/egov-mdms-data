@@ -238,6 +238,24 @@
           "maxFilesAllowed": 10
         }
       ]
+    },
+    {
+      "module": "Photograph",
+      "allowedFileTypes": ["jpeg","jpg"],
+      "hideHeader": true,
+      "maxSizeInMB": 5,
+      "documents": [
+        {
+          "code": "PHOTOGRAPH",
+          "name" : "img_photo",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["jpeg","jpg"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
     }
   ]
 }
