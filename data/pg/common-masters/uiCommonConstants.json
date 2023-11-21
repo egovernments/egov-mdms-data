@@ -16,6 +16,10 @@
                "home?*": {
                   "routePath": "/route_map/",
                   "isOrigin": true
+               },
+                 "home": {
+                  "routePath": "/route_map/",
+                  "isOrigin": true
                }
             }
          }
