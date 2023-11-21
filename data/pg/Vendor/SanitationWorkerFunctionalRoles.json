@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Vendor",
+  "SanitationWorkerFunctionalRoles": [
+    {
+      "id": 1,
+      "code": "DRIVER",
+      "name": "Driver",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "PLANT_OPERATOR",
+      "name": "Plant Operator",
+      "active": true
+    }
+  ]
+}
