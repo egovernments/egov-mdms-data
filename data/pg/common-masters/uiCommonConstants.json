@@ -10,6 +10,14 @@
                   "isOrigin": true
                }
             }
+         },
+         "view-route":{
+             "iframe-routes": {
+               "home?*": {
+                  "routePath": "/route_map/",
+                  "isOrigin": true
+               }
+            }
          }
       }
    ]
