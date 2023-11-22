@@ -1,10 +1,10 @@
 {
-  "tenantId": "mz",
+  "tenantId": "default",
   "moduleName": "common-masters",
   "StateInfo": [
     {
       "name": "Tete",
-      "code":"mz",
+      "code":"default",
       "bannerUrl": "https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/kar/state-images/Jog%20falls%20High%20Resolution%20images.jpg",
       "logoUrl":"https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/kar/state-images/250px-Seal_of_Karnataka.svg.png",
       "hasLocalisation": true,
@@ -34,6 +34,18 @@
         {
           "label": "rainmaker-hr",
           "value": "rainmaker-hr"
+        },
+        {
+          "label": "rainmaker-workbench",
+          "value": "rainmaker-workbench"
+        },
+        {
+          "label": "rainmaker-schema",
+          "value": "rainmaker-schema"
+        },
+        {
+          "label": "rainmaker-mdms",
+          "value": "rainmaker-mdms"
         }
       ]
     }
