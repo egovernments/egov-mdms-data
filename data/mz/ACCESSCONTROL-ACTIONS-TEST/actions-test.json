@@ -12587,6 +12587,18 @@
       "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1667,
+      "name": "MDMS",
+      "url": "/mdms-v2/schema/v1/_create",
+      "displayName": "Schema Creation API",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
