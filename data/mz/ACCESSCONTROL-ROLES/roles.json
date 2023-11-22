@@ -96,6 +96,11 @@
       "code": "LOC_ADMIN",
       "name": "Localisation admin",
       "description": "LOC_ADMIN"
+    },
+    {
+      "code": "MDMS_SCHEMA_CREATOR",
+      "name": "MDMS_SCHEMA_CREATOR",
+      "description": "Default role for MDMS Schema Creation"
     }
   ]
 }
