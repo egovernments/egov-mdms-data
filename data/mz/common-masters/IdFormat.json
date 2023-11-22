@@ -69,6 +69,10 @@
     {
       "format": "PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
       "idname": "pgr.servicerequestid"
+    },
+    {
+      "format": "ING-[cy:yyyy-MM-dd]-[SEQ_EG_ING_ID]",
+      "idname": "ingestion.number"
     }
   ]
 }
