@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "FSM",
+  "SanitationWorkerEmployer": [
+    {
+      "id": 1,
+      "code": "ULB",
+      "name": "Ulb",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "PRIVATE_VENDOR",
+      "name": "Private Vendor",
+      "active": true
+    }
+  ]
+}
