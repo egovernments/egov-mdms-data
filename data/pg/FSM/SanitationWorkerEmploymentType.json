@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "FSM",
+  "SanitationWorkerEmploymentType": [
+    {
+      "id": 1,
+      "code": "FIXED",
+      "name": "Fixed",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "CONTRACTUAL",
+      "name": "Contractual",
+      "active": true
+    }
+  ]
+}
