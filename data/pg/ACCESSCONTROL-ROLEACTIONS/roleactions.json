@@ -2673,6 +2673,12 @@
       "actionid": 200,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_SCHEMA_CREATOR",
+      "actionid": 201,
+      "actioncode": "",
+      "tenantId": "mz"
     }
   ]
 }
