@@ -4347,6 +4347,17 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 369,
+      "name": "Update Workbench UiSchema",
+      "url": "/mdms-v2/v2/_update/Workbench.UISchema",
+      "displayName": "Update workbench ui-schema",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
