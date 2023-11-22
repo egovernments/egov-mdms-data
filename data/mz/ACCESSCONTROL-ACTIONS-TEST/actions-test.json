@@ -13003,6 +13003,90 @@
       "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1701,
+      "name": "Get job details of ingestion",
+      "url": "/hcm-moz-impl/v1/jobrecord/_search",
+      "displayName": "Get job details of ingestion",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1701,
+      "name": "Get event details of ingestion",
+      "url": "/hcm-moz-impl/v1/eventHistory/_search",
+      "displayName": "Get job details of ingestion",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1702,
+      "name": "Ingest DHIS2 Users",
+      "url": "/hcm-moz-impl/v1/dhis2/users/ingest",
+      "displayName": "Ingest DHIS2 Users",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1703,
+      "name": "Ingest DHIS2 Facilities",
+      "url": "/hcm-moz-impl/v1/dhis2/facilities/ingest",
+      "displayName": "Ingest DHIS2 facilities",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1704,
+      "name": "Ingest DHIS2 Organization units",
+      "url": "/hcm-moz-impl/v1/dhis2/OU/ingest",
+      "displayName": "Ingest DHIS2 Organization units",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1705,
+      "name": "Ingest DHIS2 households",
+      "url": "/hcm-moz-impl/v1/dhis2/household/ingest",
+      "displayName": "Ingest DHIS2 households",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1706,
+      "name": "Ingest DHIS2 stocks",
+      "url": "/hcm-moz-impl/v1/dhis2/stock/ingest",
+      "displayName": "Ingest DHIS2 stocks",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
     }
   ]
 }
