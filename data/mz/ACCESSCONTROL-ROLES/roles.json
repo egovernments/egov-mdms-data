@@ -86,6 +86,16 @@
       "code": "CSR",
       "name": "CSR",
       "description": "CSR"
+    },
+    {
+      "code": "MDMS_ADMIN",
+      "name": "MDMS ADMIN",
+      "description": "MDMS User that can create and search schema"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "Localisation admin",
+      "description": "LOC_ADMIN"
     }
   ]
 }

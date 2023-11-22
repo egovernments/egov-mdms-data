@@ -12408,20 +12408,412 @@
       "code": "null",
       "path": ""
     },
-    {
+      {
       "id": 1652,
-      "name": "Error dump",
-      "url": "/project/data/errordump",
-      "parentModule": "project",
-      "displayName": "Error dump",
-      "orderNumber": 0,
+      "name": "Beneficiary",
+      "url": "",
+      "displayName": "HOME_BENEFICIARY_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
       "enabled": true,
-      "serviceCode": "project",
+      "serviceCode": "null",
       "code": "null",
       "path": ""
     },
     {
       "id": 1653,
+      "name": "Manage Stocks",
+      "url": "",
+      "displayName": "HOME_MANAGE_STOCK_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1654,
+      "name": "View Reports",
+      "url": "",
+      "displayName": "HOME_VIEW_REPORTS_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1655,
+      "name": "Sync Data",
+      "url": "",
+      "displayName": "HOME_SYNC_DATA_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+      {
+      "id": 1656,
+      "name": "Call Support",
+      "url": "",
+      "displayName": "HOME_CALL_BACK_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+      {
+      "id": 1657,
+      "name": "File Complaint",
+      "url": "",
+      "displayName": "HOME_FILE_COMPLAINT",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+      {
+      "id": 1658,
+      "name": "Checklist",
+      "url": "",
+      "displayName": "MY_CHECK_LIST_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+          {
+      "id": 1659,
+      "name": "DataBase",
+      "url": "",
+      "displayName": "DB",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+        {
+      "id": 1660,
+      "name": "Stock Reconciliation",
+      "url": "",
+      "displayName": "HOME_STOCK_RECONCILIATION_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1661,
+      "name": "Adverse Event Create",
+      "url": "/project/task/adverse_event/v1/_create",
+      "displayName": "Adverse Event Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1662,
+      "name": "Adverse Event Update",
+      "url": "/project/task/adverse_event/v1/_update",
+      "displayName": "Adverse Event Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1663,
+      "name": "Adverse Event Search",
+      "url": "/project/task/adverse_event/v1/_search",
+      "displayName": "Adverse Event Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1664,
+      "name": "Adverse Event Bulk Create",
+      "url": "/project/task/adverse_event/v1/bulk/_create",
+      "displayName": "Adverse Event Bulk Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1665,
+      "name": "Adverse Event Bulk Update",
+      "url": "/project/task/adverse_event/v1/bulk/_update",
+      "displayName": "Adverse Event Bulk Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1666,
+      "name": "Adverse Event Delete",
+      "url": "/project/task/adverse_event/v1/_delete",
+      "displayName": "Adverse Event Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1667,
+      "name": "Adverse Event Bulk Delete",
+      "url": "/project/task/adverse_event/v1/bulk/_delete",
+      "displayName": "Adverse Event Bulk Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1668,
+      "name": "MDMS v2 create",
+      "url": "/mdms-v2/schema/v1/_create",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1669,
+      "name": "MDMS v2 Search",
+      "url": "/mdms-v2/schema/v1/_search",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1670,
+      "name": "MDMS v2 Search Data",
+      "url": "/mdms-v2/v1/_search/common-masters.Sample",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1671,
+      "name": "MDMS v2 (search v2)",
+      "url": "/mdms-v2/v2/_search",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1672,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Tenant",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=tenant&masterName=tenants",
+      "path": "9MDMS.tenanttenants",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1673,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/tenant.tenants",
+      "displayName": "Create tenant tenants",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1674,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/tenant.tenants",
+      "displayName": "Update tenant tenants",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1675,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Actions test",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ACTIONS-TEST&masterName=actions-test",
+      "path": "9MDMS.ACCESSCONTROL-ACTIONS-TESTactions-test",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1676,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "displayName": "Create ACCESSCONTROL-ACTIONS-TEST actions-test",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1677,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "displayName": "Update ACCESSCONTROL-ACTIONS-TEST actions-test",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1678,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Roles",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLES&masterName=roles",
+      "path": "9MDMS.ACCESSCONTROL-ROLESroles",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1679,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
+      "displayName": "Create ACCESSCONTROL-ROLES roles",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1680,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
+      "displayName": "Update ACCESSCONTROL-ROLES roles",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1681,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Roleactions",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLEACTIONS&masterName=roleactions",
+      "path": "9MDMS.ACCESSCONTROL-ROLEACTIONSroleactions",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1682,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLEACTIONS.roleactions",
+      "displayName": "Create ACCESSCONTROL-ROLEACTIONS roleactions",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1683,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLEACTIONS.roleactions",
+      "displayName": "Update ACCESSCONTROL-ROLEACTIONS roleactions",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1684,
+      "name": "LocalizationMessagesUpsert",
+      "url": "/localization/messages/v1/_upsert",
+      "displayName": "Localization Messages Upsert",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "filestore url",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1685,
       "name": "Side Effect Create",
       "url": "/referralmanagement/side-effect/v1/_create",
       "displayName": "Side Effect Create",
@@ -12433,7 +12825,7 @@
       "path": ""
     },
     {
-      "id": 1654,
+      "id": 1686,
       "name": "Side Effect Update",
       "url": "/referralmanagement/side-effect/v1/_update",
       "displayName": "Side Effect Update",
@@ -12445,7 +12837,7 @@
       "path": ""
     },
     {
-      "id": 1655,
+      "id": 1687,
       "name": "Side Effect Search",
       "url": "/referralmanagement/side-effect/v1/_search",
       "displayName": "Side Effect Search",
@@ -12457,7 +12849,7 @@
       "path": ""
     },
     {
-      "id": 1656,
+      "id": 1688,
       "name": "Side Effect Bulk Create",
       "url": "/referralmanagement/side-effect/v1/bulk/_create",
       "displayName": "Side Effect Bulk Create",
@@ -12469,7 +12861,7 @@
       "path": ""
     },
     {
-      "id": 1657,
+      "id": 1689,
       "name": "Side Effect Bulk Update",
       "url": "/referralmanagement/side-effect/v1/bulk/_update",
       "displayName": "Side Effect Bulk Update",
@@ -12481,7 +12873,7 @@
       "path": ""
     },
     {
-      "id": 1658,
+      "id": 1690,
       "name": "Side Effect Delete",
       "url": "/referralmanagement/side-effect/v1/_delete",
       "displayName": "Side Effect Delete",
@@ -12493,7 +12885,7 @@
       "path": ""
     },
     {
-      "id": 1659,
+      "id": 1691,
       "name": "Side Effect Bulk Delete",
       "url": "/referralmanagement/side-effect/v1/bulk/_delete",
       "displayName": "Side Effect Bulk Delete",
@@ -12505,7 +12897,7 @@
       "path": ""
     },
     {
-      "id": 1660,
+      "id": 1692,
       "name": "Referral Create",
       "url": "/referralmanagement/v1/_create",
       "displayName": "Referral Create",
@@ -12517,7 +12909,7 @@
       "path": ""
     },
     {
-      "id": 1661,
+      "id": 1693,
       "name": "Referral Update",
       "url": "/referralmanagement/v1/_update",
       "displayName": "Referral Update",
@@ -12529,7 +12921,7 @@
       "path": ""
     },
     {
-      "id": 1662,
+      "id": 1694,
       "name": "Referral Delete",
       "url": "/referralmanagement/v1/_delete",
       "displayName": "Referral Delete",
@@ -12541,7 +12933,7 @@
       "path": ""
     },
     {
-      "id": 1663,
+      "id": 1695,
       "name": "Referral Search",
       "url": "/referralmanagement/v1/_search",
       "displayName": "Referral Search",
@@ -12553,7 +12945,7 @@
       "path": ""
     },
     {
-      "id": 1664,
+      "id": 1696,
       "name": "Referral Bulk Create",
       "url": "/referralmanagement/v1/bulk/_create",
       "displayName": "Referral Bulk Create",
@@ -12565,7 +12957,7 @@
       "path": ""
     },
     {
-      "id": 1665,
+      "id": 1697,
       "name": "Referral Bulk Update",
       "url": "/referralmanagement/v1/bulk/_update",
       "displayName": "Referral Bulk Update",
@@ -12577,10 +12969,34 @@
       "path": ""
     },
     {
-      "id": 1666,
+      "id": 1698,
       "name": "Referral Bulk Delete",
       "url": "/referralmanagement/v1/bulk/_delete",
       "displayName": "Referral Bulk Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1699,
+      "name": "Error Handler",
+      "url": "/error-handler/handle-error",
+      "parentModule": "error-handler",
+      "displayName": "Error Handler",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "error-handler",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1700,
+      "name": "Downsync",
+      "url": "/referralmanagement/beneficiary-downsync/v1/_get",
+      "displayName": "Downsync",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": false,
