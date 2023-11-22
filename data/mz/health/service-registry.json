@@ -463,7 +463,7 @@
       ]
     },
     {
-      "service": "REFERRAL",
+      "service": "REFERRAL-MANAGEMENT",
       "actions": [
         {
           "action": "create",
@@ -499,6 +499,16 @@
           "action": "bulk_delete",
           "entityName": "Referral",
           "path": "/referralmanagement/v1/bulk/_delete"
+        }
+      ]
+    },
+    {
+      "service": "DOWNSYNC",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Downsync",
+          "path": "/referralmanagement/beneficiary-downsync/v1/_get"
         }
       ]
     }
