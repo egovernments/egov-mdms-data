@@ -13087,6 +13087,18 @@
       "serviceCode": "hcm-moz-impl",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1707,
+      "name": "MDMS",
+      "url": "/mdms-v2/schema/v1/_create",
+      "displayName": "mdms schema creation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
