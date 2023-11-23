@@ -7,9 +7,9 @@
       "code": "DRIVER",
       "name": "Driver",
       "allowedSystemRoles": [
-        "CITIZEN",
-        "SANITATION_WORKER",
-        "FSM_DRIVER"
+        {"code":  "CITIZEN", "name": "Citizen", "isDefault": false},
+        {"code": "SANITATION_WORKER", "name": "Sanitation Worker", "isDefault": true},
+        {"code": "FSM_DRIVER", "name": "FSM Driver", "isDefault": false}
       ],
       "active": true
     },
@@ -18,10 +18,10 @@
       "code": "PLANT_OPERATOR",
       "name": "Plant Operator",
       "allowedSystemRoles": [
-        "EMPLOYEE",
-        "SANITATION_WORKER",
-        "FSM_EMP_FSTPO",
-        "PQM_TP_OPERATOR"
+        {"code": "EMPLOYEE", "name": "Employee", "isDefault": false},
+        {"code": "SANITATION_WORKER", "name": "Sanitation Worker", "isDefault": true},
+        {"code": "FSM_EMP_FSTPO", "name": "FSTPO", "isDefault": false},
+        {"code": "PQM_TP_OPERATOR", "name": "Plant Operator", "isDefault": false}
       ],
       "active": true
     },
@@ -30,9 +30,9 @@
       "code": "SANITATION_HELPER",
       "name": "Sanitation Helper",
       "allowedSystemRoles": [
-        "CITIZEN",
-        "SANITATION_WORKER",
-        "SANITATION_HELPER"
+        {"code": "CITIZEN", "name": "Citizen", "isDefault": false},
+        {"code": "SANITATION_WORKER", "name": "Sanitation Worker", "isDefault": true},
+        {"code": "SANITATION_HELPER", "name": "Sanitation Helper", "isDefault": false}
       ],
       "active": true
     }
