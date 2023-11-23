@@ -1,0 +1,77 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "CronJobAPIConfig": [{
+        "jobName": "daily",
+        "active": "true",
+        "method": "POST",
+        "url": "http://tl-services.egov:8080/tl-services/v1/TL/Expiry/_batch",
+        "payload": {
+          "RequestInfo": "{DEFAULT_REQUESTINFO}"
+        },
+        "header": {
+          "Content-Type": "application/json"
+        }
+      },
+      {
+        "jobName": "daily",
+        "active": "false",
+        "method": "POST",
+        "url": "http://tl-services.egov:8080/tl-services/v1/TL/Reminder/_batch",
+        "payload": {
+          "RequestInfo": "{DEFAULT_REQUESTINFO}"
+        },
+        "header": {
+          "Content-Type": "application/json"
+        }
+      },
+                         {
+        "jobName": "daily",
+        "active": "false",
+        "method": "POST",
+        "url": "http://ws-calculator.egov:8080/ws-calculator/waterCalculator/_jobscheduler",
+        "payload": {
+          "RequestInfo": "{DEFAULT_REQUESTINFO}"
+        },
+        "header": {
+          "Content-Type": "application/json"
+        }
+      },
+      {
+        "jobName": "daily",
+        "active": "false",
+        "method": "POST",
+        "url": "http://sw-calculator.egov:8080/sw-calculator/sewerageCalculator/_jobscheduler",
+        "payload": {
+          "RequestInfo": "{DEFAULT_REQUESTINFO}"
+        },
+        "header": {
+          "Content-Type": "application/json"
+        }
+      },
+      {
+        "jobName": "daily",
+        "active": "false",
+        "method": "POST",
+        "url": "http://xstate-chatbot.egov:8080/xstate-chatbot/reminder",
+        "payload": {
+          "RequestInfo": "{DEFAULT_REQUESTINFO}"
+        },
+        "header": {
+          "Content-Type": "application/json"
+       }
+      },
+   	 {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://fsm.egov:8080/fsm/v1/_schedular",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+	  }
+    ]
+  }
