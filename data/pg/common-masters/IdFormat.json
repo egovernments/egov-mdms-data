@@ -11,6 +11,10 @@
       "idname": "estimate.number"
     },
     {
+      "format": "RE/[fy:yyyy-yy]/[SEQ_ESTIMATE_REVISION_NUM]",
+      "idname": "estimate.revision.number"
+    },
+    {
       "format": "LI/[fy:yyyy-yy]/[cy:MM]/[SEQ_LI_NUM]",
       "idname": "loi.number"
     },
