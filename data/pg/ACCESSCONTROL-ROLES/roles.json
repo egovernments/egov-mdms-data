@@ -939,9 +939,14 @@
         "description": "Pqm Admin"
       },
       {
+        "code": "PQM_LAB_OPERATOR",
+        "name": "PQM Lab Operator",
+        "description": "Pqm Lab Operator"
+      },
+      {
         "code": "PQM_TP_OPERATOR",
         "name": "PQM TP OPERATOR",
-        "description": "Pqm tp Operator"
+        "description": "Pqm Plant Operator"
       },
       {
         "code": "PQM_CRONJOB_SCHEDULER",
@@ -952,7 +957,17 @@
         "code": "SYSTEM_ADMINISTRATOR",
         "name": "HCM SYSTEM ADMINISTRATOR",
         "description": "HCM SYSTEM ADMINISTRATORr"
+      },
+      {
+        "code": "SANITATION_HELPER",
+        "name": "Sanitation Helper",
+        "description": "Sanitation helper worker"
+      },
+      {
+        "code": "SANITATION_WORKER",
+        "name": "Sanitation Worker",
+        "description": "Sanitation worker"
       }
-    
+
   ]
 }

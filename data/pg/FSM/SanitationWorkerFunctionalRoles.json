@@ -6,12 +6,34 @@
       "id": 1,
       "code": "DRIVER",
       "name": "Driver",
+      "allowedSystemRoles": [
+        "CITIZEN",
+        "SANITATION_WORKER",
+        "FSM_DRIVER"
+      ],
       "active": true
     },
     {
       "id": 2,
       "code": "PLANT_OPERATOR",
       "name": "Plant Operator",
+      "allowedSystemRoles": [
+        "EMPLOYEE",
+        "SANITATION_WORKER",
+        "FSM_EMP_FSTPO",
+        "PQM_TP_OPERATOR"
+      ],
+      "active": true
+    },
+    {
+      "id": 3,
+      "code": "SANITATION_HELPER",
+      "name": "Sanitation Helper",
+      "allowedSystemRoles": [
+        "CITIZEN",
+        "SANITATION_WORKER",
+        "SANITATION_HELPER"
+      ],
       "active": true
     }
   ]
