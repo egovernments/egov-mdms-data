@@ -1,0 +1,18 @@
+{
+    "tenantId": "uae",
+    "moduleName": "TradeLicense",
+    "ReminderPeriods": [
+      {
+        "tenantId": "uae.Abu-Dhabi",
+        "reminderInterval": 691200000
+      },
+      {
+        "tenantId": "uae.Dubai",
+        "reminderInterval": 12345
+      },
+      {
+        "tenantId": "uae.Sharjah",
+        "reminderInterval": 12345  
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+    "tenantId": "pg",
+    "moduleName": "EDCR",
+    "DimensionConfig": [
+       {
+        "code": "STRICTLY_VALIDATE_DIMENSION",
+        "description": "It is to auto calculate all dimensions and validate against defined dimension MTEXT value",
+        "enabled": false
+      },{
+        "code":"STRICTLY_VALIDATE_BLDG_HEIGHT_DIMENSION",
+        "description": "It is to auto calculate building height dimension value and validate against defined dimension MTEXT value",
+        "enabled":false
+      }
+    ]
+  }
