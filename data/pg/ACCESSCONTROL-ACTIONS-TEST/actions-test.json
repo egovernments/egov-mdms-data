@@ -4424,6 +4424,17 @@
       "serviceCode": "boundary-hierarchy",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 376,
+      "name": "Migrate Driver Data to Individual",
+      "url": "/vendor/v1/_migrate",
+      "displayName": "Migrate Driver Data to Individual",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "vendor",
+      "code": "null",
+      "path": ""
     }
   ]
 }
