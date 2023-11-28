@@ -13413,18 +13413,6 @@
       "path": ""
     },
     {
-      "id": 1734,
-      "name": "MDMS",
-      "url": "/mdms-v2/v2/_create/egov-hrms.CommonFieldsConfig",
-      "displayName": "mdms data creation",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "MDMS",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1735,
       "name": "MDMS",
       "url": "/mdms-v2/v2/_create/egov-hrms.DeactivationReason",
@@ -14100,6 +14088,18 @@
       "id": 1789,
       "name": "MDMS",
       "url": "/mdms-v2/v2/_create/map-config.zumbo",
+      "displayName": "mdms data creation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1790,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/egov-hrms.CommonFieldsConfig",
       "displayName": "mdms data creation",
       "orderNumber": 1,
       "parentModule": "",
