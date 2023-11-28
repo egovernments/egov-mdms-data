@@ -4358,6 +4358,72 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 370,
+      "name": "Create boundary hierarchy",
+      "url": "/boundary-service/boundary/boundary-hierarchy-definition/_create",
+      "displayName": "Create boundary hierarchy",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 371,
+      "name": "Search boundary hierarchy",
+      "url": "/boundary-service/boundary/boundary-hierarchy-definition/_search",
+      "displayName": "Search boundary hierarchy",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 372,
+      "name": "Create boundary entity",
+      "url": "/boundary-service/boundary/_create",
+      "displayName": "Create boundary entity",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 373,
+      "name": "Search boundary entity",
+      "url": "/boundary-service/boundary/_search",
+      "displayName": "Search boundary entity",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 374,
+      "name": "Create boundary relationship",
+      "url": "/boundary-service/boundary/boundary-relationships/_create",
+      "displayName": "Create boundary relationship",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 375,
+      "name": "Search boundary relationship",
+      "url": "/boundary-service/boundary/boundary-relationships/_search",
+      "displayName": "Search boundary relationship",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
     }
   ]
 }
