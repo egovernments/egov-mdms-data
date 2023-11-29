@@ -636,6 +636,10 @@
     {
       "idname": "pqm.aplnumber",
       "format": "[CITY.CODE]-PQM-[cy:yyyy-MM-dd]-[SEQ_EGOV_PQM]"
+    },
+    {
+      "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+      "idname": "individual.id"
     }
   ]
 }
