@@ -4435,6 +4435,20 @@
       "serviceCode": "vendor",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 377,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Manage Workbench UI",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/core-ui/employee/workbench/mdms-add-v4?moduleName=Workbench&masterName=UISchema",
+      "path": "4Workbench.UISchema",
+      "leftIcon": "dynamic:ContractIcon"
     }
   ]
 }
