@@ -15,10 +15,7 @@
           "requestBody": {
             "tenantId": "mz",
             "ProductVariant": {
-              "sku": "",
-              "variation": "",
-              "ids": [""],
-              "productId": ""
+              
             }
           },
           "minParametersForSearchForm": 0,
@@ -34,7 +31,7 @@
               "headerStyle": null,
               "primaryLabel": "ES_COMMON_SEARCH",
               "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-              "minReqFields": 1,
+              "minReqFields": 0,
               "formClassName": "custom-both-clear-search",
               "defaultValues": {
                 "sku": "",

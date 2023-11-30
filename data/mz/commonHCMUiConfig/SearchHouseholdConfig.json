@@ -13,7 +13,11 @@
               "tenantId": "mz",
               "includeDeleted": true
             },
-            "requestBody": {},
+            "requestBody": {
+              "Household" : {
+                "tenantId" : "mz"
+              }
+            },
             "minParametersForSearchForm": 0,
             "masterName": "commonUiConfig",
             "moduleName": "SearchHouseholdConfig",
