@@ -51,6 +51,17 @@
           "code": "pb.amritsar"
         }
       ]
+    },
+    {
+      "module": "HCMWORKBENCH",
+      "code": "HCMWORKBENCH",
+      "active": true,
+      "order": 14,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
     }
   ]
 }
