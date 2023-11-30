@@ -14,10 +14,6 @@
           },
           "requestBody": {
             "Product": {
-              "name": "",
-              "manufacturer": "",
-              "type": "",
-              "ids": [""]
             },
   
             "apiOperation": "SEARCH",
@@ -38,7 +34,7 @@
               "headerStyle": null,
               "primaryLabel": "ES_COMMON_SEARCH",
               "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-              "minReqFields": 1,
+              "minReqFields": 0,
               "formClassName": "custom-both-clear-search",
               "defaultValues": {
                 "name": "",

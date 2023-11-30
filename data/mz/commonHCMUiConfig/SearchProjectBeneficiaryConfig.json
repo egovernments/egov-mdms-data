@@ -6,7 +6,7 @@
         "label": "SEARCH_BENEFICIARY",
         "type": "search",
         "apiDetails": {
-          "serviceName": "project/beneficiary/v1/_search",
+          "serviceName": "/project/beneficiary/v1/_search",
           "requestParam": {
             "limit": 100,
             "offset": 0,
@@ -14,18 +14,13 @@
           },
           "requestBody": {
             "ProjectBeneficiary": {
-              "id": [""],
-              "clientReferenceId": [""],
-              "projectId": "",
-              "beneficiaryId": "",
-              "dateOfRegistration": ""
             },
             "limit": 100,
             "offset": 0,
             "tenantId": "mz",
             "includeDeleted": true
           },
-          "minParametersForSearchForm": 1,
+          "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
           "moduleName": "SearchProjectBeneficiaryConfig",
           "tableFormJsonPath": "requestParam",
@@ -38,7 +33,7 @@
               "headerStyle": null,
               "primaryLabel": "ES_COMMON_SEARCH",
               "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-              "minReqFields": 1,
+              "minReqFields": 0,
               "formClassName": "custom-both-clear-search",
               "defaultValues": {
                 "id": [""],

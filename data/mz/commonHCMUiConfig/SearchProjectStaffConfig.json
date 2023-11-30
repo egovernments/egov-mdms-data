@@ -14,15 +14,10 @@
           },
           "requestBody": {
             "ProjectStaff": {
-              "id": [""],
-              "userId": "",
-              "projectId": "",
-              "startDate": "",
-              "endDate": ""
             },
             "tenantId": "mz"
           },
-          "minParametersForSearchForm": 1,
+          "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
           "moduleName": "SearchProjectStaffConfig",
           "tableFormJsonPath": "requestParam",
@@ -35,7 +30,7 @@
               "headerStyle": null,
               "primaryLabel": "ES_COMMON_SEARCH",
               "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-              "minReqFields": 1,
+              "minReqFields": 0,
               "formClassName": "custom-both-clear-search",
               "defaultValues": {
                 "id": [""],

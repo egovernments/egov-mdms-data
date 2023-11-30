@@ -16,16 +16,6 @@
           "requestBody": {
             "tenantId": "mz",
             "Task": {
-              "id": [""],
-              "clientReferenceId": [""],
-              "projectId": "",
-              "projectBeneficiaryId": "",
-              "plannedStartDate": "",
-              "plannedEndDate": "",
-              "actualStartDate": "",
-              "actualEndDate": "",
-              "localityCode": "",
-              "status": ""
             }
           },
           "minParametersForSearchForm": 0,
