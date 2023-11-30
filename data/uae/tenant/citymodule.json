@@ -7,7 +7,7 @@
       "code": "PGR",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/PGR.png",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -23,8 +23,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -32,7 +37,7 @@
       "code": "PT",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/PT.png",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -48,15 +53,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "QuickPayLinks",
       "code": "QuickPayLinks",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -72,14 +82,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
       ]
     },
-   {
+    {
       "module": "Finance",
       "code": "Finance",
       "active": false,
-      "order":4,
+      "order": 4,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -95,6 +111,12 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
       ]
     },
@@ -103,7 +125,7 @@
       "code": "TL",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/TL.png",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -119,6 +141,12 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
       ]
     },
@@ -126,7 +154,7 @@
       "module": "FIRENOC",
       "code": "FIRENOC",
       "active": false,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -142,15 +170,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "UC",
       "code": "UC",
       "active": false,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -166,8 +199,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -175,7 +213,7 @@
       "code": "BPAREG",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/OBPS.png",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -191,9 +229,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
-
       ]
     },
     {
@@ -201,7 +243,7 @@
       "code": "BPAAPPLY",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/OBPS.png",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -217,15 +259,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
       "active": false,
-      "order":4,
+      "order": 4,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -241,8 +288,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -250,7 +302,7 @@
       "code": "OBPS",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/OBPS.png",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -266,6 +318,12 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
       ]
     },
@@ -274,7 +332,7 @@
       "code": "FSM",
       "bannerImage": "https://egov-uat-assets.s3.amazonaws.com/FSM.png",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -290,15 +348,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "Payment",
       "code": "Payment",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -314,15 +377,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "Receipts",
       "code": "Receipts",
       "active": true,
-      "order":3,
+      "order": 3,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -338,15 +406,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "NOC",
       "code": "NOC",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -362,15 +435,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "DSS",
       "code": "DSS",
       "active": true,
-      "order":6,
+      "order": 6,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -386,15 +464,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "Engagement",
       "code": "Engagement",
       "active": true,
-      "order":3,
+      "order": 3,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -410,15 +493,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "MCollect",
       "code": "MCollect",
       "active": true,
-      "order":1,
+      "order": 1,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -434,15 +522,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "HRMS",
       "code": "HRMS",
       "active": true,
-      "order":2,
+      "order": 2,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -458,15 +551,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "CommonPT",
       "code": "CommonPT",
       "active": true,
-      "order":3,
+      "order": 3,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -482,15 +580,20 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
       "module": "NDSS",
       "code": "NDSS",
       "active": true,
-      "order":5,
+      "order": 5,
       "tenants": [
         {
           "code": "uae.Abu-Dhabi"
@@ -506,8 +609,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -531,8 +639,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -555,8 +668,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -579,8 +697,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     },
     {
@@ -604,8 +727,13 @@
         },
         {
           "code": "uae.Fujairah"
+        },
+        {
+          "code": "uae.Ras_Al_Khaimah"
+        },
+        {
+          "code": "uae.Umm_Al_Qaiwain"
         }
-
       ]
     }
   ]

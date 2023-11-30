@@ -891,6 +891,26 @@
           "order": "1."
         }
       ]
+    },
+    {
+      "code": "uae.Umm_Al_Qaiwain",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
+    },
+    {
+      "code": "uae.Ras_Al_Khaimah",
+      "service": "FSM.TRIP_CHARGES",
+      "receiptFooterContent": [
+        {
+          "disclaimer": "PDF_STATIC_LABEL_FSM_RECEIPT_DISCLAIMER_FIRST_LINE",
+          "order": "1."
+        }
+      ]
     }
   ]
 }
