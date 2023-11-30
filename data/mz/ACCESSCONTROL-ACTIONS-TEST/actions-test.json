@@ -14107,6 +14107,30 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1791,
+      "name": "Ingest DHIS2 boundary",
+      "url": "/hcm-moz-impl/v1/dhis2/boundary/ingest",
+      "displayName": "Ingest DHIS2 boundary",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1792,
+      "name": "Ingest DHIS2 project",
+      "url": "/hcm-moz-impl/v1/dhis2/project/ingest",
+      "displayName": "Ingest DHIS2 project",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "hcm-moz-impl",
+      "code": "null",
+      "path": ""
     }
   ]
 }
