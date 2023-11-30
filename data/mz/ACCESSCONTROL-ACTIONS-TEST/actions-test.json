@@ -12408,7 +12408,7 @@
       "code": "null",
       "path": ""
     },
-      {
+    {
       "id": 1652,
       "name": "Beneficiary",
       "url": "",
@@ -12456,7 +12456,7 @@
       "code": "null",
       "path": ""
     },
-      {
+    {
       "id": 1656,
       "name": "Call Support",
       "url": "",
@@ -12468,7 +12468,7 @@
       "code": "null",
       "path": ""
     },
-      {
+    {
       "id": 1657,
       "name": "File Complaint",
       "url": "",
@@ -12480,7 +12480,7 @@
       "code": "null",
       "path": ""
     },
-      {
+    {
       "id": 1658,
       "name": "Checklist",
       "url": "",
@@ -12492,7 +12492,7 @@
       "code": "null",
       "path": ""
     },
-          {
+    {
       "id": 1659,
       "name": "DataBase",
       "url": "",
@@ -12504,7 +12504,7 @@
       "code": "null",
       "path": ""
     },
-        {
+    {
       "id": 1660,
       "name": "Stock Reconciliation",
       "url": "",
@@ -12665,7 +12665,7 @@
     {
       "id": 1673,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_create/tenant.tenants",
+      "url": "/mdms-v2/v2/_create/tenant.tenants",
       "displayName": "Create tenant tenants",
       "orderNumber": 1,
       "parentModule": "",
@@ -12677,7 +12677,7 @@
     {
       "id": 1674,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_update/tenant.tenants",
+      "url": "/mdms-v2/v2/_update/tenant.tenants",
       "displayName": "Update tenant tenants",
       "orderNumber": 1,
       "parentModule": "",
@@ -12703,7 +12703,7 @@
     {
       "id": 1676,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ACTIONS-TEST.actions-test",
       "displayName": "Create ACCESSCONTROL-ACTIONS-TEST actions-test",
       "orderNumber": 1,
       "parentModule": "",
@@ -12715,7 +12715,7 @@
     {
       "id": 1677,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ACTIONS-TEST.actions-test",
       "displayName": "Update ACCESSCONTROL-ACTIONS-TEST actions-test",
       "orderNumber": 1,
       "parentModule": "",
@@ -12741,7 +12741,7 @@
     {
       "id": 1679,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
       "displayName": "Create ACCESSCONTROL-ROLES roles",
       "orderNumber": 1,
       "parentModule": "",
@@ -12753,7 +12753,7 @@
     {
       "id": 1680,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
+      "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
       "displayName": "Update ACCESSCONTROL-ROLES roles",
       "orderNumber": 1,
       "parentModule": "",
@@ -12779,7 +12779,7 @@
     {
       "id": 1682,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLEACTIONS.roleactions",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLEACTIONS.roleactions",
       "displayName": "Create ACCESSCONTROL-ROLEACTIONS roleactions",
       "orderNumber": 1,
       "parentModule": "",
@@ -12791,7 +12791,7 @@
     {
       "id": 1683,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLEACTIONS.roleactions",
+      "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ROLEACTIONS.roleactions",
       "displayName": "Update ACCESSCONTROL-ROLEACTIONS roleactions",
       "orderNumber": 1,
       "parentModule": "",
@@ -14131,6 +14131,106 @@
       "serviceCode": "hcm-moz-impl",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1793,
+      "name": "Ingestion",
+      "url": "url",
+      "displayName": "user",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "HCM",
+      "enabled": true,
+      "serviceCode": "HCM",
+      "tenantId": "mz",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "HCM.Workbench.user",
+      "navigationURL": "/workbench-ui/employee/hcmworkbench/user",
+      "leftIcon": "",
+      "rightIcon": ""
+    },
+    {
+      "id": 1794,
+      "name": "Ingestion",
+      "url": "url",
+      "displayName": "facility",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "HCM",
+      "enabled": true,
+      "serviceCode": "HCM",
+      "tenantId": "mz",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "HCM.Workbench.facility",
+      "navigationURL": "/workbench-ui/employee/hcmworkbench/facility",
+      "leftIcon": "",
+      "rightIcon": ""
+    },
+    {
+      "id": 1795,
+      "name": "Ingestion",
+      "url": "url",
+      "displayName": "ou",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "HCM",
+      "enabled": true,
+      "serviceCode": "HCM",
+      "tenantId": "mz",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "HCM.Workbench.ou",
+      "navigationURL": "/workbench-ui/employee/hcmworkbench/ou",
+      "leftIcon": "",
+      "rightIcon": ""
+    },
+    {
+      "id": 1796,
+      "name": "Ingestion",
+      "url": "url",
+      "displayName": "boundary",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "HCM",
+      "enabled": true,
+      "serviceCode": "HCM",
+      "tenantId": "mz",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "HCM.Workbench.boundary",
+      "navigationURL": "/workbench-ui/employee/hcmworkbench/boundary",
+      "leftIcon": "",
+      "rightIcon": ""
+    },
+    {
+      "id": 1797,
+      "name": "Ingestion",
+      "url": "url",
+      "displayName": "project",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "HCM",
+      "enabled": true,
+      "serviceCode": "HCM",
+      "tenantId": "mz",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "HCM.Workbench.project",
+      "navigationURL": "/workbench-ui/employee/hcmworkbench/project",
+      "leftIcon": "",
+      "rightIcon": ""
     }
   ]
 }
