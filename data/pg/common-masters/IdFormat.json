@@ -97,6 +97,10 @@
     {
       "idname": "pqm.aplnumber",
       "format": "[CITY.CODE]-PQM-[cy:yyyy-MM-dd]-[SEQ_EGOV_PQM]"
+    },
+    {
+      "format": "RE/[fy:yyyy-yy]/[SEQ_ESTIMATE_REVISION_NUM]",
+      "idname": "estimate.revision.number"
     }
   ]
 }
