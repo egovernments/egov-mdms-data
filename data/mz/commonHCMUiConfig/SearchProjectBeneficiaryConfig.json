@@ -5,6 +5,9 @@
       {
         "label": "SEARCH_BENEFICIARY",
         "type": "search",
+        "actionLabel": "HCM_SEARCH_PROJECT_BENEFICIARY",
+        "actionRole": "SYSTEM_ADMINISTRATOR",
+        "actionLink": "/household/v1/_search",
         "apiDetails": {
           "serviceName": "/project/beneficiary/v1/_search",
           "requestParam": {
@@ -22,7 +25,7 @@
           },
           "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
-          "moduleName": "SearchProjectBeneficiaryConfig",
+          "moduleName":"SearchDefaultConfig",
           "tableFormJsonPath": "requestParam",
           "filterFormJsonPath": "requestBody.ProjectBeneficiary",
           "searchFormJsonPath": "requestBody.ProjectBeneficiary"

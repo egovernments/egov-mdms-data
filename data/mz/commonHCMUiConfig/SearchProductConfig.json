@@ -5,6 +5,9 @@
       {
         "label": "SEARCH_PRODUCT",
         "type": "search",
+        "actionLabel": "HCM_SEARCH_PRODUCT",
+        "actionRole": "SYSTEM_ADMINISTRATOR",
+        "actionLink": "/household/v1/_search",
         "apiDetails": {
           "serviceName": "/product/v1/_search",
           "requestParam": {
@@ -23,7 +26,7 @@
           },
           "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
-          "moduleName": "SearchProductConfig",
+          "moduleName": "SearchDefaultConfig",
           "tableFormJsonPath": "requestParam",
           "filterFormJsonPath": "requestBody.Product",
           "searchFormJsonPath": "requestBody.Product"
