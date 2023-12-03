@@ -4944,7 +4944,31 @@
       "actionid": 7,
       "actioncode": "",
       "tenantId": "pg"
-    } 
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 371,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 371,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DASHBOARD_VIEWER",
+      "actionid": 371,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 371,
+      "actioncode": "",
+      "tenantId": "pg"
+    }
   ]
 }
  
