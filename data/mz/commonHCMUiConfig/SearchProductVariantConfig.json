@@ -3,8 +3,11 @@
     "moduleName": "commonHCMUiConfig",
     "SearchProductVariantConfig": [
       {
-        "label": "SEARCH_PRODUCT_VAR",
+        "label": "SEARCH_PRODUCT_VARIANT",
         "type": "search",
+        "actionLabel": "HCM_SEARCH_PRODUCT_VARIANT",
+        "actionRole": "SYSTEM_ADMINISTRATOR",
+        "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProductVariant",
         "apiDetails": {
           "serviceName": "/product/variant/v1/_search",
           "requestParam": {
@@ -19,7 +22,7 @@
           },
           "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
-          "moduleName": "SearchProductVariantConfig",
+          "moduleName": "SearchDefaultConfig",
           "tableFormJsonPath": "requestParam",
           "filterFormJsonPath": "requestBody.ProductVariant",
           "searchFormJsonPath": "requestBody.ProductVariant"

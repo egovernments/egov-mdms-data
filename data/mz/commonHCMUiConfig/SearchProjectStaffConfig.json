@@ -5,6 +5,9 @@
       {
         "label": "SEARCH_PROJECT_STAFF",
         "type": "search",
+        "actionLabel": "HCM_SEARCH_PROJECT_STAFF",
+        "actionRole": "SYSTEM_ADMINISTRATOR",
+        "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectStaff",
         "apiDetails": {
           "serviceName": "/project/staff/v1/_search",
           "requestParam": {
@@ -19,7 +22,7 @@
           },
           "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
-          "moduleName": "SearchProjectStaffConfig",
+          "moduleName": "SearchDefaultConfig",
           "tableFormJsonPath": "requestParam",
           "filterFormJsonPath": "requestBody.ProjectStaff",
           "searchFormJsonPath": "requestBody.ProjectStaff"

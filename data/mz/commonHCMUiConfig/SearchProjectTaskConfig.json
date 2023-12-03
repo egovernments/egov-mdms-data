@@ -5,6 +5,9 @@
       {
         "label": "SEARCH_TASK",
         "type": "search",
+        "actionLabel": "HCM_SEARCH_TASK",
+        "actionRole": "SYSTEM_ADMINISTRATOR",
+        "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectTask",
         "apiDetails": {
           "serviceName": "/project/task/v1/_search",
           "requestParam": {
@@ -20,7 +23,7 @@
           },
           "minParametersForSearchForm": 0,
           "masterName": "commonUiConfig",
-          "moduleName": "SearchProjectTaskConfig",
+          "moduleName": "SearchDefaultConfig",
           "tableFormJsonPath": "requestParam",
           "filterFormJsonPath": "requestBody.Task",
           "searchFormJsonPath": "requestBody.Task"

@@ -5,6 +5,9 @@
         {
           "label": "SEARCH_HOUSEHOLD",
           "type": "search",
+          "actionLabel": "HCM_SEARCH_HOUSEHOLD",
+          "actionRole": "SYSTEM_ADMINISTRATOR",
+          "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=Household",
           "apiDetails": {
             "serviceName": "/household/v1/_search",
             "requestParam": {
@@ -20,7 +23,7 @@
             },
             "minParametersForSearchForm": 0,
             "masterName": "commonUiConfig",
-            "moduleName": "SearchHouseholdConfig",
+            "moduleName": "SearchDefaultConfig",
             "tableFormJsonPath": "requestParam",
             "filterFormJsonPath": "requestBody.Household",
             "searchFormJsonPath": "requestBody.Household"
