@@ -7,7 +7,7 @@
           "type": "search",
           "actionLabel": "HCM_SEARCH_HOUSEHOLD",
           "actionRole": "SYSTEM_ADMINISTRATOR",
-          "actionLink": "/household/v1/_search",
+          "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=Household",
           "apiDetails": {
             "serviceName": "/household/v1/_search",
             "requestParam": {

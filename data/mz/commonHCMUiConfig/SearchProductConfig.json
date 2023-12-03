@@ -7,7 +7,7 @@
         "type": "search",
         "actionLabel": "HCM_SEARCH_PRODUCT",
         "actionRole": "SYSTEM_ADMINISTRATOR",
-        "actionLink": "/household/v1/_search",
+        "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=Product",
         "apiDetails": {
           "serviceName": "/product/v1/_search",
           "requestParam": {
