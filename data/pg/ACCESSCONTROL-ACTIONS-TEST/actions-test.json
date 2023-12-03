@@ -4466,6 +4466,18 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 371,
+      "name": "DSS Dashboard Config PQM",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/pqm",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
