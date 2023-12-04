@@ -4449,6 +4449,48 @@
       "navigationURL": "/core-ui/employee/workbench/mdms-add-v4?moduleName=Workbench&masterName=UISchema",
       "path": "4Workbench.UISchema",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 379,
+      "name": "MEASUREMENT",
+      "url": "url",
+      "displayName": "Measurement Create",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MEASUREMENT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
+      "path": "3MEASUREMENT.Create",
+      "leftIcon": "dynamic:MeasurementIcon"
+    },
+    {
+      "id": 380,
+      "name": "MEASUREMENT",
+      "url": "url",
+      "displayName": "Measurement Inbox",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MEASUREMENT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/measurement/inbox",
+      "path": "3MEASUREMENT.Inbox",
+      "leftIcon": "dynamic:MeasurementIcon"
+    },
+    {
+      "id": 381,
+      "name": "MEASUREMENT",
+      "url": "url",
+      "displayName": "Measurement Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MEASUREMENT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/measurement/search",
+      "path": "3MEASUREMENT.Search",
+      "leftIcon": "dynamic:MeasurementIcon"
     }
   ]
 }
