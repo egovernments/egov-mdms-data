@@ -20,6 +20,7 @@
 	"ACCESSCONTROL-ROLEACTIONS": {
 		"roleactions": {
 			"masterName": "roleactions",
+			"isStateLevel": true,
 			"uniqueKeys": [
 				"$.rolecode",
 				"$.actionid",
