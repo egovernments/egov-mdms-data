@@ -5,7 +5,7 @@
       {
         "label": "SEARCH_PRODUCT",
         "type": "search",
-        "actionLabel": "HCM_SEARCH_PRODUCT",
+        "actionLabel": "HCM_ADD_PRODUCT",
         "actionRole": "SYSTEM_ADMINISTRATOR",
         "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=Product",
         "apiDetails": {
@@ -57,7 +57,7 @@
                   },
                   "populators": {
                     "name": "name",
-                    "error": "PROJECT_PATTERN_ERR_MSG",
+                    "error":  "PRODUCT_DRUG_NAME_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -74,7 +74,7 @@
                   },
                   "populators": {
                     "name": "manufacturer",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PRODUCT_DRUG_MANUFACTURER_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -91,7 +91,7 @@
                   },
                   "populators": {
                     "name": "type",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PRODUCT_DRUG_TYPE_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -108,7 +108,7 @@
                   },
                   "populators": {
                     "name": "ids",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error":  "PRODUCT_DRUG_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }

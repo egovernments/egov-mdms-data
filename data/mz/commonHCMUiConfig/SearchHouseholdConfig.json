@@ -5,7 +5,7 @@
         {
           "label": "SEARCH_HOUSEHOLD",
           "type": "search",
-          "actionLabel": "HCM_SEARCH_HOUSEHOLD",
+          "actionLabel": "HCM_ADD_HOUSEHOLD",
           "actionRole": "SYSTEM_ADMINISTRATOR",
           "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=Household",
           "apiDetails": {
@@ -53,7 +53,7 @@
                     },
                     "populators": {
                       "name": "id",
-                      "error": "PROJECT_PATTERN_ERR_MSG",
+                      "error": "HOUSEHOLD_CLIENT_ID_ERR_MSG",
                       "validation": {
                         "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
                       }
@@ -70,7 +70,7 @@
                     },
                     "populators": {
                       "name": "clientReferenceId",
-                      "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                      "error": "HOUSEHOLD_CLIENT_REFF_ID_ERR_MSG",
                       "validation": {
                         "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
                       }
@@ -87,7 +87,7 @@
                     },
                     "populators": {
                       "name": "boundaryCode",
-                      "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                      "error": "HOUSEHOLD_BOUNDARY_CODE_ERR_MSG",
                       "validation": {
                         "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
                       }
