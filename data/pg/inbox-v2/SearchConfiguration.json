@@ -742,7 +742,7 @@
         },
         {
           "name": "projectId",
-          "path": "Data.contract.additionalDetails.projectID.keyword",
+          "path": "Data.contract.additionalDetails.projectId.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
