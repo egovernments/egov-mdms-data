@@ -1,0 +1,458 @@
+{
+  "tenantId": "pg.cityb",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "CityB",
+        "localname": "CityB",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.cityb",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Ward 1",
+            "localname": "Ward1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B1",
+            "children": [
+              {
+                "id": 3,
+                "boundaryNum": 1,
+                "name": "Ajit Nagar - Area1",
+                "localname": "Ajit Nagar - Area1",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Locality",
+                "code": "JLC01",
+                "pincode": [143001],
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 4,
+                "boundaryNum": 1,
+                "name": "Back Side 33 KVA Grid Patiala Road",
+                "localname": "Back Side 33 KVA Grid Patiala Road",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC02",
+                "pincode": [143001],
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 5,
+                "boundaryNum": 1,
+                "name": "Bharath Colony",
+                "localname": "Bharath Colony",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC03",
+                "pincode": [143001],
+                "area": "Area1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "Ward 2",
+            "localname": "Ward2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B2",
+            "children": [
+              {
+                "id": 7,
+                "boundaryNum": 1,
+                "name": "Backside Brijbala Hospital - Area3",
+                "localname": "Backside Brijbala Hospital - Area3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC10",
+                "area": "Area3",
+                "children": []
+              },
+              {
+                "id": 8,
+                "boundaryNum": 1,
+                "name": "Bigharwal Chowk to Railway Station - Area2",
+                "localname": "Bigharwal Chowk to Railway Station - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC11",
+                "area": "Area2",
+                "children": []
+              },
+              {
+                "id": 9,
+                "boundaryNum": 1,
+                "name": "Chandar Colony Biggarwal Road - Area2",
+                "localname": "Chandar Colony Biggarwal Road - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC12",
+                "pincode": [143001],
+                "area": "Area2",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "boundaryNum": 1,
+            "name": "Ward 3",
+            "localname": "Ward3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B3",
+            "children": [
+              {
+                "id": 11,
+                "boundaryNum": 1,
+                "name": "Aggarsain Chowk to Mal Godown - Both Sides - Area3",
+                "localname": "Aggarsain Chowk to Mal Godown - Both Sides - Area3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC20",
+                "area": "Area3",
+                "children": []
+              },
+              {
+                "id": 12,
+                "boundaryNum": 1,
+                "name": "ATAR SINGH COLONY - Area2",
+                "localname": "ATAR SINGH COLONY - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC21",
+                "area": "Area2",
+                "children": []
+              },
+              {
+                "id": 13,
+                "boundaryNum": 1,
+                "name": "Back Side Naina Devi Mandir - Area2",
+                "localname": "Back Side Naina Devi Mandir - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC22",
+                "area": "Area2",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "boundaryNum": 1,
+            "name": "Ward 4",
+            "localname": "Ward4",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B4",
+            "children": [
+              {
+                "id": 15,
+                "boundaryNum": 1,
+                "name": "Bakhtaur Nagar - Area1",
+                "localname": "Bakhtaur Nagar - Area1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC30",
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 16,
+                "boundaryNum": 1,
+                "name": "Bhai Mool Chand Sahib Colony - Area1",
+                "localname": "Bhai Mool Chand Sahib Colony - Area1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC31",
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 17,
+                "boundaryNum": 1,
+                "name": "College Road (Southern side) - Area2",
+                "localname": "College Road (Southern side) - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC32",
+                "area": "Area2",
+                "children": []
+              },
+              {
+                "id": 18,
+                "boundaryNum": 1,
+                "name": "Ekta Colony (Southern Side) - Area1",
+                "localname": "Ekta Colony (Southern Side) - Area1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC33",
+                "area": "Area1",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "CityB",
+        "localname": "CityB",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.cityb",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Ward 1",
+            "localname": "Ward1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B1",
+            "children": [
+              {
+                "id": 3,
+                "boundaryNum": 1,
+                "name": "Ajit Nagar - Area1",
+                "localname": "Ajit Nagar - Area1",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Locality",
+                "code": "JLC01",
+                "pincode": [143001],
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 4,
+                "boundaryNum": 1,
+                "name": "Back Side 33 KVA Grid Patiala Road",
+                "localname": "Back Side 33 KVA Grid Patiala Road",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC02",
+                "pincode": [143001],
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 5,
+                "boundaryNum": 1,
+                "name": "Bharath Colony",
+                "localname": "Bharath Colony",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC03",
+                "pincode": [143001],
+                "area": "Area1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "Ward 2",
+            "localname": "Ward2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B2",
+            "children": [
+              {
+                "id": 7,
+                "boundaryNum": 1,
+                "name": "Backside Brijbala Hospital - Area3",
+                "localname": "Backside Brijbala Hospital - Area3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC10",
+                "area": "Area3",
+                "children": []
+              },
+              {
+                "id": 8,
+                "boundaryNum": 1,
+                "name": "Bigharwal Chowk to Railway Station - Area2",
+                "localname": "Bigharwal Chowk to Railway Station - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC11",
+                "area": "Area2",
+                "children": []
+              },
+              {
+                "id": 9,
+                "boundaryNum": 1,
+                "name": "Chandar Colony Biggarwal Road - Area2",
+                "localname": "Chandar Colony Biggarwal Road - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC12",
+                "pincode": [143001],
+                "area": "Area2",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "boundaryNum": 1,
+            "name": "Ward 3",
+            "localname": "Ward3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B3",
+            "children": [
+              {
+                "id": 11,
+                "boundaryNum": 1,
+                "name": "Aggarsain Chowk to Mal Godown - Both Sides - Area3",
+                "localname": "Aggarsain Chowk to Mal Godown - Both Sides - Area3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC20",
+                "area": "Area3",
+                "children": []
+              },
+              {
+                "id": 12,
+                "boundaryNum": 1,
+                "name": "ATAR SINGH COLONY - Area2",
+                "localname": "ATAR SINGH COLONY - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC21",
+                "area": "Area2",
+                "children": []
+              },
+              {
+                "id": 13,
+                "boundaryNum": 1,
+                "name": "Back Side Naina Devi Mandir - Area2",
+                "localname": "Back Side Naina Devi Mandir - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC22",
+                "area": "Area2",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "boundaryNum": 1,
+            "name": "Ward 4",
+            "localname": "Ward4",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "B4",
+            "children": [
+              {
+                "id": 15,
+                "boundaryNum": 1,
+                "name": "Bakhtaur Nagar - Area1",
+                "localname": "Bakhtaur Nagar - Area1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC30",
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 16,
+                "boundaryNum": 1,
+                "name": "Bhai Mool Chand Sahib Colony - Area1",
+                "localname": "Bhai Mool Chand Sahib Colony - Area1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC31",
+                "area": "Area1",
+                "children": []
+              },
+              {
+                "id": 17,
+                "boundaryNum": 1,
+                "name": "College Road (Southern side) - Area2",
+                "localname": "College Road (Southern side) - Area2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC32",
+                "area": "Area2",
+                "children": []
+              },
+              {
+                "id": 18,
+                "boundaryNum": 1,
+                "name": "Ekta Colony (Southern Side) - Area1",
+                "localname": "Ekta Colony (Southern Side) - Area1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "JLC33",
+                "area": "Area1",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
