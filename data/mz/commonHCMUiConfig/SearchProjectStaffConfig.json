@@ -5,7 +5,7 @@
       {
         "label": "SEARCH_PROJECT_STAFF",
         "type": "search",
-        "actionLabel": "HCM_SEARCH_PROJECT_STAFF",
+        "actionLabel": "HCM_ADD_PROJECT_STAFF",
         "actionRole": "SYSTEM_ADMINISTRATOR",
         "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectStaff",
         "apiDetails": {
@@ -54,7 +54,7 @@
                   },
                   "populators": {
                     "name": "id",
-                    "error": "PROJECT_PATTERN_ERR_MSG",
+                    "error": "PROJECT_STAFF_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -71,7 +71,7 @@
                   },
                   "populators": {
                     "name": "userId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_USER_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$\"<>?\\\\~`!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -88,7 +88,7 @@
                   },
                   "populators": {
                     "name": "projectId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -102,7 +102,7 @@
                   "disable": false,
                   "populators": {
                     "name": "startDate",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_START_DATE_ERR_MSG",
                     "validation": {}
                   }
                 },
@@ -114,7 +114,7 @@
                   "disable": false,
                   "populators": {
                     "name": "endDate",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_END_DATE_ERR_MSG",
                     "validation": {}
                   }
                 }

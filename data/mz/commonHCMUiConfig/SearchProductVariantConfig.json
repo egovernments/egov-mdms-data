@@ -5,7 +5,7 @@
       {
         "label": "SEARCH_PRODUCT_VARIANT",
         "type": "search",
-        "actionLabel": "HCM_SEARCH_PRODUCT_VARIANT",
+        "actionLabel": "HCM_ADD_PRODUCT_VARIANT",
         "actionRole": "SYSTEM_ADMINISTRATOR",
         "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProductVariant",
         "apiDetails": {
@@ -53,7 +53,7 @@
                   },
                   "populators": {
                     "name": "sku",
-                    "error": "PROJECT_PATTERN_ERR_MSG",
+                    "error": "PRODUCT_SKU_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
                     }
@@ -70,7 +70,7 @@
                   },
                   "populators": {
                     "name": "variation",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PRODUCT_VARIATION_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
                     }
@@ -87,7 +87,7 @@
                   },
                   "populators": {
                     "name": "ids",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PRODUCT_IDS_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
                     }
@@ -104,7 +104,7 @@
                   },
                   "populators": {
                     "name": "productId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PRODUCT_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
                     }

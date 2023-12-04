@@ -5,7 +5,7 @@
       {
         "label": "SEARCH_BENEFICIARY",
         "type": "search",
-        "actionLabel": "HCM_SEARCH_PROJECT_BENEFICIARY",
+        "actionLabel": "HCM_ADD_PROJECT_BENEFICIARY",
         "actionRole": "SYSTEM_ADMINISTRATOR",
         "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectBeneficiary",
         "apiDetails": {
@@ -57,7 +57,7 @@
                   },
                   "populators": {
                     "name": "id",
-                    "error": "PROJECT_PATTERN_ERR_MSG",
+                    "error": "ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -74,7 +74,7 @@
                   },
                   "populators": {
                     "name": "clientReferenceId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_CLIENT_REFERENCE_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -91,7 +91,7 @@
                   },
                   "populators": {
                     "name": "projectId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -108,7 +108,7 @@
                   },
                   "populators": {
                     "name": "beneficiaryId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_BENEFICIARY_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -122,7 +122,7 @@
                   "disable": false,
                   "populators": {
                     "name": "dateOfRegistration",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_REGISTRATION_DATE_ERR_MSG",
                     "validation": {
                       "required": true
                     }

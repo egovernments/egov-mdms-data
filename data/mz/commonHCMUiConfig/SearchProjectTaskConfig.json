@@ -5,7 +5,7 @@
       {
         "label": "SEARCH_TASK",
         "type": "search",
-        "actionLabel": "HCM_SEARCH_TASK",
+        "actionLabel": "HCM_ADD_TASK",
         "actionRole": "SYSTEM_ADMINISTRATOR",
         "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectTask",
         "apiDetails": {
@@ -60,7 +60,7 @@
                   },
                   "populators": {
                     "name": "id",
-                    "error": "PROJECT_PATTERN_ERR_MSG",
+                    "error": "PROJECT_TASK_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -77,7 +77,7 @@
                   },
                   "populators": {
                     "name": "clientReferenceId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_CLIENT_REFERENCE_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -94,7 +94,7 @@
                   },
                   "populators": {
                     "name": "projectId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -111,7 +111,7 @@
                   },
                   "populators": {
                     "name": "projectBeneficiaryId",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_BENEFICIARY_ID_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -125,7 +125,7 @@
                   "disable": false,
                   "populators": {
                     "name": "plannedStartDate",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_START_DATE_ERR_MSG",
                     "validation": {}
                   }
                 },
@@ -137,7 +137,7 @@
                   "disable": false,
                   "populators": {
                     "name": "plannedEndDate",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_END_DATE_ERR_MSG",
                     "validation": {}
                   }
                 },
@@ -149,7 +149,7 @@
                   "disable": false,
                   "populators": {
                     "name": "actualStartDate",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_START_DATE_ERR_MSG",
                     "validation": {}
                   }
                 },
@@ -161,7 +161,7 @@
                   "disable": false,
                   "populators": {
                     "name": "actualEndDate",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_END_DATE_ERR_MSG",
                     "validation": {}
                   }
                 },
@@ -176,7 +176,7 @@
                   },
                   "populators": {
                     "name": "localityCode",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error": "PROJECT_LOCALITY_CODE_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -193,7 +193,7 @@
                   },
                   "populators": {
                     "name": "status",
-                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "error":"PROJECT_STATUS_CODE_ERR_MSG",
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
