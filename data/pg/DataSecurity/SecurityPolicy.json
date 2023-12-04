@@ -289,24 +289,6 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "givenName",
-          "jsonPath": "name/givenName",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "familyName",
-          "jsonPath": "name/familyName",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "otherNames",
-          "jsonPath": "name/otherNames",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "email",
           "jsonPath": "email",
           "patternId": "004",
@@ -380,6 +362,12 @@
           "jsonPath": "identifier/identifierId",
           "patternId": "001",
           "defaultVisibility": "PLAIN"
+        },
+      {
+          "name": "username",
+          "jsonPath": "username",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": []
@@ -439,24 +427,6 @@
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "givenName",
-          "jsonPath": "name/givenName",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "familyName",
-          "jsonPath": "name/familyName",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "otherNames",
-          "jsonPath": "name/otherNames",
-          "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
