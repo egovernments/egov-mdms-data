@@ -95,6 +95,7 @@
                   "populators": {
                     "name": "projectId",
                     "error": "PROJECT_ID_ERR_MSG",
+
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -112,6 +113,7 @@
                   "populators": {
                     "name": "projectBeneficiaryId",
                     "error": "PROJECT_BENEFICIARY_ID_ERR_MSG",
+
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -138,6 +140,7 @@
                   "populators": {
                     "name": "plannedEndDate",
                     "error": "PROJECT_END_DATE_ERR_MSG",
+
                     "validation": {}
                   }
                 },
@@ -162,6 +165,7 @@
                   "populators": {
                     "name": "actualEndDate",
                     "error": "PROJECT_END_DATE_ERR_MSG",
+
                     "validation": {}
                   }
                 },
@@ -194,6 +198,7 @@
                   "populators": {
                     "name": "status",
                     "error":"PROJECT_STATUS_CODE_ERR_MSG",
+
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }

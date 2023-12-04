@@ -55,6 +55,7 @@
                   "populators": {
                     "name": "id",
                     "error": "PROJECT_STAFF_ID_ERR_MSG",
+
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -72,6 +73,7 @@
                   "populators": {
                     "name": "userId",
                     "error": "PROJECT_USER_ID_ERR_MSG",
+
                     "validation": {
                       "pattern": "^[^\\$\"<>?\\\\~`!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
@@ -103,6 +105,7 @@
                   "populators": {
                     "name": "startDate",
                     "error": "PROJECT_START_DATE_ERR_MSG",
+
                     "validation": {}
                   }
                 },

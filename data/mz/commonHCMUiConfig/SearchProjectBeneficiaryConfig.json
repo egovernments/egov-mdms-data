@@ -108,7 +108,9 @@
                   },
                   "populators": {
                     "name": "beneficiaryId",
+
                     "error": "PROJECT_BENEFICIARY_ID_ERR_MSG",
+
                     "validation": {
                       "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                     }
