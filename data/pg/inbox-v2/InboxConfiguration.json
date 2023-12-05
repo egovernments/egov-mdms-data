@@ -423,7 +423,7 @@
         }
       ],
       "sortBy": {
-        "path": "Data.@timestamp",
+        "path": "Data.scheduledDate",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
