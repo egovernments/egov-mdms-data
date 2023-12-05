@@ -4892,7 +4892,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "FSM_ADMIN",
       "actionid": 69,
       "actioncode": "",
@@ -4976,9 +4976,21 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "MDMS_ADMIN",
       "actionid": 377,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 378,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 379,
       "actioncode": "",
       "tenantId": "pg"
     },

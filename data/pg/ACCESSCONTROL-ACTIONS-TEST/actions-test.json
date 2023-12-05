@@ -4449,6 +4449,28 @@
       "navigationURL": "/core-ui/employee/workbench/mdms-add-v4?moduleName=Workbench&masterName=UISchema",
       "path": "4Workbench.UISchema",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 378,
+      "name": "Create Health Project Data",
+      "url": "/project/v1/_create",
+      "displayName": "Create Health Project Data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 379,
+      "name": "Update Health Project Data",
+      "url": "/project/v1/_update",
+      "displayName": "Update Health Project Data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
