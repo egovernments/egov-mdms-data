@@ -14231,6 +14231,18 @@
       "navigationURL": "/workbench-ui/employee/hcmworkbench/project",
       "leftIcon": "",
       "rightIcon": ""
+    },
+    {
+      "id": 1798,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/Workbench.UISchema",
+      "displayName": "mdms data creation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
