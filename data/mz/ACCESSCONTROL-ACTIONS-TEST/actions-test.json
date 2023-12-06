@@ -12761,6 +12761,126 @@
       "navigationURL": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectTask",
       "path": "HCM.PROJECTTASK.SEARCH",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1680,
+      "name": "Beneficiary",
+      "url": "",
+      "displayName": "HOME_BENEFICIARY_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1681,
+      "name": "Manage Stocks",
+      "url": "",
+      "displayName": "HOME_MANAGE_STOCK_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 1682,
+      "name": "View Reports",
+      "url": "",
+      "displayName": "HOME_VIEW_REPORTS_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1683,
+      "name": "Sync Data",
+      "url": "",
+      "displayName": "HOME_SYNC_DATA_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1684,
+      "name": "Call Support",
+      "url": "",
+      "displayName": "HOME_CALL_BACK_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1685,
+      "name": "File Complaint",
+      "url": "",
+      "displayName": "HOME_FILE_COMPLAINT",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1686,
+      "name": "Checklist",
+      "url": "",
+      "displayName": "MY_CHECK_LIST_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1687,
+      "name": "DataBase",
+      "url": "",
+      "displayName": "DB",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1688,
+      "name": "Stock Reconciliation",
+      "url": "",
+      "displayName": "HOME_STOCK_RECONCILIATION_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1689,
+      "name": "Beneficiary Referral",
+      "url": "",
+      "displayName": "HOME_BENEFICIARY_REFERRAL_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
     }
   ]
 }
