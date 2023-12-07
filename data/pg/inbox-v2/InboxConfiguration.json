@@ -29,6 +29,11 @@
           "isMandatory": false
         },
         {
+          "name": "revisionNumber",
+          "path": "Data.revisionNumber.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "projectType",
           "path": "Data.project.projectType.keyword",
           "isMandatory": false
@@ -54,6 +59,7 @@
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
+        "Data.businessService",
         "Data.currentProcessInstance",
         "Data.auditDetails",
         "Data.additionalDetails",

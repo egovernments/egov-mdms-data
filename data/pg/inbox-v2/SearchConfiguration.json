@@ -37,6 +37,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "revisionNumber",
+          "path": "Data.revisionNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "department",
           "path": "Data.executingDepartment.keyword",
           "isMandatory": false,
@@ -80,6 +86,9 @@
       "sourceFilterPathList": [
         "Data.tenantId",
         "Data.estimateNumber",
+        "Data.revisionNumber",
+        "Data.versionNumber",
+        "Data.businessService",
         "Data.executingDepartment",
         "Data.proposalDate",
         "Data.project",
