@@ -1,0 +1,51 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "howItWorks": [
+        {
+            "TQM": {
+                "moduleCode" : "TQM",
+                "videosJson":  [
+                    {
+                        "headerLabel": "TQM_HELP_Q1",
+                        "description": "TQM_HELP_Q1_DESC",
+                        "en_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+                        "hi_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    },
+                    {
+                      "headerLabel": "TQM_HELP_Q2",
+                      "description": "TQM_HELP_Q2_DESC",
+                      "en_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+                      "hi_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    },
+                    {
+                      "headerLabel": "TQM_HELP_Q3",
+                      "description": "TQM_HELP_Q4_DESC",
+                      "en_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+                      "hi_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    },
+                    {
+                      "headerLabel": "TQM_HELP_Q4",
+                      "description": "TQM_HELP_Q4_DESC",
+                      "en_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+                      "hi_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    },
+                    {
+                      "headerLabel": "TQM_HELP_Q5",
+                      "description": "TQM_HELP_Q5_DESC",
+                      "en_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+                      "hi_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    },
+                    {
+                      "headerLabel": "TQM_HELP_Q6",
+                      "description": "TQM_HELP_Q6_DESC",
+                      "en_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+                      "hi_IN": "https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    }
+                ],
+                "screenHeader":"TQM_HELP_SECTION"
+            }
+        }
+    ]
+  } 
+

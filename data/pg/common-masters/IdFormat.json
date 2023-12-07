@@ -93,6 +93,10 @@
     {
       "format": "SOR_[SEQ_SOR_REF_NUM]",
       "idname": "works.sor.number"
+    },
+    {
+      "idname": "pqm.aplnumber",
+      "format": "[CITY.CODE]-PQM-[cy:yyyy-MM-dd]-[SEQ_EGOV_PQM]"
     }
   ]
 }

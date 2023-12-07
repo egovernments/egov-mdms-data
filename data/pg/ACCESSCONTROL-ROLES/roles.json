@@ -236,6 +236,16 @@
       "code": "MB_VIEWER",
       "name": "MB_VIEWER",
       "description": "Default role for MB service viewer"
+    },
+    {
+      "code": "FSM_ADMIN",
+      "name": "FSM_ADMIN",
+      "description": "Default role for FSM_ADMIN"
+    },
+    {
+      "code": "FSM_EMP_FSTPO",
+      "name": "FSM_EMP_FSTPO",
+      "description": "Default role for FSM_EMP_FSTPO"
     }
   ]
 }
