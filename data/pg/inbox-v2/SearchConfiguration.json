@@ -37,8 +37,8 @@
           "operator": "EQUAL"
         },
         {
-          "name": "revisedWorkOrderNumber",
-          "path": "Data.supplementNumber.keyword",
+          "name": "revisionNumber",
+          "path": "Data.revisionNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
@@ -86,6 +86,9 @@
       "sourceFilterPathList": [
         "Data.tenantId",
         "Data.estimateNumber",
+        "Data.revisionNumber",
+        "Data.versionNumber",
+        "Data.businessService",
         "Data.executingDepartment",
         "Data.proposalDate",
         "Data.project",

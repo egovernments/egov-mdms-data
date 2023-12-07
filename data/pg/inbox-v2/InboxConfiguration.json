@@ -59,6 +59,7 @@
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
+        "Data.businessService",
         "Data.currentProcessInstance",
         "Data.auditDetails",
         "Data.additionalDetails",
