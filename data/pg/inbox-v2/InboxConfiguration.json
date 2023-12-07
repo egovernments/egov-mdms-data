@@ -436,7 +436,7 @@
           {
               "name": "plantCodes",
               "path": "Data.plantCode.keyword",
-              "isMandatory": false
+              "isMandatory": true
           },
         {
               "name": "materialCodes",
