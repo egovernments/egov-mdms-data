@@ -37,6 +37,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "revisedWorkOrderNumber",
+          "path": "Data.supplementNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "department",
           "path": "Data.executingDepartment.keyword",
           "isMandatory": false,

@@ -29,6 +29,11 @@
           "isMandatory": false
         },
         {
+          "name": "revisionNumber",
+          "path": "Data.revisionNumber.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "projectType",
           "path": "Data.project.projectType.keyword",
           "isMandatory": false
