@@ -37,6 +37,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "revisionNumber",
+          "path": "Data.currentProcessInstance.businessId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "department",
           "path": "Data.executingDepartment.keyword",
           "isMandatory": false,
