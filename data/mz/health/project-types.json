@@ -17,7 +17,12 @@
           "productVariantId": "PVAR-2022-12-20-000035",
           "isBaseUnitVariant": true
         }
-      ]
+      ],
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
+      }
     },
     {
       "id": "a6907f0c-7a91-4c76-afc2-a279d8a7b76a",
@@ -34,7 +39,12 @@
           "productVariantId": "PVAR-2022-12-20-000037",
           "isBaseUnitVariant": true
         }
-      ]
+      ],
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
+      }
     },
     {
       "id": "b1107f0c-7a91-4c76-afc2-a279d8a7b76a",
@@ -51,7 +61,12 @@
           "productVariantId": "PVAR-2022-12-20-000039",
           "isBaseUnitVariant": true
         }
-      ]
+      ],
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
+      }
     },
     {
       "id": "40a528a0-4e0e-11ee-be56-0242ac120002",
@@ -60,6 +75,11 @@
       "group": "MALARIA",
       "beneficiaryType": "HOUSEHOLD",
       "observationStrategy": "DOT1",
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
+      },
       "cycles": [
         {
           "mandatoryWaitSinceLastCycleInDays": null,
@@ -157,6 +177,11 @@
       "code": "MR-DN",
       "group": "MALARIA",
       "beneficiaryType": "INDIVIDUAL",
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
+      },
       "resources": [
         {
           "productVariantId": "PVAR-2023-02-22-000021",
