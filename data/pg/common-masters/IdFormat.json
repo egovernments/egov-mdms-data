@@ -99,6 +99,10 @@
       "idname": "works.sor.number"
     },
     {
+      "format": "TMP_[SEQ_SOR_REF_NUM]",
+      "idname": "works.template.number"
+    },
+    {
       "format": "FSM/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON[TENANT_ID]]",
       "idname": "fsm.trip_charges.receipt.id"
     },
