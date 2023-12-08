@@ -1,35 +1,59 @@
 {
-    "tenantId": "mz",
-    "moduleName": "egov-location",
-    "TenantBoundary": [
-      {
-        "hierarchyType": {
-          "code": "ADMIN",
-          "name": "ADMIN"
-        },
-        "boundary": {
-          "id": "mz",
-          "boundaryNum": 1,
-          "name": "MOZAMBIQUE",
-          "localname": "MOZAMBIQUE",
-          "longitude": null,
-          "latitude": null,
-          "label": "Country",
-          "code": "mz",
-          "children": [
-            {
-              "id": "123456789",
-              "boundaryNum": 2,
-              "name": "Test_HCM1",
-              "localname": "Test_HCM1",
-              "longitude": null,
-              "latitude": null,
-              "label": "Provincia",
-              "code": "123456789",
-              "children": []
-            }
-          ]
-        }
+  "tenantId": "mz",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "123456789",
+            "boundaryNum": 2,
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "123456789",
+            "children": [
+              {
+                "id": "1234567890",
+                "boundaryNum": 3,
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "1234567890",
+                "children": [
+                  {
+                    "id": "12345678901",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "12345678901",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
-    ]
-  }
+    }
+  ]
+}
