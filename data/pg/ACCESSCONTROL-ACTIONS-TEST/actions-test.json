@@ -4495,6 +4495,17 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 382,    
+      "name": "Deviation Pdf",
+      "url": "/egov-pdf/download/deviationStatement/deviation-statement",
+      "displayName": "estimates search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
