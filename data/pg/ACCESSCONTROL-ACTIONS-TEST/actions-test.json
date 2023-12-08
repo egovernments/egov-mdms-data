@@ -4471,6 +4471,30 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 380,
+      "name": "Update Estimate Template",
+      "url": "/mdms-v2/v2/_create/WORKS.EstimateTemplateTest",
+      "displayName": "create estimate template",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 381,
+      "name": "Update Estimate Template",
+      "url": "/mdms-v2/v2/_update/WORKS.EstimateTemplateTest",
+      "displayName": "update estimate template",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
