@@ -46,7 +46,43 @@
                     "latitude": null,
                     "label": "Posto Administrativo",
                     "code": "12345678901",
-                    "children": []
+                    "children": [
+                      {
+                        "id": "123456789012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "123456789012",
+                        "children": [
+                          {
+                            "id": "1234567890123",
+                            "boundaryNum": 6,
+                            "name": "Test_HCM5",
+                            "localname": "Test_HCM5",
+                            "longitude": null,
+                            "latitude": null,
+                            "label": "Aldeia",
+                            "code": "123456789013",
+                            "children": [
+                              {
+                                "id": "1234567890124",
+                                "boundaryNum": 7,
+                                "name": "Test_HCM6",
+                                "localname": "Test_HCM6",
+                                "longitude": null,
+                                "latitude": null,
+                                "label": "Aldeia",
+                                "code": "123456789014",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
