@@ -74,8 +74,20 @@
           "code": "TEAM_FORMATION"
         },
         {
-          "name": "HEALTH_WORKER_REFERRAL",
-          "code": "HEALTH_WORKER_REFERRAL"
+          "name": "HF_REFERRAL_SICK",
+          "code": "HF_REFERRAL_SICK"
+        },
+        {
+          "name": "HF_REFERRAL_FEVER",
+          "code": "HF_REFERRAL_FEVER"
+        },
+        {
+          "name": "HF_REFERRAL_DRUG_SIDE_EFFECT_FROM_PREV_CYCLE",
+          "code": "HF_REFERRAL_DRUG_SIDE_EFFECT_FROM_PREV_CYCLE"
+        },
+        {
+          "name": "HF_REFERRAL_DRUG_SIDE_EFFECT_FROM_CURRENT_CYCLE",
+          "code": "HF_REFERRAL_DRUG_SIDE_EFFECT_FROM_CURRENT_CYCLE"
         }
       ],
       "ID_TYPE_OPTIONS_POPULATOR": [
