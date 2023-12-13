@@ -14329,6 +14329,20 @@
       "navigationURL": "/workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchProductConfig",
       "path": "HCM.Search.Product",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1805,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Search Facility",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/utilities/search/commonHCMUiConfig/SearchFacilityConfig",
+      "path": "HCM.Search.Facility",
+      "leftIcon": "dynamic:ContractIcon"
     }
   ]
 }
