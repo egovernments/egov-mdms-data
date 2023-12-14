@@ -11,7 +11,7 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["ESTIMATE"],
+              "businessService": ["ESTIMATE","REVISION-ESTIMATE"],
               "moduleName": "estimate-service"
             },
             "moduleSearchCriteria": {}
