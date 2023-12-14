@@ -173,7 +173,7 @@
             "columns": [
               {
                 "label": "ESTIMATE_ESTIMATE_NO",
-                "jsonPath": "businessObject.estimateNumber",
+                "jsonPath": "ProcessInstance.businessId",
                 "additionalCustomization": true
               },
               {
