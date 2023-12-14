@@ -6,12 +6,22 @@
       "id": 1,
       "code": "DRIVER",
       "name": "Driver",
+      "allowedSystemRoles": [
+        {"code":  "CITIZEN", "name": "Citizen", "isDefault": true},
+        {"code": "SANITATION_WORKER", "name": "Sanitation Worker", "isDefault": true},
+        {"code": "FSM_DRIVER", "name": "FSM Driver", "isDefault": false}
+      ],
       "active": true
     },
     {
       "id": 2,
-      "code": "PLANT_OPERATOR",
-      "name": "Plant Operator",
+      "code": "SANITATION_HELPER",
+      "name": "Sanitation Helper",
+      "allowedSystemRoles": [
+        {"code": "CITIZEN", "name": "Citizen", "isDefault": true},
+        {"code": "SANITATION_WORKER", "name": "Sanitation Worker", "isDefault": true},
+        {"code": "SANITATION_HELPER", "name": "Sanitation Helper", "isDefault": false}
+      ],
       "active": true
     }
   ]
