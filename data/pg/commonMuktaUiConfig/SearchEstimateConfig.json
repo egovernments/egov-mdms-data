@@ -162,7 +162,7 @@
                     "uiConfig": {
                         "columns": [
                             {
-                                "label": "ESTIMATE_ESTIMATE_NO",
+                                "label": "ProcessInstance.businessId",
                                 "jsonPath": "estimateNumber",
                                 "additionalCustomization": true
                             },
