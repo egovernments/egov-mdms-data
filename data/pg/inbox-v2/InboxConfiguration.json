@@ -367,7 +367,7 @@
         {
           "name": "tenantId",
           "path": "Data.tenantId.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -430,7 +430,7 @@
         {
           "name": "tenantId",
           "path": "Data.tenantId.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
