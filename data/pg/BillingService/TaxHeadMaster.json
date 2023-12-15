@@ -1,0 +1,5824 @@
+{
+  "tenantId": "pg",
+  "moduleName": "BillingService",
+  "TaxHeadMaster": [
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt adhoc rebate",
+      "code": "PT_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "PT",
+      "name": "Pt advance carry forward",
+      "code": "PT_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt owner exemption",
+      "code": "PT_OWNER_EXEMPTION",
+      "isDebit": true,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt time rebate",
+      "code": "PT_TIME_REBATE",
+      "isDebit": true,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt unit usage excemption",
+      "code": "PT_UNIT_USAGE_EXEMPTION",
+      "isDebit": true,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt adhoc penalty",
+      "code": "PT_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "propertytax",
+      "code": "PT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt fire cess",
+      "code": "PT_FIRE_CESS",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "7",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt cancer cess",
+      "code": "PT_CANCER_CESS",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt time penalty",
+      "code": "PT_TIME_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt time interest",
+      "code": "PT_TIME_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "tl tax",
+      "code": "TL_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "tl roundoff",
+      "code": "TL_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "tl adhoc rebate",
+      "code": "TL_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "tl adhoc penalty",
+      "code": "TL_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "REBATE",
+      "service": "PT",
+      "name": "pt debit decimal",
+      "code": "PT_DECIMAL_CEILING_DEBIT",
+      "isDebit": true,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "pt credit decimal",
+      "code": "PT_DECIMAL_CEILING_CREDIT",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "pt decimal roundOff",
+      "code": "PT_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "8",
+      "isRequired": false
+    },
+    {
+      "category": "REBATE",
+      "service": "FIRENOC",
+      "name": "firenoc adhoc rebate",
+      "code": "FIRENOC_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "FIRENOC",
+      "name": "firenoc adhoc penalty",
+      "code": "FIRENOC_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "FIRENOC",
+      "name": "firenoc fees",
+      "code": "FIRENOC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FIRENOC",
+      "name": "firenoc taxes",
+      "code": "FIRENOC_TAXES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FIRENOC",
+      "name": "firenoc roundoff",
+      "code": "FIRENOC_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.No_Dues_Certificate",
+      "name": "TX.NO_DUES_CERTIFICATE_TAX",
+      "code": "TX.NO_DUES_CERTIFICATE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.No_Dues_Certificate",
+      "name": "TX.NO_DUES_CERTIFICATE_FIELD_FEE",
+      "code": "TX.NO_DUES_CERTIFICATE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Hoardings",
+      "name": "ADVT.HOARDINGS_TAX",
+      "code": "ADVT.HOARDINGS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Hoardings",
+      "name": "ADVT.HOARDINGS_FIELD_FEE",
+      "code": "ADVT.HOARDINGS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Unipolls",
+      "name": "ADVT.UNIPOLLS_TAX",
+      "code": "ADVT.UNIPOLLS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Unipolls",
+      "name": "ADVT.UNIPOLLS_FIELD_FEE",
+      "code": "ADVT.UNIPOLLS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Municipal_Shops_Rent",
+      "name": "RT.MUNICIPAL_SHOPS_RENT_TAX",
+      "code": "RT.MUNICIPAL_SHOPS_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Municipal_Shops_Rent",
+      "name": "RT.MUNICIPAL_SHOPS_RENT_FIELD_FEE",
+      "code": "RT.MUNICIPAL_SHOPS_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Land_Rent",
+      "name": "RT.LAND_RENT_TAX",
+      "code": "RT.LAND_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Land_Rent",
+      "name": "RT.LAND_RENT_FIELD_FEE",
+      "code": "RT.LAND_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Rent",
+      "name": "RT.TOWER_RENT_TAX",
+      "code": "RT.TOWER_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Tower_Rent",
+      "name": "RT.TOWER_RENT_FIELD_FEE",
+      "code": "RT.TOWER_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Parking_Fee",
+      "name": "RT.PARKING_FEE_TAX",
+      "code": "RT.PARKING_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Parking_Fee",
+      "name": "RT.PARKING_FEE_FIELD_FEE",
+      "code": "RT.PARKING_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Jamin_Theka",
+      "name": "RT.JAMIN_THEKA_TAX",
+      "code": "RT.JAMIN_THEKA_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Jamin_Theka",
+      "name": "RT.JAMIN_THEKA_FIELD_FEE",
+      "code": "RT.JAMIN_THEKA_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Election_rally_fees",
+      "name": "ADMN.ELECTION_RALLY_FEES_TAX",
+      "code": "ADMN.ELECTION_RALLY_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADMN.Election_rally_fees",
+      "name": "ADMN.ELECTION_RALLY_FEES_FIELD_FEE",
+      "code": "ADMN.ELECTION_RALLY_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Parking_during_election",
+      "name": "ADMN.PARKING_DURING_ELECTION_TAX",
+      "code": "ADMN.PARKING_DURING_ELECTION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADMN.Parking_during_election",
+      "name": "ADMN.PARKING_DURING_ELECTION_FIELD_FEE",
+      "code": "ADMN.PARKING_DURING_ELECTION_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Road_show",
+      "name": "ADMN.ROAD_SHOW_TAX",
+      "code": "ADMN.ROAD_SHOW_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADMN.Road_show",
+      "name": "ADMN.ROAD_SHOW_FIELD_FEE",
+      "code": "ADMN.ROAD_SHOW_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Advance_Provident_Fund",
+      "name": "FN.ADVANCE_PROVIDENT_FUND_TAX",
+      "code": "FN.ADVANCE_PROVIDENT_FUND_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.Advance_Provident_Fund",
+      "name": "FN.ADVANCE_PROVIDENT_FUND_FIELD_FEE",
+      "code": "FN.ADVANCE_PROVIDENT_FUND_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ST.Stationary_Not_Income",
+      "name": "ST.STATIONARY_NOT_INCOME_TAX",
+      "code": "ST.STATIONARY_NOT_INCOME_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ST.Stationary_Not_Income",
+      "name": "ST.STATIONARY_NOT_INCOME_FIELD_FEE",
+      "code": "ST.STATIONARY_NOT_INCOME_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ST.Expenditure_santitation_Not_Income",
+      "name": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_TAX",
+      "code": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ST.Expenditure_santitation_Not_Income",
+      "name": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_FIELD_FEE",
+      "code": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Santitation_dumping_garbage",
+      "name": "CH.SANTITATION_DUMPING_GARBAGE_TAX",
+      "code": "CH.SANTITATION_DUMPING_GARBAGE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Santitation_dumping_garbage",
+      "name": "CH.SANTITATION_DUMPING_GARBAGE_FIELD_FEE",
+      "code": "CH.SANTITATION_DUMPING_GARBAGE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Telecom_tower_fees",
+      "name": "FTP.TELECOM_TOWER_FEES_TAX",
+      "code": "FTP.TELECOM_TOWER_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Telecom_tower_fees",
+      "name": "FTP.TELECOM_TOWER_FEES_FIELD_FEE",
+      "code": "FTP.TELECOM_TOWER_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Electricity_Chungi",
+      "name": "TX.ELECTRICITY_CHUNGI_TAX",
+      "code": "TX.ELECTRICITY_CHUNGI_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.Electricity_Chungi",
+      "name": "TX.ELECTRICITY_CHUNGI_FIELD_FEE",
+      "code": "TX.ELECTRICITY_CHUNGI_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Draftsmen_fees",
+      "name": "FTP.DRAFTSMEN_FEES_TAX",
+      "code": "FTP.DRAFTSMEN_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Draftsmen_fees",
+      "name": "FTP.DRAFTSMEN_FEES_FIELD_FEE",
+      "code": "FTP.DRAFTSMEN_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Compremasing_fees",
+      "name": "FTP.COMPREMASING_FEES_TAX",
+      "code": "FTP.COMPREMASING_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Compremasing_fees",
+      "name": "FTP.COMPREMASING_FEES_FIELD_FEE",
+      "code": "FTP.COMPREMASING_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Building_planner_renew",
+      "name": "FTP.BUILDING_PLANNER_RENEW_TAX",
+      "code": "FTP.BUILDING_PLANNER_RENEW_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Building_planner_renew",
+      "name": "FTP.BUILDING_PLANNER_RENEW_FIELD_FEE",
+      "code": "FTP.BUILDING_PLANNER_RENEW_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_samjota_fees",
+      "name": "NKS.NAKSHA_SAMJOTA_FEES_TAX",
+      "code": "NKS.NAKSHA_SAMJOTA_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Naksha_samjota_fees",
+      "name": "NKS.NAKSHA_SAMJOTA_FEES_FIELD_FEE",
+      "code": "NKS.NAKSHA_SAMJOTA_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_changes",
+      "name": "NKS.NAKSHA_CHANGES_TAX",
+      "code": "NKS.NAKSHA_CHANGES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Naksha_changes",
+      "name": "NKS.NAKSHA_CHANGES_FIELD_FEE",
+      "code": "NKS.NAKSHA_CHANGES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.License_fees_building_branch",
+      "name": "FTP.LICENSE_FEES_BUILDING_BRANCH_TAX",
+      "code": "FTP.LICENSE_FEES_BUILDING_BRANCH_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.License_fees_building_branch",
+      "name": "FTP.LICENSE_FEES_BUILDING_BRANCH_FIELD_FEE",
+      "code": "FTP.LICENSE_FEES_BUILDING_BRANCH_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Water_connection/disconnection_fees",
+      "name": "OM.WATER_CONNECTION/DISCONNECTION_FEES_TAX",
+      "code": "OM.WATER_CONNECTION/DISCONNECTION_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OM.Water_connection/disconnection_fees",
+      "name": "OM.WATER_CONNECTION/DISCONNECTION_FEES_FIELD_FEE",
+      "code": "OM.WATER_CONNECTION/DISCONNECTION_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_renew_fees",
+      "name": "NKS.NAKSHA_RENEW_FEES_TAX",
+      "code": "NKS.NAKSHA_RENEW_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Naksha_renew_fees",
+      "name": "NKS.NAKSHA_RENEW_FEES_FIELD_FEE",
+      "code": "NKS.NAKSHA_RENEW_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.NOC/Completion_of_building_approval",
+      "name": "NKS.NOC/COMPLETION_OF_BUILDING_APPROVAL_TAX",
+      "code": "NKS.NOC/COMPLETION_OF_BUILDING_APPROVAL_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.NOC/Completion_of_building_approval",
+      "name": "NKS.NOC/COMPLETION_OF_BUILDING_APPROVAL_FIELD_FEE",
+      "code": "NKS.NOC/COMPLETION_OF_BUILDING_APPROVAL_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Alteration_additional_charge",
+      "name": "NKS.ALTERATION_ADDITIONAL_CHARGE_TAX",
+      "code": "NKS.ALTERATION_ADDITIONAL_CHARGE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Alteration_additional_charge",
+      "name": "NKS.ALTERATION_ADDITIONAL_CHARGE_FIELD_FEE",
+      "code": "NKS.ALTERATION_ADDITIONAL_CHARGE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.2_year_time_limit_of_Renewal_Building_Naksha",
+      "name": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_TAX",
+      "code": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.2_year_time_limit_of_Renewal_Building_Naksha",
+      "name": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_FIELD_FEE",
+      "code": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Leave_encashment_and_gratuty",
+      "name": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_TAX",
+      "code": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Leave_encashment_and_gratuty",
+      "name": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_FIELD_FEE",
+      "code": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Plastic_Challan",
+      "name": "CH.PLASTIC_CHALLAN_TAX",
+      "code": "CH.PLASTIC_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Plastic_Challan",
+      "name": "CH.PLASTIC_CHALLAN_FIELD_FEE",
+      "code": "CH.PLASTIC_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Rehri_Challan",
+      "name": "CH.REHRI_CHALLAN_TAX",
+      "code": "CH.REHRI_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Rehri_Challan",
+      "name": "CH.REHRI_CHALLAN_FIELD_FEE",
+      "code": "CH.REHRI_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Challan_for_Misuse_of_Water",
+      "name": "CH.CHALLAN_FOR_MISUSE_OF_WATER_TAX",
+      "code": "CH.CHALLAN_FOR_MISUSE_OF_WATER_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Challan_for_Misuse_of_Water",
+      "name": "CH.CHALLAN_FOR_MISUSE_OF_WATER_FIELD_FEE",
+      "code": "CH.CHALLAN_FOR_MISUSE_OF_WATER_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Dengue_Challan",
+      "name": "CH.DENGUE_CHALLAN_TAX",
+      "code": "CH.DENGUE_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Dengue_Challan",
+      "name": "CH.DENGUE_CHALLAN_FIELD_FEE",
+      "code": "CH.DENGUE_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Littering_Challan",
+      "name": "CH.LITTERING_CHALLAN_TAX",
+      "code": "CH.LITTERING_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Littering_Challan",
+      "name": "CH.LITTERING_CHALLAN_FIELD_FEE",
+      "code": "CH.LITTERING_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.Licence_Pure_food",
+      "name": "SNT.LICENCE_PURE_FOOD_TAX",
+      "code": "SNT.LICENCE_PURE_FOOD_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "SNT.Licence_Pure_food",
+      "name": "SNT.LICENCE_PURE_FOOD_FIELD_FEE",
+      "code": "SNT.LICENCE_PURE_FOOD_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Misc_Challans",
+      "name": "OTHER.MISC_CHALLANS_TAX",
+      "code": "OTHER.MISC_CHALLANS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Misc_Challans",
+      "name": "OTHER.MISC_CHALLANS_FIELD_FEE",
+      "code": "OTHER.MISC_CHALLANS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Regularisation_of_Buildings",
+      "name": "NKS.REGULARISATION_OF_BUILDINGS_TAX",
+      "code": "NKS.REGULARISATION_OF_BUILDINGS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Regularisation_of_Buildings",
+      "name": "NKS.REGULARISATION_OF_BUILDINGS_FIELD_FEE",
+      "code": "NKS.REGULARISATION_OF_BUILDINGS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.Contractor_Enlistment",
+      "name": "WF.CONTRACTOR_ENLISTMENT_TAX",
+      "code": "WF.CONTRACTOR_ENLISTMENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "WF.Contractor_Enlistment",
+      "name": "WF.CONTRACTOR_ENLISTMENT_FIELD_FEE",
+      "code": "WF.CONTRACTOR_ENLISTMENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.Tender Form Fee",
+      "name": "WF.TENDER FORM FEE_TAX",
+      "code": "WF.TENDER FORM FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "WF.Tender Form Fee",
+      "name": "WF.TENDER FORM FEE_FIELD_FEE",
+      "code": "WF.TENDER FORM FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Advertisement_fee",
+      "name": "TB.ADVERTISEMENT_FEE_TAX",
+      "code": "TB.ADVERTISEMENT_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TB.Advertisement_fee",
+      "name": "TB.ADVERTISEMENT_FEE_FIELD_FEE",
+      "code": "TB.ADVERTISEMENT_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Tehbazaari",
+      "name": "TB.TEHBAZAARI_TAX",
+      "code": "TB.TEHBAZAARI_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TB.Tehbazaari",
+      "name": "TB.TEHBAZAARI_FIELD_FEE",
+      "code": "TB.TEHBAZAARI_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.PF_transfer_(Accounts)",
+      "name": "FN.PF_TRANSFER_(ACCOUNTS)_TAX",
+      "code": "FN.PF_TRANSFER_(ACCOUNTS)_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.PF_transfer_(Accounts)",
+      "name": "FN.PF_TRANSFER_(ACCOUNTS)_FIELD_FEE",
+      "code": "FN.PF_TRANSFER_(ACCOUNTS)_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "name": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_TAX",
+      "code": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "name": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_FIELD_FEE",
+      "code": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Transfer_Property_Fees",
+      "name": "TX.TRANSFER_PROPERTY_FEES_TAX",
+      "code": "TX.TRANSFER_PROPERTY_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.Transfer_Property_Fees",
+      "name": "TX.TRANSFER_PROPERTY_FEES_FIELD_FEE",
+      "code": "TX.TRANSFER_PROPERTY_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.RTI",
+      "name": "ADMN.RTI_TAX",
+      "code": "ADMN.RTI_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADMN.RTI",
+      "name": "ADMN.RTI_FIELD_FEE",
+      "code": "ADMN.RTI_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.No_Dues_Certificate",
+      "name": "ADMN.NO_DUES_CERTIFICATE_TAX",
+      "code": "ADMN.NO_DUES_CERTIFICATE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADMN.No_Dues_Certificate",
+      "name": "ADMN.NO_DUES_CERTIFICATE_FIELD_FEE",
+      "code": "ADMN.NO_DUES_CERTIFICATE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Architect_license_fee",
+      "name": "FTP.ARCHITECT_LICENSE_FEE_TAX",
+      "code": "FTP.ARCHITECT_LICENSE_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Architect_license_fee",
+      "name": "FTP.ARCHITECT_LICENSE_FEE_FIELD_FEE",
+      "code": "FTP.ARCHITECT_LICENSE_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "Tehbazaari Fee.Challan_Under_section_156",
+      "name": "TEHBAZAARI FEE.CHALLAN_UNDER_SECTION_156_TAX",
+      "code": "TEHBAZAARI FEE.CHALLAN_UNDER_SECTION_156_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "Tehbazaari Fee.Challan_Under_section_156",
+      "name": "TEHBAZAARI FEE.CHALLAN_UNDER_SECTION_156_FIELD_FEE",
+      "code": "TEHBAZAARI FEE.CHALLAN_UNDER_SECTION_156_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Recovery_employee/contractor",
+      "name": "FN.RECOVERY_EMPLOYEE/CONTRACTOR_TAX",
+      "code": "FN.RECOVERY_EMPLOYEE/CONTRACTOR_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.Recovery_employee/contractor",
+      "name": "FN.RECOVERY_EMPLOYEE/CONTRACTOR_FIELD_FEE",
+      "code": "FN.RECOVERY_EMPLOYEE/CONTRACTOR_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Grants_cheque",
+      "name": "FN.GRANTS_CHEQUE_TAX",
+      "code": "FN.GRANTS_CHEQUE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.Grants_cheque",
+      "name": "FN.GRANTS_CHEQUE_FIELD_FEE",
+      "code": "FN.GRANTS_CHEQUE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.No_due_certificate_electricity",
+      "name": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_TAX",
+      "code": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.No_due_certificate_electricity",
+      "name": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_FIELD_FEE",
+      "code": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.registery_and_bank_loan",
+      "name": "OTHER.REGISTERY_AND_BANK_LOAN_TAX",
+      "code": "OTHER.REGISTERY_AND_BANK_LOAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.registery_and_bank_loan",
+      "name": "OTHER.REGISTERY_AND_BANK_LOAN_FIELD_FEE",
+      "code": "OTHER.REGISTERY_AND_BANK_LOAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.SBM_garbage_plastic_polythene_challan",
+      "name": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_TAX",
+      "code": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.SBM_garbage_plastic_polythene_challan",
+      "name": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_FIELD_FEE",
+      "code": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.Dead_animals_contract",
+      "name": "SNT.DEAD_ANIMALS_CONTRACT_TAX",
+      "code": "SNT.DEAD_ANIMALS_CONTRACT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "SNT.Dead_animals_contract",
+      "name": "SNT.DEAD_ANIMALS_CONTRACT_FIELD_FEE",
+      "code": "SNT.DEAD_ANIMALS_CONTRACT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.GPF",
+      "name": "FN.GPF_TAX",
+      "code": "FN.GPF_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.GPF",
+      "name": "FN.GPF_FIELD_FEE",
+      "code": "FN.GPF_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.CPF_received_check",
+      "name": "FN.CPF_RECEIVED_CHECK_TAX",
+      "code": "FN.CPF_RECEIVED_CHECK_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.CPF_received_check",
+      "name": "FN.CPF_RECEIVED_CHECK_FIELD_FEE",
+      "code": "FN.CPF_RECEIVED_CHECK_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Installation",
+      "name": "RT.TOWER_INSTALLATION_TAX",
+      "code": "RT.TOWER_INSTALLATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Tower_Installation",
+      "name": "RT.TOWER_INSTALLATION_FIELD_FEE",
+      "code": "RT.TOWER_INSTALLATION_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Annual_Rent",
+      "name": "RT.TOWER_ANNUAL_RENT_TAX",
+      "code": "RT.TOWER_ANNUAL_RENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Tower_Annual_Rent",
+      "name": "RT.TOWER_ANNUAL_RENT_FIELD_FEE",
+      "code": "RT.TOWER_ANNUAL_RENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CSS.cow_cess",
+      "name": "CSS.COW_CESS_TAX",
+      "code": "CSS.COW_CESS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CSS.cow_cess",
+      "name": "CSS.COW_CESS_FIELD_FEE",
+      "code": "CSS.COW_CESS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Cattle_Challan",
+      "name": "CH.CATTLE_CHALLAN_TAX",
+      "code": "CH.CATTLE_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Cattle_Challan",
+      "name": "CH.CATTLE_CHALLAN_FIELD_FEE",
+      "code": "CH.CATTLE_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Rehri_Challan",
+      "name": "TB.REHRI_CHALLAN_TAX",
+      "code": "TB.REHRI_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TB.Rehri_Challan",
+      "name": "TB.REHRI_CHALLAN_FIELD_FEE",
+      "code": "TB.REHRI_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "LCF.Manual_Rikshaw",
+      "name": "LCF.MANUAL_RIKSHAW_TAX",
+      "code": "LCF.MANUAL_RIKSHAW_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "LCF.Manual_Rikshaw",
+      "name": "LCF.MANUAL_RIKSHAW_FIELD_FEE",
+      "code": "LCF.MANUAL_RIKSHAW_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Dairy_Animals_Challan",
+      "name": "CH.DAIRY_ANIMALS_CHALLAN_TAX",
+      "code": "CH.DAIRY_ANIMALS_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Dairy_Animals_Challan",
+      "name": "CH.DAIRY_ANIMALS_CHALLAN_FIELD_FEE",
+      "code": "CH.DAIRY_ANIMALS_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Bidi_&_Cigrette_Challan",
+      "name": "CH.BIDI_&_CIGRETTE_CHALLAN_TAX",
+      "code": "CH.BIDI_&_CIGRETTE_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Bidi_&_Cigrette_Challan",
+      "name": "CH.BIDI_&_CIGRETTE_CHALLAN_FIELD_FEE",
+      "code": "CH.BIDI_&_CIGRETTE_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Community_Centre_Booking_Fee",
+      "name": "RT.COMMUNITY_CENTRE_BOOKING_FEE_TAX",
+      "code": "RT.COMMUNITY_CENTRE_BOOKING_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Community_Centre_Booking_Fee",
+      "name": "RT.COMMUNITY_CENTRE_BOOKING_FEE_FIELD_FEE",
+      "code": "RT.COMMUNITY_CENTRE_BOOKING_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Commercial_Use_of_Municipal_Land",
+      "name": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_TAX",
+      "code": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Commercial_Use_of_Municipal_Land",
+      "name": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_FIELD_FEE",
+      "code": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Street_Vendor",
+      "name": "RT.STREET_VENDOR_TAX",
+      "code": "RT.STREET_VENDOR_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Street_Vendor",
+      "name": "RT.STREET_VENDOR_FIELD_FEE",
+      "code": "RT.STREET_VENDOR_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Construction_Waste",
+      "name": "FTP.CONSTRUCTION_WASTE_TAX",
+      "code": "FTP.CONSTRUCTION_WASTE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Construction_Waste",
+      "name": "FTP.CONSTRUCTION_WASTE_FIELD_FEE",
+      "code": "FTP.CONSTRUCTION_WASTE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Demolition_Waste",
+      "name": "FTP.DEMOLITION_WASTE_TAX",
+      "code": "FTP.DEMOLITION_WASTE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FTP.Demolition_Waste",
+      "name": "FTP.DEMOLITION_WASTE_FIELD_FEE",
+      "code": "FTP.DEMOLITION_WASTE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.clean_safai_sanitation",
+      "name": "SNT.CLEAN_SAFAI_SANITATION_TAX",
+      "code": "SNT.CLEAN_SAFAI_SANITATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "SNT.clean_safai_sanitation",
+      "name": "SNT.CLEAN_SAFAI_SANITATION_FIELD_FEE",
+      "code": "SNT.CLEAN_SAFAI_SANITATION_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Plumber_License_Fee",
+      "name": "OM.PLUMBER_LICENSE_FEE_TAX",
+      "code": "OM.PLUMBER_LICENSE_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OM.Plumber_License_Fee",
+      "name": "OM.PLUMBER_LICENSE_FEE_FIELD_FEE",
+      "code": "OM.PLUMBER_LICENSE_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Light_Wala_Board",
+      "name": "ADVT.LIGHT_WALA_BOARD_TAX",
+      "code": "ADVT.LIGHT_WALA_BOARD_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Light_Wala_Board",
+      "name": "ADVT.LIGHT_WALA_BOARD_FIELD_FEE",
+      "code": "ADVT.LIGHT_WALA_BOARD_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "name": "ADVT.WALL_PAINT_ADVERTISEMENT_TAX",
+      "code": "ADVT.WALL_PAINT_ADVERTISEMENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "name": "ADVT.WALL_PAINT_ADVERTISEMENT_FIELD_FEE",
+      "code": "ADVT.WALL_PAINT_ADVERTISEMENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "name": "ADVT.GAS_BALLOON_ADVERTISEMENT_TAX",
+      "code": "ADVT.GAS_BALLOON_ADVERTISEMENT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Gas_Balloon_Advertisement",
+      "name": "ADVT.GAS_BALLOON_ADVERTISEMENT_FIELD_FEE",
+      "code": "ADVT.GAS_BALLOON_ADVERTISEMENT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Education Cess Grants",
+      "code": "REV_GRANTS_EDU_CESS_GRANTS",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Govt. Aid for Primary Education",
+      "code": "REV_GRANTS_GOVT_AID_PRIM_EDU",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Family Welfare Grant",
+      "code": "REV_GRANTS_FAM_WF_GRANT",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "Family Planning Aid from Central Government",
+      "code": "REV_GRANTS_FAM_PLANNIG_AID_CENT_GOVT",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "REV_GRANTS",
+      "name": "SJSRY Salary Grant",
+      "code": "REV_GRANTS_SJSRY_SAL_GRANT",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "DISP_FIXED_ASSET.LAND",
+      "name": "Land Fee",
+      "code": "DISP_FIXED_ASSET_LAND_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.LAND",
+      "name": "GST",
+      "code": "DISP_FIXED_ASSET_LAND_GST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.LAND",
+      "name": "Rebate",
+      "code": "DISP_FIXED_ASSET_LAND_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "DISP_FIXED_ASSET.BUILDING",
+      "name": "Buidling Fee",
+      "code": "DISP_FIXED_ASSET_BUILDING_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.BUILDING",
+      "name": "GST",
+      "code": "DISP_FIXED_ASSET_BUILDING_GST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.BUILDING",
+      "name": "Rebate",
+      "code": "DISP_FIXED_ASSET_BUILDING_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "name": "Vehicle Fee",
+      "code": "DISP_FIXED_ASSET_VEHICLE_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "name": "GST",
+      "code": "DISP_FIXED_ASSET_VEHICLE_GST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "name": "Rebate",
+      "code": "DISP_FIXED_ASSET_VEHICLE_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPAREG",
+      "name": "BPA Stakeholder Registraion fees",
+      "code": "BPAREG_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "WS",
+      "name": "Water Charges",
+      "code": "WS_CHARGE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Rebate",
+      "code": "WS_TIME_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false,
+      "IsBillamend": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Interest",
+      "code": "WS_TIME_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Water Cess",
+      "code": "WS_WATER_CESS",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "PENALTY",
+      "service": "WS",
+      "name": "Penalty",
+      "code": "WS_TIME_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Round Off",
+      "code": "WS_Round_Off",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
+      "isRequired": false,
+      "IsBillamend": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "SW",
+      "name": "Sewerage Charges",
+      "code": "SW_CHARGE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Rebate",
+      "code": "SW_TIME_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false,
+      "IsBillamend": false
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Interest",
+      "code": "SW_TIME_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "PENALTY",
+      "service": "SW",
+      "name": "Penalty",
+      "code": "SW_TIME_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Round Off",
+      "code": "SW_Round_Off",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
+      "isRequired": false,
+      "IsBillamend": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_APP_FEE",
+      "name": "BPA Application fees",
+      "code": "BPA_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_SAN_FEE",
+      "name": "BPA Sanction fees",
+      "code": "BPA_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "PT.MUTATION",
+      "name": "PT Mutation Fees",
+      "code": "PT_MUTATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "REBATE",
+      "service": "PT.MUTATION",
+      "name": "PT Mutation Rebate",
+      "code": "PT_MUTATION_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "PT.MUTATION",
+      "name": "PT Mutation Penalty",
+      "code": "PT_MUTATION_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT.MUTATION",
+      "name": "Pt mutation adhoc rebate",
+      "code": "PT_MUTATION_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "PT.MUTATION",
+      "name": "Pt mutation adhoc penalty",
+      "code": "PT_MUTATION_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "TL",
+      "name": "TL Renewal Tax",
+      "code": "TL_RENEWAL_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "REBATE",
+      "service": "TL",
+      "name": "TL Renewal Rebate",
+      "code": "TL_RENEWAL_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "TL",
+      "name": "TL Renewal Penalty",
+      "code": "TL_RENEWAL_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "TL Renewal adhoc rebate",
+      "code": "TL_RENEWAL_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TL",
+      "name": "TL Renewal adhoc penalty",
+      "code": "TL_RENEWAL_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application form fee",
+      "code": "WS_FORM_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application scrutiny fee",
+      "code": "WS_SCRUTINY_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application one time fee",
+      "code": "WS_ONE_TIME_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application road cutting charge",
+      "code": "WS_ROAD_CUTTING_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application meter charge",
+      "code": "WS_METER_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application security charge",
+      "code": "WS_SECURITY_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application other charges",
+      "code": "WS_OTHER_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water application tax and cess",
+      "code": "WS_TAX_AND_CESS",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "7",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application form fee",
+      "code": "SW_FORM_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application scrutiny fee",
+      "code": "SW_SCRUTINY_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application one time fee",
+      "code": "SW_ONE_TIME_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application road cutting charge",
+      "code": "SW_ROAD_CUTTING_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application meter charge",
+      "code": "SW_METER_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "4",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application security charge",
+      "code": "SW_SECURITY_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application other charges",
+      "code": "SW_OTHER_CHARGE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage application tax and cess",
+      "code": "SW_TAX_AND_CESS",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "7",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Fee Round Off",
+      "code": "WS_FEE_ROUND_OFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "8",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Fee Round Off",
+      "code": "SW_FEE_ROUND_OFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "8",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water adhoc penality",
+      "code": "WS_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "9",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS.ONE_TIME_FEE",
+      "name": "Water adhoc rebate",
+      "code": "WS_ADHOC_REBATE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "10",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage adhoc penality",
+      "code": "SW_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "9",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SW.ONE_TIME_FEE",
+      "name": "Sewerage adhoc rebate",
+      "code": "SW_ADHOC_REBATE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "10",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Appllication Fees",
+      "code": "BPA_LOW_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.LOW_RISK_PERMIT_FEE",
+      "name": "BPA Low Risk Permit Fees",
+      "code": "BPA_LOW_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.No_Dues_Certificate",
+      "name": "TX.NO_DUES_CERTIFICATE_CGST",
+      "code": "TX.NO_DUES_CERTIFICATE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.No_Dues_Certificate",
+      "name": "TX.NO_DUES_CERTIFICATE_SGST",
+      "code": "TX.NO_DUES_CERTIFICATE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Hoardings",
+      "name": "ADVT.HOARDINGS_CGST",
+      "code": "ADVT.HOARDINGS_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Hoardings",
+      "name": "ADVT.HOARDINGS_SGST",
+      "code": "ADVT.HOARDINGS_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Unipolls",
+      "name": "ADVT.UNIPOLLS_CGST",
+      "code": "ADVT.UNIPOLLS_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Unipolls",
+      "name": "ADVT.UNIPOLLS_SGST",
+      "code": "ADVT.UNIPOLLS_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Municipal_Shops_Rent",
+      "name": "RT.MUNICIPAL_SHOPS_RENT_CGST",
+      "code": "RT.MUNICIPAL_SHOPS_RENT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Municipal_Shops_Rent",
+      "name": "RT.MUNICIPAL_SHOPS_RENT_SGST",
+      "code": "RT.MUNICIPAL_SHOPS_RENT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Land_Rent",
+      "name": "RT.LAND_RENT_CGST",
+      "code": "RT.LAND_RENT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Land_Rent",
+      "name": "RT.LAND_RENT_SGST",
+      "code": "RT.LAND_RENT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Rent",
+      "name": "RT.TOWER_RENT_CGST",
+      "code": "RT.TOWER_RENT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Rent",
+      "name": "RT.TOWER_RENT_SGST",
+      "code": "RT.TOWER_RENT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Parking_Fee",
+      "name": "RT.PARKING_FEE_CGST",
+      "code": "RT.PARKING_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Parking_Fee",
+      "name": "RT.PARKING_FEE_SGST",
+      "code": "RT.PARKING_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Jamin_Theka",
+      "name": "RT.JAMIN_THEKA_CGST",
+      "code": "RT.JAMIN_THEKA_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Jamin_Theka",
+      "name": "RT.JAMIN_THEKA_SGST",
+      "code": "RT.JAMIN_THEKA_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Election_rally_fees",
+      "name": "ADMN.ELECTION_RALLY_FEES_CGST",
+      "code": "ADMN.ELECTION_RALLY_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Election_rally_fees",
+      "name": "ADMN.ELECTION_RALLY_FEES_SGST",
+      "code": "ADMN.ELECTION_RALLY_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Parking_during_election",
+      "name": "ADMN.PARKING_DURING_ELECTION_CGST",
+      "code": "ADMN.PARKING_DURING_ELECTION_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Parking_during_election",
+      "name": "ADMN.PARKING_DURING_ELECTION_SGST",
+      "code": "ADMN.PARKING_DURING_ELECTION_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Road_show",
+      "name": "ADMN.ROAD_SHOW_CGST",
+      "code": "ADMN.ROAD_SHOW_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Road_show",
+      "name": "ADMN.ROAD_SHOW_SGST",
+      "code": "ADMN.ROAD_SHOW_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Advance_Provident_Fund",
+      "name": "FN.ADVANCE_PROVIDENT_FUND_CGST",
+      "code": "FN.ADVANCE_PROVIDENT_FUND_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Advance_Provident_Fund",
+      "name": "FN.ADVANCE_PROVIDENT_FUND_SGST",
+      "code": "FN.ADVANCE_PROVIDENT_FUND_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ST.Stationary_Not_Income",
+      "name": "ST.STATIONARY_NOT_INCOME_CGST",
+      "code": "ST.STATIONARY_NOT_INCOME_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ST.Stationary_Not_Income",
+      "name": "ST.STATIONARY_NOT_INCOME_SGST",
+      "code": "ST.STATIONARY_NOT_INCOME_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ST.Expenditure_santitation_Not_Income",
+      "name": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_CGST",
+      "code": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ST.Expenditure_santitation_Not_Income",
+      "name": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_SGST",
+      "code": "ST.EXPENDITURE_SANTITATION_NOT_INCOME_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Santitation_dumping_garbage",
+      "name": "CH.SANTITATION_DUMPING_GARBAGE_CGST",
+      "code": "CH.SANTITATION_DUMPING_GARBAGE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Santitation_dumping_garbage",
+      "name": "CH.SANTITATION_DUMPING_GARBAGE_SGST",
+      "code": "CH.SANTITATION_DUMPING_GARBAGE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Telecom_tower_fees",
+      "name": "FTP.TELECOM_TOWER_FEES_CGST",
+      "code": "FTP.TELECOM_TOWER_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Telecom_tower_fees",
+      "name": "FTP.TELECOM_TOWER_FEES_SGST",
+      "code": "FTP.TELECOM_TOWER_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Electricity_Chungi",
+      "name": "TX.ELECTRICITY_CHUNGI_CGST",
+      "code": "TX.ELECTRICITY_CHUNGI_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Electricity_Chungi",
+      "name": "TX.ELECTRICITY_CHUNGI_SGST",
+      "code": "TX.ELECTRICITY_CHUNGI_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Draftsmen_fees",
+      "name": "FTP.DRAFTSMEN_FEES_CGST",
+      "code": "FTP.DRAFTSMEN_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Draftsmen_fees",
+      "name": "FTP.DRAFTSMEN_FEES_SGST",
+      "code": "FTP.DRAFTSMEN_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Compremasing_fees",
+      "name": "FTP.COMPREMASING_FEES_CGST",
+      "code": "FTP.COMPREMASING_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Compremasing_fees",
+      "name": "FTP.COMPREMASING_FEES_SGST",
+      "code": "FTP.COMPREMASING_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Building_planner_renew",
+      "name": "FTP.BUILDING_PLANNER_RENEW_CGST",
+      "code": "FTP.BUILDING_PLANNER_RENEW_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Building_planner_renew",
+      "name": "FTP.BUILDING_PLANNER_RENEW_SGST",
+      "code": "FTP.BUILDING_PLANNER_RENEW_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_samjota_fees",
+      "name": "NKS.NAKSHA_SAMJOTA_FEES_CGST",
+      "code": "NKS.NAKSHA_SAMJOTA_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_samjota_fees",
+      "name": "NKS.NAKSHA_SAMJOTA_FEES_SGST",
+      "code": "NKS.NAKSHA_SAMJOTA_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_changes",
+      "name": "NKS.NAKSHA_CHANGES_CGST",
+      "code": "NKS.NAKSHA_CHANGES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_changes",
+      "name": "NKS.NAKSHA_CHANGES_SGST",
+      "code": "NKS.NAKSHA_CHANGES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.License_fees_building_branch",
+      "name": "FTP.LICENSE_FEES_BUILDING_BRANCH_CGST",
+      "code": "FTP.LICENSE_FEES_BUILDING_BRANCH_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.License_fees_building_branch",
+      "name": "FTP.LICENSE_FEES_BUILDING_BRANCH_SGST",
+      "code": "FTP.LICENSE_FEES_BUILDING_BRANCH_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Water_connection_disconnection_fees",
+      "name": "OM.WATER_CONNECTION_DISCONNECTION_FEES_CGST",
+      "code": "OM.WATER_CONNECTION_DISCONNECTION_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Water_connection_disconnection_fees",
+      "name": "OM.WATER_CONNECTION_DISCONNECTION_FEES_SGST",
+      "code": "OM.WATER_CONNECTION_DISCONNECTION_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_renew_fees",
+      "name": "NKS.NAKSHA_RENEW_FEES_CGST",
+      "code": "NKS.NAKSHA_RENEW_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_renew_fees",
+      "name": "NKS.NAKSHA_RENEW_FEES_SGST",
+      "code": "NKS.NAKSHA_RENEW_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.NOC_Completion_of_building_approval",
+      "name": "NKS.NOC_COMPLETION_OF_BUILDING_APPROVAL_CGST",
+      "code": "NKS.NOC_COMPLETION_OF_BUILDING_APPROVAL_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.NOC_Completion_of_building_approval",
+      "name": "NKS.NOC_COMPLETION_OF_BUILDING_APPROVAL_SGST",
+      "code": "NKS.NOC_COMPLETION_OF_BUILDING_APPROVAL_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Alteration_additional_charge",
+      "name": "NKS.ALTERATION_ADDITIONAL_CHARGE_CGST",
+      "code": "NKS.ALTERATION_ADDITIONAL_CHARGE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Alteration_additional_charge",
+      "name": "NKS.ALTERATION_ADDITIONAL_CHARGE_SGST",
+      "code": "NKS.ALTERATION_ADDITIONAL_CHARGE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.2_year_time_limit_of_Renewal_Building_Naksha",
+      "name": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_CGST",
+      "code": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.2_year_time_limit_of_Renewal_Building_Naksha",
+      "name": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_SGST",
+      "code": "NKS.2_YEAR_TIME_LIMIT_OF_RENEWAL_BUILDING_NAKSHA_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Leave_encashment_and_gratuty",
+      "name": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_CGST",
+      "code": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Leave_encashment_and_gratuty",
+      "name": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_SGST",
+      "code": "FTP.LEAVE_ENCASHMENT_AND_GRATUTY_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Plastic_Challan",
+      "name": "CH.PLASTIC_CHALLAN_CGST",
+      "code": "CH.PLASTIC_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Plastic_Challan",
+      "name": "CH.PLASTIC_CHALLAN_SGST",
+      "code": "CH.PLASTIC_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Rehri_Challan",
+      "name": "CH.REHRI_CHALLAN_CGST",
+      "code": "CH.REHRI_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Rehri_Challan",
+      "name": "CH.REHRI_CHALLAN_SGST",
+      "code": "CH.REHRI_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Challan_for_Misuse_of_Water",
+      "name": "CH.CHALLAN_FOR_MISUSE_OF_WATER_CGST",
+      "code": "CH.CHALLAN_FOR_MISUSE_OF_WATER_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Challan_for_Misuse_of_Water",
+      "name": "CH.CHALLAN_FOR_MISUSE_OF_WATER_SGST",
+      "code": "CH.CHALLAN_FOR_MISUSE_OF_WATER_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Dengue_Challan",
+      "name": "CH.DENGUE_CHALLAN_CGST",
+      "code": "CH.DENGUE_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Dengue_Challan",
+      "name": "CH.DENGUE_CHALLAN_SGST",
+      "code": "CH.DENGUE_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Littering_Challan",
+      "name": "CH.LITTERING_CHALLAN_CGST",
+      "code": "CH.LITTERING_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Littering_Challan",
+      "name": "CH.LITTERING_CHALLAN_SGST",
+      "code": "CH.LITTERING_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.Licence_Pure_food",
+      "name": "SNT.LICENCE_PURE_FOOD_CGST",
+      "code": "SNT.LICENCE_PURE_FOOD_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.Licence_Pure_food",
+      "name": "SNT.LICENCE_PURE_FOOD_SGST",
+      "code": "SNT.LICENCE_PURE_FOOD_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Misc_Challans",
+      "name": "OTHER.MISC_CHALLANS_CGST",
+      "code": "OTHER.MISC_CHALLANS_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Misc_Challans",
+      "name": "OTHER.MISC_CHALLANS_SGST",
+      "code": "OTHER.MISC_CHALLANS_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Regularisation_of_Buildings",
+      "name": "NKS.REGULARISATION_OF_BUILDINGS_CGST",
+      "code": "NKS.REGULARISATION_OF_BUILDINGS_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Regularisation_of_Buildings",
+      "name": "NKS.REGULARISATION_OF_BUILDINGS_SGST",
+      "code": "NKS.REGULARISATION_OF_BUILDINGS_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.Contractor_Enlistment",
+      "name": "WF.CONTRACTOR_ENLISTMENT_CGST",
+      "code": "WF.CONTRACTOR_ENLISTMENT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.Contractor_Enlistment",
+      "name": "WF.CONTRACTOR_ENLISTMENT_SGST",
+      "code": "WF.CONTRACTOR_ENLISTMENT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.TenderFormFee",
+      "name": "WF.TENDERFORMFEE_CGST",
+      "code": "WF.TENDERFORMFEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.TenderFormFee",
+      "name": "WF.TENDERFORMFEE_SGST",
+      "code": "WF.TENDERFORMFEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Advertisement_fee",
+      "name": "TB.ADVERTISEMENT_FEE_CGST",
+      "code": "TB.ADVERTISEMENT_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Advertisement_fee",
+      "name": "TB.ADVERTISEMENT_FEE_SGST",
+      "code": "TB.ADVERTISEMENT_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Tehbazaari",
+      "name": "TB.TEHBAZAARI_CGST",
+      "code": "TB.TEHBAZAARI_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Tehbazaari",
+      "name": "TB.TEHBAZAARI_SGST",
+      "code": "TB.TEHBAZAARI_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.PF_transfer_(Accounts)",
+      "name": "FN.PF_TRANSFER_(ACCOUNTS)_CGST",
+      "code": "FN.PF_TRANSFER_(ACCOUNTS)_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.PF_transfer_(Accounts)",
+      "name": "FN.PF_TRANSFER_(ACCOUNTS)_SGST",
+      "code": "FN.PF_TRANSFER_(ACCOUNTS)_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "name": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_CGST",
+      "code": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.TS1_copy_register_for_old_survey",
+      "name": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_SGST",
+      "code": "TX.TS1_COPY_REGISTER_FOR_OLD_SURVEY_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Transfer_Property_Fees",
+      "name": "TX.TRANSFER_PROPERTY_FEES_CGST",
+      "code": "TX.TRANSFER_PROPERTY_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Transfer_Property_Fees",
+      "name": "TX.TRANSFER_PROPERTY_FEES_SGST",
+      "code": "TX.TRANSFER_PROPERTY_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.RTI",
+      "name": "ADMN.RTI_CGST",
+      "code": "ADMN.RTI_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.RTI",
+      "name": "ADMN.RTI_SGST",
+      "code": "ADMN.RTI_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.No_Dues_Certificate",
+      "name": "ADMN.NO_DUES_CERTIFICATE_CGST",
+      "code": "ADMN.NO_DUES_CERTIFICATE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.No_Dues_Certificate",
+      "name": "ADMN.NO_DUES_CERTIFICATE_SGST",
+      "code": "ADMN.NO_DUES_CERTIFICATE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Architect_license_fee",
+      "name": "FTP.ARCHITECT_LICENSE_FEE_CGST",
+      "code": "FTP.ARCHITECT_LICENSE_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Architect_license_fee",
+      "name": "FTP.ARCHITECT_LICENSE_FEE_SGST",
+      "code": "FTP.ARCHITECT_LICENSE_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Challan_Under_section_156",
+      "name": "TB.CHALLAN_UNDER_SECTION_156_CGST",
+      "code": "TB.CHALLAN_UNDER_SECTION_156_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Challan_Under_section_156",
+      "name": "TB.CHALLAN_UNDER_SECTION_156_SGST",
+      "code": "TB.CHALLAN_UNDER_SECTION_156_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Recovery_employee_contractor",
+      "name": "FN.RECOVERY_EMPLOYEE_CONTRACTOR_CGST",
+      "code": "FN.RECOVERY_EMPLOYEE_CONTRACTOR_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Recovery_employee_contractor",
+      "name": "FN.RECOVERY_EMPLOYEE_CONTRACTOR_SGST",
+      "code": "FN.RECOVERY_EMPLOYEE_CONTRACTOR_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Grants_cheque",
+      "name": "FN.GRANTS_CHEQUE_CGST",
+      "code": "FN.GRANTS_CHEQUE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Grants_cheque",
+      "name": "FN.GRANTS_CHEQUE_SGST",
+      "code": "FN.GRANTS_CHEQUE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.No_due_certificate_electricity",
+      "name": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_CGST",
+      "code": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.No_due_certificate_electricity",
+      "name": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_SGST",
+      "code": "OTHER.NO_DUE_CERTIFICATE_ELECTRICITY_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.registery_and_bank_loan",
+      "name": "OTHER.REGISTERY_AND_BANK_LOAN_CGST",
+      "code": "OTHER.REGISTERY_AND_BANK_LOAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.registery_and_bank_loan",
+      "name": "OTHER.REGISTERY_AND_BANK_LOAN_SGST",
+      "code": "OTHER.REGISTERY_AND_BANK_LOAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.SBM_garbage_plastic_polythene_challan",
+      "name": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_CGST",
+      "code": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.SBM_garbage_plastic_polythene_challan",
+      "name": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_SGST",
+      "code": "CH.SBM_GARBAGE_PLASTIC_POLYTHENE_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.Dead_animals_contract",
+      "name": "SNT.DEAD_ANIMALS_CONTRACT_CGST",
+      "code": "SNT.DEAD_ANIMALS_CONTRACT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.Dead_animals_contract",
+      "name": "SNT.DEAD_ANIMALS_CONTRACT_SGST",
+      "code": "SNT.DEAD_ANIMALS_CONTRACT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.GPF",
+      "name": "FN.GPF_CGST",
+      "code": "FN.GPF_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.GPF",
+      "name": "FN.GPF_SGST",
+      "code": "FN.GPF_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.CPF_received_check",
+      "name": "FN.CPF_RECEIVED_CHECK_CGST",
+      "code": "FN.CPF_RECEIVED_CHECK_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.CPF_received_check",
+      "name": "FN.CPF_RECEIVED_CHECK_SGST",
+      "code": "FN.CPF_RECEIVED_CHECK_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Installation",
+      "name": "RT.TOWER_INSTALLATION_CGST",
+      "code": "RT.TOWER_INSTALLATION_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Installation",
+      "name": "RT.TOWER_INSTALLATION_SGST",
+      "code": "RT.TOWER_INSTALLATION_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Annual_Rent",
+      "name": "RT.TOWER_ANNUAL_RENT_CGST",
+      "code": "RT.TOWER_ANNUAL_RENT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Tower_Annual_Rent",
+      "name": "RT.TOWER_ANNUAL_RENT_SGST",
+      "code": "RT.TOWER_ANNUAL_RENT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CSS.cow_cess",
+      "name": "CSS.COW_CESS_CGST",
+      "code": "CSS.COW_CESS_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CSS.cow_cess",
+      "name": "CSS.COW_CESS_SGST",
+      "code": "CSS.COW_CESS_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Cattle_Challan",
+      "name": "CH.CATTLE_CHALLAN_CGST",
+      "code": "CH.CATTLE_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Cattle_Challan",
+      "name": "CH.CATTLE_CHALLAN_SGST",
+      "code": "CH.CATTLE_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Rehri_Challan",
+      "name": "TB.REHRI_CHALLAN_CGST",
+      "code": "TB.REHRI_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TB.Rehri_Challan",
+      "name": "TB.REHRI_CHALLAN_SGST",
+      "code": "TB.REHRI_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "LCF.Manual_Rikshaw",
+      "name": "LCF.MANUAL_RIKSHAW_CGST",
+      "code": "LCF.MANUAL_RIKSHAW_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "LCF.Manual_Rikshaw",
+      "name": "LCF.MANUAL_RIKSHAW_SGST",
+      "code": "LCF.MANUAL_RIKSHAW_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Dairy_Animals_Challan",
+      "name": "CH.DAIRY_ANIMALS_CHALLAN_CGST",
+      "code": "CH.DAIRY_ANIMALS_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Dairy_Animals_Challan",
+      "name": "CH.DAIRY_ANIMALS_CHALLAN_SGST",
+      "code": "CH.DAIRY_ANIMALS_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Bidi_And_Cigrette_Challan",
+      "name": "CH.BIDI_AND_CIGRETTE_CHALLAN_CGST",
+      "code": "CH.BIDI_AND_CIGRETTE_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Bidi_And_Cigrette_Challan",
+      "name": "CH.BIDI_AND_CIGRETTE_CHALLAN_SGST",
+      "code": "CH.BIDI_AND_CIGRETTE_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Community_Centre_Booking_Fee",
+      "name": "RT.COMMUNITY_CENTRE_BOOKING_FEE_CGST",
+      "code": "RT.COMMUNITY_CENTRE_BOOKING_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Community_Centre_Booking_Fee",
+      "name": "RT.COMMUNITY_CENTRE_BOOKING_FEE_SGST",
+      "code": "RT.COMMUNITY_CENTRE_BOOKING_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Commercial_Use_of_Municipal_Land",
+      "name": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_CGST",
+      "code": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Commercial_Use_of_Municipal_Land",
+      "name": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_SGST",
+      "code": "RT.COMMERCIAL_USE_OF_MUNICIPAL_LAND_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Street_Vendor",
+      "name": "RT.STREET_VENDOR_CGST",
+      "code": "RT.STREET_VENDOR_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Street_Vendor",
+      "name": "RT.STREET_VENDOR_SGST",
+      "code": "RT.STREET_VENDOR_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Construction_Waste",
+      "name": "FTP.CONSTRUCTION_WASTE_CGST",
+      "code": "FTP.CONSTRUCTION_WASTE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Construction_Waste",
+      "name": "FTP.CONSTRUCTION_WASTE_SGST",
+      "code": "FTP.CONSTRUCTION_WASTE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Demolition_Waste",
+      "name": "FTP.DEMOLITION_WASTE_CGST",
+      "code": "FTP.DEMOLITION_WASTE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FTP.Demolition_Waste",
+      "name": "FTP.DEMOLITION_WASTE_SGST",
+      "code": "FTP.DEMOLITION_WASTE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.clean_safai_sanitation",
+      "name": "SNT.CLEAN_SAFAI_SANITATION_CGST",
+      "code": "SNT.CLEAN_SAFAI_SANITATION_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "SNT.clean_safai_sanitation",
+      "name": "SNT.CLEAN_SAFAI_SANITATION_SGST",
+      "code": "SNT.CLEAN_SAFAI_SANITATION_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Plumber_License_Fee",
+      "name": "OM.PLUMBER_LICENSE_FEE_CGST",
+      "code": "OM.PLUMBER_LICENSE_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Plumber_License_Fee",
+      "name": "OM.PLUMBER_LICENSE_FEE_SGST",
+      "code": "OM.PLUMBER_LICENSE_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Light_Wala_Board",
+      "name": "ADVT.LIGHT_WALA_BOARD_CGST",
+      "code": "ADVT.LIGHT_WALA_BOARD_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Light_Wala_Board",
+      "name": "ADVT.LIGHT_WALA_BOARD_SGST",
+      "code": "ADVT.LIGHT_WALA_BOARD_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "name": "ADVT.WALL_PAINT_ADVERTISEMENT_CGST",
+      "code": "ADVT.WALL_PAINT_ADVERTISEMENT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Wall_Paint_Advertisement",
+      "name": "ADVT.WALL_PAINT_ADVERTISEMENT_SGST",
+      "code": "ADVT.WALL_PAINT_ADVERTISEMENT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.House_Tax",
+      "name": "TX.HOUSE_TAX",
+      "code": "TX.HOUSE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.House_Tax",
+      "name": "TX.HOUSE_TAX_FIELD_FEE",
+      "code": "TX.HOUSE_TAX_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.House_Tax",
+      "name": "TX.House_Tax_CGST",
+      "code": "TX.House_Tax_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.House_Tax",
+      "name": "TX.House_Tax_SGST",
+      "code": "TX.House_Tax_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.No_Due_Certificate_fees",
+      "name": "NKS.NO_DUE_CERTIFICATE_FEES_TAX",
+      "code": "NKS.NO_DUE_CERTIFICATE_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.No_Due_Certificate_fees",
+      "name": "NKS.NO_DUE_CERTIFICATE_FEES_FIELD_FEE",
+      "code": "NKS.NO_DUE_CERTIFICATE_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.No_Due_Certificate_fees",
+      "name": "NKS.NO_DUE_CERTIFICATE_FEES_CGST",
+      "code": "NKS.NO_DUE_CERTIFICATE_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.No_Due_Certificate_fees",
+      "name": "NKS.NO_DUE_CERTIFICATE_FEES_SGST",
+      "code": "NKS.NO_DUE_CERTIFICATE_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Colony_Sambandhi_fees",
+      "name": "NKS.COLONY_SAMBANDHI_FEES_TAX",
+      "code": "NKS.COLONY_SAMBANDHI_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Colony_Sambandhi_fees",
+      "name": "NKS.COLONY_SAMBANDHI_FEES_FIELD_FEE",
+      "code": "NKS.COLONY_SAMBANDHI_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Colony_Sambandhi_fees",
+      "name": "NKS.COLONY_SAMBANDHI_FEES_CGST",
+      "code": "NKS.COLONY_SAMBANDHI_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Colony_Sambandhi_fees",
+      "name": "NKS.COLONY_SAMBANDHI_FEES_SGST",
+      "code": "NKS.COLONY_SAMBANDHI_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_fees",
+      "name": "NKS.NAKSHA_FEES_TAX",
+      "code": "NKS.NAKSHA_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Naksha_fees",
+      "name": "NKS.NAKSHA_FEES_FIELD_FEE",
+      "code": "NKS.NAKSHA_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_fees",
+      "name": "NKS.NAKSHA_FEES_CGST",
+      "code": "NKS.NAKSHA_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Naksha_fees",
+      "name": "NKS.NAKSHA_FEES_SGST",
+      "code": "NKS.NAKSHA_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.OFC_Permission_fees",
+      "name": "WF.OFC_PERMISSION_FEES_TAX",
+      "code": "WF.OFC_PERMISSION_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "WF.OFC_Permission_fees",
+      "name": "WF.OFC_PERMISSION_FEES_FIELD_FEE",
+      "code": "WF.OFC_PERMISSION_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.OFC_Permission_fees",
+      "name": "WF.OFC_PERMISSION_FEES_CGST",
+      "code": "WF.OFC_PERMISSION_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WF.OFC_Permission_fees",
+      "name": "WF.OFC_PERMISSION_FEES_SGST",
+      "code": "WF.OFC_PERMISSION_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Hadud_Certificate_fees",
+      "name": "NKS.HADUD_CERTIFICATE_FEES_TAX",
+      "code": "NKS.HADUD_CERTIFICATE_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Hadud_Certificate_fees",
+      "name": "NKS.HADUD_CERTIFICATE_FEES_FIELD_FEE",
+      "code": "NKS.HADUD_CERTIFICATE_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Hadud_Certificate_fees",
+      "name": "NKS.HADUD_CERTIFICATE_FEES_CGST",
+      "code": "NKS.HADUD_CERTIFICATE_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Hadud_Certificate_fees",
+      "name": "NKS.HADUD_CERTIFICATE_FEES_SGST",
+      "code": "NKS.HADUD_CERTIFICATE_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Building_fees",
+      "name": "NKS.BUILDING_FEES_TAX",
+      "code": "NKS.BUILDING_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Building_fees",
+      "name": "NKS.BUILDING_FEES_FIELD_FEE",
+      "code": "NKS.BUILDING_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Building_fees",
+      "name": "NKS.BUILDING_FEES_CGST",
+      "code": "NKS.BUILDING_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Building_fees",
+      "name": "NKS.BUILDING_FEES_SGST",
+      "code": "NKS.BUILDING_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Boundary_wall_fees",
+      "name": "NKS.BOUNDARY_WALL_FEES_TAX",
+      "code": "NKS.BOUNDARY_WALL_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Boundary_wall_fees",
+      "name": "NKS.BOUNDARY_WALL_FEES_FIELD_FEE",
+      "code": "NKS.BOUNDARY_WALL_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Boundary_wall_fees",
+      "name": "NKS.BOUNDARY_WALL_FEES_CGST",
+      "code": "NKS.BOUNDARY_WALL_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Boundary_wall_fees",
+      "name": "NKS.BOUNDARY_WALL_FEES_SGST",
+      "code": "NKS.BOUNDARY_WALL_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Malba_fees",
+      "name": "NKS.MALBA_FEES_TAX",
+      "code": "NKS.MALBA_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Malba_fees",
+      "name": "NKS.MALBA_FEES_FIELD_FEE",
+      "code": "NKS.MALBA_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Malba_fees",
+      "name": "NKS.MALBA_FEES_CGST",
+      "code": "NKS.MALBA_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Malba_fees",
+      "name": "NKS.MALBA_FEES_SGST",
+      "code": "NKS.MALBA_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Development_fees",
+      "name": "NKS.DEVELOPMENT_FEES_TAX",
+      "code": "NKS.DEVELOPMENT_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Development_fees",
+      "name": "NKS.DEVELOPMENT_FEES_FIELD_FEE",
+      "code": "NKS.DEVELOPMENT_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Development_fees",
+      "name": "NKS.DEVELOPMENT_FEES_CGST",
+      "code": "NKS.DEVELOPMENT_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Development_fees",
+      "name": "NKS.DEVELOPMENT_FEES_SGST",
+      "code": "NKS.DEVELOPMENT_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Change_of_land_use_fees",
+      "name": "NKS.CHANGE_OF_LAND_USE_FEES_TAX",
+      "code": "NKS.CHANGE_OF_LAND_USE_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Change_of_land_use_fees",
+      "name": "NKS.CHANGE_OF_LAND_USE_FEES_FIELD_FEE",
+      "code": "NKS.CHANGE_OF_LAND_USE_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Change_of_land_use_fees",
+      "name": "NKS.CHANGE_OF_LAND_USE_FEES_CGST",
+      "code": "NKS.CHANGE_OF_LAND_USE_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Change_of_land_use_fees",
+      "name": "NKS.CHANGE_OF_LAND_USE_FEES_SGST",
+      "code": "NKS.CHANGE_OF_LAND_USE_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Under_development_fees",
+      "name": "NKS.UNDER_DEVELOPMENT_FEES_TAX",
+      "code": "NKS.UNDER_DEVELOPMENT_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Under_development_fees",
+      "name": "NKS.UNDER_DEVELOPMENT_FEES_FIELD_FEE",
+      "code": "NKS.UNDER_DEVELOPMENT_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Under_development_fees",
+      "name": "NKS.UNDER_DEVELOPMENT_FEES_CGST",
+      "code": "NKS.UNDER_DEVELOPMENT_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Under_development_fees",
+      "name": "NKS.UNDER_DEVELOPMENT_FEES_SGST",
+      "code": "NKS.UNDER_DEVELOPMENT_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Water_Charges",
+      "name": "OTHER.WATER_CHARGES_TAX",
+      "code": "OTHER.WATER_CHARGES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Water_Charges",
+      "name": "OTHER.WATER_CHARGES_FIELD_FEE",
+      "code": "OTHER.WATER_CHARGES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Water_Charges",
+      "name": "OTHER.WATER_CHARGES_CGST",
+      "code": "OTHER.WATER_CHARGES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Water_Charges",
+      "name": "OTHER.WATER_CHARGES_SGST",
+      "code": "OTHER.WATER_CHARGES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Others_fee",
+      "name": "OTHER.OTHERS_FEE_TAX",
+      "code": "OTHER.OTHERS_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Others_fee",
+      "name": "OTHER.OTHERS_FEE_FIELD_FEE",
+      "code": "OTHER.OTHERS_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Others_fee",
+      "name": "OTHER.OTHERS_FEE_CGST",
+      "code": "OTHER.OTHERS_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Others_fee",
+      "name": "OTHER.OTHERS_FEE_SGST",
+      "code": "OTHER.OTHERS_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CSS.labor_cess",
+      "name": "CSS.LABOR_CESS_TAX",
+      "code": "CSS.LABOR_CESS_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CSS.labor_cess",
+      "name": "CSS.LABOR_CESS_FIELD_FEE",
+      "code": "CSS.LABOR_CESS_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CSS.labor_cess",
+      "name": "CSS.LABOR_CESS_CGST",
+      "code": "CSS.LABOR_CESS_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CSS.labor_cess",
+      "name": "CSS.LABOR_CESS_SGST",
+      "code": "CSS.LABOR_CESS_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Provident_Fund_Processing_Fees",
+      "name": "FN.PROVIDENT_FUND_PROCESSING_FEES_TAX",
+      "code": "FN.PROVIDENT_FUND_PROCESSING_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.Provident_Fund_Processing_Fees",
+      "name": "FN.PROVIDENT_FUND_PROCESSING_FEES_FIELD_FEE",
+      "code": "FN.PROVIDENT_FUND_PROCESSING_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Provident_Fund_Processing_Fees",
+      "name": "FN.PROVIDENT_FUND_PROCESSING_FEES_CGST",
+      "code": "FN.PROVIDENT_FUND_PROCESSING_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Provident_Fund_Processing_Fees",
+      "name": "FN.PROVIDENT_FUND_PROCESSING_FEES_SGST",
+      "code": "FN.PROVIDENT_FUND_PROCESSING_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Sewerage_disconnection_connection_fees",
+      "name": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_TAX",
+      "code": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OM.Sewerage_disconnection_connection_fees",
+      "name": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_FIELD_FEE",
+      "code": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Sewerage_disconnection_connection_fees",
+      "name": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_CGST",
+      "code": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Sewerage_disconnection_connection_fees",
+      "name": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_SGST",
+      "code": "OM.SEWERAGE_DISCONNECTION_CONNECTION_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Economics_Weaker_Section_Scheme_Charges",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_TAX",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Economics_Weaker_Section_Scheme_Charges",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_FIELD_FEE",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Economics_Weaker_Section_Scheme_Charges",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_CGST",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Economics_Weaker_Section_Scheme_Charges",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_SGST",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_SCHEME_CHARGES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Economics_Weaker_Section_Projects_Fees",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_TAX",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Economics_Weaker_Section_Projects_Fees",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_FIELD_FEE",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Economics_Weaker_Section_Projects_Fees",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_CGST",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Economics_Weaker_Section_Projects_Fees",
+      "name": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_SGST",
+      "code": "NKS.ECONOMICS_WEAKER_SECTION_PROJECTS_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Road_cut_fees",
+      "name": "OM.ROAD_CUT_FEES_TAX",
+      "code": "OM.ROAD_CUT_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OM.Road_cut_fees",
+      "name": "OM.ROAD_CUT_FEES_FIELD_FEE",
+      "code": "OM.ROAD_CUT_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Road_cut_fees",
+      "name": "OM.ROAD_CUT_FEES_CGST",
+      "code": "OM.ROAD_CUT_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OM.Road_cut_fees",
+      "name": "OM.ROAD_CUT_FEES_SGST",
+      "code": "OM.ROAD_CUT_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Parking_booking_fee",
+      "name": "ADMN.PARKING_BOOKING_FEE_TAX",
+      "code": "ADMN.PARKING_BOOKING_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADMN.Parking_booking_fee",
+      "name": "ADMN.PARKING_BOOKING_FEE_FIELD_FEE",
+      "code": "ADMN.PARKING_BOOKING_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Parking_booking_fee",
+      "name": "ADMN.PARKING_BOOKING_FEE_CGST",
+      "code": "ADMN.PARKING_BOOKING_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADMN.Parking_booking_fee",
+      "name": "ADMN.PARKING_BOOKING_FEE_SGST",
+      "code": "ADMN.PARKING_BOOKING_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Canopy_Fee",
+      "name": "ADVT.CANOPY_FEE_TAX",
+      "code": "ADVT.CANOPY_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Canopy_Fee",
+      "name": "ADVT.CANOPY_FEE_FIELD_FEE",
+      "code": "ADVT.CANOPY_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Canopy_Fee",
+      "name": "ADVT.CANOPY_FEE_CGST",
+      "code": "ADVT.CANOPY_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Canopy_Fee",
+      "name": "ADVT.CANOPY_FEE_SGST",
+      "code": "ADVT.CANOPY_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Outdoor_Media_Display_Fee",
+      "name": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_TAX",
+      "code": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "ADVT.Outdoor_Media_Display_Fee",
+      "name": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_FIELD_FEE",
+      "code": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Outdoor_Media_Display_Fee",
+      "name": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_CGST",
+      "code": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ADVT.Outdoor_Media_Display_Fee",
+      "name": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_SGST",
+      "code": "ADVT.OUTDOOR_MEDIA_DISPLAY_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Property_Tax_2013-14",
+      "name": "TX.Property_Tax_2013-14_TAX",
+      "code": "TX.Property_Tax_2013-14_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "TX.Property_Tax_2013-14",
+      "name": "TX.Property_Tax_2013-14_FIELD_FEE",
+      "code": "TX.Property_Tax_2013-14_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Property_Tax_2013-14",
+      "name": "TX.Property_Tax_2013-14_CGST",
+      "code": "TX.Property_Tax_2013-14_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "TX.Property_Tax_2013-14",
+      "name": "TX.Property_Tax_2013-14_SGST",
+      "code": "TX.Property_Tax_2013-14_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Noc_fee",
+      "name": "OTHER.NOC_FEE_TAX",
+      "code": "OTHER.NCO_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Noc_fee",
+      "name": "OTHER.NOC_FEE_FIELD_FEE",
+      "code": "OTHER.NOC_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Noc_fee",
+      "name": "OTHER.NOC_FEE_CGST",
+      "code": "OTHER.NCO_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Noc_fee",
+      "name": "OTHER.NOC_FEE_SGST",
+      "code": "OTHER.NOC_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Noc_fee",
+      "name": "OTHER.FIRE_NOC_FEE_TAX",
+      "code": "OTHER.FIRE_NOC_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Fire_Noc_fee",
+      "name": "OTHER.FIRE_NOC_FEE_FIELD_FEE",
+      "code": "OTHER.FIRE_NOC_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Noc_fee",
+      "name": "OTHER.FIRE_NOC_FEE_CGST",
+      "code": "OTHER.FIRE_NOC_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Noc_fee",
+      "name": "OTHER.FIRE_NOC_FEE_SGST",
+      "code": "OTHER.FIRE_NOC_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Tender_fee",
+      "name": "OTHER.FIRE_TENDER_FEE_TAX",
+      "code": "OTHER.FIRE_TENDER_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Fire_Tender_fee",
+      "name": "OTHER.FIRE_TENDER_FEE_FIELD_FEE",
+      "code": "OTHER.FIRE_TENDER_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Tender_fee",
+      "name": "OTHER.FIRE_TENDER_FEE_CGST",
+      "code": "OTHER.FIRE_TENDER_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Tender_fee",
+      "name": "OTHER.FIRE_TENDER_FEE_SGST",
+      "code": "OTHER.FIRE_TENDER_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Call_Report_fee",
+      "name": "OTHER.FIRE_CALL_REPORT_FEE_TAX",
+      "code": "OTHER.FIRE_CALL_REPORT_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Fire_Call_Report_fee",
+      "name": "OTHER.FIRE_CALL_REPORT_FEE_FIELD_FEE",
+      "code": "OTHER.FIRE_CALL_REPORT_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Call_Report_fee",
+      "name": "OTHER.FIRE_CALL_REPORT_FEE_CGST",
+      "code": "OTHER.FIRE_CALL_REPORT_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Fire_Call_Report_fee",
+      "name": "OTHER.FIRE_CALL_REPORT_FEE_SGST",
+      "code": "OTHER.FIRE_CALL_REPORT_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Bus_Adda_fee",
+      "name": "OTHER.BUS_ADDA_FEE_TAX",
+      "code": "OTHER.BUS_ADDA_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Bus_Adda_fee",
+      "name": "OTHER.BUS_ADDA_FEE_FIELD_FEE",
+      "code": "OTHER.BUS_ADDA_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Bus_Adda_fee",
+      "name": "OTHER.BUS_ADDA_FEE_CGST",
+      "code": "OTHER.BUS_ADDA_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Bus_Adda_fee",
+      "name": "OTHER.BUS_ADDA_FEE_SGST",
+      "code": "OTHER.BUS_ADDA_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Rain_Harvesting_charges",
+      "name": "NKS.RAIN_HARVESTING_CHARGES_TAX",
+      "code": "NKS.RAIN_HARVESTING_CHARGES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Rain_Harvesting_charges",
+      "name": "NKS.RAIN_HARVESTING_CHARGES_FIELD_FEE",
+      "code": "NKS.RAIN_HARVESTING_CHARGES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Rain_Harvesting_charges",
+      "name": "NKS.RAIN_HARVESTING_CHARGES_CGST",
+      "code": "NKS.RAIN_HARVESTING_CHARGES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Rain_Harvesting_charges",
+      "name": "NKS.RAIN_HARVESTING_CHARGES_SGST",
+      "code": "NKS.RAIN_HARVESTING_CHARGES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Tender_Earnest_Money_Deposit",
+      "name": "FN.TENDER_EARNEST_MONEY_DEPOSIT_TAX",
+      "code": "FN.TENDER_EARNEST_MONEY_DEPOSIT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.Tender_Earnest_Money_Deposit",
+      "name": "FN.TENDER_EARNEST_MONEY_DEPOSIT_FIELD_FEE",
+      "code": "FN.TENDER_EARNEST_MONEY_DEPOSIT_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Tender_Earnest_Money_Deposit",
+      "name": "FN.TENDER_EARNEST_MONEY_DEPOSIT_CGST",
+      "code": "FN.TENDER_EARNEST_MONEY_DEPOSIT_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Tender_Earnest_Money_Deposit",
+      "name": "FN.TENDER_EARNEST_MONEY_DEPOSIT_SGST",
+      "code": "FN.TENDER_EARNEST_MONEY_DEPOSIT_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Security_Deposit_Fee",
+      "name": "FN.SECURITY_DEPOSIT_FEE_TAX",
+      "code": "FN.SECURITY_DEPOSIT_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "FN.Security_Deposit_Fee",
+      "name": "FN.SECURITY_DEPOSIT_FEE_FIELD_FEE",
+      "code": "FN.SECURITY_DEPOSIT_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Security_Deposit_Fee",
+      "name": "FN.SECURITY_DEPOSIT_FEE_CGST",
+      "code": "FN.SECURITY_DEPOSIT_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "FN.Security_Deposit_Fee",
+      "name": "FN.SECURITY_DEPOSIT_FEE_SGST",
+      "code": "FN.SECURITY_DEPOSIT_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Dispensary_fee",
+      "name": "OTHER.DISPENSARY_FEE_TAX",
+      "code": "OTHER.DISPENSARY_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Dispensary_fee",
+      "name": "OTHER.DISPENSARY_FEE_FIELD_FEE",
+      "code": "OTHER.DISPENSARY_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Dispensary_fee",
+      "name": "OTHER.DISPENSARY_FEE_CGST",
+      "code": "OTHER.DISPENSARY_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Dispensary_fee",
+      "name": "OTHER.DISPENSARY_FEE_SGST",
+      "code": "OTHER.DISPENSARY_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Sale_of_land",
+      "name": "RT.SALE_OF_LAND_TAX",
+      "code": "RT.SALE_OF_LAND_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "RT.Sale_of_land",
+      "name": "RT.SALE_OF_LAND_FIELD_FEE",
+      "code": "RT.SALE_OF_LAND_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Sale_of_land",
+      "name": "RT.SALE_OF_LAND_CGST",
+      "code": "RT.SALE_OF_LAND_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RT.Sale_of_land",
+      "name": "RT.SALE_OF_LAND_SGST",
+      "code": "RT.SALE_OF_LAND_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.License_fee",
+      "name": "OTHER.LICENSE_FEE_TAX",
+      "code": "OTHER.LICENSE_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.License_fee",
+      "name": "OTHER.LICENSE_FEE_FIELD_FEE",
+      "code": "OTHER.LICENSE_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.License_fee",
+      "name": "OTHER.LICENSE_FEE_CGST",
+      "code": "OTHER.LICENSE_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.License_fee",
+      "name": "OTHER.LICENSE_FEE_SGST",
+      "code": "OTHER.LICENSE_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Candy_fee",
+      "name": "OTHER.CANDY_FEE_TAX",
+      "code": "OTHER.CANDY_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Candy_fee",
+      "name": "OTHER.CANDY_FEE_FIELD_FEE",
+      "code": "OTHER.CANDY_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Candy_fee",
+      "name": "OTHER.CANDY_FEE_CGST",
+      "code": "OTHER.CANDY_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Candy_fee",
+      "name": "OTHER.CANDY_FEE_SGST",
+      "code": "OTHER.CANDY_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Conservancy_fee",
+      "name": "OTHER.CONSERVANCY_FEE_TAX",
+      "code": "OTHER.CONSERVANCY_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Conservancy_fee",
+      "name": "OTHER.CONSERVANCY_FEE_FIELD_FEE",
+      "code": "OTHER.CONSERVANCY_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Conservancy_fee",
+      "name": "OTHER.CONSERVANCY_FEE_CGST",
+      "code": "OTHER.CONSERVANCY_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Conservancy_fee",
+      "name": "OTHER.CONSERVANCY_FEE_SGST",
+      "code": "OTHER.CONSERVANCY_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Sub_division_charges",
+      "name": "NKS.SUB_DIVISION_CHARGES_TAX",
+      "code": "NKS.SUB_DIVISION_CHARGES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Sub_division_charges",
+      "name": "NKS.SUB_DIVISION_CHARGES_FIELD_FEE",
+      "code": "NKS.SUB_DIVISION_CHARGES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Sub_division_charges",
+      "name": "NKS.SUB_DIVISION_CHARGES_CGST",
+      "code": "NKS.SUB_DIVISION_CHARGES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Sub_division_charges",
+      "name": "NKS.SUB_DIVISION_CHARGES_SGST",
+      "code": "NKS.SUB_DIVISION_CHARGES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Information_certificate_fees",
+      "name": "NKS.INFORMATION_CERTIFICATE_FEES_TAX",
+      "code": "NKS.INFORMATION_CERTIFICATE_FEES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Information_certificate_fees",
+      "name": "NKS.INFORMATION_CERTIFICATE_FEES_FIELD_FEE",
+      "code": "NKS.INFORMATION_CERTIFICATE_FEES_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Information_certificate_fees",
+      "name": "NKS.INFORMATION_CERTIFICATE_FEES_CGST",
+      "code": "NKS.INFORMATION_CERTIFICATE_FEES_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Information_certificate_fees",
+      "name": "NKS.INFORMATION_CERTIFICATE_FEES_SGST",
+      "code": "NKS.INFORMATION_CERTIFICATE_FEES_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Building_safety_certificate",
+      "name": "NKS.BUILDING_SAFETY_CERTIFICATE_TAX",
+      "code": "NKS.BUILDING_SAFETY_CERTIFICATE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "NKS.Building_safety_certificate",
+      "name": "NKS.BUILDING_SAFETY_CERTIFICATE_FIELD_FEE",
+      "code": "NKS.BUILDING_SAFETY_CERTIFICATE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Building_safety_certificate",
+      "name": "NKS.BUILDING_SAFETY_CERTIFICATE_CGST",
+      "code": "NKS.BUILDING_SAFETY_CERTIFICATE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "NKS.Building_safety_certificate",
+      "name": "NKS.BUILDING_SAFETY_CERTIFICATE_SGST",
+      "code": "NKS.BUILDING_SAFETY_CERTIFICATE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Street_light_pole_transfer_fee",
+      "name": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_TAX",
+      "code": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Street_light_pole_transfer_fee",
+      "name": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_FIELD_FEE",
+      "code": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Street_light_pole_transfer_fee",
+      "name": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_CGST",
+      "code": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Street_light_pole_transfer_fee",
+      "name": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_SGST",
+      "code": "OTHER.STREET_LIGHT_POLE_TRANSFER_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Collection_and_demolition_waste_challan",
+      "name": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_TAX",
+      "code": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Collection_and_demolition_waste_challan",
+      "name": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_FIELD_FEE",
+      "code": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Collection_and_demolition_waste_challan",
+      "name": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_CGST",
+      "code": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Collection_and_demolition_waste_challan",
+      "name": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_SGST",
+      "code": "CH.COLLECTION_AND_DEMOLITION_WASTE_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Burning_of_waste_challan",
+      "name": "CH.BURNING_OF_WASTE_CHALLAN_TAX",
+      "code": "CH.BURNING_OF_WASTE_CHALLAN_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "CH.Burning_of_waste_challan",
+      "name": "CH.BURNING_OF_WASTE_CHALLAN_FIELD_FEE",
+      "code": "CH.BURNING_OF_WASTE_CHALLAN_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Burning_of_waste_challan",
+      "name": "CH.BURNING_OF_WASTE_CHALLAN_CGST",
+      "code": "CH.BURNING_OF_WASTE_CHALLAN_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CH.Burning_of_waste_challan",
+      "name": "CH.BURNING_OF_WASTE_CHALLAN_SGST",
+      "code": "CH.BURNING_OF_WASTE_CHALLAN_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Sale_of_compost",
+      "name": "OTHER.SALE_OF_COMPOST_TAX",
+      "code": "OTHER.SALE_OF_COMPOST_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Sale_of_compost",
+      "name": "OTHER.SALE_OF_COMPOST_FIELD_FEE",
+      "code": "OTHER.SALE_OF_COMPOST_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Sale_of_compost",
+      "name": "OTHER.SALE_OF_COMPOST_CGST",
+      "code": "OTHER.SALE_OF_COMPOST_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Sale_of_compost",
+      "name": "OTHER.SALE_OF_COMPOST_SGST",
+      "code": "OTHER.SALE_OF_COMPOST_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Sale_of_recyclable",
+      "name": "OTHER.SALE_OF_RECYCLABLE_TAX",
+      "code": "OTHER.SALE_OF_RECYCLABLE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Sale_of_recyclable",
+      "name": "OTHER.SALE_OF_RECYCLABLE_FIELD_FEE",
+      "code": "OTHER.SALE_OF_RECYCLABLE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Sale_of_recyclable",
+      "name": "OTHER.SALE_OF_RECYCLABLE_CGST",
+      "code": "OTHER.SALE_OF_RECYCLABLE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Sale_of_recyclable",
+      "name": "OTHER.SALE_OF_RECYCLABLE_SGST",
+      "code": "OTHER.SALE_OF_RECYCLABLE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "LCF.Trade_License_Fee",
+      "name": "LCF.TRADE_LICENSE_FEE_TAX",
+      "code": "LCF.TRADE_LICENSE_FEE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "LCF.Trade_License_Fee",
+      "name": "LCF.TRADE_LICENSE_FEE_FIELD_FEE",
+      "code": "LCF.TRADE_LICENSE_FEE_FIELD_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "LCF.Trade_License_Fee",
+      "name": "LCF.TRADE_LICENSE_FEE_CGST",
+      "code": "LCF.TRADE_LICENSE_FEE_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "LCF.Trade_License_Fee",
+      "name": "LCF.TRADE_LICENSE_FEE_SGST",
+      "code": "LCF.TRADE_LICENSE_FEE_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Dog_Registration",
+      "name": "OTHER.DOG_REGISTRATION_TAX",
+      "code": "OTHER.DOG_REGISTRATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": true
+    },
+    {
+      "category": "CHARGES",
+      "service": "OTHER.Dog_Registration",
+      "name": "OTHER.DOG_REGISTRATION_FEE",
+      "code": "OTHER.DOG_REGISTRATION_FEE",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Dog_Registration",
+      "name": "OTHER.DOG_REGISTRATION_CGST",
+      "code": "OTHER.DOG_REGISTRATION_CGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "OTHER.Dog_Registration",
+      "name": "OTHER.DOG_REGISTRATION_SGST",
+      "code": "OTHER.DOG_REGISTRATION_SGST",
+      "isDebit": false,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_OC_APP_FEE",
+      "name": "BPA Application fees",
+      "code": "BPA_OC_APPL_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "BPA.NC_OC_SAN_FEE",
+      "name": "BPA Sanction fees",
+      "code": "BPA_OC_SANC_FEES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "WS",
+      "name": "Ws advance carry forward",
+      "code": "WS_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "SW",
+      "name": "Sw advance carry forward",
+      "code": "SW_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "FSM.TPRIP_CHARGES",
+      "name": "FSM TRIP CHARGES",
+      "code": "FSM_TRIP_CHARGES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+     {
+      "category": "TAX",
+      "service": "FSM.TPRIP_CHARGES",
+      "name": "FSM roundoff",
+      "code": "FSM_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Water adhoc rebate",
+      "code": "WS_TIME_ADHOC_REBATE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "WS",
+      "name": "Water adhoc penalty",
+      "code": "WS_TIME_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Sewerage adhoc rebate",
+      "code": "SW_TIME_ADHOC_REBATE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "5",
+      "isRequired": false,
+      "IsBillamend": true
+    },
+    {
+      "category": "TAX",
+      "service": "SW",
+      "name": "Sewerage adhoc penalty",
+      "code": "SW_TIME_ADHOC_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "6",
+      "isRequired": false,
+      "IsBillamend": true
+   },
+   {
+    "category": "CHARGES",
+    "service": "BIRTH_CERT",
+    "name": "BIRTH_CERT_FEE",
+    "code": "BIRTH_CERT_FEE",
+    "isDebit": false,
+    "isActualDemand": false,
+    "order": "0",
+    "isRequired": false,
+    "isDiscountApplicable": false
+  },
+  {
+    "category": "CHARGES",
+    "service": "DEATH_CERT",
+    "name": "DEATH_CERT_FEE",
+    "code": "DEATH_CERT_FEE",
+    "isDebit": false,
+    "isActualDemand": false,
+    "order": "0",
+    "isRequired": false,
+    "isDiscountApplicable": false
+  },
+    {
+      "category": "CHARGES",
+      "service": "WS",
+      "name": "Water Amendment Charges",
+      "code": "WS_AMENDMENT_CHARGES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "3",
+      "isRequired": false,
+      "IsBillamend": true
+    }
+  ]
+}
