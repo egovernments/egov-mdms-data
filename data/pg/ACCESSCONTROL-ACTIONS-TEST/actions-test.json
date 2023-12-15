@@ -2469,6 +2469,17 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 202,
+      "name": "Update Tenant Tenants",
+      "url": "/mdms-v2/v2/_update/tenant.tenants",
+      "displayName": "Update Tenant Tenants",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
