@@ -2480,6 +2480,17 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 203,
+      "name": "Update PQM QualityCriteria",
+      "url": "/mdms-v2/v2/_update/PQM.QualityCriteria",
+      "displayName": "Update PQM QualityCriteria",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
