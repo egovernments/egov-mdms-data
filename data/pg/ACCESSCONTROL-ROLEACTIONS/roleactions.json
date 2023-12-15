@@ -1293,6 +1293,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 72,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 73,
       "actioncode": "",
@@ -4922,6 +4928,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_EMP_FSTPO",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "PQM_TP_OPERATOR",
       "actionid": 125,
       "actioncode": "",
@@ -5014,6 +5032,12 @@
     {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 313,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_ADMIN",
+      "actionid": 69,
       "actioncode": "",
       "tenantId": "pg"
     }
