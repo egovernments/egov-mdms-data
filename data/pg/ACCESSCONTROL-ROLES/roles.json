@@ -236,6 +236,11 @@
       "code": "MB_VIEWER",
       "name": "MB_VIEWER",
       "description": "Default role for MB service viewer"
+    },
+    {
+      "code": "PQM_CRONJOB_SCHEDULER",
+      "name": "PQM CRONJOB SCHEDULER",
+      "description": "Pqm Cronjob Scheduler"
     }
   ]
 }
