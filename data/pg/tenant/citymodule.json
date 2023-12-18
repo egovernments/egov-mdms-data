@@ -291,6 +291,23 @@
                 "code": "pg.citya"
             }
       ]
-    }
+    },
+    {
+      "module": "Payment",
+      "code": "Payment",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "pb.jalandhar"
+        },
+        {
+          "code": "pb.phagwara"
+        },
+        {
+          "code": "pb.amritsar"
+        }
+      ]
+    }    
 ]
 }
