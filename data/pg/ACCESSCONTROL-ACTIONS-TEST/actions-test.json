@@ -4497,7 +4497,7 @@
       "path": ""
     },
     {
-      "id": 382,    
+      "id": 382,
       "name": "Deviation Pdf",
       "url": "/egov-pdf/download/deviationStatement/deviation-statement",
       "displayName": "estimates search",
@@ -4508,13 +4508,35 @@
       "path": ""
     },
     {
-      "id": 383,    
+      "id": 383,
       "name": "Measurement Book Pdf",
       "url": "/egov-pdf/download/measurementBook/measurement-book",
       "displayName": "estimates search",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 384,
+      "name": "Create HCM Template",
+      "url": "/mdms-v2/v2/_create/HCM.Template",
+      "displayName": "Create HCM Template",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 385,
+      "name": "Create HCM Template",
+      "url": "/mdms-v2/v2/_update/HCM.Template",
+      "displayName": "Update HCM Template",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
       "code": "null",
       "path": ""
     }
