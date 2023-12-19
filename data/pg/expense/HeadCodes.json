@@ -95,8 +95,11 @@
     {
       "id": "10",
       "code": "SC",
+      "description": "Supervision Charge",
       "service": "works.supervision",
       "category": "expense",
+      "calculationType": "fixed rate",
+      "rate": "7.5%",
       "active": true,
       "effectiveFrom": 177044852,
       "effectiveTo": null
