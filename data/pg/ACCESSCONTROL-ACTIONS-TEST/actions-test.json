@@ -4539,6 +4539,17 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 386,
+      "name": "Detailed Estimate Pdf",
+      "url": "/egov-pdf/download/detailedEstimate/detailed-estimate",
+      "displayName": "estimates search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
