@@ -5058,6 +5058,54 @@
       "actionid": 69,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 379,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 379,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 380,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "MB_VERIFIER",
+      "actionid": 380,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+      {
+      "rolecode": "MB_APPROVER",
+      "actionid": 380,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+        {
+      "rolecode": "MB_CREATOR",
+      "actionid": 381,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "MB_VERIFIER",
+      "actionid": 381,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_APPROVER",
+      "actionid": 381,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
