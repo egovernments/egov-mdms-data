@@ -4550,6 +4550,18 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 387,
+      "name": "Search Mukta Measurement Service Validation",
+      "url": "/mukta-services/musterRollValidations/_validate",
+      "parentModule": "mukta-services",
+      "displayName": "Mukta search measurement book validation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mukta-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
