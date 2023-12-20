@@ -4531,6 +4531,28 @@
       "serviceCode": "COLLECTION",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 383,    
+      "name": "Deviation Pdf",
+      "url": "/egov-pdf/download/deviationStatement/deviation-statement",
+      "displayName": "estimates search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 384,    
+      "name": "DetailedEstimate pdf",
+      "url": "/egov-pdf/download/detailedEstimate/detailed-estimate",
+      "displayName": "estimates search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
