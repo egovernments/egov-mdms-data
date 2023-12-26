@@ -4553,6 +4553,17 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 385,
+      "name": "Measurement Book Pdf",
+      "url": "/egov-pdf/download/measurementBook/measurement-book",
+      "displayName": "estimates search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
