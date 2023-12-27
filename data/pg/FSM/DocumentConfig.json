@@ -1,24 +1,42 @@
 {
-    "tenantId": "pg",
-    "moduleName": "FSM",
-    "DocumentConfig": [ 
-      {
-        "module": "UPDATE TEST",
-        "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
-        "maxSizeInMB": 5,
-        "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
-        "documents": [
-          {
-            "code": "Update_Test_Results_Documents",
-            "name" : "doc_test_results_documents",
-            "active": true,
-            "isMandatory": false,
-            "showTextInput" : false,
-            "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
-            "maxSizeInMB": 5,
-            "maxFilesAllowed": 1
-          }
-        ]
-      }
-    ]
-  }
+  "tenantId": "pg",
+  "moduleName": "FSM",
+  "DocumentConfig": [
+    {
+      "module": "UPDATE TEST",
+      "allowedFileTypes": ["pdf", "doc", "docx", "xlsx", "xls", "jpeg", "jpg", "png"],
+      "maxSizeInMB": 5,
+      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
+      "documents": [
+        {
+          "code": "Update_Test_Results_Documents",
+          "name": "doc_test_results_documents",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput": false,
+          "allowedFileTypes": ["pdf", "doc", "docx", "xlsx", "xls", "jpeg", "jpg", "png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
+    },
+    {
+      "module": "Photograph",
+      "allowedFileTypes": ["jpeg", "jpg"],
+      "hideHeader": true,
+      "maxSizeInMB": 5,
+      "documents": [
+        {
+          "code": "PHOTOGRAPH",
+          "name": "img_photo",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput": false,
+          "allowedFileTypes": ["jpeg", "jpg"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
+    }
+  ]
+}
