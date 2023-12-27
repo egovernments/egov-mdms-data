@@ -12869,6 +12869,90 @@
       "serviceCode": "null",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1689,
+      "name": "HFReferral Create",
+      "url": "/referralmanagement/hf-referral/v1/_create",
+      "displayName": "HFReferral Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1690,
+      "name": "HFReferral Update",
+      "url": "/referralmanagement/hf-referral/v1/_update",
+      "displayName": "HFReferral Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1691,
+      "name": "HFReferral Delete",
+      "url": "/referralmanagement/hf-referral/v1/_delete",
+      "displayName": "HFReferral Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1692,
+      "name": "HFReferral Search",
+      "url": "/referralmanagement/hf-referral/v1/_search",
+      "displayName": "HFReferral Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1693,
+      "name": "HFReferral Bulk Create",
+      "url": "/referralmanagement/hf-referral/v1/bulk/_create",
+      "displayName": "HFReferral Bulk Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1694,
+      "name": "HFReferral Bulk Update",
+      "url": "/referralmanagement/hf-referral/v1/bulk/_update",
+      "displayName": "HFReferral Bulk Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1695,
+      "name": "HFReferral Bulk Delete",
+      "url": "/referralmanagement/hf-referral/v1/bulk/_delete",
+      "displayName": "HFReferral Bulk Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
     }
   ]
 }
