@@ -22,9 +22,9 @@
     },
     {
       "module": "Photograph",
-      "allowedFileTypes": ["jpeg", "jpg"],
+      "allowedFileTypes": ["jpeg", "jpg", "png"],
       "hideHeader": true,
-      "maxSizeInMB": 5,
+      "maxSizeInMB": 10,
       "documents": [
         {
           "code": "PHOTOGRAPH",
@@ -32,8 +32,8 @@
           "active": true,
           "isMandatory": false,
           "showTextInput": false,
-          "allowedFileTypes": ["jpeg", "jpg"],
-          "maxSizeInMB": 5,
+          "allowedFileTypes": ["jpeg", "jpg", "png"],
+          "maxSizeInMB": 10,
           "maxFilesAllowed": 1
         }
       ]
