@@ -4562,6 +4562,30 @@
       "serviceCode": "mukta-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 388,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_update/FSM.FSTPPlantInfo",
+      "displayName": "Update PQM.QualityTestLab",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 389,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/FSM.FSTPPlantInfo",
+      "displayName": "Update PQM.QualityTestLab",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
