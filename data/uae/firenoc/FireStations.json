@@ -3,28 +3,37 @@
   "moduleName": "firenoc",
   "FireStations": [
     {
-      "code": "FS_CITYA_01",
-      "baseTenantId": "pg.citya",
+      "code": "FS_DUBAI_01",
+      "baseTenantId": "uae.Dubai",
+      "active": true,
+      "subDistrict": [
+        "Downtown",
+        " Business Bay",
+        "Dubai Marina",
+        "Palm Jumeirah",
+        "Al Satwa",
+        "Al Safa, Umm Suqeim",
+        " Al Quoz",
+        " Al Barsha",
+        "Al Jaddaf",
+        " Bur Dubai",
+        " Jumeirah Village Circle",
+        " JLT and JVT"
+      ]
+    },
+    {
+      "code": "FS_AJMAN_01",
+      "baseTenantId": "uae.Ajman",
       "active": true
     },
     {
-      "code": "FS_CITYB_01",
-      "baseTenantId": "pg.cityb",
+      "code": "FS_SHARJAH_01",
+      "baseTenantId": "uae.Sharjah",
       "active": true
     },
     {
-      "code": "FS_CITYC_01",
-      "baseTenantId": "pg.cityc",
-      "active": true
-    },
-    {
-      "code": "FS_CITYD_01",
-      "baseTenantId": "pg.cityd",
-      "active": true
-    },
-    {
-      "code": "FS_CITYE_01",
-      "baseTenantId": "pg.citye",
+      "code": "FS_FUJAIRAH_01",
+      "baseTenantId": "uae.Fujairah",
       "active": true
     }
   ]
