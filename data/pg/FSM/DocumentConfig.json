@@ -17,7 +17,25 @@
           "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
+        },
+         {
+      "module": "Photograph",
+      "allowedFileTypes": ["jpeg","jpg","png"],
+      "hideHeader": true,
+      "maxSizeInMB": 10,
+      "documents": [
+        {
+          "code": "PHOTOGRAPH",
+          "name" : "img_photo",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["jpeg","jpg","png"],
+          "maxSizeInMB": 10,
+          "maxFilesAllowed": 1
         }
+      ]
+    }
       ]
     }
   ]
