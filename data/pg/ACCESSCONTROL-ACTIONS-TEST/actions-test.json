@@ -4586,6 +4586,50 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 390,
+      "name": "Create HCM ParsingTemplate",
+      "url": "/mdms-v2/v2/_create/HCM.ParsingTemplate",
+      "displayName": "Create HCM ParsingTemplate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 391,
+      "name": "Create HCM ParsingTemplate",
+      "url": "/mdms-v2/v2/_update/HCM.ParsingTemplate",
+      "displayName": "Update HCM ParsingTemplate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 392,
+      "name": "Create HCM TransformTemplate",
+      "url": "/mdms-v2/v2/_create/HCM.TransformTemplate",
+      "displayName": "Create HCM TransformTemplate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 393,
+      "name": "Create HCM TransformTemplate",
+      "url": "/mdms-v2/v2/_update/HCM.TransformTemplate",
+      "displayName": "Update HCM TransformTemplate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
