@@ -39,15 +39,15 @@
       "LANGUAGES": [
         {
           "label": "Portuguese",
-          "value": "pt_IN"
+          "value": "pt_MZ"
         },
         {
           "label": "French",
-          "value": "fr_IN"
+          "value": "fr_MZ"
         },
         {
           "label": "English",
-          "value": "en_IN"
+          "value": "en_MZ"
         }
       ],
       "CALL_SUPPORT": [
@@ -72,12 +72,28 @@
         {
           "name": "TEAM_FORMATION",
           "code": "TEAM_FORMATION"
+        },
+        {
+          "name": "HF_REFERRAL_SICK",
+          "code": "HF_REFERRAL_SICK"
+        },
+        {
+          "name": "HF_REFERRAL_FEVER",
+          "code": "HF_REFERRAL_FEVER"
+        },
+        {
+          "name": "HF_REFERRAL_DRUG_SIDE_EFFECT_FRM_PC",
+          "code": "HF_REFERRAL_DRUG_SIDE_EFFECT_FRM_PC"
+        },
+        {
+          "name": "HF_REFERRAL_DRUG_SIDE_EFFECT_FRM_CC",
+          "code": "HF_REFERRAL_DRUG_SIDE_EFFECT_FRM_CC"
         }
       ],
       "ID_TYPE_OPTIONS_POPULATOR": [
         {
           "code": "SYSTEM_GENERATED",
-          "name": "mz"
+          "name": "DEFAULT"
         },
         {
           "code": "AADHAAR",
