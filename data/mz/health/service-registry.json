@@ -463,7 +463,7 @@
       ]
     },
     {
-      "service": "REFERRAL-MANAGEMENT",
+      "service": "REFERRAL",
       "actions": [
         {
           "action": "create",
@@ -509,6 +509,46 @@
           "action": "search",
           "entityName": "Downsync",
           "path": "/referralmanagement/beneficiary-downsync/v1/_get"
+        }
+      ]
+    },
+    {
+      "service": "HF-REFERRAL",
+      "actions": [
+        {
+          "action": "create",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/_create"
+        },
+        {
+          "action": "update",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/_update"
+        },
+        {
+          "action": "search",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/_search"
+        },
+        {
+          "action": "delete",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/_delete"
+        },
+        {
+          "action": "bulk_create",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/bulk/_create"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/bulk/_update"
+        },
+        {
+          "action": "bulk_delete",
+          "entityName": "HFReferral",
+          "path": "/referralmanagement/hf-referral/v1/bulk/_delete"
         }
       ]
     }
