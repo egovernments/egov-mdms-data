@@ -12587,6 +12587,186 @@
       "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 1688,
+      "name": "Beneficiary Referral",
+      "url": "",
+      "displayName": "HOME_BENEFICIARY_REFERRAL_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+      {
+      "id": 1689,
+      "name": "HFReferral Create",
+      "url": "/referralmanagement/hf-referral/v1/_create",
+      "displayName": "HFReferral Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1690,
+      "name": "HFReferral Update",
+      "url": "/referralmanagement/hf-referral/v1/_update",
+      "displayName": "HFReferral Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1691,
+      "name": "HFReferral Delete",
+      "url": "/referralmanagement/hf-referral/v1/_delete",
+      "displayName": "HFReferral Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1692,
+      "name": "HFReferral Search",
+      "url": "/referralmanagement/hf-referral/v1/_search",
+      "displayName": "HFReferral Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1693,
+      "name": "HFReferral Bulk Create",
+      "url": "/referralmanagement/hf-referral/v1/bulk/_create",
+      "displayName": "HFReferral Bulk Create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1694,
+      "name": "HFReferral Bulk Update",
+      "url": "/referralmanagement/hf-referral/v1/bulk/_update",
+      "displayName": "HFReferral Bulk Update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1695,
+      "name": "HFReferral Bulk Delete",
+      "url": "/referralmanagement/hf-referral/v1/bulk/_delete",
+      "displayName": "HFReferral Bulk Delete",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "referralmanagement",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "rolecode": "SUPERUSER",
+      "actionid": 1689,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1689,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1690,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1690,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1691,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1691,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1692,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1692,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1693,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1693,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1694,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1694,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1695,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "HEALTH_FACILITY_WORKER",
+      "actionid": 1695,
+      "actioncode": "",
+      "tenantId": "mz"
     }
   ]
 }
