@@ -1,0 +1,26 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-REFERRAL-REASONS",
+    "referralReasons": [
+        {
+            "code": "SICK",
+            "name": "Sick",
+            "active": true
+        },
+        {
+            "code": "FEVER",
+            "name": "Fever",
+            "active": true
+        },
+        {
+            "code": "DRUG_SIDE_EFFECT_FRM_PC",
+            "name": "Drug Side Effect from the previous cycle",
+            "active": true
+        },
+        {
+            "code": "DRUG_SIDE_EFFECT_FRM_CC",
+            "name": "Drug Side Effect from the current cycle",
+            "active": true
+        }
+    ]
+}
