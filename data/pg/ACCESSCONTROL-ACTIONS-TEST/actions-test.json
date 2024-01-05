@@ -4630,6 +4630,17 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1831,
+      "name": "mSeva Event Count",
+      "url": "/egov-user-event/v1/events/notifications/_count",
+      "displayName": "mSeva Event Notification",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "msea-event-notification",
+      "code": "null",
+      "path": ""
     }
   ]
 }
