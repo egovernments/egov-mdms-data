@@ -1,213 +1,281 @@
 {
-  "tenantId": "mz",
-  "moduleName": "egov-location",
-  "TenantBoundary": [
-    {
-      "hierarchyType": {
-        "code": "ADMIN",
-        "name": "ADMIN"
-      },
-      "boundary": {
-        "id": "mz",
-        "boundaryNum": 1,
-        "name": "MOZAMBIQUE",
-        "localname": "MOZAMBIQUE",
-        "longitude": null,
-        "latitude": null,
-        "label": "Country",
-        "code": "mz",
-        "children": [
-          {
-            "id": "123456789",
-            "boundaryNum": 2,
-            "name": "Test_HCM1",
-            "localname": "Test_HCM1",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "123456789",
-            "children": [
-              {
-                "id": "1234567890",
-                "boundaryNum": 3,
-                "name": "Test_HCM2",
-                "localname": "Test_HCM2",
+    "tenantId": "mz",
+    "moduleName": "egov-location",
+    "TenantBoundary": [
+        {
+            "hierarchyType": {
+                "code": "ADMIN",
+                "name": "ADMIN"
+            },
+            "boundary": {
+                "id": "mz",
+                "boundaryNum": 1,
+                "name": "MOZAMBIQUE",
+                "localname": "MOZAMBIQUE",
                 "longitude": null,
                 "latitude": null,
-                "label": "Distrito",
-                "code": "1234567890",
+                "label": "Country",
+                "code": "mz",
                 "children": [
-                  {
-                    "id": "12345678901",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM3",
-                    "localname": "Test_HCM3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "12345678901",
-                    "children": [
-                      {
-                        "id": "123456789012",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM4",
-                        "localname": "Test_HCM4",
+                    {
+                        "id": "123456789",
+                        "boundaryNum": 2,
+                        "name": "Test_HCM1",
+                        "localname": "Test_HCM1",
                         "longitude": null,
                         "latitude": null,
-                        "label": "Localidade",
-                        "code": "123456789012",
+                        "label": "Provincia",
+                        "code": "123456789",
                         "children": [
-                          {
-                            "id": "1234567890123",
-                            "boundaryNum": 6,
-                            "name": "Test_HCM5",
-                            "localname": "Test_HCM5",
-                            "longitude": null,
-                            "latitude": null,
-                            "label": "Aldeia",
-                            "code": "123456789013",
-                            "children": [
-                              {
-                                "id": "1234567890124",
-                                "boundaryNum": 7,
-                                "name": "Test_HCM6",
-                                "localname": "Test_HCM6",
+                            {
+                                "id": "1234567890",
+                                "boundaryNum": 3,
+                                "name": "Test_HCM2",
+                                "localname": "Test_HCM2",
                                 "longitude": null,
                                 "latitude": null,
-                                "label": "Aldeia",
-                                "code": "123456789014",
-                                "children": []
-                              }
-                            ]
-                          }
+                                "label": "Distrito",
+                                "code": "1234567890",
+                                "children": [
+                                    {
+                                        "id": "12345678901",
+                                        "boundaryNum": 4,
+                                        "name": "Test_HCM3",
+                                        "localname": "Test_HCM3",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "Posto Administrativo",
+                                        "code": "12345678901",
+                                        "children": [
+                                            {
+                                                "id": "123456789012",
+                                                "boundaryNum": 5,
+                                                "name": "Test_HCM4",
+                                                "localname": "Test_HCM4",
+                                                "longitude": null,
+                                                "latitude": null,
+                                                "label": "Localidade",
+                                                "code": "123456789012",
+                                                "children": [
+                                                    {
+                                                        "id": "1234567890123",
+                                                        "boundaryNum": 6,
+                                                        "name": "Test_HCM5",
+                                                        "localname": "Test_HCM5",
+                                                        "longitude": null,
+                                                        "latitude": null,
+                                                        "label": "Aldeia",
+                                                        "code": "123456789013",
+                                                        "children": [
+                                                            {
+                                                                "id": "1234567890124",
+                                                                "boundaryNum": 7,
+                                                                "name": "Test_HCM6",
+                                                                "localname": "Test_HCM6",
+                                                                "longitude": null,
+                                                                "latitude": null,
+                                                                "label": "Aldeia",
+                                                                "code": "123456789014",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
                         ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-            {
-            "id": "P01",
-            "boundaryNum": 2,
-            "name": "Test_HCM1",
-            "localname": "Test_HCM1",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "P01",
-            "children": [
-              {
-                "id": "D01",
-                "boundaryNum": 3,
-                "name": "Test_HCM2",
-                "localname": "Test_HCM2",
-                "longitude": null,
-                "latitude": null,
-                "label": "Distrito",
-                "code": "D01",
-                "children": [
-                  {
-                    "id": "PA01",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM3",
-                    "localname": "Test_HCM3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "PA01",
-                    "children": [
-                      {
-                        "id": "LO01",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM4",
-                        "localname": "Test_HCM4",
+                    },
+                    {
+                        "id": "P01",
+                        "boundaryNum": 2,
+                        "name": "Test_HCM1",
+                        "localname": "Test_HCM1",
                         "longitude": null,
                         "latitude": null,
-                        "label": "Localidade",
-                        "code": "LO01",
+                        "label": "Provincia",
+                        "code": "P01",
                         "children": [
-                          {
-                            "id": "AL01",
-                            "boundaryNum": 6,
-                            "name": "Test_HCM5",
-                            "localname": "Test_HCM5",
-                            "longitude": null,
-                            "latitude": null,
-                            "label": "Aldeia",
-                            "code": "AL01",
-                            "children": [
-                              {
-                                "id": "AL001",
-                                "boundaryNum": 7,
-                                "name": "Test_HCM6",
-                                "localname": "Test_HCM6",
+                            {
+                                "id": "D01",
+                                "boundaryNum": 3,
+                                "name": "Test_HCM2",
+                                "localname": "Test_HCM2",
                                 "longitude": null,
                                 "latitude": null,
-                                "label": "Aldeia",
-                                "code": "AL001",
-                                "children": []
-                              }
-                            ]
-                          }
+                                "label": "Distrito",
+                                "code": "D01",
+                                "children": [
+                                    {
+                                        "id": "PA01",
+                                        "boundaryNum": 4,
+                                        "name": "Test_HCM3",
+                                        "localname": "Test_HCM3",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "Posto Administrativo",
+                                        "code": "PA01",
+                                        "children": [
+                                            {
+                                                "id": "LO01",
+                                                "boundaryNum": 5,
+                                                "name": "Test_HCM4",
+                                                "localname": "Test_HCM4",
+                                                "longitude": null,
+                                                "latitude": null,
+                                                "label": "Localidade",
+                                                "code": "LO01",
+                                                "children": [
+                                                    {
+                                                        "id": "AL01",
+                                                        "boundaryNum": 6,
+                                                        "name": "Test_HCM5",
+                                                        "localname": "Test_HCM5",
+                                                        "longitude": null,
+                                                        "latitude": null,
+                                                        "label": "Aldeia",
+                                                        "code": "AL01",
+                                                        "children": [
+                                                            {
+                                                                "id": "AL001",
+                                                                "boundaryNum": 7,
+                                                                "name": "Test_HCM6",
+                                                                "localname": "Test_HCM6",
+                                                                "longitude": null,
+                                                                "latitude": null,
+                                                                "label": "Aldeia",
+                                                                "code": "AL001",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
                         ]
-                      }
-                    ]
-                  }
+                    },
+                    {
+                        "id": "s0001",
+                        "boundaryNum": 2,
+                        "name": "Test_HCM1",
+                        "localname": "Test_HCM1",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Provincia",
+                        "code": "s0001",
+                        "children": [
+                            {
+                                "id": "s0002",
+                                "boundaryNum": 3,
+                                "name": "Test_HCM2",
+                                "localname": "Test_HCM2",
+                                "longitude": null,
+                                "latitude": null,
+                                "label": "Distrito",
+                                "code": "s0002",
+                                "children": [
+                                    {
+                                        "id": "s0003",
+                                        "boundaryNum": 4,
+                                        "name": "Test_HCM3",
+                                        "localname": "Test_HCM3",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "Posto Administrativo",
+                                        "code": "s0003",
+                                        "children": [
+                                            {
+                                                "id": "s0004",
+                                                "boundaryNum": 5,
+                                                "name": "Test_HCM4",
+                                                "localname": "Test_HCM4",
+                                                "longitude": null,
+                                                "latitude": null,
+                                                "label": "Localidade",
+                                                "code": "s0004",
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "s0009",
+                                                "boundaryNum": 5,
+                                                "name": "Test_HCM9",
+                                                "localname": "Test_HCM9",
+                                                "longitude": null,
+                                                "latitude": null,
+                                                "label": "Localidade",
+                                                "code": "s0009",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "s0006",
+                                        "boundaryNum": 4,
+                                        "name": "Test_HCM6",
+                                        "localname": "Test_HCM6",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "Posto Administrativo",
+                                        "code": "s0006",
+                                        "children": [
+                                            {
+                                                "id": "s0010",
+                                                "boundaryNum": 5,
+                                                "name": "Test_HCM10",
+                                                "localname": "Test_HCM10",
+                                                "longitude": null,
+                                                "latitude": null,
+                                                "label": "Localidade",
+                                                "code": "s0010",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "s0005",
+                                "boundaryNum": 3,
+                                "name": "Test_HCM5",
+                                "localname": "Test_HCM5",
+                                "longitude": null,
+                                "latitude": null,
+                                "label": "Distrito",
+                                "code": "s0005",
+                                "children": [
+                                    {
+                                        "id": "s0007",
+                                        "boundaryNum": 4,
+                                        "name": "Test_HCM7",
+                                        "localname": "Test_HCM7",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "Posto Administrativo",
+                                        "code": "s0007",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "s0008",
+                                        "boundaryNum": 4,
+                                        "name": "Test_HCM8",
+                                        "localname": "Test_HCM8",
+                                        "longitude": null,
+                                        "latitude": null,
+                                        "label": "Posto Administrativo",
+                                        "code": "s0008",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
                 ]
-              }
-            ]
-          },
-          {
-        "id": "s0001",
-        "boundaryNum": 2,
-        "name": "Test_HCM1",
-        "localname": "Test_HCM1",
-        "longitude": null,
-        "latitude": null,
-        "label": "Provincia",
-        "code": "s0001",
-        "children": [
-          {
-            "id": "s0002",
-            "boundaryNum": 3,
-            "name": "Test_HCM2",
-            "localname": "Test_HCM2",
-            "longitude": null,
-            "latitude": null,
-            "label": "Distrito",
-            "code": "s0002",
-            "children": [
-              {
-                "id": "s0003",
-                "boundaryNum": 4,
-                "name": "Test_HCM3",
-                "localname": "Test_HCM3",
-                "longitude": null,
-                "latitude": null,
-                "label": "Posto Administrativo",
-                "code": "s0003",
-                "children": [
-                  {
-                    "id": "s0004",
-                    "boundaryNum": 5,
-                    "name": "Test_HCM4",
-                    "localname": "Test_HCM4",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "s0004",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-        ]
-      }
-    }
-  ]
+            }
+        }
+    ]
 }
