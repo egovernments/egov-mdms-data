@@ -4564,6 +4564,30 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 386,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_update/FSM.FSTPPlantInfo",
+      "displayName": "Update PQM.QualityTestLab",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 387,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/FSM.FSTPPlantInfo",
+      "displayName": "Update PQM.QualityTestLab",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
