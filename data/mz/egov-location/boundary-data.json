@@ -133,6 +133,82 @@
                         "label": "Localidade",
                         "code": "a004",
                         "children": []
+                      },
+                      {
+                        "id": "a005",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "a005",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "a001",
+            "boundaryNum": 2,
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "a001",
+            "children": [
+              {
+                "id": "a002",
+                "boundaryNum": 3,
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "a002",
+                "children": [
+                  {
+                    "id": "a003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "a003",
+                    "children": [
+                      {
+                        "id": "a004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "a004",
+                        "children": []
                       }
                     ]
                   }
