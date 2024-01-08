@@ -5184,6 +5184,18 @@
       "actionid": 323,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 306,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DSO",
+      "actionid": 306,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
