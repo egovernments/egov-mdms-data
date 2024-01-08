@@ -473,16 +473,16 @@
           },
           {
               "name": "fromDate",
-              "path": "Data.auditDetails.createdTime",
-              "isMandatory": false,
-              "operator": "GTE"
+              "path": "Data.scheduledDate",
+              "operator": "GTE",
+              "isMandatory": false
           },
           {
               "name": "toDate",
-              "path": "Data.auditDetails.createdTime",
-              "isMandatory": false,
-              "operator": "LTE"
-          }
+              "path": "Data.scheduledDate",
+              "operator": "LTE",
+              "isMandatory": false
+          }  
       ],
       "sortBy": {
           "path": "Data.scheduledDate",
