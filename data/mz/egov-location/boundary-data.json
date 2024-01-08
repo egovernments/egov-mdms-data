@@ -18,115 +18,116 @@
         "code": "mz",
         "children": [
           {
-            "id": "s0001",
+            "id": "b001",
             "boundaryNum": 2,
             "name": "Test_HCM1",
             "localname": "Test_HCM1",
             "longitude": null,
             "latitude": null,
             "label": "Provincia",
-            "code": "s0001",
+            "code": "b001",
             "children": [
               {
-                "id": "s0002",
+                "id": "b002",
                 "boundaryNum": 3,
                 "name": "Test_HCM2",
                 "localname": "Test_HCM2",
                 "longitude": null,
                 "latitude": null,
                 "label": "Distrito",
-                "code": "s0002",
+                "code": "b002",
                 "children": [
                   {
-                    "id": "s0003",
+                    "id": "b003",
                     "boundaryNum": 4,
                     "name": "Test_HCM3",
                     "localname": "Test_HCM3",
                     "longitude": null,
                     "latitude": null,
                     "label": "Posto Administrativo",
-                    "code": "s0003",
+                    "code": "b003",
                     "children": [
                       {
-                        "id": "s0004",
+                        "id": "b004",
                         "boundaryNum": 5,
                         "name": "Test_HCM4",
                         "localname": "Test_HCM4",
                         "longitude": null,
                         "latitude": null,
                         "label": "Localidade",
-                        "code": "s0004",
+                        "code": "b004",
                         "children": []
                       },
                       {
-                        "id": "s0009",
+                        "id": "b005",
                         "boundaryNum": 5,
-                        "name": "Test_HCM9",
-                        "localname": "Test_HCM9",
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
                         "longitude": null,
                         "latitude": null,
                         "label": "Localidade",
-                        "code": "s0009",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "s0006",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM6",
-                    "localname": "Test_HCM6",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "s0006",
-                    "children": [
-                      {
-                        "id": "s0010",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM10",
-                        "localname": "Test_HCM10",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "s0010",
+                        "code": "b005",
                         "children": []
                       }
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "id": "a001",
+            "boundaryNum": 2,
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "a001",
+            "children": [
               {
-                "id": "s0005",
+                "id": "a002",
                 "boundaryNum": 3,
-                "name": "Test_HCM5",
-                "localname": "Test_HCM5",
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
                 "longitude": null,
                 "latitude": null,
                 "label": "Distrito",
-                "code": "s0005",
+                "code": "a002",
                 "children": [
                   {
-                    "id": "s0007",
+                    "id": "a003",
                     "boundaryNum": 4,
-                    "name": "Test_HCM7",
-                    "localname": "Test_HCM7",
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
                     "longitude": null,
                     "latitude": null,
                     "label": "Posto Administrativo",
-                    "code": "s0007",
-                    "children": []
-                  },
-                  {
-                    "id": "s0008",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM8",
-                    "localname": "Test_HCM8",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "s0008",
-                    "children": []
+                    "code": "a003",
+                    "children": [
+                      {
+                        "id": "a004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "a004",
+                        "children": []
+                      },
+                      {
+                        "id": "a005",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "a005",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
