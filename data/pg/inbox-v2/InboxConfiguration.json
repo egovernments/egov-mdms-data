@@ -394,7 +394,7 @@
         {
           "name": "applicationNos",
           "path": "Data.applicationNo.keyword",
-          "isMandatory": false,
+          "isMandatory": false
         },
         {
           "name": "fromDate",
@@ -476,7 +476,7 @@
         {
           "name": "testIds",
           "path": "Data.testId.keyword",
-          "isMandatory": false,
+          "isMandatory": false
         },
         {
           "name": "fromDate",
