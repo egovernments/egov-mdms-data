@@ -48,6 +48,17 @@
                     "code": "a003",
                     "children": [
                       {
+                        "id": "a007",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM7",
+                        "localname": "Test_HCM7",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "a007",
+                        "children": []
+                      },
+                      {
                         "id": "a006",
                         "boundaryNum": 5,
                         "name": "Test_HCM6",
@@ -128,17 +139,6 @@
                     "code": "b003",
                     "children": [
                       {
-                        "id": "b004",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM4",
-                        "localname": "Test_HCM4",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "b004",
-                        "children": []
-                      },
-                      {
                         "id": "b005",
                         "boundaryNum": 5,
                         "name": "Test_HCM5",
@@ -147,6 +147,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "b005",
+                        "children": []
+                      },
+                      {
+                        "id": "b004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "b004",
                         "children": []
                       }
                     ]
