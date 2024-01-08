@@ -395,7 +395,6 @@
           "name": "applicationNos",
           "path": "Data.applicationNo.keyword",
           "isMandatory": false,
-          "operator": "WILDCARD"
         },
         {
           "name": "fromDate",
@@ -478,7 +477,6 @@
           "name": "testIds",
           "path": "Data.testId.keyword",
           "isMandatory": false,
-          "operator": "WILDCARD"
         },
         {
           "name": "fromDate",
