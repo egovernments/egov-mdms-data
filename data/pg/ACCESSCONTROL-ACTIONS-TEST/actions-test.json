@@ -4588,6 +4588,54 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 388,
+      "name": "mSeva Event Count",
+      "url": "/egov-user-event/v1/events/notifications/_count",
+      "displayName": "mSeva Event Notification",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "msea-event-notification",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 389,
+      "name": "CS_HOME_APPLY_FOR_DESLUDGING",
+      "url": "sanitation-ui-card",
+      "displayName": "Apply for Emptying of Septic Tank/Pit",
+      "orderNumber": 1,
+      "parentModule": "FSM",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/sanitation-ui/citizen/fsm/new-application",
+      "leftIcon": "FSMIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/sanitation-ui/citizen/fsm-home"
+    },
+    {
+      "id": 390,
+      "name": "CS_HOME_MY_APPLICATIONS",
+      "url": "sanitation-ui-card",
+      "displayName": "My Applications",
+      "orderNumber": 6,
+      "parentModule": "FSM",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/sanitation-ui/citizen/fsm/my-applications",
+      "leftIcon": "FSMIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "digit-ui-links",
+      "sidebarURL": "/sanitation-ui/citizen/fsm-home"
     }
+    
   ]
 }
