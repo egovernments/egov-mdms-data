@@ -46,7 +46,8 @@
             "withoutLabel": true,
             "component": "SelectGeolocation",
             "nextStep": "pincode",
-            "key": "address"
+            "key": "address",
+            "hideInEmployee":true
           },
           {
             "route": "pincode",
