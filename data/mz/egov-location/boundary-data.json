@@ -82,6 +82,17 @@
                     "code": "ST0006",
                     "children": [
                       {
+                        "id": "ST0011",
+                        "boundaryNum": 5,
+                        "name": "HCM11",
+                        "localname": "HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "ST0011",
+                        "children": []
+                      },
+                      {
                         "id": "ST0010",
                         "boundaryNum": 5,
                         "name": "HCM10",
