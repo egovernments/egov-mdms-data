@@ -3,7 +3,321 @@
   "moduleName": "egov-location",
   "TenantBoundary": [
     {
-  
-    }
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "ST0001",
+            "boundaryNum": 2,
+            "name": "HCM1",
+            "localname": "HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "ST0001",
+            "children": [
+              {
+                "id": "ST0002",
+                "boundaryNum": 3,
+                "name": "HCM2",
+                "localname": "HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "ST0002",
+                "children": [
+                  {
+                    "id": "ST0003",
+                    "boundaryNum": 4,
+                    "name": "HCM3",
+                    "localname": "HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "ST0003",
+                    "children": [
+                      {
+                        "id": "ST0004",
+                        "boundaryNum": 5,
+                        "name": "HCM4",
+                        "localname": "HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "ST0004",
+                        "children": []
+                      },
+                      {
+                        "id": "ST0009",
+                        "boundaryNum": 5,
+                        "name": "HCM9",
+                        "localname": "HCM9",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "ST0009",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ST0006",
+                    "boundaryNum": 4,
+                    "name": "HCM6",
+                    "localname": "HCM6",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "ST0006",
+                    "children": [
+                      {
+                        "id": "ST0010",
+                        "boundaryNum": 5,
+                        "name": "HCM10",
+                        "localname": "HCM10",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "ST0010",
+                        "children": []
+                      },
+                      {
+                        "id": "ST0011",
+                        "boundaryNum": 5,
+                        "name": "HCM11",
+                        "localname": "HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "ST0011",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ST0005",
+                "boundaryNum": 3,
+                "name": "HCM5",
+                "localname": "HCM5",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "ST0005",
+                "children": [
+                  {
+                    "id": "ST0007",
+                    "boundaryNum": 4,
+                    "name": "HCM7",
+                    "localname": "HCM7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "ST0007",
+                    "children": []
+                  },
+                  {
+                    "id": "ST0008",
+                    "boundaryNum": 4,
+                    "name": "HCM8",
+                    "localname": "HCM8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "ST0008",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "BEDPRO01",
+            "boundaryNum": 2,
+            "name": "Provincia 1",
+            "localname": "Provincia 1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "BEDPRO01",
+            "children": [
+              {
+                "id": "BEDDIS01",
+                "boundaryNum": 3,
+                "name": "District 1",
+                "localname": "District 1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "BEDDIS01",
+                "children": [
+                  {
+                    "id": "BEDPOA01",
+                    "boundaryNum": 4,
+                    "name": "Posto Administrativo 1",
+                    "localname": "Posto Administrativo 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "BEDPOA01",
+                    "children": [
+                      {
+                        "id": "BEDLOC01",
+                        "boundaryNum": 5,
+                        "name": "Localidade 1",
+                        "localname": "Localidade 1",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC01",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "BEDPRO02",
+            "boundaryNum": 2,
+            "name": "Provincia 2",
+            "localname": "Provincia 2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "BEDPRO02",
+            "children": [
+              {
+                "id": "BEDDIS02",
+                "boundaryNum": 3,
+                "name": "District 2",
+                "localname": "District 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "BEDDIS02",
+                "children": [
+                  {
+                    "id": "BEDPOA02",
+                    "boundaryNum": 4,
+                    "name": "Posto Administrativo 2",
+                    "localname": "Posto Administrativo 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "BEDPOA02",
+                    "children": [
+                      {
+                        "id": "BEDLOC02",
+                        "boundaryNum": 5,
+                        "name": "Localidade 2",
+                        "localname": "Localidade 2",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC02",
+                        "children": []
+                      },
+                      {
+                        "id": "BEDLOC03",
+                        "boundaryNum": 5,
+                        "name": "Localidade 3",
+                        "localname": "Localidade 3",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC03",
+                        "children": []
+                      },
+                      {
+                        "id": "BEDLOC04",
+                        "boundaryNum": 5,
+                        "name": "Localidade 4",
+                        "localname": "Localidade 4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC04",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "BEDPOA03",
+                    "boundaryNum": 4,
+                    "name": "Posto Administrativo 3",
+                    "localname": "Posto Administrativo 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "BEDPOA03",
+                    "children": [
+                      {
+                        "id": "BEDLOC05",
+                        "boundaryNum": 5,
+                        "name": "Localidade 5",
+                        "localname": "Localidade 5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC05",
+                        "children": []
+                      },
+                      {
+                        "id": "BEDLOC06",
+                        "boundaryNum": 5,
+                        "name": "Localidade 6",
+                        "localname": "Localidade 6",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC06",
+                        "children": []
+                      },
+                      {
+                        "id": "BEDLOC07",
+                        "boundaryNum": 5,
+                        "name": "Localidade 7",
+                        "localname": "Localidade 7",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC07",
+                        "children": []
+                      },
+                      {
+                        "id": "BEDLOC08",
+                        "boundaryNum": 5,
+                        "name": "Localidade 8",
+                        "localname": "Localidade 8",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "BEDLOC08",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {}
   ]
 }
