@@ -18,6 +18,144 @@
         "code": "mz",
         "children": [
           {
+            "id": "d001",
+            "boundaryNum": 2,
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "d001",
+            "children": [
+              {
+                "id": "d002",
+                "boundaryNum": 3,
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "d002",
+                "children": [
+                  {
+                    "id": "d003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "d003",
+                    "children": [
+                      {
+                        "id": "d004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "d004",
+                        "children": []
+                      },
+                      {
+                        "id": "d005",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "d005",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "d006",
+                "boundaryNum": 3,
+                "name": "Test_HCM6",
+                "localname": "Test_HCM6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "d006",
+                "children": [
+                  {
+                    "id": "d007",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM7",
+                    "localname": "Test_HCM7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "d007",
+                    "children": [
+                      {
+                        "id": "d009",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM9",
+                        "localname": "Test_HCM9",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "d009",
+                        "children": []
+                      },
+                      {
+                        "id": "d010",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM10",
+                        "localname": "Test_HCM10",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "d010",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "d008",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM8",
+                    "localname": "Test_HCM8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "d008",
+                    "children": [
+                      {
+                        "id": "d011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "d011",
+                        "children": []
+                      },
+                      {
+                        "id": "d012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM12",
+                        "localname": "Test_HCM12",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "d012",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": "s0001",
             "boundaryNum": 2,
             "name": "Test_HCM1",
