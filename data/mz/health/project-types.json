@@ -87,7 +87,7 @@
       ],
       "observationStrategy": "DOT1",
       "validMinAge": 3,
-      "validMaxAge": 60,
+      "validMaxAge": 64,
       "cycles": [
         {
           "mandatoryWaitSinceLastCycleInDays": null,
