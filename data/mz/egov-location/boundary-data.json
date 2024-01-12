@@ -128,17 +128,6 @@
                     "code": "h008",
                     "children": [
                       {
-                        "id": "h011",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM11",
-                        "localname": "Test_HCM11",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h011",
-                        "children": []
-                      },
-                      {
                         "id": "h012",
                         "boundaryNum": 5,
                         "name": "Test_HCM12",
@@ -147,6 +136,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "h012",
+                        "children": []
+                      },
+                      {
+                        "id": "h011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h011",
                         "children": []
                       }
                     ]
@@ -381,17 +381,6 @@
                     "code": "y007",
                     "children": [
                       {
-                        "id": "y010",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM10",
-                        "localname": "Test_HCM10",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "y010",
-                        "children": []
-                      },
-                      {
                         "id": "y009",
                         "boundaryNum": 5,
                         "name": "Test_HCM9",
@@ -400,6 +389,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "y009",
+                        "children": []
+                      },
+                      {
+                        "id": "y010",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM10",
+                        "localname": "Test_HCM10",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "y010",
                         "children": []
                       }
                     ]
@@ -415,17 +415,6 @@
                     "code": "y008",
                     "children": [
                       {
-                        "id": "y012",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM12",
-                        "localname": "Test_HCM12",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "y012",
-                        "children": []
-                      },
-                      {
                         "id": "y011",
                         "boundaryNum": 5,
                         "name": "Test_HCM11",
@@ -434,6 +423,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "y011",
+                        "children": []
+                      },
+                      {
+                        "id": "y012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM12",
+                        "localname": "Test_HCM12",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "y012",
                         "children": []
                       }
                     ]
