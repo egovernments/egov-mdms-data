@@ -128,17 +128,6 @@
                     "code": "h008",
                     "children": [
                       {
-                        "id": "h011",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM11",
-                        "localname": "Test_HCM11",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h011",
-                        "children": []
-                      },
-                      {
                         "id": "h012",
                         "boundaryNum": 5,
                         "name": "Test_HCM12",
@@ -147,6 +136,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "h012",
+                        "children": []
+                      },
+                      {
+                        "id": "h011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h011",
                         "children": []
                       }
                     ]
