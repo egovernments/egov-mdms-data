@@ -415,17 +415,6 @@
                     "code": "y008",
                     "children": [
                       {
-                        "id": "y011",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM11",
-                        "localname": "Test_HCM11",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "y011",
-                        "children": []
-                      },
-                      {
                         "id": "y012",
                         "boundaryNum": 5,
                         "name": "Test_HCM12",
@@ -434,6 +423,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "y012",
+                        "children": []
+                      },
+                      {
+                        "id": "y011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "y011",
                         "children": []
                       }
                     ]
