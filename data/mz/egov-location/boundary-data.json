@@ -415,6 +415,17 @@
                     "code": "y008",
                     "children": [
                       {
+                        "id": "y011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "y011",
+                        "children": []
+                      },
+                      {
                         "id": "y012",
                         "boundaryNum": 5,
                         "name": "Test_HCM12",
@@ -424,16 +435,143 @@
                         "label": "Localidade",
                         "code": "y012",
                         "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "z001",
+            "boundaryNum": 2,
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "z001",
+            "children": [
+              {
+                "id": "z002",
+                "boundaryNum": 3,
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "z002",
+                "children": [
+                  {
+                    "id": "z003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "z003",
+                    "children": [
+                      {
+                        "id": "z004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z004",
+                        "children": []
                       },
                       {
-                        "id": "y011",
+                        "id": "z005",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z005",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "z006",
+                "boundaryNum": 3,
+                "name": "Test_HCM6",
+                "localname": "Test_HCM6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "z006",
+                "children": [
+                  {
+                    "id": "z007",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM7",
+                    "localname": "Test_HCM7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "z007",
+                    "children": [
+                      {
+                        "id": "z009",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM9",
+                        "localname": "Test_HCM9",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z009",
+                        "children": []
+                      },
+                      {
+                        "id": "z010",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM10",
+                        "localname": "Test_HCM10",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z010",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "z008",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM8",
+                    "localname": "Test_HCM8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "z008",
+                    "children": [
+                      {
+                        "id": "z011",
                         "boundaryNum": 5,
                         "name": "Test_HCM11",
                         "localname": "Test_HCM11",
                         "longitude": null,
                         "latitude": null,
                         "label": "Localidade",
-                        "code": "y011",
+                        "code": "z011",
+                        "children": []
+                      },
+                      {
+                        "id": "z012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM12",
+                        "localname": "Test_HCM12",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z012",
                         "children": []
                       }
                     ]
