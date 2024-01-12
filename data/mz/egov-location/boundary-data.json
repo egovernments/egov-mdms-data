@@ -294,17 +294,6 @@
             ]
           },
           {
-            "id": "123456789",
-            "boundaryNum": 2,
-            "name": "CHIFUNDEM1",
-            "localname": "CHIFUNDEM1",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "123456789",
-            "children": []
-          },
-          {
             "id": "z001",
             "boundaryNum": 2,
             "name": "Test_HCM1",
@@ -314,52 +303,6 @@
             "label": "Provincia",
             "code": "z001",
             "children": [
-              {
-                "id": "z002",
-                "boundaryNum": 3,
-                "name": "Test_HCM2",
-                "localname": "Test_HCM2",
-                "longitude": null,
-                "latitude": null,
-                "label": "Distrito",
-                "code": "z002",
-                "children": [
-                  {
-                    "id": "z003",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM3",
-                    "localname": "Test_HCM3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "z003",
-                    "children": [
-                      {
-                        "id": "z004",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM4",
-                        "localname": "Test_HCM4",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "z004",
-                        "children": []
-                      },
-                      {
-                        "id": "z005",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM5",
-                        "localname": "Test_HCM5",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "z005",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "id": "z006",
                 "boundaryNum": 3,
@@ -439,8 +382,65 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": "z002",
+                "boundaryNum": 3,
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "z002",
+                "children": [
+                  {
+                    "id": "z003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "z003",
+                    "children": [
+                      {
+                        "id": "z004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z004",
+                        "children": []
+                      },
+                      {
+                        "id": "z005",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "z005",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
+          },
+          {
+            "id": "123456789",
+            "boundaryNum": 2,
+            "name": "CHIFUNDEM1",
+            "localname": "CHIFUNDEM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "123456789",
+            "children": []
           },
           {
             "id": "y001",
