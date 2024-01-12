@@ -128,17 +128,6 @@
                     "code": "h008",
                     "children": [
                       {
-                        "id": "h012",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM12",
-                        "localname": "Test_HCM12",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h012",
-                        "children": []
-                      },
-                      {
                         "id": "h011",
                         "boundaryNum": 5,
                         "name": "Test_HCM11",
@@ -147,6 +136,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "h011",
+                        "children": []
+                      },
+                      {
+                        "id": "h012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM12",
+                        "localname": "Test_HCM12",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h012",
                         "children": []
                       }
                     ]
@@ -294,17 +294,6 @@
             ]
           },
           {
-            "id": "123456789",
-            "boundaryNum": 2,
-            "name": "Test_HCM1",
-            "localname": "Test_HCM1",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "123456789",
-            "children": []
-          },
-          {
             "id": "y001",
             "boundaryNum": 2,
             "name": "Test_HCM1",
@@ -441,6 +430,17 @@
                 ]
               }
             ]
+          },
+          {
+            "id": "123456789",
+            "boundaryNum": 2,
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "123456789",
+            "children": []
           }
         ]
       }
