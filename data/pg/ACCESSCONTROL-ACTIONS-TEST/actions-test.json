@@ -2480,6 +2480,72 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 203,
+      "name": "create Workflow Autoescalation",
+      "url": "/mdms-v2/v2/_create/Workflow.AutoEscalation",
+      "displayName": "create Workflow Autoescalation",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 204,
+      "name": "create Workflow Autoescalation states to ignore",
+      "url": "/mdms-v2/v2/_create/Workflow.AutoEscalationStatesToIgnore",
+      "displayName": "create Workflow Autoescalation states to ignore",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 205,
+      "name": "create Workflow Business service",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessService",
+      "displayName": "create Workflow Business service",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 206,
+      "name": "create Workflow Business service 3",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessService3",
+      "displayName": "create Workflow Business service3",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 207,
+      "name": "create Workflow BusinessServiceConfig",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessServiceConfig",
+      "displayName": "create Workflow BusinessServiceConfi",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 208,
+      "name": "create Workflow BusinessServiceMasterConfig",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessServiceMasterConfig",
+      "displayName": "create Workflow BusinessServiceMasterConfig",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
     }
   ]
 }
