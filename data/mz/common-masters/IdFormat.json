@@ -69,6 +69,10 @@
     {
       "format": "PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
       "idname": "pgr.servicerequestid"
+    },
+    {
+      "format": "WR/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_ATTENDANCE_REGISTER_NUM]",
+      "idname": "attendance.register.number"
     }
   ]
 }
