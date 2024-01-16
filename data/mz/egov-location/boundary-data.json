@@ -2,6 +2,34 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
- 
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "f7e40426",
+            "boundaryNum": 2,
+            "name": "Bairro 2",
+            "localname": "Bairro 2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "f7e40426",
+            "children": []
+          }
+        ]
+      }
+    }
   ]
 }
