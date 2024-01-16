@@ -4677,6 +4677,17 @@
       "queryParams": "",
       "sidebar": "digit-ui-links",
       "sidebarURL": "/sanitation-ui/citizen/fsm-home"
+    },
+    {
+      "id": 394,
+      "name": "Download Pdf for PQM Application",
+      "url": "/pqm-service/v1/_downloadPdf",
+      "displayName": "Download Pdf for PQM Application",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "PQM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
