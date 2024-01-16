@@ -2,6 +2,46 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "0846904c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE ",
+            "localname": "CHIFUNDE ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "0846904c",
+            "children": []
+          },
+          {
+            "id": "b6cb0af8",
+            "boundaryNum": 2,
+            "name": "Chifunde",
+            "localname": "Chifunde",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "b6cb0af8",
+            "children": []
+          }
+        ]
+      }
+    },
     {}
   ]
 }
