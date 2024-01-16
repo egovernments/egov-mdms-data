@@ -2,6 +2,34 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
- 
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "7854e7af",
+            "boundaryNum": 2,
+            "name": "Bairro 1 Luia",
+            "localname": "Bairro 1 Luia",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "7854e7af",
+            "children": []
+          }
+        ]
+      }
+    }
   ]
 }
