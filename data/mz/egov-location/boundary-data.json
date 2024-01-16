@@ -18,6 +18,161 @@
         "code": "mz",
         "children": [
           {
+            "id": "K0001",
+            "boundaryNum": 2,
+            "name": "HCM1",
+            "localname": "HCM1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "K0001",
+            "children": [
+              {
+                "id": "K0002",
+                "boundaryNum": 3,
+                "name": "HCM2",
+                "localname": "HCM2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "K0002",
+                "children": [
+                  {
+                    "id": "K0003",
+                    "boundaryNum": 4,
+                    "name": "HCM3",
+                    "localname": "HCM3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "K0003",
+                    "children": [
+                      {
+                        "id": "K0004",
+                        "boundaryNum": 5,
+                        "name": "HCM4",
+                        "localname": "HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "K0004",
+                        "children": []
+                      },
+                      {
+                        "id": "K0009",
+                        "boundaryNum": 5,
+                        "name": "HCM9",
+                        "localname": "HCM9",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "K0009",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "K0006",
+                    "boundaryNum": 4,
+                    "name": "HCM6",
+                    "localname": "HCM6",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "K0006",
+                    "children": [
+                      {
+                        "id": "K0010",
+                        "boundaryNum": 5,
+                        "name": "HCM10",
+                        "localname": "HCM10",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "K0010",
+                        "children": []
+                      },
+                      {
+                        "id": "K0011",
+                        "boundaryNum": 5,
+                        "name": "HCM11",
+                        "localname": "HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "K0011",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "K0005",
+                "boundaryNum": 3,
+                "name": "HCM5",
+                "localname": "HCM5",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "K0005",
+                "children": [
+                  {
+                    "id": "K0007",
+                    "boundaryNum": 4,
+                    "name": "HCM7",
+                    "localname": "HCM7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "K0007",
+                    "children": []
+                  },
+                  {
+                    "id": "K0008",
+                    "boundaryNum": 4,
+                    "name": "HCM8",
+                    "localname": "HCM8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "K0008",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "7854e7af",
+            "boundaryNum": 2,
+            "name": "Bairro 1 Luia",
+            "localname": "Bairro 1 Luia",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "7854e7af",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "7854e7af",
             "boundaryNum": 2,
             "name": "Bairro 1 Luia",
