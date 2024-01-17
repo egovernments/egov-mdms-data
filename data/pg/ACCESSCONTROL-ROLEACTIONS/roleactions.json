@@ -5226,6 +5226,18 @@
       "actionid": 206,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_ADMIN",
+      "actionid": 391,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PQM_TP_OPERATOR",
+      "actionid": 391,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
