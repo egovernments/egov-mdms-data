@@ -270,17 +270,6 @@
                 "code": "e3613a40",
                 "children": [
                   {
-                    "id": "89a143f2",
-                    "boundaryNum": 4,
-                    "name": "Lungue",
-                    "localname": "Lungue",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "89a143f2",
-                    "children": []
-                  },
-                  {
                     "id": "42a052d3",
                     "boundaryNum": 4,
                     "name": "Capaco",
@@ -421,6 +410,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "4b544756",
+                    "children": []
+                  },
+                  {
+                    "id": "89a143f2",
+                    "boundaryNum": 4,
+                    "name": "Lungue",
+                    "localname": "Lungue",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "89a143f2",
                     "children": []
                   }
                 ]
@@ -1124,6 +1124,39 @@
                     "children": []
                   },
                   {
+                    "id": "88b65b94",
+                    "boundaryNum": 4,
+                    "name": "Calala 1",
+                    "localname": "Calala 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "88b65b94",
+                    "children": []
+                  },
+                  {
+                    "id": "0a67783c",
+                    "boundaryNum": 4,
+                    "name": "Capimbi",
+                    "localname": "Capimbi",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0a67783c",
+                    "children": []
+                  },
+                  {
+                    "id": "7bd117fa",
+                    "boundaryNum": 4,
+                    "name": "Cambununo",
+                    "localname": "Cambununo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7bd117fa",
+                    "children": []
+                  },
+                  {
                     "id": "cf0a009c",
                     "boundaryNum": 4,
                     "name": "Chicupi",
@@ -1165,39 +1198,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "2827f8ad",
-                    "children": []
-                  },
-                  {
-                    "id": "88b65b94",
-                    "boundaryNum": 4,
-                    "name": "Calala 1",
-                    "localname": "Calala 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "88b65b94",
-                    "children": []
-                  },
-                  {
-                    "id": "0a67783c",
-                    "boundaryNum": 4,
-                    "name": "Capimbi",
-                    "localname": "Capimbi",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "0a67783c",
-                    "children": []
-                  },
-                  {
-                    "id": "7bd117fa",
-                    "boundaryNum": 4,
-                    "name": "Cambununo",
-                    "localname": "Cambununo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "7bd117fa",
                     "children": []
                   }
                 ]
