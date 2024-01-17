@@ -38,6 +38,17 @@
                 "code": "3f351216",
                 "children": [
                   {
+                    "id": "02efce2a",
+                    "boundaryNum": 4,
+                    "name": "Massuko",
+                    "localname": "Massuko",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "02efce2a",
+                    "children": []
+                  },
+                  {
                     "id": "4fa44ace",
                     "boundaryNum": 4,
                     "name": "Mugomo sede",
@@ -244,17 +255,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "6b8ff516",
-                    "children": []
-                  },
-                  {
-                    "id": "02efce2a",
-                    "boundaryNum": 4,
-                    "name": "Massuko",
-                    "localname": "Massuko",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "02efce2a",
                     "children": []
                   }
                 ]
@@ -1121,6 +1121,17 @@
                     "children": []
                   },
                   {
+                    "id": "4d62b494",
+                    "boundaryNum": 4,
+                    "name": "Banda",
+                    "localname": "Banda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d62b494",
+                    "children": []
+                  },
+                  {
                     "id": "5b81d066",
                     "boundaryNum": 4,
                     "name": "Malizansenge",
@@ -1185,17 +1196,6 @@
                     "label": "Localidade",
                     "code": "2199267",
                     "children": []
-                  },
-                  {
-                    "id": "4d62b494",
-                    "boundaryNum": 4,
-                    "name": "Banda",
-                    "localname": "Banda",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "4d62b494",
-                    "children": []
                   }
                 ]
               }
@@ -1230,61 +1230,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "c784ff8a",
-                    "children": []
-                  },
-                  {
-                    "id": "48f233c2",
-                    "boundaryNum": 4,
-                    "name": "Afulo 1",
-                    "localname": "Afulo 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "48f233c2",
-                    "children": []
-                  },
-                  {
-                    "id": "4acb86e2",
-                    "boundaryNum": 4,
-                    "name": "Afulo 2",
-                    "localname": "Afulo 2",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "4acb86e2",
-                    "children": []
-                  },
-                  {
-                    "id": "039ffebc",
-                    "boundaryNum": 4,
-                    "name": "Chitucula Zondane",
-                    "localname": "Chitucula Zondane",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "039ffebc",
-                    "children": []
-                  },
-                  {
-                    "id": "287155ba",
-                    "boundaryNum": 4,
-                    "name": "Chitucula Mandevu",
-                    "localname": "Chitucula Mandevu",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "287155ba",
-                    "children": []
-                  },
-                  {
-                    "id": "1da5760c",
-                    "boundaryNum": 4,
-                    "name": "Nkodamo1",
-                    "localname": "Nkodamo1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "1da5760c",
                     "children": []
                   },
                   {
@@ -1340,6 +1285,61 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "699f43a2",
+                    "children": []
+                  },
+                  {
+                    "id": "48f233c2",
+                    "boundaryNum": 4,
+                    "name": "Afulo 1",
+                    "localname": "Afulo 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "48f233c2",
+                    "children": []
+                  },
+                  {
+                    "id": "4acb86e2",
+                    "boundaryNum": 4,
+                    "name": "Afulo 2",
+                    "localname": "Afulo 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4acb86e2",
+                    "children": []
+                  },
+                  {
+                    "id": "039ffebc",
+                    "boundaryNum": 4,
+                    "name": "Chitucula Zondane",
+                    "localname": "Chitucula Zondane",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "039ffebc",
+                    "children": []
+                  },
+                  {
+                    "id": "287155ba",
+                    "boundaryNum": 4,
+                    "name": "Chitucula Mandevu",
+                    "localname": "Chitucula Mandevu",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "287155ba",
+                    "children": []
+                  },
+                  {
+                    "id": "1da5760c",
+                    "boundaryNum": 4,
+                    "name": "Nkodamo1",
+                    "localname": "Nkodamo1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "1da5760c",
                     "children": []
                   },
                   {
@@ -1455,6 +1455,17 @@
                     "children": []
                   },
                   {
+                    "id": "35ba9126",
+                    "boundaryNum": 4,
+                    "name": "Adjogo",
+                    "localname": "Adjogo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "35ba9126",
+                    "children": []
+                  },
+                  {
                     "id": "b960d5e6",
                     "boundaryNum": 4,
                     "name": "Dizer",
@@ -1529,17 +1540,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "64e55ba6",
-                    "children": []
-                  },
-                  {
-                    "id": "35ba9126",
-                    "boundaryNum": 4,
-                    "name": "Adjogo",
-                    "localname": "Adjogo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "35ba9126",
                     "children": []
                   }
                 ]
