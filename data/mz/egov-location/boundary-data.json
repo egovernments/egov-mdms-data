@@ -270,17 +270,6 @@
                 "code": "e3613a40",
                 "children": [
                   {
-                    "id": "72edc304",
-                    "boundaryNum": 4,
-                    "name": "Mawombe",
-                    "localname": "Mawombe",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "72edc304",
-                    "children": []
-                  },
-                  {
                     "id": "212b412d",
                     "boundaryNum": 4,
                     "name": "Guereva",
@@ -422,6 +411,17 @@
                     "label": "Localidade",
                     "code": "62ee1c72",
                     "children": []
+                  },
+                  {
+                    "id": "72edc304",
+                    "boundaryNum": 4,
+                    "name": "Mawombe",
+                    "localname": "Mawombe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "72edc304",
+                    "children": []
                   }
                 ]
               }
@@ -447,17 +447,6 @@
                 "label": "Posto Administrativo",
                 "code": "82f80a4c",
                 "children": [
-                  {
-                    "id": "d79376a2",
-                    "boundaryNum": 4,
-                    "name": "Cassequesse",
-                    "localname": "Cassequesse",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "d79376a2",
-                    "children": []
-                  },
                   {
                     "id": "2690eba6",
                     "boundaryNum": 4,
@@ -591,6 +580,17 @@
                     "children": []
                   },
                   {
+                    "id": "d79376a2",
+                    "boundaryNum": 4,
+                    "name": "Cassequesse",
+                    "localname": "Cassequesse",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d79376a2",
+                    "children": []
+                  },
+                  {
                     "id": "5b81d066",
                     "boundaryNum": 4,
                     "name": "Malizansenge",
@@ -624,6 +624,17 @@
                     "children": []
                   },
                   {
+                    "id": "4d62b494",
+                    "boundaryNum": 4,
+                    "name": "Banda",
+                    "localname": "Banda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d62b494",
+                    "children": []
+                  },
+                  {
                     "id": "3f2af4de",
                     "boundaryNum": 4,
                     "name": "Ntchenga",
@@ -654,17 +665,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "2199267",
-                    "children": []
-                  },
-                  {
-                    "id": "4d62b494",
-                    "boundaryNum": 4,
-                    "name": "Banda",
-                    "localname": "Banda",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "4d62b494",
                     "children": []
                   }
                 ]
@@ -958,17 +958,6 @@
                     "children": []
                   },
                   {
-                    "id": "4558953e",
-                    "boundaryNum": 4,
-                    "name": "cassamandola 3",
-                    "localname": "cassamandola 3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "4558953e",
-                    "children": []
-                  },
-                  {
                     "id": "03c6dee6",
                     "boundaryNum": 4,
                     "name": "candere 2",
@@ -977,6 +966,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "03c6dee6",
+                    "children": []
+                  },
+                  {
+                    "id": "4558953e",
+                    "boundaryNum": 4,
+                    "name": "cassamandola 3",
+                    "localname": "cassamandola 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4558953e",
                     "children": []
                   },
                   {
@@ -1124,6 +1124,50 @@
                     "children": []
                   },
                   {
+                    "id": "76588fb0",
+                    "boundaryNum": 4,
+                    "name": "Catawa 2",
+                    "localname": "Catawa 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "76588fb0",
+                    "children": []
+                  },
+                  {
+                    "id": "2827f8ad",
+                    "boundaryNum": 4,
+                    "name": "Vumbwe",
+                    "localname": "Vumbwe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2827f8ad",
+                    "children": []
+                  },
+                  {
+                    "id": "88b65b94",
+                    "boundaryNum": 4,
+                    "name": "Calala 1",
+                    "localname": "Calala 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "88b65b94",
+                    "children": []
+                  },
+                  {
+                    "id": "0a67783c",
+                    "boundaryNum": 4,
+                    "name": "Capimbi",
+                    "localname": "Capimbi",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0a67783c",
+                    "children": []
+                  },
+                  {
                     "id": "7bd117fa",
                     "boundaryNum": 4,
                     "name": "Cambununo",
@@ -1155,50 +1199,6 @@
                     "label": "Localidade",
                     "code": "3775d9a9",
                     "children": []
-                  },
-                  {
-                    "id": "76588fb0",
-                    "boundaryNum": 4,
-                    "name": "Catawa 2",
-                    "localname": "Catawa 2",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "76588fb0",
-                    "children": []
-                  },
-                  {
-                    "id": "0a67783c",
-                    "boundaryNum": 4,
-                    "name": "Capimbi",
-                    "localname": "Capimbi",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "0a67783c",
-                    "children": []
-                  },
-                  {
-                    "id": "2827f8ad",
-                    "boundaryNum": 4,
-                    "name": "Vumbwe",
-                    "localname": "Vumbwe",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "2827f8ad",
-                    "children": []
-                  },
-                  {
-                    "id": "88b65b94",
-                    "boundaryNum": 4,
-                    "name": "Calala 1",
-                    "localname": "Calala 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "88b65b94",
-                    "children": []
                   }
                 ]
               },
@@ -1212,17 +1212,6 @@
                 "label": "Posto Administrativo",
                 "code": "d014f3c4",
                 "children": [
-                  {
-                    "id": "3665a7b4",
-                    "boundaryNum": 4,
-                    "name": "Bene 1",
-                    "localname": "Bene 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "3665a7b4",
-                    "children": []
-                  },
                   {
                     "id": "68fd7928",
                     "boundaryNum": 4,
@@ -1243,6 +1232,28 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "5ac8e5ec",
+                    "children": []
+                  },
+                  {
+                    "id": "d8828b5c",
+                    "boundaryNum": 4,
+                    "name": "Chipuri",
+                    "localname": "Chipuri",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d8828b5c",
+                    "children": []
+                  },
+                  {
+                    "id": "3665a7b4",
+                    "boundaryNum": 4,
+                    "name": "Bene 1",
+                    "localname": "Bene 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3665a7b4",
                     "children": []
                   },
                   {
@@ -1287,17 +1298,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "da7a7930",
-                    "children": []
-                  },
-                  {
-                    "id": "d8828b5c",
-                    "boundaryNum": 4,
-                    "name": "Chipuri",
-                    "localname": "Chipuri",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "d8828b5c",
                     "children": []
                   },
                   {
