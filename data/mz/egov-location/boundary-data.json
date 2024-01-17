@@ -26,7 +26,30 @@
             "latitude": null,
             "label": "Provincia",
             "code": "45145baa",
-            "children": []
+            "children": [
+              {
+                "id": "3f351216",
+                "boundaryNum": 3,
+                "name": "Mualadzi sede",
+                "localname": "Mualadzi sede",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "3f351216",
+                "children": []
+              },
+              {
+                "id": "e3613a40",
+                "boundaryNum": 3,
+                "name": "Nkantha",
+                "localname": "Nkantha",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "e3613a40",
+                "children": []
+              }
+            ]
           },
           {
             "id": "5003f843",
