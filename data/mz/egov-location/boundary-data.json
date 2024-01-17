@@ -270,17 +270,6 @@
                 "code": "e3613a40",
                 "children": [
                   {
-                    "id": "42a052d3",
-                    "boundaryNum": 4,
-                    "name": "Capaco",
-                    "localname": "Capaco",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "42a052d3",
-                    "children": []
-                  },
-                  {
                     "id": "ebad3bde",
                     "boundaryNum": 4,
                     "name": "Gowera",
@@ -421,6 +410,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "89a143f2",
+                    "children": []
+                  },
+                  {
+                    "id": "42a052d3",
+                    "boundaryNum": 4,
+                    "name": "Capaco",
+                    "localname": "Capaco",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "42a052d3",
                     "children": []
                   }
                 ]
@@ -624,6 +624,17 @@
                     "children": []
                   },
                   {
+                    "id": "4d62b494",
+                    "boundaryNum": 4,
+                    "name": "Banda",
+                    "localname": "Banda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d62b494",
+                    "children": []
+                  },
+                  {
                     "id": "3f2af4de",
                     "boundaryNum": 4,
                     "name": "Ntchenga",
@@ -654,17 +665,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "2199267",
-                    "children": []
-                  },
-                  {
-                    "id": "4d62b494",
-                    "boundaryNum": 4,
-                    "name": "Banda",
-                    "localname": "Banda",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "4d62b494",
                     "children": []
                   }
                 ]
@@ -1124,6 +1124,28 @@
                     "children": []
                   },
                   {
+                    "id": "76588fb0",
+                    "boundaryNum": 4,
+                    "name": "Catawa 2",
+                    "localname": "Catawa 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "76588fb0",
+                    "children": []
+                  },
+                  {
+                    "id": "2827f8ad",
+                    "boundaryNum": 4,
+                    "name": "Vumbwe",
+                    "localname": "Vumbwe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2827f8ad",
+                    "children": []
+                  },
+                  {
                     "id": "88b65b94",
                     "boundaryNum": 4,
                     "name": "Calala 1",
@@ -1176,28 +1198,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "3775d9a9",
-                    "children": []
-                  },
-                  {
-                    "id": "76588fb0",
-                    "boundaryNum": 4,
-                    "name": "Catawa 2",
-                    "localname": "Catawa 2",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "76588fb0",
-                    "children": []
-                  },
-                  {
-                    "id": "2827f8ad",
-                    "boundaryNum": 4,
-                    "name": "Vumbwe",
-                    "localname": "Vumbwe",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "2827f8ad",
                     "children": []
                   }
                 ]
