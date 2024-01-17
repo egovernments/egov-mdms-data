@@ -270,17 +270,6 @@
                 "code": "e3613a40",
                 "children": [
                   {
-                    "id": "212b412d",
-                    "boundaryNum": 4,
-                    "name": "Guereva",
-                    "localname": "Guereva",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "212b412d",
-                    "children": []
-                  },
-                  {
                     "id": "4b544756",
                     "boundaryNum": 4,
                     "name": "Abongue",
@@ -421,6 +410,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "72edc304",
+                    "children": []
+                  },
+                  {
+                    "id": "212b412d",
+                    "boundaryNum": 4,
+                    "name": "Guereva",
+                    "localname": "Guereva",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "212b412d",
                     "children": []
                   }
                 ]
@@ -624,17 +624,6 @@
                     "children": []
                   },
                   {
-                    "id": "4d62b494",
-                    "boundaryNum": 4,
-                    "name": "Banda",
-                    "localname": "Banda",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "4d62b494",
-                    "children": []
-                  },
-                  {
                     "id": "3f2af4de",
                     "boundaryNum": 4,
                     "name": "Ntchenga",
@@ -665,6 +654,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "2199267",
+                    "children": []
+                  },
+                  {
+                    "id": "4d62b494",
+                    "boundaryNum": 4,
+                    "name": "Banda",
+                    "localname": "Banda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d62b494",
                     "children": []
                   }
                 ]
@@ -1124,6 +1124,28 @@
                     "children": []
                   },
                   {
+                    "id": "cf0a009c",
+                    "boundaryNum": 4,
+                    "name": "Chicupi",
+                    "localname": "Chicupi",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "cf0a009c",
+                    "children": []
+                  },
+                  {
+                    "id": "3775d9a9",
+                    "boundaryNum": 4,
+                    "name": "Catawa 1",
+                    "localname": "Catawa 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3775d9a9",
+                    "children": []
+                  },
+                  {
                     "id": "76588fb0",
                     "boundaryNum": 4,
                     "name": "Catawa 2",
@@ -1176,28 +1198,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "7bd117fa",
-                    "children": []
-                  },
-                  {
-                    "id": "cf0a009c",
-                    "boundaryNum": 4,
-                    "name": "Chicupi",
-                    "localname": "Chicupi",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "cf0a009c",
-                    "children": []
-                  },
-                  {
-                    "id": "3775d9a9",
-                    "boundaryNum": 4,
-                    "name": "Catawa 1",
-                    "localname": "Catawa 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "3775d9a9",
                     "children": []
                   }
                 ]
