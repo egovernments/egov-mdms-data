@@ -18,29 +18,6 @@
         "code": "mz",
         "children": [
           {
-            "id": "33198e3c",
-            "boundaryNum": 2,
-            "name": "Muladzi",
-            "localname": "Muladzi",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "33198e3c",
-            "children": [
-              {
-                "id": "9223372036854775807",
-                "boundaryNum": 3,
-                "name": "Bolimo",
-                "localname": "Bolimo",
-                "longitude": null,
-                "latitude": null,
-                "label": "Posto Administrativo",
-                "code": "9223372036854775807",
-                "children": []
-              }
-            ]
-          },
-          {
             "id": "45145baa",
             "boundaryNum": 2,
             "name": "Mualadzi",
@@ -293,17 +270,6 @@
                 "code": "e3613a40",
                 "children": [
                   {
-                    "id": "1f3b73b9",
-                    "boundaryNum": 4,
-                    "name": "Chitsinde",
-                    "localname": "Chitsinde",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "1f3b73b9",
-                    "children": []
-                  },
-                  {
                     "id": "309f2aba",
                     "boundaryNum": 4,
                     "name": "Werengane",
@@ -444,6 +410,547 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "ebad3bde",
+                    "children": []
+                  },
+                  {
+                    "id": "1f3b73b9",
+                    "boundaryNum": 4,
+                    "name": "Chitsinde",
+                    "localname": "Chitsinde",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "1f3b73b9",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "33198e3c",
+            "boundaryNum": 2,
+            "name": "Muladzi",
+            "localname": "Muladzi",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "33198e3c",
+            "children": [
+              {
+                "id": "9223372036854775807",
+                "boundaryNum": 3,
+                "name": "Bolimo",
+                "localname": "Bolimo",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "9223372036854775807",
+                "children": [
+                  {
+                    "id": "171eb9ca",
+                    "boundaryNum": 4,
+                    "name": "Bolimo sede",
+                    "localname": "Bolimo sede",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "171eb9ca",
+                    "children": []
+                  },
+                  {
+                    "id": "4b2f935f",
+                    "boundaryNum": 4,
+                    "name": "Damiano",
+                    "localname": "Damiano",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4b2f935f",
+                    "children": []
+                  },
+                  {
+                    "id": "46fee53a",
+                    "boundaryNum": 4,
+                    "name": "Dzeka",
+                    "localname": "Dzeka",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "46fee53a",
+                    "children": []
+                  },
+                  {
+                    "id": "18be1ad2",
+                    "boundaryNum": 4,
+                    "name": "Chicanda",
+                    "localname": "Chicanda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "18be1ad2",
+                    "children": []
+                  },
+                  {
+                    "id": "00bc9226",
+                    "boundaryNum": 4,
+                    "name": "Catsuruza",
+                    "localname": "Catsuruza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "00bc9226",
+                    "children": []
+                  },
+                  {
+                    "id": "6367ea0a",
+                    "boundaryNum": 4,
+                    "name": "Kaliza",
+                    "localname": "Kaliza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "6367ea0a",
+                    "children": []
+                  },
+                  {
+                    "id": "271d0dde",
+                    "boundaryNum": 4,
+                    "name": "Kalima",
+                    "localname": "Kalima",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "271d0dde",
+                    "children": []
+                  },
+                  {
+                    "id": "16ea2200",
+                    "boundaryNum": 4,
+                    "name": "Uanguani",
+                    "localname": "Uanguani",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "16ea2200",
+                    "children": []
+                  },
+                  {
+                    "id": "ead09d5e",
+                    "boundaryNum": 4,
+                    "name": "Calendo",
+                    "localname": "Calendo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "ead09d5e",
+                    "children": []
+                  },
+                  {
+                    "id": "e5e2388e",
+                    "boundaryNum": 4,
+                    "name": "Ntalica",
+                    "localname": "Ntalica",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "e5e2388e",
+                    "children": []
+                  },
+                  {
+                    "id": "2366a098",
+                    "boundaryNum": 4,
+                    "name": "Ntendeliza",
+                    "localname": "Ntendeliza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2366a098",
+                    "children": []
+                  },
+                  {
+                    "id": "a6e01cfe",
+                    "boundaryNum": 4,
+                    "name": "Zingalume",
+                    "localname": "Zingalume",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "a6e01cfe",
+                    "children": []
+                  },
+                  {
+                    "id": "d9f0996c",
+                    "boundaryNum": 4,
+                    "name": "Ndjovu",
+                    "localname": "Ndjovu",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d9f0996c",
+                    "children": []
+                  },
+                  {
+                    "id": "3140f207",
+                    "boundaryNum": 4,
+                    "name": "Caputo sede (Mbaulala)",
+                    "localname": "Caputo sede (Mbaulala)",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3140f207",
+                    "children": []
+                  },
+                  {
+                    "id": "f6025f7e",
+                    "boundaryNum": 4,
+                    "name": "Batani",
+                    "localname": "Batani",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "f6025f7e",
+                    "children": []
+                  },
+                  {
+                    "id": "1f6c5a21",
+                    "boundaryNum": 4,
+                    "name": "Katakungua",
+                    "localname": "Katakungua",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "1f6c5a21",
+                    "children": []
+                  },
+                  {
+                    "id": "20db303b",
+                    "boundaryNum": 4,
+                    "name": "Cachigulo",
+                    "localname": "Cachigulo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "20db303b",
+                    "children": []
+                  },
+                  {
+                    "id": "14d22382",
+                    "boundaryNum": 4,
+                    "name": "Jeulane",
+                    "localname": "Jeulane",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "14d22382",
+                    "children": []
+                  },
+                  {
+                    "id": "4b545441",
+                    "boundaryNum": 4,
+                    "name": "Bicausse",
+                    "localname": "Bicausse",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4b545441",
+                    "children": []
+                  },
+                  {
+                    "id": "3114b85d",
+                    "boundaryNum": 4,
+                    "name": "Ziquele",
+                    "localname": "Ziquele",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3114b85d",
+                    "children": []
+                  },
+                  {
+                    "id": "531db1e1",
+                    "boundaryNum": 4,
+                    "name": "Catete",
+                    "localname": "Catete",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "531db1e1",
+                    "children": []
+                  },
+                  {
+                    "id": "3cf1ee54",
+                    "boundaryNum": 4,
+                    "name": "Khaphale",
+                    "localname": "Khaphale",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3cf1ee54",
+                    "children": []
+                  },
+                  {
+                    "id": "346ff56c",
+                    "boundaryNum": 4,
+                    "name": "Nsamba",
+                    "localname": "Nsamba",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "346ff56c",
+                    "children": []
+                  },
+                  {
+                    "id": "41354bc7",
+                    "boundaryNum": 4,
+                    "name": "Chibudula",
+                    "localname": "Chibudula",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "41354bc7",
+                    "children": []
+                  },
+                  {
+                    "id": "0d5d433e",
+                    "boundaryNum": 4,
+                    "name": "Kaliza 2",
+                    "localname": "Kaliza 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0d5d433e",
+                    "children": []
+                  },
+                  {
+                    "id": "2f0b4743",
+                    "boundaryNum": 4,
+                    "name": "Nfuluzi sede (Chaguapa)",
+                    "localname": "Nfuluzi sede (Chaguapa)",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2f0b4743",
+                    "children": []
+                  },
+                  {
+                    "id": "7cc520a8",
+                    "boundaryNum": 4,
+                    "name": "Chaponda",
+                    "localname": "Chaponda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7cc520a8",
+                    "children": []
+                  },
+                  {
+                    "id": "0ca8d407",
+                    "boundaryNum": 4,
+                    "name": "Jeremane",
+                    "localname": "Jeremane",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0ca8d407",
+                    "children": []
+                  },
+                  {
+                    "id": "55bd71a0",
+                    "boundaryNum": 4,
+                    "name": "Chalasula",
+                    "localname": "Chalasula",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "55bd71a0",
+                    "children": []
+                  },
+                  {
+                    "id": "76ff36e2",
+                    "boundaryNum": 4,
+                    "name": "Phele",
+                    "localname": "Phele",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "76ff36e2",
+                    "children": []
+                  },
+                  {
+                    "id": "225ea79e",
+                    "boundaryNum": 4,
+                    "name": "Kachilaza",
+                    "localname": "Kachilaza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "225ea79e",
+                    "children": []
+                  },
+                  {
+                    "id": "38d92548",
+                    "boundaryNum": 4,
+                    "name": "Lupha",
+                    "localname": "Lupha",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "38d92548",
+                    "children": []
+                  },
+                  {
+                    "id": "56f95527",
+                    "boundaryNum": 4,
+                    "name": "Sande",
+                    "localname": "Sande",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "56f95527",
+                    "children": []
+                  },
+                  {
+                    "id": "9fd1ab08",
+                    "boundaryNum": 4,
+                    "name": "Kaiha",
+                    "localname": "Kaiha",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "9fd1ab08",
+                    "children": []
+                  },
+                  {
+                    "id": "00f2cac6",
+                    "boundaryNum": 4,
+                    "name": "Missoti",
+                    "localname": "Missoti",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "00f2cac6",
+                    "children": []
+                  },
+                  {
+                    "id": "4a9af6e7",
+                    "boundaryNum": 4,
+                    "name": "Milione",
+                    "localname": "Milione",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4a9af6e7",
+                    "children": []
+                  },
+                  {
+                    "id": "19c6e3c7",
+                    "boundaryNum": 4,
+                    "name": "Canhama",
+                    "localname": "Canhama",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "19c6e3c7",
+                    "children": []
+                  },
+                  {
+                    "id": "4e8ecf62",
+                    "boundaryNum": 4,
+                    "name": "Kaliza ",
+                    "localname": "Kaliza ",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4e8ecf62",
+                    "children": []
+                  },
+                  {
+                    "id": "4587c134",
+                    "boundaryNum": 4,
+                    "name": "Bachundo",
+                    "localname": "Bachundo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4587c134",
+                    "children": []
+                  },
+                  {
+                    "id": "fc6fb682",
+                    "boundaryNum": 4,
+                    "name": "Kacessa",
+                    "localname": "Kacessa",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "fc6fb682",
+                    "children": []
+                  },
+                  {
+                    "id": "82360540",
+                    "boundaryNum": 4,
+                    "name": "Tambula",
+                    "localname": "Tambula",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "82360540",
+                    "children": []
+                  },
+                  {
+                    "id": "043b742b",
+                    "boundaryNum": 4,
+                    "name": "Fifteen",
+                    "localname": "Fifteen",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "043b742b",
+                    "children": []
+                  },
+                  {
+                    "id": "45ea93a3",
+                    "boundaryNum": 4,
+                    "name": "Chaduca",
+                    "localname": "Chaduca",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "45ea93a3",
+                    "children": []
+                  },
+                  {
+                    "id": "8755485a",
+                    "boundaryNum": 4,
+                    "name": "Chiwala",
+                    "localname": "Chiwala",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "8755485a",
+                    "children": []
+                  },
+                  {
+                    "id": "a4ce5dc6",
+                    "boundaryNum": 4,
+                    "name": "Issac",
+                    "localname": "Issac",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "a4ce5dc6",
+                    "children": []
+                  },
+                  {
+                    "id": "0c42bdba",
+                    "boundaryNum": 4,
+                    "name": "Rupia",
+                    "localname": "Rupia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0c42bdba",
                     "children": []
                   }
                 ]
@@ -970,17 +1477,6 @@
                     "children": []
                   },
                   {
-                    "id": "02b6c62b",
-                    "boundaryNum": 4,
-                    "name": "Chiloue",
-                    "localname": "Chiloue",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "02b6c62b",
-                    "children": []
-                  },
-                  {
                     "id": "4558953e",
                     "boundaryNum": 4,
                     "name": "cassamandola 3",
@@ -989,6 +1485,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "4558953e",
+                    "children": []
+                  },
+                  {
+                    "id": "02b6c62b",
+                    "boundaryNum": 4,
+                    "name": "Chiloue",
+                    "localname": "Chiloue",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "02b6c62b",
                     "children": []
                   },
                   {
