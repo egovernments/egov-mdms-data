@@ -978,61 +978,6 @@
                 "code": "82f80a4c",
                 "children": [
                   {
-                    "id": "2690eba6",
-                    "boundaryNum": 4,
-                    "name": "Chiuyo",
-                    "localname": "Chiuyo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "2690eba6",
-                    "children": []
-                  },
-                  {
-                    "id": "60024200000000",
-                    "boundaryNum": 4,
-                    "name": "Cassamandola 1",
-                    "localname": "Cassamandola 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "60024200000000",
-                    "children": []
-                  },
-                  {
-                    "id": "55bf564f",
-                    "boundaryNum": 4,
-                    "name": "Cassamandola 2",
-                    "localname": "Cassamandola 2",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "55bf564f",
-                    "children": []
-                  },
-                  {
-                    "id": "26f51a4e",
-                    "boundaryNum": 4,
-                    "name": "Madziangona",
-                    "localname": "Madziangona",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "26f51a4e",
-                    "children": []
-                  },
-                  {
-                    "id": "7b1c662d",
-                    "boundaryNum": 4,
-                    "name": "Mpundo",
-                    "localname": "Mpundo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "7b1c662d",
-                    "children": []
-                  },
-                  {
                     "id": "7854e7af",
                     "boundaryNum": 4,
                     "name": "Bairro 1 Luia",
@@ -1099,36 +1044,69 @@
                     "children": []
                   },
                   {
-                    "id": "03a7b061",
+                    "id": "3f2af4de",
                     "boundaryNum": 4,
-                    "name": "Chitukula",
-                    "localname": "Chitukula",
+                    "name": "Ntchenga",
+                    "localname": "Ntchenga",
                     "longitude": null,
                     "latitude": null,
                     "label": "Localidade",
-                    "code": "03a7b061",
+                    "code": "3f2af4de",
                     "children": []
                   },
                   {
-                    "id": "d79376a2",
+                    "id": "2690eba6",
                     "boundaryNum": 4,
-                    "name": "Cassequesse",
-                    "localname": "Cassequesse",
+                    "name": "Chiuyo",
+                    "localname": "Chiuyo",
                     "longitude": null,
                     "latitude": null,
                     "label": "Localidade",
-                    "code": "d79376a2",
+                    "code": "2690eba6",
                     "children": []
                   },
                   {
-                    "id": "4d62b494",
+                    "id": "60024200000000",
                     "boundaryNum": 4,
-                    "name": "Banda",
-                    "localname": "Banda",
+                    "name": "Cassamandola 1",
+                    "localname": "Cassamandola 1",
                     "longitude": null,
                     "latitude": null,
                     "label": "Localidade",
-                    "code": "4d62b494",
+                    "code": "60024200000000",
+                    "children": []
+                  },
+                  {
+                    "id": "55bf564f",
+                    "boundaryNum": 4,
+                    "name": "Cassamandola 2",
+                    "localname": "Cassamandola 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "55bf564f",
+                    "children": []
+                  },
+                  {
+                    "id": "26f51a4e",
+                    "boundaryNum": 4,
+                    "name": "Madziangona",
+                    "localname": "Madziangona",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "26f51a4e",
+                    "children": []
+                  },
+                  {
+                    "id": "7b1c662d",
+                    "boundaryNum": 4,
+                    "name": "Mpundo",
+                    "localname": "Mpundo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7b1c662d",
                     "children": []
                   },
                   {
@@ -1140,6 +1118,50 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "5b81d066",
+                    "children": []
+                  },
+                  {
+                    "id": "03a7b061",
+                    "boundaryNum": 4,
+                    "name": "Chitukula",
+                    "localname": "Chitukula",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "03a7b061",
+                    "children": []
+                  },
+                  {
+                    "id": "16a9c96d",
+                    "boundaryNum": 4,
+                    "name": "Chiritse",
+                    "localname": "Chiritse",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "16a9c96d",
+                    "children": []
+                  },
+                  {
+                    "id": "2199267",
+                    "boundaryNum": 4,
+                    "name": "Chidjeule",
+                    "localname": "Chidjeule",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2199267",
+                    "children": []
+                  },
+                  {
+                    "id": "4d62b494",
+                    "boundaryNum": 4,
+                    "name": "Banda",
+                    "localname": "Banda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d62b494",
                     "children": []
                   },
                   {
@@ -1165,36 +1187,14 @@
                     "children": []
                   },
                   {
-                    "id": "3f2af4de",
+                    "id": "d79376a2",
                     "boundaryNum": 4,
-                    "name": "Ntchenga",
-                    "localname": "Ntchenga",
+                    "name": "Cassequesse",
+                    "localname": "Cassequesse",
                     "longitude": null,
                     "latitude": null,
                     "label": "Localidade",
-                    "code": "3f2af4de",
-                    "children": []
-                  },
-                  {
-                    "id": "16a9c96d",
-                    "boundaryNum": 4,
-                    "name": "Chiritse",
-                    "localname": "Chiritse",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "16a9c96d",
-                    "children": []
-                  },
-                  {
-                    "id": "2199267",
-                    "boundaryNum": 4,
-                    "name": "Chidjeule",
-                    "localname": "Chidjeule",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "2199267",
+                    "code": "d79376a2",
                     "children": []
                   }
                 ]
@@ -1230,61 +1230,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "c784ff8a",
-                    "children": []
-                  },
-                  {
-                    "id": "8967b3fc",
-                    "boundaryNum": 4,
-                    "name": "Kumimba",
-                    "localname": "Kumimba",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "8967b3fc",
-                    "children": []
-                  },
-                  {
-                    "id": "6bbc94d8",
-                    "boundaryNum": 4,
-                    "name": "Cazimule A",
-                    "localname": "Cazimule A",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "6bbc94d8",
-                    "children": []
-                  },
-                  {
-                    "id": "d5e70d4c",
-                    "boundaryNum": 4,
-                    "name": "Cazimule B",
-                    "localname": "Cazimule B",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "d5e70d4c",
-                    "children": []
-                  },
-                  {
-                    "id": "3aea2e7c",
-                    "boundaryNum": 4,
-                    "name": "Manglobindi",
-                    "localname": "Manglobindi",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "3aea2e7c",
-                    "children": []
-                  },
-                  {
-                    "id": "699f43a2",
-                    "boundaryNum": 4,
-                    "name": "Abibo",
-                    "localname": "Abibo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "699f43a2",
                     "children": []
                   },
                   {
@@ -1340,6 +1285,61 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "1da5760c",
+                    "children": []
+                  },
+                  {
+                    "id": "8967b3fc",
+                    "boundaryNum": 4,
+                    "name": "Kumimba",
+                    "localname": "Kumimba",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "8967b3fc",
+                    "children": []
+                  },
+                  {
+                    "id": "6bbc94d8",
+                    "boundaryNum": 4,
+                    "name": "Cazimule A",
+                    "localname": "Cazimule A",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "6bbc94d8",
+                    "children": []
+                  },
+                  {
+                    "id": "d5e70d4c",
+                    "boundaryNum": 4,
+                    "name": "Cazimule B",
+                    "localname": "Cazimule B",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d5e70d4c",
+                    "children": []
+                  },
+                  {
+                    "id": "3aea2e7c",
+                    "boundaryNum": 4,
+                    "name": "Manglobindi",
+                    "localname": "Manglobindi",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3aea2e7c",
+                    "children": []
+                  },
+                  {
+                    "id": "699f43a2",
+                    "boundaryNum": 4,
+                    "name": "Abibo",
+                    "localname": "Abibo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "699f43a2",
                     "children": []
                   },
                   {
@@ -1411,6 +1411,28 @@
                     "children": []
                   },
                   {
+                    "id": "7e08a3c6",
+                    "boundaryNum": 4,
+                    "name": "Bairro2( Chifunde)",
+                    "localname": "Bairro2( Chifunde)",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7e08a3c6",
+                    "children": []
+                  },
+                  {
+                    "id": "35ba9126",
+                    "boundaryNum": 4,
+                    "name": "Adjogo",
+                    "localname": "Adjogo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "35ba9126",
+                    "children": []
+                  },
+                  {
                     "id": "ee2d4036",
                     "boundaryNum": 4,
                     "name": "Sinalo",
@@ -1441,28 +1463,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "7f7f66df",
-                    "children": []
-                  },
-                  {
-                    "id": "7e08a3c6",
-                    "boundaryNum": 4,
-                    "name": "Bairro2( Chifunde)",
-                    "localname": "Bairro2( Chifunde)",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "7e08a3c6",
-                    "children": []
-                  },
-                  {
-                    "id": "35ba9126",
-                    "boundaryNum": 4,
-                    "name": "Adjogo",
-                    "localname": "Adjogo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "35ba9126",
                     "children": []
                   },
                   {
@@ -1732,6 +1732,28 @@
                 "code": "d014f3c4",
                 "children": [
                   {
+                    "id": "d8828b5c",
+                    "boundaryNum": 4,
+                    "name": "Chipuri",
+                    "localname": "Chipuri",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d8828b5c",
+                    "children": []
+                  },
+                  {
+                    "id": "a6343ca0",
+                    "boundaryNum": 4,
+                    "name": "Moeza",
+                    "localname": "Moeza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "a6343ca0",
+                    "children": []
+                  },
+                  {
                     "id": "68fd7928",
                     "boundaryNum": 4,
                     "name": "Bene 2",
@@ -1754,17 +1776,6 @@
                     "children": []
                   },
                   {
-                    "id": "d8828b5c",
-                    "boundaryNum": 4,
-                    "name": "Chipuri",
-                    "localname": "Chipuri",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "d8828b5c",
-                    "children": []
-                  },
-                  {
                     "id": "3665a7b4",
                     "boundaryNum": 4,
                     "name": "Bene 1",
@@ -1773,17 +1784,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "3665a7b4",
-                    "children": []
-                  },
-                  {
-                    "id": "a6343ca0",
-                    "boundaryNum": 4,
-                    "name": "Moeza",
-                    "localname": "Moeza",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "a6343ca0",
                     "children": []
                   },
                   {
