@@ -270,17 +270,6 @@
                 "code": "e3613a40",
                 "children": [
                   {
-                    "id": "62ee1c72",
-                    "boundaryNum": 4,
-                    "name": "Nkantha Sede",
-                    "localname": "Nkantha Sede",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "62ee1c72",
-                    "children": []
-                  },
-                  {
                     "id": "72edc304",
                     "boundaryNum": 4,
                     "name": "Mawombe",
@@ -422,6 +411,17 @@
                     "label": "Localidade",
                     "code": "1962dd5a",
                     "children": []
+                  },
+                  {
+                    "id": "62ee1c72",
+                    "boundaryNum": 4,
+                    "name": "Nkantha Sede",
+                    "localname": "Nkantha Sede",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "62ee1c72",
+                    "children": []
                   }
                 ]
               }
@@ -447,6 +447,17 @@
                 "label": "Posto Administrativo",
                 "code": "82f80a4c",
                 "children": [
+                  {
+                    "id": "d79376a2",
+                    "boundaryNum": 4,
+                    "name": "Cassequesse",
+                    "localname": "Cassequesse",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d79376a2",
+                    "children": []
+                  },
                   {
                     "id": "2690eba6",
                     "boundaryNum": 4,
@@ -610,17 +621,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "986485c4",
-                    "children": []
-                  },
-                  {
-                    "id": "d79376a2",
-                    "boundaryNum": 4,
-                    "name": "Cassequesse",
-                    "localname": "Cassequesse",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "d79376a2",
                     "children": []
                   },
                   {
@@ -837,128 +837,6 @@
             "label": "Provincia",
             "code": "b6cb0af8",
             "children": [
-              {
-                "id": "d014f3c4",
-                "boundaryNum": 3,
-                "name": "Camuenje",
-                "localname": "Camuenje",
-                "longitude": null,
-                "latitude": null,
-                "label": "Posto Administrativo",
-                "code": "d014f3c4",
-                "children": [
-                  {
-                    "id": "5ac8e5ec",
-                    "boundaryNum": 4,
-                    "name": "Angkoko",
-                    "localname": "Angkoko",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "5ac8e5ec",
-                    "children": []
-                  },
-                  {
-                    "id": "d8828b5c",
-                    "boundaryNum": 4,
-                    "name": "Chipuri",
-                    "localname": "Chipuri",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "d8828b5c",
-                    "children": []
-                  },
-                  {
-                    "id": "68fd7928",
-                    "boundaryNum": 4,
-                    "name": "Bene 2",
-                    "localname": "Bene 2",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "68fd7928",
-                    "children": []
-                  },
-                  {
-                    "id": "3665a7b4",
-                    "boundaryNum": 4,
-                    "name": "Bene 1",
-                    "localname": "Bene 1",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "3665a7b4",
-                    "children": []
-                  },
-                  {
-                    "id": "a6343ca0",
-                    "boundaryNum": 4,
-                    "name": "Moeza",
-                    "localname": "Moeza",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "a6343ca0",
-                    "children": []
-                  },
-                  {
-                    "id": "b3f995b8",
-                    "boundaryNum": 4,
-                    "name": "Calira",
-                    "localname": "Calira",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "b3f995b8",
-                    "children": []
-                  },
-                  {
-                    "id": "9859ba28",
-                    "boundaryNum": 4,
-                    "name": "Sitriti",
-                    "localname": "Sitriti",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "9859ba28",
-                    "children": []
-                  },
-                  {
-                    "id": "da7a7930",
-                    "boundaryNum": 4,
-                    "name": "Cawambo",
-                    "localname": "Cawambo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "da7a7930",
-                    "children": []
-                  },
-                  {
-                    "id": "25a473ac",
-                    "boundaryNum": 4,
-                    "name": "Bene 3",
-                    "localname": "Bene 3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "25a473ac",
-                    "children": []
-                  },
-                  {
-                    "id": "ac1160e8",
-                    "boundaryNum": 4,
-                    "name": "Nhanguphiri",
-                    "localname": "Nhanguphiri",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "ac1160e8",
-                    "children": []
-                  }
-                ]
-              },
               {
                 "id": "58bd6f44",
                 "boundaryNum": 3,
@@ -1246,6 +1124,17 @@
                     "children": []
                   },
                   {
+                    "id": "7bd117fa",
+                    "boundaryNum": 4,
+                    "name": "Cambununo",
+                    "localname": "Cambununo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7bd117fa",
+                    "children": []
+                  },
+                  {
                     "id": "cf0a009c",
                     "boundaryNum": 4,
                     "name": "Chicupi",
@@ -1310,16 +1199,127 @@
                     "label": "Localidade",
                     "code": "88b65b94",
                     "children": []
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "d014f3c4",
+                "boundaryNum": 3,
+                "name": "Camuenje",
+                "localname": "Camuenje",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "d014f3c4",
+                "children": [
                   {
-                    "id": "7bd117fa",
+                    "id": "3665a7b4",
                     "boundaryNum": 4,
-                    "name": "Cambununo",
-                    "localname": "Cambununo",
+                    "name": "Bene 1",
+                    "localname": "Bene 1",
                     "longitude": null,
                     "latitude": null,
                     "label": "Localidade",
-                    "code": "7bd117fa",
+                    "code": "3665a7b4",
+                    "children": []
+                  },
+                  {
+                    "id": "68fd7928",
+                    "boundaryNum": 4,
+                    "name": "Bene 2",
+                    "localname": "Bene 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "68fd7928",
+                    "children": []
+                  },
+                  {
+                    "id": "5ac8e5ec",
+                    "boundaryNum": 4,
+                    "name": "Angkoko",
+                    "localname": "Angkoko",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "5ac8e5ec",
+                    "children": []
+                  },
+                  {
+                    "id": "a6343ca0",
+                    "boundaryNum": 4,
+                    "name": "Moeza",
+                    "localname": "Moeza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "a6343ca0",
+                    "children": []
+                  },
+                  {
+                    "id": "b3f995b8",
+                    "boundaryNum": 4,
+                    "name": "Calira",
+                    "localname": "Calira",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "b3f995b8",
+                    "children": []
+                  },
+                  {
+                    "id": "9859ba28",
+                    "boundaryNum": 4,
+                    "name": "Sitriti",
+                    "localname": "Sitriti",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "9859ba28",
+                    "children": []
+                  },
+                  {
+                    "id": "da7a7930",
+                    "boundaryNum": 4,
+                    "name": "Cawambo",
+                    "localname": "Cawambo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "da7a7930",
+                    "children": []
+                  },
+                  {
+                    "id": "d8828b5c",
+                    "boundaryNum": 4,
+                    "name": "Chipuri",
+                    "localname": "Chipuri",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d8828b5c",
+                    "children": []
+                  },
+                  {
+                    "id": "25a473ac",
+                    "boundaryNum": 4,
+                    "name": "Bene 3",
+                    "localname": "Bene 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "25a473ac",
+                    "children": []
+                  },
+                  {
+                    "id": "ac1160e8",
+                    "boundaryNum": 4,
+                    "name": "Nhanguphiri",
+                    "localname": "Nhanguphiri",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "ac1160e8",
                     "children": []
                   }
                 ]
