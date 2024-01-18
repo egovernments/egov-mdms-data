@@ -12791,6 +12791,126 @@
       "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 1696,
+      "name": "Create Attendance Register",
+      "url": "/health-attendance/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create attendance register",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1697,
+      "name": "Search Attendance Register",
+      "url": "/health-attendance/v1/_search",
+      "parentModule": "attendance-service",
+      "displayName": "Search attendance register",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1698,
+      "name": "Update Attendance Register",
+      "url": "/health-attendance/v1/_update",
+      "parentModule": "attendance-service",
+      "displayName": "Update attendance register",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1699,
+      "name": "Create Attendance Register Log",
+      "url": "/health-attendance/log/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1700,
+      "name": "Search Attendance Register Log",
+      "url": "/health-attendance/log/v1/_search",
+      "parentModule": "attendance-service",
+      "displayName": "Search attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1701,
+      "name": "Update Attendance Register Log",
+      "url": "/health-attendance/log/v1/_update",
+      "parentModule": "attendance-service",
+      "displayName": "Update attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1702,
+      "name": "Create Attendee",
+      "url": "/health-attendance/attendee/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create Attendee",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1703,
+      "name": "Delete Attendee",
+      "url": "/health-attendance/attendee/v1/_delete",
+      "parentModule": "attendance-service",
+      "displayName": "Delete Attendee",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1704,
+      "name": "Create Staff",
+      "url": "/health-attendance/staff/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create Staff",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1705,
+      "name": "Delete Staff",
+      "url": "/health-attendance/staff/v1/_delete",
+      "parentModule": "attendance-service",
+      "displayName": "Delete Staff",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
