@@ -887,6 +887,17 @@
                     "children": []
                   },
                   {
+                    "id": "2690eba6",
+                    "boundaryNum": 4,
+                    "name": "Chiuyo",
+                    "localname": "Chiuyo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2690eba6",
+                    "children": []
+                  },
+                  {
                     "id": "7b1c662d",
                     "boundaryNum": 4,
                     "name": "Mpundo",
@@ -953,28 +964,6 @@
                     "children": []
                   },
                   {
-                    "id": "3f2af4de",
-                    "boundaryNum": 4,
-                    "name": "Ntchenga",
-                    "localname": "Ntchenga",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "3f2af4de",
-                    "children": []
-                  },
-                  {
-                    "id": "2690eba6",
-                    "boundaryNum": 4,
-                    "name": "Chiuyo",
-                    "localname": "Chiuyo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "2690eba6",
-                    "children": []
-                  },
-                  {
                     "id": "60024200000000",
                     "boundaryNum": 4,
                     "name": "Cassamandola 1",
@@ -983,6 +972,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "60024200000000",
+                    "children": []
+                  },
+                  {
+                    "id": "3f2af4de",
+                    "boundaryNum": 4,
+                    "name": "Ntchenga",
+                    "localname": "Ntchenga",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3f2af4de",
                     "children": []
                   },
                   {
@@ -1099,40 +1099,6 @@
                 "code": "i006",
                 "children": [
                   {
-                    "id": "i008",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM8",
-                    "localname": "Test_HCM8",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "i008",
-                    "children": [
-                      {
-                        "id": "i011",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM11",
-                        "localname": "Test_HCM11",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "i011",
-                        "children": []
-                      },
-                      {
-                        "id": "i012",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM12",
-                        "localname": "Test_HCM12",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "i012",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": "i007",
                     "boundaryNum": 4,
                     "name": "Test_HCM7",
@@ -1162,6 +1128,40 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "i010",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "i008",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM8",
+                    "localname": "Test_HCM8",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "i008",
+                    "children": [
+                      {
+                        "id": "i011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "i011",
+                        "children": []
+                      },
+                      {
+                        "id": "i012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM12",
+                        "localname": "Test_HCM12",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "i012",
                         "children": []
                       }
                     ]
