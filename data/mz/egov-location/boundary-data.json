@@ -1120,17 +1120,6 @@
                     "code": "i007",
                     "children": [
                       {
-                        "id": "i009",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM9",
-                        "localname": "Test_HCM9",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "i009",
-                        "children": []
-                      },
-                      {
                         "id": "i010",
                         "boundaryNum": 5,
                         "name": "Test_HCM10",
@@ -1139,6 +1128,17 @@
                         "latitude": null,
                         "label": "Localidade",
                         "code": "i010",
+                        "children": []
+                      },
+                      {
+                        "id": "i009",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM9",
+                        "localname": "Test_HCM9",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "i009",
                         "children": []
                       }
                     ]
@@ -1190,6 +1190,17 @@
             "latitude": null,
             "label": "Provincia",
             "code": "h3456780k",
+            "children": []
+          },
+          {
+            "id": "e77c18c0",
+            "boundaryNum": 2,
+            "name": "Boundary2",
+            "localname": "Boundary2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "e77c18c0",
             "children": []
           }
         ]
