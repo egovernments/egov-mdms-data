@@ -280,7 +280,7 @@
           "name": "aadhaarNumber",
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
