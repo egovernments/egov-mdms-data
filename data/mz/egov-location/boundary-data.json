@@ -18,6 +18,28 @@
         "code": "mz",
         "children": [
           {
+            "id": "253bd4cc",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE45",
+            "localname": "CHIFUNDE45",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "253bd4cc",
+            "children": []
+          },
+          {
+            "id": "fb726f48",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE46",
+            "localname": "CHIFUNDE46",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "fb726f48",
+            "children": []
+          },
+          {
             "id": "78ce9fd4",
             "boundaryNum": 2,
             "name": "CHIFUNDE43",
@@ -639,28 +661,6 @@
                     "children": []
                   },
                   {
-                    "id": "b3f995b8",
-                    "boundaryNum": 4,
-                    "name": "Calira",
-                    "localname": "Calira",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "b3f995b8",
-                    "children": []
-                  },
-                  {
-                    "id": "9859ba28",
-                    "boundaryNum": 4,
-                    "name": "Sitriti",
-                    "localname": "Sitriti",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "9859ba28",
-                    "children": []
-                  },
-                  {
                     "id": "da7a7930",
                     "boundaryNum": 4,
                     "name": "Cawambo",
@@ -713,6 +713,28 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "ac1160e8",
+                    "children": []
+                  },
+                  {
+                    "id": "b3f995b8",
+                    "boundaryNum": 4,
+                    "name": "Calira",
+                    "localname": "Calira",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "b3f995b8",
+                    "children": []
+                  },
+                  {
+                    "id": "9859ba28",
+                    "boundaryNum": 4,
+                    "name": "Sitriti",
+                    "localname": "Sitriti",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "9859ba28",
                     "children": []
                   }
                 ]
@@ -909,17 +931,6 @@
                     "children": []
                   },
                   {
-                    "id": "2690eba6",
-                    "boundaryNum": 4,
-                    "name": "Chiuyo",
-                    "localname": "Chiuyo",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "2690eba6",
-                    "children": []
-                  },
-                  {
                     "id": "7b1c662d",
                     "boundaryNum": 4,
                     "name": "Mpundo",
@@ -939,6 +950,17 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "55bf564f",
+                    "children": []
+                  },
+                  {
+                    "id": "2690eba6",
+                    "boundaryNum": 4,
+                    "name": "Chiuyo",
+                    "localname": "Chiuyo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2690eba6",
                     "children": []
                   },
                   {
