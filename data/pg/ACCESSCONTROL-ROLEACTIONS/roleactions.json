@@ -5244,6 +5244,24 @@
       "actionid": 314,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_EDITOR_EMP",
+      "actionid": 392,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_COLLECTOR",
+      "actionid": 392,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 392,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
