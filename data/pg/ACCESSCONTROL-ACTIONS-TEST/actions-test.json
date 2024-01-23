@@ -3166,7 +3166,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "EditApplication"
     },
     {
       "id": 256,
@@ -3180,7 +3180,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "CollectPayment"
     },
     {
       "id": 257,
@@ -3194,7 +3194,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSTPInbox"
     },
     {
       "id": 258,
@@ -3218,11 +3218,11 @@
       "url": "url",
       "name": "FSM EMPLOYEE SEARCH APPLICATION",
       "enabled": true,
-      "navigationURL": "/digit-ui/employee/fsm/search",
+      "navigationURL": "/sanitation-ui/employee/fsm/search",
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "SearchFSM"
     },
     {
       "id": 260,
@@ -4024,7 +4024,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "CreateNewApplication"
     },
     {
       "id": 329,
