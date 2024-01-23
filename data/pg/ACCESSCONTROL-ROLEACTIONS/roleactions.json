@@ -17621,7 +17621,7 @@
       "rolecode": "CITIZEN",
       "actionid": 2070,
       "actioncode": "",
-      "tenantId": "pb"
+      "tenantId": "pg"
     },
     {
       "rolecode": "FSM_EMP_FSTPO",
@@ -20174,31 +20174,25 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_COLLECTION_EMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2160,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_COLLECTION_EMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2161,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_COLLECTION_EMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2162,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "HRMS_ADMIN",
-      "actionid": 2163,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "UC_EMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2163,
       "actioncode": "",
       "tenantId": "pg"
@@ -20216,37 +20210,25 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_CEMP",
-      "actionid": 2163,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PT_CEMP",
-      "actionid": 2164,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PT_CEMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2165,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_CEMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2166,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_CEMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2167,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "PT_CEMP",
+      "rolecode": "PT_REPORT_VIEWER",
       "actionid": 2168,
       "actioncode": "",
       "tenantId": "pg"
@@ -25822,6 +25804,60 @@
 	 {
       "rolecode": "FSM_CREATOR_EMP",
       "actionid": 2504,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2505,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PT_CEMP",
+      "actionid": 2505,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WS_CEMP",
+      "actionid": 2505,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2506,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2506,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2507,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2507,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2508,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2508,
       "actioncode": "",
       "tenantId": "pg"
     }
