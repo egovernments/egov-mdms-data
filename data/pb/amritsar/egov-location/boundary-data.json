@@ -604,7 +604,83 @@
                 ]
               }
             ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "GP 1",
+            "localname": "GP1",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "GP1",
+            "children": [{
+                "id": 11,
+                "boundaryNum": 1,
+                "name": "Village 1",
+                "localname": "Village local 1",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Village",
+                "code": "SUN04",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              },
+              {
+                "id": 12,
+                "boundaryNum": 1,
+                "name": "Village 2",
+                "localname": "Village local 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Village",
+                "code": "SUN11",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "boundaryNum": 1,
+            "name": "GP 2",
+            "localname": "GP2",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "GP2",
+            "children": [{
+                "id": 13,
+                "boundaryNum": 1,
+                "name": "Village 3",
+                "localname": "Village local 3",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Village",
+                "code": "SUN04",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              },
+              {
+                "id": 14,
+                "boundaryNum": 1,
+                "name": "Village 4",
+                "localname": "Village local 4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Village",
+                "code": "SUN11",
+                "pincode": [143001],
+                "area": "V-Area1",
+                "children": []
+              }
+              ]
           }
+
+
         ]
       }
     },
