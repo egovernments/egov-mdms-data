@@ -3120,7 +3120,7 @@
       "enabled": true,
       "serviceCode": "",
       "code": "",
-      "path": "",
+      "path": "FSTPInbox",
       "navigationURL": "/digit-ui/employee/fstp-inbox",
       "leftIcon": "custom:localShipping",
       "rightIcon": "",
@@ -3138,7 +3138,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSMCreate"
     },
     {
       "id": 254,
@@ -3152,7 +3152,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSMInbox"
     },
     {
       "id": 255,
@@ -3166,7 +3166,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSMEdit"
     },
     {
       "id": 256,
@@ -3180,7 +3180,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSMCollect"
     },
     {
       "id": 257,
@@ -3194,7 +3194,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSTPInbox"
     },
     {
       "id": 258,
@@ -3208,7 +3208,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSTPDetails"
     },
     {
       "id": 259,
@@ -3222,7 +3222,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "FSMSearch"
     },
     {
       "id": 260,
@@ -3236,7 +3236,7 @@
       "parentModule": "",
       "serviceCode": "",
       "code": "null",
-      "path": ""
+      "path": "DSODashboard"
     },
     {
       "id": 261,
