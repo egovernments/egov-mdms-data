@@ -63,37 +63,37 @@
         {
           "action": "create",
           "entityName": "Individual",
-          "path": "/individual/v1/_create"
+          "path": "/health-individual/v1/_create"
         },
         {
           "action": "update",
           "entityName": "Individual",
-          "path": "/individual/v1/_update"
+          "path": "/health-individual/v1/_update"
         },
         {
           "action": "search",
           "entityName": "Individual",
-          "path": "/individual/v1/_search"
+          "path": "/health-individual/v1/_search"
         },
         {
           "action": "delete",
           "entityName": "Individual",
-          "path": "/individual/v1/_delete"
+          "path": "/health-individual/v1/_delete"
         },
         {
           "action": "bulk_create",
           "entityName": "Individual",
-          "path": "/individual/v1/bulk/_create"
+          "path": "/health-individual/v1/bulk/_create"
         },
         {
           "action": "bulk_update",
           "entityName": "Individual",
-          "path": "/individual/v1/bulk/_update"
+          "path": "/health-individual/v1/bulk/_update"
         },
         {
           "action": "bulk_delete",
           "entityName": "Individual",
-          "path": "/individual/v1/bulk/_delete"
+          "path": "/health-individual/v1/bulk/_delete"
         }
       ]
     },
@@ -183,37 +183,37 @@
         {
           "action": "create",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/_create"
+          "path": "/health-project/beneficiary/v1/_create"
         },
         {
           "action": "update",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/_update"
+          "path": "/health-project/beneficiary/v1/_update"
         },
         {
           "action": "search",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/_search"
+          "path": "/health-project/beneficiary/v1/_search"
         },
         {
           "action": "delete",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/_delete"
+          "path": "/health-project/beneficiary/v1/_delete"
         },
         {
           "action": "bulk_create",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/bulk/_create"
+          "path": "/health-project/beneficiary/v1/bulk/_create"
         },
         {
           "action": "bulk_update",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/bulk/_update"
+          "path": "/health-project/beneficiary/v1/bulk/_update"
         },
         {
           "action": "bulk_delete",
           "entityName": "ProjectBeneficiary",
-          "path": "/project/beneficiary/v1/bulk/_delete"
+          "path": "/health-project/beneficiary/v1/bulk/_delete"
         }
       ]
     },
@@ -223,37 +223,37 @@
         {
           "action": "create",
           "entityName": "Task",
-          "path": "/project/task/v1/_create"
+          "path": "/health-project/task/v1/_create"
         },
         {
           "action": "update",
           "entityName": "Task",
-          "path": "/project/task/v1/_update"
+          "path": "/health-project/task/v1/_update"
         },
         {
           "action": "search",
           "entityName": "Task",
-          "path": "/project/task/v1/_search"
+          "path": "/health-project/task/v1/_search"
         },
         {
           "action": "delete",
           "entityName": "Task",
-          "path": "/project/task/v1/_delete"
+          "path": "/health-project/task/v1/_delete"
         },
         {
           "action": "bulk_create",
           "entityName": "Task",
-          "path": "/project/task/v1/bulk/_create"
+          "path": "/health-project/task/v1/bulk/_create"
         },
         {
           "action": "bulk_update",
           "entityName": "Task",
-          "path": "/project/task/v1/bulk/_update"
+          "path": "/health-project/task/v1/bulk/_update"
         },
         {
           "action": "bulk_delete",
           "entityName": "Task",
-          "path": "/project/task/v1/bulk/_delete"
+          "path": "/health-project/task/v1/bulk/_delete"
         }
       ]
     },
@@ -333,7 +333,7 @@
         {
           "action": "search",
           "entityName": "ProjectStaff",
-          "path": "/project/staff/v1/_search"
+          "path": "/health-project/staff/v1/_search"
         }
       ]
     },
@@ -343,7 +343,7 @@
         {
           "action": "search",
           "entityName": "Project",
-          "path": "/project/v1/_search"
+          "path": "/health-project/v1/_search"
         }
       ]
     },
@@ -353,7 +353,7 @@
         {
           "action": "search",
           "entityName": "ProjectResource",
-          "path": "/project/resource/v1/_search"
+          "path": "/health-project/resource/v1/_search"
         }
       ]
     },
@@ -383,7 +383,7 @@
         {
           "action": "search",
           "entityName": "ProjectFacility",
-          "path": "/project/facility/v1/_search"
+          "path": "/health-project/facility/v1/_search"
         }
       ]
     },
@@ -418,7 +418,7 @@
         {
           "action": "bandwidth",
           "entityName": "InternetSpeed",
-          "path": "/project/check/bandwidth"
+          "path": "/health-project/check/bandwidth"
         }
       ]
     },
