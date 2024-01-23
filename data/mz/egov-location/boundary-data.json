@@ -18,50 +18,6 @@
         "code": "mz",
         "children": [
           {
-            "id": "cd488e54",
-            "boundaryNum": 2,
-            "name": "CHIFUNDE76",
-            "localname": "CHIFUNDE76",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "cd488e54",
-            "children": []
-          },
-          {
-            "id": "4770614",
-            "boundaryNum": 2,
-            "name": "CHIFUNDE75",
-            "localname": "CHIFUNDE75",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "4770614",
-            "children": []
-          },
-          {
-            "id": "2e406b98",
-            "boundaryNum": 2,
-            "name": "CHIFUNDE77",
-            "localname": "CHIFUNDE77",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "2e406b98",
-            "children": []
-          },
-          {
-            "id": "79b5c34c",
-            "boundaryNum": 2,
-            "name": "CHIFUNDE78",
-            "localname": "CHIFUNDE78",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "79b5c34c",
-            "children": []
-          },
-          {
             "id": "fee93680",
             "boundaryNum": 2,
             "name": "Boundary3",
@@ -81,6 +37,50 @@
                 "label": "Posto Administrativo",
                 "code": "292c8762",
                 "children": [
+                  {
+                    "id": "69e4b200",
+                    "boundaryNum": 4,
+                    "name": "Test21",
+                    "localname": "Test21",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "69e4b200",
+                    "children": []
+                  },
+                  {
+                    "id": "78af4af4",
+                    "boundaryNum": 4,
+                    "name": "Test23",
+                    "localname": "Test23",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "78af4af4",
+                    "children": []
+                  },
+                  {
+                    "id": "96447cdc",
+                    "boundaryNum": 4,
+                    "name": "Test27",
+                    "localname": "Test27",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "96447cdc",
+                    "children": []
+                  },
+                  {
+                    "id": "8014976e",
+                    "boundaryNum": 4,
+                    "name": "Test24",
+                    "localname": "Test24",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "8014976e",
+                    "children": []
+                  },
                   {
                     "id": "7149fe7a",
                     "boundaryNum": 4,
@@ -135,54 +135,76 @@
                     "label": "Localidade",
                     "code": "a50f15d0",
                     "children": []
-                  },
-                  {
-                    "id": "69e4b200",
-                    "boundaryNum": 4,
-                    "name": "Test21",
-                    "localname": "Test21",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "69e4b200",
-                    "children": []
-                  },
-                  {
-                    "id": "78af4af4",
-                    "boundaryNum": 4,
-                    "name": "Test23",
-                    "localname": "Test23",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "78af4af4",
-                    "children": []
-                  },
-                  {
-                    "id": "96447cdc",
-                    "boundaryNum": 4,
-                    "name": "Test27",
-                    "localname": "Test27",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "96447cdc",
-                    "children": []
-                  },
-                  {
-                    "id": "8014976e",
-                    "boundaryNum": 4,
-                    "name": "Test24",
-                    "localname": "Test24",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "8014976e",
-                    "children": []
                   }
                 ]
               }
             ]
+          },
+          {
+            "id": "2e406b98",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE77",
+            "localname": "CHIFUNDE77",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "2e406b98",
+            "children": []
+          },
+          {
+            "id": "79b5c34c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE78",
+            "localname": "CHIFUNDE78",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "79b5c34c",
+            "children": []
+          },
+          {
+            "id": "cd488e54",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE76",
+            "localname": "CHIFUNDE76",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "cd488e54",
+            "children": []
+          },
+          {
+            "id": "5809d11c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE79",
+            "localname": "CHIFUNDE79",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "5809d11c",
+            "children": []
+          },
+          {
+            "id": "23b12dc8",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE80",
+            "localname": "CHIFUNDE80",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "23b12dc8",
+            "children": []
+          },
+          {
+            "id": "4770614",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE75",
+            "localname": "CHIFUNDE75",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "4770614",
+            "children": []
           }
         ]
       }
