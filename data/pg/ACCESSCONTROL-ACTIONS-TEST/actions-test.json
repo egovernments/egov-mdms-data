@@ -4646,7 +4646,17 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 392,
+      "name": "FetchBillV2",
+      "url": "/billing-service/bill/v2/_fetchbill",
+      "displayName": "fetch Bill v2",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "BILLING_SERVICE",
+      "code": "null",
+      "path": "Billing Service.GenerateBill"
     }
-    
   ]
 }
