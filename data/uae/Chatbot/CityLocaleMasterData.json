@@ -1,0 +1,56 @@
+{
+    "tenantId": "uae",
+    "moduleName": "Chatbot",
+    "CityLocaleMasterData": [
+        {
+            "cityName": "Abu-Dhabi",
+            "locale": "in_en",
+            "tenantId": "uae.Abu_dhabi"
+        },
+        {
+            "cityName": "अबू धाबी",
+            "locale": "in_hi",
+            "tenantId": "uae.Abu_dhabi"
+        },
+        {
+            "cityName": "Dubai",
+            "locale": "in_en",
+            "tenantId": "uae.Dubai"
+        },
+        {
+            "cityName": "दुबई",
+            "locale": "in_hi",
+            "tenantId": "uae.Dubai"
+        },
+        {
+            "cityName": "Sharjah",
+            "locale": "in_en",
+            "tenantId": "uae.Sharjah"
+        },
+        {
+            "cityName": "शारजाह",
+            "locale": "in_hi",
+            "tenantId": "uae.Sharjah"
+        },
+        {
+            "cityName": "Ajman",
+            "locale": "in_en",
+            "tenantId": "uae.Ajman"
+        },
+        {
+            "cityName": "अजमान",
+            "locale": "in_hi",
+            "tenantId": "uae.Ajman"
+        },
+        {
+            "cityName": "Fujairah",
+            "locale": "in_en",
+            "tenantId": "uae.Fujairah"
+        },
+        {
+            "cityName": "फुजैराह",
+            "locale": "in_hi",
+            "tenantId": "uae.Fujairah"
+        }
+    ]
+}

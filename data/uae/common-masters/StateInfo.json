@@ -1,10 +1,10 @@
 {
-  "tenantId": "pg",
+  "tenantId": "uae",
   "moduleName": "common-masters",
   "StateInfo": [
     {
       "name": "Demo",
-      "code": "pg",
+      "code": "uae",
       "qrCodeURL":"https://lh3.googleusercontent.com/-311gz2-xcHw/X6KRNSQTkWI/AAAAAAAAAKU/JmHSj-6rKPMVFbo6oL5x4JhYTTg8-UHmwCK8BGAsYHg/s0/2020-11-04.png",
       "bannerUrl": "https://westminister-egov-asset.s3.me-central-1.amazonaws.com/oie_2475445J3ApfvfM.jpg",
       "logoUrl": "https://westminister-egov-asset.s3.me-central-1.amazonaws.com/WM+(1).jpeg",
@@ -21,8 +21,12 @@
           "value": "en_IN"
         },
         {
-          "label": "हिंदी",
-          "value": "hi_IN"
+          "label": "አማርኛ",
+          "value": "am_AE"
+        },
+        {
+          "label": "Français",
+          "value": "fr_SN"
         }
       ],
       "localizationModules": [

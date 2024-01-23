@@ -1,0 +1,26 @@
+{
+    "tenantId": "uae",
+    "moduleName": "Chatbot",
+    "CityNames": [
+        {
+            "locale": "en",
+            "cities": [
+                "Abu-Dhabi",
+                "Dubai",
+                "Sharjah",
+                "Ajman",
+                "Fujairah"
+            ]
+        },
+        {
+            "locale": "hi",
+            "cities": [
+                "अबू धाबी",
+                "दुबई",
+                "शारजाह",
+                "अजमान",
+                "फुजैराह"
+            ]
+        }
+    ]
+}
