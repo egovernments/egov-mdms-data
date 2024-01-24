@@ -2,7 +2,578 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
-   {
-    }
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "0846904c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE ",
+            "localname": "CHIFUNDE ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "0846904c",
+            "children": [
+              {
+                "id": "82f80a4c",
+                "boundaryNum": 3,
+                "name": "CAMUENJE",
+                "localname": "CAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "82f80a4c",
+                "children": [
+                  {
+                    "id": "7854e7af",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7854e7af",
+                    "children": []
+                  },
+                  {
+                    "id": "f7e40426",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "f7e40426",
+                    "children": []
+                  },
+                  {
+                    "id": "74df054d",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "74df054d",
+                    "children": []
+                  },
+                  {
+                    "id": "8640cbba",
+                    "boundaryNum": 4,
+                    "name": "Canverere",
+                    "localname": "Canverere",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "8640cbba",
+                    "children": []
+                  },
+                  {
+                    "id": "6b005f92",
+                    "boundaryNum": 4,
+                    "name": "Chipapi",
+                    "localname": "Chipapi",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "6b005f92",
+                    "children": []
+                  },
+                  {
+                    "id": "4061af76",
+                    "boundaryNum": 4,
+                    "name": "Chirambwe",
+                    "localname": "Chirambwe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4061af76",
+                    "children": []
+                  },
+                  {
+                    "id": "3f2af4de",
+                    "boundaryNum": 4,
+                    "name": "Ntchenga",
+                    "localname": "Ntchenga",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3f2af4de",
+                    "children": []
+                  },
+                  {
+                    "id": "2690eba6",
+                    "boundaryNum": 4,
+                    "name": "Chiuyo",
+                    "localname": "Chiuyo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2690eba6",
+                    "children": []
+                  },
+                  {
+                    "id": "60024200000000",
+                    "boundaryNum": 4,
+                    "name": "Cassamandola 1",
+                    "localname": "Cassamandola 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "60024200000000",
+                    "children": []
+                  },
+                  {
+                    "id": "55bf564f",
+                    "boundaryNum": 4,
+                    "name": "Cassamandola 2",
+                    "localname": "Cassamandola 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "55bf564f",
+                    "children": []
+                  },
+                  {
+                    "id": "26f51a4e",
+                    "boundaryNum": 4,
+                    "name": "Madziangona",
+                    "localname": "Madziangona",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "26f51a4e",
+                    "children": []
+                  },
+                  {
+                    "id": "7b1c662d",
+                    "boundaryNum": 4,
+                    "name": "Mpundo",
+                    "localname": "Mpundo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7b1c662d",
+                    "children": []
+                  },
+                  {
+                    "id": "5b81d066",
+                    "boundaryNum": 4,
+                    "name": "Malizansenge",
+                    "localname": "Malizansenge",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "5b81d066",
+                    "children": []
+                  },
+                  {
+                    "id": "03a7b061",
+                    "boundaryNum": 4,
+                    "name": "Chitukula",
+                    "localname": "Chitukula",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "03a7b061",
+                    "children": []
+                  },
+                  {
+                    "id": "16a9c96d",
+                    "boundaryNum": 4,
+                    "name": "Chiritse",
+                    "localname": "Chiritse",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "16a9c96d",
+                    "children": []
+                  },
+                  {
+                    "id": "2199267",
+                    "boundaryNum": 4,
+                    "name": "Chidjeule",
+                    "localname": "Chidjeule",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2199267",
+                    "children": []
+                  },
+                  {
+                    "id": "4d62b494",
+                    "boundaryNum": 4,
+                    "name": "Banda",
+                    "localname": "Banda",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d62b494",
+                    "children": []
+                  },
+                  {
+                    "id": "4d3a0968",
+                    "boundaryNum": 4,
+                    "name": "Ntchenga wa guwa",
+                    "localname": "Ntchenga wa guwa",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "4d3a0968",
+                    "children": []
+                  },
+                  {
+                    "id": "986485c4",
+                    "boundaryNum": 4,
+                    "name": "Cesar",
+                    "localname": "Cesar",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "986485c4",
+                    "children": []
+                  },
+                  {
+                    "id": "d79376a2",
+                    "boundaryNum": 4,
+                    "name": "Cassequesse",
+                    "localname": "Cassequesse",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "d79376a2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "5003f843",
+            "boundaryNum": 2,
+            "name": "Nsadzo",
+            "localname": "Nsadzo",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "5003f843",
+            "children": [
+              {
+                "id": "0665db1e",
+                "boundaryNum": 3,
+                "name": "Mussalala",
+                "localname": "Mussalala",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "0665db1e",
+                "children": [
+                  {
+                    "id": "a84c1568",
+                    "boundaryNum": 4,
+                    "name": "Mussalala sede",
+                    "localname": "Mussalala sede",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "a84c1568",
+                    "children": []
+                  },
+                  {
+                    "id": "7e4362a7",
+                    "boundaryNum": 4,
+                    "name": "Biwi",
+                    "localname": "Biwi",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7e4362a7",
+                    "children": []
+                  },
+                  {
+                    "id": "9223372036854775807",
+                    "boundaryNum": 4,
+                    "name": "Ambalame",
+                    "localname": "Ambalame",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "9223372036854775807",
+                    "children": []
+                  },
+                  {
+                    "id": "bf939014",
+                    "boundaryNum": 4,
+                    "name": "Chimbuto",
+                    "localname": "Chimbuto",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "bf939014",
+                    "children": []
+                  },
+                  {
+                    "id": "2c4d879c",
+                    "boundaryNum": 4,
+                    "name": "Achimpswe",
+                    "localname": "Achimpswe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2c4d879c",
+                    "children": []
+                  },
+                  {
+                    "id": "0b9aeb5c",
+                    "boundaryNum": 4,
+                    "name": "Chitupe",
+                    "localname": "Chitupe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0b9aeb5c",
+                    "children": []
+                  },
+                  {
+                    "id": "009ced01",
+                    "boundaryNum": 4,
+                    "name": "Zossalawa",
+                    "localname": "Zossalawa",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "009ced01",
+                    "children": []
+                  },
+                  {
+                    "id": "10e067ca",
+                    "boundaryNum": 4,
+                    "name": "Thamson",
+                    "localname": "Thamson",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "10e067ca",
+                    "children": []
+                  },
+                  {
+                    "id": "0bc30b30",
+                    "boundaryNum": 4,
+                    "name": "Kanhama",
+                    "localname": "Kanhama",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "0bc30b30",
+                    "children": []
+                  },
+                  {
+                    "id": "540962c8",
+                    "boundaryNum": 4,
+                    "name": "Thewa",
+                    "localname": "Thewa",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "540962c8",
+                    "children": []
+                  },
+                  {
+                    "id": "697d3e60",
+                    "boundaryNum": 4,
+                    "name": "Saiessone",
+                    "localname": "Saiessone",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "697d3e60",
+                    "children": []
+                  },
+                  {
+                    "id": "6e927e4f",
+                    "boundaryNum": 4,
+                    "name": "Andaza",
+                    "localname": "Andaza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "6e927e4f",
+                    "children": []
+                  },
+                  {
+                    "id": "6e40c436",
+                    "boundaryNum": 4,
+                    "name": "Calichelo",
+                    "localname": "Calichelo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "6e40c436",
+                    "children": []
+                  },
+                  {
+                    "id": "e647ed94",
+                    "boundaryNum": 4,
+                    "name": "Manguiro",
+                    "localname": "Manguiro",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "e647ed94",
+                    "children": []
+                  },
+                  {
+                    "id": "217b2cf4",
+                    "boundaryNum": 4,
+                    "name": "Calala",
+                    "localname": "Calala",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "217b2cf4",
+                    "children": []
+                  },
+                  {
+                    "id": "404ab02a",
+                    "boundaryNum": 4,
+                    "name": "Mitondo",
+                    "localname": "Mitondo",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "404ab02a",
+                    "children": []
+                  },
+                  {
+                    "id": "05547b14",
+                    "boundaryNum": 4,
+                    "name": "Mussenga",
+                    "localname": "Mussenga",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "05547b14",
+                    "children": []
+                  },
+                  {
+                    "id": "2a238f33",
+                    "boundaryNum": 4,
+                    "name": "Chirudzi 1",
+                    "localname": "Chirudzi 1",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2a238f33",
+                    "children": []
+                  },
+                  {
+                    "id": "68e0866e",
+                    "boundaryNum": 4,
+                    "name": "Chirudi 2",
+                    "localname": "Chirudi 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "68e0866e",
+                    "children": []
+                  },
+                  {
+                    "id": "21a092ea",
+                    "boundaryNum": 4,
+                    "name": "Thinde",
+                    "localname": "Thinde",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "21a092ea",
+                    "children": []
+                  },
+                  {
+                    "id": "ca365e94",
+                    "boundaryNum": 4,
+                    "name": "Chitekwere",
+                    "localname": "Chitekwere",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "ca365e94",
+                    "children": []
+                  },
+                  {
+                    "id": "3b272f02",
+                    "boundaryNum": 4,
+                    "name": "Boma",
+                    "localname": "Boma",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "3b272f02",
+                    "children": []
+                  },
+                  {
+                    "id": "23da7716",
+                    "boundaryNum": 4,
+                    "name": "Solomone",
+                    "localname": "Solomone",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "23da7716",
+                    "children": []
+                  },
+                  {
+                    "id": "baca59f6",
+                    "boundaryNum": 4,
+                    "name": "Cheteka",
+                    "localname": "Cheteka",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "baca59f6",
+                    "children": []
+                  },
+                  {
+                    "id": "91acc414",
+                    "boundaryNum": 4,
+                    "name": "Cachipamba",
+                    "localname": "Cachipamba",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "91acc414",
+                    "children": []
+                  },
+                  {
+                    "id": "7ecdd622",
+                    "boundaryNum": 4,
+                    "name": "Ntentha",
+                    "localname": "Ntentha",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "7ecdd622",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {}
   ]
 }
