@@ -18,6 +18,68 @@
         "code": "mz",
         "children": [
           {
+            "id": "35f21116",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE87",
+            "localname": "CHIFUNDE87",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "35f21116",
+            "children": []
+          },
+          {
+            "id": "6a527850",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE88",
+            "localname": "CHIFUNDE88",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "6a527850",
+            "children": []
+          },
+          {
+            "id": "0c28ab92",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE85",
+            "localname": "CHIFUNDE85",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "0c28ab92",
+            "children": []
+          },
+          {
+            "id": "bde54358",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE86",
+            "localname": "CHIFUNDE86",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "bde54358",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "0c28ab92",
             "boundaryNum": 2,
             "name": "CHIFUNDE85",
