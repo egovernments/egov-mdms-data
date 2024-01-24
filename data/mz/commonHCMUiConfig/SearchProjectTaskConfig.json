@@ -1,264 +1,263 @@
 {
-    "tenantId": "mz",
-    "moduleName": "commonHCMUiConfig",
-    "SearchProjectTaskConfig": [
-      {
-        "label": "SEARCH_TASK",
-        "type": "search",
-        "actionLabel": "HCM_ADD_TASK",
-        "actionRole": "SYSTEM_ADMINISTRATOR",
-        "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProjectTask",
-        "apiDetails": {
-          "serviceName": "/project/task/v1/_search",
-          "requestParam": {
-            "limit": 100,
-            "offset": 0,
-            "tenantId": "mz",
-            "includeDeleted": true
-          },
-          "requestBody": {
-            "tenantId": "mz",
-            "Task": {
-            }
-          },
-          "minParametersForSearchForm": 0,
-          "masterName": "commonUiConfig",
-          "moduleName": "SearchDefaultConfig",
-          "tableFormJsonPath": "requestParam",
-          "filterFormJsonPath": "requestBody.Task",
-          "searchFormJsonPath": "requestBody.Task"
-        },
-        "sections": {
-          "search": {
-            "uiConfig": {
-              "headerStyle": null,
-              "primaryLabel": "ES_COMMON_SEARCH",
-              "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-              "minReqFields": 0,
-              "formClassName": "custom-both-clear-search",
-              "defaultValues": {
-                "id": [""],
-                "clientReferenceId": [""],
-                "projectId": "",
-                "projectBeneficiaryId": "",
-                "plannedStartDate": "",
-                "plannedEndDate": "",
-                "actualStartDate": "",
-                "actualEndDate": "",
-                "localityCode": "",
-                "status": ""
+  "tenantId": "mz",
+  "moduleName": "commonHCMUiConfig",
+  "SearchProjectTaskConfig": [
+    {
+      "type": "search",
+      "label": "SEARCH_TASK",
+      "sections": {
+        "search": {
+          "show": true,
+          "label": "",
+          "children": {},
+          "uiConfig": {
+            "fields": [
+              {
+                "key": "TASK_ID",
+                "type": "text",
+                "label": "TASK_ID",
+                "disable": false,
+                "populators": {
+                  "name": "id",
+                  "error": "PROJECT_TASK_ID_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
               },
-              "fields": [
-                {
-                  "key": "TASK_ID",
-                  "label": "TASK_ID",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "id",
-                    "error": "PROJECT_TASK_ID_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                    }
+              {
+                "key": "CLIENT_REFERENCE_ID",
+                "type": "text",
+                "label": "CLIENT_REFERENCE_ID",
+                "disable": false,
+                "populators": {
+                  "name": "clientReferenceId",
+                  "error": "PROJECT_CLIENT_REFERENCE_ID_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                   }
                 },
-                {
-                  "key": "CLIENT_REFERENCE_ID",
-                  "label": "CLIENT_REFERENCE_ID",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "clientReferenceId",
-                    "error": "PROJECT_CLIENT_REFERENCE_ID_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                    }
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PROJECT_ID",
+                "type": "text",
+                "label": "PROJECT_ID",
+                "disable": false,
+                "populators": {
+                  "name": "projectId",
+                  "error": "PROJECT_ID_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                   }
                 },
-                {
-                  "key": "PROJECT_ID",
-                  "label": "PROJECT_ID",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "projectId",
-                    "error":  "PROJECT_ID_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                    }
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PROJECT_BENEFICIARY_ID",
+                "type": "text",
+                "label": "PROJECT_BENEFICIARY_ID",
+                "disable": false,
+                "populators": {
+                  "name": "projectBeneficiaryId",
+                  "error": "PROJECT_BENEFICIARY_ID_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                   }
                 },
-                {
-                  "key": "PROJECT_BENEFICIARY_ID",
-                  "label": "PROJECT_BENEFICIARY_ID",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "projectBeneficiaryId",
-                    "error": "PROJECT_BENEFICIARY_ID_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                    }
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "START_DATE",
+                "type": "date",
+                "label": "START_DATE",
+                "disable": false,
+                "populators": {
+                  "name": "plannedStartDate",
+                  "error": "PROJECT_START_DATE_ERR_MSG",
+                  "validation": {}
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "END_DATE",
+                "type": "date",
+                "label": "END_DATE",
+                "disable": false,
+                "populators": {
+                  "name": "plannedEndDate",
+                  "error": "PROJECT_END_DATE_ERR_MSG",
+                  "validation": {}
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "ACTUAL_START_DATE",
+                "type": "date",
+                "label": "ACTUAL_START_DATE",
+                "disable": false,
+                "populators": {
+                  "name": "actualStartDate",
+                  "error": "PROJECT_START_DATE_ERR_MSG",
+                  "validation": {}
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "ACTUAL_END_DATE",
+                "type": "date",
+                "label": "ACTUAL_END_DATE",
+                "disable": false,
+                "populators": {
+                  "name": "actualEndDate",
+                  "error": "PROJECT_END_DATE_ERR_MSG",
+                  "validation": {}
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "LOCALITY_CODE",
+                "type": "text",
+                "label": "LOCALITY_CODE",
+                "disable": false,
+                "populators": {
+                  "name": "localityCode",
+                  "error": "PROJECT_LOCALITY_CODE_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                   }
                 },
-                {
-                  "key": "START_DATE",
-                  "label": "START_DATE",
-                  "type": "date",
-                  "isMandatory": false,
-                  "disable": false,
-                  "populators": {
-                    "name": "plannedStartDate",
-                    "error": "PROJECT_START_DATE_ERR_MSG",
-                    "validation": {}
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "STATUS",
+                "type": "text",
+                "label": "STATUS",
+                "disable": false,
+                "populators": {
+                  "name": "status",
+                  "error": "PROJECT_STATUS_CODE_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                   }
                 },
-                {
-                  "key": "END_DATE",
-                  "label": "END_DATE",
-                  "type": "date",
-                  "isMandatory": false,
-                  "disable": false,
-                  "populators": {
-                    "name": "plannedEndDate",
-                    "error": "PROJECT_END_DATE_ERR_MSG",
-                    "validation": {}
-                  }
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
                 },
-                {
-                  "key": "ACTUAL_START_DATE",
-                  "label": "ACTUAL_START_DATE",
-                  "type": "date",
-                  "isMandatory": false,
-                  "disable": false,
-                  "populators": {
-                    "name": "actualStartDate",
-                    "error": "PROJECT_START_DATE_ERR_MSG",
-                    "validation": {}
-                  }
-                },
-                {
-                  "key": "ACTUAL_END_DATE",
-                  "label": "ACTUAL_END_DATE",
-                  "type": "date",
-                  "isMandatory": false,
-                  "disable": false,
-                  "populators": {
-                    "name": "actualEndDate",
-                    "error": "PROJECT_END_DATE_ERR_MSG",
-                    "validation": {}
-                  }
-                },
-                {
-                  "key": "LOCALITY_CODE",
-                  "label": "LOCALITY_CODE",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "localityCode",
-                    "error": "PROJECT_LOCALITY_CODE_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                    }
-                  }
-                },
-                {
-                  "key": "STATUS",
-                  "label": "STATUS",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "status",
-                    "error": "PROJECT_STATUS_CODE_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                    }
-                  }
-                }
-              ]
+                "isMandatory": false
+              }
+            ],
+            "headerStyle": null,
+            "minReqFields": 0,
+            "primaryLabel": "ES_COMMON_SEARCH",
+            "defaultValues": {
+              "id": [""],
+              "status": "",
+              "projectId": "",
+              "localityCode": "",
+              "actualEndDate": "",
+              "plannedEndDate": "",
+              "actualStartDate": "",
+              "plannedStartDate": "",
+              "clientReferenceId": [""],
+              "projectBeneficiaryId": ""
             },
-            "label": "",
-            "children": {},
-            "show": true
-          },
-          "searchResult": {
-            "label": "",
-            "uiConfig": {
-              "columns": [
-                {
-                  "label": "TASK_ID",
-                  "jsonPath": "id"
-                },
-                {
-                  "label": "CLIENT_REFERENCE_ID",
-                  "jsonPath": "clientReferenceId"
-                },
-                {
-                  "label": "PROJECT_ID",
-                  "jsonPath": "projectId"
-                },
-                {
-                  "label": "PROJECT_BENEFICIARY_ID",
-                  "jsonPath": "projectBeneficiaryId"
-                },
-                {
-                  "label": "START_DATE",
-                  "jsonPath": "plannedStartDate"
-                },
-                {
-                  "label": "END_DATE",
-                  "jsonPath": "plannedEndDate"
-                },
-                {
-                  "label": "ACTUAL_START_DATE",
-                  "jsonPath": "actualStartDate"
-                },
-                {
-                  "label": "ACTUAL_END_DATE",
-                  "jsonPath": "actualEndDate"
-                },
-                {
-                  "label": "LOCALITY_CODE",
-                  "jsonPath": "localityCode"
-                },
-                {
-                  "label": "STATUS",
-                  "jsonPath": "status"
-                }
-              ],
-              "enableGlobalSearch": false,
-              "enableColumnSort": true,
-              "resultsJsonPath": "Tasks"
-            },
-            "children": {},
-            "show": true
+            "formClassName": "custom-both-clear-search",
+            "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
           }
         },
-        "additionalSections": {}
-      }
-    ]
-  }
+        "searchResult": {
+          "show": true,
+          "label": "",
+          "children": {},
+          "uiConfig": {
+            "columns": [
+              {
+                "label": "TASK_ID",
+                "jsonPath": "id"
+              },
+              {
+                "label": "CLIENT_REFERENCE_ID",
+                "jsonPath": "clientReferenceId"
+              },
+              {
+                "label": "PROJECT_ID",
+                "jsonPath": "projectId"
+              },
+              {
+                "label": "PROJECT_BENEFICIARY_ID",
+                "jsonPath": "projectBeneficiaryId"
+              },
+              {
+                "label": "START_DATE",
+                "jsonPath": "plannedStartDate"
+              },
+              {
+                "label": "END_DATE",
+                "jsonPath": "plannedEndDate"
+              },
+              {
+                "label": "ACTUAL_START_DATE",
+                "jsonPath": "actualStartDate"
+              },
+              {
+                "label": "ACTUAL_END_DATE",
+                "jsonPath": "actualEndDate"
+              },
+              {
+                "label": "LOCALITY_CODE",
+                "jsonPath": "localityCode"
+              },
+              {
+                "label": "STATUS",
+                "jsonPath": "status"
+              }
+            ],
+            "resultsJsonPath": "Tasks",
+            "enableColumnSort": true,
+            "enableGlobalSearch": false
+          }
+        }
+      },
+      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=ProjectTask",
+      "actionRole": "SYSTEM_ADMINISTRATOR",
+      "apiDetails": {
+        "masterName": "commonUiConfig",
+        "moduleName": "SearchDefaultConfig",
+        "requestBody": {
+          "Task": {},
+          "tenantId": "mz"
+        },
+        "serviceName": "/project/task/v1/_search",
+        "requestParam": {
+          "limit": 100,
+          "offset": 0,
+          "tenantId": "mz",
+          "includeDeleted": true
+        },
+        "tableFormJsonPath": "requestParam",
+        "filterFormJsonPath": "requestBody.Task",
+        "searchFormJsonPath": "requestBody.Task",
+        "minParametersForSearchForm": 0
+      },
+      "actionLabel": "HCM_ADD_TASK",
+      "additionalSections": {}
+    }
+  ]
+}
