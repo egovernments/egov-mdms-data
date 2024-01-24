@@ -18,138 +18,90 @@
         "code": "mz",
         "children": [
           {
-            "id": "h001",
+            "id": "5003f843",
             "boundaryNum": 2,
-            "name": "Test_HCM1",
-            "localname": "Test_HCM1",
+            "name": "Nsadzo",
+            "localname": "Nsadzo",
             "longitude": null,
             "latitude": null,
             "label": "Provincia",
-            "code": "h001",
+            "code": "5003f843",
             "children": [
               {
-                "id": "h002",
+                "id": "adb930a6",
                 "boundaryNum": 3,
-                "name": "Test_HCM2",
-                "localname": "Test_HCM2",
+                "name": "Nsadzo sede",
+                "localname": "Nsadzo sede",
                 "longitude": null,
                 "latitude": null,
-                "label": "Distrito",
-                "code": "h002",
+                "label": "Posto Administrativo",
+                "code": "adb930a6",
                 "children": [
                   {
-                    "id": "h003",
+                    "id": "1258c4e6",
                     "boundaryNum": 4,
-                    "name": "Test_HCM3",
-                    "localname": "Test_HCM3",
+                    "name": "Vinhanga ",
+                    "localname": "Vinhanga ",
                     "longitude": null,
                     "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "h003",
-                    "children": [
-                      {
-                        "id": "h004",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM4",
-                        "localname": "Test_HCM4",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h004",
-                        "children": []
-                      },
-                      {
-                        "id": "h005",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM5",
-                        "localname": "Test_HCM5",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h005",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "h006",
-                "boundaryNum": 3,
-                "name": "Test_HCM6",
-                "localname": "Test_HCM6",
-                "longitude": null,
-                "latitude": null,
-                "label": "Distrito",
-                "code": "h006",
-                "children": [
-                  {
-                    "id": "h007",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM7",
-                    "localname": "Test_HCM7",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "h007",
-                    "children": [
-                      {
-                        "id": "h009",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM9",
-                        "localname": "Test_HCM9",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h009",
-                        "children": []
-                      },
-                      {
-                        "id": "h010",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM10",
-                        "localname": "Test_HCM10",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h010",
-                        "children": []
-                      }
-                    ]
+                    "label": "Localidade",
+                    "code": "1258c4e6",
+                    "children": []
                   },
                   {
-                    "id": "h008",
+                    "id": "1961f45a",
                     "boundaryNum": 4,
-                    "name": "Test_HCM8",
-                    "localname": "Test_HCM8",
+                    "name": "Madaquisse ",
+                    "localname": "Madaquisse ",
                     "longitude": null,
                     "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "h008",
-                    "children": [
-                      {
-                        "id": "h011",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM11",
-                        "localname": "Test_HCM11",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h011",
-                        "children": []
-                      },
-                      {
-                        "id": "h012",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM12",
-                        "localname": "Test_HCM12",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h012",
-                        "children": []
-                      }
-                    ]
+                    "label": "Localidade",
+                    "code": "1961f45a",
+                    "children": []
+                  },
+                  {
+                    "id": "fd66750a",
+                    "boundaryNum": 4,
+                    "name": "Amoss",
+                    "localname": "Amoss",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "fd66750a",
+                    "children": []
+                  },
+                  {
+                    "id": "02425ce2",
+                    "boundaryNum": 4,
+                    "name": "Nsadzo sede ",
+                    "localname": "Nsadzo sede ",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "02425ce2",
+                    "children": []
+                  },
+                  {
+                    "id": "2c88cb02",
+                    "boundaryNum": 4,
+                    "name": "Sere",
+                    "localname": "Sere",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "2c88cb02",
+                    "children": []
+                  },
+                  {
+                    "id": "326091b5",
+                    "boundaryNum": 4,
+                    "name": "Amado",
+                    "localname": "Amado",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "326091b5",
+                    "children": []
                   }
                 ]
               }
