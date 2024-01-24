@@ -2,5 +2,46 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "5003f843",
+            "boundaryNum": 2,
+            "name": "Nsadzo",
+            "localname": "Nsadzo",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "5003f843",
+            "children": [
+              {
+                "id": "2724f4aa",
+                "boundaryNum": 3,
+                "name": "Ang\u0027ombe",
+                "localname": "Ang\u0027ombe",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "2724f4aa",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   ]
 }
