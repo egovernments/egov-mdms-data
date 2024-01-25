@@ -36,7 +36,41 @@
                 "latitude": null,
                 "label": "Posto Administrativo",
                 "code": "h3db5fbbe",
-                "children": []
+                "children": [
+                  {
+                    "id": "h53dc0092",
+                    "boundaryNum": 4,
+                    "name": "Chimangueni",
+                    "localname": "Chimangueni",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h53dc0092",
+                    "children": []
+                  },
+                  {
+                    "id": "h3bb31dae",
+                    "boundaryNum": 4,
+                    "name": "Atuero ",
+                    "localname": "Atuero ",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h3bb31dae",
+                    "children": []
+                  },
+                  {
+                    "id": "h8138aa0e",
+                    "boundaryNum": 4,
+                    "name": "Gande",
+                    "localname": "Gande",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h8138aa0e",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
