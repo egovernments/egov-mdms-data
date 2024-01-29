@@ -18,6 +18,103 @@
         "code": "mz",
         "children": [
           {
+            "id": "h7f70f3f0",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE91",
+            "localname": "CHIFUNDE91",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h7f70f3f0",
+            "children": []
+          },
+          {
+            "id": "h552c38ca",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE92",
+            "localname": "CHIFUNDE92",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h552c38ca",
+            "children": []
+          },
+          {
+            "id": "h041ed474",
+            "boundaryNum": 2,
+            "name": "Chifundeaaa1",
+            "localname": "Chifundeaaa1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h041ed474",
+            "children": [
+              {
+                "id": "hbfd8ac9e",
+                "boundaryNum": 3,
+                "name": "Mualadzi",
+                "localname": "Mualadzi",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "hbfd8ac9e",
+                "children": [
+                  {
+                    "id": "h2edc4f87",
+                    "boundaryNum": 4,
+                    "name": "Mualadzi sede",
+                    "localname": "Mualadzi sede",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h2edc4f87",
+                    "children": []
+                  },
+                  {
+                    "id": "hdd00fcd6",
+                    "boundaryNum": 4,
+                    "name": "Chitumbula",
+                    "localname": "Chitumbula",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "hdd00fcd6",
+                    "children": []
+                  },
+                  {
+                    "id": "h56691054",
+                    "boundaryNum": 4,
+                    "name": "Chimbalame",
+                    "localname": "Chimbalame",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h56691054",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "h041ed474",
             "boundaryNum": 2,
             "name": "Chifundeaaa1",
