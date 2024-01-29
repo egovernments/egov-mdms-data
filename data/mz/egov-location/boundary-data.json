@@ -18,6 +18,47 @@
         "code": "mz",
         "children": [
           {
+            "id": "he9cacd0a",
+            "boundaryNum": 2,
+            "name": "Maladzi32",
+            "localname": "Maladzi32",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "he9cacd0a",
+            "children": [
+              {
+                "id": "h47190c4c",
+                "boundaryNum": 3,
+                "name": "Nkantha",
+                "localname": "Nkantha",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h47190c4c",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "h0c694c4c",
             "boundaryNum": 2,
             "name": "Chifundeaaa21",
