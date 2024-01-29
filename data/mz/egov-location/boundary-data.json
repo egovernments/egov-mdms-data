@@ -2,5 +2,46 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "h5d3c1a78",
+            "boundaryNum": 2,
+            "name": "Maladzi35",
+            "localname": "Maladzi35",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h5d3c1a78",
+            "children": [
+              {
+                "id": "hba1e10c4",
+                "boundaryNum": 3,
+                "name": "Nkantha",
+                "localname": "Nkantha",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "hba1e10c4",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   ]
 }
