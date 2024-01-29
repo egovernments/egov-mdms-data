@@ -6,6 +6,23 @@
       "key": "ALL_ACCESS",
       "roleAttributeAccessList": [
         {
+          "roleCode": "SYSTEM",
+          "attributeAccessList": [
+            {
+              "attribute": {
+                "jsonPath": "*/name"
+              },
+              "accessType": "PLAIN"
+            },
+            {
+              "attribute": {
+                "jsonPath": "*/mobileNumber"
+              },
+              "accessType": "PLAIN"
+            }
+          ]
+        },
+        {
           "roleCode": "CITIZEN",
           "attributeAccessList": [
             {
