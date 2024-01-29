@@ -18,140 +18,48 @@
         "code": "mz",
         "children": [
           {
-            "id": "h001",
+            "id": "h2718c773",
             "boundaryNum": 2,
-            "name": "Test_HCM1",
-            "localname": "Test_HCM1",
+            "name": "Chifundeaaa2",
+            "localname": "Chifundeaaa2",
             "longitude": null,
             "latitude": null,
             "label": "Provincia",
-            "code": "h001",
+            "code": "h2718c773",
             "children": [
               {
-                "id": "h002",
+                "id": "h632d6c5c",
                 "boundaryNum": 3,
-                "name": "Test_HCM2",
-                "localname": "Test_HCM2",
+                "name": "Mualadzi",
+                "localname": "Mualadzi",
                 "longitude": null,
                 "latitude": null,
-                "label": "Distrito",
-                "code": "h002",
-                "children": [
-                  {
-                    "id": "h003",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM3",
-                    "localname": "Test_HCM3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "h003",
-                    "children": [
-                      {
-                        "id": "h004",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM4",
-                        "localname": "Test_HCM4",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h004",
-                        "children": []
-                      },
-                      {
-                        "id": "h005",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM5",
-                        "localname": "Test_HCM5",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h005",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
+                "label": "Posto Administrativo",
+                "code": "h632d6c5c",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "h0fb2d632",
+            "boundaryNum": 2,
+            "name": "Mualadzi2",
+            "localname": "Mualadzi2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h0fb2d632",
+            "children": [
               {
-                "id": "h006",
+                "id": "h13729e62",
                 "boundaryNum": 3,
-                "name": "Test_HCM6",
-                "localname": "Test_HCM6",
+                "name": "Nkantha",
+                "localname": "Nkantha",
                 "longitude": null,
                 "latitude": null,
-                "label": "Distrito",
-                "code": "h006",
-                "children": [
-                  {
-                    "id": "h007",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM7",
-                    "localname": "Test_HCM7",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "h007",
-                    "children": [
-                      {
-                        "id": "h009",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM9",
-                        "localname": "Test_HCM9",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h009",
-                        "children": []
-                      },
-                      {
-                        "id": "h010",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM10",
-                        "localname": "Test_HCM10",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h010",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": "h008",
-                    "boundaryNum": 4,
-                    "name": "Test_HCM8",
-                    "localname": "Test_HCM8",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Posto Administrativo",
-                    "code": "h008",
-                    "children": [
-                      {
-                        "id": "h011",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM11",
-                        "localname": "Test_HCM11",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h011",
-                        "children": []
-                      },
-                      {
-                        "id": "h012",
-                        "boundaryNum": 5,
-                        "name": "Test_HCM12",
-                        "localname": "Test_HCM12",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "Localidade",
-                        "code": "h012",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "label": "Posto Administrativo",
+                "code": "h13729e62",
+                "children": []
               }
             ]
           }
