@@ -97,13 +97,14 @@
           "deliveries": [
             {
               "mandatoryWaitSinceLastDeliveryInDays": null,
+              "condition": "3<=age<11",
               "ProductVariants": [
                 {
                   "productVariantId": "PVAR-2024-01-24-000076",
                   "quantity": 1
                 },
                 {
-                  "productVariantId": "PVAR-2024-01-24-000077",
+                  "productVariantId": "PVAR-2024-01-24-000078",
                   "quantity": 2
                 }
               ],
@@ -112,36 +113,19 @@
             },
             {
               "mandatoryWaitSinceLastDeliveryInDays": "10",
+              "condition": "12<=age<64",
               "ProductVariants": [
                 {
                   "productVariantId": "PVAR-2024-01-24-000077",
                   "quantity": 1
+                },
+                {
+                  "productVariantId": "PVAR-2024-01-24-000079",
+                  "quantity": 1
                 }
               ],
-              "deliveryStrategy": "DIRECT",
+              "deliveryStrategy": "INDIRECT",
               "id": 2
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "10",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2024-01-24-000076",
-                  "quantity": 1
-                }
-              ],
-              "deliveryStrategy": "INDIRECT",
-              "id": 3
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "20",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2024-01-24-000077",
-                  "quantity": 1
-                }
-              ],
-              "deliveryStrategy": "INDIRECT",
-              "id": 4
             }
           ]
         },
@@ -153,14 +137,15 @@
           "deliveries": [
             {
               "mandatoryWaitSinceLastDeliveryInDays": "15",
+              "condition": "3<=age<11",
               "ProductVariants": [
                 {
                   "productVariantId": "PVAR-2024-01-24-000076",
                   "quantity": 1
                 },
                 {
-                  "productVariantId": "PVAR-2024-01-24-000077",
-                  "quantity": 2
+                  "productVariantId": "PVAR-2024-01-24-000078",
+                  "quantity": 1
                 }
               ],
               "deliveryStrategy": "DIRECT",
@@ -168,25 +153,19 @@
             },
             {
               "mandatoryWaitSinceLastDeliveryInDays": "10",
+              "condition": "12<=age<64",
               "ProductVariants": [
                 {
                   "productVariantId": "PVAR-2024-01-24-000077",
+                  "quantity": 1
+                },
+                {
+                  "productVariantId": "PVAR-2024-01-24-000079",
                   "quantity": 1
                 }
               ],
               "deliveryStrategy": "INDIRECT",
               "id": 2
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "20",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2024-01-24-000076",
-                  "quantity": 2
-                }
-              ],
-              "deliveryStrategy": "INDIRECT",
-              "id": 3
             }
           ]
         }
