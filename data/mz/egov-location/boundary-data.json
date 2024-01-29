@@ -36,7 +36,30 @@
                 "latitude": null,
                 "label": "Posto Administrativo",
                 "code": "h47190c4c",
-                "children": []
+                "children": [
+                  {
+                    "id": "hd40deda0",
+                    "boundaryNum": 4,
+                    "name": "Nkantha Sede",
+                    "localname": "Nkantha Sede",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "hd40deda0",
+                    "children": []
+                  },
+                  {
+                    "id": "h6b536c7a",
+                    "boundaryNum": 4,
+                    "name": "Mawombe",
+                    "localname": "Mawombe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h6b536c7a",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
