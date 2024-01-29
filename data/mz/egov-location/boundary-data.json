@@ -18,79 +18,138 @@
         "code": "mz",
         "children": [
           {
-            "id": "h7f70f3f0",
+            "id": "h001",
             "boundaryNum": 2,
-            "name": "CHIFUNDE91",
-            "localname": "CHIFUNDE91",
+            "name": "Test_HCM1",
+            "localname": "Test_HCM1",
             "longitude": null,
             "latitude": null,
             "label": "Provincia",
-            "code": "h7f70f3f0",
-            "children": []
-          },
-          {
-            "id": "h552c38ca",
-            "boundaryNum": 2,
-            "name": "CHIFUNDE92",
-            "localname": "CHIFUNDE92",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "h552c38ca",
-            "children": []
-          },
-          {
-            "id": "h041ed474",
-            "boundaryNum": 2,
-            "name": "Chifundeaaa1",
-            "localname": "Chifundeaaa1",
-            "longitude": null,
-            "latitude": null,
-            "label": "Provincia",
-            "code": "h041ed474",
+            "code": "h001",
             "children": [
               {
-                "id": "hbfd8ac9e",
+                "id": "h002",
                 "boundaryNum": 3,
-                "name": "Mualadzi",
-                "localname": "Mualadzi",
+                "name": "Test_HCM2",
+                "localname": "Test_HCM2",
                 "longitude": null,
                 "latitude": null,
-                "label": "Posto Administrativo",
-                "code": "hbfd8ac9e",
+                "label": "Distrito",
+                "code": "h002",
                 "children": [
                   {
-                    "id": "h2edc4f87",
+                    "id": "h003",
                     "boundaryNum": 4,
-                    "name": "Mualadzi sede",
-                    "localname": "Mualadzi sede",
+                    "name": "Test_HCM3",
+                    "localname": "Test_HCM3",
                     "longitude": null,
                     "latitude": null,
-                    "label": "Localidade",
-                    "code": "h2edc4f87",
-                    "children": []
+                    "label": "Posto Administrativo",
+                    "code": "h003",
+                    "children": [
+                      {
+                        "id": "h004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM4",
+                        "localname": "Test_HCM4",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h004",
+                        "children": []
+                      },
+                      {
+                        "id": "h005",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM5",
+                        "localname": "Test_HCM5",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h005",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "h006",
+                "boundaryNum": 3,
+                "name": "Test_HCM6",
+                "localname": "Test_HCM6",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "h006",
+                "children": [
+                  {
+                    "id": "h007",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM7",
+                    "localname": "Test_HCM7",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "h007",
+                    "children": [
+                      {
+                        "id": "h009",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM9",
+                        "localname": "Test_HCM9",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h009",
+                        "children": []
+                      },
+                      {
+                        "id": "h010",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM10",
+                        "localname": "Test_HCM10",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h010",
+                        "children": []
+                      }
+                    ]
                   },
                   {
-                    "id": "hdd00fcd6",
+                    "id": "h008",
                     "boundaryNum": 4,
-                    "name": "Chitumbula",
-                    "localname": "Chitumbula",
+                    "name": "Test_HCM8",
+                    "localname": "Test_HCM8",
                     "longitude": null,
                     "latitude": null,
-                    "label": "Localidade",
-                    "code": "hdd00fcd6",
-                    "children": []
-                  },
-                  {
-                    "id": "h56691054",
-                    "boundaryNum": 4,
-                    "name": "Chimbalame",
-                    "localname": "Chimbalame",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "h56691054",
-                    "children": []
+                    "label": "Posto Administrativo",
+                    "code": "h008",
+                    "children": [
+                      {
+                        "id": "h011",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM11",
+                        "localname": "Test_HCM11",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h011",
+                        "children": []
+                      },
+                      {
+                        "id": "h012",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM12",
+                        "localname": "Test_HCM12",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "h012",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
