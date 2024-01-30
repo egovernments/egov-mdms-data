@@ -13637,6 +13637,30 @@
       "serviceCode": "individual",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1753,
+      "name": "Create Attendance Register Log",
+      "url": "/health-attendance/log/v1/bulk/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1754,
+      "name": "Update Attendance Register Log",
+      "url": "/health-attendance/log/v1/bulk/_update",
+      "parentModule": "attendance-service",
+      "displayName": "Update attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
