@@ -561,6 +561,16 @@
           "path": "/health-attendance/v1/_search"
         }
       ]
+    },
+    {
+      "service": "ATTENDANCE-LOGS",
+      "actions": [
+        {
+          "action": "bulk_create",
+          "entityName": "Attendance",
+          "path": "/health-attendance/log/v1/bulk/_create"
+        }
+      ]
     }
   ]
 }
