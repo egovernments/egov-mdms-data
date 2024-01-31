@@ -4688,6 +4688,17 @@
       "serviceCode": "PQM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 395,
+      "name": "Search FSM Application",
+      "url": "/impel-fsm/v1/_search",
+      "displayName": "Search  FSM Appliacations",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
