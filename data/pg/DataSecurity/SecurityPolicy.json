@@ -493,6 +493,58 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "DisbursementEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "individualName",
+          "jsonPath": "disbursements/*/individual/name",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "individualPhone",
+          "jsonPath": "disbursements/*/individual/phone",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "individualGender",
+          "jsonPath": "disbursements/*/individual/gender",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "individualPin",
+          "jsonPath": "disbursements/*/individual/pin",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "individualAddress",
+          "jsonPath": "disbursements/*/individual/address",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "individualEmail",
+          "jsonPath": "disbursements/*/individual/email",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "accountCode",
+          "jsonPath": "disbursements/*/account_code",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
