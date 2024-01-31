@@ -27,6 +27,85 @@
             "label": "Provincia",
             "code": "pah001",
             "children": []
+          },
+          {
+            "id": "h5d3c1a78",
+            "boundaryNum": 2,
+            "name": "Maladzi35",
+            "localname": "Maladzi35",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h5d3c1a78",
+            "children": [
+              {
+                "id": "hba1e10c4",
+                "boundaryNum": 3,
+                "name": "Nkantha",
+                "localname": "Nkantha",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "hba1e10c4",
+                "children": [
+                  {
+                    "id": "h0ca78410",
+                    "boundaryNum": 4,
+                    "name": "Capaco",
+                    "localname": "Capaco",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h0ca78410",
+                    "children": []
+                  },
+                  {
+                    "id": "h2f83f5a8",
+                    "boundaryNum": 4,
+                    "name": "Nkantha Sede",
+                    "localname": "Nkantha Sede",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h2f83f5a8",
+                    "children": []
+                  },
+                  {
+                    "id": "h706851d6",
+                    "boundaryNum": 4,
+                    "name": "Mawombe",
+                    "localname": "Mawombe",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h706851d6",
+                    "children": []
+                  },
+                  {
+                    "id": "h2168fef6",
+                    "boundaryNum": 4,
+                    "name": "Guereva",
+                    "localname": "Guereva",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h2168fef6",
+                    "children": []
+                  },
+                  {
+                    "id": "h7dabeb0e",
+                    "boundaryNum": 4,
+                    "name": "Lungue",
+                    "localname": "Lungue",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h7dabeb0e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
