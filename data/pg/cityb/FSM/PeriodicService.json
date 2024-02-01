@@ -1,0 +1,10 @@
+{
+    "tenantId": "pg.citya",
+    "moduleName": "FSM",
+    "PeriodicService":[
+	{
+	   "timeLimit" : 864000000,
+	   "isSchedularConfiguration":true
+	}
+	]
+	}
