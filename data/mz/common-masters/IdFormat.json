@@ -73,6 +73,10 @@
     {
       "format": "ING-[cy:yyyy-MM-dd]-[SEQ_EG_ING_ID]",
       "idname": "ingestion.number"
+    },
+    {
+      "format": "CMP-[cy:yyyy-MM-dd]-[SEQ_EG_CMP_ID]",
+      "idname": "campaign.number"
     }
   ]
 }
