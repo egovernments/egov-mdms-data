@@ -545,6 +545,22 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "PaymentInstruction",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "bankAccountId",
+          "jsonPath": "beneficiaryDetails/*/bankAccountId",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
