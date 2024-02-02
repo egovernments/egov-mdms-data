@@ -5659,6 +5659,24 @@
       "actionid": 431,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "FSM_DRIVER",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SANITATION_HELPER",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SANITATION_WORKER",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
