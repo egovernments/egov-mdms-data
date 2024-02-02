@@ -117,6 +117,10 @@
     {
       "idname": "pqm.aplnumber",
       "format": "[CITY.CODE]-PQM-[cy:yyyy-MM-dd]-[SEQ_EGOV_PQM]"
+    },
+    {
+      "idname": "ifix.program.number",
+      "format": "PG/[fy:yyyy-yy]/[SEQ_PROG_NUM]"
     }
   ]
 }
