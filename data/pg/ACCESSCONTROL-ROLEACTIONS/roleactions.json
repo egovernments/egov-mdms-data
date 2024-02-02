@@ -5677,6 +5677,18 @@
       "actionid": 71,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 432,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "CITIZEN",
+      "actionid": 432,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
