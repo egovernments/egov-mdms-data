@@ -5134,6 +5134,17 @@
       "serviceCode": "vehicle-tracking-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 432,
+      "name": "consolidatedreceipt search",
+      "url": "/egov-pdf/download/PAYMENT/consolidatedreceipt",
+      "displayName": "consolidatedreceipt search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
