@@ -241,6 +241,11 @@
       "code": "PQM_CRONJOB_SCHEDULER",
       "name": "PQM CRONJOB SCHEDULER",
       "description": "Pqm Cronjob Scheduler"
+    },
+    {
+      "code": "ANONYMOUS",
+      "name": "Anonymous User",
+      "description": "Anonymous User to be used in case of no auth"
     }
   ]
 }
