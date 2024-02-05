@@ -573,7 +573,7 @@
         {
           "action": "search",
           "entityName": "Attendance",
-          "path": "/health-attendance/v1/_search"
+          "path": "/health-attendance/log/v1/_search"
         }
       ]
     }
