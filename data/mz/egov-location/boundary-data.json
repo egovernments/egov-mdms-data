@@ -1,5 +1,512 @@
 {
   "tenantId": "mz",
   "moduleName": "egov-location",
-  "TenantBoundary": []
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "h56135c42",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE1f",
+            "localname": "CHIFUNDE1f",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h56135c42",
+            "children": [
+              {
+                "id": "h2d711c86",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h2d711c86",
+                "children": [
+                  {
+                    "id": "h31f1407e",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h31f1407e",
+                    "children": []
+                  },
+                  {
+                    "id": "h2f4839de",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h2f4839de",
+                    "children": []
+                  },
+                  {
+                    "id": "h334a97bb",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h334a97bb",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "h33ae0c4c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDEef",
+            "localname": "CHIFUNDEef",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h33ae0c4c",
+            "children": [
+              {
+                "id": "h28df0b10",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h28df0b10",
+                "children": [
+                  {
+                    "id": "h27605273",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h27605273",
+                    "children": []
+                  },
+                  {
+                    "id": "hf7890442",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "hf7890442",
+                    "children": []
+                  },
+                  {
+                    "id": "hfa3bb2bc",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "hfa3bb2bc",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "h03e22a50",
+            "boundaryNum": 2,
+            "name": "dHIFUNDE1f",
+            "localname": "dHIFUNDE1f",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h03e22a50",
+            "children": [
+              {
+                "id": "h2da28376",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h2da28376",
+                "children": [
+                  {
+                    "id": "h4b18fe20",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h4b18fe20",
+                    "children": []
+                  },
+                  {
+                    "id": "h917caa74",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h917caa74",
+                    "children": []
+                  },
+                  {
+                    "id": "h942f58ee",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h942f58ee",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "hhs0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "hhs0001",
+            "children": [
+              {
+                "id": "hhs0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "hhs0002",
+                "children": [
+                  {
+                    "id": "hhs0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "hhs0003",
+                    "children": [
+                      {
+                        "id": "hhs0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "hhs0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "s0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "s0001",
+            "children": [
+              {
+                "id": "s0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "s0002",
+                "children": [
+                  {
+                    "id": "s0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "s0003",
+                    "children": [
+                      {
+                        "id": "s0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "s0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "s0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "s0001",
+            "children": [
+              {
+                "id": "s0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "s0002",
+                "children": [
+                  {
+                    "id": "s0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "s0003",
+                    "children": [
+                      {
+                        "id": "s0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "s0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "s0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "s0001",
+            "children": [
+              {
+                "id": "s0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "s0002",
+                "children": [
+                  {
+                    "id": "s0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "s0003",
+                    "children": [
+                      {
+                        "id": "s0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "s0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "h0846904c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE ",
+            "localname": "CHIFUNDE ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h0846904c",
+            "children": [
+              {
+                "id": "h76a1ab6c",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h76a1ab6c",
+                "children": [
+                  {
+                    "id": "h6269df44",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h6269df44",
+                    "children": []
+                  },
+                  {
+                    "id": "ha4198358",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "ha4198358",
+                    "children": []
+                  },
+                  {
+                    "id": "h5b537553",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h5b537553",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
