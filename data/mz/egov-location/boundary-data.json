@@ -38,6 +38,17 @@
                 "code": "h2d711c86",
                 "children": [
                   {
+                    "id": "h31f1407e",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h31f1407e",
+                    "children": []
+                  },
+                  {
                     "id": "h2f4839de",
                     "boundaryNum": 4,
                     "name": "Bairro 1 Luia",
@@ -57,17 +68,6 @@
                     "latitude": null,
                     "label": "Localidade",
                     "code": "h334a97bb",
-                    "children": []
-                  },
-                  {
-                    "id": "h31f1407e",
-                    "boundaryNum": 4,
-                    "name": "Bairro 3",
-                    "localname": "Bairro 3",
-                    "longitude": null,
-                    "latitude": null,
-                    "label": "Localidade",
-                    "code": "h31f1407e",
                     "children": []
                   }
                 ]
@@ -150,7 +150,41 @@
                 "latitude": null,
                 "label": "Posto Administrativo",
                 "code": "h2da28376",
-                "children": []
+                "children": [
+                  {
+                    "id": "h4b18fe20",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h4b18fe20",
+                    "children": []
+                  },
+                  {
+                    "id": "h917caa74",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h917caa74",
+                    "children": []
+                  },
+                  {
+                    "id": "h942f58ee",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h942f58ee",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
