@@ -18,6 +18,71 @@
         "code": "mz",
         "children": [
           {
+            "id": "hhs0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "hhs0001",
+            "children": [
+              {
+                "id": "hhs0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "hhs0002",
+                "children": [
+                  {
+                    "id": "hhs0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "hhs0003",
+                    "children": [
+                      {
+                        "id": "hhs0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "hhs0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "h56135c42",
             "boundaryNum": 2,
             "name": "CHIFUNDE1f",
