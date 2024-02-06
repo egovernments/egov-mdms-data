@@ -1,5 +1,81 @@
 {
   "tenantId": "mz",
   "moduleName": "egov-location",
-  "TenantBoundary": []
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "h0846904c",
+            "boundaryNum": 2,
+            "name": "CHIFUNDE ",
+            "localname": "CHIFUNDE ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h0846904c",
+            "children": [
+              {
+                "id": "h76a1ab6c",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h76a1ab6c",
+                "children": [
+                  {
+                    "id": "h6269df44",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h6269df44",
+                    "children": []
+                  },
+                  {
+                    "id": "ha4198358",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "ha4198358",
+                    "children": []
+                  },
+                  {
+                    "id": "h5b537553",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h5b537553",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
