@@ -534,6 +534,40 @@
 							"code": "pb.amritsar"
 						}
            ]
+    },
+    {
+      "module": "Project",
+      "code": "Project",
+      "active": true,
+      "order": 8,
+      "tenants": [
+        {
+          "code": "pb.cityb"
+        },
+        {
+          "code": "pb.cityc"
+        },
+        {
+          "code": "pb.citya"
+        }
+      ]
+    },
+    {
+      "module": "Sample",
+      "code": "Sample",
+      "active": true,
+      "order": 12,
+      "tenants": [
+        {
+          "code": "pb.cityb"
+        },
+        {
+          "code": "pb.cityc"
+        },
+        {
+          "code": "pb.citya"
+        }
+      ]
     }
   ]
 }
