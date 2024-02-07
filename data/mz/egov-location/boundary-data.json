@@ -18,6 +18,128 @@
         "code": "mz",
         "children": [
           {
+            "id": "hhs0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "hhs0001",
+            "children": [
+              {
+                "id": "hhs0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "hhs0002",
+                "children": [
+                  {
+                    "id": "hhs0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "hhs0003",
+                    "children": [
+                      {
+                        "id": "hhs0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "hhs0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "h61093e40",
+            "boundaryNum": 2,
+            "name": "diIFNDE1f",
+            "localname": "diIFNDE1f",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h61093e40",
+            "children": [
+              {
+                "id": "h081d60e8",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h081d60e8",
+                "children": [
+                  {
+                    "id": "h980bf774",
+                    "boundaryNum": 4,
+                    "name": "Bairro 1 Luia",
+                    "localname": "Bairro 1 Luia",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h980bf774",
+                    "children": []
+                  },
+                  {
+                    "id": "h269d75d0",
+                    "boundaryNum": 4,
+                    "name": "Bairro 2",
+                    "localname": "Bairro 2",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h269d75d0",
+                    "children": []
+                  },
+                  {
+                    "id": "h4fed5a52",
+                    "boundaryNum": 4,
+                    "name": "Bairro 3",
+                    "localname": "Bairro 3",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h4fed5a52",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "h61093e40",
             "boundaryNum": 2,
             "name": "diIFNDE1f",
