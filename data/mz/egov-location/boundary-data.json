@@ -2,6 +2,46 @@
   "tenantId": "mz",
   "moduleName": "egov-location",
   "TenantBoundary": [
-    
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "h4d638938",
+            "boundaryNum": 2,
+            "name": "Chifundeaa",
+            "localname": "Chifundeaa",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h4d638938",
+            "children": [
+              {
+                "id": "h7be54b3f",
+                "boundaryNum": 3,
+                "name": "Mussalala",
+                "localname": "Mussalala",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h7be54b3f",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
   ]
 }
