@@ -675,6 +675,40 @@
           ]
         }
       ]
+    },
+     {
+      "id": "192a20d1-0edd-4108-925a-f37bf544d6c4",
+      "name": "Project type configuration for IRS - Nampula Campaigns",
+      "code": "LLIN-mz",
+      "group": "IRS - Nampula",
+      "beneficiaryType": "HOUSEHOLD",
+      "eligibilityCriteria": [
+        "All households are eligible."
+      ],
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/digit-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/digit-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/digit-ui/employee/dss/dashboard/district-health-dashboard"
+      },
+      "taskProcedure": [
+        "1 DDT is to be distributed per house.",
+        "1 Malathion is to be distributed per house.",
+        "1 Pyrethroid is to be distributed per house."
+      ],
+      "resources": [
+        {
+          "productVariantId": "PVAR-2024-02-08-000096",
+          "isBaseUnitVariant": true
+        },
+        {
+          "productVariantId": "PVAR-2024-02-08-000097",
+          "isBaseUnitVariant": true
+        },
+        {
+          "productVariantId": "PVAR-2024-02-08-000098",
+          "isBaseUnitVariant": true
+        }
+      ]
     }
   ]
 }
