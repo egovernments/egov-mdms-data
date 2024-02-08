@@ -18,6 +18,71 @@
         "code": "mz",
         "children": [
           {
+            "id": "kas0001",
+            "boundaryNum": 2,
+            "name": "Test_HCM11",
+            "localname": "Test_HCM11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "kas0001",
+            "children": [
+              {
+                "id": "kas0002",
+                "boundaryNum": 3,
+                "name": "Test_HCM12",
+                "localname": "Test_HCM12",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "kas0002",
+                "children": [
+                  {
+                    "id": "kas0003",
+                    "boundaryNum": 4,
+                    "name": "Test_HCM13",
+                    "localname": "Test_HCM13",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Posto Administrativo",
+                    "code": "kas0003",
+                    "children": [
+                      {
+                        "id": "kas0004",
+                        "boundaryNum": 5,
+                        "name": "Test_HCM14",
+                        "localname": "Test_HCM14",
+                        "longitude": null,
+                        "latitude": null,
+                        "label": "Localidade",
+                        "code": "kas0004",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "h4d638938",
             "boundaryNum": 2,
             "name": "Chifundeaa",
