@@ -18,6 +18,103 @@
         "code": "mz",
         "children": [
           {
+            "id": "h4d638938",
+            "boundaryNum": 2,
+            "name": "Chifundeaa",
+            "localname": "Chifundeaa",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h4d638938",
+            "children": [
+              {
+                "id": "h7be54b3f",
+                "boundaryNum": 3,
+                "name": "Mussalala",
+                "localname": "Mussalala",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h7be54b3f",
+                "children": [
+                  {
+                    "id": "h3e6300de",
+                    "boundaryNum": 4,
+                    "name": "Kwerane (Muangazi)",
+                    "localname": "Kwerane (Muangazi)",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h3e6300de",
+                    "children": []
+                  },
+                  {
+                    "id": "h3288111a",
+                    "boundaryNum": 4,
+                    "name": "Canhemba",
+                    "localname": "Canhemba",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h3288111a",
+                    "children": []
+                  },
+                  {
+                    "id": "h4770f527",
+                    "boundaryNum": 4,
+                    "name": "Canjoca",
+                    "localname": "Canjoca",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h4770f527",
+                    "children": []
+                  },
+                  {
+                    "id": "hac8662b2",
+                    "boundaryNum": 4,
+                    "name": "Tompando",
+                    "localname": "Tompando",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "hac8662b2",
+                    "children": []
+                  },
+                  {
+                    "id": "h48d6215b",
+                    "boundaryNum": 4,
+                    "name": "Gangawa",
+                    "localname": "Gangawa",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Localidade",
+                    "code": "h48d6215b",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
             "id": "kas0001",
             "boundaryNum": 2,
             "name": "Test_HCM11",
