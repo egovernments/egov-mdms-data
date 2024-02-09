@@ -1,5 +1,47 @@
 {
   "tenantId": "mz",
   "moduleName": "egov-location",
-  "TenantBoundary": []
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "mz",
+        "boundaryNum": 1,
+        "name": "MOZAMBIQUE",
+        "localname": "MOZAMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": "Country",
+        "code": "mz",
+        "children": [
+          {
+            "id": "h19100880",
+            "boundaryNum": 2,
+            "name": "yiIFNDE1f",
+            "localname": "yiIFNDE1f",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "h19100880",
+            "children": [
+              {
+                "id": "h5f47b85c",
+                "boundaryNum": 3,
+                "name": "CCAMUENJE",
+                "localname": "CCAMUENJE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Posto Administrativo",
+                "code": "h5f47b85c",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
