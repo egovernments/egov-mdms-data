@@ -206,6 +206,24 @@
       ]
     },
     {
+      "module": "Tqm",
+      "code": "Tqm",
+      "active": true,
+      "order": 14,
+      "additionalComponent": "TqmAdminNotification",
+      "tenants": [
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        },
+        {
+          "code": "pg.citya"
+        }
+      ]
+    },
+    {
       "module": "FSM",
       "code": "FSM",
       "active": true,
