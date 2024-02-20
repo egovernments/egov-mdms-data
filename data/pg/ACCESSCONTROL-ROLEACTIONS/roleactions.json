@@ -1191,6 +1191,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "SUPERUSER",
+      "actionid": 21,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "EMPLOYEE",
       "actionid": 69,
       "actioncode": "",
@@ -5468,9 +5474,111 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "CITIZEN",
       "actionid": 414,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2006,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CSR",
+      "actionid": 2006,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "GRO",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DGRO",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CSR",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PGR_LME",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERVISOR",
+      "actionid": 2007,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2008,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2008,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "GRO",
+      "actionid": 2008,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DGRO",
+      "actionid": 2008,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2009,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2009,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2009,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "GRO",
+      "actionid": 2009,
       "actioncode": "",
       "tenantId": "pg"
     }
