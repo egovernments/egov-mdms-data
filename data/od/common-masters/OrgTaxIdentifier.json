@@ -1,0 +1,20 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "OrgTaxIdentifier": [
+    {
+      "code": "PAN",
+      "description": "PAN",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "GSTIN",
+      "description": "GSTIN",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}

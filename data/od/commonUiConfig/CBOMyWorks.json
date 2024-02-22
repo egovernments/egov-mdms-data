@@ -1,0 +1,10 @@
+{
+    "tenantId": "od",
+    "moduleName": "commonUiConfig",
+    "CBOMyWorks": [
+        {
+            "searchCriteria" : ["ACCEPTED","PENDING_FOR_ACCEPTANCE"],
+            "acceptCode": "PENDING_FOR_ACCEPTANCE"
+        }
+    ]
+}

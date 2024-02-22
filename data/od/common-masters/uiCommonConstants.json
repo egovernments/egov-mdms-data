@@ -1,0 +1,16 @@
+{
+   "tenantId": "od",
+   "moduleName": "common-masters",
+   "uiCommonConstants": [
+      {
+         "shg": {
+            "iframe-routes": {
+               "home": {
+                  "routePath": "/works-shg-app/",
+                  "isOrigin": true
+               }
+            }
+         }
+      }
+   ]
+}

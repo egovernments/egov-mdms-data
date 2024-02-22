@@ -1,0 +1,27 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "OrgFunctionCategory": [
+    {
+      "code": "VEN.CW",
+      "description": "Vendor/Supplier Civil Works",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "VEN.EW",
+      "description": "Vendor/Supplier Electical Works",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO.NA",
+      "description": "Community Based Organization - not applicable",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}

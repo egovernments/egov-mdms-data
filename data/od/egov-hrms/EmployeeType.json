@@ -1,0 +1,26 @@
+{
+  "tenantId": "od",
+  "moduleName": "egov-hrms",
+  "EmployeeType": [
+    {
+      "code": "PNT",
+      "description": "Permanent",
+      "active": true
+    },
+    {
+      "code": "TMP",
+      "description": "Temporary",
+      "active": true
+    },
+    {
+      "code": "DEP",
+      "description": "Deputation",
+      "active": true
+    },
+    {
+      "code": "CNT",
+      "description": "Contractual",
+      "active": true
+    }
+  ]
+}

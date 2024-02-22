@@ -1,0 +1,34 @@
+{
+    "tenantId": "od",
+    "moduleName": "works",
+    "MeasurementBFFConfig": [
+        {
+            "path": "contract",
+            "jsonPath": "$.contract"
+        },
+        {
+            "path": "estimate",
+            "jsonPath": "$.estimate"
+        },
+        {
+            "path": "measurement",
+            "jsonPath": "$.measurement"
+        },
+        {
+             "path": "period",
+            "jsonPath": "$.period"
+        },
+        {
+             "path": "musterRollNumber",
+            "jsonPath": "$.musterRoll.musterRollNumber"
+        },
+        {
+            "path": "allMeasurements",
+            "jsonPath": "$.allMeasurements"
+        },
+        {
+             "path": "musterRolls",
+            "jsonPath": "$.musterRollsArray"
+        }
+    ]
+}

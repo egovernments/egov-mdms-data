@@ -1,0 +1,63 @@
+{
+    "tenantId": "od",
+    "moduleName": "common-masters",
+    "uom": [
+        {
+            "code":"KG",
+            "description":"Kilogram",
+            "active":true,
+            "effectiveFrom":1677044852,
+            "effectiveTo":null
+        },
+        {
+            "code": "SQM",
+            "description": "Square Meter",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "RMT",
+            "description": "Running Meter",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "NOS",
+            "description": "Numbers",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "CUM",
+            "description": "Cubic Meter",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "CFT",
+            "description": "Cubic Feet",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "SFT",
+            "description": "Square Feet",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "FT",
+            "description": "Feet",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        }
+       
+    ]
+}

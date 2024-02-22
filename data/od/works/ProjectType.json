@@ -1,0 +1,96 @@
+{
+  "tenantId": "od",
+  "moduleName": "works",
+  "ProjectType": [
+    {
+      "id": 1,
+      "name": "Drainage and sewerage work [Except de-siltation]",
+      "code": "DR",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 2,
+      "name": "Sanitation work [Except road sweeping and drain cleaning]",
+      "code": "SN",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 3,
+      "name": "Water conservation and rain water harvesting structures",
+      "code": "WT",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 4,
+      "name": "Development and renovation of water bodies",
+      "code": "WB",
+      "group": "",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 5,
+      "name": "Development and maintenance of public parks and playgrounds",
+      "code": "PP",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 6,
+      "name": "Wall paintings",
+      "code": "WP",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 7,
+      "name": "Beautification of parks, canals, rivers, gardens, roads and plantation of trees",
+      "code": "BT",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 8,
+      "name": "Basic amenities for citizen such as mini parks, open air gym, child play station, playground, walking track, loo and vending zone, etc.",
+      "code": "BA",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 9,
+      "name": "Various labour-intensive urban infrastructure development projects taken up by ULBs",
+      "code": "LI",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 10,
+      "name": "Construction and maintenance of micro community centers and open space development, Mission Shakti Gruhas , Parichaya centers & any other activities/ infrastructures as decided by the H & UD Department from time to time.",
+      "code": "CC",
+      "group": "",
+      "beneficiary": "",
+      "active": true,
+      "projectSubType": []
+    }
+  ]
+}

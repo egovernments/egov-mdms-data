@@ -1,0 +1,16 @@
+{
+    "tenantId": "od",
+    "moduleName": "commonUiConfig",
+    "CBOMusterSubmission": [
+        {
+            "code": "ANY_DAY",
+            "value": "any day",
+            "active": false
+        },
+        {
+            "code": "END_OF_WEEK",
+            "value": "end of week",
+            "active": false
+        }
+    ]
+}

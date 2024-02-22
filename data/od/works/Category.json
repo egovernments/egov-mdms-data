@@ -1,0 +1,21 @@
+{
+  "tenantId": "od",
+  "moduleName": "works",
+  "Category": [
+    {
+      "name": "Overhead",
+      "code": "OVERHEAD",      
+	   "active": true
+    },
+    {
+      "name": "SOR",
+      "code": "SOR",      
+	   "active": true
+    },
+    {
+      "name": "non-SOR",
+      "code": "NON-SOR",      
+	   "active": true
+    }
+  ]
+}

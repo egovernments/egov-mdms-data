@@ -1,0 +1,54 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "OrgType": [
+    {
+      "code": "VEN.CMS",
+      "description": "Vendor/Supplier - Construction Material Supplier",
+      "parent": "VEN",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "VEN.NA",
+      "description": "Vendor/Supplier - Not Applicable",
+      "parent": "VEN",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO.MSG",
+      "description": "Community Based Organization - Mission Shakti Group",
+      "parent": "CBO",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO.SDA",
+      "description": "Community Based Organization - Slum Dwellers Association",
+      "parent": "CBO",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO.ALF",
+      "description": "Community Based Organization - Area Level Federation",
+      "parent": "CBO",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO.CLF",
+      "description": "Community Based Organization - Community Level Federation",
+      "parent": "CBO",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "tenantId": "od.kotpad",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": { "code": "ADMIN", "name": "ADMIN" },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "kotpad",
+        "localname": "kotpad",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "od.kotpad",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Ward 1",
+            "localname": "Ward1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W001",
+            "children": [
+              {
+                "id": 15,
+                "boundaryNum": 1,
+                "name": "KENDUGUDA",
+                "localname": "KENDUGUDA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT01",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 16,
+                "boundaryNum": 1,
+                "name": "KUNJAGUDA",
+                "localname": "KUNJAGUDA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT02",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 17,
+                "boundaryNum": 1,
+                "name": "SWEEPER COLONY",
+                "localname": "SWEEPER COLONY",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT03",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 18,
+                "boundaryNum": 1,
+                "name": "MATA SAHI",
+                "localname": "MATA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT04",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "boundaryNum": 1,
+            "name": "Ward 2",
+            "localname": "Ward2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W002",
+            "children": [
+              {
+                "id": 19,
+                "boundaryNum": 1,
+                "name": "BASULI NUAGUDA",
+                "localname": "BASULI NUAGUDA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT05",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "boundaryNum": 1,
+            "name": "Ward 3",
+            "localname": "Ward3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W003",
+            "children": [
+              {
+                "id": 20,
+                "boundaryNum": 1,
+                "name": "TIKIRA SAHI",
+                "localname": "TIKIRA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT06",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 21,
+                "boundaryNum": 1,
+                "name": "KALANJI SAHI",
+                "localname": "KALANJI SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT07",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "boundaryNum": 1,
+            "name": "Ward 4",
+            "localname": "Ward4",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W004",
+            "children": [
+              {
+                "id": 22,
+                "boundaryNum": 1,
+                "name": "MALI SAHI",
+                "localname": "MALI SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT08",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 23,
+                "boundaryNum": 1,
+                "name": "TELEGU SAHI",
+                "localname": "TELEGU SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT09",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "Ward 5",
+            "localname": "Ward5",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W005",
+            "children": [
+              {
+                "id": 24,
+                "boundaryNum": 1,
+                "name": "BELEMA SAHI",
+                "localname": "BELEMA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT10",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "boundaryNum": 1,
+            "name": "Ward 6",
+            "localname": "Ward6",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W006",
+            "children": [
+              {
+                "id": 25,
+                "boundaryNum": 1,
+                "name": "KARANA SAHI",
+                "localname": "KARANA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT11",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 26,
+                "boundaryNum": 1,
+                "name": "HATAPADA",
+                "localname": "HATAPADA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT12",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "boundaryNum": 1,
+            "name": "Ward 7",
+            "localname": "Ward7",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W007",
+            "children": [
+              {
+                "id": 27,
+                "boundaryNum": 1,
+                "name": "MOHANTY SAHI",
+                "localname": "MOHANTY SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT13",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "boundaryNum": 1,
+            "name": "Ward 8",
+            "localname": "Ward8",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W008",
+            "children": [
+              {
+                "id": 28,
+                "boundaryNum": 1,
+                "name": "DULUPUR SAHI",
+                "localname": "DULUPUR SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT14",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 29,
+                "boundaryNum": 1,
+                "name": "PATHAN SAHI",
+                "localname": "PATHAN SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT15",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "boundaryNum": 1,
+            "name": "Ward 9",
+            "localname": "Ward39",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W009",
+            "children": [
+              {
+                "id": 30,
+                "boundaryNum": 1,
+                "name": "BADADUARA SAHI",
+                "localname": "BADADUARA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT16",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 31,
+                "boundaryNum": 1,
+                "name": "MIRGAN SAHI",
+                "localname": "MIRGAN SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT17",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "boundaryNum": 1,
+            "name": "Ward 10",
+            "localname": "Ward10",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W010",
+            "children": [
+              {
+                "id": 32,
+                "boundaryNum": 1,
+                "name": "MANGALI  SAHI",
+                "localname": "MANGALI  SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT18",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 33,
+                "boundaryNum": 1,
+                "name": "BHAIRABHATTA",
+                "localname": "BHAIRABHATTA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT19",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "boundaryNum": 1,
+            "name": "Ward 11",
+            "localname": "Ward11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W011",
+            "children": [
+              {
+                "id": 34,
+                "boundaryNum": 1,
+                "name": "MISSION COMPOUND",
+                "localname": "MISSION COMPOUND",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT20",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 35,
+                "boundaryNum": 1,
+                "name": "BASUGUDA 01",
+                "localname": "BASUGUDA 01",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT21",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "boundaryNum": 1,
+            "name": "Ward 12",
+            "localname": "Ward12",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W012",
+            "children": [
+              {
+                "id": 36,
+                "boundaryNum": 1,
+                "name": "NUAGUDA",
+                "localname": "NUAGUDA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT22",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 37,
+                "boundaryNum": 1,
+                "name": "LOHARA SAHI",
+                "localname": "LOHARA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT23",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "boundaryNum": 1,
+            "name": "Ward 13",
+            "localname": "Ward13",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W013",
+            "children": [
+              {
+                "id": 38,
+                "boundaryNum": 1,
+                "name": "BANDAGUDA",
+                "localname": "BANDAGUDA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT24",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 39,
+                "boundaryNum": 1,
+                "name": "MAJHI SAHI",
+                "localname": "MAJHI SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT25",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 40,
+                "boundaryNum": 1,
+                "name": "BASUGUDA 02",
+                "localname": "BASUGUDA 02",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KOT26",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

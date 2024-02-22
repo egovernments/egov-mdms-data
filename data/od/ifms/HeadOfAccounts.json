@@ -1,0 +1,36 @@
+{
+  "tenantId": "od",
+  "moduleName": "ifms",
+  "HeadOfAccounts": [
+    {
+      "id": "1",
+      "code": "132217058003586410459082112",
+      "name": "General Head",
+      "sequence": 3,
+      "schemeCode": 13145,
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "2",
+      "code": "132217057893586410459082112",
+      "name": "Scheduled Caste Head",
+      "sequence": 1,
+      "schemeCode": 13145,
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "3",
+      "code": "132217057963586410459082112",
+      "name": "Scheduled Tribes Head",
+      "sequence": 2,
+      "schemeCode": 13145,
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    }
+  ]
+}

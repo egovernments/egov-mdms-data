@@ -1,0 +1,75 @@
+{
+    "tenantId": "od",
+    "moduleName": "commonUiConfig",
+    "CreateEstimateConfig": [
+        {
+            "form": [
+                {
+                    "head": "",
+                    "subHead": "",
+                    "navLink": "Project Details",
+                    "body": [
+                        {
+                            "type": "component",
+                            "component": "ViewProject",
+                            "withoutLabel": true,
+                            "key": "projectDetails"
+                        }
+                    ]
+                },
+                {
+                    "head": "WORKS_NON_SOR",
+                    "subHead": "",
+                    "navLink": "Work Details",
+                    "body": [
+                        {
+                            "type": "component",
+                            "component": "NonSORTable",
+                            "withoutLabel": true,
+                            "key": "nonSORDetails"
+                        }
+                    ]
+                },
+                {
+                    "head": "WORKS_OVERHEADS",
+                    "subHead": "",
+                    "navLink": "Work Details",
+                    "body": [
+                        {
+                            "type": "component",
+                            "component": "OverheadsTable",
+                            "withoutLabel": true,
+                            "key": "overheadsDetails"
+                        }
+                    ]
+                },
+                {
+                    "head": "",
+                    "subHead": "",
+                    "navLink": "Work Details",
+                    "body": [
+                        {
+                            "type": "component",
+                            "component": "TotalEstAmount",
+                            "withoutLabel": true,
+                            "key": "totalEstimatedAmount"
+                        }
+                    ]
+                },
+                {
+                    "head": "",
+                    "subHead": "",
+                    "navLink": "Work Details",
+                    "body": [
+                        {
+                            "type": "component",
+                            "component": "LabourAnalysis",
+                            "withoutLabel": true,
+                            "key": "labourMaterialAnalysis"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

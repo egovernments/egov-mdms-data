@@ -1,0 +1,17 @@
+{
+    "tenantId": "od",
+    "moduleName": "common-masters",
+    "Relationship": [
+      {
+        "name": "Father",
+        "code": "FATHER",
+        "active": true
+      },
+      {
+        "name": "Husband",
+        "code": "HUSBAND",
+        "active": true
+      }
+    ]
+}
+  

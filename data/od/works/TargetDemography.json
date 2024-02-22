@@ -1,0 +1,46 @@
+{
+    "tenantId": "od",
+    "moduleName": "works",
+    "TargetDemography": [
+          {
+            "code": "SM",
+            "name": "Slum Area",
+            "description": "Slum Area", 
+            "effectiveFrom": 1676875575195,
+            "effectiveTo": null,
+            "active": true
+          },
+          {
+            "code": "SC",
+            "name": "Area inhabited by SC",
+            "description": "Area inhabited by SC", 
+            "effectiveFrom": 1676875575195,
+            "effectiveTo": null,
+            "active": true
+          },
+          {
+            "code": "ST",
+            "name": "Area inhabited by ST",
+            "description": "Area inhabited by ST", 
+            "effectiveFrom": 1676875575195,
+            "effectiveTo": null,
+            "active": true
+          },
+          {
+            "code": "MN",
+            "name": "Area inhabited by Minorities",
+            "description": "Area inhabited by Minorities", 
+            "effectiveFrom": 1676875575195,
+            "effectiveTo": null,
+            "active": true
+          },
+          {
+            "code": "NSM",
+            "name": "Non Slum Area",
+            "description": "Non Slum Area", 
+            "effectiveFrom": 1676875575195,
+            "effectiveTo": null,
+            "active": true
+          }
+        ]
+  }

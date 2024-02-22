@@ -1,0 +1,92 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "StateInfo": [
+    {
+      "name": "Odisha",
+      "code": "od",
+      "qrCodeURL": "",
+      "bannerUrl": "https://mukta.odisha.gov.in/mukta-prod-s3/banner-bg.jpg",
+      "logoUrl": "https://mukta.odisha.gov.in/mukta-prod-s3/mseva-white-logo.png",
+      "logoUrlWhite": "https://mukta.odisha.gov.in/mukta-prod-s3/mukta-white-logo.png",
+      "statelogo":"https://mukta.odisha.gov.in/mukta-prod-s3/od/logo.jpeg",
+      "hasLocalisation": true,
+      "enableWhatsApp": true,
+      "defaultUrl": {
+        "employee": "/works-ui/employee/user/login"
+      },
+      "languages": [
+        {
+          "label": "ENGLISH",
+          "value": "en_IN"
+        },
+        {
+          "label": "ଓଡିଆ",
+          "value": "or_IN"
+        }
+      ],
+      "localizationModules": [
+        {
+          "label": "rainmaker-contracts",
+          "value": "rainmaker-contracts"
+        },
+        {
+          "label": "rainmaker-common",
+          "value": "rainmaker-common"
+        },
+        {
+          "label": "rainmaker-common-masters",
+          "value": "rainmaker-common-masters"
+        },
+        {
+          "label": "rainmaker-estimate",
+          "value": "rainmaker-estimate"
+        },
+        {
+          "label": "rainmaker-project",
+          "value": "rainmaker-project"
+        },
+        {
+          "label": "rainmaker-expenditure",
+          "value": "rainmaker-expenditure"
+        },
+        {
+          "label": "rainmaker-attendencemgmt",
+          "value": "rainmaker-attendencemgmt"
+        },
+        {
+          "label": "rainmaker-masters",
+          "value": "rainmaker-masters"
+        },
+        {
+          "label": "rainmaker-od",
+          "value": "rainmaker-od"
+        },
+        {
+          "label": "rainmaker-ward-locality",
+          "value": "rainmaker-ward-locality"
+        },
+        {
+          "label": "rainmaker-measurement",
+          "value": "rainmaker-measurement"
+        },
+        {
+          "label": "rainmaker-workbench",
+          "value": "rainmaker-workbench"
+        },
+        {
+          "label": "rainmaker-schema",
+          "value": "rainmaker-schema"
+        },
+        {
+          "label": "rainmaker-mdms",
+          "value": "rainmaker-mdms"
+        },
+        {
+          "label": "rainmaker-workflow",
+          "value": "rainmaker-workflow"
+        }
+      ]
+    }
+  ]
+}

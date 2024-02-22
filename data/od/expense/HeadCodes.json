@@ -1,0 +1,115 @@
+{
+  "tenantId": "od",
+  "moduleName": "expense",
+  "HeadCodes": [
+    {
+      "id": "1",
+      "code": "WEG",
+      "description": "Wages",
+      "service": "works.wages",
+      "category": "expense",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "2",
+      "code": "GST",
+      "description": "Goods and services tax",
+      "service": "works.purchase",
+      "category": "expense",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "3",
+      "code": "MC",
+      "description": "Material cost",
+      "service": "works.purchase",
+      "category": "expense",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "4",
+      "code": "PA",
+      "category": "expense",
+      "service": "works.purchase",
+      "description": "Purchase Amount",
+      "active": false,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "5",
+      "code": "LC",
+      "category": "deduction",
+      "service": "works.purchase",
+      "description": "Labour Cess",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "6",
+      "code": "ITTDS",
+      "category": "deduction",
+      "service": "works.purchase",
+      "description": "IT TDS",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "7",
+      "code": "ROM",
+      "description": "Royalty on minerals",
+      "category": "deduction",
+      "service": "works.purchase",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "9",
+      "code": "GSTTDS",
+      "service": "works.purchase",
+      "category": "deduction",
+      "description": "GST TDS",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "10",
+      "code": "SC",
+      "service": "works.supervision",
+      "category": "expense",
+      "active": true,
+      "effectiveFrom": 177044852,
+      "effectiveTo": null
+    },
+    {
+      "id": "11",
+      "code": "PURCHASE",
+      "description": "Head code to make payment to vendor",
+      "service": "works.purchase",
+      "category": "payable",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    },
+    {
+      "id": "12",
+      "code": "LC",
+      "category": "deduction",
+      "service": "works.wages",
+      "description": "Labour Cess",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
+    }
+  ]
+}

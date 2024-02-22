@@ -1,0 +1,48 @@
+{
+    "tenantId": "od",
+    "moduleName": "commonUiConfig",
+    "CBOHomeScreenConfig": [
+        {
+            "order": 1,
+            "key": "HOME_MY_WORKS",
+            "displayName": "My Works",
+            "label": "MY_WORKS",
+            "active": true
+        },
+        {
+            "order": 2,
+            "key": "HOME_TRACK_ATTENDENCE",
+            "displayName": "Track Attendance",
+            "label": "TRACK_ATTENDENCE",
+            "active": true
+        },
+        {
+            "order": 3,
+            "key": "HOME_MUSTER_ROLLS",
+            "displayName": "Muster Rolls",
+            "label": "WORKS_MUSTERROLLS",
+            "active": true
+        },
+        {
+            "order": 4,
+            "key": "HOME_MY_BILLS",
+            "displayName": "My Bills",
+            "label": "WORKS_MY_BILLS",
+            "active": true
+        },
+        {
+            "order": 5,
+            "key": "HOME_SERVICE_REQUESTS",
+            "displayName": "My Service Requests",
+            "label": "HOME_SERVICE_REQUESTS",
+            "active": true
+        },
+        {
+            "order": 6,
+            "key": "HOME_REGISTER_WAGE_SEEKER",
+            "displayName": "REGISTER_WAGE_SEEKER",
+            "label": "REGISTER_WAGE_SEEKER",
+            "active": true
+        }
+    ]
+}

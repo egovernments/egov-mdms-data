@@ -1,0 +1,21 @@
+{
+    "tenantId": "od",
+    "moduleName": "DIGIT-UI",
+    "ApiCachingSettings": [
+      {
+        "serviceName": "localization",
+        "cacheTimeInSecs": 86400
+      },
+      {
+        "serviceName": "egov-mdms-service",
+        "cacheTimeInSecs": 3600,
+        "debounceTimeInMS": 100,
+        "moduleSettings": [
+          {
+            "moduleName": "FSM",
+            "cacheTimeInSecs": 7200
+          }
+        ]
+      }
+    ]
+  }

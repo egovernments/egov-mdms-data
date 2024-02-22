@@ -1,0 +1,19 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "AttendanceHours": [
+    {
+      "code": "MORNING",
+      "value": "9",
+      "active": true
+    },{
+      "code": "AFTERNOON",
+      "value": "14",
+      "active": true
+    },{
+      "code": "EVENING",
+      "value": "18",
+      "active": true
+    }
+  ]
+}

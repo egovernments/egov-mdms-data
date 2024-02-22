@@ -1,0 +1,1119 @@
+{
+  "tenantId": "od.keonjhargarh",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": { "code": "ADMIN", "name": "ADMIN" },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "keonjhargarh",
+        "localname": "keonjhargarh",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "od.keonjhargarh",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Ward 1",
+            "localname": "Ward1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W001",
+            "children": [
+              {
+                "id": 23,
+                "boundaryNum": 1,
+                "name": "SULEIKHAMAR",
+                "localname": "SULEIKHAMAR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR01",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 24,
+                "boundaryNum": 1,
+                "name": "PODAUASA",
+                "localname": "PODAUASA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR02",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 25,
+                "boundaryNum": 1,
+                "name": "MANOJ MANJARI SCHOOL",
+                "localname": "MANOJ MANJARI SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR03",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 26,
+                "boundaryNum": 1,
+                "name": "NARSHINGPUR",
+                "localname": "NARSHINGPUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR04",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 27,
+                "boundaryNum": 1,
+                "name": "HATAPADIA",
+                "localname": "HATAPADIA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR05",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 28,
+                "boundaryNum": 1,
+                "name": "SIDHAMATHA",
+                "localname": "SIDHAMATHA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR06",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "boundaryNum": 1,
+            "name": "Ward 2",
+            "localname": "Ward2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W002",
+            "children": [
+              {
+                "id": 29,
+                "boundaryNum": 1,
+                "name": "HUNDAWARSAHI",
+                "localname": "HUNDAWARSAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR07",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 30,
+                "boundaryNum": 1,
+                "name": "DENGDEHI",
+                "localname": "DENGDEHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR08",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 31,
+                "boundaryNum": 1,
+                "name": "GADA SAHI",
+                "localname": "GADA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR09",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 32,
+                "boundaryNum": 1,
+                "name": "SATHIGHARASAHI",
+                "localname": "SATHIGHARASAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR10",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "boundaryNum": 1,
+            "name": "Ward 3",
+            "localname": "Ward3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W003",
+            "children": [
+              {
+                "id": 33,
+                "boundaryNum": 1,
+                "name": "BHUMIJASAHI",
+                "localname": "BHUMIJASAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR11",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "boundaryNum": 1,
+            "name": "Ward 4",
+            "localname": "Ward4",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W004",
+            "children": [
+              {
+                "id": 34,
+                "boundaryNum": 1,
+                "name": "HUDCO COLONY",
+                "localname": "HUDCO COLONY",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR12",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 35,
+                "boundaryNum": 1,
+                "name": "MADAN MOHAN PUR",
+                "localname": "MADAN MOHAN PUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR13",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 36,
+                "boundaryNum": 1,
+                "name": "HUDCO",
+                "localname": "HUDCO",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR14",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "Ward 5",
+            "localname": "Ward5",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W005",
+            "children": [
+              {
+                "id": 37,
+                "boundaryNum": 1,
+                "name": "JANARADANPUR",
+                "localname": "JANARADANPUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR15",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 38,
+                "boundaryNum": 1,
+                "name": "KIMIRIDOLI",
+                "localname": "KIMIRIDOLI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR16",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 39,
+                "boundaryNum": 1,
+                "name": "JANARADANPUR SCHOOL",
+                "localname": "JANARADANPUR SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR17",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "boundaryNum": 1,
+            "name": "Ward 6",
+            "localname": "Ward6",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W006",
+            "children": [
+              {
+                "id": 40,
+                "boundaryNum": 1,
+                "name": "BADASASAN",
+                "localname": "BADASASAN",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR18",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 41,
+                "boundaryNum": 1,
+                "name": "BADADHANGARPADA",
+                "localname": "BADADHANGARPADA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR19",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 42,
+                "boundaryNum": 1,
+                "name": "ATOPUR",
+                "localname": "ATOPUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR20",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "boundaryNum": 1,
+            "name": "Ward 7",
+            "localname": "Ward7",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W007",
+            "children": [
+              {
+                "id": 43,
+                "boundaryNum": 1,
+                "name": "JAILROAD",
+                "localname": "JAILROAD",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR21",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 44,
+                "boundaryNum": 1,
+                "name": "DN HIGH SCHOOL",
+                "localname": "DN HIGH SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR22",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 45,
+                "boundaryNum": 1,
+                "name": "SAMANTARAYPUR",
+                "localname": "SAMANTARAYPUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR23",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "boundaryNum": 1,
+            "name": "Ward 8",
+            "localname": "Ward8",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W008",
+            "children": [
+              {
+                "id": 46,
+                "boundaryNum": 1,
+                "name": "EXCHANGE CHAKA",
+                "localname": "EXCHANGE CHAKA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR24",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 47,
+                "boundaryNum": 1,
+                "name": "DMF LIBRARY",
+                "localname": "DMF LIBRARY",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR25",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 48,
+                "boundaryNum": 1,
+                "name": "KALYANI MANDAP",
+                "localname": "KALYANI MANDAP",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR26",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 49,
+                "boundaryNum": 1,
+                "name": "INDOOR STADIUM",
+                "localname": "INDOOR STADIUM",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR27",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 50,
+                "boundaryNum": 1,
+                "name": "BIJUPATTANAYAK PARK",
+                "localname": "BIJUPATTANAYAK PARK",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR28",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 51,
+                "boundaryNum": 1,
+                "name": "TAHASIL CHAKA",
+                "localname": "TAHASIL CHAKA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR29",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "boundaryNum": 1,
+            "name": "Ward 9",
+            "localname": "Ward39",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W009",
+            "children": [
+              {
+                "id": 52,
+                "boundaryNum": 1,
+                "name": "PARKLINE",
+                "localname": "PARKLINE",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR30",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 53,
+                "boundaryNum": 1,
+                "name": "KANJHARI COLONY",
+                "localname": "KANJHARI COLONY",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR31",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 54,
+                "boundaryNum": 1,
+                "name": "KASHIPUR SCHOOL",
+                "localname": "KASHIPUR SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR32",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }              
+            ]
+          },
+          {
+            "id": 11,
+            "boundaryNum": 1,
+            "name": "Ward 10",
+            "localname": "Ward10",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W010",
+            "children": [
+              {
+                "id": 55,
+                "boundaryNum": 1,
+                "name": "JOKA POKHARI",
+                "localname": "JOKA POKHARI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR33",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 56,
+                "boundaryNum": 1,
+                "name": "BADADERA",
+                "localname": "BADADERA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR34",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }    
+            ]
+          },
+          {
+            "id": 12,
+            "boundaryNum": 1,
+            "name": "Ward 11",
+            "localname": "Ward11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W011",
+            "children": [
+              {
+                "id": 57,
+                "boundaryNum": 1,
+                "name": "SILUAN CHAKA",
+                "localname": "SILUAN CHAKA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR35",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 58,
+                "boundaryNum": 1,
+                "name": "DICE COLONY",
+                "localname": "DICE COLONY",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR36",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 59,
+                "boundaryNum": 1,
+                "name": "OSME SCHOOL",
+                "localname": "OSME SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR37",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "boundaryNum": 1,
+            "name": "Ward 12",
+            "localname": "Ward12",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W012",
+            "children": [
+              {
+                "id": 60,
+                "boundaryNum": 1,
+                "name": "DURGA TEMPLE",
+                "localname": "DURGA TEMPLE",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR38",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "boundaryNum": 1,
+            "name": "Ward 13",
+            "localname": "Ward13",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W013",
+            "children": [
+              {
+                "id": 61,
+                "boundaryNum": 1,
+                "name": "PARIBESHUDYAN",
+                "localname": "PARIBESHUDYAN",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR39",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 62,
+                "boundaryNum": 1,
+                "name": "KRUSHAK BAZAR",
+                "localname": "KRUSHAK BAZAR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR40",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 63,
+                "boundaryNum": 1,
+                "name": "BAPUJI SCHOOL",
+                "localname": "BAPUJI SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR41",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 64,
+                "boundaryNum": 1,
+                "name": "DRDA OFFICE",
+                "localname": "DRDA OFFICE",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR42",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "boundaryNum": 1,
+            "name": "Ward 14",
+            "localname": "Ward14",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W014",
+            "children": [
+              {
+                "id": 65,
+                "boundaryNum": 1,
+                "name": "MOCHIBANDHA HIGH SCHOOL",
+                "localname": "MOCHIBANDHA HIGH SCHOOL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR43",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 66,
+                "boundaryNum": 1,
+                "name": "RESERVE OFFICE",
+                "localname": "RESERVE OFFICE",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR44",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 67,
+                "boundaryNum": 1,
+                "name": "PANJAB BANK",
+                "localname": "PANJAB BANK",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR45",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "boundaryNum": 1,
+            "name": "Ward 15",
+            "localname": "Ward15",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W015",
+            "children": [
+              {
+                "id": 68,
+                "boundaryNum": 1,
+                "name": "BARIK SAHI",
+                "localname": "BARIK SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR46",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 69,
+                "boundaryNum": 1,
+                "name": "AMRUTBIHAR",
+                "localname": "AMRUTBIHAR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR47",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 70,
+                "boundaryNum": 1,
+                "name": "NUASAHI",
+                "localname": "NUASAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR48",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "boundaryNum": 1,
+            "name": "Ward 16",
+            "localname": "Ward16",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W016",
+            "children": [
+              {
+                "id": 71,
+                "boundaryNum": 1,
+                "name": "MAGURGADIA",
+                "localname": "MAGURGADIA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR49",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 72,
+                "boundaryNum": 1,
+                "name": "LV PRASADA EYE HOSPITAL",
+                "localname": "LV PRASADA EYE HOSPITAL",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR50",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 73,
+                "boundaryNum": 1,
+                "name": "DHOBADIA",
+                "localname": "DHOBADIA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR51",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 74,
+                "boundaryNum": 1,
+                "name": "GANDHI CHAKA",
+                "localname": "GANDHI CHAKA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR52",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "boundaryNum": 1,
+            "name": "Ward 17",
+            "localname": "Ward17",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W017",
+            "children": [
+              {
+                "id": 75,
+                "boundaryNum": 1,
+                "name": "BADAHALA",
+                "localname": "BADAHALA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR53",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 76,
+                "boundaryNum": 1,
+                "name": "RABINDRA SCHOOL ROAD",
+                "localname": "RABINDRA SCHOOL ROAD",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR54",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 77,
+                "boundaryNum": 1,
+                "name": "JENA SAHI",
+                "localname": "JENA SAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR55",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "boundaryNum": 1,
+            "name": "Ward 18",
+            "localname": "Ward18",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W018",
+            "children": [
+              {
+                "id": 78,
+                "boundaryNum": 1,
+                "name": "SATASINGHA",
+                "localname": "SATASINGHA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR56",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "boundaryNum": 1,
+            "name": "Ward 19",
+            "localname": "Ward19",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W019",
+            "children": [
+              {
+                "id": 79,
+                "boundaryNum": 1,
+                "name": "SIRIPUR",
+                "localname": "SIRIPUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR57",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 80,
+                "boundaryNum": 1,
+                "name": "BANIPATA",
+                "localname": "BANIPATA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR58",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "boundaryNum": 1,
+            "name": "Ward 20",
+            "localname": "Ward20",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W020",
+            "children": [
+              {
+                "id": 81,
+                "boundaryNum": 1,
+                "name": "DHURUPADA",
+                "localname": "DHURUPADA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR59",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 82,
+                "boundaryNum": 1,
+                "name": "MUNDASAHI",
+                "localname": "MUNDASAHI",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR60",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "boundaryNum": 1,
+            "name": "Ward 21",
+            "localname": "Ward21",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W021",
+            "children": [
+              {
+                "id": 83,
+                "boundaryNum": 1,
+                "name": "GAMBHARIA",
+                "localname": "GAMBHARIA",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR61",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 84,
+                "boundaryNum": 1,
+                "name": "SALETAX COLONY",
+                "localname": "SALETAX COLONY",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR62",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 85,
+                "boundaryNum": 1,
+                "name": "TULASIPUR",
+                "localname": "TULASIPUR",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR63",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 86,
+                "boundaryNum": 1,
+                "name": "BRAMANIGAON",
+                "localname": "BRAMANIGAON",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR64",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 87,
+                "boundaryNum": 1,
+                "name": "DD COLLEGE",
+                "localname": "DD COLLEGE",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "KNJR65",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
