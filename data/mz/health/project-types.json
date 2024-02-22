@@ -10,34 +10,8 @@
       "beneficiaryType": "HOUSEHOLD",
       "resources": [
         {
-          "productVariantId": "PVAR-2022-12-20-000034",
+          "productVariantId": "PVAR-2024-02-22-000033",
           "isBaseUnitVariant": false
-        },
-        {
-          "productVariantId": "PVAR-2022-12-20-000035",
-          "isBaseUnitVariant": true
-        }
-      ],
-      "dashboardUrls": {
-        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
-        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
-        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
-      }
-    },
-    {
-      "id": "a6907f0c-7a91-4c76-afc2-a279d8a7b76a",
-      "name": "Mozambique specific configuration for LLIN Campaigns",
-      "code": "LLIN-Moz",
-      "group": "MALARIA",
-      "beneficiaryType": "HOUSEHOLD",
-      "resources": [
-        {
-          "productVariantId": "PVAR-2022-12-20-000036",
-          "isBaseUnitVariant": false
-        },
-        {
-          "productVariantId": "PVAR-2022-12-20-000037",
-          "isBaseUnitVariant": true
         }
       ],
       "dashboardUrls": {
@@ -48,158 +22,29 @@
     },
     {
       "id": "b1107f0c-7a91-4c76-afc2-a279d8a7b76a",
-      "name": "Mozambique specific configuration for LLIN Campaigns",
+      "name": "Mozambique specific configuration for SMC Campaigns",
       "code": "LLIN-Moz_individual",
       "group": "MALARIA",
+      "type": "multiround",
       "beneficiaryType": "INDIVIDUAL",
       "resources": [
         {
-          "productVariantId": "PVAR-2022-12-20-000038",
+          "productVariantId": "PVAR-2024-02-22-000036",
           "isBaseUnitVariant": false
         },
         {
-          "productVariantId": "PVAR-2022-12-20-000039",
-          "isBaseUnitVariant": true
-        }
-      ],
-      "dashboardUrls": {
-        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
-        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
-        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
-      }
-    },
-    {
-      "id": "40a528a0-4e0e-11ee-be56-0242ac120002",
-      "name": "configuration for Multi Round Campaigns",
-      "code": "MR-DN",
-      "group": "MALARIA",
-      "beneficiaryType": "HOUSEHOLD",
-      "observationStrategy": "DOT1",
-      "dashboardUrls": {
-        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
-        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
-        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
-      },
-      "cycles": [
-        {
-          "mandatoryWaitSinceLastCycleInDays": null,
-          "deliveries": [
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": null,
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000037",
-                  "quantity": 1
-                },
-                {
-                  "productVariantId": "PVAR-2022-12-20-000038",
-                  "quantity": 2
-                }
-              ],
-              "deliveryStrategy": "DIRECT"
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "10",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000037",
-                  "quantity": 1
-                }
-              ],
-              "deliveryStrategy": "DIRECT"
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "10",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000037",
-                  "quantity": 1
-                }
-              ],
-              "deliveryStrategy": "INDIRECT"
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "20",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000037",
-                  "quantity": 1
-                }
-              ],
-              "deliveryStrategy": "INDIRECT"
-            }
-          ]
-        },
-        {
-          "mandatoryWaitSinceLastCycleInDays": "30",
-          "deliveries": [
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "15",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000037",
-                  "quantity": 1
-                },
-                {
-                  "productVariantId": "PVAR-2022-12-20-000038",
-                  "quantity": 2
-                }
-              ],
-              "deliveryStrategy": "DIRECT"
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "10",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000037",
-                  "quantity": 1
-                }
-              ],
-              "deliveryStrategy": "INDIRECT"
-            },
-            {
-              "mandatoryWaitSinceLastDeliveryInDays": "20",
-              "ProductVariants": [
-                {
-                  "productVariantId": "PVAR-2022-12-20-000038",
-                  "quantity": 2
-                }
-              ],
-              "deliveryStrategy": "INDIRECT"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "644c4356-5214-11ee-be56-0242ac120002",
-      "name": "configuration for Multi Round Campaigns",
-      "code": "MR-DN",
-      "group": "MALARIA",
-      "beneficiaryType": "INDIVIDUAL",
-      "dashboardUrls": {
-        "NATIONAL_SUPERVISOR": "/health-ui/employee/dss/landing/national-health-dashboard",
-        "PROVINCIAL_SUPERVISOR": "/health-ui/employee/dss/dashboard/provincial-health-dashboard",
-        "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
-      },
-      "resources": [
-        {
-          "productVariantId": "PVAR-2023-02-22-000021",
-          "isBaseUnitVariant": false
-        },
-        {
-          "productVariantId": "PVAR-2023-03-03-000023",
+          "productVariantId": "PVAR-2024-02-22-000034",
           "isBaseUnitVariant": true
         }
       ],
       "observationStrategy": "DOT1",
       "validMinAge": 3,
-      "validMaxAge": 60,
+      "validMaxAge": 64,
       "cycles": [
         {
           "mandatoryWaitSinceLastCycleInDays": null,
-          "startDate": 1705861800000,
-          "endDate": 1706553000000,
+          "startDate": 1708540200000,
+          "endDate": 1709145000000,
           "id": 1,
           "deliveries": [
             {
@@ -211,11 +56,11 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000011",
+                      "productVariantId": "PVAR-2024-02-22-000036",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2024-02-22-000034",
                       "quantity": 1
                     }
                   ]
@@ -224,11 +69,11 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000010",
+                      "productVariantId": "PVAR-2024-02-22-000037",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2024-02-22-000035",
                       "quantity": 1
                     }
                   ]
@@ -244,7 +89,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2024-02-22-000036",
                       "quantity": 1
                     }
                   ]
@@ -253,7 +98,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2024-02-22-000034",
                       "quantity": 1
                     }
                   ]
@@ -269,7 +114,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2024-02-22-000037",
                       "quantity": 1
                     }
                   ]
@@ -278,7 +123,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2024-02-22-000035",
                       "quantity": 1
                     }
                   ]
@@ -289,10 +134,10 @@
         },
         {
           "mandatoryWaitSinceLastCycleInDays": "30",
-          "startDate": 1706725800000,
-          "endDate": 1707503400000,
+          "startDate": 1709577000000,
+          "endDate": 1710181800000,
           "id": 2,
-          "deliveries": [
+          "deliveries":[
             {
               "id": 1,
               "deliveryStrategy": "DIRECT",
@@ -302,11 +147,11 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000011",
+                      "productVariantId": "PVAR-2024-02-22-000036",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2024-02-22-000034",
                       "quantity": 1
                     }
                   ]
@@ -315,11 +160,11 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000010",
+                      "productVariantId": "PVAR-2024-02-22-000037",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2024-02-22-000035",
                       "quantity": 1
                     }
                   ]
@@ -335,7 +180,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2024-02-22-000036",
                       "quantity": 1
                     }
                   ]
@@ -344,7 +189,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2024-02-22-000034",
                       "quantity": 1
                     }
                   ]
@@ -360,7 +205,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2024-02-22-000037",
                       "quantity": 1
                     }
                   ]
@@ -369,7 +214,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2024-02-22-000035",
                       "quantity": 1
                     }
                   ]
@@ -377,6 +222,40 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "192a20d1-0edd-4108-925a-f37bf544d6c4",
+      "name": "Project type configuration for IRS - Nampula Campaigns",
+      "code": "LLIN-mz",
+      "group": "IRS - Nampula",
+      "beneficiaryType": "HOUSEHOLD",
+      "eligibilityCriteria": [
+        "All households are eligible."
+      ],
+      "dashboardUrls": {
+        "NATIONAL_SUPERVISOR": "/digit-ui/employee/dss/landing/national-health-dashboard",
+        "PROVINCIAL_SUPERVISOR": "/digit-ui/employee/dss/dashboard/provincial-health-dashboard",
+        "DISTRICT_SUPERVISOR": "/digit-ui/employee/dss/dashboard/district-health-dashboard"
+      },
+      "taskProcedure": [
+        "1 DDT is to be distributed per house.",
+        "1 Malathion is to be distributed per house.",
+        "1 Pyrethroid is to be distributed per house."
+      ],
+      "resources": [
+        {
+          "productVariantId": "PVAR-2024-02-22-000038",
+          "isBaseUnitVariant": true
+        },
+        {
+          "productVariantId": "PVAR-2024-02-22-000039",
+          "isBaseUnitVariant": true
+        },
+        {
+          "productVariantId": "PVAR-2024-02-22-000040",
+          "isBaseUnitVariant": true
         }
       ]
     }
