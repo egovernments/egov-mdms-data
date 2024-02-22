@@ -1,0 +1,142 @@
+{
+    "tenantId": "od",
+    "moduleName": "tenant",
+    "footer": [
+        {
+            "service": "contract",
+            "code": "IA",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "IA_CONDITION_1",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_2",
+                    "order": "2."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_3",
+                    "order": "3."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_4",
+                    "order": "4."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_5",
+                    "order": "5."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_6",
+                    "order": "6."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_7",
+                    "order": "7."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_8",
+                    "order": "8."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_9",
+                    "order": "9."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_10",
+                    "order": "10."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_11",
+                    "order": "11."
+                },
+                {
+                    "disclaimer": "IA_CONDITION_12",
+                    "order": "12."
+                }              
+            ]
+        },
+        {
+            "service": "contract",
+            "code": "IP",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "IP_CONDITION_1",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_2",
+                    "order": "2."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_3",
+                    "order": "3."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_4",
+                    "order": "4."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_5",
+                    "order": "5."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_6",
+                    "order": "6."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_7",
+                    "order": "7."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_8",
+                    "order": "8."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_9",
+                    "order": "9."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_10",
+                    "order": "10."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_11",
+                    "order": "11."
+                },
+                {
+                    "disclaimer": "IP_CONDITION_12",
+                    "order": "12."
+                }    
+            ]
+        },
+        {
+            "service": "contract",
+            "code": "NC",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "NON_COMPLETION_CONDITION_1",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "NON_COMPLETION_CONDITION_2",
+                    "order": "2."
+                }
+            ]
+        },
+        {
+            "service": "contract",
+            "code": "GN",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "GENERAL_CONDITION_1",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "GENERAL_CONDITION_2",
+                    "order": "2."
+                }
+            ]
+        }
+    ]
+  }

@@ -1,0 +1,27 @@
+
+{
+    "tenantId": "od",
+    "moduleName": "common-masters",
+    "SocialCategory": [
+        {
+            "name": "SC",
+            "code": "SC",
+            "active": true
+        },
+        {
+            "name": "ST",
+            "code": "ST",
+            "active": true
+        },
+        {
+            "name": "OBC",
+            "code": "OBC",
+            "active": true
+        },
+        {
+            "name": "Other",
+            "code": "OTHER",
+            "active": true
+        }
+    ]
+}

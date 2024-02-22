@@ -1,0 +1,43 @@
+{
+  "tenantId": "od",
+  "moduleName": "expense",
+  "HeadCodes": [
+    {
+      "code": "WEG",
+      "description": "Wages",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "SC",
+      "description": "Supervision Charge",
+      "active": true,
+      "calculationType": "fixed rate",
+      "rate": "7.5%",
+      "effectiveFrom": 177044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "GST",
+      "description": "Goods and Services Tax",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "MC",
+      "description": "Material Cost",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "PA",
+      "description": "Purchase Amount",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}

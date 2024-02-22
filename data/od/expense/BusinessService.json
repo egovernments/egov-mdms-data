@@ -1,0 +1,30 @@
+{
+    "tenantId": "od",
+    "moduleName": "expense",
+    "BusinessService": [
+      {
+        "businessService": "works.wages",
+        "code": "EXPENSE.WAGES"
+      },
+      {
+        "businessService": "works.purchase",
+        "code": "EXPENSE.PURCHASE"
+      },
+      {
+        "businessService": "works.supervision",
+        "code": "EXPENSE.SUPERVISION"
+      },
+      {
+        "businessService": "contract",
+        "code": "CONTRACT"
+      },
+      {
+        "businessService": "muster roll",
+        "code": "MR"
+      },
+      {
+        "businessService": "estimate",
+        "code": "ESTIMATE"
+      }
+    ]
+}

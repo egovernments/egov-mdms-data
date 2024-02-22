@@ -1,0 +1,758 @@
+{
+  "tenantId": "od",
+  "moduleName": "SEARCH",
+  "SearchQueryConfiguration": [
+    {
+      "module": "estimate",
+      "index": "estimate-inbox-v3",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.location.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.project.name",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "estimateId",
+          "path": "Data.estimateNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisionNumber",
+          "path": "Data.revisionNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "department",
+          "path": "Data.executingDepartment.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "typeOfWork",
+          "path": "Data.project.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectId",
+          "path": "Data.project.projectNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "fromProposalDate",
+          "path": "Data.proposalDate",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toProposalDate",
+          "path": "Data.proposalDate",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "businessService",
+          "path": "Data.businessService.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.estimateNumber",
+        "Data.revisionNumber",
+        "Data.versionNumber",
+        "Data.businessService",
+        "Data.executingDepartment",
+        "Data.proposalDate",
+        "Data.project",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.additionalDetails"
+      ]
+    },
+    {
+      "module": "muster",
+      "index": "muster-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "musterRollStatus",
+          "path": "Data.musterRollStatus.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "startDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "endDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "attendanceRegisterName",
+          "path": "Data.additionalDetails.attendanceRegisterName",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "musterRollNumber",
+          "path": "Data.musterRollNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.musterRollNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.individualEntries",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "project",
+      "index": "project-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.name",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "projectNumber",
+          "path": "Data.projectNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "boundary",
+          "path": "Data.address.boundary.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.projectNumber",
+        "Data.name",
+        "Data.address",
+        "Data.additionalDetails",
+        "Data.projectType",
+        "Data.description",
+        "Data.isDeleted",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "contract",
+      "index": "contract-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "workOrderNumber",
+          "path": "Data.contractNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "businessService",
+          "path": "Data.currentProcessInstance.businessService.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisedWorkOrderNumber",
+          "path": "Data.currentProcessInstance.businessId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "startDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "endDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.contractNumber",
+        "Data.totalContractedAmount",
+        "Data.contractType",
+        "Data.executingAuthority",
+        "Data.contractStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.lineItems",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "individual",
+      "index": "individual-index-v1",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "name",
+          "path": "Data.name.givenName",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "ward",
+          "path": "Data.address.ward.code.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "individualId",
+          "path": "Data.individualId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "id",
+          "path": "Data.id.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryKey",
+          "path": "Data.socialCategoryKey.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryValue",
+          "path": "Data.socialCategoryValue.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.individualId",
+        "Data.clientReferenceId",
+        "Data.userId",
+        "Data.name",
+        "Data.dateOfBirth",
+        "Data.gender",
+        "Data.bloodGroup",
+        "Data.mobileNumber",
+        "Data.altContactNumber",
+        "Data.email",
+        "Data.address",
+        "Data.fatherName",
+        "Data.husbandName",
+        "Data.relationship",
+        "Data.identifiers",
+        "Data.skills",
+        "Data.photo",
+        "Data.additionalFields",
+        "Data.isDeleted",
+        "Data.rowVersion",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "organisation",
+      "index": "organisation-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "name",
+          "path": "Data.name",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.applicationNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "orgNumber",
+          "path": "Data.orgNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "applicationStatus",
+          "path": "Data.applicationStatus.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "isActive",
+          "path": "Data.isActive.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "type",
+          "path": "Data.functions.*.type.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "functionIsActive",
+          "path": "Data.functions.*.isActive",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "boundaryCode",
+          "path": "Data.orgAddress.*.boundaryCode.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "identifierType",
+          "path": "Data.identifiers.*.type.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "identifierValue",
+          "path": "Data.identifiers.*.value.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.name",
+        "Data.applicationNumber",
+        "Data.orgNumber",
+        "Data.applicationStatus",
+        "Data.externalRefNumber",
+        "Data.isActive",
+        "Data.isActive",
+        "Data.orgAddress",
+        "Data.contactDetails",
+        "Data.identifiers",
+        "Data.functions",
+        "Data.jurisdiction",
+        "Data.documents",
+        "Data.additionalDetails",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "expense",
+      "index": "expense-bill-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "billType",
+          "path": "Data.businessService.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "billNumber",
+          "path": "Data.billNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "paymentStatus",
+          "path": "Data.paymentStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.billDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.billNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.businessService",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.totalAmount",
+        "Data.paymentStatus",
+        "Data.referenceId"
+      ]
+    },
+    {
+      "module": "ifms-pi",
+      "index": "ifms-pi-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "jitBillNo",
+          "path": "Data.jitBillNo.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "piType",
+          "path": "Data.piType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.piStatus.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "billNumber",
+          "path": "Data.additionalDetails.billNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.additionalDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.id",
+        "Data.tenantId",
+        "Data.jitBillNo",
+        "Data.parentPiNumber",
+        "Data.muktaReferenceId",
+        "Data.numBeneficiaries",
+        "Data.grossAmount",
+        "Data.netAmount",
+        "Data.piStatus",
+        "Data.piErrorResp",
+        "Data.beneficiaryDetails",
+        "Data.auditDetails",
+        "Data.additionalDetails"
+      ]
+    },
+    {
+      "module": "measurement-service",
+      "index": "measurement-service-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "measurementNumber",
+          "path": "Data.measurementNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "ward",
+          "path": "Data.contract.additionalDetails.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectId",
+          "path": "Data.contract.additionalDetails.projectId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.contract.additionalDetails.projectName.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.id",
+        "Data.referenceId",
+        "Data.measurementNumber",
+        "Data.measures",
+        "Data.history",
+        "Data.currentProcessInstance",
+        "Data.additionalDetails",
+        "Data.workflow",
+        "Data.wfStatus",
+        "Data.contract.additionalDetails",
+        "Data.contract.id",
+        "Data.contract.status",
+        "Data.contract.contractNumber",
+        "Data.contract.additionalDetails"
+        
+      ]
+    }
+  ]
+}

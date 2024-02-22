@@ -1,0 +1,106 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "IdFormat": [
+    {
+      "format": "ES/[fy:yyyy-yy]/[SEQ_ESTIMATE_NUM]",
+      "idname": "estimate.number"
+    },
+    {
+      "format": "LI/[fy:yyyy-yy]/[cy:MM]/[SEQ_LI_NUM]",
+      "idname": "loi.number"
+    },
+    {
+      "format": "MR/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_MUSTER_NUM]",
+      "idname": "muster.number"
+    },
+    {
+      "format": "WR/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_ATTENDANCE_REGISTER_NUM]",
+      "idname": "attendance.register.number"
+    },
+    {
+      "format": "PJ/[fy:yyyy-yy]/[SEQ_PROJECT_NUM]",
+      "idname": "project.number"
+    },
+    {
+      "format": "WO/[fy:yyyy-yy]/[SEQ_CONTRACT_NUM]",
+      "idname": "contract.number"
+    },
+    {
+      "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+      "idname": "individual.id"
+    },
+    {
+      "format": "ORG-[SEQ_ORG_NUM]",
+      "idname": "org.number"
+    },
+    {
+      "format": "SR/ORG/[cy:dd-MM-yyyy]/[SEQ_ORG_APP_NUM]",
+      "idname": "org.application.number"
+    },
+    {
+      "format": "SR/FUNC/[cy:dd-MM-yyyy]/[SEQ_FUNC_APP_NUM]",
+      "idname": "function.application.number"
+    },
+    {
+      "format": "WB/[fy:yyyy-yy]/[SEQ_WAGE_NUM]",
+      "idname": "expense.wages.bill.number"
+    },
+    {
+      "format": "PB/[fy:yyyy-yy]/[SEQ_PURCHASE_NUM]",
+      "idname": "expense.purchase.bill.number"
+    },
+    {
+      "format": "SB/[fy:yyyy-yy]/[SEQ_SUPERVISION_NUM]",
+      "idname": "expense.supervision.bill.number"
+    },
+    {
+      "format": "EP/[CITY.CODE]/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_EXPENSE_PAYMENT_NUMBER]",
+      "idname": "expense.payment.number"
+    },
+    {
+      "format": "SR_[SEQ_SUPERVISION_REF_NUM]",
+      "idname": "supervision.reference.number"
+    },
+    {
+      "format": "PR_[SEQ_PURCHASE_REF_NUM]",
+      "idname": "purchase.reference.number"
+    },
+    {
+      "format": "WR_[SEQ_WAGE_REF_NUM]",
+      "idname": "wage.reference.number"
+    },
+    {
+      "format": "PI-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
+      "idname": "ifms.pi.reference.number"
+    },
+    {
+      "format": "BN-[CITY.CODE]/[SEQ_IFMS_BENEFICIARY_NUMBER]",
+      "idname": "ifms.benef.reference.number"
+    },
+    {
+      "format": "TE/[fy:yyyy-yy]/[SEQ_CONT_SUPPLEMENT_NUM]",
+      "idname": "contract.supplement.number"
+    },
+    {
+      "format": "RE/[fy:yyyy-yy]/[SEQ_ESTIMATE_REVISION_NUM]",
+      "idname": "estimate.revision.number"
+    },
+    {
+      "format": "MB/[fy:yyyy-yy]/[SEQ_MEASUREMENT_NUM]",
+      "idname": "mb.reference.number"
+    },
+    {
+      "format": "SOR_[SEQ_SOR_REF_NUM]",
+      "idname": "works.sor.number"
+    },
+    {
+      "format": "RW/[fy:yyyy-yy]/[SEQ_CONT_REVISION_NUM]",
+      "idname": "contract.revision.number"
+    },
+    {
+      "format": "COR-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
+      "idname": "ifms.repi.reference.number"
+    }
+  ]
+}

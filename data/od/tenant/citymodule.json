@@ -1,0 +1,1210 @@
+{
+    "tenantId": "od",
+    "moduleName": "tenant",
+    "citymodule": [
+        {
+            "module": "Works",
+            "code": "Works",
+            "active": true,
+            "order": 1,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "AttendenceMgmt",
+            "code": "AttendenceMgmt",
+            "active": true,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Contracts",
+            "code": "Contracts",
+            "active": true,
+            "order": 5,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Expenditure",
+            "code": "Expenditure",
+            "active": true,
+            "order": 7,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Engagement",
+            "code": "Engagement",
+            "active": false,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "HRMS",
+            "code": "HRMS",
+            "active": true,
+            "order": 2,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Estimate",
+            "code": "Estimate",
+            "active": true,
+            "order": 3,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Masters",
+            "code": "Masters",
+            "active": true,
+            "order": 6,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Project",
+            "code": "Project",
+            "active": true,
+            "order": 8,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Mukta",
+            "code": "Mukta",
+            "active": true,
+            "order": 9,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "DSS",
+            "code": "DSS",
+            "active": true,
+            "order": 10,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Utilities",
+            "code": "Utilities",
+            "active": true,
+            "order": 11,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Measurement",
+            "code": "Measurement",
+            "active": true,
+            "order": 12,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        },
+        {
+            "module": "Workbench",
+            "code": "Workbench",
+            "active": true,
+            "order": 13,
+            "tenants": [
+                {
+                    "code": "od.jatni"
+                },
+                {
+                    "code": "od.dhenkanal"
+                },
+                {
+                    "code": "od.testing"
+                },
+                {
+                    "code": "od.balangir"
+                },
+                {
+                    "code": "od.balasore"
+                },
+                {
+                    "code": "od.padampur"
+                },
+                {
+                    "code": "od.bhadrak"
+                },
+                {
+                    "code": "od.boudhgarh"
+                },
+                {
+                    "code": "od.cuttack"
+                },
+                {
+                    "code": "od.athagarh"
+                },
+                {
+                    "code": "od.berhampur"
+                },
+                {
+                    "code": "od.hinjilicut"
+                },
+                {
+                    "code": "od.chatrapur"
+                },
+                {
+                    "code": "od.paradeep"
+                },
+                {
+                    "code": "od.jajpur"
+                },
+                {
+                    "code": "od.jharsuguda"
+                },
+                {
+                    "code": "od.kesinga"
+                },
+                {
+                    "code": "od.phulbani"
+                },
+                {
+                    "code": "od.keonjhargarh"
+                },
+                {
+                    "code": "od.jeypore"
+                },
+                {
+                    "code": "od.kotpad"
+                },
+                {
+                    "code": "od.baripada"
+                },
+                {
+                    "code": "od.puri"
+                },
+                {
+                    "code": "od.sambalpur"
+                },
+                {
+                    "code": "od.rourkela"
+                },
+                {
+                    "code": "od.bhubaneswar"
+                }
+            ]
+        }
+    ]
+}

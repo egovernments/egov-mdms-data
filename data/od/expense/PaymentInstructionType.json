@@ -1,0 +1,18 @@
+{
+    "tenantId": "od",
+    "moduleName": "expense",
+    "PaymentInstructionType": [
+     {  
+      "id":1,
+      "code":"ORIGINAL",
+      "i18nKey":"EXP_PI_TYPE_ORIGINAL",
+      "active":true
+     },
+     {
+      "id":2,
+      "code":"REVISED",
+      "i18nKey":"EXP_PI_TYPE_REVISED",
+      "active":true
+     }
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "OrgFunctionClass": [
+    {
+      "code": "A",
+      "description": "Class A",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "B",
+      "description": "Class B",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "C",
+      "description": "Class C",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "D",
+      "description": "Class D",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "NA",
+      "description": "Not Applicable",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}

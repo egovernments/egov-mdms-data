@@ -1,0 +1,341 @@
+{
+  "tenantId": "od",
+  "moduleName": "common-masters",
+  "WageSeekerSkills": [
+    {
+      "id": 1,
+      "code": "UNSKILLED.MALE_MULIA",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "UNSKILLED.FEMALE_MULIA",
+      "active": true
+    },
+    {
+      "id": 3,
+      "code": "UNSKILLED.SURVEY_KHALASI_CHAIN_MAN",
+      "active": true
+    },
+    {
+      "id": 4,
+      "code": "UNSKILLED.SCAVANGER",
+      "active": true
+    },
+    {
+      "id": 5,
+      "code": "SEMI_SKILLED.MULIA_WORKING_IN_WATER_OR_ARDUOUS_NATURE_OF_WORK",
+      "active": true
+    },
+    {
+      "id": 6,
+      "code": "SEMI_SKILLED.NIGHTMULIA_OR_ATTENDANTWOR_IN_FLOODANDOTHER_EMERGENT_WORK",
+      "active": true
+    },
+    {
+      "id": 7,
+      "code": "SEMI_SKILLED.MULIA_FOR_HANDLING_HOT_BINDER_AND_TAR_BOILER_MEN",
+      "active": true
+    },
+    {
+      "id": 8,
+      "code": "SEMI_SKILLED.SANGI_MULIA",
+      "active": true
+    },
+    {
+      "id": 9,
+      "code": "SEMI_SKILLED.PILE_DRIVING_MATE_GUIDE_MAN",
+      "active": true
+    },
+    {
+      "id": 10,
+      "code": "SEMI_SKILLED.MATE",
+      "active": true
+    },
+    {
+      "id": 11,
+      "code": "SEMI_SKILLED.HLPR_CARPNTRBLKSMTHPANTR_BLSTRPLMBRELCTRCN_FITRWLDR",
+      "active": true
+    },
+    {
+      "id": 12,
+      "code": "SEMI_SKILLED.HAMMER_MAN",
+      "active": true
+    },
+    {
+      "id": 13,
+      "code": "SEMI_SKILLED.THATCHER_GHARAMI",
+      "active": true
+    },
+    {
+      "id": 14,
+      "code": "SEMI_SKILLED.TILE_TURNER",
+      "active": true
+    },
+    {
+      "id": 15,
+      "code": "SEMI_SKILLED.BOAT_MAN",
+      "active": true
+    },
+    {
+      "id": 16,
+      "code": "SEMI_SKILLED.BHISTI",
+      "active": true
+    },
+    {
+      "id": 17,
+      "code": "SEMI_SKILLED.WELL_SINKER",
+      "active": true
+    },
+    {
+      "id": 18,
+      "code": "SEMI_SKILLED.ROD_BINDER_AND_BENDER",
+      "active": true
+    },
+    {
+      "id": 19,
+      "code": "SEMI_SKILLED.CLEANER_SWEEPER",
+      "active": true
+    },
+    {
+      "id": 20,
+      "code": "SEMI_SKILLED.STONE_PACKER",
+      "active": true
+    },
+    {
+      "id": 21,
+      "code": "SEMI_SKILLED.PUMP_HELPER",
+      "active": true
+    },
+    {
+      "id": 22,
+      "code": "SEMI_SKILLED.WATCH_MAN_STORE_GURKHA_SECURITY_GUARD",
+      "active": true
+    },
+    {
+      "id": 23,
+      "code": "SEMI_SKILLED.BELLOW_MAN",
+      "active": true
+    },
+    {
+      "id": 24,
+      "code": "SKILLED.BLASTER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 25,
+      "code": "SKILLED.MASON_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 26,
+      "code": "SKILLED.CARPENTER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 27,
+      "code": "SKILLED.BLACKSMITH_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 28,
+      "code": "SKILLED.FITTER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 29,
+      "code": "SKILLED.PAINTER_POLISHER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 30,
+      "code": "SKILLED.WELDER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 31,
+      "code": "SKILLED.PLUMBER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 32,
+      "code": "SKILLED.DRILLER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 33,
+      "code": "SKILLED.STONE DRESSER_CUTTER_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 34,
+      "code": "SKILLED.COBBLER_WITH_TOOLS_SECOND_CLASS",
+      "active": true
+    },
+    {
+      "id": 35,
+      "code": "SKILLED.WIREMAN_LIFTOPRTOR_DIESELPUMPDRVR_TLPHONEOPRTR_SECNDCLAS",
+      "active": true
+    },
+    {
+      "id": 36,
+      "code": "SKILLED.BORING_MISTRY_PIPE_DRIVER",
+      "active": true
+    },
+    {
+      "id": 37,
+      "code": "SKILLED.ELECTRICIAN_RIGGER_LINE_MAN_TELEPHONE_ATTENDENT",
+      "active": true
+    },
+    {
+      "id": 38,
+      "code": "SKILLED.GARDENER",
+      "active": true
+    },
+    {
+      "id": 39,
+      "code": "SKILLED.AMIN",
+      "active": true
+    },
+    {
+      "id": 40,
+      "code": "SKILLED.TRACER",
+      "active": true
+    },
+    {
+      "id": 41,
+      "code": "SKILLED.JR_PROGRESS_RECORDER",
+      "active": true
+    },
+    {
+      "id": 42,
+      "code": "SKILLED.STORE_KEEPER_GR_IV_STORE_ASSITANT",
+      "active": true
+    },
+    {
+      "id": 43,
+      "code": "SKILLED.ACCOUNT_CLERK_CLERK_TYPIST",
+      "active": true
+    },
+    {
+      "id": 44,
+      "code": "SKILLED.TOOL_KEEPER_TIME_KEEPER_MUNSI",
+      "active": true
+    },
+    {
+      "id": 45,
+      "code": "HIGHLY_SKILLED.BLASTER_LICENSED",
+      "active": true
+    },
+    {
+      "id": 46,
+      "code": "HIGHLY_SKILLED.MASON_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 47,
+      "code": "HIGHLY_SKILLED.CARPENTER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 48,
+      "code": "HIGHLY_SKILLED.BLACKSMITH_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 49,
+      "code": "HIGHLY_SKILLED.FITTER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 50,
+      "code": "HIGHLY_SKILLED.PAINTER_POLISHER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 51,
+      "code": "HIGHLY_SKILLED.WELDER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 52,
+      "code": "HIGHLY_SKILLED.PLUMBER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 53,
+      "code": "HIGHLY_SKILLED.DRILLER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 54,
+      "code": "HIGHLY_SKILLED.STONE_DRESSER_CUTTER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 55,
+      "code": "HIGHLY_SKILLED.DIVERFOR_WELLSINKING_INBRIDGE_PERSHIFT_FOURHOURS",
+      "active": true
+    },
+    {
+      "id": 56,
+      "code": "HIGHLY_SKILLED.ELCTCNAIRCNDTPLNTWIREMANFILL_DSELPMPOPRTR_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 57,
+      "code": "HIGHLY_SKILLED.HEAVY_VEHICLE_DRIVER_OPERATOR",
+      "active": true
+    },
+    {
+      "id": 58,
+      "code": "HIGHLY_SKILLED.AUTO_ELECTRICIAN",
+      "active": true
+    },
+    {
+      "id": 59,
+      "code": "HIGHLY_SKILLED.GUINITING_MACHINE_OPERATOR",
+      "active": true
+    },
+    {
+      "id": 60,
+      "code": "HIGHLY_SKILLED.SENIOR_ACCOUNTANT_STENOGRAPHER",
+      "active": true
+    },
+    {
+      "id": 61,
+      "code": "HIGHLY_SKILLED.SUPERVISOR_MANAGER",
+      "active": true
+    },
+    {
+      "id": 62,
+      "code": "HIGHLY_SKILLED.TESTNG_LABORTRYASISTNT_INSTRMNT_TLPHNMECHNIC",
+      "active": true
+    },
+    {
+      "id": 63,
+      "code": "HIGHLY_SKILLED.RIGER_ND_COBLR_WITH_TOOLS_DRVR_HEAVY_VHICL",
+      "active": true
+    },
+    {
+      "id": 64,
+      "code": "OTHERS.BORING_MISTRY_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 65,
+      "code": "OTHERS.WINCH_OPERATOR",
+      "active": true
+    },
+    {
+      "id": 66,
+      "code": "OTHERS.WELL_SINKER_SPECIAL",
+      "active": true
+    },
+    {
+      "id": 67,
+      "code": "OTHERS.HELPER_TO_WELL_SINKER",
+      "active": true
+    }
+  ]
+}

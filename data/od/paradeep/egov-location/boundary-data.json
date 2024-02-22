@@ -1,0 +1,993 @@
+{
+  "tenantId": "od.paradeep",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "paradeep",
+        "localname": "paradeep",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "od.paradeep",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Ward 1",
+            "localname": "Ward1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W001",
+            "children": [
+              {
+                "id": 20,
+                "boundaryNum": 1,
+                "name": "Fishary Colony",
+                "localname": "Fishary Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP01",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 21,
+                "boundaryNum": 1,
+                "name": "Madelipada",
+                "localname": "Madelipada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP02",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 22,
+                "boundaryNum": 1,
+                "name": "Marketpada",
+                "localname": "Marketpada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP03",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 23,
+                "boundaryNum": 1,
+                "name": "Mundapada",
+                "localname": "Mundapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP04",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 24,
+                "boundaryNum": 1,
+                "name": "Banglipada",
+                "localname": "Banglipada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP05",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "boundaryNum": 1,
+            "name": "Ward 2",
+            "localname": "Ward2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W002",
+            "children": [
+              {
+                "id": 25,
+                "boundaryNum": 1,
+                "name": "Rajib Nagar",
+                "localname": "Rajib Nagar",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP06",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 26,
+                "boundaryNum": 1,
+                "name": "Gopinath Colony",
+                "localname": "Gopinath Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP07",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 27,
+                "boundaryNum": 1,
+                "name": "Bijaya Nagar",
+                "localname": "Bijaya Nagar",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP08",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "boundaryNum": 1,
+            "name": "Ward 3",
+            "localname": "Ward3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W003",
+            "children": [
+              {
+                "id": 28,
+                "boundaryNum": 1,
+                "name": "Sukhuakhala",
+                "localname": "Sukhuakhala",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP09",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 29,
+                "boundaryNum": 1,
+                "name": "Lockpada",
+                "localname": "Lockpada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP10",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 30,
+                "boundaryNum": 1,
+                "name": "Jardarpada",
+                "localname": "Jardarpada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP11",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 31,
+                "boundaryNum": 1,
+                "name": "Talapada",
+                "localname": "Talapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP12",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 32,
+                "boundaryNum": 1,
+                "name": "Jagannath Colony",
+                "localname": "Jagannath Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP13",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "boundaryNum": 1,
+            "name": "Ward 4",
+            "localname": "Ward4",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W004",
+            "children": [
+              {
+                "id": 33,
+                "boundaryNum": 1,
+                "name": "Bhitargarh A,B,C,D,E Plot",
+                "localname": "Bhitargarh A,B,C,D,E Plot",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP14",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "Ward 5",
+            "localname": "Ward5",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W005",
+            "children": [
+              {
+                "id": 34,
+                "boundaryNum": 1,
+                "name": "Balijhara",
+                "localname": "Balijhara",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP15",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 35,
+                "boundaryNum": 1,
+                "name": "Santoshi Nagar",
+                "localname": "Santoshi Nagar",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP16",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 36,
+                "boundaryNum": 1,
+                "name": "Rice Mill",
+                "localname": "Rice Mill",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP17",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 37,
+                "boundaryNum": 1,
+                "name": "Giridhari Chhaka",
+                "localname": "Giridhari Chhaka",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP18",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "boundaryNum": 1,
+            "name": "Ward 6",
+            "localname": "Ward6",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W006",
+            "children": [
+              {
+                "id": 38,
+                "boundaryNum": 1,
+                "name": "Bauriapalanda",
+                "localname": "Bauriapalanda",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP19",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 39,
+                "boundaryNum": 1,
+                "name": "Trainline pada",
+                "localname": "Trainline pada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP20",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 40,
+                "boundaryNum": 1,
+                "name": "Port Colony",
+                "localname": "Port Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP21",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 41,
+                "boundaryNum": 1,
+                "name": "Railway Colony",
+                "localname": "Railway Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP22",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 42,
+                "boundaryNum": 1,
+                "name": "Prananatha Colony",
+                "localname": "Prananatha Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP23",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "boundaryNum": 1,
+            "name": "Ward 7",
+            "localname": "Ward7",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W007",
+            "children": [
+              {
+                "id": 43,
+                "boundaryNum": 1,
+                "name": "Sarala Colony",
+                "localname": "Sarala Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP24",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 44,
+                "boundaryNum": 1,
+                "name": "Fandi Coony",
+                "localname": "Fandi Coony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP25",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 45,
+                "boundaryNum": 1,
+                "name": "Satsang Colony",
+                "localname": "Satsang Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP26",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "boundaryNum": 1,
+            "name": "Ward 8",
+            "localname": "Ward8",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W008",
+            "children": [
+              {
+                "id": 46,
+                "boundaryNum": 1,
+                "name": "Brundaban Colony-1(Trinatha Colony)",
+                "localname": "Brundaban Colony-1(Trinatha Colony)",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP27",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 47,
+                "boundaryNum": 1,
+                "name": "Mundapada",
+                "localname": "Mundapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP28",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 48,
+                "boundaryNum": 1,
+                "name": "Lokantha Colony",
+                "localname": "Lokantha Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP29",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "boundaryNum": 1,
+            "name": "Ward 9",
+            "localname": "Ward39",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W009",
+            "children": [
+              {
+                "id": 49,
+                "boundaryNum": 1,
+                "name": "Brundaban Colony 2,3,4,5 Plot",
+                "localname": "Brundaban Colony 2,3,4,5 Plot",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP30",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "boundaryNum": 1,
+            "name": "Ward 10",
+            "localname": "Ward10",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W010",
+            "children": [
+              {
+                "id": 50,
+                "boundaryNum": 1,
+                "name": "C.L.R Plot",
+                "localname": "C.L.R Plot",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP31",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 51,
+                "boundaryNum": 1,
+                "name": "GJAI Colony",
+                "localname": "GJAI Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP32",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "boundaryNum": 1,
+            "name": "Ward 11",
+            "localname": "Ward11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W011",
+            "children": [
+              {
+                "id": 52,
+                "boundaryNum": 1,
+                "name": "Gopaljew Colony",
+                "localname": "Gopaljew Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP33",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 53,
+                "boundaryNum": 1,
+                "name": "Kabin Market",
+                "localname": "Kabin Market",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP34",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "boundaryNum": 1,
+            "name": "Ward 12",
+            "localname": "Ward12",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W012",
+            "children": [
+              {
+                "id": 54,
+                "boundaryNum": 1,
+                "name": "Brundaban Colony",
+                "localname": "Brundaban Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP35",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "boundaryNum": 1,
+            "name": "Ward 13",
+            "localname": "Ward13",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W013",
+            "children": [
+              {
+                "id": 55,
+                "boundaryNum": 1,
+                "name": "Bhimabhoi Colony Old /New",
+                "localname": "Bhimabhoi Colony Old /New",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP36",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 56,
+                "boundaryNum": 1,
+                "name": "Jagannatha Colony",
+                "localname": "Jagannatha Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP37",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 57,
+                "boundaryNum": 1,
+                "name": "Munadapda",
+                "localname": "Munadapda",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP38",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "boundaryNum": 1,
+            "name": "Ward 14",
+            "localname": "Ward14",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W014",
+            "children": [
+              {
+                "id": 58,
+                "boundaryNum": 1,
+                "name": "Hariboliamatha",
+                "localname": "Hariboliamatha",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP39",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 59,
+                "boundaryNum": 1,
+                "name": "Nuabazar",
+                "localname": "Nuabazar",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP40",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 60,
+                "boundaryNum": 1,
+                "name": "Sanjay Gandhipada",
+                "localname": "Sanjay Gandhipada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP41",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 61,
+                "boundaryNum": 1,
+                "name": "Mundapada",
+                "localname": "Mundapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP42",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "boundaryNum": 1,
+            "name": "Ward 15",
+            "localname": "Ward15",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W015",
+            "children": [
+              {
+                "id": 62,
+                "boundaryNum": 1,
+                "name": "Kamala Cinema Basti",
+                "localname": "Kamala Cinema Basti",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP43",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 63,
+                "boundaryNum": 1,
+                "name": "Market Basti",
+                "localname": "Market Basti",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP44",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "boundaryNum": 1,
+            "name": "Ward 16",
+            "localname": "Ward16",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W016",
+            "children": [
+              {
+                "id": 64,
+                "boundaryNum": 1,
+                "name": "Odiapada",
+                "localname": "Odiapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP45",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 65,
+                "boundaryNum": 1,
+                "name": "Telugupada",
+                "localname": "Telugupada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP46",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 66,
+                "boundaryNum": 1,
+                "name": "Telephone Colony",
+                "localname": "Telephone Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP47",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "boundaryNum": 1,
+            "name": "Ward 17",
+            "localname": "Ward17",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W017",
+            "children": [
+              {
+                "id": 67,
+                "boundaryNum": 1,
+                "name": "Noliasahi Sandhakuda",
+                "localname": "Noliasahi Sandhakuda",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP48",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "boundaryNum": 1,
+            "name": "Ward 18",
+            "localname": "Ward18",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W018",
+            "children": [
+              {
+                "id": 68,
+                "boundaryNum": 1,
+                "name": "Reddy Pada",
+                "localname": "Reddy Pada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP49",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 69,
+                "boundaryNum": 1,
+                "name": "Ram Mandir Area",
+                "localname": "Ram Mandir Area",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP50",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 70,
+                "boundaryNum": 1,
+                "name": "Basudev Coloy",
+                "localname": "Basudev Coloy",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP51",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 71,
+                "boundaryNum": 1,
+                "name": "Jadaba Pada",
+                "localname": "Jadaba Pada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP52",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "boundaryNum": 1,
+            "name": "Ward 19",
+            "localname": "Ward19",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W019",
+            "children": [
+              {
+                "id": 72,
+                "boundaryNum": 1,
+                "name": "Bangalipada",
+                "localname": "Bangalipada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP53",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 73,
+                "boundaryNum": 1,
+                "name": "Gangamandir Pada",
+                "localname": "Gangamandir Pada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP54",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 74,
+                "boundaryNum": 1,
+                "name": "Keutapada",
+                "localname": "Keutapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP55",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 75,
+                "boundaryNum": 1,
+                "name": "Trinatha Colony",
+                "localname": "Trinatha Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP56",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 76,
+                "boundaryNum": 1,
+                "name": "Sitala Mandir Colony",
+                "localname": "Sitala Mandir Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "PDP57",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

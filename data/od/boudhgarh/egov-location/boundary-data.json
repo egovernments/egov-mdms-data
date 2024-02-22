@@ -1,0 +1,943 @@
+{
+  "tenantId": "od.boudhgarh",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "boudhgarh",
+        "localname": "boudhgarh",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "od.boudhgarh",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Ward 1",
+            "localname": "Ward1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W001",
+            "children": [
+              {
+                "id": 19,
+                "boundaryNum": 1,
+                "name": "Bridge Chhack",
+                "localname": "Bridge Chhack",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH01",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 20,
+                "boundaryNum": 1,
+                "name": "LIC & Irrigation Colony",
+                "localname": "LIC & Irrigation Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH02",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 21,
+                "boundaryNum": 1,
+                "name": "Rameshwar Vihar",
+                "localname": "Rameshwar Vihar",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH03",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 22,
+                "boundaryNum": 1,
+                "name": "Gaigotha Padia",
+                "localname": "Gaigotha Padia",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH04",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "boundaryNum": 1,
+            "name": "Ward 2",
+            "localname": "Ward2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W002",
+            "children": [
+              {
+                "id": 23,
+                "boundaryNum": 1,
+                "name": "Chandrachuda Mandir Ghat",
+                "localname": "Chandrachuda Mandir Ghat",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH05",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 24,
+                "boundaryNum": 1,
+                "name": "Bagicha Sahi",
+                "localname": "Bagicha Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH06",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 25,
+                "boundaryNum": 1,
+                "name": "Sana Malisahi",
+                "localname": "Sana Malisahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH07",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "boundaryNum": 1,
+            "name": "Ward 3",
+            "localname": "Ward3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W003",
+            "children": [
+              {
+                "id": 26,
+                "boundaryNum": 1,
+                "name": "Keuta Sahi",
+                "localname": "Keuta Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH08",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 27,
+                "boundaryNum": 1,
+                "name": "Nadi Khandi Sahi",
+                "localname": "Nadi Khandi Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH09",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 28,
+                "boundaryNum": 1,
+                "name": "Daily Market",
+                "localname": "Daily Market",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH10",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 29,
+                "boundaryNum": 1,
+                "name": "Pundri Ghat",
+                "localname": "Pundri Ghat",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH11",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "boundaryNum": 1,
+            "name": "Ward 4",
+            "localname": "Ward4",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W004",
+            "children": [
+              {
+                "id": 30,
+                "boundaryNum": 1,
+                "name": "Dani Sahi",
+                "localname": "Dani Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH12",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 31,
+                "boundaryNum": 1,
+                "name": "Old Daily Market",
+                "localname": "Old Daily Market",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH13",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 32,
+                "boundaryNum": 1,
+                "name": "Suda Sahi",
+                "localname": "Suda Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH14",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 33,
+                "boundaryNum": 1,
+                "name": "Kulipada Ghat",
+                "localname": "Kulipada Ghat",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH15",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 34,
+                "boundaryNum": 1,
+                "name": "Model Police Station",
+                "localname": "Model Police Station",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH16",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 35,
+                "boundaryNum": 1,
+                "name": "Shaheed Chhack",
+                "localname": "Shaheed Chhack",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH17",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "boundaryNum": 1,
+            "name": "Ward 5",
+            "localname": "Ward5",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W005",
+            "children": [
+              {
+                "id": 36,
+                "boundaryNum": 1,
+                "name": "Dist. Headquarter Hospital (DHH)",
+                "localname": "Dist. Headquarter Hospital (DHH)",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH18",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 37,
+                "boundaryNum": 1,
+                "name": "Khadala Sahi",
+                "localname": "Khadala Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH19",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 38,
+                "boundaryNum": 1,
+                "name": "Suda Sahi",
+                "localname": "Suda Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH20",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 39,
+                "boundaryNum": 1,
+                "name": "Gandhi Chhack to Medical Chhack",
+                "localname": "Gandhi Chhack to Medical Chhack",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH21",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "boundaryNum": 1,
+            "name": "Ward 6",
+            "localname": "Ward6",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W006",
+            "children": [
+              {
+                "id": 40,
+                "boundaryNum": 1,
+                "name": "Babu Sahi",
+                "localname": "Babu Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH22",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 41,
+                "boundaryNum": 1,
+                "name": "Nala Khandi Sahi",
+                "localname": "Nala Khandi Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH23",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 42,
+                "boundaryNum": 1,
+                "name": "Amin Sahi",
+                "localname": "Amin Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH24",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 43,
+                "boundaryNum": 1,
+                "name": "Boudh Panchayat College",
+                "localname": "Boudh Panchayat College",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH25",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 44,
+                "boundaryNum": 1,
+                "name": "Stadium",
+                "localname": "Stadium",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH26",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 45,
+                "boundaryNum": 1,
+                "name": "NAC Office to Vigilance Office",
+                "localname": "NAC Office to Vigilance Office",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH27",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 46,
+                "boundaryNum": 1,
+                "name": "Left Side of NAC Chhack to Lipsa Chhack",
+                "localname": "Left Side of NAC Chhack to Lipsa Chhack",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH28",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "boundaryNum": 1,
+            "name": "Ward 7",
+            "localname": "Ward7",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W007",
+            "children": [
+              {
+                "id": 47,
+                "boundaryNum": 1,
+                "name": "Kulipada Ghat to Rajabati, Rathasahi",
+                "localname": "Kulipada Ghat to Rajabati, Rathasahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH29",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 48,
+                "boundaryNum": 1,
+                "name": "J D High School Lane",
+                "localname": "J D High School Lane",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH30",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 49,
+                "boundaryNum": 1,
+                "name": "Jarikhandi Buddhadev Sahi",
+                "localname": "Jarikhandi Buddhadev Sahi",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH31",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 50,
+                "boundaryNum": 1,
+                "name": "MCC-MRF Wealth Center",
+                "localname": "MCC-MRF Wealth Center",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH32",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 51,
+                "boundaryNum": 1,
+                "name": "Town Hall Area",
+                "localname": "Town Hall Area",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH33",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "boundaryNum": 1,
+            "name": "Ward 8",
+            "localname": "Ward8",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W008",
+            "children": [
+              {
+                "id": 52,
+                "boundaryNum": 1,
+                "name": "Podapada",
+                "localname": "Podapada",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH34",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 53,
+                "boundaryNum": 1,
+                "name": "Jagannatha Ghat",
+                "localname": "Jagannatha Ghat",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH35",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 54,
+                "boundaryNum": 1,
+                "name": "Santoshi Mandir Ghat",
+                "localname": "Santoshi Mandir Ghat",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH36",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "boundaryNum": 1,
+            "name": "Ward 9",
+            "localname": "Ward39",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W009",
+            "children": [
+              {
+                "id": 55,
+                "boundaryNum": 1,
+                "name": "Nuasahi-Refugee Colony",
+                "localname": "Nuasahi-Refugee Colony",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH37",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 56,
+                "boundaryNum": 1,
+                "name": "Dist. Court & Museum",
+                "localname": "Dist. Court & Museum",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH38",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 57,
+                "boundaryNum": 1,
+                "name": "Wireless Chhack",
+                "localname": "Wireless Chhack",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH39",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 58,
+                "boundaryNum": 1,
+                "name": "Collectorate to Central School",
+                "localname": "Collectorate to Central School",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH40",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 59,
+                "boundaryNum": 1,
+                "name": "Kacheri Padia",
+                "localname": "Kacheri Padia",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH41",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 60,
+                "boundaryNum": 1,
+                "name": "SP Office, Boudh",
+                "localname": "SP Office, Boudh",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH42",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 61,
+                "boundaryNum": 1,
+                "name": "Mahanadi Vihar Park",
+                "localname": "Mahanadi Vihar Park",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH43",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "boundaryNum": 1,
+            "name": "Ward 10",
+            "localname": "Ward10",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W010",
+            "children": [
+              {
+                "id": 62,
+                "boundaryNum": 1,
+                "name": "Bapujinagar W no. 10",
+                "localname": "Bapujinagar W no. 10",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH44",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "boundaryNum": 1,
+            "name": "Ward 11",
+            "localname": "Ward11",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W011",
+            "children": [
+              {
+                "id": 63,
+                "boundaryNum": 1,
+                "name": "Rajanpali",
+                "localname": "Rajanpali",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH46",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "boundaryNum": 1,
+            "name": "Ward 12",
+            "localname": "Ward12",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W012",
+            "children": [
+              {
+                "id": 64,
+                "boundaryNum": 1,
+                "name": "Butupali",
+                "localname": "Butupali",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH47",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "boundaryNum": 1,
+            "name": "Ward 13",
+            "localname": "Ward13",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W013",
+            "children": [
+              {
+                "id": 65,
+                "boundaryNum": 1,
+                "name": "Marjakud Gramadebati Mandir",
+                "localname": "Marjakud Gramadebati Mandir",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH50",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "boundaryNum": 1,
+            "name": "Ward 14",
+            "localname": "Ward14",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W014",
+            "children": [
+              {
+                "id": 66,
+                "boundaryNum": 1,
+                "name": "Marjakud",
+                "localname": "Marjakud",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH51",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "boundaryNum": 1,
+            "name": "Ward 15",
+            "localname": "Ward15",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W015",
+            "children": [
+              {
+                "id": 67,
+                "boundaryNum": 1,
+                "name": "Khaliabagicha",
+                "localname": "Khaliabagicha",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH52",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 68,
+                "boundaryNum": 1,
+                "name": "Bus Stand",
+                "localname": "Bus Stand",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH53",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 69,
+                "boundaryNum": 1,
+                "name": "PHD Office",
+                "localname": "PHD Office",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH54",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 70,
+                "boundaryNum": 1,
+                "name": "Kalabandha",
+                "localname": "Kalabandha",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH55",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "boundaryNum": 1,
+            "name": "Ward 16",
+            "localname": "Ward16",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W016",
+            "children": [
+              {
+                "id": 71,
+                "boundaryNum": 1,
+                "name": "Bapujinagar W no. 10",
+                "localname": "Bapujinagar W no. 10",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH44",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "boundaryNum": 1,
+            "name": "Ward 17",
+            "localname": "Ward17",
+            "longitude": null,
+            "latitude": null,
+            "label": "Ward",
+            "code": "W017",
+            "children": [
+              {
+                "id": 72,
+                "boundaryNum": 1,
+                "name": "Padhi Sahi, Butupali",
+                "localname": "Padhi Sahi, Butupali",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH48",
+                "pincode": [],
+                "area": "",
+                "children": []
+              },
+              {
+                "id": 73,
+                "boundaryNum": 1,
+                "name": "Khadala Sahi, Butupali",
+                "localname": "Khadala Sahi, Butupali",
+                "longitude": 0,
+                "latitude": 0,
+                "label": "Locality",
+                "code": "BOUDH49",
+                "pincode": [],
+                "area": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

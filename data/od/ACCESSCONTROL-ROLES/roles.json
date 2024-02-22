@@ -1,0 +1,200 @@
+{
+  "tenantId": "od",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "HRMS_ADMIN",
+      "name": "HRMS Admin",
+      "description": "HRMS Admin"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "SUPER USER",
+      "description": "SUPER USER"
+    },   
+    {
+      "code": "ORG_ADMIN",
+      "name": "Organization admin",
+      "description": "Role for the admin of any organization"
+    },
+    {
+      "code": "ORG_VIEWER",
+      "name": "Organization viewer",
+      "description": "Organization viewer"
+    },
+    {
+      "code": "WORK_ORDER_CREATOR",
+      "name": "WORK ORDER CREATOR",
+      "description": "Creator of a contract"
+    },
+    {
+      "code": "WORK_ORDER_VERIFIER",
+      "name": "WORK ORDER VERIFIER",
+      "description": "Verifier of a contract"
+    },
+    {
+      "code": "WORK_ORDER_APPROVER",
+      "name": "WORK ORDER APPROVER",
+      "description": "Approver of a contract"
+    },
+    {
+      "code": "OFFICER_IN_CHARGE",
+      "name": "OFFICER IN CHARGE",
+      "description": "Officer in charge of the contract"
+    },
+    {
+      "code": "MUKTA_ADMIN",
+      "name": "MUKTA Admin",
+      "description": "Officer in charge of the Masters"
+    },
+    {
+      "code": "STADMIN",
+      "name": "State Dashboard Admin",
+      "description": "State Dashboard Admin"
+    },
+    {
+      "code": "ESTIMATE_CREATOR",
+      "name": "ESTIMATE CREATOR",
+      "description": "Estimate Creator"
+    },
+    {	
+      "code": "ESTIMATE_VIEWER",	
+      "name": "ESTIMATE VIEWER",	
+      "description": "Estimate VIEWER having search api access"	
+    },
+    {
+      "code": "ESTIMATE_VERIFIER",
+      "name": "ESTIMATE VERIFIER",
+      "description": "Estimate Verifier"
+    },
+    {
+      "code": "TECHNICAL_SANCTIONER",
+      "name": "TECHNICAL SANCTIONER",
+      "description": "Technical sanctioner"
+    },
+    {
+      "code": "ESTIMATE_APPROVER",
+      "name": "ESTIMATE APPROVER",
+      "description": "Estimate Approver"
+    },
+    {
+      "code": "PROJECT_CREATOR",
+      "name": "PROJECT CREATOR",
+      "description": "Project Creator"
+    },
+    {
+      "code": "PROJECT_VIEWER",
+      "name": "PROJECT VIEWER",
+      "description": "Project Viewer"
+    },
+    {
+      "code": "MUSTER_ROLL_VERIFIER",
+      "name": "MUSTER ROLL VERIFIER",
+      "description": "Muster Roll Viewer"
+    },
+    {
+      "code": "MUSTER_ROLL_APPROVER",
+      "name": "MUSTER ROLL APPROVER",
+      "description": "Muster Roll Approver"
+    },
+    {
+      "code": "BILL_CREATOR",
+      "name": "BILL_CREATOR",
+      "description": "Bill Creator"
+    },
+    {
+      "code": "BILL_VIEWER",
+      "name": "BILL_VIEWER",
+      "description": "Bill Viewer"
+    },
+    {
+      "code": "BILL_APPROVER",
+      "name": "BILL_APPROVER",
+      "description": "Bill Approver"
+    },
+    {
+      "code": "BILL_VERIFIER",
+      "name": "BILL_VERIFIER",
+      "description": "Bill Verifier"
+    }, {
+      "code": "WORK_ORDER_VIEWER",
+      "name": "WORK_ORDER_VIEWER",
+      "description": "Workorder Viewer"
+    },
+    {
+      "code": "EMPLOYEE_COMMON",
+      "name": "Employee Common",
+      "description": "Default role for all employees that need hrms search, edit profile, logout action"
+    },
+    {
+      "code": "SYSTEM",
+      "name": "System",
+      "description": "Default role for system user"
+    },
+    {
+      "code": "BILL_ACCOUNTANT",
+      "name": "BILL_ACCOUNTANT",
+      "description": "Bill Accountant"
+     },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
+    },
+    {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Default role for citizen"
+    },
+    {
+      "code": "MUSTER_ROLL_VIEWER",
+      "name": "MUSTER ROLL VIEWER",
+      "description": "Muster Roll Viewer"
+    },
+    {
+      "code": "MB_CREATOR",
+      "name": "MB_CREATOR",
+      "description": "Default role for MB service creator"
+    },
+    {
+      "code": "MB_VERIFIER",
+      "name": "MB_VERIFIER",
+      "description": "Default role for MB service verifier"
+    },
+    {
+      "code": "MB_APPROVER",
+      "name": "MB_APPROVER",
+      "description": "Default role for MB service approver"
+    },
+    {
+      "code": "MB_VIEWER",
+      "name": "MB_VIEWER",
+      "description": "Default role for MB service viewer"
+    },
+    {
+      "code": "MDMS_STATE_ADMIN",
+      "name": "MDMS STATE ADMIN",
+      "description": "Mdms State Admin"
+    },
+    {
+      "code": "MDMS_CITY_ADMIN",
+      "name": "MDMS CITY ADMIN",
+      "description": "Mdms City Admin"
+    },
+    {
+      "code": "MDMS_ADMIN",
+      "name": "MDMS Admin",
+      "description": "Default role for workbench user"
+    },
+    {
+      "code": "MDMS_STATE_VIEW_ADMIN",
+      "name": "MDMS STATE VIEW ADMIN",
+      "description": "Mdms State View Admin"
+    },
+    {
+      "code": "MDMS_CITY_VIEW_ADMIN",
+      "name": "MDMS CITY VIEW ADMIN",
+      "description": "Mdms City View Admin"
+    } 
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "tenantId": "od",
+    "moduleName": "expense",
+    "PaymentInstructionStatus": [
+     {  
+      "id":1,
+      "code":"INITIATED",
+      "i18nKey":"EXP_PI_STATUS_INITIATED",
+      "active":true
+     },
+     {  
+      "id":2,
+      "code":"APPROVED",
+      "i18nKey":"EXP_PI_STATUS_APPROVED",
+      "active":true
+     },
+     {  
+      "id":3,
+      "code":"IN PROCESS",
+      "i18nKey":"EXP_PI_STATUS_IN_PROCESS",
+      "active":true
+     },
+     {  
+      "id":4,
+      "code":"FAILED",
+      "i18nKey":"EXP_PI_STATUS_FAILED",
+      "active":true
+     },
+     {  
+      "id":5,
+      "code":"SUCCESSFUL",
+      "i18nKey":"EXP_PI_STATUS_SUCCESSFUL",
+      "active":true
+     },
+     {  
+      "id":6,
+      "code":"PARTIAL",
+      "i18nKey":"EXP_PI_STATUS_PARTIAL",
+      "active":true
+     }
+    ]
+  }
