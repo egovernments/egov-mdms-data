@@ -183,12 +183,20 @@
         "DISTRICT_SUPERVISOR": "/health-ui/employee/dss/dashboard/district-health-dashboard"
       },
       "resources": [
-        {
-          "productVariantId": "PVAR-2023-02-22-000021",
+         {
+          "productVariantId": "PVAR-2023-11-23-000001",
           "isBaseUnitVariant": false
         },
         {
-          "productVariantId": "PVAR-2023-03-03-000023",
+          "productVariantId": "PVAR-2023-11-23-000002",
+          "isBaseUnitVariant": true
+        },
+        {
+          "productVariantId": "PVAR-2023-11-23-000003",
+          "isBaseUnitVariant": false
+        },
+        {
+          "productVariantId": "PVAR-2023-11-23-000004",
           "isBaseUnitVariant": true
         }
       ],
@@ -211,11 +219,11 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000011",
+                      "productVariantId": "PVAR-2023-11-23-000001",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2023-11-23-000003",
                       "quantity": 1
                     }
                   ]
@@ -224,11 +232,11 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000010",
+                      "productVariantId": "PVAR-2023-11-23-000002",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2023-11-23-000004",
                       "quantity": 1
                     }
                   ]
@@ -244,7 +252,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2023-11-23-000003",
                       "quantity": 1
                     }
                   ]
@@ -253,7 +261,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2023-11-23-000004",
                       "quantity": 1
                     }
                   ]
@@ -269,7 +277,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2023-11-23-000003",
                       "quantity": 1
                     }
                   ]
@@ -278,7 +286,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2023-11-23-000004",
                       "quantity": 1
                     }
                   ]
@@ -302,11 +310,11 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000011",
+                      "productVariantId": "PVAR-2023-11-23-000001",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2023-11-23-000003",
                       "quantity": 1
                     }
                   ]
@@ -315,11 +323,11 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000010",
+                      "productVariantId": "PVAR-2023-11-23-000002",
                       "quantity": 1
                     },
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2023-11-23-000004",
                       "quantity": 1
                     }
                   ]
@@ -335,7 +343,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2023-11-23-000003",
                       "quantity": 1
                     }
                   ]
@@ -344,7 +352,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2023-11-23-000004",
                       "quantity": 1
                     }
                   ]
@@ -360,7 +368,7 @@
                   "condition": "3<=age<11",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000013",
+                      "productVariantId": "PVAR-2023-11-23-000003",
                       "quantity": 1
                     }
                   ]
@@ -369,7 +377,7 @@
                   "condition": "12<=age<60",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2023-10-31-000012",
+                      "productVariantId": "PVAR-2023-11-23-000004",
                       "quantity": 1
                     }
                   ]
