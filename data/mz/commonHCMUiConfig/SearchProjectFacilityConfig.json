@@ -1,10 +1,10 @@
 {
   "tenantId": "mz",
   "moduleName": "commonHCMUiConfig",
-  "SearchProjectBeneficiaryConfig": [
+  "SearchProjectFacilityConfig": [
     {
       "type": "search",
-      "label": "SEARCH_BENEFICIARY",
+      "label": "SEARCH_PROJECT_FACILITY",
       "sections": {
         "search": {
           "show": true,
@@ -19,24 +19,7 @@
                 "disable": false,
                 "populators": {
                   "name": "id",
-                  "error": "ID_ERR_MSG",
-                  "validation": {
-                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                  }
-                },
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
-                "isMandatory": true
-              },
-              {
-                "key": "CLIENT_REFERENCE_ID",
-                "type": "text",
-                "label": "CLIENT_REFERENCE_ID",
-                "disable": false,
-                "populators": {
-                  "name": "clientReferenceId",
-                  "error": "PROJECT_CLIENT_REFERENCE_ID_ERR_MSG"
+                  "error": "PROJECT_ID_ERROR_MESSAGE"
                 },
                 "preProcess": {
                   "convertStringToRegEx": ["populators.validation.pattern"]
@@ -50,7 +33,7 @@
                 "disable": false,
                 "populators": {
                   "name": "projectId",
-                  "error": "PROJECT_ID_ERR_MSG"
+                  "error": "PROJECT_TYPE_ERR_MSG"
                 },
                 "preProcess": {
                   "convertStringToRegEx": ["populators.validation.pattern"]
@@ -58,27 +41,16 @@
                 "isMandatory": false
               },
               {
-                "key": "BENEFICIARY_ID",
+                "key": "FACILITY_ID",
                 "type": "text",
-                "label": "BENEFICIARY_ID",
+                "label": "FACILITY_ID",
                 "disable": false,
                 "populators": {
-                  "name": "beneficiaryId",
-                  "error": "PROJECT_BENEFICIARY_ID_ERR_MSG"
+                  "name": "facilityId",
+                  "error": "PROJECT_SUB_TYPE_ERR_MSG"
                 },
                 "preProcess": {
                   "convertStringToRegEx": ["populators.validation.pattern"]
-                },
-                "isMandatory": false
-              },
-              {
-                "key": "REGISTRATION_DATE",
-                "type": "date",
-                "label": "REGISTRATION_DATE",
-                "disable": false,
-                "populators": {
-                  "name": "dateOfRegistration",
-                  "error": "PROJECT_REGISTRATION_DATE_ERR_MSG"
                 },
                 "isMandatory": false
               }
@@ -87,11 +59,9 @@
             "minReqFields": 0,
             "primaryLabel": "ES_COMMON_SEARCH",
             "defaultValues": {
-              "id": [""],
+              "id": "",
               "projectId": "",
-              "beneficiaryId": "",
-              "clientReferenceId": "",
-              "dateOfRegistration": ""
+              "facilityId": ""
             },
             "formClassName": "custom-both-clear-search",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
@@ -108,53 +78,49 @@
                 "jsonPath": "id"
               },
               {
-                "label": "CLIENT_REFERENCE_ID",
-                "jsonPath": "clientReferenceId"
+                "label": "FACILITY_ID",
+                "jsonPath": "facilityId"
               },
               {
                 "label": "PROJECT_ID",
-                "jsonPath": "projectId"
+                "jsonPath": "projectId",
+                "additionalCustomization": "true"
               },
               {
-                "label": "BENEFICIARY_ID",
-                "jsonPath": "beneficiaryId"
-              },
-              {
-                "label": "REGISTRATION_DATE",
-                "jsonPath": "dateOfRegistration"
+                "label": "PROJECT_ISDELETED",
+                "jsonPath": "isDeleted"
               }
             ],
-            "resultsJsonPath": "ProjectBeneficiaries",
+            "resultsJsonPath": "ProjectFacilities",
             "enableColumnSort": true,
             "enableGlobalSearch": false
           }
         }
       },
-      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=ProjectBeneficiary",
+      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=ProjectFacility",
       "actionRole": "SYSTEM_ADMINISTRATOR",
       "apiDetails": {
         "masterName": "commonUiConfig",
         "moduleName": "SearchDefaultConfig",
         "requestBody": {
-          "limit": 1,
+          "limit": 10,
           "offset": 0,
           "tenantId": "mz",
-          "includeDeleted": true,
-          "ProjectBeneficiary": {}
+          "apiOperation": "SEARCH",
+          "ProjectFacility": {}
         },
-        "serviceName": "/project/beneficiary/v1/_search",
+        "serviceName": "/project/facility/v1/_search",
         "requestParam": {
-          "limit": 1,
+          "limit": 10,
           "offset": 0,
-          "tenantId": "mz",
-          "includeDeleted": true
+          "tenantId": "mz"
         },
-        "tableFormJsonPath": "requestBody",
-        "filterFormJsonPath": "requestBody.ProjectBeneficiary",
-        "searchFormJsonPath": "requestBody.ProjectBeneficiary",
+        "tableFormJsonPath": "requestParam",
+        "filterFormJsonPath": "requestBody.ProjectFacility",
+        "searchFormJsonPath": "requestBody.ProjectFacility",
         "minParametersForSearchForm": 0
       },
-      "actionLabel": "HCM_ADD_PROJECT_BENEFICIARY",
+      "actionLabel": "HCM_ADD_PROJECT_FACILITY",
       "additionalSections": {}
     }
   ]

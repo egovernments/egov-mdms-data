@@ -1,130 +1,130 @@
 {
-      "tenantId" : "mz",
-      "moduleName": "commonHCMUiConfig",
-      "SearchHouseholdConfig": [
-        {
-          "label": "SEARCH_HOUSEHOLD",
-          "type": "search",
-          "actionLabel": "HCM_ADD_HOUSEHOLD",
-          "actionRole": "SYSTEM_ADMINISTRATOR",
-          "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=Household",
-          "apiDetails": {
-            "serviceName": "/household/v1/_search",
-            "requestParam": {
-              "limit": 1,
-              "offset": 0,
-              "tenantId": "mz",
-              "includeDeleted": true
-            },
-            "requestBody": {
-              "Household" : {
-                "tenantId" : "mz"
-              }
-            },
-            "minParametersForSearchForm": 0,
-            "masterName": "commonUiConfig",
-            "moduleName": "SearchDefaultConfig",
-            "tableFormJsonPath": "requestParam",
-            "filterFormJsonPath": "requestBody.Household",
-            "searchFormJsonPath": "requestBody.Household"
-          },
-          "sections": {
-            "search": {
-              "uiConfig": {
-                "headerStyle": null,
-                "primaryLabel": "ES_COMMON_SEARCH",
-                "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-                "minReqFields": 0,
-                "formClassName": "custom-both-clear-search",
-                "defaultValues": {
-                  "id": "",
-                  "clientReferenceId": "",
-                  "boundaryCode": ""
+  "tenantId": "mz",
+  "moduleName": "commonHCMUiConfig",
+  "SearchHouseholdConfig": [
+    {
+      "type": "search",
+      "label": "SEARCH_HOUSEHOLD",
+      "sections": {
+        "search": {
+          "show": true,
+          "label": "",
+          "children": {},
+          "uiConfig": {
+            "fields": [
+              {
+                "key": "CLIENT_ID",
+                "type": "text",
+                "label": "CLIENT_ID",
+                "disable": false,
+                "populators": {
+                  "name": "id",
+                  "error": "HOUSEHOLD_CLIENT_ID_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                  }
                 },
-                "fields": [
-                  {
-                    "key": "CLIENT_ID",
-                    "label": "CLIENT_ID",
-                    "type": "text",
-                    "isMandatory": false,
-                    "disable": false,
-                    "preProcess": {
-                      "convertStringToRegEx": ["populators.validation.pattern"]
-                    },
-                    "populators": {
-                      "name": "id",
-                      "error": "HOUSEHOLD_CLIENT_ID_ERR_MSG",
-                      "validation": {
-                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
-                      }
-                    }
-                  },
-                  {
-                    "key": "CLIENT_REF_ID",
-                    "label": "CLIENT_REF_ID",
-                    "type": "text",
-                    "isMandatory": false,
-                    "disable": false,
-                    "preProcess": {
-                      "convertStringToRegEx": ["populators.validation.pattern"]
-                    },
-                    "populators": {
-                      "name": "clientReferenceId",
-                      "error": "HOUSEHOLD_CLIENT_REFF_ID_ERR_MSG",
-                      "validation": {
-                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
-                      }
-                    }
-                  },
-                  {
-                    "key": "BOUNDARY_CODE",
-                    "label": "BOUNDARY_CODE",
-                    "type": "text",
-                    "isMandatory": false,
-                    "disable": false,
-                    "preProcess": {
-                      "convertStringToRegEx": ["populators.validation.pattern"]
-                    },
-                    "populators": {
-                      "name": "boundaryCode",
-                      "error": "HOUSEHOLD_BOUNDARY_CODE_ERR_MSG",
-                      "validation": {
-                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
-                      }
-                    }
-                  }
-                ]
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
               },
-              "label": "",
-              "children": {},
-              "show": true
+              {
+                "key": "CLIENT_REF_ID",
+                "type": "text",
+                "label": "CLIENT_REF_ID",
+                "disable": false,
+                "populators": {
+                  "name": "clientReferenceId",
+                  "error": "HOUSEHOLD_CLIENT_REFF_ID_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "BOUNDARY_CODE",
+                "type": "text",
+                "label": "BOUNDARY_CODE",
+                "disable": false,
+                "populators": {
+                  "name": "boundaryCode",
+                  "error": "HOUSEHOLD_BOUNDARY_CODE_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              }
+            ],
+            "headerStyle": null,
+            "minReqFields": 0,
+            "primaryLabel": "ES_COMMON_SEARCH",
+            "defaultValues": {
+              "id": "",
+              "boundaryCode": "",
+              "clientReferenceId": ""
             },
-            "searchResult": {
-              "label": "Household",
-              "uiConfig": {
-                "columns": [
-                  {
-                    "label": "CLIENT_ID",
-                    "jsonPath": "id"
-                  },
-                  {
-                    "label": "CLIENT_REF_ID",
-                    "jsonPath": "clientReferenceId"
-                  },
-                  {
-                    "label": "BOUNDARY_CODE",
-                    "jsonPath": "boundaryCode"
-                  }
-                ],
-                "enableGlobalSearch": false,
-                "enableColumnSort": true,
-                "resultsJsonPath": "Households"
+            "formClassName": "custom-both-clear-search",
+            "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
+          }
+        },
+        "searchResult": {
+          "show": true,
+          "label": "Household",
+          "children": {},
+          "uiConfig": {
+            "columns": [
+              {
+                "label": "CLIENT_ID",
+                "jsonPath": "id"
               },
-              "children": {},
-              "show": true
-            }
-          },
-          "additionalSections": {}
+              {
+                "label": "CLIENT_REF_ID",
+                "jsonPath": "clientReferenceId"
+              },
+              {
+                "label": "BOUNDARY_CODE",
+                "jsonPath": "boundaryCode"
+              }
+            ],
+            "resultsJsonPath": "Households",
+            "enableColumnSort": true,
+            "enableGlobalSearch": false
+          }
         }
-      ]
+      },
+      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=Household",
+      "actionRole": "SYSTEM_ADMINISTRATOR",
+      "apiDetails": {
+        "masterName": "commonUiConfig",
+        "moduleName": "SearchDefaultConfig",
+        "requestBody": {
+          "Household": {
+            "tenantId": "mz"
+          }
+        },
+        "serviceName": "/household/v1/_search",
+        "requestParam": {
+          "limit": 1,
+          "offset": 0,
+          "tenantId": "mz",
+          "includeDeleted": true
+        },
+        "tableFormJsonPath": "requestParam",
+        "filterFormJsonPath": "requestBody.Household",
+        "searchFormJsonPath": "requestBody.Household",
+        "minParametersForSearchForm": 0
+      },
+      "actionLabel": "HCM_ADD_HOUSEHOLD",
+      "additionalSections": {}
+    }
+  ]
 }

@@ -1,82 +1,122 @@
 {
   "tenantId": "mz",
   "moduleName": "commonHCMUiConfig",
-  "SearchProductConfig": [
+  "SearchProjectConfig": [
     {
       "type": "search",
-      "label": "SEARCH_PRODUCT",
+      "label": "SEARCH_PROJECT",
       "sections": {
         "search": {
           "show": true,
           "label": "",
-          "children": {},
           "uiConfig": {
             "fields": [
               {
-                "key": "DRUG_NAME",
+                "key": "ID",
                 "type": "text",
-                "label": "DRUG_NAME",
-                "disable": false,
-                "populators": {
-                  "name": "name",
-                  "error": "PRODUCT_DRUG_NAME_ERR_MSG",
-                  "validation": {
-                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                  }
-                },
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
-                "isMandatory": false
-              },
-              {
-                "key": "DRUG_MANUFACTURER",
-                "type": "text",
-                "label": "DRUG_MANUFACTURER",
-                "disable": false,
-                "populators": {
-                  "name": "manufacturer",
-                  "error": "PRODUCT_DRUG_MANUFACTURER_ERR_MSG",
-                  "validation": {
-                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                  }
-                },
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
-                "isMandatory": false
-              },
-              {
-                "key": "DRUG_TYPE",
-                "type": "text",
-                "label": "DRUG_TYPE",
-                "disable": false,
-                "populators": {
-                  "name": "type",
-                  "error": "PRODUCT_DRUG_TYPE_ERR_MSG",
-                  "validation": {
-                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
-                  }
-                },
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
-                "isMandatory": false
-              },
-              {
-                "key": "DRUG_IDS",
-                "type": "text",
-                "label": "DRUG_IDS",
+                "label": "ID",
                 "disable": false,
                 "populators": {
                   "name": "id",
-                  "error": "PRODUCT_DRUG_ID_ERR_MSG",
+                  "error": "PROJECT_ID_ERROR_MESSAGE",
                   "validation": {
                     "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
                   }
                 },
                 "preProcess": {
                   "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PROJECT_TYPE",
+                "type": "text",
+                "label": "PROJECT_TYPE",
+                "disable": false,
+                "populators": {
+                  "name": "projectType",
+                  "error": "PROJECT_TYPE_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PROJECT_SUB_TYPE",
+                "type": "text",
+                "label": "PROJECT_SUB_TYPE",
+                "disable": false,
+                "populators": {
+                  "name": "projectSubType",
+                  "error": "PROJECT_SUB_TYPE_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PROJECT_NAME",
+                "type": "text",
+                "label": "PROJECT_NAME",
+                "disable": false,
+                "populators": {
+                  "name": "name",
+                  "error": "PROJECT_NAME_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PROJECT_NUMBER",
+                "type": "text",
+                "label": "PROJECT_NUMBER",
+                "disable": false,
+                "populators": {
+                  "name": "projectNumber",
+                  "error": "PROJECT_NUMBER_ERR_MSG",
+                  "validation": {
+                    "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                  }
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "START_DATE",
+                "type": "date",
+                "label": "START_DATE",
+                "disable": false,
+                "populators": {
+                  "name": "startDate",
+                  "error": "PROJECT_START_DATE_ERR_MSG",
+                  "validation": {}
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "END_DATE",
+                "type": "date",
+                "label": "END_DATE",
+                "disable": false,
+                "populators": {
+                  "name": "endDate",
+                  "error": "PROJECT_END_DATE_ERR_MSG",
+                  "validation": {}
                 },
                 "isMandatory": false
               }
@@ -87,10 +127,13 @@
             "defaultValues": {
               "id": "",
               "name": "",
-              "type": "",
-              "manufacturer": ""
+              "endDate": "",
+              "startDate": "",
+              "projectType": "",
+              "projectNumber": "",
+              "projectSubType": ""
             },
-            "formClassName": " ",
+            "formClassName": "custom-both-clear-search",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
           }
         },
@@ -101,29 +144,34 @@
           "uiConfig": {
             "columns": [
               {
-                "label": "DRUG_NAME",
+                "label": "PROJECT_NUMBER",
+                "jsonPath": "projectNumber",
+                "additionalCustomization": true
+              },
+              {
+                "label": "PROJECT_NAME",
                 "jsonPath": "name"
               },
               {
-                "label": "DRUG_MANUFACTURER",
-                "jsonPath": "manufacturer"
+                "label": "PROJECT_TYPE",
+                "jsonPath": "projectType"
               },
               {
-                "label": "DRUG_TYPE",
-                "jsonPath": "type"
+                "label": "PROJECT_BOUNDARY_TYPE",
+                "jsonPath": "address.boundaryType"
               },
               {
-                "label": "DRUG_IDS",
-                "jsonPath": "id"
+                "label": "PROJECT_BOUNDARY",
+                "jsonPath": "address.boundary"
               }
             ],
-            "resultsJsonPath": "Product",
+            "resultsJsonPath": "Project",
             "enableColumnSort": true,
             "enableGlobalSearch": false
           }
         }
       },
-      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=Product",
+      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=Project",
       "actionRole": "SYSTEM_ADMINISTRATOR",
       "apiDetails": {
         "masterName": "commonUiConfig",
@@ -131,23 +179,24 @@
         "requestBody": {
           "limit": 10,
           "offset": 0,
-          "Product": {},
+          "Projects": {
+            "tenantId": "mz"
+          },
           "tenantId": "mz",
           "apiOperation": "SEARCH"
         },
-        "serviceName": "/product/v1/_search",
+        "serviceName": "/project/v1/_search",
         "requestParam": {
           "limit": 10,
           "offset": 0,
           "tenantId": "mz"
         },
         "tableFormJsonPath": "requestParam",
-        "filterFormJsonPath": "requestBody.Product",
-        "searchFormJsonPath": "requestBody.Product",
+        "filterFormJsonPath": "requestBody.Projects",
+        "searchFormJsonPath": "requestBody.Projects",
         "minParametersForSearchForm": 0
       },
-      "actionLabel": "HCM_ADD_PRODUCT",
-      "additionalSections": {}
+      "actionLabel": "HCM_ADD_PROJECT"
     }
   ]
 }
