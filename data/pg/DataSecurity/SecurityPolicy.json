@@ -281,6 +281,54 @@
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
           "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "altContactNumber",
+          "jsonPath": "altContactNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "email",
+          "jsonPath": "email",
+          "patternId": "004",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "fatherName",
+          "jsonPath": "fatherName",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "husbandName",
+          "jsonPath": "husbandName",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "doorNo",
+          "jsonPath": "address/*/doorNo",
+          "patternId": "003",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "street",
+          "jsonPath": "address/*/street",
+          "patternId": "003",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "username",
+          "jsonPath": "userDetails/username",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "password",
+          "jsonPath": "userDetails/password",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
@@ -313,6 +361,12 @@
           "name": "aadhaarNumber",
           "jsonPath": "identifier/identifierId",
           "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+      {
+          "name": "username",
+          "jsonPath": "username",
+          "patternId": "002",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -368,6 +422,54 @@
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
           "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "altContactNumber",
+          "jsonPath": "altContactNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "email",
+          "jsonPath": "email",
+          "patternId": "004",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "fatherName",
+          "jsonPath": "fatherName",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "husbandName",
+          "jsonPath": "husbandName",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "doorNo",
+          "jsonPath": "address/*/doorNo",
+          "patternId": "003",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "street",
+          "jsonPath": "address/*/street",
+          "patternId": "003",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "username",
+          "jsonPath": "userDetails/username",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "password",
+          "jsonPath": "userDetails/password",
+          "patternId": "002",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
