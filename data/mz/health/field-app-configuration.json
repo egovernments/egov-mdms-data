@@ -299,6 +299,13 @@
             }
           },
           {
+            "type": "LOCALIZATION_MODULE",
+            "name": "hcm-attendance",
+            "config": {
+              "localStoreTTL": 172800
+            }
+          },
+          {
             "type": "MDMS",
             "name": "HCM-FIELD-APP-CONFIG",
             "config": {
