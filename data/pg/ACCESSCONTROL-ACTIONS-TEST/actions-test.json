@@ -4977,6 +4977,21 @@
       "serviceCode": "pgr-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2010,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "tqm",
+      "enabled": true,
+      "serviceCode": "tqm",
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/tqm-ui/employee/",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     }
   ]
 }
