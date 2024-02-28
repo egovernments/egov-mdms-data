@@ -4992,6 +4992,28 @@
       "navigationURL": "/tqm-ui/employee/",
       "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
+    },
+    {
+      "id": 2011,
+      "name": "create adopter for Garima worker ",
+      "url": "/impel-fsm/v1/_createGarimaWorker",
+      "displayName": "Apply FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2012,
+      "name": "Search adopter for Garima worker ",
+      "url": "/impel-fsm/v1/_searchGarimaWorker",
+      "displayName": "Apply FSM",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "FSM",
+      "code": "null",
+      "path": ""
     }
   ]
 }
