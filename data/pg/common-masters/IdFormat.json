@@ -121,6 +121,10 @@
     {
       "idname": "ifix.program.number",
       "format": "PG/[fy:yyyy-yy]/[SEQ_PROG_NUM]"
+    },
+    {
+      "format": "PTS-[cy:yyyy-MM-dd]-[SEQ_PROJECT_STAFF_PTS]",
+      "idname": "project.staff.id"
     }
   ]
 }
