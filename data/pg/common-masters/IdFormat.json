@@ -133,6 +133,14 @@
     {
       "format": "P-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_P]",
       "idname": "product.id"
+    },
+    {
+      "format": "PR-[cy:yyyy-MM-dd]-[SEQ_PROJECT_RESOURCE_PR]",
+      "idname": "project.resource.id"
+    },
+    {
+      "format": "PF-[cy:yyyy-MM-dd]-[SEQ_PROJECT_FACILITY_PF]",
+      "idname": "project.facility.id"
     }
   ]
 }
