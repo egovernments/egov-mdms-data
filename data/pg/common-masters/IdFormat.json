@@ -125,6 +125,14 @@
     {
       "format": "PTS-[cy:yyyy-MM-dd]-[SEQ_PROJECT_STAFF_PTS]",
       "idname": "project.staff.id"
+    },
+    {
+      "format": "PVAR-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_PVAR]",
+      "idname": "product.variant.id"
+    },
+    {
+      "format": "P-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_P]",
+      "idname": "product.id"
     }
   ]
 }
