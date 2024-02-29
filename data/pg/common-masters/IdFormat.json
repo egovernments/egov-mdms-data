@@ -145,6 +145,10 @@
     {
       "format": "F-[cy:yyyy-MM-dd]-[SEQ_FACILITY_SR]",
       "idname": "facility.id"
+    },
+    {
+      "format":"PB-PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
+      "idname":"pgr.servicerequestid"
     }
   ]
 }
