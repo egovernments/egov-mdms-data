@@ -141,6 +141,10 @@
     {
       "format": "PF-[cy:yyyy-MM-dd]-[SEQ_PROJECT_FACILITY_PF]",
       "idname": "project.facility.id"
+    },
+    {
+      "format": "F-[cy:yyyy-MM-dd]-[SEQ_FACILITY_SR]",
+      "idname": "facility.id"
     }
   ]
 }
