@@ -1,0 +1,20 @@
+{
+    "tenantId": "pg",
+    "moduleName": "exchange",
+    "ExchangeServers": [
+        {
+            "id": "1",
+            "code": "IFMS",
+            "hostUrl": "https://unified-qa.digit.org",
+            "contextPath": "/digit-exchange/v1",
+            "active": true
+        },
+        {
+            "id": "2",
+            "code": "MUKTA",
+            "hostUrl": "https://unified-dev.digit.org",
+            "contextPath": "/digit-exchange/v1",
+            "active": true
+        }
+    ]
+}
