@@ -568,6 +568,23 @@
           "code": "pb.citya"
         }
       ]
+    },
+    {
+      "module": "Microplanning",
+      "code": "Microplanning",
+      "active": true,
+      "order": 13,
+      "tenants": [
+         {
+        "code": "pb.jalandhar"
+      },
+      {
+        "code": "pb.nawanshahr"
+      },
+      {
+        "code": "pb.amritsar"
+      }
+      ]
     }
   ]
 }
