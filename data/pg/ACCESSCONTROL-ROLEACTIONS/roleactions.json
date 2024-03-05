@@ -5599,6 +5599,18 @@
       "actionid": 2012,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2013,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2013,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
