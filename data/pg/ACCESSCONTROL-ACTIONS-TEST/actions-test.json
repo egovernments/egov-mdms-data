@@ -5014,6 +5014,27 @@
       "serviceCode": "FSM",
       "code": "null",
       "path": ""
+    }, {
+      "id": 2013,
+      "name": "Profile Update",
+      "url": "/user/profile/_update",
+      "displayName": "Profile Update",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.Profile Update"
+    }
+   , {
+      "id": 2014,
+      "name": "Search User",
+      "url": "user/_search",
+      "displayName": "Search User",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.Update Password"
     }
   ]
 }
