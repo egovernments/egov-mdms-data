@@ -1,0 +1,26 @@
+{
+    "tenantId": "pg",
+    "moduleName": "hcm-microplanning",
+    "UploadSections": [
+        {
+            "id": "Population",
+            "title": "Population",
+            "iconName":"PopulationIcon"
+        },
+        {
+            "id": "Facility",
+            "title": "Facility",
+            "iconName": "FacilityIcon"
+        },
+        {
+            "id": "WareHouses",
+            "title": "Ware Houses",
+            "iconName": "WareHousesIcon"
+        },
+        {
+            "id": "IncidentRate",
+            "title": "Incident Rate",
+            "iconName": "BarChartIcon"
+        }
+    ]
+}
