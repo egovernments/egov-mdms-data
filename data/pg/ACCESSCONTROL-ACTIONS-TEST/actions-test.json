@@ -5025,6 +5025,17 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.Profile Update"
+    },
+    {
+      "id": 2014,
+      "name": "acess action from mdms v1",
+      "url": "/access/v1/actions/mdms/_get",
+      "displayName": "acess action from mdms v1",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.Profile Update"
     }
   ]
 }
