@@ -13673,6 +13673,39 @@
       "serviceCode": "null",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1756,
+      "name": "plan config create API",
+      "url": "/plan-service/config/_create",
+      "displayName": "plan config create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1757,
+      "name": "plan config search API",
+      "url": "/plan-service/config/_search",
+      "displayName": "plan config search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1758,
+      "name": "plan config update API",
+      "url": "/plan-service/config/_update",
+      "displayName": "plan config update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
