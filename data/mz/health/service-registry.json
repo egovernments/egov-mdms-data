@@ -363,7 +363,7 @@
         {
           "action": "search",
           "entityName": "Product",
-          "path": "/health-product/v1/_search"
+          "path": "/product/v1/_search"
         }
       ]
     },
@@ -373,7 +373,7 @@
         {
           "action": "search",
           "entityName": "ProductVariant",
-          "path": "/health-product/variant/v1/_search"
+          "path": product/variant/v1/_search"
         }
       ]
     },
