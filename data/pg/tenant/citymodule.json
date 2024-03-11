@@ -308,6 +308,23 @@
           "code": "pg.citya"
         }
       ]
+    },
+    {
+       "module": "Campaign",
+       "code": "Campaign",
+       "active": true,
+       "order": 14,
+       "tenants": [
+            {
+                "code": "pg.cityb"
+            },
+            {
+                "code": "pg.cityc"
+            },
+            {
+                "code": "pg.citya"
+            }
+      ]
     }
     ]
 }
