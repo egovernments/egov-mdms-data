@@ -373,7 +373,7 @@
         {
           "action": "search",
           "entityName": "ProductVariant",
-          "path": product/variant/v1/_search"
+          "path": "product/variant/v1/_search"
         }
       ]
     },
