@@ -92,6 +92,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
+    
     {
       "rolecode": "SUPERUSER",
       "actionid": 629,
@@ -15113,6 +15114,12 @@
     {
       "rolecode": "WAREHOUSE_MANAGER",
       "actionid": 1687,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "WAREHOUSE_MANAGER",
+      "actionid": 1682,
       "actioncode": "",
       "tenantId": "mz"
     },
