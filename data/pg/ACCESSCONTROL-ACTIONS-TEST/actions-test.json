@@ -5036,6 +5036,20 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.Profile Update"
+    },
+    {
+      "id": 2015,
+      "name": "PAYMENTINSTRUCTION",
+      "url": "url",
+      "displayName": "PAYMENTINSTRUCTION",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PAYMENTINSTRUCTION",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/expenditure/search-payment-instruction",
+      "path": "5PAYMENTINSTRUCTION.SEARCHPAYMENTINSTRUCTION",
+      "leftIcon": "dynamic:ExpenditureIcon"
     }
   ]
 }
