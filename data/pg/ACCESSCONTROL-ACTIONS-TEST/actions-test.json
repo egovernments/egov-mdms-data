@@ -5014,6 +5014,20 @@
       "serviceCode": "FSM",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2013,
+      "name": "PAYMENTINSTRUCTION",
+      "url": "url",
+      "displayName": "PAYMENTINSTRUCTION",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PAYMENTINSTRUCTION",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/expenditure/search-payment-instruction",
+      "path": "5PAYMENTINSTRUCTION.SEARCHPAYMENTINSTRUCTION",
+      "leftIcon": "dynamic:ExpenditureIcon"
     }
   ]
 }
