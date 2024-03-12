@@ -311,23 +311,6 @@
       ]
     },
     {
-      "module": "Microplanning",
-      "code": "Microplanning",
-      "active": true,
-      "order": 13,
-      "tenants": [
-        {
-          "code": "pg.cityb"
-        },
-        {
-          "code": "pg.cityc"
-        },
-        {
-          "code": "pg.citya"
-        }
-      ]
-    },
-    {
       "module": "Campaign",
       "code": "Campaign",
       "active": true,

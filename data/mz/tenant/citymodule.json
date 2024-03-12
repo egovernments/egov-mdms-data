@@ -67,6 +67,28 @@
                     "code": "mz"
                 }
             ]
+        },
+     {
+          "module": "Campaign",
+          "code": "Campaign",
+          "active": true,
+          "order": 10,
+          "tenants": [
+            {
+              "code": "mz"
+            }
+          ]
+        },
+        {
+          "module": "Microplanning",
+          "code": "Microplanning",
+          "active": true,
+          "order": 14,
+          "tenants": [
+            {
+              "code": "mz"
+            }
+          ]
         }
   ]
 }
