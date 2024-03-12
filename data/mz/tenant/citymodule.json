@@ -67,6 +67,17 @@
                     "code": "mz"
                 }
             ]
+        },
+        {
+          "module": "Microplanning",
+          "code": "Microplanning",
+          "active": true,
+          "order": 14,
+          "tenants": [
+            {
+              "code": "mz"
+            }
+          ]
         }
   ]
 }
