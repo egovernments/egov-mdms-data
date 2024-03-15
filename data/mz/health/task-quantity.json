@@ -1,0 +1,16 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM-TASK-QUANTITY",
+  "taskQuantity": [
+    {
+      "id": ["PVAR-2024-03-15-000042","PVAR-2024-03-15-000043","PVAR-2024-03-15-000044","PVAR-2024-03-15-000045"],
+      "regex": "^(?!0\\.0$)([1-9]\\d*\\.0|0\\.5|[1-9]\\d*\\.5)$",
+      "errorMessage": "Task quantity should be multiple of 0.5"
+    },
+    {
+      "id": ["PVAR-2024-03-15-000046","PVAR-2024-03-15-000047"],
+      "regex": "^[1-9]\\d*\\.0$",
+      "errorMessage": "Task quantity should be a whole number"
+    }
+  ]
+}
