@@ -1,12 +1,11 @@
 {
-  "tenantId": "pg",
-  "moduleName": "segment-codes",
-  "code": "04",
-  "TargetSegmentCodes": [
-    {
+    "tenantId": "pg",
+    "moduleName": "segment-codes",
+    "TargetSegmentCodes": [
+      {
       "id": "0404",
       "code": "BPL",
       "name": "Below Poverty Line"
     }
-  ]
-}
+    ]
+  }

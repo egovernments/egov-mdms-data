@@ -503,43 +503,43 @@
       "attributes": [
         {
           "name": "individualName",
-          "jsonPath": "message/disbursements/*/individual/name",
+          "jsonPath": "children/*/individual/name",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "individualPhone",
-          "jsonPath": "message/disbursements/*/individual/phone",
+          "jsonPath": "children/*/individual/phone",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "individualGender",
-          "jsonPath": "message/disbursements/*/individual/gender",
+          "jsonPath": "children/*/individual/gender",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "individualPin",
-          "jsonPath": "message/disbursements/*/individual/pin",
+          "jsonPath": "children/*/individual/pin",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "individualAddress",
-          "jsonPath": "message/disbursements/*/individual/address",
+          "jsonPath": "children/*/individual/address",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "individualEmail",
-          "jsonPath": "message/disbursements/*/individual/email",
+          "jsonPath": "children/*/individual/email",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "accountCode",
-          "jsonPath": "message/disbursements/*/account_code",
+          "jsonPath": "children/*/account_code",
           "patternId": "002",
           "defaultVisibility": "PLAIN"
         }
