@@ -337,6 +337,56 @@
       ]
     }
   },
+  "segment-codes": {
+    "AdministrativeCodes": {
+      "masterName": "AdministrativeCodes",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "EconomicSegmentCodes": {
+      "masterName": "EconomicSegmentCodes",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "FunctionCodes": {
+      "masterName": "FunctionCodes",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "RecipientSegmentCodes": {
+      "masterName": "RecipientSegmentCodes",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "SourceOfFundCodes": {
+      "masterName": "SourceOfFundCodes",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "TargetSegmentCodes": {
+      "masterName": "TargetSegmentCodes",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
+  },
   "swm": {
     "VehicleType": {
       "masterName": "VehicleType",
