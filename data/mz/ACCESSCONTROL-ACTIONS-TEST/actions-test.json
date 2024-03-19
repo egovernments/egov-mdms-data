@@ -13706,6 +13706,17 @@
       "serviceCode": "plan-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1758,
+      "name": "boundary hierarchy definition create",
+      "url": "/boundary-service/boundary-hierarchy-definition/_create",
+      "displayName": "boundary hierarchy definition create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
