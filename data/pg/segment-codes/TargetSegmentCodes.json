@@ -3,6 +3,21 @@
     "moduleName": "segment-codes",
     "TargetSegmentCodes": [
       {
+      "id": "0401",
+      "code": "WC",
+      "name": "Women Centric expenditures"
+    },
+    {
+      "id": "0402",
+      "code": "SC",
+      "name": "Schedule Castes"
+    },
+    {
+      "id": "0403",
+      "code": "ST",
+      "name": "Schedule Tribes"
+    },
+    {
       "id": "0404",
       "code": "BPL",
       "name": "Below Poverty Line"
