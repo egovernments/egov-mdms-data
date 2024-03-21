@@ -544,7 +544,48 @@
           "defaultVisibility": "PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
+          "attributeAccessList": [
+            {
+              "attribute": "individualName",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "accountCode",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "individualPhone",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "individualGender",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "individualPin",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "individualAddress",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "individualEmail",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     },
     {
       "model": "PaymentInstruction",
