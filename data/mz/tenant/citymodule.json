@@ -34,6 +34,63 @@
           "code": "mz"
         }
       ]
+    },
+    {
+    "module": "Workbench",
+    "code": "Workbench",
+    "active": true,
+    "order": 13,
+    "tenants": [
+        {
+                "code": "mz"
+            }
+    ]
+    },
+    {
+       "module": "Sample",
+       "code": "Sample",
+       "active": true,
+       "order": 12,
+       "tenants": [
+          {
+                "code": "mz"
+            }
+       ]
+    },
+    {
+        "module": "Project",
+        "code": "Project",
+        "active": true,
+        "order": 8,
+        "tenants": [
+            {
+                "code": "mz"
+            }
+        ]
+    },
+    {
+      "module": "Campaign",
+      "code": "Campaign",
+      "active": true,
+      "order": 10,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "Microplanning",
+      "code": "Microplanning",
+      "active": true,
+      "order": 14,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
     }
-  ]
+]
 }
+
+
