@@ -2,20 +2,9 @@
     "tenantId": "pg",
     "moduleName": "segment-codes",
     "EconomicSegmentCodes": [
-      {
-      "id": "9101050202",
-      "code": "in.pg.CE.IA.OC",
-      "name": "Other Constructions"
-    },
-     {
-      "id": "9101050203",
-      "code": "in.pg.CE.IA.HC",
-      "name": "Home Constructions"
-    },
-     {
-      "id": "9101050204",
-      "code": "in.pg.CE.IA.CC",
-      "name": "Commercial Constructions"
-    }
-    ]
-  }
+    {
+        "id": "552",
+        "code": "CAPEX-IFAS-OTCON",
+        "name": "Capital Expenditure, Infrastructure Assets, Other Constructions"
+    }]
+}

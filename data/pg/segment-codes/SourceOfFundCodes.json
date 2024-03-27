@@ -2,15 +2,14 @@
     "tenantId": "pg",
     "moduleName": "segment-codes",
     "SourceOfFundCodes": [
-      {
-      "id": "0402",
-      "code": "in.pg.CSS",
-      "name": "Centrally Sponsored Schemes"
+    {
+        "id": "0402",
+        "code": "CSS",
+        "name": "Centrally Sponsored Schemes"
     },
     {
-      "id": "0403",
-      "code": "in.pg.GSS",
-      "name": "Government Sponsored Schemes"
-    }
-    ]
-  }
+        "id": "0403",
+        "code": "GSS",
+        "name": "Government Sponsored Schemes"
+    }]
+}

@@ -2,10 +2,9 @@
     "tenantId": "pg",
     "moduleName": "segment-codes",
     "FunctionCodes": [
-       {
-      "id": "91010201",
-      "code": "in.pg.OGES",
-      "name": "Other General Economic Services"
-    }
-    ]
-  }
+    {
+        "id": "490600",
+        "code": "OT-GEN-ECO-SVC",
+        "name": "Other General Economic Services, Sub scheme"
+    }]
+}
