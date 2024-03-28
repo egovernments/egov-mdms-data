@@ -13739,6 +13739,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1762,
+      "name": "boundary hierarchy relationship search",
+      "url": "/boundary-service/boundary-relationships/_search",
+      "displayName": "boundary hierarchy relationship search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
