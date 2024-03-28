@@ -13750,6 +13750,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1763,
+      "name": "boundary hierarchy relationship create",
+      "url": "/boundary-service/boundary-relationships/_create",
+      "displayName": "boundary hierarchy relationship create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
