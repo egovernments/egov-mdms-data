@@ -13751,6 +13751,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1762,
+      "name": "boundary bulk upload",
+      "url": "/project-factory/v1/data/_autoGenerateBoundaryCode",
+      "displayName": "boundary bulk upload",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
