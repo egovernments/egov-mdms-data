@@ -13761,6 +13761,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1764,
+      "name": "Project Type Create",
+      "url": "/project-factory/v1/project-type/create",
+      "displayName": "project type create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project-factory",
+      "code": "null",
+      "path": ""
     }
   ]
 }
