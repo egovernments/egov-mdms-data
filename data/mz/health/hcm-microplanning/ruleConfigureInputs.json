@@ -1,0 +1,38 @@
+{
+    "tenantId": "mz",
+    "moduleName": "hcm-microplanning",
+    "ruleConfigureInputs": [
+        {
+            "campaignType": "ITIN",
+            "data": [
+                "POPULATION",
+                "NO_OF_HOUSEHOLD",
+                "MONITORS",
+                "NO_OF_DISTRIBUTORS_PER_MONITOR",
+                "BUFFER",
+                "NO_OF_POPULATION_TARGETTED_FOR_COVERAGE"
+            ]
+        },
+        {
+            "campaignType": "IRS",
+            "data": [
+                "POPULATION",
+                "NO_OF_HOUSEHOLD",
+                "COVERAGE_PERCENTAGE",
+                "COVERAGE_PERCENTAGE",
+                "NO_OF_HOUSEHOLD_TO_BE_COVERED",
+                "QUANTITY_OF_INSECTICIDE_REQUIRED"
+            ]
+        },
+        {
+            "campaignType": "SMC",
+            "data": [
+                "POPULATION_COUNT_DEMOGRAPHIC_1_PER_BOUNDARY",
+                "POPULATION_COUNT_DEMOGRAPHIC_2_PER_BOUNDARY",
+                "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_1",
+                "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_2",
+                "MONITORS"
+            ]
+        }
+    ]
+}

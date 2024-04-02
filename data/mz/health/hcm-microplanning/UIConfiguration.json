@@ -11,6 +11,13 @@
         "INSTRUCTION_POINTS_4",
         "INSTRUCTION_POINTS_5"
       ]
+    },
+    {
+      "name": "ruleConfigure",
+      "ruleConfigureOperators":[
+        "DEVIDED_BY",
+        "MULTIPLIED_BY"
+      ]
     }
   ]
 }

@@ -129,7 +129,7 @@
           "lat",
           "long"
         ],
-        "locationDataColumns": ["Lat", "Long"]
+        "locationDataColumns": ["lat", "long"]
       }
     },
     {
@@ -257,7 +257,7 @@
           "facilityStatus",
           "capacity"
         ],
-        "locationDataColumns": ["Lat", "Long"]
+        "locationDataColumns": ["lat", "long"]
       }
     },
     {
@@ -385,7 +385,7 @@
           "facilityStatus",
           "capacity"
         ],
-        "locationDataColumns": ["Lat", "Long"]
+        "locationDataColumns": ["lat", "long"]
       }
     }
   ]
