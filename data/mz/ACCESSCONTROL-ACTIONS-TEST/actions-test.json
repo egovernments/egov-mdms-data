@@ -13762,6 +13762,28 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1763,
+      "name": "v1 project type create",
+      "url": "/project-factory/v1/project-type/create",
+      "displayName": "v1 project type create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1764,
+      "name": "project factory data search",
+      "url": "/project-factory/v1/data/_search",
+      "displayName": "project factory data search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
