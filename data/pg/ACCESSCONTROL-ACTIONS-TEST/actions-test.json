@@ -5050,6 +5050,17 @@
       "navigationURL": "/works-ui/employee/expenditure/search-payment-instruction",
       "path": "5PAYMENTINSTRUCTION.SEARCHPAYMENTINSTRUCTION",
       "leftIcon": "dynamic:ExpenditureIcon"
+    },
+     {
+      "id": 2016,
+      "name": "Collection Create Reciept",
+      "url": "/collection-services/payments/_create",
+      "displayName": "Create Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
     }
   ]
 }
