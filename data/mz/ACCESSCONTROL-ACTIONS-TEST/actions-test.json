@@ -13794,6 +13794,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 1767,
+      "name": "Project Type Update",
+      "url": "/project-factory/v1/project-type/update",
+      "displayName": "project type search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project-factory",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
