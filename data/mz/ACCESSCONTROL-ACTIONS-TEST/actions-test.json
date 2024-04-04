@@ -13828,6 +13828,72 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1769,
+      "name": "Boundary service create",
+      "url": "/boundary-service/boundary/_create",
+      "displayName": "Boundary service create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1770,
+      "name": "Boundary service update",
+      "url": "/boundary-service/boundary/_update",
+      "displayName": "Boundary service update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1771,
+      "name": "Boundary service search",
+      "url": "/boundary-service/boundary/_search",
+      "displayName": "Boundary service search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1772,
+      "name": "Boundary relationship create",
+      "url": "/boundary-service/boundary-relationships/_create",
+      "displayName": "Boundary relationship create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1773,
+      "name": "Boundary relationship update",
+      "url": "/boundary-service/boundary-relationships/_update",
+      "displayName": "Boundary relationship update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1774,
+      "name": "Boundary relationship search",
+      "url": "/boundary-service/boundary-relationships/_search",
+      "displayName": "Boundary relationship search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
