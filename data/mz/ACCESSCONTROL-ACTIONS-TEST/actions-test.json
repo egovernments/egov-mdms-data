@@ -13783,6 +13783,17 @@
       "serviceCode": "project-factory",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1766,
+      "name": "Boundary entity Search",
+      "url": "/boundary-service/boundary/_search",
+      "displayName": "boundary entity search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
