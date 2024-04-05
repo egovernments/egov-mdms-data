@@ -14,9 +14,12 @@
     },
     {
       "name": "ruleConfigure",
-      "ruleConfigureOperators":[
-        "DEVIDED_BY",
-        "MULTIPLIED_BY"
+      "ruleConfigureOperators": [
+        { "name": "DEVIDED_BY", "code": "/" },
+        { "name": "MULTIPLIED_BY", "code": "*" },
+        { "name": "ADDITION", "code": "+" },
+        { "name": "SUBSTRACTION", "code": "-" },
+        { "name": "RAISE_TO", "code": "**" }
       ]
     }
   ]
