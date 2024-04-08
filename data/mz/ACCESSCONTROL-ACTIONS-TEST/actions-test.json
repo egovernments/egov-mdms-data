@@ -13805,6 +13805,39 @@
       "serviceCode": "project-factory",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1768,
+      "name": "plan create API",
+      "url": "/plan-service/plan/_create",
+      "displayName": "plan create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1769,
+      "name": "plan search API",
+      "url": "/plan-service/plan/_search",
+      "displayName": "plan search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1770,
+      "name": "plan update API",
+      "url": "/plan-service/plan/_update",
+      "displayName": "plan update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
