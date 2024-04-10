@@ -13838,6 +13838,17 @@
       "serviceCode": "plan-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1771,
+      "name": "project factory data generate",
+      "url": "/project-factory/v1/data/_generate",
+      "displayName": "project factory data generate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
