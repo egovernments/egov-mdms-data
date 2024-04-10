@@ -13907,6 +13907,17 @@
       "serviceCode": "PGR",
       "code": "null",
       "path": "PGR.Get File by FileStoreId"
+    },
+    {
+      "id": 1776,
+      "name": "v1 project type update",
+      "url": "/project-factory/v1/project-type/update",
+      "displayName": "v1 project type update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
