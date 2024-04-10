@@ -13894,6 +13894,19 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1775,
+      "name": "Upload File by FileStoreId",
+      "url": "/filestore/v1/files",
+      "displayName": "Upload File by FileStoreId",
+      "orderNumber": 0,
+      "queryParams": "fileStoreId",
+      "parentModule": "PGR",
+      "enabled": false,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "PGR.Get File by FileStoreId"
     }
   ]
 }
