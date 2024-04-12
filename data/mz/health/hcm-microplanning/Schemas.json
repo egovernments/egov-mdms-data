@@ -26,6 +26,16 @@
           },
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
             "type": "number"
+          },
+          "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "long": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
           }
         },
         "required": [
@@ -35,7 +45,7 @@
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
         ],
-        "locationDataColumns": []
+        "locationDataColumns": ["lat", "long"]
       }
     },
     {
@@ -56,10 +66,20 @@
           },
           "targetHouseholds": {
             "type": "number"
+          },
+          "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "long": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
           }
         },
         "required": ["boundaryCode", "targetPopulation", "targetHouseholds"],
-        "locationDataColumns": []
+        "locationDataColumns": ["lat", "long"]
       }
     },
     {
@@ -77,10 +97,20 @@
           },
           "targetPopulation": {
             "type": "number"
+          },
+          "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "long": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
           }
         },
         "required": ["boundaryCode", "targetPopulation"],
-        "locationDataColumns": []
+        "locationDataColumns": ["lat", "long"]
       }
     },
     {
@@ -125,9 +155,7 @@
           "facilityName",
           "facilityType",
           "facilityStatus",
-          "capacity",
-          "lat",
-          "long"
+          "capacity"
         ],
         "locationDataColumns": ["lat", "long"]
       }
