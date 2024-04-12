@@ -21,6 +21,11 @@
         { "name": "SUBSTRACTION", "code": "-" },
         { "name": "RAISE_TO", "code": "**" }
       ]
+    },
+    {
+      "name": "mapping",
+      "boundriesDataOrigin": ["Population"],
+      "layerDataOrigin": ["Facilities"]
     }
   ]
 }
