@@ -13849,6 +13849,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1772,
+      "name": "project factory data create",
+      "url": "/project-factory/v1/data/_create",
+      "displayName": "project factory data create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
