@@ -12356,33 +12356,33 @@
     },
     {
       "id": 1648,
-      "name": "HRMS Employee Creation",
+      "name": "Home",
       "url": "url",
-      "displayName": "Create HRMS Employee",
-      "orderNumber": 2,
-      "parentModule": "",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "workbench",
       "enabled": true,
-      "serviceCode": "HRMS",
-      "code": "",
-      "path": "",
-      "navigationURL": "/digit-ui/employee/hrms/create",
-      "leftIcon": "",
-      "rightIcon": "",
-      "queryParams": ""
-    },
-    {
-      "id": 1649,
-      "name": "HRMS",
-      "url": "url",
-      "displayName": "Search Employee",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "HRMS",
+      "serviceCode": "workbench",
       "code": "null",
-      "navigationURL": "/digit-ui/employee/hrms/inbox",
-      "path": "HRMS.Search",
-      "leftIcon": "social:people"
+      "path": "0Home",
+      "navigationURL": "/workbench-ui/employee/",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
+      },
+      {
+      "id": 1649,
+      "name": "CreateCampaign",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "workbench",
+      "enabled": true,
+      "serviceCode": "workbench",
+      "code": "1Campaign.Createcampaign",
+      "path": "",
+      "navigationURL": "/workbench-ui/employee/campaign/setup-campaign",
+      "leftIcon": "dynamic:ProjectIcon",
+      "rightIcon": ""
     },
     {
       "id": 1650,
@@ -13918,6 +13918,21 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1777,
+      "name": "MyCampaign",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "workbench",
+      "enabled": true,
+      "serviceCode": "workbench",
+      "code": "1Campaign.Mycampaign",
+      "path": "",
+      "navigationURL": "/workbench-ui/employee/campaign/my-campaign",
+      "leftIcon": "dynamic:EstimateIcon",
+      "rightIcon": ""
     }
   ]
 }
