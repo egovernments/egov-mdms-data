@@ -12356,33 +12356,33 @@
     },
     {
       "id": 1648,
-      "name": "HRMS Employee Creation",
+      "name": "Home",
       "url": "url",
-      "displayName": "Create HRMS Employee",
-      "orderNumber": 2,
-      "parentModule": "",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "works",
       "enabled": true,
-      "serviceCode": "HRMS",
-      "code": "",
-      "path": "",
-      "navigationURL": "/digit-ui/employee/hrms/create",
-      "leftIcon": "",
-      "rightIcon": "",
-      "queryParams": ""
+      "serviceCode": "works",
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/works-ui/employee/hrms/create",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     },
     {
       "id": 1649,
       "name": "HRMS",
       "url": "url",
-      "displayName": "Search Employee",
+      "displayName": "Home",
       "orderNumber": 2,
-      "parentModule": "",
+      "parentModule": "works",
       "enabled": true,
-      "serviceCode": "HRMS",
+      "serviceCode": "works",
       "code": "null",
-      "navigationURL": "/digit-ui/employee/hrms/inbox",
-      "path": "HRMS.Search",
-      "leftIcon": "social:people"
+      "navigationURL": "/works-ui/employee/hrms/inbox",
+      "path": "0Home",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     },
     {
       "id": 1650,
@@ -13918,6 +13918,36 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1777,
+      "name": "HRMS Employee Creation",
+      "url": "url",
+      "displayName": "Create HRMS Employee",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "HRMS",
+      "code": "",
+      "path": "",
+      "navigationURL": "/employee/hrms/create",
+      "leftIcon": "",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 1778,
+      "name": "HRMS",
+      "url": "url",
+      "displayName": "Search Employee",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "HRMS",
+      "code": "null",
+      "navigationURL": "/employee/hrms/inbox",
+      "path": "HRMS.Search",
+      "leftIcon": "social:people"
     }
   ]
 }
