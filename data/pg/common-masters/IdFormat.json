@@ -91,6 +91,10 @@
       "idname": "ifms.benef.reference.number"
     },
     {
+      "format": "COR-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
+      "idname": "ifms.repi.reference.number"
+    },
+    {
       "format": "MB/[fy:yyyy-yy]/[SEQ_MEASUREMENT_NUM]",
       "idname": "mb.reference.number"
     },
