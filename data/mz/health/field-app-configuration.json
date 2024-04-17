@@ -18,22 +18,22 @@
         {
           "MIN_RANGE": 0.02,
           "MAX_RANGE": 0.20,
-          "BATCH_SIZE": 200
+          "BATCH_SIZE": 50
         },
         {
           "MIN_RANGE": 0.20,
           "MAX_RANGE": 0.50,
-          "BATCH_SIZE": 200
+          "BATCH_SIZE": 50
         },
         {
           "MIN_RANGE": 0.50,
           "MAX_RANGE": 1,
-          "BATCH_SIZE": 200
+          "BATCH_SIZE": 50
         },
         {
           "MIN_RANGE": 1,
           "MAX_RANGE": 5,
-          "BATCH_SIZE": 200
+          "BATCH_SIZE": 50
         }
       ],
       "LANGUAGES": [
