@@ -45,7 +45,8 @@
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
         ],
-        "locationDataColumns": ["lat", "long"]
+        "locationDataColumns": ["lat", "long"],
+        "RuleConfigureInputs":["targetPopulationDemo1","targetpopulationDemo2","targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"]
       }
     },
     {
@@ -79,7 +80,8 @@
           }
         },
         "required": ["boundaryCode", "targetPopulation", "targetHouseholds"],
-        "locationDataColumns": ["lat", "long"]
+        "locationDataColumns": ["lat", "long"],
+        "RuleConfigureInputs":["targetPopulation","targetHouseholds"]
       }
     },
     {
@@ -110,7 +112,8 @@
           }
         },
         "required": ["boundaryCode", "targetPopulation"],
-        "locationDataColumns": ["lat", "long"]
+        "locationDataColumns": ["lat", "long"],
+        "RuleConfigureInputs":["targetPopulation"]
       }
     },
     {
@@ -157,7 +160,8 @@
           "facilityStatus",
           "capacity"
         ],
-        "locationDataColumns": ["lat", "long"]
+        "locationDataColumns": ["lat", "long"],
+        "RuleConfigureInputs":["capacity"]
       }
     },
     {
@@ -193,7 +197,8 @@
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
         ],
-        "locationDataColumns": []
+        "locationDataColumns": [],
+        "RuleConfigureInputs":["targetPopulationDemo1","targetpopulationDemo2","targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"]
       }
     },
     {
@@ -217,7 +222,8 @@
           }
         },
         "required": ["boundaryCode", "targetPopulation", "targetHouseholds"],
-        "locationDataColumns": []
+        "locationDataColumns": [],
+        "RuleConfigureInputs":["targetPopulation","targetHouseholds"]
       }
     },
     {
@@ -238,7 +244,8 @@
           }
         },
         "required": ["boundaryCode", "targetPopulation"],
-        "locationDataColumns": []
+        "locationDataColumns": [],
+        "RuleConfigureInputs":["targetPopulation"]
       }
     },
     {
@@ -285,7 +292,8 @@
           "facilityStatus",
           "capacity"
         ],
-        "locationDataColumns": ["lat", "long"]
+        "locationDataColumns": ["lat", "long"],
+        "RuleConfigureInputs":["capacity"]
       }
     },
     {
@@ -321,7 +329,8 @@
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
         ],
-        "locationDataColumns": []
+        "locationDataColumns": [],
+        "RuleConfigureInputs":["targetPopulationDemo1","targetpopulationDemo2","targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"]
       }
     },
     {
@@ -345,7 +354,8 @@
           }
         },
         "required": ["boundaryCode", "targetPopulation", "targetHouseholds"],
-        "locationDataColumns": []
+        "locationDataColumns": [],
+        "RuleConfigureInputs":["targetPopulation","targetHouseholds"]
       }
     },
     {
@@ -366,7 +376,8 @@
           }
         },
         "required": ["boundaryCode", "targetPopulation"],
-        "locationDataColumns": []
+        "locationDataColumns": [],
+        "RuleConfigureInputs":["targetPopulation"]
       }
     },
     {
@@ -413,7 +424,8 @@
           "facilityStatus",
           "capacity"
         ],
-        "locationDataColumns": ["lat", "long"]
+        "locationDataColumns": ["lat", "long"],
+        "RuleConfigureInputs":["capacity"]
       }
     }
   ]
