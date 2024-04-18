@@ -13882,6 +13882,34 @@
       "serviceCode": "project-factory",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 1775,
+      "name": "DASHBOARD",
+      "url": "url",
+      "displayName": "KIBANA Home",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "iframe",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/utilities/iframe/elastic/home",
+      "path": "iframe.HOME",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+   {
+      "id": 1776,
+      "name": "DASHBOARD",
+      "url": "url",
+      "displayName": "KIBANA HCM DASHBOARD",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "iframe",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/utilities/iframe/elastic/hcm",
+      "path": "iframe.HCM",
+      "leftIcon": "dynamic:ContractIcon"
     }
   ]
 }
