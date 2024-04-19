@@ -15,14 +15,14 @@
           "namingConvention": "^Population.(xlsx)|(xls)$"
         },
         {
-          "id": "Shapefiles",
+          "id": "Shapefile",
           "code": "SHAPE_FILES",
           "fileExtension": ["zip"],
           "iconName": "SpatialDocument",
           "namingConvention": "^Population.zip$"
         },
         {
-          "id": "Geojson",
+          "id": "GeoJSON",
           "code": "GEOJSON",
           "fileExtension": ["geojson"],
           "iconName": "SpatialDocument",
@@ -43,14 +43,14 @@
           "namingConvention": "^Facilities.(xlsx)|(xls)$"
         },
         {
-          "id": "Shapefiles",
+          "id": "Shapefile",
           "code": "SHAPE_FILES",
           "fileExtension": ["zip"],
           "iconName": "SpatialDocument",
           "namingConvention": "^Facilities.zip$"
         },
         {
-          "id": "Geojson",
+          "id": "GeoJSON",
           "code": "GEOJSON",
           "fileExtension": ["geojson"],
           "iconName": "SpatialDocument",
