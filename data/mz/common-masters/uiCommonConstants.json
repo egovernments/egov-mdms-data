@@ -29,7 +29,7 @@
                         "authToken": {
                             "enable": true,
                             "key": "x-auth-token",
-                            "customFun": "(url,accessToken,config)=>{       return url.split('#/dashboard').join(`${config?.authToken?.key}=${accessToken}#/dashboard`);}"
+                            "customFun": "(url,accessToken,config)=>{ const key='/kibana/app/kibana'; const substringToAdd = `?${config?.key}=${accessToken}`;const insertionIndex=url.indexOf(key)+key.length;let modifiedString = url.slice(0,insertionIndex ) + substringToAdd + url.slice(insertionIndex);return modifiedString;}"
                         }
                     }
                 }
