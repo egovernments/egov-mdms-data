@@ -25,9 +25,7 @@
                  "authToken":{
                    "enable":true,
                    "key":"x-auth-token",
-                    "customFun":"(url,accessToken,config)=>{    
-    return url.split("#/dashboard").join(`?${config?.authToken?.key}=${accessToken}#/dashboard`);
-}"
+                    "customFun":"(url,accessToken,config)=>{       return url.split('#/dashboard').join(`${config?.authToken?.key}=${accessToken}#/dashboard`);}"
                   }
                }
             }
