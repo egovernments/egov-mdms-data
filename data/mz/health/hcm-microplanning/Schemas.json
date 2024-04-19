@@ -8,10 +8,6 @@
       "campaignType": "SMC",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -40,7 +36,6 @@
         },
         "required": [
           "boundaryCode",
-          "terrain",
           "targetPopulationDemo1",
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
@@ -55,10 +50,6 @@
       "campaignType": "ITIN",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -90,10 +81,6 @@
       "campaignType": "IRS",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -121,10 +108,6 @@
       "section": "Facilities",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "facilityCode": {
             "type": "string"
           },
@@ -170,10 +153,6 @@
       "campaignType": "SMC",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -192,7 +171,6 @@
         },
         "required": [
           "boundaryCode",
-          "terrain",
           "targetPopulationDemo1",
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
@@ -207,10 +185,6 @@
       "campaignType": "ITIN",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -232,10 +206,6 @@
       "campaignType": "IRS",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -253,10 +223,6 @@
       "section": "Facilities",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "facilityCode": {
             "type": "string"
           },
@@ -302,10 +268,6 @@
       "campaignType": "SMC",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -324,7 +286,6 @@
         },
         "required": [
           "boundaryCode",
-          "terrain",
           "targetPopulationDemo1",
           "targetpopulationDemo2",
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal"
@@ -339,10 +300,6 @@
       "campaignType": "ITIN",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -364,10 +321,6 @@
       "campaignType": "IRS",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "boundaryCode": {
             "type": "string"
           },
@@ -385,10 +338,6 @@
       "section": "Facilities",
       "schema": {
         "Properties": {
-          "admin.*": {
-            "type": "string",
-            "nullable": true
-          },
           "facilityCode": {
             "type": "string"
           },
