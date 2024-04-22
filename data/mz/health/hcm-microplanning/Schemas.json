@@ -148,7 +148,7 @@
       }
     },
     {
-      "type": "Geojson",
+      "type": "GeoJSON",
       "section": "Population",
       "campaignType": "SMC",
       "schema": {
@@ -180,7 +180,7 @@
       }
     },
     {
-      "type": "Geojson",
+      "type": "GeoJSON",
       "section": "Population",
       "campaignType": "ITIN",
       "schema": {
@@ -201,7 +201,7 @@
       }
     },
     {
-      "type": "Geojson",
+      "type": "GeoJSON",
       "section": "Population",
       "campaignType": "IRS",
       "schema": {
@@ -219,7 +219,7 @@
       }
     },
     {
-      "type": "Geojson",
+      "type": "GeoJSON",
       "section": "Facilities",
       "schema": {
         "Properties": {
@@ -263,7 +263,7 @@
       }
     },
     {
-      "type": "Shapefiles",
+      "type": "Shapefile",
       "section": "Population",
       "campaignType": "SMC",
       "schema": {
@@ -295,7 +295,7 @@
       }
     },
     {
-      "type": "Shapefiles",
+      "type": "Shapefile",
       "section": "Population",
       "campaignType": "ITIN",
       "schema": {
@@ -316,7 +316,7 @@
       }
     },
     {
-      "type": "Shapefiles",
+      "type": "Shapefile",
       "section": "Population",
       "campaignType": "IRS",
       "schema": {
@@ -334,7 +334,7 @@
       }
     },
     {
-      "type": "Shapefiles",
+      "type": "Shapefile",
       "section": "Facilities",
       "schema": {
         "Properties": {
