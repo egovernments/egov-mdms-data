@@ -514,12 +514,6 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "individualGender",
-          "jsonPath": "children/*/individual/gender",
-          "patternId": "002",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "individualPin",
           "jsonPath": "children/*/individual/pin",
           "patternId": "002",
@@ -560,11 +554,6 @@
             },
             {
               "attribute": "individualPhone",
-              "firstLevelVisibility": "PLAIN",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "individualGender",
               "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             },
