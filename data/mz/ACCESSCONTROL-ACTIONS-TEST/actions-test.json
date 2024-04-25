@@ -13924,6 +13924,17 @@
       "navigationURL": "/workbench-ui/employee/utilities/iframe/elastic/test",
       "path": "iframe.TEST",
       "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 1778,
+      "name": "Project Type Data Search",
+      "url": "/project-factory/v1/data/_search",
+      "displayName": "project type data search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project-factory",
+      "code": "null",
+      "path": ""
     }
   ]
 }
