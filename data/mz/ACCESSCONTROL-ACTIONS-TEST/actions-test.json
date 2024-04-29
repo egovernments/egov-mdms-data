@@ -13966,6 +13966,28 @@
       "serviceCode": "plan-service",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 1781,
+      "name": "schema create API",
+      "url": "/mdms-v2/schema/v1/_create",
+      "displayName": "schema create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 1782,
+      "name": "schema search API",
+      "url": "/mdms-v2/schema/v1/_search",
+      "displayName": "schema search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
