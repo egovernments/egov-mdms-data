@@ -1,0 +1,36 @@
+{
+  "tenantId": "pg",
+  "moduleName": "tenant",
+  "tenants": [{
+      "code": "ka.aidbhavisubcentre",
+      "name": "Aidbhavi Sub Centre",
+      "description": "Aidbhavi Sub Centre",
+	  "centreType" : "Sub Centre"
+      "pincode": null,
+      "domainUrl": "https://e4h-dev.selcofoundation.org",
+      "type": "PHC",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "Aidbhavi Sub Centre",
+        "localName": null,
+        "districtCode": "RAICHUR",
+        "districtName": "Raichur",
+		"blockCode" : "raichur.lingasugur",
+        "districtTenantCode": "ra.aidbhavisubcentre",
+        "regionName": null,
+        "ulbGrade": null,
+        "longitude": null,
+        "latitude": null,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "001",
+        "ddrName": null
+      },
+      "address": "Karnataka",
+      "contactNumber": "6362222593"
+    }]
+}

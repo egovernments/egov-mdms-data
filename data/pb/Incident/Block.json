@@ -1,0 +1,37 @@
+{
+  "tenantId": "ka",
+  "moduleName": "selco-pgr",
+  "Block": [
+	{
+      "code": "raichur.lingasugur",
+      "name": "Lingasugur ",
+	  "districtCode" : "RAICHUR",
+      "active": true,
+    },
+	{
+      "code": "raichur.lingasugur",
+      "name": "Devadurga  ",
+	  "districtCode" : "RAICHUR",
+      "active": true,
+    },
+	{
+      "code": "raichur.raichur ",
+      "name": "Raichur  ",
+	  "districtCode" : "RAICHUR",
+      "active": true,
+    },
+	{
+      "code": "raichur.manvi",
+      "name": "Manvi ",
+	  "districtCode" : "RAICHUR",
+      "active": true,
+    },
+	{
+      "code": "raichur.sindhanur",
+      "name": "Sindhanur ",
+	  "districtCode" : "RAICHUR",
+      "active": true,
+    } 
+  ]
+  
+}
