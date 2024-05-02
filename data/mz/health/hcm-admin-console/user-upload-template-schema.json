@@ -1,0 +1,39 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-ADMIN-CONSOLE",
+    "userUploadTemplateSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "title": "UserTemplateSchema",
+        "type": "object",
+        "properties": {
+            "HCM_ADMIN_CONSOLE_USER_NAME": {
+                "type": "string",
+                "maxLength": 128,
+                "minLength": 1
+            },
+            "HCM_ADMIN_CONSOLE_USER_PHONE_NUMBER": {
+                "type": "integer",
+                "minimum": 100000000,
+                "maximum": 9999999999
+            },
+            "HCM_ADMIN_CONSOLE_USER_ROLE": {
+                "type": "string"
+            },
+            "HCM_ADMIN_CONSOLE_USER_EMPLOYMENT_TYPE": {
+                "enum": [
+                    "Temporary",
+                    "Permanent"
+                ]
+            }
+        },
+        "required": [
+            "HCM_ADMIN_CONSOLE_USER_NAME",
+            "HCM_ADMIN_CONSOLE_USER_PHONE_NUMBER",
+            "HCM_ADMIN_CONSOLE_USER_ROLE",
+            "HCM_ADMIN_CONSOLE_USER_EMPLOYMENT_TYPE"
+        ],
+        "unique": [
+            "HCM_ADMIN_CONSOLE_USER_PHONE_NUMBER"
+        ]
+    }
+}
