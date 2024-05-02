@@ -13988,6 +13988,28 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 1783,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1784,
+      "name": "search data for schema",
+      "url": "/mdms-v2/v2/_search",
+      "displayName": "schema search data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
