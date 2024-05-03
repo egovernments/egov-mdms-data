@@ -13989,10 +13989,21 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1783,
+      "name": "search data for schema",
+      "url": "/mdms-v2/v2/_search",
+      "displayName": "schema search data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 1784,
       "name": "create data for schema",
-      "url": "/mdms-v2/v2/_create",
+      "url": "/mdms-v2/v2/_create/hcm.bandwidth_batch_size",
       "displayName": "schema create data API",
       "orderNumber": 0,
       "enabled": false,
@@ -14001,10 +14012,76 @@
       "path": ""
     },
     {
-      "id": 1784,
-      "name": "search data for schema",
-      "url": "/mdms-v2/v2/_search",
-      "displayName": "schema search data API",
+      "id": 1785,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.downsync-bandwidth_batch_size",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1786,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.checklist_types",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1787,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.id_type_options_populator",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1788,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.household_deletion_reason_options",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1789,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.delivery_comment_options_populator",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1790,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.transport_types",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1791,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.backend_interface",
+      "displayName": "schema create data API",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "mdms",
