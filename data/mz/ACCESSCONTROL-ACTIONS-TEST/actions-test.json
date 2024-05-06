@@ -14056,6 +14056,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1792,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.app_config",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
