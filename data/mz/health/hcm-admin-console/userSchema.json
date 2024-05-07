@@ -18,7 +18,8 @@
                     "maximum": 9999999999
                 },
                 "HCM_ADMIN_CONSOLE_USER_ROLE": {
-                    "type": "string"
+                    "type": "string",
+                    "enum": ["Registrar", "Distributor", "Supervisor", "Help Desk", "Monitor Local", "Logistical officer"]
                 },
                 "HCM_ADMIN_CONSOLE_USER_EMPLOYMENT_TYPE": {
                     "enum": [
