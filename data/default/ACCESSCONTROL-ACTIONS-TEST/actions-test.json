@@ -10757,7 +10757,7 @@
     {
       "id": 1536,
       "name": "SunbirdCredentialService",
-      "url": "/vc/schema/_create",
+      "url": "sunbirdrc-credential-service/vc/schema/_create",
       "displayName": "sunbird credential service",
       "orderNumber": 1,
       "parentModule": "",
@@ -10769,7 +10769,7 @@
     {
       "id": 1537,
       "name": "SunbirdCredentialService",
-      "url": "/credential/_get",
+      "url": "sunbirdrc-credential-service/credential/_get",
       "displayName": "sunbird credential service",
       "orderNumber": 1,
       "parentModule": "",
