@@ -13,9 +13,7 @@
                     "minLength": 1
                 },
                 "HCM_ADMIN_CONSOLE_USER_PHONE_NUMBER": {
-                    "type": "integer",
-                    "minimum": 100000000,
-                    "maximum": 9999999999
+                    "type": "integer"
                 },
                 "HCM_ADMIN_CONSOLE_USER_ROLE": {
                     "type": "string",
