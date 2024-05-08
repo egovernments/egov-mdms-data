@@ -10777,6 +10777,30 @@
       "serviceCode": "sunbirdrc credential service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1538,
+      "name": "mdmsv2",
+      "url": "/mdms-v2/schema/v1/_create",
+      "displayName": "mdms v2",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "mdms v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1539,
+      "name": "mdmsv2",
+      "url": "mdms-v2/schema/v1/_search",
+      "displayName": "mdms v2",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "mdms v2",
+      "code": "null",
+      "path": ""
     }
   ]
 }
