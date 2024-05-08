@@ -48,6 +48,16 @@
       "description": "Supervisor"
     },
     {
+      "code": "MONITOR_LOCAL",
+      "name": "Monitor Local",
+      "description": "Monitor Local"
+    },
+    {
+      "code": "LOGISTICAL_OFFICER",
+      "name": "Logistical officer",
+      "description": "Logistical officer"
+    },
+    {
       "code": "WAREHOUSE_MANAGER",
       "name": "Warehouse Manager",
       "description": "Warehouse manager"
@@ -87,16 +97,17 @@
       "name": "CSR",
       "description": "CSR"
     },
-     {
+    {
       "code": "HEALTH_FACILITY_WORKER",
       "name": "Health Facilty Worker",
       "description": "Workers working at a given Health Facility (HF) who will be responsible for giving the diagnosis based on the type of symptoms they observe and then do a diagnosis and provide the appropriate drugs."
     },
     {
-        "code": "CAMPAIGN_MANAGER",
-        "name": "Campaign Manager",
-        "description": "Campaign Manager"
-    }, {
+      "code": "CAMPAIGN_MANAGER",
+      "name": "Campaign Manager",
+      "description": "Campaign Manager"
+    },
+    {
       "code": "MICROPLAN_ADMIN",
       "name": "Microplan Admin",
       "description": "Microplan Admin"
