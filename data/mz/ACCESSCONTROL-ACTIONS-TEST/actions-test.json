@@ -14120,6 +14120,39 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1798,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.genderType",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1799,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.idFormat",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1800,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.stateInfo",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
