@@ -14067,6 +14067,59 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1793,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.call_support",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 1794,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.household_member_deletion_reason_options",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },{
+      "id": 1795,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.firebase_config",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1796,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.referral_reasons",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1797,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/hcm.symptom_types",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
