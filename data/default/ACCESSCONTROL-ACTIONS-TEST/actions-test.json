@@ -3,18 +3,6 @@
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
     {
-      "id": 1525,
-      "name": "SunbirdCredentialService",
-      "url": "/vc/schema/_create",
-      "displayName": "sunbird credential service",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": false,
-      "serviceCode": "sunbirdrc credential service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 238,
       "name": "CreateImmovableAsset",
       "url": "/app/asset/create-asset.html",
@@ -10765,6 +10753,30 @@
       "serviceCode": "Employee",
       "code": "null",
       "path": "Employee Management.Employee Masters.Employee.SearchEmployee"
+    },
+    {
+      "id": 1536,
+      "name": "SunbirdCredentialService",
+      "url": "/vc/schema/_create",
+      "displayName": "sunbird credential service",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "sunbirdrc credential service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1537,
+      "name": "SunbirdCredentialService",
+      "url": "/credential/_get",
+      "displayName": "sunbird credential service",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "sunbirdrc credential service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
