@@ -25,10 +25,9 @@
                     ]
                 },
                 "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY": {
-                    "type": "integer",
+                    "type": "number",
                     "minimum": 1,
-                    "maximum": 100000000,
-                    "multipleOf": 1
+                    "maximum": 100000000
                 },
                 "HCM_ADMIN_CONSOLE_BOUNDARY_CODE": {
                     "type": "string"
@@ -38,8 +37,7 @@
                 "HCM_ADMIN_CONSOLE_FACILITY_NAME",
                 "HCM_ADMIN_CONSOLE_FACILITY_TYPE",
                 "HCM_ADMIN_CONSOLE_FACILITY_STATUS",
-                "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY",
-                "HCM_ADMIN_CONSOLE_BOUNDARY_CODE"
+                "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY"
             ],
             "unique": [
                 "HCM_ADMIN_CONSOLE_FACILITY_NAME"
