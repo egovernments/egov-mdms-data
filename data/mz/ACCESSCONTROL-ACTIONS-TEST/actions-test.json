@@ -14113,7 +14113,7 @@
     {
       "id": 1797,
       "name": "create data for schema",
-      "url": "/mdms-v2/v2/_create/hcm.symptom_types",
+      "url": "/mdms-v2/v2/_create/hcm.referral_reasons",
       "displayName": "schema create data API",
       "orderNumber": 0,
       "enabled": false,
@@ -14124,7 +14124,7 @@
     {
       "id": 1798,
       "name": "create data for schema",
-      "url": "/mdms-v2/v2/_create/hcm.genderType",
+      "url": "/mdms-v2/v2/_create/common-masters.genderType",
       "displayName": "schema create data API",
       "orderNumber": 0,
       "enabled": false,
@@ -14135,7 +14135,7 @@
     {
       "id": 1799,
       "name": "create data for schema",
-      "url": "/mdms-v2/v2/_create/hcm.idFormat",
+      "url": "/mdms-v2/v2/_create/common-masters.idFormat",
       "displayName": "schema create data API",
       "orderNumber": 0,
       "enabled": false,
@@ -14146,7 +14146,29 @@
     {
       "id": 1800,
       "name": "create data for schema",
-      "url": "/mdms-v2/v2/_create/hcm.stateInfo",
+      "url": "/mdms-v2/v2/_create/common-masters.stateInfo",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1801,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/module-version.row_versions",
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1802,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_update/common-masters.stateInfo",
       "displayName": "schema create data API",
       "orderNumber": 0,
       "enabled": false,
