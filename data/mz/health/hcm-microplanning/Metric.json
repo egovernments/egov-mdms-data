@@ -1,0 +1,18 @@
+{
+  "tenantId": "mz",
+  "moduleName": "hcm-microplanning",
+  "Metric": [
+    {
+      "code": "ROAD_LENGTH",
+      "name": "Road Length",
+      "active": true
+    },
+    {
+      "code": "VACCINATION_COVERAGE",
+      "name": "Vaccination Coverage",
+      "active": true
+    }
+  ]
+}
+
+
