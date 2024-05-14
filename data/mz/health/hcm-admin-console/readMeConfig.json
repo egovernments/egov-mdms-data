@@ -1,0 +1,91 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-ADMIN-CONSOLE",
+    "ReadMeConfig": [
+      {
+    "type":"facilityWithBoundary",
+    "texts":[
+        {
+            "header":"Downloading Excel Templates for setting targets:",
+            "isHeaderBold":true,
+            "inSheet":true,
+            "inUiInfo":"true",
+            "descriptions":[
+                {
+                    "text":"Step 1: Download the excel template by clicking on the “Download Template” button.",
+                    "bolds":["Step 1:"]
+                },
+                {
+                    "text":"Step 2: Open the Excel Template that was downloaded in the previous step will have 3 sheets and the first sheet you will see is a “Read Me” sheet. The Second Sheet named “List of Available Facilities“ will have a list of all the available facilities that can be used in the campaign. If there is no facility available, this sheet will be empty. The third sheet will be named “List of Campaign Boundaries“ which will have all the boundaries selected in the “Boundary Details“ step with their respective Boundary Codes.",
+                    "bolds":["Step 2:","List of Available Facilities","List of Campaign Boundaries"]
+                }
+            ]
+        },
+        {
+            "header":"Creating New Facility Data/using existing facility data once the Template is Downloaded",
+            "isHeaderBold":true,
+            "inSheet":true,
+            "inUiInfo":"true",
+            "descriptions":[
+                {
+                    "text":"Step 1: If there are no Facilities available for selection, the “List of Available Facilities“ tab in the template will be empty. To create new facility data, add the name of the Facility Name, Facility Type, Facility Status, Capacity. The “Facility Code” column needs to be left empty if this is a new facility. If it is a facility being reused (which is available in the template after downloading) the user only needs to do step 2. ",
+                    "bolds":[
+                        "Step 1:","List of Available Facilities","Facility Name, Facility Type, Facility Status, Capacity.","Facility Code"
+                    ]
+                },
+                {
+                    "text":"Step 2: To map the facility to the correct boundary, the user needs to copy the correct boundary code of the boundary from the “List of Campaign Boundaries“ sheet that the facility needs to be mapped to. If there is a Facility that is mapped to multiple boundaries, the System Admin will have to add the boundary codes of all the boundaries that Facility is mapped to by separating them by commas in the cell to add Boundary Codes for that Facility.",
+                    "bolds":[
+                        "Step 2:","List of Campaign Boundaries"
+                    ]
+                },
+                {
+                    "text":"Step 3: Save the sheet with the updated targets for each village on the Excel Template .",
+                    "bolds":[
+                        "Step 3:"
+                    ]
+                },
+                {
+                    "text":"Step 4: Press the “Browse In My Files” button on the “Upload Facility Data” screen and select the saved file with all targets from the system.",
+                    "bolds":[
+                        "Step 4:"
+                    ]
+                },
+                {
+                    "text":"Deactivating existing Facilities for a campaign.",
+                    "bolds":[]
+                },
+                {
+                    "text":"After the user has downloaded the template for Facilities, if the system has existing facility data to be reused, the template will be pre populated with those list of Facilities.",
+                    "bolds":[]
+                },
+                {
+                    "text":"If the user then chooses not use specific facilities, they can delete those lines of data for those specific facilities that need to be removed and upload the sheet with only those facilities that are needed for the campaign with the correct boundary codes mapped to those facilities.",
+                    "bolds":[]
+                }
+            ]
+        },
+        {
+            "header":"Cases for common errors:",
+            "isHeaderBold":true,
+            "inSheet":true,
+            "inUiInfo":"true",
+            "descriptions":[
+                {
+                    "text":"If the user has removed Facility codes for an existing facility in the list then system will create a duplicate Facility with those column values.",
+                    "bolds":[]
+                },
+                {
+                    "text":"If the user deletes any columns from the “List of Available Facilities” from the sheet and uplaods the sheet the system will throw an error and the user will have to download the template again and reupload the correct sheet with the correct data.",
+                    "bolds":[]
+                },
+                {
+                    "text":"If the user deletes any of the headers in the sheet and uplaods the sheet the system will throw an error and the user will have to download the template again and reupload the correct sheet with the correct data.",
+                    "bolds":[]
+                }
+            ]
+        }
+    ]
+}
+    ]
+  }
