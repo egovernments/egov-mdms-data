@@ -1,0 +1,58 @@
+{
+  "tenantId": "mz",
+  "moduleName": "hcm-microplanning",
+  "Uom": [
+    [
+      {
+        "code": "NOS",
+        "name": "Numbers",
+        "active": true
+      },
+      {
+        "code": "KGS",
+        "name": "Kilograms",
+        "active": true
+      },
+      {
+        "code": "TON",
+        "name": "Tonne",
+        "active": true
+      },
+      {
+        "code": "GMS",
+        "name": "Grams",
+        "active": true
+      },
+      {
+        "code": "MTR",
+        "name": "Meter",
+        "active": true
+      },
+      {
+        "code": "KM",
+        "name": "Kilometer",
+        "active": true
+      },
+      {
+        "code": "CM",
+        "name": "Centimeter",
+        "active": true
+      },
+      {
+        "code": "SFT",
+        "name": "Square Feet",
+        "active": true
+      },
+      {
+        "code": "SQM",
+        "name": "Square Meter",
+        "active": true
+      },
+      {
+        "code": "PERCENT",
+        "name": "Percentage",
+        "active": true
+      }
+    ]
+  ]
+}
