@@ -9,7 +9,7 @@
             "header":"Downloading Excel Templates for setting targets:",
             "isHeaderBold":true,
             "inSheet":true,
-            "inUiInfo":"true",
+            "inUiInfo":true,
             "descriptions":[
                 {
                     "text":"Step 1: Download the excel template by clicking on the “Download Template” button.",
@@ -25,7 +25,7 @@
             "header":"Creating New Facility Data/using existing facility data once the Template is Downloaded",
             "isHeaderBold":true,
             "inSheet":true,
-            "inUiInfo":"true",
+            "inUiInfo":true,
             "descriptions":[
                 {
                     "text":"Step 1: If there are no Facilities available for selection, the “List of Available Facilities“ tab in the template will be empty. To create new facility data, add the name of the Facility Name, Facility Type, Facility Status, Capacity. The “Facility Code” column needs to be left empty if this is a new facility. If it is a facility being reused (which is available in the template after downloading) the user only needs to do step 2. ",
@@ -69,7 +69,7 @@
             "header":"Cases for common errors:",
             "isHeaderBold":true,
             "inSheet":true,
-            "inUiInfo":"true",
+            "inUiInfo":true,
             "descriptions":[
                 {
                     "text":"If the user has removed Facility codes for an existing facility in the list then system will create a duplicate Facility with those column values.",
