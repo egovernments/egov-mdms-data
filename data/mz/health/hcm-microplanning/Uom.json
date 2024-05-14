@@ -2,7 +2,6 @@
   "tenantId": "mz",
   "moduleName": "hcm-microplanning",
   "Uom": [
-    [
       {
         "code": "NOS",
         "name": "Numbers",
@@ -53,6 +52,5 @@
         "name": "Percentage",
         "active": true
       }
-    ]
   ]
 }
