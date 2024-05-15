@@ -139,6 +139,71 @@
           ]
         }
       ]
+    },
+    {
+      "type": "boundary",
+      "texts": [
+        {
+          "header": "BOUNDARY_README_HEADER_1",
+          "isHeaderBold": true,
+          "inSheet": true,
+          "inUiInfo": true,
+          "descriptions": [
+            {
+              "text": "BOUNDARY_README_HEADER_1_DESC_1",
+              "isStepRequired": true
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_1_DESC_2",
+              "isStepRequired": true
+            }
+          ]
+        },
+        {
+          "header": "BOUNDARY_README_HEADER_2",
+          "isHeaderBold": true,
+          "inSheet": true,
+          "inUiInfo": true,
+          "descriptions": [
+            {
+              "text": "BOUNDARY_README_HEADER_2_DESC_1",
+              "isStepRequired": true
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_2_DESC_2",
+              "isStepRequired": true
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_2_DESC_3",
+              "isStepRequired": true
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_2_DESC_4",
+              "isStepRequired": true
+            }
+          ]
+        },
+        {
+          "header": "BOUNDARY_README_HEADER_3",
+          "isHeaderBold": true,
+          "inSheet": true,
+          "inUiInfo": true,
+          "descriptions": [
+            {
+              "text": "BOUNDARY_README_HEADER_3_DESC_1",
+              "isStepRequired": false
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_3_DESC_2",
+              "isStepRequired": false
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_3_DESC_3",
+              "isStepRequired": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
