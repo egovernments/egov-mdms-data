@@ -12,21 +12,21 @@
           "code": "EXCEL",
           "fileExtension": ["xlsx", "xls"],
           "iconName": "Excel",
-          "namingConvention": "(?i)^Population.xls(x)?$"
+          "namingConvention": "^([Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn])\\.xls(x)?$"
         },
         {
           "id": "Shapefile",
           "code": "SHAPE_FILES",
           "fileExtension": ["zip"],
           "iconName": "SpatialDocument",
-          "namingConvention": "(?i)^Population.zip$"
+          "namingConvention": "^[Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn]\\.zip$"
         },
         {
           "id": "GeoJSON",
           "code": "GEOJSON",
           "fileExtension": ["geojson"],
           "iconName": "SpatialDocument",
-          "namingConvention": "(?i)^Population.geojson$"
+          "namingConvention": "^[Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn]\\.geojson$"
         }
       ]
     },
@@ -40,21 +40,21 @@
           "code": "EXCEL",
           "fileExtension": ["xlsx", "xls"],
           "iconName": "Excel",
-          "namingConvention": "(?i)^Facilities.xls(x)?$"
+          "namingConvention": "^([Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn])\\.xls(x)?$"
         },
         {
           "id": "Shapefile",
           "code": "SHAPE_FILES",
           "fileExtension": ["zip"],
           "iconName": "SpatialDocument",
-          "namingConvention": "(?i)^Facilities.zip$"
+          "namingConvention": "^[Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn]\\.zip$"
         },
         {
           "id": "GeoJSON",
           "code": "GEOJSON",
           "fileExtension": ["geojson"],
           "iconName": "SpatialDocument",
-          "namingConvention": "(?i)^Facilities.geojson$"
+          "namingConvention": "^[Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn]\\.geojson$"
         }
       ]
     }
