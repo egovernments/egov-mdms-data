@@ -12,7 +12,7 @@
           "code": "EXCEL",
           "fileExtension": ["xlsx", "xls"],
           "iconName": "Excel",
-          "namingConvention": "(?i)^Population.(xlsx)|(xls)$"
+          "namingConvention": "(?i)^Population.xls(x)?$"
         },
         {
           "id": "Shapefile",
@@ -40,7 +40,7 @@
           "code": "EXCEL",
           "fileExtension": ["xlsx", "xls"],
           "iconName": "Excel",
-          "namingConvention": "(?i)^Facilities.(xlsx)|(xls)$"
+          "namingConvention": "(?i)^Facilities.xls(x)?$"
         },
         {
           "id": "Shapefile",
