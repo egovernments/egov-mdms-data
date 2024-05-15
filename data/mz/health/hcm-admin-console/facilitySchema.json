@@ -37,7 +37,8 @@
                 "HCM_ADMIN_CONSOLE_FACILITY_NAME",
                 "HCM_ADMIN_CONSOLE_FACILITY_TYPE",
                 "HCM_ADMIN_CONSOLE_FACILITY_STATUS",
-                "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY"
+                "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY",
+                "HCM_ADMIN_CONSOLE_BOUNDARY_CODE"
             ],
             "unique": [
                 "HCM_ADMIN_CONSOLE_FACILITY_NAME"
