@@ -12368,8 +12368,8 @@
       "navigationURL": "/workbench-ui/employee/",
       "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
-      },
-      {
+    },
+    {
       "id": 1649,
       "name": "CreateCampaign",
       "url": "url",
@@ -12677,7 +12677,8 @@
       "serviceCode": "referralmanagement",
       "code": "null",
       "path": ""
-    }, {
+    },
+    {
       "id": 1674,
       "name": "MDMS",
       "url": "url",
@@ -12761,7 +12762,7 @@
       "path": "HCM.PROJECTTASK.SEARCH",
       "leftIcon": "dynamic:ContractIcon"
     },
-     {
+    {
       "id": 1688,
       "name": "Beneficiary Referral",
       "url": "",
@@ -12797,7 +12798,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1682,
       "name": "View Reports",
       "url": "",
@@ -12881,7 +12882,7 @@
       "code": "null",
       "path": ""
     },
-      {
+    {
       "id": 1689,
       "name": "HFReferral Create",
       "url": "/referralmanagement/hf-referral/v1/_create",
@@ -12965,7 +12966,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1696,
       "name": "Create Attendance Register",
       "url": "/health-attendance/v1/_create",
@@ -13685,7 +13686,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1756,
       "name": "Error Handler",
       "url": "/error-handler/handle-error",
@@ -13967,7 +13968,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1781,
       "name": "schema create API",
       "url": "/mdms-v2/schema/v1/_create",
@@ -13978,7 +13979,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1782,
       "name": "schema search API",
       "url": "/mdms-v2/schema/v1/_search",
@@ -14000,7 +14001,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 1784,
       "name": "create data for schema",
       "url": "/mdms-v2/v2/_create/hcm.bandwidth_batch_size",
@@ -14085,6 +14086,28 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1792,
+      "name": "project bandwidth check",
+      "url": "/project/check/bandwidth",
+      "displayName": "project bandwidth check",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1793,
+      "name": "health project bandwidth check",
+      "url": "/health-project/check/bandwidth",
+      "displayName": "health project bandwidth check",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "project",
       "code": "null",
       "path": ""
     }
