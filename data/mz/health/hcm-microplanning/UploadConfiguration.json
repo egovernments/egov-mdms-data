@@ -6,6 +6,7 @@
       "id": "Population",
       "code": "POPULATION",
       "iconName": "Population",
+      "required":true,
       "UploadFileTypes": [
         {
           "id": "Excel",
@@ -34,6 +35,7 @@
       "id": "Facilities",
       "code": "FACILITIES",
       "iconName": "Facilities",
+      "required":false,
       "UploadFileTypes": [
         {
           "id": "Excel",
