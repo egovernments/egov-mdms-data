@@ -10,7 +10,7 @@
                 "HCM_ADMIN_CONSOLE_USER_NAME": {
                     "type": "string",
                     "maxLength": 128,
-                    "minLength": 1
+                    "minLength": 2
                 },
                 "HCM_ADMIN_CONSOLE_USER_PHONE_NUMBER": {
                     "type": "integer"
