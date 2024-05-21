@@ -91,6 +91,13 @@
             "isRuleConfigureInputs":true,
             "isFilterPropertyOfMapSection":false
           },
+          "numberOfMonitors ": {
+            "type": "number",
+            "isRequired":true,
+            "isLocationDataColumns":false,
+            "isRuleConfigureInputs":true,
+            "isFilterPropertyOfMapSection":false
+          },
           "lat": {
             "type": "number",
             "minimum": -90,
@@ -293,6 +300,13 @@
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
             "isFilterPropertyOfMapSection":false
+          },
+          "numberOfMonitors ": {
+            "type": "number",
+            "isRequired":true,
+            "isLocationDataColumns":false,
+            "isRuleConfigureInputs":true,
+            "isFilterPropertyOfMapSection":false
           }
         }
       }
@@ -440,6 +454,13 @@
             "isFilterPropertyOfMapSection":false
           },
           "targetHouseholds": {
+            "type": "number",
+            "isRequired":true,
+            "isLocationDataColumns":false,
+            "isRuleConfigureInputs":true,
+            "isFilterPropertyOfMapSection":false
+          },
+          "numberOfMonitors ": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
