@@ -57,6 +57,16 @@
         }
       ]
     },
+     {
+      "service": "BOUNDARY",
+      "actions": [
+        {
+          "action": "search",
+          "entityName": "Boundary",
+          "path": "/boundary-service/boundary-relationships/_search"
+        }
+      ]
+    },
     {
       "service": "INDIVIDUAL",
       "actions": [
