@@ -5065,7 +5065,7 @@
     {
       "id": 2017,
       "name": "Create Event",
-      "url": "egov-user-event/v1/events/_create",
+      "url": "/egov-user-event/v1/events/_create",
       "displayName": "Create Payment",
       "orderNumber": 0,
       "enabled": false,
