@@ -5072,6 +5072,17 @@
       "serviceCode": "COLLECTION",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2018,
+      "name": "Search Event",
+      "url": "egov-document-uploader/egov-du/document/_search",
+      "displayName": "Document Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
     }
   ]
 }
