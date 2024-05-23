@@ -111,6 +111,10 @@
       "idname": "works.template.number"
     },
     {
+      "format": "JOB-[cy:yyyy]-[SEQ_JOB_NUM]",
+      "idname": "works.job.number"
+    },
+    {
       "format": "FSM/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON[TENANT_ID]]",
       "idname": "fsm.trip_charges.receipt.id"
     },
