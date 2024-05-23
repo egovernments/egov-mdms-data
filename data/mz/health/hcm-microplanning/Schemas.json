@@ -13,35 +13,40 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "terrain": {
             "type": "string",
             "isRequired":false,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulationDemo1": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetpopulationDemo2": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "lat": {
             "type": "number",
@@ -50,7 +55,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "long": {
             "type": "number",
@@ -59,7 +65,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           }
         }
       }
@@ -75,28 +82,32 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulation": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetHouseholds": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "numberOfMonitors": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "lat": {
             "type": "number",
@@ -105,7 +116,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "long": {
             "type": "number",
@@ -114,7 +126,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           }
         }
       }
@@ -130,14 +143,16 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulation": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "lat": {
             "type": "number",
@@ -146,7 +161,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "long": {
             "type": "number",
@@ -155,7 +171,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           }
         }
       }
@@ -170,21 +187,24 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityCode": {
             "type": "string",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityName": {
             "type": "string",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityType": {
             "type": "string",
@@ -192,7 +212,8 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":true
+            "isFilterPropertyOfMapSection":true,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityStatus": {
             "type": "string",
@@ -200,14 +221,16 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "capacity": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "lat": {
             "type": "number",
@@ -216,7 +239,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "long": {
             "type": "number",
@@ -225,7 +249,8 @@
             "isRequired":false,
             "isLocationDataColumns":true,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           }
         }
       }
@@ -241,35 +266,40 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "terrain": {
             "type": "string",
             "isRequired":false,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulationDemo1": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetpopulationDemo2": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -285,28 +315,32 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulation": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetHouseholds": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "numberOfMonitors": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -322,14 +356,16 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulation": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -345,7 +381,8 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityCode": {
             "type": "string",
@@ -353,7 +390,8 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityName": {
             "type": "string",
@@ -361,7 +399,8 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityType": {
             "type": "string",
@@ -369,7 +408,8 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":true
+            "isFilterPropertyOfMapSection":true,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityStatus": {
             "type": "string",
@@ -377,14 +417,16 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "capacity": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -400,35 +442,40 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "terrain": {
             "type": "string",
             "isRequired":false,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulationDemo1": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetpopulationDemo2": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -444,28 +491,32 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulation": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "targetHouseholds": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           },
           "numberOfMonitors": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -481,14 +532,16 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "targetPopulation": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
@@ -503,21 +556,24 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityCode": {
             "type": "string",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityName": {
             "type": "string",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityType": {
             "type": "string",
@@ -525,7 +581,8 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":true
+            "isFilterPropertyOfMapSection":true,
+            "isVisualizationPropertyOfMapSection":false
           },
           "facilityStatus": {
             "type": "string",
@@ -533,14 +590,16 @@
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":false,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":false
           },
           "capacity": {
             "type": "number",
             "isRequired":true,
             "isLocationDataColumns":false,
             "isRuleConfigureInputs":true,
-            "isFilterPropertyOfMapSection":false
+            "isFilterPropertyOfMapSection":false,
+            "isVisualizationPropertyOfMapSection":true
           }
         }
       }
