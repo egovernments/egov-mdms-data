@@ -13,15 +13,21 @@
                 },
                 {
                     "output": "NO_OF_BEDNETS_REQUIRED",
-                    "input": "targetHouseholds",
+                    "input": "NO_OF_HOUSEHOLD",
                     "operator": "MULTIPLIED_BY",
-                    "assumptionValue": "NO_OF_BEDNET_PER_HOUSEHOLD"
+                    "assumptionValue": "NO_OF_BEDNETS_PER_HOUSEHOLD"
                 },
                 {
-                    "output": "NO_OF_DISTRIBUTORS",
-                    "input": "numberOfMonitors",
+                    "output": "NO_OF_DISTRIBUTORS_PER_BOUNDARY",
+                    "input": "NO_OF_HOUSEHOLD",
+                    "operator": "DEVIDED_BY",
+                    "assumptionValue": "AVERAGE_NUMBER_OF_HOUSEHOLDS_COVERED_BY_ONE_DISTRIBUTOR"
+                },
+                {
+                    "output": "NO_OF_SUPERIORS",
+                    "input": "NO_OF_DISTRIBUTORS_PER_BOUNDARY",
                     "operator": "MULTIPLIED_BY",
-                    "assumptionValue": "NO_OF_DISTRIBUTORS_PER_MONITOR"
+                    "assumptionValue": "NUMBER_OF_DISTRIBUTORES_PER_SUPERVISOR"
                 }
             ]
         },
@@ -62,7 +68,19 @@
                     "output": "TOTAL_QUANTITY_INCLUDING_BUFFER",
                     "input": "QUANTITY_OF_INSECTICIDE_REQUIRED",
                     "operator": "MULTIPLIED_BY",
-                    "assumptionValue": "TOTAL_PERCENTAGE_WITH_BUFFER"
+                    "assumptionValue": "TOTAL_PROPORTION_WITH_BUFFER"
+                },
+                {
+                    "output": "NUMBER_OF_SPRAY_TECHNICIANS_PER_BOUNDARY",
+                    "input": "NUMBER_OF_HOUSEHOLDS_TO_BE_COVERED",
+                    "operator": "DEVIDED_BY",
+                    "assumptionValue": "AVERAGE_NUMBER_OF_HOUSEHOLDS_COVERED_BY_ONE_SPRAY_TECHNICIAN"
+                },
+                {
+                    "output": "NO_OF_SUPERIORS",
+                    "input": "NUMBER_OF_SPRAY_TECHNICIANS_PER_BOUNDARY",
+                    "operator": "DEVIDED_BY",
+                    "assumptionValue": "AVERAGE_NUMBER_OF_HOUSEHOLDS_COVERED_BY_ONE_SPRAY_TECHNICIAN"
                 }
             ]
         },
@@ -85,19 +103,31 @@
                     "output": "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_1_WITH_BUFFER",
                     "input": "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_1",
                     "operator": "MULTIPLIED_BY",
-                    "assumptionValue": "TOTAL_PERCENTAGE_WITH_BUFFER"
+                    "assumptionValue": "TOTAL_PROPORTION_WITH_BUFFER"
                 },
                 {
                     "output": "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_2_WITH_BUFFER",
                     "input": "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_2",
                     "operator": "MULTIPLIED_BY",
-                    "assumptionValue": "TOTAL_PERCENTAGE_WITH_BUFFER"
+                    "assumptionValue": "TOTAL_PROPORTION_WITH_BUFFER"
                 },
                 {
                     "output": "NO_OF_DISTRIBUTORS",
                     "input": "NO_OF_MONITOR",
                     "operator": "MULTIPLIED_BY",
                     "assumptionValue": "NO_OF_DISTRIBUTORS_PER_MONITOR"
+                },
+                {
+                    "output": "NO_OF_TEAMS_PER_BOUNDARY",
+                    "input": "totalNumberOfChildren",
+                    "operator": "DEVIDED_BY",
+                    "assumptionValue": "AVERAGE_NUMBER_OF_CHILDREN_REACHED_BY_ONE_TEAM_PER_DAY"
+                },
+                {
+                    "output": "NO_OF_SUPERIORS_PER_BOUNDARY",
+                    "input": "NO_OF_TEAMS_PER_BOUNDARY",
+                    "operator": "DEVIDED_BY",
+                    "assumptionValue": "AVERAGE_NUMBER_OF_CHILDREN_REACHED_BY_ONE_TEAM_PER_DAY"
                 }
             ]
         }
