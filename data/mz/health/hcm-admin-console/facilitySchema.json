@@ -29,7 +29,7 @@
                     "minimum": 1,
                     "maximum": 100000000
                 },
-                "HCM_ADMIN_CONSOLE_BOUNDARY_CODE": {
+                "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY": {
                     "type": "string"
                 }
             },
@@ -37,7 +37,8 @@
                 "HCM_ADMIN_CONSOLE_FACILITY_NAME",
                 "HCM_ADMIN_CONSOLE_FACILITY_TYPE",
                 "HCM_ADMIN_CONSOLE_FACILITY_STATUS",
-                "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY"
+                "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY",
+                "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY"
             ],
             "unique": [
                 "HCM_ADMIN_CONSOLE_FACILITY_NAME"
