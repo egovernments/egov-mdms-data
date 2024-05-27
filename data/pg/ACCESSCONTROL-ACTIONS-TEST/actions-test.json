@@ -5083,6 +5083,17 @@
       "serviceCode": "COLLECTION",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2019,
+      "name": "Create Complaint",
+      "url": "/pgr-services/v2/request/_create",
+      "displayName": "Create Complaint",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
     }
   ]
 }
