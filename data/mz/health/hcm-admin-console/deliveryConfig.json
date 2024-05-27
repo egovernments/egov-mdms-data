@@ -45,7 +45,7 @@
       "customAttribute": true,
       "cycleConfig": {
         "cycle": 3,
-        "deliveries": 2
+        "deliveries": 3
       },
       "deliveryConfig": [
         {
@@ -55,24 +55,17 @@
               "label": "Custom",
               "attrType": "dropdown",
               "attrValue": "Age",
-              "operatorValue": "GREATER_THAN",
-              "value": 10
-            },
-            {
-              "key": 2,
-              "label": "Custom",
-              "attrType": "dropdown",
-              "attrValue": "Height",
-              "operatorValue": "LESS_THAN",
-              "value": 50
+              "operatorValue": "IN_BETWEEN",
+              "fromValue": 3,
+              "toValue": 11
             }
           ],
           "productConfig": [
             {
               "key": 1,
               "count": 1,
-              "value": "PVAR-2024-05-03-000305",
-              "name": "SP - 250mg"
+              "value": "PVAR-2024-01-24-000079",
+              "name": "AQ - 75mg"
             }
           ]
         },
@@ -84,16 +77,16 @@
               "attrType": "dropdown",
               "attrValue": "Age",
               "operatorValue": "IN_BETWEEN",
-              "toValue": 10,
-              "fromValue": 20
+              "fromValue": 12,
+              "toValue": 59
             }
           ],
           "productConfig": [
             {
               "key": 1,
               "count": 1,
-              "value": "PVAR-2024-05-03-000305",
-              "name": "SP - 250mg"
+              "value": "PVAR-2024-01-24-000078",
+              "name": "AQ - 150mg"
             }
           ]
         }
