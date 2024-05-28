@@ -37,7 +37,7 @@
                   "Authorization":true
                },
                "hcm": {
-                  "routePath": "/login/s/smc-campaign/app/dashboards?auth_provider_hint=anonymous1#/view/9dcb4380-7ed2-11ee-8fa8-eb29192d3778?embed=true&_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-1y%2Fd,to:now))&_a=()",
+                  "routePath": "/kibana-upgrade/s/amp-dashboard/app/dashboards#/view/0c340aa0-c983-11ee-a631-9d8465121de3?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))",
                   "isOrigin": true,
                   "title": "DASHBOARD_HCM",
                   "Authorization":true
