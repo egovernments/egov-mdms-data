@@ -33,7 +33,8 @@
             "iframe-routes": {
                "home": {
                   "routePath": "/login/",
-                  "isOrigin": true
+                  "isOrigin": true,
+                  "Authorization":true
                },
                "hcm": {
                   "routePath": "/login/s/smc-campaign/app/dashboards?auth_provider_hint=anonymous1#/view/9dcb4380-7ed2-11ee-8fa8-eb29192d3778?embed=true&_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-1y%2Fd,to:now))&_a=()",
