@@ -32,7 +32,7 @@
          "elastic": {
             "iframe-routes": {
                "home": {
-                  "routePath": "/login/",
+                  "routePath": "/kibana-upgrade/",
                   "isOrigin": true,
                   "Authorization":true
                },
