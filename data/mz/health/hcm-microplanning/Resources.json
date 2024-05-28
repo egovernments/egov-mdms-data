@@ -5,10 +5,10 @@
         {
             "campaignType": "ITIN",
             "data": [
-                    "NO_OF_BEDNET_REQUIRED",
-                    "BALES",
                     "NO_OF_HOUSEHOLD",
-                    "NO_OF_DISTRIBUTORS"
+                    "NO_OF_DISTRIBUTORS_PER_BOUNDARY",
+                    "NO_OF_BEDNETS_REQUIRED",
+                    "NO_OF_SUPERVISORS"
             ]
         },
         {
