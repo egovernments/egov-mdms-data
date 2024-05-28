@@ -18,13 +18,17 @@
               "key": 1,
               "label": "Custom",
               "attrType": "text",
-              "attrValue": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL"
+              "attrValue": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL",
+              "operatorValue": "LESS_THAN_EQUAL_TO",
+              "value": 3
             },
             {
               "key": 2,
               "label": "Custom",
               "attrType": "text",
-              "attrValue": "CAMPAIGN_BEDNET_HOUSEHOLD_LABEL"
+              "attrValue": "CAMPAIGN_BEDNET_HOUSEHOLD_LABEL",
+              "operatorValue": "LESS_THAN_EQUAL_TO",
+              "value": 1.8
             }
           ],
           "productConfig": [
