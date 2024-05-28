@@ -2,5 +2,15 @@
   "tenantId": "pg",
   "moduleName": "Workflow",
   "AutoEscalation": [
+    {
+      "businessService": "PGR",
+      "module": "pgr-services",
+      "state": "RESOLVED",
+      "action": "CLOSERESOLVEDCOMPLAIN",
+      "active": "true",
+      "stateSLA": 1.0,
+      "businessSLA": null,
+      "topic" : "pgr-auto-escalation"
+    }
   ]
 }
