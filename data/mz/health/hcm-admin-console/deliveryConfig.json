@@ -49,44 +49,149 @@
       },
       "deliveryConfig": [
         {
-          "attributeConfig": [
+          "delivery": 1,
+          "conditionConfig": [
             {
-              "key": 1,
-              "label": "Custom",
-              "attrType": "dropdown",
-              "attrValue": "Age",
-              "operatorValue": "IN_BETWEEN",
-              "fromValue": 3,
-              "toValue": 11
-            }
-          ],
-          "productConfig": [
+              "attributeConfig": [
+                {
+                  "key": 1,
+                  "label": "Custom",
+                  "attrType": "dropdown",
+                  "attrValue": "Age",
+                  "operatorValue": "IN_BETWEEN",
+                  "fromValue": 3,
+                  "toValue": 11
+                }
+              ],
+              "productConfig": [
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-01-24-000079",
+                  "name": "AQ - 75mg"
+                },
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-05-03-000305",
+                  "name": "SP - 250mg"
+                }
+              ]
+            },
             {
-              "key": 1,
-              "count": 1,
-              "value": "PVAR-2024-01-24-000079",
-              "name": "AQ - 75mg"
+              "attributeConfig": [
+                {
+                  "key": 1,
+                  "label": "Custom",
+                  "attrType": "dropdown",
+                  "attrValue": "Age",
+                  "operatorValue": "IN_BETWEEN",
+                  "fromValue": 12,
+                  "toValue": 59
+                }
+              ],
+              "productConfig": [
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-01-24-000078",
+                  "name": "AQ - 150mg"
+                }
+              ]
             }
           ]
         },
         {
-          "attributeConfig": [
+          "delivery": 2,
+          "conditionConfig": [
             {
-              "key": 1,
-              "label": "Custom",
-              "attrType": "dropdown",
-              "attrValue": "Age",
-              "operatorValue": "IN_BETWEEN",
-              "fromValue": 12,
-              "toValue": 59
+              "attributeConfig": [
+                {
+                  "key": 1,
+                  "label": "Custom",
+                  "attrType": "dropdown",
+                  "attrValue": "Age",
+                  "operatorValue": "IN_BETWEEN",
+                  "fromValue": 3,
+                  "toValue": 11
+                }
+              ],
+              "productConfig": [
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-01-24-000079",
+                  "name": "AQ - 75mg"
+                }
+              ]
+            },
+            {
+              "attributeConfig": [
+                {
+                  "key": 1,
+                  "label": "Custom",
+                  "attrType": "dropdown",
+                  "attrValue": "Age",
+                  "operatorValue": "IN_BETWEEN",
+                  "fromValue": 12,
+                  "toValue": 59
+                }
+              ],
+              "productConfig": [
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-01-24-000078",
+                  "name": "AQ - 150mg"
+                }
+              ]
             }
-          ],
-          "productConfig": [
+          ]
+        },
+        {
+          "delivery": 3,
+          "conditionConfig": [
             {
-              "key": 1,
-              "count": 1,
-              "value": "PVAR-2024-01-24-000078",
-              "name": "AQ - 150mg"
+              "attributeConfig": [
+                {
+                  "key": 1,
+                  "label": "Custom",
+                  "attrType": "dropdown",
+                  "attrValue": "Age",
+                  "operatorValue": "IN_BETWEEN",
+                  "fromValue": 3,
+                  "toValue": 11
+                }
+              ],
+              "productConfig": [
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-01-24-000079",
+                  "name": "AQ - 75mg"
+                }
+              ]
+            },
+            {
+              "attributeConfig": [
+                {
+                  "key": 1,
+                  "label": "Custom",
+                  "attrType": "dropdown",
+                  "attrValue": "Age",
+                  "operatorValue": "IN_BETWEEN",
+                  "fromValue": 12,
+                  "toValue": 59
+                }
+              ],
+              "productConfig": [
+                {
+                  "key": 1,
+                  "count": 1,
+                  "value": "PVAR-2024-01-24-000078",
+                  "name": "AQ - 150mg"
+                }
+              ]
             }
           ]
         }
