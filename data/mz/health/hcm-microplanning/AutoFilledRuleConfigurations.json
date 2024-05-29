@@ -24,7 +24,7 @@
           "assumptionValue": "AVERAGE_NUMBER_OF_HOUSEHOLDS_COVERED_BY_ONE_DISTRIBUTOR"
         },
         {
-          "output": "NO_OF_SUPERIORS",
+          "output": "NO_OF_SUPERVISORS",
           "input": "NO_OF_DISTRIBUTORS_PER_BOUNDARY",
           "operator": "MULTIPLIED_BY",
           "assumptionValue": "NUMBER_OF_DISTRIBUTORES_PER_SUPERVISOR"
@@ -77,7 +77,7 @@
           "assumptionValue": "AVERAGE_NUMBER_OF_HOUSEHOLDS_COVERED_BY_ONE_SPRAY_TECHNICIAN"
         },
         {
-          "output": "NO_OF_SUPERIORS",
+          "output": "NO_OF_SUPERVISORS",
           "input": "NUMBER_OF_SPRAY_TECHNICIANS_PER_BOUNDARY",
           "operator": "DEVIDED_BY",
           "assumptionValue": "AVERAGE_NUMBER_OF_HOUSEHOLDS_COVERED_BY_ONE_SPRAY_TECHNICIAN"
@@ -124,7 +124,7 @@
           "assumptionValue": "AVERAGE_NUMBER_OF_CHILDREN_REACHED_BY_ONE_TEAM_PER_DAY"
         },
         {
-          "output": "NO_OF_SUPERIORS_PER_BOUNDARY",
+          "output": "NO_OF_SUPERVISORS_PER_BOUNDARY",
           "input": "NO_OF_TEAMS_PER_BOUNDARY",
           "operator": "DEVIDED_BY",
           "assumptionValue": "AVERAGE_NUMBER_OF_CHILDREN_REACHED_BY_ONE_TEAM_PER_DAY"
