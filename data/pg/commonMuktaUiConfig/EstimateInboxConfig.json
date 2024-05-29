@@ -29,8 +29,8 @@
         "search": {
           "uiConfig": {
             "headerStyle": null,
-            "primaryLabel": "Search",
-            "secondaryLabel": "Clear Search",
+            "primaryLabel": "ES_COMMON_SEARCH",
+            "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
             "defaultValues": {
               "estimateNumber": "",
@@ -39,7 +39,7 @@
             },
             "fields": [
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
+                "label": "ESTIMATE_INBOX_ESTIMATE_NO",
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
@@ -50,7 +50,7 @@
                   "name": "estimateNumber",
                   "error": "ESTIMATE_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
+                    "pattern": "ES|RE\/[0-9]+-[0-9]+\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -67,7 +67,7 @@
                   "name": "projectId",
                   "error": "PROJECT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -107,7 +107,7 @@
           "uiConfig": {
             "columns": [
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
+                "label": "ESTIMATE_INBOX_ESTIMATE_NO",
                 "jsonPath": "ProcessInstance.businessId",
                 "key": "estimateNumber",
                 "additionalCustomization": true
@@ -171,9 +171,14 @@
                   "TECHNICAL_SANCTIONER",
                   "ESTIMATE_APPROVER"
                 ]
+              },
+              {
+                "text": "WORKS_CREATE_REVISED_ESTIMATE",
+                "url": "/employee/estimate/search-estimate?status=APPROVED&businessService=ESTIMATE",
+                "roles": ["ESTIMATE_CREATOR"]
               }
             ],
-            "label": "MUKTA",
+            "label": "ACTION_TEST_ESTIMATE_HEADER",
             "logoIcon": {
               "component": "EstimateIcon",
               "customClass": "inbox-links-icon"
@@ -186,7 +191,7 @@
           "uiConfig": {
             "type": "filter",
             "headerStyle": null,
-            "primaryLabel": "Filter",
+            "primaryLabel": "ES_COMMON_FILTER",
             "secondaryLabel": "",
             "minReqFields": 0,
             "defaultValues": {
@@ -245,21 +250,6 @@
                 }
               },
               {
-                "label": "COMMON_LOCALITY",
-                "type": "locationdropdown",
-                "isMandatory": false,
-                "disable": false,
-                "populators": {
-                  "name": "locality",
-                  "type": "locality",
-                  "optionsKey": "name",
-                  "defaultText": "COMMON_SELECT_LOCALITY",
-                  "selectedText": "COMMON_SELECTED",
-                  "allowMultiSelect": true
-                }
-              },
-              {
-               
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
@@ -272,7 +262,7 @@
               }
             ]
           },
-          "label": "Filter",
+          "label": "ES_COMMON_FILTER",
           "show": true
         }
       },
