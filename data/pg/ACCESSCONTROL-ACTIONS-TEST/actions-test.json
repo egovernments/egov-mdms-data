@@ -5094,6 +5094,18 @@
       "serviceCode": "COLLECTION",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2020,
+      "name": "Calculate Rate Analysis",
+      "url": "/rate-analysis/v1/_calculate",
+      "parentModule": "rate-analysis",
+      "displayName": "Calculate Rate Analysis",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "rate-analysis",
+      "code": "null",
+      "path": ""
     }
   ]
 }
