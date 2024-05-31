@@ -91,6 +91,10 @@
       "idname": "ifms.benef.reference.number"
     },
     {
+      "format": "COR-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
+      "idname": "ifms.repi.reference.number"
+    },
+    {
       "format": "MB/[fy:yyyy-yy]/[SEQ_MEASUREMENT_NUM]",
       "idname": "mb.reference.number"
     },
@@ -125,6 +129,38 @@
     {
       "idname": "ifix.program.number",
       "format": "PG/[fy:yyyy-yy]/[SEQ_PROG_NUM]"
+    },
+    {
+      "format": "PTS-[cy:yyyy-MM-dd]-[SEQ_PROJECT_STAFF_PTS]",
+      "idname": "project.staff.id"
+    },
+    {
+      "format": "PVAR-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_PVAR]",
+      "idname": "product.variant.id"
+    },
+    {
+      "format": "P-[cy:yyyy-MM-dd]-[SEQ_PRODUCT_P]",
+      "idname": "product.id"
+    },
+    {
+      "format": "PR-[cy:yyyy-MM-dd]-[SEQ_PROJECT_RESOURCE_PR]",
+      "idname": "project.resource.id"
+    },
+    {
+      "format": "PF-[cy:yyyy-MM-dd]-[SEQ_PROJECT_FACILITY_PF]",
+      "idname": "project.facility.id"
+    },
+    {
+      "format": "F-[cy:yyyy-MM-dd]-[SEQ_FACILITY_SR]",
+      "idname": "facility.id"
+    },
+    {
+      "format":"PB-PGR-[cy:yyyy-MM-dd]-[SEQ_EG_PGR_ID]",
+      "idname":"pgr.servicerequestid"
+    },
+    {
+      "format": "CMP-[cy:yyyy-MM-dd]-[SEQ_EG_CMP_ID]",
+      "idname": "campaign.number"
     }
   ]
 }
