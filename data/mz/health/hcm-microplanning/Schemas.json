@@ -206,7 +206,14 @@
       "doHierarchyCheckInUploadedData": false,
       "template": {
         "includeFacilityData": true,
-        "hierarchyLevelWiseSheets": false
+        "hierarchyLevelWiseSheets": false,
+        "facilitySchemaApiMapping":{
+          "facilityCode":"id",
+          "facilityName":"name",
+          "facilityType":"usage",
+          "facilityStatus":"isPermanent",
+          "capacity":"storageCapacity"
+        }
       },
       "schema": {
         "Properties": {
@@ -429,7 +436,14 @@
       "doHierarchyCheckInUploadedData": false,
       "template": {
         "includeFacilityData": true,
-        "hierarchyLevelWiseSheets": false
+        "hierarchyLevelWiseSheets": false,
+        "facilitySchemaApiMapping":{
+          "facilityCode":"id",
+          "facilityName":"name",
+          "facilityType":"usage",
+          "facilityStatus":"isPermanent",
+          "capacity":"storageCapacity"
+        }
       },
       "schema": {
         "Properties": {
@@ -633,7 +647,14 @@
       "doHierarchyCheckInUploadedData": false,
       "template": {
         "includeFacilityData": true,
-        "hierarchyLevelWiseSheets": false
+        "hierarchyLevelWiseSheets": false,
+        "facilitySchemaApiMapping":{
+          "facilityCode":"id",
+          "facilityName":"name",
+          "facilityType":"usage",
+          "facilityStatus":"isPermanent",
+          "capacity":"storageCapacity"
+        }
       },
       "schema": {
         "Properties": {
