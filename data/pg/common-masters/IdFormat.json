@@ -99,6 +99,10 @@
       "idname": "works.sor.number"
     },
     {
+      "format": "CMP_[SEQ_CMP_REF_NUM]",
+      "idname": "works.composition.number"
+    },
+    {
       "format": "TMP_[SEQ_TEMP_REF_NUM]",
       "idname": "works.template.number"
     },
