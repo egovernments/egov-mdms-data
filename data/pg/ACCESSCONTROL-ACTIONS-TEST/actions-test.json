@@ -5130,6 +5130,18 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2023,
+      "name": "SemanticSearch",
+      "url": "/semanticSearch/_search",
+      "displayName": "Semantic Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "SemanticSearch",
+      "code": "null",
+      "path": ""
     }
   ]
 }
