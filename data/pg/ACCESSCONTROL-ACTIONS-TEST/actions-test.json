@@ -5106,6 +5106,30 @@
       "serviceCode": "rate-analysis",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2021,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_create/WORKS-SOR.Composition",
+      "displayName": "Create WORKS-SOR.Composition",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2022,
+      "name": "MDMS",
+      "url": "/mdms-v2/v2/_update/WORKS-SOR.Composition",
+      "displayName": "Update WORKS-SOR.Composition",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
