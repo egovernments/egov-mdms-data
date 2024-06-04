@@ -5683,6 +5683,36 @@
       "actionid": 2022,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2023,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PGR_LME",
+      "actionid": 2023,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PGR-ADMIN",
+      "actionid": 2023,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CSR",
+      "actionid": 2023,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "GRO",
+      "actionid": 2023,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
