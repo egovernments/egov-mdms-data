@@ -3,7 +3,7 @@
     "moduleName": "hcm-microplanning",
     "AutoFilledRuleConfigurations": [
         {
-            "campaignType": "ITIN",
+            "campaignType": "LLIN-mz",
             "data": [
                 {
                     "output": "NO_OF_HOUSEHOLD",
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "campaignType": "SMC",
+            "campaignType": "MR-DN",
             "data": [
                 {
                     "output": "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_1",

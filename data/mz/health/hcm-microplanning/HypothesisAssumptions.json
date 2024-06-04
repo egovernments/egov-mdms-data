@@ -3,7 +3,7 @@
     "moduleName": "hcm-microplanning",
     "HypothesisAssumptions": [
         {
-            "campaignType": "ITIN",
+            "campaignType": "LLIN-mz",
             "assumptions": [
                 "NO_OF_PEOPLE_PER_HOUSEHOLD",
                 "NO_OF_BEDNETS_PER_HOUSEHOLD",
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "campaignType": "SMC",
+            "campaignType": "MR-DN",
             "assumptions": [
                 "NO_OF_CYCLES",
                 "TOTAL_PROPORTION_WITH_BUFFER",
