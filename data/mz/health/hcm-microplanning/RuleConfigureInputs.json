@@ -3,7 +3,7 @@
   "moduleName": "hcm-microplanning",
   "RuleConfigureInputs": [
     {
-      "campaignType": "ITIN",
+      "campaignType": "LLIN-mz",
       "data": [
         "POPULATION",
         "NO_OF_HOUSEHOLD",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "campaignType": "SMC",
+      "campaignType": "MR-DN",
       "data": [
         "POPULATION_COUNT_DEMOGRAPHIC_1_PER_BOUNDARY",
         "POPULATION_COUNT_DEMOGRAPHIC_2_PER_BOUNDARY",

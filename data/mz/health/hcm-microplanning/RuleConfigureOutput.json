@@ -3,7 +3,7 @@
   "moduleName": "hcm-microplanning",
   "RuleConfigureOutput": [
     {
-      "campaignType": "ITIN",
+      "campaignType": "LLIN-mz",
       "data": [
         "NO_OF_HOUSEHOLD",
         "NO_OF_BEDNETS_REQUIRED",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "campaignType": "SMC",
+      "campaignType": "MR-DN",
       "data": [
         "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_1",
         "NO_OF_SPAQS_REQUIRED_PER_CYCLE_FOR_DEMOGRAPHIC_2",
