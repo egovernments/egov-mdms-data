@@ -14220,6 +14220,20 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1804,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "microplan",
+      "code": "null",
+      "navigationURL": "/microplan-ui/employee",
+      "path": "",
+      "leftIcon": "dynamic:Home"
     }
   ]
 }
