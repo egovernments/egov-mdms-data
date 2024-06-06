@@ -14597,6 +14597,20 @@
         "name": "create data for HCM-ADMIN-CONSOLE.Boundary schema",
         "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.Boundary",
         "serviceCode": "mdms"
+    },
+      {
+        "id": 1872,
+        "name": "Audit log search",
+        "url": "/audit-service/log/v1/_search",
+        "serviceCode": "audit"
+    },
+  
+        {
+        "id": 1873,
+        "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+        "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
+        "serviceCode": "mdms"
     }
+    
   ]
 }
