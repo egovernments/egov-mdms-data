@@ -7,6 +7,7 @@
       "section": "Population",
       "campaignType": "MR-DN",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -31,7 +32,7 @@
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": true
           },
-          "targetPopulationDemo1": {
+          "targetPopulationAge3To11": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -40,7 +41,7 @@
             "isVisualizationPropertyOfMapSection": true,
             "toShowInMicroplanPreview": true
           },
-          "targetpopulationDemo2": {
+          "targetpopulationAge12To59": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -49,7 +50,7 @@
             "isVisualizationPropertyOfMapSection": true,
             "toShowInMicroplanPreview": true
           },
-          "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
+          "totalTargetPopulation": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -88,6 +89,7 @@
       "section": "Population",
       "campaignType": "LLIN-mz",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -151,6 +153,7 @@
       "section": "Population",
       "campaignType": "IRS",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -204,6 +207,7 @@
       "type": "Excel",
       "section": "Facilities",
       "doHierarchyCheckInUploadedData": false,
+      "showResourcesInMappingSection": false,
       "template": {
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
@@ -303,6 +307,7 @@
       "section": "Population",
       "campaignType": "MR-DN",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -327,7 +332,7 @@
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": false
           },
-          "targetPopulationDemo1": {
+          "targetPopulationAge3To11": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -336,7 +341,7 @@
             "isVisualizationPropertyOfMapSection": true,
             "toShowInMicroplanPreview": true
           },
-          "targetpopulationDemo2": {
+          "targetpopulationAge12To59": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -345,7 +350,7 @@
             "isVisualizationPropertyOfMapSection": true,
             "toShowInMicroplanPreview": true
           },
-          "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
+          "totalTargetPopulation": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -362,6 +367,7 @@
       "section": "Population",
       "campaignType": "LLIN-mz",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -403,6 +409,7 @@
       "section": "Population",
       "campaignType": "IRS",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -434,6 +441,7 @@
       "type": "GeoJSON",
       "section": "Facilities",
       "doHierarchyCheckInUploadedData": false,
+      "showResourcesInMappingSection": false,
       "template": {
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
@@ -514,6 +522,7 @@
       "section": "Population",
       "campaignType": "MR-DN",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -538,7 +547,7 @@
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": true
           },
-          "targetPopulationDemo1": {
+          "targetPopulationAge3To11": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -547,7 +556,7 @@
             "isVisualizationPropertyOfMapSection": true,
             "toShowInMicroplanPreview": true
           },
-          "targetpopulationDemo2": {
+          "targetpopulationAge12To59": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -556,7 +565,7 @@
             "isVisualizationPropertyOfMapSection": true,
             "toShowInMicroplanPreview": true
           },
-          "targetPopulationToReachPerCycleAgainstTheBoundaryInColumnHTotal": {
+          "totalTargetPopulation": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -573,6 +582,7 @@
       "section": "Population",
       "campaignType": "LLIN-mz",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -614,6 +624,7 @@
       "section": "Population",
       "campaignType": "IRS",
       "doHierarchyCheckInUploadedData": true,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true
@@ -645,6 +656,7 @@
       "type": "Shapefile",
       "section": "Facilities",
       "doHierarchyCheckInUploadedData": false,
+      "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
