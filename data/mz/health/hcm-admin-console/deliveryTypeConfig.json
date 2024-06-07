@@ -1,0 +1,14 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM-ADMIN-CONSOLE",
+  "deliveryTypeConfig": [
+    {
+      "key": 1,
+      "code": "DIRECT"
+    },
+    {
+      "key": 2,
+      "code": "INDIRECT"
+    }
+  ]
+}
