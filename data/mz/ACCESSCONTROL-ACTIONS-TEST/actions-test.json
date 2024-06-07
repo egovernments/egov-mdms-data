@@ -14610,6 +14610,30 @@
         "name": "update data for ACCESSCONTROL-ROLES.roles schema",
         "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
         "serviceCode": "mdms"
+    },
+    {
+      "id": 1874,
+      "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/hcm.symptom_types",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1875,
+      "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/hcm.genderType",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1876,
+      "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/hcm.idFormat",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1877,
+      "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/hcm.stateInfo",
+      "serviceCode": "mdms"
     }
     
   ]
