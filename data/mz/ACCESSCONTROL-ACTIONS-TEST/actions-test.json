@@ -14178,17 +14178,17 @@
     },
     {
       "id": 1803,
-      "name": "Home",
+      "name": "MICROPLAN_HOME",
       "url": "url",
-      "displayName": "Home",
+      "displayName": "Microplan home",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "microplan",
       "code": "null",
       "navigationURL": "/microplan-ui/employee",
-      "path": "",
-      "leftIcon": "dynamic:Home"
+      "path": "Home",
+      "leftIcon": "action:home"
     }
   ]
 }
