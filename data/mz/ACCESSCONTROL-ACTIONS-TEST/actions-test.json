@@ -14634,7 +14634,12 @@
       "name": "update data for ACCESSCONTROL-ROLES.roles schema",
       "url": "/mdms-v2/v2/_create/hcm.stateInfo",
       "serviceCode": "mdms"
+    },
+    {
+      "id": 1878,
+      "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/HCM.DELIVERY_COMMENT_OPTIONS_POPULATOR",
+      "serviceCode": "mdms"
     }
-    
   ]
 }
