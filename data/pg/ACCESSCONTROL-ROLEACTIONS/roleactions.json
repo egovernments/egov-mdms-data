@@ -25872,6 +25872,18 @@
       "actionid": 2509,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2510,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2510,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
