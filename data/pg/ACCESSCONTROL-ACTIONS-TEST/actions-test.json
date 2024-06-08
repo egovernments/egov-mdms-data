@@ -14652,6 +14652,18 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2510,
+      "name": "MDMS v2 PGR add complaint type",
+      "url": "/mdms-v2/v2/_create/RAINMAKER-PGR.ServiceDefs",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
     }
    ]
 }
