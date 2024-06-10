@@ -13,6 +13,10 @@
       ]
     },
     {
+      "name": "microplanNamingRegx",
+      "microplanNamingRegx": "^(?![\\d\\s+\\-()]+$)[A-Za-z\\d\\s+\\-()]*$"
+    },
+    {
       "name": "microplanNamingConstraints",
       "microplanNamingConstraints": [
         "MICROPLAN_NAMING_CONSTRAINT_1",
