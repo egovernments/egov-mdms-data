@@ -14234,6 +14234,426 @@
       "navigationURL": "/microplan-ui/employee",
       "path": "Home",
       "leftIcon": "action:home"
+    },
+    {
+      "id": 1805,
+      "name": "create data for Health.SearchProductVariant schema",
+      "url": "/mdms-v2/v2/_create/Health.SearchProductVariant",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1806,
+      "name": "create data for Health.SearchProjectStaff schema",
+      "url": "/mdms-v2/v2/_create/Health.SearchProjectStaff",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1807,
+      "name": "create data for Health.ProjectTask schema",
+      "url": "/mdms-v2/v2/_create/Health.ProjectTask",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1808,
+      "name": "create data for Health.SearchProjectTask schema",
+      "url": "/mdms-v2/v2/_create/Health.SearchProjectTask",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1809,
+      "name": "create data for Health.ProjectStaff schema",
+      "url": "/mdms-v2/v2/_create/Health.ProjectStaff",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1810,
+      "name": "create data for Health.ProjectResource schema",
+      "url": "/mdms-v2/v2/_create/Health.ProjectResource",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1811,
+      "name": "create data for Health.Project schema",
+      "url": "/mdms-v2/v2/_create/Health.Project",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1812,
+      "name": "create data for Health.ProductVariant schema",
+      "url": "/mdms-v2/v2/_create/Health.ProductVariant",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1813,
+      "name": "create data for Health.Product schema",
+      "url": "/mdms-v2/v2/_create/Health.Product",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1814,
+      "name": "create data for Health.Household schema",
+      "url": "/mdms-v2/v2/_create/Health.Household",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1815,
+      "name": "create data for Health.Facility schema",
+      "url": "/mdms-v2/v2/_create/Health.Facility",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1816,
+      "name": "create data for Health.ProjectBeneficiary schema",
+      "url": "/mdms-v2/v2/_create/Health.ProjectBeneficiary",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1817,
+      "name": "create data for Workbench.UISchema schema",
+      "url": "/mdms-v2/v2/_create/Workbench.UISchema",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1818,
+      "name": "create data for tenant.tenants schema",
+      "url": "/mdms-v2/v2/_create/tenant.tenants",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1819,
+      "name": "create data for tenant.citymodule schema",
+      "url": "/mdms-v2/v2/_create/tenant.citymodule",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1820,
+      "name": "create data for INBOX.InboxQueryConfiguration schema",
+      "url": "/mdms-v2/v2/_create/INBOX.InboxQueryConfiguration",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1821,
+      "name": "create data for module-version.ROW_VERSIONS schema",
+      "url": "/mdms-v2/v2/_create/module-version.ROW_VERSIONS",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1822,
+      "name": "create data for egov-hrms.Specialization schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.Specialization",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1823,
+      "name": "create data for egov-hrms.EmploymentTest schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmploymentTest",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1824,
+      "name": "create data for egov-hrms.EmployeeType schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmployeeType",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1825,
+      "name": "create data for egov-hrms.EmployeeStatus schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmployeeStatus",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1826,
+      "name": "create data for egov-hrms.EmployeeDepartment schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmployeeDepartment",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1827,
+      "name": "create data for egov-hrms.Degree schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.Degree",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1828,
+      "name": "create data for egov-hrms.DeactivationReason schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.DeactivationReason",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1829,
+      "name": "create data for egov-hrms.CommonFieldsConfig schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.CommonFieldsConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1830,
+      "name": "create data for egov-hrms.CampaignAssignmentFieldsConfig schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.CampaignAssignmentFieldsConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1831,
+      "name": "create data for dss-dashboard.dashboard-config schema",
+      "url": "/mdms-v2/v2/_create/dss-dashboard.dashboard-config",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1832,
+      "name": "create data for dss-dashboard.FAQs schema",
+      "url": "/mdms-v2/v2/_create/dss-dashboard.FAQs",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1833,
+      "name": "create data for dss-dashboard.Calculations schema",
+      "url": "/mdms-v2/v2/_create/dss-dashboard.Calculations",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1834,
+      "name": "create data for dss-dashboard.About schema",
+      "url": "/mdms-v2/v2/_create/dss-dashboard.About",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1835,
+      "name": "create data for common-masters.StateInfo schema",
+      "url": "/mdms-v2/v2/_create/common-masters.StateInfo",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1836,
+      "name": "create data for common-masters.IdFormat schema",
+      "url": "/mdms-v2/v2/_create/common-masters.IdFormat",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1837,
+      "name": "create data for common-masters.GenderType schema",
+      "url": "/mdms-v2/v2/_create/common-masters.GenderType",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1838,
+      "name": "create data for common-masters.Designation schema",
+      "url": "/mdms-v2/v2/_create/common-masters.Designation",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1839,
+      "name": "create data for common-masters.Department schema",
+      "url": "/mdms-v2/v2/_create/common-masters.Department",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1840,
+      "name": "create data for common-masters.CensusYear schema",
+      "url": "/mdms-v2/v2/_create/common-masters.CensusYear",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1841,
+      "name": "create data for RAINMAKER-PGR.UIConstants schema",
+      "url": "/mdms-v2/v2/_create/RAINMAKER-PGR.UIConstants",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1842,
+      "name": "create data for RAINMAKER-PGR.ServiceDefs schema",
+      "url": "/mdms-v2/v2/_create/RAINMAKER-PGR.ServiceDefs",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1843,
+      "name": "create data for RAINMAKER-PGR.RejectionReasons schema",
+      "url": "/mdms-v2/v2/_create/RAINMAKER-PGR.RejectionReasons",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1844,
+      "name": "create data for RAINMAKER-PGR.ComplainClosingTime schema",
+      "url": "/mdms-v2/v2/_create/RAINMAKER-PGR.ComplainClosingTime",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1845,
+      "name": "create data for DataSecurity.SecurityPolicy schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.SecurityPolicy",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1846,
+      "name": "create data for DataSecurity.MaskingPatterns schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.MaskingPatterns",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1847,
+      "name": "create data for DataSecurity.EncryptionPolicy schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.EncryptionPolicy",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1848,
+      "name": "create data for DataSecurity.DecryptionABAC schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.DecryptionABAC",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1849,
+      "name": "create data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1850,
+      "name": "create data for ACCESSCONTROL-ROLEACTIONS.roleactions schema",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLEACTIONS.roleactions",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1851,
+      "name": "create data for ACCESSCONTROL-ACTIONS-TEST.actions-test schema",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1852,
+      "name": "create data for HCM-SYMPTOMS-TYPES.symptomsTypes schema",
+      "url": "/mdms-v2/v2/_create/HCM-SYMPTOMS-TYPES.symptomsTypes",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1853,
+      "name": "create data for HCM-TASK-QUANTITY-VALIDATION.taskQuantity schema",
+      "url": "/mdms-v2/v2/_create/HCM-TASK-QUANTITY-VALIDATION.taskQuantity",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1854,
+      "name": "create data for HCM-SERVICE-REGISTRY.serviceRegistry schema",
+      "url": "/mdms-v2/v2/_create/HCM-SERVICE-REGISTRY.serviceRegistry",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1855,
+      "name": "create data for HCM-REFERRAL-REASONS.referralReasons schema",
+      "url": "/mdms-v2/v2/_create/HCM-REFERRAL-REASONS.referralReasons",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1856,
+      "name": "create data for HCM-PROJECT-TYPES.projectTypes schema",
+      "url": "/mdms-v2/v2/_create/HCM-PROJECT-TYPES.projectTypes",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1857,
+      "name": "create data for HCM-PROJECT.projectConfiguration schema",
+      "url": "/mdms-v2/v2/_create/HCM-PROJECT.projectConfiguration",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1858,
+      "name": "create data for HCM-FIELD-APP-CONFIG.appConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-FIELD-APP-CONFIG.appConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1859,
+      "name": "create data for HCM-ATTENDANCE.AttendanceSessions schema",
+      "url": "/mdms-v2/v2/_create/HCM-ATTENDANCE.AttendanceSessions",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1860,
+      "name": "create data for HCM-ADDITIONAL-FIELD-SCHEMAS.additionalFieldSchemas schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADDITIONAL-FIELD-SCHEMAS.additionalFieldSchemas",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1861,
+      "name": "create data for HCM-ADMIN-CONSOLE.userSchema schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.userSchema",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1862,
+      "name": "create data for HCM-ADMIN-CONSOLE.ReadMeConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.ReadMeConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1863,
+      "name": "create data for HCM-ADMIN-CONSOLE.productType schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.productType",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1864,
+      "name": "create data for HCM-ADMIN-CONSOLE.operatorConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.operatorConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1865,
+      "name": "create data for HCM-ADMIN-CONSOLE.mailConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.mailConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1866,
+      "name": "create data for HCM-ADMIN-CONSOLE.genderConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.genderConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1867,
+      "name": "create data for HCM-ADMIN-CONSOLE.facilitySchema schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.facilitySchema",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1868,
+      "name": "create data for HCM-ADMIN-CONSOLE.hierarchyConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.hierarchyConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1869,
+      "name": "create data for HCM-ADMIN-CONSOLE.deliveryTypeConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.deliveryTypeConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1870,
+      "name": "create data for HCM-ADMIN-CONSOLE.deliveryConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.deliveryConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1871,
+      "name": "create data for HCM-ADMIN-CONSOLE.Boundary schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.Boundary",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1872,
+      "name": "Audit log search",
+      "url": "/audit-service/log/v1/_search",
+      "serviceCode": "audit"
+    },
+    {
+      "id": 1873,
+      "name": "update data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 1874,
+      "name": "create data for Health.SearchProjectBeneficiaries schema",
+      "url": "/mdms-v2/v2/_create/Health.SearchProjectBeneficiaries",
+      "serviceCode": "mdms"
     }
   ]
 }
