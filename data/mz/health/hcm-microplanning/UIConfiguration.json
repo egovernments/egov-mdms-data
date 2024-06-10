@@ -13,6 +13,13 @@
       ]
     },
     {
+      "name": "microplanNamingConstraints",
+      "microplanNamingConstraints": [
+        "MICROPLAN_NAMING_CONSTRAINT_1",
+        "MICROPLAN_NAMING_CONSTRAINT_2"
+      ]
+    },
+    {
       "name": "ruleConfigure",
       "ruleConfigureOperators": [
         { "name": "DEVIDED_BY", "code": "/" },
