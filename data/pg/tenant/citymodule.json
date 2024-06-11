@@ -325,6 +325,23 @@
                 "code": "pg.citya"
             }
       ]
+    },
+    {
+        "module": "RateAnalysis",
+        "code": "RateAnalysis",
+        "active": true,
+        "order": 15,
+        "tenants": [
+            {
+                "code": "pg.cityb"
+            },
+            {
+                "code": "pg.cityc"
+            },
+            {
+                "code": "pg.citya"
+            }
+        ]
     }
     ]
 }
