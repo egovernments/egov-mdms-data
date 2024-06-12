@@ -1,0 +1,261 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-ADMIN-CONSOLE",
+    "adminSchema": [
+        {
+            "title": "user",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "enumProperties": [
+                    {
+                        "enum": [
+                            "Registrar",
+                            "Distributor",
+                            "Supervisor",
+                            "Help Desk",
+                            "Monitor Local",
+                            "Logistical officer"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_USER_ROLE",
+                        "isRequired": true,
+                        "description": "User Role",
+                        "orderNumber": 3
+                    },
+                    {
+                        "enum": [
+                            "Temporary",
+                            "Permanent"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_USER_EMPLOYMENT_TYPE",
+                        "isRequired": true,
+                        "description": "Employement Type",
+                        "orderNumber": 4
+                    }
+                ],
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_USER_PHONE_NUMBER",
+                        "type": "number",
+                        "isUnique": true,
+                        "isRequired": true,
+                        "description": "Phone Number",
+                        "orderNumber": 2
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_USER_NAME",
+                        "type": "string",
+                        "maxLength": 128,
+                        "minLength": 2,
+                        "isRequired": true,
+                        "description": "User Name",
+                        "orderNumber": 1
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code (Mandatory)",
+                        "orderNumber": 5
+                    }
+                ]
+            },
+            "campaignType": "all"
+        },
+        {
+            "title": "facility",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "enumProperties": [
+                    {
+                        "enum": [
+                            "Warehouse",
+                            "Health Facility",
+                            "Storing Resource"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_TYPE",
+                        "isRequired": true,
+                        "description": "Facility type",
+                        "orderNumber": 2
+                    },
+                    {
+                        "enum": [
+                            "Temporary",
+                            "Permanent"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_STATUS",
+                        "isRequired": true,
+                        "description": "Facility status",
+                        "orderNumber": 3
+                    },
+                    {
+                        "enum": [
+                            "Active",
+                            "Inactive"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_USAGE",
+                        "isRequired": true,
+                        "description": "Facility usage",
+                        "orderNumber": 6
+                    }
+                ],
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Camapcity",
+                        "orderNumber": 4
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_NAME",
+                        "type": "string",
+                        "isUnique": true,
+                        "maxLength": 2000,
+                        "minLength": 1,
+                        "isRequired": true,
+                        "description": "Facility Name",
+                        "orderNumber": 1
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 5
+                    }
+                ]
+            },
+            "campaignType": "all"
+        },
+        {
+            "title": "boundary",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_SMC_AGE_3_TO_11",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target at village level - Age 3 to 11 Months (Mandatory and to be entered by the user)",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_SMC_AGE_12_TO_59",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target at village level - Age 12 to 59 Months (Mandatory and to be entered by the user)",
+                        "orderNumber": 3
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "MR-DN"
+        },
+        {
+            "title": "boundary",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target at the Selected Boundary Level",
+                        "orderNumber": 2
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "LLIN-mz"
+        },
+        {
+            "title": "boundaryWithTarget",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Target at the Selected Boundary Level",
+                        "orderNumber": 1
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "LLIN-mz"
+        },
+        {
+            "title": "boundaryWithTarget",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_SMC_AGE_3_TO_11",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Target at village level - Age 3 to 11 Months (Mandatory and to be entered by the user)",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_SMC_AGE_12_TO_59",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Target at village level - Age 12 to 59 Months (Mandatory and to be entered by the user)",
+                        "orderNumber": 3
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "MR-DN"
+        }
+    ]
+}
