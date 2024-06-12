@@ -13,7 +13,7 @@
         }
       ]
     },
-      {
+    {
       "module": "PGR",
       "code": "PGR",
       "active": true,
@@ -35,82 +35,93 @@
         }
       ]
     },
-      {
-        "module": "Workbench",
-        "code": "Workbench",
-        "active": true,
-        "order": 13,
-        "tenants": [
-            {
-                    "code": "mz"
-                }
-        ]
-    },
-        {
-           "module": "Sample",
-           "code": "Sample",
-           "active": true,
-           "order": 12,
-           "tenants": [
-              {
-                    "code": "mz"
-                }
-           ]
-       },
     {
-            "module": "Project",
-            "code": "Project",
-            "active": true,
-            "order": 8,
-            "tenants": [
-                {
-                    "code": "mz"
-                }
-            ]
-        },
-     {
-          "module": "Campaign",
-          "code": "Campaign",
-          "active": true,
-          "order": 10,
-          "tenants": [
-            {
-              "code": "mz"
-            }
-          ]
-        },
+      "module": "Workbench",
+      "code": "Workbench",
+      "active": true,
+      "order": 13,
+      "tenants": [
         {
-          "module": "Microplanning",
-          "code": "Microplanning",
-          "active": true,
-          "order": 14,
-          "tenants": [
-            {
-              "code": "mz"
-            }
-          ]
-        },
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "Sample",
+      "code": "Sample",
+      "active": true,
+      "order": 12,
+      "tenants": [
         {
-           "module": "Utilities",
-           "code": "Utilities",
-           "active": true,
-           "order": 11,
-           "tenants": [
-               {
-                   "code": "mz"
-               }
-           ]
-       },
-       {
-        "module": "OpenPayment",
-        "code": "OpenPayment",
-        "active": true,
-        "order": 16,
-        "tenants": [
-          {
-            "code": "mz"
-          }
-        ]
-      }
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "Project",
+      "code": "Project",
+      "active": true,
+      "order": 8,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "Campaign",
+      "code": "Campaign",
+      "active": true,
+      "order": 10,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "Microplanning",
+      "code": "Microplanning",
+      "active": true,
+      "order": 14,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "Utilities",
+      "code": "Utilities",
+      "active": true,
+      "order": 11,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "OpenPayment",
+      "code": "OpenPayment",
+      "active": true,
+      "order": 16,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
+      "module": "cases",
+      "code": "cases",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    }
   ]
 }
