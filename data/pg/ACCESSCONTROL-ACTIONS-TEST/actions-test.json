@@ -5584,6 +5584,30 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 464,
+      "name": "Job Schedular create",
+      "url": "/rate-analysis/v1/scheduler/_create",
+      "displayName": "Revision of Rate Analysis",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "scheduler",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 465,
+      "name": "Job Schedular search",
+      "url": "/rate-analysis/v1/scheduler/_search",
+      "displayName": "Revision of Rate Analysis",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "scheduler",
+      "code": "null",
+      "path": ""
     }
   ]
 }
