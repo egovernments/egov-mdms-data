@@ -385,6 +385,57 @@
           "code": "pg.cityc"
         }
       ]
+    },
+    {
+      "module": "Pucar",
+      "code": "Pucar",
+      "active": true,
+      "order": 15,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
+    },
+    {
+      "module": "Order",
+      "code": "Order",
+      "active": true,
+      "order": 15,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
+    },
+    {
+      "module": "Hearing",
+      "code": "Hearing",
+      "active": true,
+      "order": 15,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
     }
   ]
 }
