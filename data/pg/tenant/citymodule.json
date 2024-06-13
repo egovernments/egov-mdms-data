@@ -404,8 +404,8 @@
       ]
     },
     {
-      "module": "Order",
-      "code": "Order",
+      "module": "Cases",
+      "code": "Cases",
       "active": true,
       "order": 15,
       "tenants": [
@@ -421,8 +421,25 @@
       ]
     },
     {
-      "module": "Hearing",
-      "code": "Hearing",
+      "module": "Hearings",
+      "code": "Hearings",
+      "active": true,
+      "order": 15,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
+    },
+    {
+      "module": "Orders",
+      "code": "Orders",
       "active": true,
       "order": 15,
       "tenants": [
