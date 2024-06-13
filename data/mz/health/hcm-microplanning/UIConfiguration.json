@@ -14,7 +14,7 @@
     },
     {
       "name": "microplanNamingRegx",
-      "microplanNamingRegx": "^(?![\\d\\s+\\-_()]+$)(?=.*[A-Za-z].*[A-Za-z])[A-Za-z\\d\\s+\\-_()]*$"
+      "microplanNamingRegx": "^(?![\\d\\s+\\-_()]+$)(?=.{1,})[A-Za-z\\d\\s+\\-_()]*$"
     },
     {
       "name": "microplanNamingConstraints",
