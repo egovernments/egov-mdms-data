@@ -1,0 +1,96 @@
+{
+  "tenantId": "mz",
+  "moduleName": "commonHCMUiConfig",
+  "SearchProjectResourceConfig": [
+    {
+      "type": "search",
+      "label": "SEARCH_RESOURCE",
+      "sections": {
+        "search": {
+          "show": true,
+          "label": "",
+          "children": {},
+          "uiConfig": {
+            "fields": [
+              {
+                "key": "RESOURCE_ID",
+                "type": "text",
+                "label": "RESOURCE_ID",
+                "disable": false,
+                "populators": {
+                  "name": "id",
+                  "error": "RESOURCE_ID_ERR_MSG"
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              }
+            ],
+            "headerStyle": null,
+            "minReqFields": 0,
+            "primaryLabel": "ES_COMMON_SEARCH",
+            "defaultValues": {
+              "id": ""
+            },
+            "formClassName": "custom-both-clear-search",
+            "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
+          }
+        },
+        "searchResult": {
+          "show": true,
+          "label": "",
+          "children": {},
+          "uiConfig": {
+            "columns": [
+              {
+                "label": "RESOURCE_ID",
+                "jsonPath": "id"
+              },
+              {
+                "label": "PRODUCT_VARIANT_ID",
+                "jsonPath": "resource.productVariantId"
+              },
+              {
+                "label": "TYPE",
+                "jsonPath": "resource.type"
+              },
+              {
+                "label": "BASE_UNIT_VARIATION",
+                "jsonPath": "resource.isBaseUnitVariant"
+              }
+            ],
+            "resultsJsonPath": "ProjectResources",
+            "enableColumnSort": true,
+            "enableGlobalSearch": false
+          }
+        }
+      },
+      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=ProjectResource",
+      "actionRole": "SYSTEM_ADMINISTRATOR",
+      "apiDetails": {
+        "masterName": "commonUiConfig",
+        "moduleName": "SearchDefaultConfig",
+        "requestBody": {
+          "limit": 10,
+          "offset": 0,
+          "tenantId": "mz",
+          "apiOperation": "SEARCH",
+          "ProjectResource": {}
+        },
+        "serviceName": "/project/resource/v1/_search",
+        "requestParam": {
+          "limit": 2,
+          "offset": 0,
+          "tenantId": "mz"
+        },
+        "tableFormJsonPath": "requestParam",
+        "filterFormJsonPath": "requestBody.ProjectResource",
+        "searchFormJsonPath": "requestBody.ProjectResource",
+        "minParametersForSearchForm": 0
+      },
+      "actionLabel": "HCM_ADD_RESOURCE",
+      "additionalSections": {}
+    }
+  ]
+}
