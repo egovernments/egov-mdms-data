@@ -38,7 +38,7 @@
                   "base-kibana-path":"/kibana-security/"
                },
                "hcm": {
-                  "routePath": "/kibana-security/app/dashboards?auth_provider_hint=anonymous1#/view/0c340aa0-c983-11ee-a631-9d8465121de3?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))",
+                  "routePath": "/kibana-security/app/dashboards#/view/0c340aa0-c983-11ee-a631-9d8465121de3?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))",
                   "isOrigin": true,
                   "title": "DASHBOARD_HCM",
                   "Authorization":true,
