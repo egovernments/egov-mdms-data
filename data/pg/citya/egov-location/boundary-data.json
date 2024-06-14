@@ -224,6 +224,101 @@
                 "children": []
               }
             ]
+          },
+          {
+            "id": 19,
+            "boundaryNum": 1,
+            "name": "GP 1",
+            "localname": "GP1",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "GP1",
+            "children": [
+              {
+                "id": 20,
+                "boundaryNum": 1,
+                "name": "Village 1",
+                "localname": "Village local 1",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Village",
+                "code": "VIL1",
+                "pincode": [
+                  143001
+                ],
+                "area": "V-Area1",
+                "children": []
+              },
+              {
+                "id": 21,
+                "boundaryNum": 1,
+                "name": "Village 2",
+                "localname": "Village local 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Village",
+                "code": "VIL2",
+                "pincode": [
+                  143001
+                ],
+                "area": "V-Area1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "boundaryNum": 1,
+            "name": "GP 2",
+            "localname": "GP2",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "GP2",
+            "children": [
+              {
+                "id": 23,
+                "boundaryNum": 1,
+                "name": "Village 3",
+                "localname": "Village local 3",
+                "longitude": 74.871552,
+                "latitude": 31.63089,
+                "label": "Village",
+                "code": "VIL3",
+                "pincode": [
+                  143001
+                ],
+                "area": "V-Area1",
+                "children": []
+              },
+              {
+                "id": 24,
+                "boundaryNum": 1,
+                "name": "Village 4",
+                "localname": "Village local 4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Village",
+                "code": "VIL4",
+                "pincode": [
+                  143001
+                ],
+                "area": "V-Area1",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "boundaryNum": 1,
+            "name": "Other",
+            "localname": "Other",
+            "longitude": null,
+            "latitude": null,
+            "label": "GP",
+            "code": "OTH1",
+            "children": []
           }
         ]
       }
