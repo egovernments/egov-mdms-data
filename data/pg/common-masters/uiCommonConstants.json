@@ -32,17 +32,17 @@
          "elastic": {
             "iframe-routes": {
                "home": {
-                  "routePath": "/kibana-upgrade/",
+                  "routePath": "/kibana-security/",
                   "isOrigin": true,
                   "Authorization":true,
-                  "base-kibana-path":"/kibana-upgrade/"
+                  "base-kibana-path":"/kibana-security/"
                },
                "hcm": {
-                  "routePath": "/kibana-upgrade/s/amp-dashboard/app/dashboards#/view/0c340aa0-c983-11ee-a631-9d8465121de3?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))",
+                  "routePath": "/kibana-security/app/dashboards?auth_provider_hint=anonymous1#/view/0c340aa0-c983-11ee-a631-9d8465121de3?embed=true&_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A60000)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))",
                   "isOrigin": true,
                   "title": "DASHBOARD_HCM",
                   "Authorization":true,
-                  "base-kibana-path":"/kibana-upgrade/"
+                  "base-kibana-path":"/kibana-security/"
                },
                "hcmtest": {
                   "routePath": "/login/s/smc-campaign/app/dashboards?auth_provider_hint=anonymous1#/view/9dcb4380-7ed2-11ee-8fa8-eb29192d3778?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15M,to:now))",
@@ -50,7 +50,7 @@
                   "title": "DASHBOARD_HCM",
                   "Authorization":true,
                   "SendInvalidAuthorization":true,
-                  "base-kibana-path":"/kibana-upgrade/"
+                  "base-kibana-path":"/kibana-security/"
                }
             }
          }
