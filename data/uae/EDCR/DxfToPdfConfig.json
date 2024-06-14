@@ -1,0 +1,11 @@
+{
+    "tenantId": "pg",
+    "moduleName": "EDCR",
+    "DxfToPdfConfig": [
+       {
+        "code": "DXF_TO_PDF_CONVERSION",
+        "description": "To enable the DXF to PDF conversion",
+        "enabled": true
+      }
+    ]
+  }
