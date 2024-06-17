@@ -5632,6 +5632,30 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 468,
+      "name": "Analysis Statement Crate",
+      "url": "/statements/v1/analysis/_create",
+      "displayName": "Create Analysis Statement",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "statements",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 469,
+      "name": "Analysis Statement Search",
+      "url": "/statements/v1/analysis/_search",
+      "displayName": "Search Analysis Statement",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "statements",
+      "code": "null",
+      "path": ""
     }
   ]
 }

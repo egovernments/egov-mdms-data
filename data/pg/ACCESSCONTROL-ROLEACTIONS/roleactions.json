@@ -6180,6 +6180,54 @@
       "actionid": 467,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 468,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 468,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 468,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 468,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 469,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 469,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 469,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 469,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
