@@ -8,7 +8,10 @@
         "targetPopulation",
         "targetHouseholds",
         "NO_OF_BEDNETS_REQUIRED",
-        "NO_OF_DISTRIBUTORS_PER_BOUNDARY"
+        {
+          "name": "TOTAL_NUMBER_OF_DISTRIBUTORS",
+          "entities": ["NO_OF_DISTRIBUTORS_PER_BOUNDARY"]
+        }
       ]
     },
     {
@@ -32,7 +35,10 @@
             "NO_OF_SPAQS_2_REQUIRED_FOR_AGE_12_TO_59_MONTHS"
           ]
         },
-        "NO_OF_TEAMS_PER_BOUNDARY"
+        {
+          "name": "TOTAL_NUMBER_OF_TEAMS",
+          "entities": ["NO_OF_TEAMS_PER_BOUNDARY"]
+        }
       ]
     }
   ]
