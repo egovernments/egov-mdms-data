@@ -10,7 +10,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -83,7 +84,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -138,7 +140,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -193,6 +196,7 @@
       "template": {
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
         "facilitySchemaApiMapping": {
           "facilityCode": "id",
           "facilityName": "name",
@@ -292,7 +296,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -343,7 +348,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -376,7 +382,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -409,6 +416,7 @@
       "template": {
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
         "facilitySchemaApiMapping": {
           "facilityCode": "id",
           "facilityName": "name",
@@ -489,7 +497,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -540,7 +549,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -573,7 +583,8 @@
       "showResourcesInMappingSection": true,
       "template": {
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -606,6 +617,7 @@
       "template": {
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
         "facilitySchemaApiMapping": {
           "facilityCode": "id",
           "facilityName": "name",
