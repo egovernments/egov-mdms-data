@@ -6,7 +6,7 @@
       "id": "Population",
       "code": "POPULATION",
       "iconName": "Population",
-      "required":true,
+      "required": true,
       "UploadFileTypes": [
         {
           "id": "Excel",
@@ -20,7 +20,7 @@
           "code": "SHAPE_FILES",
           "fileExtension": ["zip"],
           "iconName": "SpatialDocument",
-           "namingConvention": "^([Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn])$"
+          "namingConvention": "^([Pp][Oo][Pp][Uu][Ll][Aa][Tt][Ii][Oo][Nn])$"
         },
         {
           "id": "GeoJSON",
@@ -35,14 +35,14 @@
       "id": "Facilities",
       "code": "FACILITIES",
       "iconName": "Facilities",
-      "required":false,
+      "required": false,
       "UploadFileTypes": [
         {
           "id": "Excel",
           "code": "EXCEL",
           "fileExtension": ["xlsx", "xls"],
           "iconName": "Excel",
-         "namingConvention": "^([Ff][Aa][Cc][Ii][Ll][Ii][Tt][Ii][Ee][Ss])$"
+          "namingConvention": "^([Ff][Aa][Cc][Ii][Ll][Ii][Tt][Ii][Ee][Ss])$"
         },
         {
           "id": "Shapefile",
@@ -56,7 +56,7 @@
           "code": "GEOJSON",
           "fileExtension": ["geojson"],
           "iconName": "SpatialDocument",
-           "namingConvention": "^([Ff][Aa][Cc][Ii][Ll][Ii][Tt][Ii][Ee][Ss])$"
+          "namingConvention": "^([Ff][Aa][Cc][Ii][Ll][Ii][Tt][Ii][Ee][Ss])$"
         }
       ]
     }
