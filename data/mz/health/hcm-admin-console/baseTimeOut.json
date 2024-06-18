@@ -3,8 +3,8 @@
     "moduleName": "HCM-ADMIN-CONSOLE",
     "baseTimeOut": [
       {
-        "baseTimeOut": 100,
-        "maxTime": 5000
+        "baseTimeOut": 50,
+        "maxTime": 2500
       }
     ]
   }
