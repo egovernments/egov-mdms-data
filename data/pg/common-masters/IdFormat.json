@@ -111,8 +111,16 @@
       "idname": "fsm.trip_charges.receipt.id"
     },
     {
+      "format": "JOB-[cy:yyyy]-[SEQ_JOB_NUM]",
+      "idname": "rate.analysis.job.number"
+    },
+    {
       "idname": "vehiclelog.aplnumber",
       "format": "[CITY.CODE]-VT-[cy:yyyy-MM-dd]-[SEQ_EGOV_VEHICLETRIP]"
+    },
+    {
+      "format": "JOB-[cy:yyyy]-[SEQ_JOB_NUM]",
+      "idname": "rate.analysis.job.number"
     },
     {
       "idname": "fsm.aplnumber",
