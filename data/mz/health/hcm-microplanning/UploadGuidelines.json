@@ -1,0 +1,126 @@
+{
+  "tenantId": "mz",
+  "moduleName": "hcm-microplanning",
+  "UploadGuidelines": [
+    {
+      "templateIdentifier": "Population",
+      "fileType": "Excel",
+      "campaignType": "LLIN-mz",
+      "guidelines": [
+        { "name": "LLIN_MZ_POPULATION_EXCEL_GUIDELINE_POINTS_1" },
+        { "name": "LLIN_MZ_POPULATION_EXCEL_GUIDELINE_POINTS_2" }
+      ]
+    },
+    {
+      "templateIdentifier": "Population",
+      "fileType": "GeoJSON",
+      "campaignType": "LLIN-mz",
+      "guidelines": [
+        {
+          "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_1",
+          "hasLink": true,
+          "linkName": "LLIN_MZ_POPULATION_GEOJSON_SPECIFICATION",
+          "linkEndPoint": "https://datatracker.ietf.org/doc/html/rfc7946"
+        },
+        { "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_2" },
+        { "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_3" },
+        { "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_4" },
+        { "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_5" },
+        { "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_6" },
+        { "name": "LLIN_MZ_POPULATION_GEOJSON_GUIDELINE_POINTS_7" }
+      ]
+    },
+    {
+      "templateIdentifier": "Population",
+      "fileType": "Shapefile",
+      "campaignType": "LLIN-mz",
+      "guidelines": [
+        { "name": "LLIN_MZ_POPULATION_SHAPEFILE_GUIDELINE_POINTS_1" },
+        { "name": "LLIN_MZ_POPULATION_SHAPEFILE_GUIDELINE_POINTS_2" },
+        { "name": "LLIN_MZ_POPULATION_SHAPEFILE_GUIDELINE_POINTS_3" },
+        { "name": "LLIN_MZ_POPULATION_SHAPEFILE_GUIDELINE_POINTS_4" },
+        { "name": "LLIN_MZ_POPULATION_SHAPEFILE_GUIDELINE_POINTS_5" },
+        { "name": "LLIN_MZ_POPULATION_SHAPEFILE_GUIDELINE_POINTS_6" }
+      ]
+    },
+    {
+      "templateIdentifier": "Population",
+      "fileType": "Excel",
+      "campaignType": "MR-DN",
+      "guidelines": [
+        { "name": "MR_DN_POPULATION_EXCEL_GUIDELINE_POINTS_1" },
+        { "name": "MR_DN_POPULATION_EXCEL_GUIDELINE_POINTS_2" }
+      ]
+    },
+    {
+      "templateIdentifier": "Population",
+      "fileType": "GeoJSON",
+      "campaignType": "MR-DN",
+      "guidelines": [
+        {
+          "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_1",
+          "hasLink": true,
+          "linkName": "MR_DN_POPULATION_GEOJSON_SPECIFICATION",
+          "linkEndPoint": "https://datatracker.ietf.org/doc/html/rfc7946"
+        },
+        { "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_2" },
+        { "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_3" },
+        { "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_4" },
+        { "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_5" },
+        { "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_6" },
+        { "name": "MR_DN_POPULATION_GEOJSON_GUIDELINE_POINTS_7" }
+      ]
+    },
+    {
+      "templateIdentifier": "Population",
+      "fileType": "Shapefile",
+      "campaignType": "MR-DN",
+      "guidelines": [
+        { "name": "MR_DN_POPULATION_SHAPEFILE_GUIDELINE_POINTS_1" },
+        { "name": "MR_DN_POPULATION_SHAPEFILE_GUIDELINE_POINTS_2" },
+        { "name": "MR_DN_POPULATION_SHAPEFILE_GUIDELINE_POINTS_3" },
+        { "name": "MR_DN_POPULATION_SHAPEFILE_GUIDELINE_POINTS_4" },
+        { "name": "MR_DN_POPULATION_SHAPEFILE_GUIDELINE_POINTS_5" },
+        { "name": "MR_DN_POPULATION_SHAPEFILE_GUIDELINE_POINTS_6" }
+      ]
+    },
+    {
+      "templateIdentifier": "Facilities",
+      "fileType": "Excel",
+      "guidelines": [
+        { "name": "FACILITIES_EXCEL_GUIDELINE_POINTS_1" },
+        { "name": "FACILITIES_EXCEL_GUIDELINE_POINTS_2" }
+      ]
+    },
+    {
+      "templateIdentifier": "Facilities",
+      "fileType": "GeoJSON",
+      "guidelines": [
+        {
+          "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_1",
+          "hasLink": true,
+          "linkName": "FACILITIES_GEOJSON_SPECIFICATION",
+          "linkEndPoint": "https://datatracker.ietf.org/doc/html/rfc7946"
+        },
+        { "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_2" },
+        { "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_3" },
+        { "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_4" },
+        { "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_5" },
+        { "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_6" },
+        { "name": "FACILITIES_GEOJSON_GUIDELINE_POINTS_7" }
+      ]
+    },
+    {
+      "templateIdentifier": "Facilities",
+      "fileType": "Shapefile",
+      "guidelines": [
+        { "name": "FACILITIES_SHAPEFILE_GUIDELINE_POINTS_1" },
+        { "name": "FACILITIES_SHAPEFILE_GUIDELINE_POINTS_2" },
+        { "name": "FACILITIES_SHAPEFILE_GUIDELINE_POINTS_3" },
+        { "name": "FACILITIES_SHAPEFILE_GUIDELINE_POINTS_4" },
+        { "name": "FACILITIES_SHAPEFILE_GUIDELINE_POINTS_5" },
+        { "name": "FACILITIES_SHAPEFILE_GUIDELINE_POINTS_6" }
+      ]
+    }
+  ]
+}

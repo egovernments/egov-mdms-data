@@ -9,6 +9,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -83,6 +84,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -139,6 +141,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -194,6 +197,7 @@
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
         "propertiesToHide": ["facilityCode"],
@@ -295,6 +299,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -347,6 +352,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -381,6 +387,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -414,6 +421,7 @@
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
         "propertiesToHide": ["facilityCode"],
@@ -496,6 +504,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -548,6 +557,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -582,6 +592,7 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
         "hierarchyLevelWiseSheets": true,
         "propertiesToHide": []
@@ -615,6 +626,7 @@
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
         "propertiesToHide": ["facilityCode"],
