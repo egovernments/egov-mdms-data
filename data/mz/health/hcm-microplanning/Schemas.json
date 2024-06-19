@@ -9,8 +9,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -82,8 +84,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -137,8 +141,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -191,8 +197,10 @@
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
       "template": {
+        "showTemplateDownload": true,
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
         "facilitySchemaApiMapping": {
           "facilityCode": "id",
           "facilityName": "name",
@@ -291,8 +299,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -342,8 +352,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -375,8 +387,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -407,8 +421,10 @@
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
         "facilitySchemaApiMapping": {
           "facilityCode": "id",
           "facilityName": "name",
@@ -488,8 +504,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -539,8 +557,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -572,8 +592,10 @@
       "doHierarchyCheckInUploadedData": true,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": false,
-        "hierarchyLevelWiseSheets": true
+        "hierarchyLevelWiseSheets": true,
+        "propertiesToHide": []
       },
       "schema": {
         "Properties": {
@@ -604,8 +626,10 @@
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": true,
       "template": {
+        "showTemplateDownload": false,
         "includeFacilityData": true,
         "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
         "facilitySchemaApiMapping": {
           "facilityCode": "id",
           "facilityName": "name",
