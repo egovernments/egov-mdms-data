@@ -14654,6 +14654,18 @@
       "name": "create data for Health.SearchProjectBeneficiaries schema",
       "url": "/mdms-v2/v2/_create/Health.SearchProjectBeneficiaries",
       "serviceCode": "mdms"
+    },
+     {
+      "id": 1875,
+      "name": "Product Search",
+      "url": "/product/v1/_search",
+      "displayName": "Product Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "product",
+      "code": "null",
+      "path": ""
     }
   ]
 }
