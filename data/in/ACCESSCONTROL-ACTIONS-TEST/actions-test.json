@@ -9575,6 +9575,17 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 2096,
+      "name": "boundary hierarchy definition search",
+      "url": "/boundary-service/boundary-hierarchy-definition/_search",
+      "displayName": "boundary hierarchy definition search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
