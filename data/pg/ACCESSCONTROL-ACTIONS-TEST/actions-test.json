@@ -5142,6 +5142,18 @@
       "serviceCode": "SemanticSearch",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2024,
+      "name": "UtilizationStatement",
+      "url": "/statements/v1/utilization/_create",
+      "displayName": "Utilization Statement",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled":true,
+      "serviceCode": "statements",
+      "code": "null",
+      "path": ""
     }
   ]
 }
