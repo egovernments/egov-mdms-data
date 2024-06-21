@@ -222,7 +222,7 @@
           },
           "facilityCode": {
             "type": "string",
-            "isRequired": true,
+            "isRequired": false,
             "isLocationDataColumns": false,
             "isRuleConfigureInputs": false,
             "isFilterPropertyOfMapSection": false,
@@ -240,7 +240,12 @@
           },
           "facilityType": {
             "type": "string",
-            "enum": ["Warehouse", "Health Facility", "Monitor Local"],
+            "enum": [
+              "Warehouse",
+              "Health Facility",
+              "Monitor Local",
+              "Storing Resource"
+            ],
             "isRequired": true,
             "isLocationDataColumns": false,
             "isRuleConfigureInputs": false,
@@ -447,8 +452,7 @@
           },
           "facilityCode": {
             "type": "string",
-            "nullable": false,
-            "isRequired": true,
+            "isRequired": false,
             "isLocationDataColumns": false,
             "isRuleConfigureInputs": false,
             "isFilterPropertyOfMapSection": false,
@@ -467,7 +471,12 @@
           },
           "facilityType": {
             "type": "string",
-            "enum": ["Warehouse", "Health Facility", "Monitor Local"],
+            "enum": [
+              "Warehouse",
+              "Health Facility",
+              "Monitor Local",
+              "Storing Resource"
+            ],
             "isRequired": true,
             "isLocationDataColumns": false,
             "isRuleConfigureInputs": false,
@@ -651,7 +660,7 @@
           },
           "facilityCode": {
             "type": "string",
-            "isRequired": true,
+            "isRequired": false,
             "isLocationDataColumns": false,
             "isRuleConfigureInputs": false,
             "isFilterPropertyOfMapSection": false,
@@ -669,7 +678,12 @@
           },
           "facilityType": {
             "type": "string",
-            "enum": ["Warehouse", "Health Facility", "Monitor Local"],
+            "enum": [
+              "Warehouse",
+              "Health Facility",
+              "Monitor Local",
+              "Storing Resource"
+            ],
             "isRequired": true,
             "isLocationDataColumns": false,
             "isRuleConfigureInputs": false,
