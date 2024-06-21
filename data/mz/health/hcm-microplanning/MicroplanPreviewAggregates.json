@@ -6,7 +6,10 @@
       "campaignType": "LLIN-mz",
       "data": [
         "targetPopulation",
-        "targetHouseholds",
+        {
+          "name": "TARGET_HOUSEHOLDS",
+          "entities": ["NO_OF_HOUSEHOLD"]
+        },
         "NO_OF_BEDNETS_REQUIRED",
         {
           "name": "TOTAL_NUMBER_OF_DISTRIBUTORS",
