@@ -14676,6 +14676,46 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+         "id": 2512,
+         "name": "Update birth registration",
+         "url": "/birth/registration/v1/_update",
+         "displayName": "Update birth registration",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "birth",
+         "code": "null",
+         "path": ""
+      },
+ {
+         "id": 2513,
+         "name": "search birth registration",
+         "url": "/birth/v1/registration/_search",
+         "displayName": "Update birth registration",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "birth",
+         "code": "null",
+         "path": ""
+
+      }
+,
+ {
+         "id": 2514,
+          "name": "create birth registration",
+         "url": "/birth/registration/v1/_create",
+         "displayName": "Update birth registration",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": false,
+         "serviceCode": "birth",
+         "code": "null",
+         "path": ""
+
+      }
+
    ]
 }
