@@ -5166,6 +5166,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2026,
+      "name": "DSS Dashboard Config PQM",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/home",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
