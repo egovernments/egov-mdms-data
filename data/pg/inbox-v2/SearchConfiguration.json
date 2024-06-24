@@ -884,6 +884,260 @@
         "Data.rowVersion",
         "Data.auditDetails"
       ]
+    },
+    {
+      "module": "mukta-estimate",
+      "index": "mukta-estimate-inbox-v3",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.location.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.project.name",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "estimateId",
+          "path": "Data.estimateNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisionNumber",
+          "path": "Data.revisionNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "department",
+          "path": "Data.executingDepartment.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "typeOfWork",
+          "path": "Data.project.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectId",
+          "path": "Data.project.projectNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "fromProposalDate",
+          "path": "Data.proposalDate",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toProposalDate",
+          "path": "Data.proposalDate",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.estimateNumber",
+        "Data.revisionNumber",
+        "Data.versionNumber",
+        "Data.businessService",
+        "Data.executingDepartment",
+        "Data.proposalDate",
+        "Data.project",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.additionalDetails"
+      ]
+    },
+    {
+      "module": "mukta-contract",
+      "index": "mukta-contract-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "workOrderNumber",
+          "path": "Data.contractNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisedWorkOrderNumber",
+          "path": "Data.supplementNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "startDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "endDate",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.contractNumber",
+        "Data.totalContractedAmount",
+        "Data.contractType",
+        "Data.executingAuthority",
+        "Data.contractStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.lineItems",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "mukta-expense",
+      "index": "mukta-expense-bill-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.state.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "billType",
+          "path": "Data.businessService.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "billNumber",
+          "path": "Data.billNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "paymentStatus",
+          "path": "Data.paymentStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.billDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.billNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.businessService",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.totalAmount",
+        "Data.paymentStatus",
+        "Data.referenceId"
+      ]
     }
   ]
 }
