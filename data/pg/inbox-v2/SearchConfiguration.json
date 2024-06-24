@@ -795,6 +795,95 @@
         "Data.contract.additionalDetails"
         
       ]
+    },
+    {
+      "module": "mukta-individual",
+      "index": "mukta-individual-index-v1",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "name",
+          "path": "Data.name.givenName",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "ward",
+          "path": "Data.address.ward.code.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "individualId",
+          "path": "Data.individualId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "id",
+          "path": "Data.id.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryKey",
+          "path": "Data.socialCategoryKey.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryValue",
+          "path": "Data.socialCategoryValue.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.individualId",
+        "Data.clientReferenceId",
+        "Data.userId",
+        "Data.name",
+        "Data.dateOfBirth",
+        "Data.gender",
+        "Data.bloodGroup",
+        "Data.mobileNumber",
+        "Data.altContactNumber",
+        "Data.email",
+        "Data.address",
+        "Data.fatherName",
+        "Data.husbandName",
+        "Data.relationship",
+        "Data.identifiers",
+        "Data.skills",
+        "Data.photo",
+        "Data.additionalFields",
+        "Data.isDeleted",
+        "Data.rowVersion",
+        "Data.auditDetails"
+      ]
     }
   ]
 }
