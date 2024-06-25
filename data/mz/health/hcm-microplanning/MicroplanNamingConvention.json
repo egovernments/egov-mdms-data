@@ -2,9 +2,13 @@
   "tenantId": "mz",
   "moduleName": "hcm-microplanning",
   "MicroplanNamingConvention": [
-    "MICROPLAN_NAMING_CONVENTION_1",
-    "MICROPLAN_NAMING_CONVENTION_2",
-    "MICROPLAN_NAMING_CONVENTION_3",
-    "MICROPLAN_NAMING_CONVENTION_4"
+    {
+      "data": [
+        "MICROPLAN_NAMING_CONVENTION_1",
+        "MICROPLAN_NAMING_CONVENTION_2",
+        "MICROPLAN_NAMING_CONVENTION_3",
+        "MICROPLAN_NAMING_CONVENTION_4"
+      ]
+    }
   ]
 }
