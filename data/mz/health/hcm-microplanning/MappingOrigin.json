@@ -1,0 +1,10 @@
+{
+  "tenantId": "mz",
+  "moduleName": "hcm-microplanning",
+  "MappingOrigin": [
+    {
+      "boundriesDataOrigin": ["Population"],
+      "layerDataOrigin": ["Facilities"]
+    }
+  ]
+}

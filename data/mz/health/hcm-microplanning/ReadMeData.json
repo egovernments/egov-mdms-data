@@ -6,49 +6,23 @@
       "templateIdentifier": "Population",
       "fileType": "Excel",
       "campaignType": "LLIN-mz",
+      "mainHeader": "LLIN_MZ_POPULATION_EXCEL_MAIN_HEADER",
       "data": [
         {
           "header": "LLIN_MZ_POPULATION_EXCEL_HEADER_1",
           "points": [
             "LLIN_MZ_POPULATION_EXCEL_README_POINTS_1",
-            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_2"
+            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_2",
+            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_3",
+            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_4"
           ]
         },
         {
           "header": "LLIN_MZ_POPULATION_EXCEL_HEADER_2",
           "points": [
-            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_3",
-            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_4"
-          ]
-        }
-      ]
-    },
-    {
-      "templateIdentifier": "Population",
-      "fileType": "GeoJSON",
-      "campaignType": "LLIN-mz",
-      "data": [
-        {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
-          "points": [
-            "LLIN_MZ_POPULATION_GEOJSON_README_POINTS_1",
-            "LLIN_MZ_POPULATION_GEOJSON_README_POINTS_2",
-            "LLIN_MZ_POPULATION_GEOJSON_README_POINTS_3"
-          ]
-        }
-      ]
-    },
-    {
-      "templateIdentifier": "Population",
-      "fileType": "Shapefile",
-      "campaignType": "LLIN-mz",
-      "data": [
-        {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
-          "points": [
-            "LLIN_MZ_POPULATION_SHAPEFILE_README_POINTS_1",
-            "LLIN_MZ_POPULATION_SHAPEFILE_README_POINTS_2",
-            "LLIN_MZ_POPULATION_SHAPEFILE_README_POINTS_3"
+            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_5",
+            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_6",
+            "LLIN_MZ_POPULATION_EXCEL_README_POINTS_7"
           ]
         }
       ]
@@ -57,42 +31,23 @@
       "templateIdentifier": "Population",
       "fileType": "Excel",
       "campaignType": "MR-DN",
+      "mainHeader": "MR_DN_POPULATION_EXCEL_MAIN_HEADER",
       "data": [
         {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
+          "header": "MR_DN_POPULATION_EXCEL_HEADER_1",
           "points": [
             "MR_DN_POPULATION_EXCEL_README_POINTS_1",
-            "MR_DN_POPULATION_EXCEL_README_POINTS_2"
+            "MR_DN_POPULATION_EXCEL_README_POINTS_2",
+            "MR_DN_POPULATION_EXCEL_README_POINTS_3",
+            "MR_DN_POPULATION_EXCEL_README_POINTS_4"
           ]
-        }
-      ]
-    },
-    {
-      "templateIdentifier": "Population",
-      "fileType": "GeoJSON",
-      "campaignType": "MR-DN",
-      "data": [
+        },
         {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
+          "header": "MR_DN_POPULATION_EXCEL_HEADER_2",
           "points": [
-            "MR_DN_POPULATION_GEOJSON_README_POINTS_1",
-            "MR_DN_POPULATION_GEOJSON_README_POINTS_2",
-            "MR_DN_POPULATION_GEOJSON_README_POINTS_3"
-          ]
-        }
-      ]
-    },
-    {
-      "templateIdentifier": "Population",
-      "fileType": "Shapefile",
-      "campaignType": "MR-DN",
-      "data": [
-        {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
-          "points": [
-            "MR_DN_POPULATION_SHAPEFILE_README_POINTS_1",
-            "MR_DN_POPULATION_SHAPEFILE_README_POINTS_2",
-            "MR_DN_POPULATION_SHAPEFILE_README_POINTS_3"
+            "MR_DN_POPULATION_EXCEL_README_POINTS_5",
+            "MR_DN_POPULATION_EXCEL_README_POINTS_6",
+            "MR_DN_POPULATION_EXCEL_README_POINTS_7"
           ]
         }
       ]
@@ -100,26 +55,55 @@
     {
       "templateIdentifier": "Facilities",
       "fileType": "Excel",
+      "campaignType": "LLIN-mz",
+      "mainHeader": "LLIN_MZ_POPULATION_EXCEL_MAIN_HEADER",
       "data": [
         {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
+          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER_1",
           "points": [
-            "FACILITIES_EXCEL_README_POINTS_1",
-            "FACILITIES_EXCEL_README_POINTS_2"
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_1",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_2",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_3",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_4",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_5",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_6",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_7"
+          ]
+        },
+        {
+          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER_2",
+          "points": [
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_8",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_9",
+            "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_10"
           ]
         }
       ]
     },
     {
       "templateIdentifier": "Facilities",
-      "fileType": "Shapefile",
+      "fileType": "Excel",
+      "campaignType": "MR-DN",
+      "mainHeader": "MR_DN_POPULATION_EXCEL_MAIN_HEADER",
       "data": [
         {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER",
+          "header": "MR_DN_POPULATION_EXCEL_HEADER_1",
           "points": [
-            "FACILITIES_SHAPEFILE_README_POINTS_1",
-            "FACILITIES_SHAPEFILE_README_POINTS_2",
-            "FACILITIES_SHAPEFILE_README_POINTS_3"
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_1",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_2",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_3",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_4",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_5",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_6",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_7"
+          ]
+        },
+        {
+          "header": "MR_DN_POPULATION_EXCEL_HEADER_2",
+          "points": [
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_8",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_9",
+            "MR_DN_FACILITIES_EXCEL_README_POINTS_10"
           ]
         }
       ]
