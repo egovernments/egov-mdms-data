@@ -1,0 +1,11 @@
+{
+  "tenantId": "mz",
+  "moduleName": "hcm-microplanning",
+  "RuleConfigureOperators": [
+    { "name": "DEVIDED_BY", "code": "/" },
+    { "name": "MULTIPLIED_BY", "code": "*" },
+    { "name": "ADDITION", "code": "+" },
+    { "name": "SUBSTRACTION", "code": "-" },
+    { "name": "RAISE_TO", "code": "**" }
+  ]
+}
