@@ -223,8 +223,8 @@
       ]
     },
     {
-      "module": "mukta-expense",
-      "index": "expense-bill-index",
+      "module": "expense",
+      "index": "mukta-expense-bill-index",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
