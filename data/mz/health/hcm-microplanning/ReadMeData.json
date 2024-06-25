@@ -56,10 +56,10 @@
       "templateIdentifier": "Facilities",
       "fileType": "Excel",
       "campaignType": "LLIN-mz",
-      "mainHeader": "LLIN_MZ_POPULATION_EXCEL_MAIN_HEADER",
+      "mainHeader": "LLIN_MZ_FACILITY_EXCEL_MAIN_HEADER",
       "data": [
         {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER_1",
+          "header": "LLIN_MZ_FACILITY_EXCEL_HEADER_1",
           "points": [
             "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_1",
             "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_2",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "header": "LLIN_MZ_POPULATION_EXCEL_HEADER_2",
+          "header": "LLIN_MZ_FACILITY_EXCEL_HEADER_2",
           "points": [
             "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_8",
             "LLIN_MZ_FACILITIES_EXCEL_README_POINTS_9",
@@ -84,10 +84,10 @@
       "templateIdentifier": "Facilities",
       "fileType": "Excel",
       "campaignType": "MR-DN",
-      "mainHeader": "MR_DN_POPULATION_EXCEL_MAIN_HEADER",
+      "mainHeader": "MR_DN_FACILITY_EXCEL_MAIN_HEADER",
       "data": [
         {
-          "header": "MR_DN_POPULATION_EXCEL_HEADER_1",
+          "header": "MR_DN_FACILITY_EXCEL_HEADER_1",
           "points": [
             "MR_DN_FACILITIES_EXCEL_README_POINTS_1",
             "MR_DN_FACILITIES_EXCEL_README_POINTS_2",
@@ -99,7 +99,7 @@
           ]
         },
         {
-          "header": "MR_DN_POPULATION_EXCEL_HEADER_2",
+          "header": "MR_DN_FACILITY_EXCEL_HEADER_2",
           "points": [
             "MR_DN_FACILITIES_EXCEL_README_POINTS_8",
             "MR_DN_FACILITIES_EXCEL_README_POINTS_9",
