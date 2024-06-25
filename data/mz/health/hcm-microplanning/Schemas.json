@@ -196,6 +196,7 @@
       "section": "Facilities",
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
+      "activeInactiveField": "facilityUsage",
       "template": {
         "showTemplateDownload": true,
         "includeFacilityData": true,
@@ -262,6 +263,15 @@
             "isFilterPropertyOfMapSection": false,
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": true
+          },
+          "facilityUsage": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
           },
           "capacity": {
             "type": "number",
@@ -425,6 +435,7 @@
       "section": "Facilities",
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
+      "activeInactiveField": "facilityUsage",
       "template": {
         "showTemplateDownload": false,
         "includeFacilityData": true,
@@ -493,6 +504,15 @@
             "isFilterPropertyOfMapSection": false,
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": true
+          },
+          "facilityUsage": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
           },
           "capacity": {
             "type": "number",
@@ -634,6 +654,7 @@
       "section": "Facilities",
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": true,
+      "activeInactiveField": "facilityUsage",
       "template": {
         "showTemplateDownload": false,
         "includeFacilityData": true,
@@ -700,6 +721,15 @@
             "isFilterPropertyOfMapSection": false,
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": true
+          },
+          "facilityUsage": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
           },
           "capacity": {
             "type": "number",
