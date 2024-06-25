@@ -2,208 +2,271 @@
   "tenantId": "mz",
   "moduleName": "HCM-ADMIN-CONSOLE",
   "ReadMeConfig": [
-    {
-      "type": "facilityWithBoundary",
-      "texts": [
         {
-          "header": "FACILITYWITHBOUNDARY_README_HEADER_1",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_1_DESC_1",
-              "isStepRequired": true
+            "id": "0dba9814-f1b5-4bd7-9a3c-d6419ed80e7a",
+            "tenantId": "mz",
+            "schemaCode": "HCM-ADMIN-CONSOLE.ReadMeConfig",
+            "uniqueIdentifier": "boundary",
+            "data": {
+                "type": "boundary",
+                "texts": [
+                    {
+                        "header": "BOUNDARY_README_HEADER_1",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "BOUNDARY_README_HEADER_1_DESC_1",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "BOUNDARY_README_HEADER_1_DESC_2",
+                                "isStepRequired": true
+                            }
+                        ],
+                        "isHeaderBold": true
+                    },
+                    {
+                        "header": "BOUNDARY_README_HEADER_2",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "BOUNDARY_README_HEADER_2_DESC_1",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "BOUNDARY_README_HEADER_2_DESC_2",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "BOUNDARY_README_HEADER_2_DESC_3",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "BOUNDARY_README_HEADER_2_DESC_4",
+                                "isStepRequired": true
+                            }
+                        ],
+                        "isHeaderBold": true
+                    },
+                    {
+                        "header": "BOUNDARY_README_HEADER_3",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "BOUNDARY_README_HEADER_3_DESC_1",
+                                "isStepRequired": false
+                            },
+                            {
+                                "text": "BOUNDARY_README_HEADER_3_DESC_2",
+                                "isStepRequired": false
+                            },
+                            {
+                                "text": "BOUNDARY_README_HEADER_3_DESC_3",
+                                "isStepRequired": false
+                            }
+                        ],
+                        "isHeaderBold": true
+                    }
+                ]
             },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_1_DESC_2",
-              "isStepRequired": true
+            "isActive": true,
+            "auditDetails": {
+                "createdBy": "ca837b36-25d6-4302-911f-6c3478eb236a",
+                "lastModifiedBy": "ca837b36-25d6-4302-911f-6c3478eb236a",
+                "createdTime": 1715778589305,
+                "lastModifiedTime": 1715778589305
             }
-          ]
         },
         {
-          "header": "FACILITYWITHBOUNDARY_README_HEADER_2",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_1",
-              "isStepRequired": true
+            "id": "acaacbd2-7b70-4909-a187-aac1fdcfbac1",
+            "tenantId": "mz",
+            "schemaCode": "HCM-ADMIN-CONSOLE.ReadMeConfig",
+            "uniqueIdentifier": "userWithBoundary",
+            "data": {
+                "type": "userWithBoundary",
+                "texts": [
+                    {
+                        "header": "USERWITHBOUNDARY_README_HEADER_1",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_1_DESC_1",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_1_DESC_2",
+                                "isStepRequired": true
+                            }
+                        ],
+                        "isHeaderBold": true
+                    },
+                    {
+                        "header": "USERWITHBOUNDARY_README_HEADER_2",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_1",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_2",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_3",
+                                "isStepRequired": true
+                            },
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_4",
+                                "isStepRequired": true
+                            }
+                        ],
+                        "isHeaderBold": true
+                    },
+                    {
+                        "header": "USERWITHBOUNDARY_README_HEADER_3",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_3_DESC_1",
+                                "isStepRequired": false
+                            },
+                            {
+                                "text": "USERWITHBOUNDARY_README_HEADER_3_DESC_2",
+                                "isStepRequired": false
+                            }
+                        ],
+                        "isHeaderBold": true
+                    }
+                ]
             },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_2",
-              "isStepRequired": true
-            },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_3",
-              "isStepRequired": true
-            },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_4",
-              "isStepRequired": true
-            },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_5",
-              "isStepRequired": false
-            },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_6",
-              "isStepRequired": false
-            },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_2_DESC_7",
-              "isStepRequired": false
+            "isActive": true,
+            "auditDetails": {
+                "createdBy": "ca837b36-25d6-4302-911f-6c3478eb236a",
+                "lastModifiedBy": "ca837b36-25d6-4302-911f-6c3478eb236a",
+                "createdTime": 1715778545268,
+                "lastModifiedTime": 1715778545268
             }
-          ]
         },
         {
-          "header": "FACILITYWITHBOUNDARY_README_HEADER_3",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_3_DESC_1",
-              "isStepRequired": false
+            "id": "0015a8d2-411e-4923-8bce-2aba68ea9a64",
+            "tenantId": "mz",
+            "schemaCode": "HCM-ADMIN-CONSOLE.ReadMeConfig",
+            "uniqueIdentifier": "facilityWithBoundary",
+             "data": {
+                "type": "facilityWithBoundary",
+                "texts": [
+                    {
+                        "header": "FACILITYWITHBOUNDARY_README_HEADER_1",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_1_DESC_1",
+                                "isStepRequired": true,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_1_DESC_2",
+                                "isStepRequired": true,
+                                "isBold": false
+                            }
+                        ],
+                        "isHeaderBold": true
+                    },
+                    {
+                        "header": "FACILITYWITHBOUNDARY_README_HEADER_2",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_1",
+                                "isStepRequired": true,
+                                "isBold": true
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_1_DESC_1",
+                                "isStepRequired": true,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_1_DESC_2",
+                                "isStepRequired": true,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_1_DESC_3",
+                                "isStepRequired": true,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_1_DESC_4",
+                                "isStepRequired": false,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_2",
+                                "isStepRequired": false,
+                                "isBold": true
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_2_DESC_1",
+                                "isStepRequired": false,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_2_DESC_2",
+                                "isStepRequired": false,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_2_DESC_3",
+                                "isStepRequired": false,
+                                "isBold": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_2_SUB_2_DESC_4",
+                                "isStepRequired": false,
+                                "isBold": false
+                            }
+                        ],
+                        "isHeaderBold": true
+                    },
+                    {
+                        "header": "FACILITYWITHBOUNDARY_README_HEADER_3",
+                        "inSheet": true,
+                        "inUiInfo": true,
+                        "descriptions": [
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_3_DESC_1",
+                                "isStepRequired": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_3_DESC_2",
+                                "isStepRequired": false
+                            },
+                            {
+                                "text": "FACILITYWITHBOUNDARY_README_HEADER_3_DESC_3",
+                                "isStepRequired": false
+                            }
+                        ],
+                        "isHeaderBold": true
+                    }
+                ]
             },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_3_DESC_2",
-              "isStepRequired": false
-            },
-            {
-              "text": "FACILITYWITHBOUNDARY_README_HEADER_3_DESC_3",
-              "isStepRequired": false
+            "isActive": true,
+            "auditDetails": {
+                "createdBy": "ca837b36-25d6-4302-911f-6c3478eb236a",
+                "lastModifiedBy": "ca837b36-25d6-4302-911f-6c3478eb236a",
+                "createdTime": 1715778462673,
+                "lastModifiedTime": 1715778462673
             }
-          ]
         }
-      ]
-    },
-    {
-      "type": "userWithBoundary",
-      "texts": [
-        {
-          "header": "USERWITHBOUNDARY_README_HEADER_1",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_1_DESC_1",
-              "isStepRequired": true
-            },
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_1_DESC_2",
-              "isStepRequired": true
-            }
-          ]
-        },
-        {
-          "header": "USERWITHBOUNDARY_README_HEADER_2",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_1",
-              "isStepRequired": true
-            },
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_2",
-              "isStepRequired": true
-            },
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_3",
-              "isStepRequired": true
-            },
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_2_DESC_4",
-              "isStepRequired": true
-            }
-          ]
-        },
-        {
-          "header": "USERWITHBOUNDARY_README_HEADER_3",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_3_DESC_1",
-              "isStepRequired": false
-            },
-            {
-              "text": "USERWITHBOUNDARY_README_HEADER_3_DESC_2",
-              "isStepRequired": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "boundary",
-      "texts": [
-        {
-          "header": "BOUNDARY_README_HEADER_1",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "BOUNDARY_README_HEADER_1_DESC_1",
-              "isStepRequired": true
-            },
-            {
-              "text": "BOUNDARY_README_HEADER_1_DESC_2",
-              "isStepRequired": true
-            }
-          ]
-        },
-        {
-          "header": "BOUNDARY_README_HEADER_2",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "BOUNDARY_README_HEADER_2_DESC_1",
-              "isStepRequired": true
-            },
-            {
-              "text": "BOUNDARY_README_HEADER_2_DESC_2",
-              "isStepRequired": true
-            },
-            {
-              "text": "BOUNDARY_README_HEADER_2_DESC_3",
-              "isStepRequired": true
-            },
-            {
-              "text": "BOUNDARY_README_HEADER_2_DESC_4",
-              "isStepRequired": true
-            }
-          ]
-        },
-        {
-          "header": "BOUNDARY_README_HEADER_3",
-          "isHeaderBold": true,
-          "inSheet": true,
-          "inUiInfo": true,
-          "descriptions": [
-            {
-              "text": "BOUNDARY_README_HEADER_3_DESC_1",
-              "isStepRequired": false
-            },
-            {
-              "text": "BOUNDARY_README_HEADER_3_DESC_2",
-              "isStepRequired": false
-            },
-            {
-              "text": "BOUNDARY_README_HEADER_3_DESC_3",
-              "isStepRequired": false
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
