@@ -5668,6 +5668,30 @@
       "serviceCode": "statements",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 471,
+      "name": "AnalysisStatement",
+      "url": "/egov-pdf/download/rateAnalysisStatement/rate-analysis-statement",
+      "displayName": "Analysis Statement PDF",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled":true,
+      "serviceCode": "statements",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 472,
+      "name": "UtilizationStatement",
+      "url": "/egov-pdf/download/rateAnalysisUtilization/rate-analysis-utilization",
+      "displayName": "Utilization Statement PDF",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled":true,
+      "serviceCode": "statements",
+      "code": "null",
+      "path": ""
     }
   ]
 }
