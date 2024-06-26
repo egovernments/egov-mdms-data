@@ -194,6 +194,7 @@
     {
       "type": "Excel",
       "section": "Facilities",
+      "campaignType": "LLIN-mz",
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
       "activeInactiveField": "facilityUsage",
@@ -273,7 +274,125 @@
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": false
           },
-          "capacity": {
+          "LLIN_mz_capacity": {
+            "type": "number",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": true,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": true,
+            "toShowInMicroplanPreview": true
+          },
+          "lat": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90,
+            "isRequired": false,
+            "isLocationDataColumns": true,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "long": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "isRequired": false,
+            "isLocationDataColumns": true,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          }
+        }
+      }
+    },
+
+    {
+      "type": "Excel",
+      "section": "Facilities",
+      "campaignType": "MR-DN",
+      "doHierarchyCheckInUploadedData": false,
+      "showResourcesInMappingSection": false,
+      "activeInactiveField": "facilityUsage",
+      "template": {
+        "showTemplateDownload": true,
+        "includeFacilityData": true,
+        "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
+        "facilitySchemaApiMapping": {
+          "facilityCode": "id",
+          "facilityName": "name",
+          "facilityType": "usage",
+          "facilityStatus": "isPermanent",
+          "capacity": "storageCapacity"
+        }
+      },
+      "schema": {
+        "Properties": {
+          "boundaryCode": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "facilityCode": {
+            "type": "string",
+            "isRequired": false,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "facilityName": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityType": {
+            "type": "string",
+            "enum": [
+              "Warehouse",
+              "Health Facility",
+              "Monitor Local",
+              "Storing Resource"
+            ],
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": true,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityStatus": {
+            "type": "string",
+            "enum": ["Temporary", "Permanent"],
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityUsage": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "MR_DN_capacity": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -433,6 +552,7 @@
     {
       "type": "GeoJSON",
       "section": "Facilities",
+      "campaignType": "LLIN-mz",
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": false,
       "activeInactiveField": "facilityUsage",
@@ -514,7 +634,104 @@
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": false
           },
-          "capacity": {
+          "LLIN_mz_capacity": {
+            "type": "number",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": true,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": true,
+            "toShowInMicroplanPreview": true
+          }
+        }
+      }
+    },
+    {
+      "type": "GeoJSON",
+      "section": "Facilities",
+      "campaignType": "MR-DN",
+      "doHierarchyCheckInUploadedData": false,
+      "showResourcesInMappingSection": false,
+      "activeInactiveField": "facilityUsage",
+      "template": {
+        "showTemplateDownload": false,
+        "includeFacilityData": true,
+        "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
+        "facilitySchemaApiMapping": {
+          "facilityCode": "id",
+          "facilityName": "name",
+          "facilityType": "usage",
+          "facilityStatus": "isPermanent",
+          "capacity": "storageCapacity"
+        }
+      },
+      "schema": {
+        "Properties": {
+          "boundaryCode": {
+            "type": "string",
+            "nullable": false,
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "facilityCode": {
+            "type": "string",
+            "isRequired": false,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "facilityName": {
+            "type": "string",
+            "nullable": false,
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityType": {
+            "type": "string",
+            "enum": [
+              "Warehouse",
+              "Health Facility",
+              "Monitor Local",
+              "Storing Resource"
+            ],
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": true,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityStatus": {
+            "type": "string",
+            "enum": ["Temporary", "Permanent"],
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityUsage": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "MR_DN_capacity": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
@@ -652,6 +869,7 @@
     {
       "type": "Shapefile",
       "section": "Facilities",
+      "campaignType": "LLIN-mz",
       "doHierarchyCheckInUploadedData": false,
       "showResourcesInMappingSection": true,
       "activeInactiveField": "facilityUsage",
@@ -731,7 +949,102 @@
             "isVisualizationPropertyOfMapSection": false,
             "toShowInMicroplanPreview": false
           },
-          "capacity": {
+          "LLIN_mz_capacity": {
+            "type": "number",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": true,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": true,
+            "toShowInMicroplanPreview": true
+          }
+        }
+      }
+    },
+    {
+      "type": "Shapefile",
+      "section": "Facilities",
+      "campaignType": "MR-DN",
+      "doHierarchyCheckInUploadedData": false,
+      "showResourcesInMappingSection": true,
+      "activeInactiveField": "facilityUsage",
+      "template": {
+        "showTemplateDownload": false,
+        "includeFacilityData": true,
+        "hierarchyLevelWiseSheets": false,
+        "propertiesToHide": ["facilityCode"],
+        "facilitySchemaApiMapping": {
+          "facilityCode": "id",
+          "facilityName": "name",
+          "facilityType": "usage",
+          "facilityStatus": "isPermanent",
+          "capacity": "storageCapacity"
+        }
+      },
+      "schema": {
+        "Properties": {
+          "boundaryCode": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "facilityCode": {
+            "type": "string",
+            "isRequired": false,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "facilityName": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityType": {
+            "type": "string",
+            "enum": [
+              "Warehouse",
+              "Health Facility",
+              "Monitor Local",
+              "Storing Resource"
+            ],
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": true,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityStatus": {
+            "type": "string",
+            "enum": ["Temporary", "Permanent"],
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": true
+          },
+          "facilityUsage": {
+            "type": "string",
+            "isRequired": true,
+            "isLocationDataColumns": false,
+            "isRuleConfigureInputs": false,
+            "isFilterPropertyOfMapSection": false,
+            "isVisualizationPropertyOfMapSection": false,
+            "toShowInMicroplanPreview": false
+          },
+          "MR_DN_capacity": {
             "type": "number",
             "isRequired": true,
             "isLocationDataColumns": false,
