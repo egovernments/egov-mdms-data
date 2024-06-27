@@ -5178,6 +5178,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2027,
+      "name": "UtilizationStatementSearch",
+      "url": "/statements/v1/utilization/_search",
+      "displayName": "Utilization Statement",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled":true,
+      "serviceCode": "statements",
+      "code": "null",
+      "path": ""
     }
   ]
 }

@@ -5761,6 +5761,30 @@
       "actionid": 2025,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_APPROVER",
+      "actionid": 2027,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VIEWER",
+      "actionid": 2027,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 2027,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VERIFIER",
+      "actionid": 2027,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
