@@ -5,7 +5,8 @@
       {
         "hierarchy": "Workbench",
         "lowestHierarchy": "Post Administrative",
-        "splitBoundariesOn" : "WORKBENCH_DISTRICT"
+        "splitBoundariesOn" : "District",
+        "isActive": true
       }
     ]
   }
