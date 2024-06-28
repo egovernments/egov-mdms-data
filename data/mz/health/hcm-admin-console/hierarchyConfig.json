@@ -7,6 +7,12 @@
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
         "isActive": true
+      },
+        {
+        "hierarchy": "ADMIN",
+        "lowestHierarchy": "Post Administrative",
+        "splitBoundariesOn" : "District",
+        "isActive": false
       }
     ]
   }
