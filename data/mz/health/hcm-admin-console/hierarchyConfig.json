@@ -2,17 +2,17 @@
     "tenantId": "mz",
     "moduleName": "HCM-ADMIN-CONSOLE",
     "hierarchyConfig": [
+     {
+        "hierarchy": "ADMIN",
+        "lowestHierarchy": "Posto Administrativo",
+        "splitBoundariesOn" : "Distrito",
+        "isActive": true
+      },
       {
         "hierarchy": "Workbench",
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
         "isActive": false
-      },
-      {
-        "hierarchy": "ADMIN",
-        "lowestHierarchy": "Posto Administrativo",
-        "splitBoundariesOn" : "Distrito",
-        "isActive": true
       }
     ]
   }
