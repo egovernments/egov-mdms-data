@@ -3,8 +3,16 @@
     "moduleName": "HCM-ADMIN-CONSOLE",
     "hierarchyConfig": [
       {
+        "hierarchy": "Workbench",
+        "lowestHierarchy": "Post Administrative",
+        "splitBoundariesOn" : "District",
+        "isActive": false
+      },
+      {
         "hierarchy": "ADMIN",
-        "lowestHierarchy": "Posto Administrativo"
+        "lowestHierarchy": "Posto Administrativo",
+        "splitBoundariesOn" : "Distrito",
+        "isActive": true
       }
     ]
   }
