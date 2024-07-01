@@ -57,26 +57,6 @@
       "bannerLabel": "ESTIMATE_UPLOAD_BANNER_TEXT",
       "documents": [
         {
-          "code": "LABOUR_ANALYSIS",
-          "name" : "ESTIMATE_DOC_LABOUR_ANALYSIS",
-          "active": true,
-          "isMandatory": true,
-          "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
-          "maxFilesAllowed": 1
-        },
-        {
-          "code": "MATERIAL_ANALYSIS",
-          "name" : "ESTIMATE_DOC_MATERIAL_ANALYSIS",
-          "active": true,
-          "isMandatory": true,
-          "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
-          "maxFilesAllowed": 1
-        },
-        {
           "code": "DESIGN_DOCUMENT",
           "name" : "ESTIMATE_DOC_DESIGN_DOCUMENT",
           "active": true,
