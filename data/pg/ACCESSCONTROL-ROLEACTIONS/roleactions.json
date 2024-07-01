@@ -6253,18 +6253,60 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-    {
-      "rolecode": "MUKTA_ADMIN",
+     {
+      "rolecode": "ESTIMATE_VERIFIER",
       "actionid": 471,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "MUKTA_ADMIN",
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 471,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 471,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 471,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 471,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_APPROVER",
       "actionid": 472,
       "actioncode": "",
       "tenantId": "pg"
-      },
+    },
+    {
+      "rolecode": "MB_VIEWER",
+      "actionid": 472,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 472,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_VERIFIER",
+      "actionid": 472,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
     {
       "rolecode": "MB_APPROVER",
       "actionid": 473,
