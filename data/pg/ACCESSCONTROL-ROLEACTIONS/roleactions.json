@@ -25926,6 +25926,18 @@
       "actionid": 1734,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 14,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 14,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
