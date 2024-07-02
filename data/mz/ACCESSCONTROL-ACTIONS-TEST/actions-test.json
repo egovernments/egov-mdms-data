@@ -14640,6 +14640,17 @@
       "name": "update data for ACCESSCONTROL-ROLES.roles schema",
       "url": "/mdms-v2/v2/_create/HCM.DELIVERY_COMMENT_OPTIONS_POPULATOR",
       "serviceCode": "mdms"
+    },
+    {
+      "id": 1879,
+      "name": "Project Type progress track",
+      "url": "/project-factory/v1/project-type/getProcessTrack",
+      "displayName": "Project Type progress track",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project-factory",
+      "code": "null",
+      "path": ""
     }
   ]
 }
