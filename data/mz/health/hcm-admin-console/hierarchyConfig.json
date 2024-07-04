@@ -3,8 +3,8 @@
     "moduleName": "HCM-ADMIN-CONSOLE",
     "hierarchyConfig": [
      {
-        "hierarchy": "TESTING",
-        "lowestHierarchy": "Post",
+        "hierarchy": "ADMIN",
+        "lowestHierarchy": "Posto Administrativo",
         "splitBoundariesOn" : "Distrito",
         "isActive": true
       },
