@@ -3,6 +3,66 @@
   "moduleName": "RAINMAKER-PGR",
   "ServiceDefs": [
     {
+      "name": "Other",
+      "order": 1,
+      "active": true,
+      "keywords": "other",
+      "menuPath": "Sync",
+      "slaHours": 336,
+      "department": "OTHER",
+      "serviceCode": "Other"
+    },
+    {
+      "name": "Performance Issue",
+      "order": 1,
+      "active": true,
+      "keywords": "performance",
+      "menuPath": "Sync",
+      "slaHours": 336,
+      "department": "eGov",
+      "serviceCode": "PerformanceIssue"
+    },
+    {
+      "name": "Security Issues",
+      "order": 1,
+      "active": true,
+      "keywords": "security",
+      "menuPath": "Sync",
+      "slaHours": 336,
+      "department": "eGov",
+      "serviceCode": "SecurityIssues"
+    },
+    {
+      "name": "Data Issues",
+      "order": 1,
+      "active": true,
+      "keywords": "data",
+      "menuPath": "Sync",
+      "slaHours": 336,
+      "department": "eGov",
+      "serviceCode": "DataIssues"
+    },
+    {
+      "name": "User Account Issues",
+      "order": 1,
+      "active": true,
+      "keywords": "user, account",
+      "menuPath": "Sync",
+      "slaHours": 336,
+      "department": "eGov",
+      "serviceCode": "UserAccountIssues"
+    },
+    {
+      "name": "Technical Issues",
+      "serviceCode": "TechnicalIssues",
+      "keywords": "technical, tech",
+      "department": "eGov",
+      "slaHours": 336,
+      "menuPath": "Sync",
+      "active": true,
+      "order": 1
+    },
+    {
       "serviceCode": "SyncNotWorking",
       "name": "Sync Not Working",
       "keywords": "sync, not, working",
