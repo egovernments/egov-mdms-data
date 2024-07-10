@@ -1,0 +1,21 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM",
+    "SEARCH_HOUSEHOLD_FILTERS": [
+        {
+            "code": "REGISTERED",
+            "name": "Registered",
+            "active": true
+        },
+        {
+            "code": "NOT_REGISTERED",
+            "name": "Not Registered",
+            "active": true
+        },
+          {
+            "code": "CLOSED",
+            "name": "Closed",
+            "active": true
+        }
+    ]
+}
