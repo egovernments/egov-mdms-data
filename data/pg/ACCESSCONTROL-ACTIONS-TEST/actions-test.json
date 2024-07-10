@@ -5704,6 +5704,20 @@
       "serviceCode": "statements",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 474,
+      "displayName": "Revision of Rates",
+      "orderNumber": 0,
+      "leftIcon": "dynamic:ContractIcon",
+      "url": "url",
+      "name": "Revision of Rates",
+      "enabled": true,
+      "navigationURL": "/mukta-works-ui/employee/rateAnalysis/search-sor",
+      "parentModule": "",
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
