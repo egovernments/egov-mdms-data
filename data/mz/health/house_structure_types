@@ -1,0 +1,26 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM",
+    "HOUSE_STRUCTURE_TYPES": [
+        {
+            "code": "CEMENT",
+            "name": "Cement",
+            "active": true
+        },
+        {
+            "code": "REEDS",
+            "name": "Reeds",
+            "active": true
+        },
+        {
+            "code": "CLAY",
+            "name": "Clay",
+            "active": true
+        },
+         {
+            "code": "METAL_OR_GLASS",
+            "name": "Metal/Glass",
+            "active": true
+        }
+    ]
+}
