@@ -5190,6 +5190,30 @@
       "serviceCode": "statements",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2028,
+      "name": "Create Project Type",
+      "url": "/mdms-v2/v2/_create/works.ProjectType",
+      "displayName": "create project type",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2029,
+      "name": "Update Project Type",
+      "url": "/mdms-v2/v2/_update/works.ProjectType",
+      "displayName": "update project type",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
