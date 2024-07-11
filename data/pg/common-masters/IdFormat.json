@@ -130,6 +130,9 @@
     {
       "idname": "ifix.program.number",
       "format": "PG/[fy:yyyy-yy]/[SEQ_PROG_NUM]"
-    }
+    },
+    {
+      "idname": "works.project.type.number"
+      "format": "P[SEQ_PROJ_TYPE_NUM]"
   ]
 }
