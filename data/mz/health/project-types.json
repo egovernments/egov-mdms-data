@@ -18,6 +18,11 @@
           "code": "STRAT_HOUSE_TO_HOUSE",
           "name": "House to House",
           "description": "resources will be distributed door to door"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
+          "name": "Fixed post & House-to-House",
+          "description": "resources will be distributed Fixed post & House-to-House"
         }
       ],
       "eligibilityCriteria": [
@@ -61,6 +66,11 @@
           "code": "STRAT_HOUSE_TO_HOUSE",
           "name": "House to House",
           "description": "resources will be distributed door to door"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
+          "name": "Fixed post & House-to-House",
+          "description": "resources will be distributed Fixed post & House-to-House"
         }
       ],
       "resources": [
@@ -716,6 +726,11 @@
           "code": "STRAT_HOUSE_TO_HOUSE",
           "name": "House to House",
           "description": "resources will be distributed door to door"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
+          "name": "Fixed post & House-to-House",
+          "description": "resources will be distributed Fixed post & House-to-House"
         }
       ],
       "eligibilityCriteria": ["All households are eligible."],
