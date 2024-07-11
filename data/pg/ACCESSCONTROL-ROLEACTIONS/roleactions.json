@@ -6336,9 +6336,22 @@
       "actionid": 468,
       "actioncode": "",
       "tenantId": "pg"
-    },{
+    },
+    {
       "rolecode": "TECHNICAL_SANCTIONER",
       "actionid": 469,
+      "actioncode": "",
+      "tenantId": "pg"
+       },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 475,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 476,
       "actioncode": "",
       "tenantId": "pg"
     }
