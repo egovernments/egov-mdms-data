@@ -8,6 +8,18 @@
       "code": "LLIN-mz",
       "group": "MALARIA",
       "beneficiaryType": "HOUSEHOLD",
+      "distributionStrategy": [
+        {
+          "code": "STRAT_FIXED_POST",
+          "name": "Fixed Post",
+          "description": "resources will be distributed fixed points"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE",
+          "name": "House to House",
+          "description": "resources will be distributed door to door"
+        }
+      ],
       "eligibilityCriteria": [
         "All households are eligible.",
         "Prison inmates are eligible."
@@ -39,6 +51,18 @@
       "code": "MR-DN",
       "group": "MALARIA",
       "beneficiaryType": "INDIVIDUAL",
+      "distributionStrategy": [
+        {
+          "code": "STRAT_FIXED_POST",
+          "name": "Fixed Post",
+          "description": "resources will be distributed fixed points"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE",
+          "name": "House to House",
+          "description": "resources will be distributed door to door"
+        }
+      ],
       "resources": [
         {
           "productVariantId": "PVAR-2023-02-22-000021",
@@ -676,15 +700,25 @@
         }
       ]
     },
-     {
+    {
       "id": "192a20d1-0edd-4108-925a-f37bf544d6c4",
       "name": "Project type configuration for IRS - Nampula Campaigns",
       "code": "LLIN-mz",
       "group": "IRS - Nampula",
       "beneficiaryType": "HOUSEHOLD",
-      "eligibilityCriteria": [
-        "All households are eligible."
+      "distributionStrategy": [
+        {
+          "code": "STRAT_FIXED_POST",
+          "name": "Fixed Post",
+          "description": "resources will be distributed fixed points"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE",
+          "name": "House to House",
+          "description": "resources will be distributed door to door"
+        }
       ],
+      "eligibilityCriteria": ["All households are eligible."],
       "dashboardUrls": {
         "NATIONAL_SUPERVISOR": "/digit-ui/employee/dss/landing/national-health-dashboard",
         "PROVINCIAL_SUPERVISOR": "/digit-ui/employee/dss/dashboard/provincial-health-dashboard",
