@@ -1,0 +1,63 @@
+{
+    "tenantId": "mz",
+    "moduleName": "commonUiConfig",
+    "PrivacyPolicy": [
+      {
+        "texts": [
+            {
+                "header": "PRIVACY_HEADER",
+                "inSheet": true,
+                "inUiInfo": true,
+                "descriptions": [
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_1",
+                        "isStepRequired": true,
+                        "isBold": true
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_1_DESC_1",
+                        "isStepRequired": false,
+                        "isBold": false
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_1_DESC_2",
+                        "isStepRequired": false,
+                        "isBold": false
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_2",
+                        "isStepRequired": false,
+                        "isBold": true
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_2_DESC_1",
+                        "isStepRequired": true,
+                        "isBold": false
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_2_DESC_2",
+                        "isStepRequired": true,
+                        "isBold": false
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_2_DESC_3",
+                        "isStepRequired": true,
+                        "isBold": false
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_2_DESC_4",
+                        "isStepRequired": true,
+                        "isBold": false
+                    },
+                    {
+                        "text": "PRIVACY_HEADER_2_SUB_2_DESC_5",
+                        "isStepRequired": true,
+                        "isBold": false
+                    }
+                ],
+                "isHeaderBold": true
+            }
+        ]
+      }
+    ]
+  }
