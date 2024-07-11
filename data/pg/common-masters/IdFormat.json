@@ -165,6 +165,10 @@
     {
       "format": "CMP-[cy:yyyy-MM-dd]-[SEQ_EG_CMP_ID]",
       "idname": "campaign.number"
+    },
+    {
+      "idname": "works.project.type.number"
+      "format": "P[SEQ_PROJ_TYPE_NUM]"
     }
   ]
 }
