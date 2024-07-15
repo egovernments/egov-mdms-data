@@ -310,6 +310,13 @@
             }
           },
           {
+            "type": "LOCALIZATION_MODULE",
+            "name": "hcm-closedhousehold",
+            "config": {
+              "localStoreTTL": 172800
+            }
+          },
+          {
             "type": "MDMS",
             "name": "HCM-FIELD-APP-CONFIG",
             "config": {
