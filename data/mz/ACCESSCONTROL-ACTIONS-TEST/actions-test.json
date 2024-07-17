@@ -14666,6 +14666,66 @@
       "serviceCode": "product",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1876,
+      "name": "User action create",
+      "url": "/health-project/user-action/v1/_create",
+      "displayName": "User action create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "action",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1877,
+      "name": "User action Search",
+      "url": "/health-project/user-action/v1/_search",
+      "displayName": "User action Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "action",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1878,
+      "name": "User action update",
+      "url": "/health-project/user-action/v1/_update",
+      "displayName": "User action update",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "action",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1879,
+      "name": "User location create",
+      "url": "/health-project/user-location/v1/_create",
+      "displayName": "User location create",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "location",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1880,
+      "name": "User location search",
+      "url": "/health-project/user-location/v1/_search",
+      "displayName": "User location search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "location",
+      "code": "null",
+      "path": ""
     }
   ]
 }
