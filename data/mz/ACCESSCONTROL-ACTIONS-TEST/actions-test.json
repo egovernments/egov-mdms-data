@@ -14673,6 +14673,61 @@
       "serviceCode": "boundary-bulk-bff",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1882,
+      "name": "HCM User Action Bulk Create",
+      "url": "/health-project/user-action/v1/_create",
+      "displayName": "HCM User Action Create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1883,
+      "name": "HCM User Action Bulk Update",
+      "url": "/health-project/user-action/v1/_update",
+      "displayName": "HCM User Action Update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1884,
+      "name": "HCM User Action Search",
+      "url": "/health-project/user-action/v1/_search",
+      "displayName": "HCM User Action Search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1885,
+      "name": "HCM User Location Bulk Create",
+      "url": "/health-project/user-location/v1/_create",
+      "displayName": "HCM User Location Create",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1886,
+      "name": "HCM User Location Search",
+      "url": "/health-project/user-location/v1/_search",
+      "displayName": "HCM User Location Search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project",
+      "code": "null",
+      "path": ""
     }
   ]
 }
