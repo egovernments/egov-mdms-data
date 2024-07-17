@@ -14651,6 +14651,28 @@
       "serviceCode": "project-factory",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1880,
+      "name": "Boundary Bulk Creation Search",
+      "url": "/boundary-bulk-bff/v1/boundary/search",
+      "displayName": "Boundary Bulk Creation Search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "boundary-bulk-bff",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1881,
+      "name": "Boundary Bulk Creation",
+      "url": "/boundary-bulk-bff/v1/boundary/create",
+      "displayName": "Boundary Bulk Creation",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "boundary-bulk-bff",
+      "code": "null",
+      "path": ""
     }
   ]
 }
