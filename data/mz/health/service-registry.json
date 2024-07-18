@@ -586,6 +586,41 @@
           "path": "/health-attendance/log/v1/_search"
         }
       ]
+    },
+    {
+      "service": "USER-ACTION",
+      "actions": [
+        {
+          "action": "bulk_create",
+          "entityName": "userAction",
+          "path": "/health-project/user-action/v1/_create"
+        },
+        {
+          "action": "search",
+          "entityName": "userAction",
+          "path": "/health-project/user-action/v1/_search"
+        },
+        {
+          "action": "bulk_update",
+          "entityName": "userAction",
+          "path": "/health-project/user-action/v1/_update"
+        }
+      ]
+    },
+    {
+      "service": "USER-LOCATION",
+      "actions": [
+        {
+          "action": "bulk_create",
+          "entityName": "userLocation",
+          "path": "/health-project/user-location/v1/_create"
+        },
+        {
+          "action": "search",
+          "entityName": "userLocation",
+          "path": "/health-project/user-location/v1/_search"
+        }
+      ]
     }
   ]
 }
