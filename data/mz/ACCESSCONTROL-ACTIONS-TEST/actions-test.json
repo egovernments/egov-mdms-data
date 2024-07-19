@@ -14728,6 +14728,39 @@
       "serviceCode": "project",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1887,
+      "name": "MDMS Bulk Creation Search",
+      "url": "/mdms-bulk-bff/v1/mdmsbulk/search",
+      "displayName": "MDMS Bulk Creation Search",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1888,
+      "name": "MDMS Bulk Creation",
+      "url": "/mdms-bulk-bff/v1/mdmsbulk/create",
+      "displayName": "MDMS Bulk Creation",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1905,
+      "name": "MDMS Template Generation for bulk upload",
+      "url": "/mdms-bulk-bff/v1/mdmsbulk/generate",
+      "displayName": "MDMS Template Generation for bulk upload",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
     }
   ]
 }
