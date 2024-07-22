@@ -14726,6 +14726,17 @@
       "serviceCode": "project",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1881,
+      "name": "Project Type progress track",
+      "url": "/project-factory/v1/project-type/getProcessTrack",
+      "displayName": "Project Type progress track",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "project-factory",
+      "code": "null",
+      "path": ""
     }
   ]
 }
