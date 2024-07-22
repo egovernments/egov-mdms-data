@@ -14761,6 +14761,28 @@
       "serviceCode": "mdms-bulk-bff",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1906,
+      "name": "Creation of v2 mdms data contract schema",
+      "url": "mdms-v2/v2/_create/digitAssignment.contract",
+      "displayName": "MDMS Template Generation for bulk upload",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1907,
+      "name": "Creation of v2 mdms data contract schema",
+      "url": "mdms-v2/v2/_create/digitAssignment.estimate",
+      "displayName": "MDMS Template Generation for bulk upload",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
     }
   ]
 }
