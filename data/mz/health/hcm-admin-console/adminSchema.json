@@ -256,6 +256,531 @@
                 ]
             },
             "campaignType": "MR-DN"
+        },
+        {
+            "title": "facility",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "enumProperties": [
+                    {
+                        "enum": [
+                            "Warehouse",
+                            "Health Facility",
+                            "Storing Resource"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_TYPE_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility type",
+                        "orderNumber": 2
+                    },
+                    {
+                        "enum": [
+                            "Temporary",
+                            "Permanent"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_STATUS_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility status",
+                        "orderNumber": 3
+                    },
+                    {
+                        "enum": [
+                            "Active",
+                            "Inactive"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_USAGE_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility usage",
+                        "orderNumber": 5
+                    },
+                    {
+                        "enum": [
+                            "Yes",
+                            "No"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_FIXED_POST_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Is fixed post (Yes/No)?",
+                        "orderNumber": 6
+                    }
+                ],
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY_MICROPLAN",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Capacity",
+                        "orderNumber": 4,
+                        "errorMessage": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY_ERROR"
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_LATITUDE_OPTIONAL_MICROPLAN",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Latitude",
+                        "orderNumber": 7
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_LONGITUDE_OPTIONAL_MICROPLAN",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Longitude",
+                        "orderNumber": 8
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_NAME_MICROPLAN",
+                        "type": "string",
+                        "isUnique": true,
+                        "maxLength": 2000,
+                        "minLength": 1,
+                        "isRequired": true,
+                        "description": "Facility Name",
+                        "orderNumber": 1
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_RESIDING_BOUNDARY_CODE_MICROPLAN",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 9,
+                        "errorMessage": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY_ERROR"
+                    }
+                ]
+            },
+            "campaignType": "microplan"
+        },
+        {
+            "title": "facility",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "enumProperties": [
+                    {
+                        "enum": [
+                            "Warehouse",
+                            "Health Facility",
+                            "Storing Resource"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_TYPE_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility type",
+                        "orderNumber": 3
+                    },
+                    {
+                        "enum": [
+                            "Temporary",
+                            "Permanent"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_STATUS_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility status",
+                        "orderNumber": 4
+                    },
+                    {
+                        "enum": [
+                            "Active",
+                            "Inactive"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_USAGE_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility usage",
+                        "orderNumber": 7
+                    }
+                ],
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY_MICROPLAN",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Camapcity",
+                        "orderNumber": 2,
+                        "errorMessage": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY_ERROR"
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_LATITUDE_MICROPLAN",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Latitude",
+                        "orderNumber": 6
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_LONGITUDE_MICROPLAN",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Longitude",
+                        "orderNumber": 8
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_NAME_MICROPLAN",
+                        "type": "string",
+                        "isUnique": true,
+                        "maxLength": 2000,
+                        "minLength": 1,
+                        "isRequired": true,
+                        "description": "Facility Name",
+                        "orderNumber": 1
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY_MICROPLAN",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 5,
+                        "errorMessage": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY_ERROR"
+                    }
+                ]
+            },
+            "campaignType": "microplan3"
+        },
+        {
+            "title": "facility",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "enumProperties": [
+                    {
+                        "enum": [
+                            "Warehouse",
+                            "Health Facility",
+                            "Storing Resource"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_TYPE_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility type",
+                        "orderNumber": 2
+                    },
+                    {
+                        "enum": [
+                            "Temporary",
+                            "Permanent"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_STATUS_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility status",
+                        "orderNumber": 4
+                    },
+                    {
+                        "enum": [
+                            "Active",
+                            "Inactive"
+                        ],
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_USAGE_MICROPLAN",
+                        "isRequired": true,
+                        "description": "Facility usage",
+                        "orderNumber": 8
+                    }
+                ],
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY_MICROPLAN",
+                        "type": "number",
+                        "maximum": 100000000,
+                        "minimum": 1,
+                        "isRequired": true,
+                        "description": "Camapcity",
+                        "orderNumber": 3,
+                        "errorMessage": "HCM_ADMIN_CONSOLE_FACILITY_CAPACITY_ERROR"
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_LATITUDE_MICROPLAN",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Latitude",
+                        "orderNumber": 6
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_LONGITUDE_MICROPLAN",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Longitude",
+                        "orderNumber": 7
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_FACILITY_NAME_MICROPLAN",
+                        "type": "string",
+                        "isUnique": true,
+                        "maxLength": 2000,
+                        "minLength": 1,
+                        "isRequired": true,
+                        "description": "Facility Name",
+                        "orderNumber": 1
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY_MICROPLAN",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 5,
+                        "errorMessage": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE_MANDATORY_ERROR"
+                    }
+                ]
+            },
+            "campaignType": "microplan2"
+        },
+        {
+            "title": "boundary",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TOTAL_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Total population ( Mandatory )",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population ( Mandatory )",
+                        "orderNumber": 3
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LAT_OPT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Lat ( Optional )",
+                        "orderNumber": 4
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LONG_OPT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Long ( Optional )",
+                        "orderNumber": 5
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "hideColumn": false,
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "MP-LLIN-mz"
+        },
+        {
+            "title": "boundary",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TOTAL_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Total population ( Mandatory )",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION_AGE_3TO11",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population (Age 3 months - 11 months) ( Mandatory )",
+                        "orderNumber": 3
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION_AGE_12TO59",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population (Age 12 months - 59 months) ( Mandatory )",
+                        "orderNumber": 4
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LAT_OPT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Latitude ( Optional )",
+                        "orderNumber": 5
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LONG_OPT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Longitude ( Optional )",
+                        "orderNumber": 6
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "hideColumn": true,
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "MP-MR-DN"
+        },
+        {
+            "title": "boundaryWithTarget",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LAT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Lat ( Optional )",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LONG",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Long ( Optional )",
+                        "orderNumber": 3
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_TOTAL_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Total target population ( Mandatory )",
+                        "orderNumber": 4
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population",
+                        "orderNumber": 5
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "MP-LLIN-mz"
+        },
+        {
+            "title": "boundaryWithTarget",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LAT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Lat ( Optional )",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LONG",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Long ( Optional )",
+                        "orderNumber": 3
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_TOTAL_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Total target population ( Mandatory )",
+                        "orderNumber": 4
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION_AGE_3TO11",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population (Age 3 months - 11 months) ( Mandatory )",
+                        "orderNumber": 5
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION_AGE_12TO59",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population (Age 12 months - 59 months) ( Mandatory )",
+                        "orderNumber": 6
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1,
+                        "freezeColumn": true
+                    }
+                ]
+            },
+            "campaignType": "MP-MR-DN"
+        },
+        {
+            "title": "boundaryWithTarget",
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": {
+                "numberProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LAT",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Lat ( Optional )",
+                        "orderNumber": 2
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_LONG",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Long ( Optional )",
+                        "orderNumber": 3
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_TOTAL_POPULATION",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Total target population ( Mandatory )",
+                        "orderNumber": 4
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION_AGE_3TO11",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population (Age 3 months - 11 months) ( Mandatory )",
+                        "orderNumber": 5
+                    },
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_TARGET_POPULATION_AGE_12TO59",
+                        "type": "number",
+                        "isRequired": true,
+                        "description": "Target population (Age 12 months - 59 months) ( Mandatory )",
+                        "orderNumber": 6
+                    }
+                ],
+                "stringProperties": [
+                    {
+                        "name": "HCM_ADMIN_CONSOLE_BOUNDARY_CODE",
+                        "type": "string",
+                        "isRequired": true,
+                        "description": "Boundary Code",
+                        "orderNumber": 1
+                    }
+                ]
+            },
+            "campaignType": "MP-MRDN"
         }
     ]
 }
