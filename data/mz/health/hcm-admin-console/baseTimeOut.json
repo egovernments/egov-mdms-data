@@ -4,7 +4,8 @@
     "baseTimeOut": [
       {
         "baseTimeOut": 50,
-        "maxTime": 2500
+       "maxTime": 5000,
+      "timelineRefetch" : 3000
       }
     ]
   }
