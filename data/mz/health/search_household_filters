@@ -12,9 +12,19 @@
             "name": "Not Registered",
             "active": true
         },
-          {
-            "code": "CLOSED",
-            "name": "Closed",
+        {
+            "code": "CLOSED_HOUSEHOLD",
+            "name": "Closed Household",
+            "active": true
+        },
+        {
+            "code": "ADMINISTERED_SUCCESS",
+            "name": "Administred Success",
+            "active": true
+        },
+        {
+            "code": "ADMINISTERED_FAILURE",
+            "name": "Administred Failure",
             "active": true
         }
     ]
