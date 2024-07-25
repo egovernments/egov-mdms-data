@@ -6,6 +6,22 @@
       "type": "facilityWithBoundary",
       "texts": [
         {
+          "header": "FACILITYWITHBOUNDARY_README_HEADER_1",
+          "isHeaderBold": true,
+          "inSheet": false,
+          "inUiInfo": true,
+          "descriptions": [
+            {
+              "text": "FACILITYWITHBOUNDARY_README_HEADER_1_DESC_1",
+              "isStepRequired": true
+            },
+            {
+              "text": "FACILITYWITHBOUNDARY_README_HEADER_1_DESC_2",
+              "isStepRequired": true
+            }
+          ]
+        },
+        {
           "header": "FACILITYWITHBOUNDARY_README_HEADER_2",
           "isHeaderBold": true,
           "inSheet": true,
@@ -67,6 +83,22 @@
       "type": "userWithBoundary",
       "texts": [
         {
+          "header": "USERWITHBOUNDARY_README_HEADER_1",
+          "isHeaderBold": true,
+          "inSheet": false,
+          "inUiInfo": true,
+          "descriptions": [
+            {
+              "text": "USERWITHBOUNDARY_README_HEADER_1_DESC_1",
+              "isStepRequired": true
+            },
+            {
+              "text": "USERWITHBOUNDARY_README_HEADER_1_DESC_2",
+              "isStepRequired": true
+            }
+          ]
+        },
+        {
           "header": "USERWITHBOUNDARY_README_HEADER_2",
           "isHeaderBold": true,
           "inSheet": true,
@@ -111,6 +143,22 @@
     {
       "type": "boundary",
       "texts": [
+        {
+          "header": "BOUNDARY_README_HEADER_1",
+          "isHeaderBold": true,
+          "inSheet": false,
+          "inUiInfo": true,
+          "descriptions": [
+            {
+              "text": "BOUNDARY_README_HEADER_1_DESC_1",
+              "isStepRequired": true
+            },
+            {
+              "text": "BOUNDARY_README_HEADER_1_DESC_2",
+              "isStepRequired": true
+            }
+          ]
+        },
         {
           "header": "BOUNDARY_README_HEADER_2",
           "isHeaderBold": true,
