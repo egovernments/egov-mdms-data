@@ -23,8 +23,13 @@
             "active": true
         },
         {
-            "code": "ADMINISTERED_FAILURE",
-            "name": "Administred Failure",
+            "code": "ADMINISTERED_FAILED",
+            "name": "Administred Failed",
+            "active": true
+        },
+        {
+            "code": "NOT_DELIVERED",
+            "name": "Not Delivered",
             "active": true
         }
     ]
