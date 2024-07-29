@@ -14783,6 +14783,28 @@
       "serviceCode": "mdms-bulk-bff",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1908,
+      "name": "MDMS JSON Template Generation for bulk upload",
+      "url": "/mdms-bulk-bff/v1/mdmsbulk/generatejson",
+      "displayName": "MDMS JSON Template Generation for bulk upload",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1909,
+      "name": "MDMS Bulk Creation with JSON template",
+      "url": "/mdms-bulk-bff/v1/mdmsbulk/createfromjson",
+      "displayName": "MDMS Bulk Creation with JSON template",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-bulk-bff",
+      "code": "null",
+      "path": ""
     }
   ]
 }
