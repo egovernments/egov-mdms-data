@@ -530,7 +530,7 @@
         },
         {
           "name": "projectName",
-          "path": "Data.additionalDetails.projectName.keyword",
+          "path": "Data.additionalDetails.projectName",
           "isMandatory": false,
           "operator": "FUZZY"
         },
@@ -757,9 +757,9 @@
         },
         {
           "name": "projectName",
-          "path": "Data.contract.additionalDetails.projectName.keyword",
+          "path": "Data.contract.additionalDetails.projectName",
           "isMandatory": false,
-          "operator": "EQUAL"
+          "operator": "FUZZY"
         },
         {
           "name": "createdFrom",
