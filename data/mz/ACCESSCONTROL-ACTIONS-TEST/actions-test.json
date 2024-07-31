@@ -14805,6 +14805,17 @@
       "serviceCode": "mdms-bulk-bff",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1910,
+      "name": "Boundary Bulk Template Generation",
+      "url": "/boundary-bulk-bff/v1/boundary/generate",
+      "displayName": "Boundary Bulk Template Generation",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "boundary-bulk-bff",
+      "code": "null",
+      "path": ""
     }
   ]
 }
