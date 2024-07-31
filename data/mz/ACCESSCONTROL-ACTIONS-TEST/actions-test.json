@@ -14737,6 +14737,18 @@
       "serviceCode": "project-factory",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1882,
+      "name": "Mark Closed Household",
+      "url": "",
+      "displayName": "HOME_CLOSE_HOUSEHOLD_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
     }
   ]
 }
