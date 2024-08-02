@@ -1,0 +1,45 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM",
+  "dashboardConfig": [
+    {
+      "enableDashboard": true,
+      "dashboardConfig": {
+        "METRIC": [
+          {
+            "name": "totalHouseholdSprayed",
+            "vizType": "row",
+            "active": true
+          },
+          {
+            "name": "totalBottlesUsed",
+            "vizType": "row",
+            "active": true
+          },
+          {
+            "name": "percentTargetAchievementToday",
+            "vizType": "row",
+            "active": true
+          },
+          {
+            "name": "syncedUsers",
+            "vizType": "row",
+            "active": true
+          }
+        ],
+        "TABLE": [
+          {
+            "name": "coverageByProvince",
+            "vizType": null,
+            "active": false
+          },
+          {
+            "name": "populationCoverageHeatMap",
+            "vizType": null,
+            "active": false
+          }
+        ]
+      }
+    }
+  ]
+}
