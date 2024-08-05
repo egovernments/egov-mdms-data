@@ -4,6 +4,7 @@
   "dashboardConfig": [
     {
       "enableDashboard": true,
+      "id": 1,
       "charts": [
           {
             "name": "totalHouseholdSprayed",
