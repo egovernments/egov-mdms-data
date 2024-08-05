@@ -4,42 +4,44 @@
   "dashboardConfig": [
     {
       "enableDashboard": true,
-      "dashboardConfig": {
-        "METRIC": [
+      "charts": [
           {
             "name": "totalHouseholdSprayed",
             "vizType": "row",
+            "chartType": "METRIC",
             "active": true
           },
           {
             "name": "totalBottlesUsed",
             "vizType": "row",
+             "chartType": "METRIC",
             "active": true
           },
           {
             "name": "percentTargetAchievementToday",
             "vizType": "row",
+             "chartType": "METRIC",
             "active": true
           },
           {
             "name": "syncedUsers",
-            "vizType": "row",
+            "vizType": "column",
+            "chartType": "METRIC",
             "active": true
-          }
-        ],
-        "TABLE": [
+          },
           {
             "name": "coverageByProvince",
             "vizType": null,
+            "chartType": "TABLE",
             "active": false
           },
           {
             "name": "populationCoverageHeatMap",
             "vizType": null,
+            "chartType": "TABLE",
             "active": false
           }
         ]
-      }
     }
   ]
 }
