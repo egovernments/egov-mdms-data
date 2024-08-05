@@ -322,30 +322,35 @@
             {
               "text": "PRIVACY_HEADER_9_SUB_9_DESC_4",
               "type": null,
-              "isBold": false
-            },
-            {
-              "text": "PRIVACY_HEADER_9_SUB_9_DESC_4_SUBDESC_1",
-              "type": null,
               "isBold": false,
-              "isSpaceRequired": true
+              "subDescriptions": [
+                {
+                  "text": "PRIVACY_HEADER_9_SUB_9_DESC_4_SUBDESC_1",
+                  "type": null,
+                  "isBold": false,
+                  "isSpaceRequired": true
+                }
+              ]
             },
+            
             {
               "text": "PRIVACY_HEADER_9_SUB_9_DESC_5",
               "type": null,
-              "isBold": false
-            },
-            {
-              "text": "PRIVACY_HEADER_9_SUB_9_DESC_5_SUBDESC_1",
-              "type": null,
               "isBold": false,
-              "isSpaceRequired": true
-            },
-            {
-              "text": "PRIVACY_HEADER_9_SUB_9_DESC_5_SUBDESC_2",
-              "type": null,
-              "isBold": false,
-              "isSpaceRequired": true
+              "subDescriptions":[
+                {
+                  "text": "PRIVACY_HEADER_9_SUB_9_DESC_5_SUBDESC_1",
+                  "type": null,
+                  "isBold": false,
+                  "isSpaceRequired": true
+                },
+                {
+                  "text": "PRIVACY_HEADER_9_SUB_9_DESC_5_SUBDESC_2",
+                  "type": null,
+                  "isBold": false,
+                  "isSpaceRequired": true
+                }
+              ]
             }
           ]
         },
