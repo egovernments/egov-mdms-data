@@ -25,19 +25,13 @@
             "active": true
           },
           {
-            "name": "syncedUsers",
-            "vizType": "column",
-            "chartType": "METRIC",
-            "active": true
-          },
-          {
-            "name": "coverageByProvince",
+            "name": "coverageByUser",
             "vizType": null,
             "chartType": "TABLE",
             "active": false
           },
           {
-            "name": "populationCoverageHeatMap",
+            "name": "performanceByUser",
             "vizType": null,
             "chartType": "TABLE",
             "active": false
