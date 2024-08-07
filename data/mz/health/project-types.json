@@ -711,55 +711,6 @@
       ]
     },
     {
-      "id": "192a20d1-0edd-4108-925a-f37bf544d6c4",
-      "name": "Project type configuration for IRS - Nampula Campaigns",
-      "code": "IRS-mz",
-      "group": "IRS - Nampula",
-      "beneficiaryType": "HOUSEHOLD",
-      "distributionStrategy": [
-        {
-          "code": "STRAT_FIXED_POST",
-          "name": "Fixed Post",
-          "description": "resources will be distributed fixed points"
-        },
-        {
-          "code": "STRAT_HOUSE_TO_HOUSE",
-          "name": "House to House",
-          "description": "resources will be distributed door to door"
-        },
-        {
-          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
-          "name": "Fixed post & House-to-House",
-          "description": "resources will be distributed Fixed post & House-to-House"
-        }
-      ],
-      "eligibilityCriteria": ["All households are eligible."],
-      "dashboardUrls": {
-        "NATIONAL_SUPERVISOR": "/digit-ui/employee/dss/landing/national-health-dashboard",
-        "PROVINCIAL_SUPERVISOR": "/digit-ui/employee/dss/dashboard/provincial-health-dashboard",
-        "DISTRICT_SUPERVISOR": "/digit-ui/employee/dss/dashboard/district-health-dashboard"
-      },
-      "taskProcedure": [
-        "1 DDT is to be distributed per house.",
-        "1 Malathion is to be distributed per house.",
-        "1 Pyrethroid is to be distributed per house."
-      ],
-      "resources": [
-        {
-          "productVariantId": "PVAR-2024-02-08-000006",
-          "isBaseUnitVariant": true
-        },
-        {
-          "productVariantId": "PVAR-2024-02-08-000007",
-          "isBaseUnitVariant": true
-        },
-        {
-          "productVariantId": "PVAR-2024-02-08-000008",
-          "isBaseUnitVariant": true
-        }
-      ]
-    },
-    {
       "id": "93658397-01d7-40d0-af4f-11c9e26a4082",
       "name": "Project type configuration for IRS - Campaigns",
       "code": "IRS-mz",
