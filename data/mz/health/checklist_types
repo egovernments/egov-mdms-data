@@ -1,0 +1,38 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM",
+    "CHECKLIST_TYPES": [
+  {
+    "code": "IEC",
+    "name": "IEC"
+  },
+  {
+    "code": "WAREHOUSE",
+    "name": "WAREHOUSE"
+  },
+  {
+    "code": "HF_RF_DRUG_SE_CC",
+    "name": "HF_RF_DRUG_SE_CC"
+  },
+  {
+    "code": "HF_RF_DRUG_SE_PC",
+    "name": "HF_RF_DRUG_SE_PC"
+  },
+  {
+    "code": "HF_RF_FEVER",
+    "name": "HF_RF_FEVER"
+  },
+  {
+    "code": "HF_RF_SICK",
+    "name": "HF_RF_SICK"
+  },
+  {
+    "code": "TEAM_FORMATION",
+    "name": "TEAM_FORMATION"
+  },
+  {
+    "code": "TRAINING_SUPERVISION",
+    "name": "TRAINING_SUPERVISION"
+  }
+]
+}
