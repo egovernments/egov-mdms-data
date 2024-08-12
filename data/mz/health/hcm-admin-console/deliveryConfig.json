@@ -208,6 +208,40 @@
           ]
         }
       ]
+    },
+    {
+      "projectType": "IRS-mz",
+      "attrAddDisable": true,
+      "deliveryAddDisable": false,
+      "customAttribute": true,
+      "productCountHide": true,
+      "cycleConfig": {
+        "cycle": 1,
+        "deliveries": 1,
+        "IsDisable": true
+      },
+      "deliveryConfig": [
+        {
+          "attributeConfig": [
+            {
+              "key": 1,
+              "label": "Custom",
+              "attrType": "text",
+              "attrValue": "TYPE_OF_STRUCTURE",
+              "operatorValue": "EQUAL_TO",
+              "value": "CEMENT"
+            }
+          ],
+          "productConfig": [
+            {
+              "key": 1,
+              "count": 1,
+              "value": "PVAR-2024-03-15-000043",
+              "name": "SP 500mg"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
