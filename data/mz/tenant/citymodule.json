@@ -80,6 +80,17 @@
       ]
     },
     {
+      "module": "Sandbox",
+      "code": "Sandbox",
+      "active": true,
+      "order": 10,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
+    {
       "module": "Microplanning",
       "code": "Microplanning",
       "active": true,
