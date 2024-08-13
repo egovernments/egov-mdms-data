@@ -51,6 +51,16 @@
       "stateSLA": 0.01,
       "businessSLA": null,
       "topic": "pgr-auto-escalation"
+    },
+    {
+      "businessService": "BTR",
+      "module": "birth-registration",
+      "state": "APPLIED",
+      "action": "APPROVE",
+      "active": "true",
+      "stateSLA": 0.01,
+      "businessSLA": null,
+      "topic": "btr-auto-escalation"
     }
   ]
 }
