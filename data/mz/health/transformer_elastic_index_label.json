@@ -1,0 +1,30 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM-TRANSFORMER-ELASTIC-INDEX-LABELS",
+  "transformerElasticIndexLabels": [
+    {
+      "label": "Country",
+      "indexLabel": "country"
+    },
+    {
+      "label": "Provincia",
+      "indexLabel": "province"
+    },
+    {
+      "label": "Distrito",
+      "indexLabel": "district"
+    },
+    {
+      "label": "Localidade",
+      "indexLabel": "locality"
+    },
+    {
+      "label": "Posto Administrativo",
+      "indexLabel": "administrativeProvince"
+    },
+    {
+      "label": "Aldeia",
+      "indexLabel": "village"
+    }
+  ]
+}
