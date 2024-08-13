@@ -1,0 +1,253 @@
+{
+  "tenantId": "mz",
+  "moduleName": "sandbox-ui",
+  "ModuleMasterConfig": [
+    {
+      "module": "PGR",
+      "master": [
+        {
+          "code": "RAINMAKER-PGR.ServiceDefs",
+          "type": "module"
+        },
+        {
+          "code": "common-masters.Department",
+          "type": "common"
+        },
+        {
+          "code": "common-masters.IdFormat",
+          "type": "config"
+        },
+        {
+          "code": "PGR",
+          "type": "workflow"
+        },
+        {
+          "code": "ADMIN",
+          "type": "boundary"
+        },
+        {
+          "code": "rainmaker-pgr",
+          "type": "localisation"
+        },
+        {
+          "code": "rainmaker-common",
+          "type": "localisation"
+        }
+      ]
+    },
+    {
+      "module": "HRMS",
+      "master": [
+        {
+          "code": "common-masters.Department",
+          "type": "module"
+        },
+        {
+          "code": "common-masters.Designation",
+          "type": "module"
+        },
+        {
+          "code": "common-masters.IdFormat",
+          "type": "config"
+        },
+        {
+          "code": "common-masters.GenderType",
+          "type": "module"
+        },
+        {
+          "code": "rainmaker-hrms",
+          "type": "localisation"
+        },
+        {
+          "code": "rainmaker-common",
+          "type": "localisation"
+        },
+        {
+          "code": "egov-hrms.Specalization",
+          "type": "module"
+        },
+        {
+          "code": "egov-hrms.EmploymentType",
+          "type": "module"
+        },
+        {
+          "code": "egov-hrms.EmploymentStatus",
+          "type": "module"
+        },
+        {
+          "code": "egov-hrms.EmploymentDepartment",
+          "type": "module"
+        },
+        {
+          "code": "egov-hrms.DeactivateReason",
+          "type": "module"
+        },
+        {
+          "code": "egov-hrms.CommonFieldsConfig",
+          "type": "config"
+        },
+        {
+          "code": "egov-hrms.CampaignAssignmentFieldsConfig",
+          "type": "config"
+        }
+      ]
+    },
+    {
+      "module": "HCM",
+      "master": [
+        {
+          "code": "commonUiConfig.LoginConfig",
+          "type": "config"
+        },
+        {
+          "code": "commonUiConfig.PrivacyPolicy",
+          "type": "config"
+        },
+        {
+          "code": "commonHCMUiConfig.SearchHouseholdConfig",
+          "type": "config"
+        },
+        {
+          "code": "commonHCMUiConfig.SearchProductConfig",
+          "type": "config"
+        },
+        {
+          "code": "commonHCMUiConfig.SearchProductVariantConfig",
+          "type": "config"
+        },
+        {
+          "code": "commonHCMUiConfig.SearchProjectBeneficiaryConfig",
+          "type": "config"
+        },
+        {
+          "code": "commonHCMUiConfig.SearchProjectStaffConfig",
+          "type": "config"
+        },
+        {
+          "code": "commonHCMUiConfig.SearchProjectTaskConfig",
+          "type": "config"
+        },
+        {
+          "code": "HCM",
+          "type": "workflow"
+        },
+        {
+          "code": "ADMIN",
+          "type": "boundary"
+        },
+        {
+          "code": "hcm-admin-console.deliveryTypeConfig",
+          "type": "module"
+        },
+        {
+          "code": "hcm-admin-console.dateWithBoundary",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.attributeConfig",
+          "type": "module"
+        },
+        {
+          "code": "hcm-admin-console.hierarchyConfig",
+          "type": "module"
+        },
+        {
+          "code": "hcm-admin-console.boundarySchema",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.deliveryConfig",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.facilitySchema",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.operatorConfig",
+          "type": "module"
+        },
+        {
+          "code": "hcm-admin-console.structureType",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.readMeConfig",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.adminSchema",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.baseTimeOut",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.productType",
+          "type": "module"
+        },
+        {
+          "code": "hcm-admin-console.mailConfig",
+          "type": "config"
+        },
+        {
+          "code": "hcm-admin-console.userSchema",
+          "type": "config"
+        },
+        {
+          "code": "ACCESSCONTROL-ROLEACTIONS.roleactions",
+          "type": "config"
+        },
+        {
+          "code": "HCM-ADDITIONAL-FIELD-SCHEMAS.additional-field-schemas",
+          "type": "config"
+        },
+        {
+          "code": "HCM-PROJECT.project-task-configuration",
+          "type": "config"
+        },
+        {
+          "code": "HCM-FIELD-APP-CONFIG.field-app-configuration",
+          "type": "config"
+        },
+        {
+          "code": "HCM-ATTENDANCE.attendance-sessions",
+          "type": "module"
+        },
+        {
+          "code": "HCM-PROJECT-TYPES.project-types",
+          "type": "config"
+        },
+        {
+          "code": "HCM-REFERRAL-REASONS.referral_reasons",
+          "type": "module"
+        },
+        {
+          "code": "HCM-SERVICE-REGISTRY.service-registry",
+          "type": "config"
+        },
+        {
+          "code": "HCM-SYMPTOMS-TYPES.symptoms_types",
+          "type": "module"
+        },
+        {
+          "code": "HCM-TASK-QUANTITY-VALIDATION.task-quantity",
+          "type": "config"
+        },
+        {
+          "code": "rainmaker-common",
+          "type": "localisation"
+        },
+        {
+          "code": "rainmaker-hcm",
+          "type": "localisation"
+        },
+        {
+          "code": "rainmaker-campaignmanager",
+          "type": "localisation"
+        }
+      ]
+    }
+  ]
+}
