@@ -14816,6 +14816,17 @@
       "serviceCode": "boundary-bulk-bff",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1911,
+      "name": "health project search",
+      "url": "/health-project/v1/search",
+      "displayName": "health project search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
