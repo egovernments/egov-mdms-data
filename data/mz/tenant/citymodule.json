@@ -133,6 +133,17 @@
           "code": "mz"
         }
       ]
+    },
+    {
+      "module": "microplan",
+      "code": "microplan",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
     }
   ]
 }
