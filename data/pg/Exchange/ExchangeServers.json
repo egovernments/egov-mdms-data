@@ -5,15 +5,15 @@
         {
             "id": "1",
             "code": "IFMS",
-            "hostUrl": "https://unified-qa.digit.org",
-            "contextPath": "/digit-exchange/v1",
+            "hostUrl": "https://unified-qa.digit.org/ifms/digit-exchange",
+            "contextPath": "/ifms/digit-exchange",
             "active": true
         },
         {
             "id": "2",
             "code": "MUKTA",
-            "hostUrl": "https://unified-dev.digit.org",
-            "contextPath": "/digit-exchange/v1",
+            "hostUrl": "https://unified-qa.digit.org/mukta/digit-exchange",
+            "contextPath": "/mukta/digit-exchange",
             "active": true
         }
     ]
