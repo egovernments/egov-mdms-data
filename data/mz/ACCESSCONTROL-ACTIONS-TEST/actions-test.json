@@ -14838,6 +14838,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1913,
+      "name": "tenant search",
+      "url": "/tenant-management/tenant/_search",
+      "displayName": "tenant search API",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
