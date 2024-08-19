@@ -1484,6 +1484,15 @@
         "$.code"
       ]
     }
+  },
+  "exchange": {
+    "ExchangeServers": {
+      "masterName": "ExchangeServers",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
   }
 }
 }
