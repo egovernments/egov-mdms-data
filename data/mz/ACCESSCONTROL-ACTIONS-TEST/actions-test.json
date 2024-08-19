@@ -14827,6 +14827,17 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1912,
+      "name": "action test",
+      "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "displayName": "action test API",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
