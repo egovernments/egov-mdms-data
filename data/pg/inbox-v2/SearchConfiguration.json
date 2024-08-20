@@ -643,6 +643,79 @@
       ]
     },
     {
+      "module": "mukta-pi",
+      "index": "mukta-pi-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "jitBillNo",
+          "path": "Data.jitBillNo.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "piType",
+          "path": "Data.piType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.piStatus.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "billNumber",
+          "path": "Data.additionalDetails.billNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.additionalDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.id",
+        "Data.tenantId",
+        "Data.jitBillNo",
+        "Data.parentPiNumber",
+        "Data.muktaReferenceId",
+        "Data.numBeneficiaries",
+        "Data.grossAmount",
+        "Data.netAmount",
+        "Data.piStatus",
+        "Data.piErrorResp",
+        "Data.beneficiaryDetails",
+        "Data.auditDetails",
+        "Data.additionalDetails"
+      ]
+    },
+    {
       "module": "ifms-pi",
       "index": "ifms-pi-index",
       "allowedSearchCriteria": [
