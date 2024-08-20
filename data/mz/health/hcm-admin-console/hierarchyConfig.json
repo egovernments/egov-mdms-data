@@ -6,13 +6,19 @@
         "hierarchy": "ADMIN",
         "lowestHierarchy": "Posto Administrativo",
         "splitBoundariesOn" : "Distrito",
-        "isActive": true
+        "isActive": false
       },
       {
         "hierarchy": "Workbench",
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
         "isActive": false
-      }
+      },
+        {
+        "hierarchy": "HIERARCHYTEST",
+        "lowestHierarchy": "Administrativepost",
+        "splitBoundariesOn" : "District",
+        "isActive": true
+        }
     ]
   }
