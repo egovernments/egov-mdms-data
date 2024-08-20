@@ -16,8 +16,8 @@
       },
         {
         "hierarchy": "HIERARCHYTEST",
-        "lowestHierarchy": "Administrativepost",
-        "splitBoundariesOn" : "District",
+        "lowestHierarchy": "ADMINISTRATIVEPOST",
+        "splitBoundariesOn" : "DISTRICT",
         "isActive": true
         }
     ]
