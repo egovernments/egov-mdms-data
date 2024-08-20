@@ -1484,8 +1484,9 @@
         "$.code"
       ]
     }
-  },
-  "exchange": {
+  }
+},
+"exchange": {
     "ExchangeServers": {
       "masterName": "ExchangeServers",
       "isStateLevel": true,
@@ -1494,5 +1495,4 @@
       ]
     }
   }
-}
 }
