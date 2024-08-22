@@ -7592,9 +7592,11 @@
          "serviceCode": "DSS",
          "code": "null",
          "path": "Dashboard.PGR",
-         "navigationURL": "integration/dss/pgr",
-         "leftIcon": "places:business-center",
+        "navigationURL": "/works-ui/employee/dss/dashboard/mukta",
+      	 "leftIcon": "dynamic:DashboardIcon",
          "rightIcon": ""
+    },
+
       },
       {
          "id": 1924,
