@@ -88,6 +88,23 @@
           "code": "pg.cityc"
         }
       ]
+    },
+    {
+      "module": "Sandbox",
+      "code": "Sandbox",
+      "active": true,
+      "order": 14,
+      "tenants": [
+        {
+          "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
+        },
+        {
+          "code": "pg.cityc"
+        }
+      ]
     }
   ]
 }
