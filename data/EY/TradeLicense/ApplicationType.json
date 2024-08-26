@@ -1,0 +1,14 @@
+{
+    "tenantId": "EY",
+    "moduleName": "TradeLicense",
+    "ApplicationType": [
+        {
+            "code": "APPLICATIONTYPE.NEW",
+            "active": true
+        },
+        {
+            "code": "APPLICATIONTYPE.RENEWAL",
+            "active": true
+        }
+    ]
+}

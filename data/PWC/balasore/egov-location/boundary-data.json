@@ -1,0 +1,655 @@
+{
+  "tenantId": "pg.balasore",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Balasore",
+        "localname": "Balasore",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.balasore",
+        "children": [
+          {
+            "id": "1c5dbabd-e04a-44e1-ac27-1fea1balbalf",
+            "boundaryNum": 1,
+            "name": "ZONE_BALASORE",
+            "localname": "ZONE_BALASORE",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "ZONE_BALASORE",
+            "children": [
+              {
+                "id": "1c7d8d00-7678-4fd4-8dd2-2802bal7249b",
+                "boundaryNum": 1,
+                "name": "WARD_BALASORE",
+                "localname": "WARD_BALASORE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD_BALASORE",
+                "children": [
+                  {
+                    "name": "Puruna Balasore (P) Mahammad pur(P)",
+                    "label": "Locality",
+                    "code": "VIL1",
+                    "id": "2",
+                    "boundaryNum": "1",
+                    "localname": "Puruna Balasore (P) Mahammad pur(P)",
+                    "pincode": [756001]
+                  },
+                  {
+                    "name": "Sunhat (P) Puruna Balasore(P) Badkhua Lane, Rezaullha Lane, Chandipur road",
+                    "label": "Locality",
+                    "code": "VIL2",
+                    "id": "3",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat (P) Puruna Balasore(P) Badkhua Lane, Rezaullha Lane, Chandipur road",
+                    "pincode": [756002]
+                  },
+                  {
+                    "name": "Sunhat (P) Patrapada(P) Kanak Durga Temple",
+                    "label": "Locality",
+                    "code": "VIL3",
+                    "id": "4",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat (P) Patrapada(P) Kanak Durga Temple",
+                    "pincode": [756019]
+                  },
+                  {
+                    "name": "Sunhat(P) Khawajabag",
+                    "label": "Locality",
+                    "code": "VIL4",
+                    "id": "5",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat(P) Khawajabag",
+                    "pincode": [756025]
+                  },
+                  {
+                    "name": "Kadrabad, Mansingh Bazar",
+                    "label": "Locality",
+                    "code": "VIL5",
+                    "id": "6",
+                    "boundaryNum": "1",
+                    "localname": "Kadrabad, Mansingh Bazar",
+                    "pincode": [756056]
+                  },
+                  {
+                    "name": "Mansingh Bazar (P) Sunhat (P)Akatpur (p) Usha Medha Road, Dewan Patna",
+                    "label": "Locality",
+                    "code": "VIL6",
+                    "id": "7",
+                    "boundaryNum": "1",
+                    "localname": "Mansingh Bazar (P) Sunhat (P)Akatpur (p) Usha Medha Road, Dewan Patna"
+                  },
+                  {
+                    "name": "Sunhat (P) Khawajabagh Masjid area, Pijuruddin Road",
+                    "label": "Locality",
+                    "code": "VIL7",
+                    "id": "8",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat (P) Khawajabagh Masjid area, Pijuruddin Road"
+                  },
+                  {
+                    "name": "Akatpur, Hazi Nasiruddin School Area",
+                    "label": "Locality",
+                    "code": "VIL8",
+                    "id": "9",
+                    "boundaryNum": "1",
+                    "localname": "Akatpur, Hazi Nasiruddin School Area"
+                  },
+                  {
+                    "name": "Mansingh Bazar area, Mandal Bazar, Nathpani Mandir Area",
+                    "label": "Locality",
+                    "code": "VIL9",
+                    "id": "10",
+                    "boundaryNum": "1",
+                    "localname": "Mansingh Bazar area, Mandal Bazar, Nathpani Mandir Area"
+                  },
+                  {
+                    "name": "Mansingh Bazar Area, Makalpur, Mathasahi, Khaprapada",
+                    "label": "Locality",
+                    "code": "VIL10",
+                    "id": "11",
+                    "boundaryNum": "1",
+                    "localname": "Mansingh Bazar Area, Makalpur, Mathasahi, Khaprapada"
+                  },
+                  {
+                    "name": "Padhuanpada(P) Isan Nagar",
+                    "label": "Locality",
+                    "code": "VIL11",
+                    "id": "12",
+                    "boundaryNum": "1",
+                    "localname": "Padhuanpada(P) Isan Nagar"
+                  },
+                  {
+                    "name": "Angargadia",
+                    "label": "Locality",
+                    "code": "VIL12",
+                    "id": "13",
+                    "boundaryNum": "1",
+                    "localname": "Angargadia"
+                  },
+                  {
+                    "name": "Noorpur, Kasba",
+                    "label": "Locality",
+                    "code": "VIL13",
+                    "id": "14",
+                    "boundaryNum": "1",
+                    "localname": "Noorpur, Kasba"
+                  },
+                  {
+                    "name": "Damodarpur, Puruna School Area & Daudibanga Area",
+                    "label": "Locality",
+                    "code": "VIL14",
+                    "id": "15",
+                    "boundaryNum": "1",
+                    "localname": "Damodarpur, Puruna School Area & Daudibanga Area"
+                  },
+                  {
+                    "name": "Suelpur (P), Annapurna Lane, Bagbrundaban (P)",
+                    "label": "Locality",
+                    "code": "VIL15",
+                    "id": "16",
+                    "boundaryNum": "1",
+                    "localname": "Suelpur (P), Annapurna Lane, Bagbrundaban (P)"
+                  },
+                  {
+                    "name": "Bateswar(P) Suelpur(P) Bagbrundaban(P) Tantisahi Lane, Congress Office Lane",
+                    "label": "Locality",
+                    "code": "VIL16",
+                    "id": "17",
+                    "boundaryNum": "1",
+                    "localname": "Bateswar(P) Suelpur(P) Bagbrundaban(P) Tantisahi Lane, Congress Office Lane"
+                  },
+                  {
+                    "name": "Nalamganj (P), Mallikashpur(P),G.C. Patnaik Road & Bairam Nagar Road",
+                    "label": "Locality",
+                    "code": "VIL17",
+                    "id": "18",
+                    "boundaryNum": "1",
+                    "localname": "Nalamganj (P), Mallikashpur(P),G.C. Patnaik Road & Bairam Nagar Road"
+                  },
+                  {
+                    "name": "Mallikaspur(P) Chandragadi(P),F.M. College Area, Jail Road",
+                    "label": "Locality",
+                    "code": "VIL18",
+                    "id": "19",
+                    "boundaryNum": "1",
+                    "localname": "Mallikaspur(P) Chandragadi(P),F.M. College Area, Jail Road"
+                  },
+                  {
+                    "name": "Bagbrundaban, Raja Bagicha, Chandragadi(P), Bhaskarganj",
+                    "label": "Locality",
+                    "code": "VIL19",
+                    "id": "20",
+                    "boundaryNum": "1",
+                    "localname": "Bagbrundaban, Raja Bagicha, Chandragadi(P), Bhaskarganj"
+                  },
+                  {
+                    "name": "Bhaskarganj (P), Padhuanpada(P), Station Area, Telengasahi Area",
+                    "label": "Locality",
+                    "code": "VIL20",
+                    "id": "21",
+                    "boundaryNum": "1",
+                    "localname": "Bhaskarganj (P), Padhuanpada(P), Station Area, Telengasahi Area"
+                  },
+                  {
+                    "name": "Angargadia(P), Boss Colony",
+                    "label": "Locality",
+                    "code": "VIL21",
+                    "id": "22",
+                    "boundaryNum": "1",
+                    "localname": "Angargadia(P), Boss Colony"
+                  },
+                  {
+                    "name": "Sovarampur, Uttam NagarArea, D.A.V School Area, Thermal Colony & Gudipada Area",
+                    "label": "Locality",
+                    "code": "VIL22",
+                    "id": "23",
+                    "boundaryNum": "1",
+                    "localname": "Sovarampur, Uttam NagarArea, D.A.V School Area, Thermal Colony & Gudipada Area"
+                  },
+                  {
+                    "name": "Sahadevkhunta(P),Gudipada Area, Bhaskarganj",
+                    "label": "Locality",
+                    "code": "VIL23",
+                    "id": "24",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta(P),Gudipada Area, Bhaskarganj"
+                  },
+                  {
+                    "name": "Sahadevkhunta(P), Bhaskarganj, Gudhibasa Area, Bus Stand Area & Balasharm Area",
+                    "label": "Locality",
+                    "code": "VIL24",
+                    "id": "25",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta(P), Bhaskarganj, Gudhibasa Area, Bus Stand Area & Balasharm Area"
+                  },
+                  {
+                    "name": "Sahadevkhunta (P) & Chandmari Area",
+                    "label": "Locality",
+                    "code": "VIL25",
+                    "id": "26",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta (P) & Chandmari Area"
+                  },
+                  {
+                    "name": "Sahadevkhunta , Jadpur(P)",
+                    "label": "Locality",
+                    "code": "VIL26",
+                    "id": "27",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta , Jadpur(P)"
+                  },
+                  {
+                    "name": "Jadpur(P), Bank Colony Area",
+                    "label": "Locality",
+                    "code": "VIL27",
+                    "id": "28",
+                    "boundaryNum": "1",
+                    "localname": "Jadpur(P), Bank Colony Area"
+                  },
+                  {
+                    "name": "Jadpur Area, Jahdeswar Mandir Area, Nayabazar Area",
+                    "label": "Locality",
+                    "code": "VIL28",
+                    "id": "29",
+                    "boundaryNum": "1",
+                    "localname": "Jadpur Area, Jahdeswar Mandir Area, Nayabazar Area"
+                  },
+                  {
+                    "name": "Bagbrundaban(P), Old stadium area, Hospital Area, Convent school Area & permit Field Area",
+                    "label": "Locality",
+                    "code": "VIL29",
+                    "id": "30",
+                    "boundaryNum": "1",
+                    "localname": "Bagbrundaban(P), Old stadium area, Hospital Area, Convent school Area & permit Field Area"
+                  },
+                  {
+                    "name": "Bagbrundaban(P), Manikhamb(p), Mirzapokhari Area, Daftari Sahi Area",
+                    "label": "Locality",
+                    "code": "VIL30",
+                    "id": "31",
+                    "boundaryNum": "1",
+                    "localname": "Bagbrundaban(P), Manikhamb(p), Mirzapokhari Area, Daftari Sahi Area"
+                  },
+                  {
+                    "name": "Barabati, Manikhamb(P), Damodarpur(P) & Barabati Girls High School area, Balighat Area",
+                    "label": "Locality",
+                    "code": "VIL31",
+                    "id": "32",
+                    "boundaryNum": "1",
+                    "localname": "Barabati, Manikhamb(P), Damodarpur(P) & Barabati Girls High School area, Balighat Area"
+                  },
+                  {
+                    "name": "Manikhamb(P), RN Dey Street, Dingamardinga Area",
+                    "label": "Locality",
+                    "code": "VIL32",
+                    "id": "33",
+                    "boundaryNum": "1",
+                    "localname": "Manikhamb(P), RN Dey Street, Dingamardinga Area"
+                  },
+                  {
+                    "name": "Gopalgaon, Srikanthapur(P) Sabitri School Area, Chunabhati Area",
+                    "label": "Locality",
+                    "code": "VIL33",
+                    "id": "34",
+                    "boundaryNum": "1",
+                    "localname": "Gopalgaon, Srikanthapur(P) Sabitri School Area, Chunabhati Area"
+                  },
+                  {
+                    "name": "Srikanthapur(P), Jadpur(P), Vetenary Hospital Area & Darjo Pokhari Area",
+                    "label": "Locality",
+                    "code": "VIL34",
+                    "id": "35",
+                    "boundaryNum": "1",
+                    "localname": "Srikanthapur(P), Jadpur(P), Vetenary Hospital Area & Darjo Pokhari Area"
+                  },
+                  {
+                    "name": "Jadpur(P) Arad Bazar Area, Golapolo Area",
+                    "label": "Locality",
+                    "code": "VIL35",
+                    "id": "36",
+                    "boundaryNum": "1",
+                    "localname": "Jadpur(P) Arad Bazar Area, Golapolo Area"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Balasore",
+        "localname": "Balasore",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.balasore",
+        "children": [
+          {
+            "id": "1c5dbabd-e04a-44e1-ac27-1fea1balbalf",
+            "boundaryNum": 1,
+            "name": "ZONE_BALASORE",
+            "localname": "ZONE_BALASORE",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "ZONE_BALASORE",
+            "children": [
+              {
+                "id": "1c7d8d00-7678-4fd4-8dd2-2802bal7249b",
+                "boundaryNum": 1,
+                "name": "WARD_BALASORE",
+                "localname": "WARD_BALASORE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD_BALASORE",
+                "children": [
+                  {
+                    "name": "Puruna Balasore (P) Mahammad pur(P)",
+                    "label": "Locality",
+                    "code": "VIL1",
+                    "id": "2",
+                    "boundaryNum": "1",
+                    "localname": "Puruna Balasore (P) Mahammad pur(P)"
+                  },
+                  {
+                    "name": "Sunhat (P) Puruna Balasore(P) Badkhua Lane, Rezaullha Lane, Chandipur road",
+                    "label": "Locality",
+                    "code": "VIL2",
+                    "id": "3",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat (P) Puruna Balasore(P) Badkhua Lane, Rezaullha Lane, Chandipur road"
+                  },
+                  {
+                    "name": "Sunhat (P) Patrapada(P) Kanak Durga Temple",
+                    "label": "Locality",
+                    "code": "VIL3",
+                    "id": "4",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat (P) Patrapada(P) Kanak Durga Temple"
+                  },
+                  {
+                    "name": "Sunhat(P) Khawajabag",
+                    "label": "Locality",
+                    "code": "VIL4",
+                    "id": "5",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat(P) Khawajabag"
+                  },
+                  {
+                    "name": "Kadrabad, Mansingh Bazar",
+                    "label": "Locality",
+                    "code": "VIL5",
+                    "id": "6",
+                    "boundaryNum": "1",
+                    "localname": "Kadrabad, Mansingh Bazar"
+                  },
+                  {
+                    "name": "Mansingh Bazar (P) Sunhat (P)Akatpur (p) Usha Medha Road, Dewan Patna",
+                    "label": "Locality",
+                    "code": "VIL6",
+                    "id": "7",
+                    "boundaryNum": "1",
+                    "localname": "Mansingh Bazar (P) Sunhat (P)Akatpur (p) Usha Medha Road, Dewan Patna"
+                  },
+                  {
+                    "name": "Sunhat (P) Khawajabagh Masjid area, Pijuruddin Road",
+                    "label": "Locality",
+                    "code": "VIL7",
+                    "id": "8",
+                    "boundaryNum": "1",
+                    "localname": "Sunhat (P) Khawajabagh Masjid area, Pijuruddin Road"
+                  },
+                  {
+                    "name": "Akatpur, Hazi Nasiruddin School Area",
+                    "label": "Locality",
+                    "code": "VIL8",
+                    "id": "9",
+                    "boundaryNum": "1",
+                    "localname": "Akatpur, Hazi Nasiruddin School Area"
+                  },
+                  {
+                    "name": "Mansingh Bazar area, Mandal Bazar, Nathpani Mandir Area",
+                    "label": "Locality",
+                    "code": "VIL9",
+                    "id": "10",
+                    "boundaryNum": "1",
+                    "localname": "Mansingh Bazar area, Mandal Bazar, Nathpani Mandir Area"
+                  },
+                  {
+                    "name": "Mansingh Bazar Area, Makalpur, Mathasahi, Khaprapada",
+                    "label": "Locality",
+                    "code": "VIL10",
+                    "id": "11",
+                    "boundaryNum": "1",
+                    "localname": "Mansingh Bazar Area, Makalpur, Mathasahi, Khaprapada"
+                  },
+                  {
+                    "name": "Padhuanpada(P) Isan Nagar",
+                    "label": "Locality",
+                    "code": "VIL11",
+                    "id": "12",
+                    "boundaryNum": "1",
+                    "localname": "Padhuanpada(P) Isan Nagar"
+                  },
+                  {
+                    "name": "Angargadia",
+                    "label": "Locality",
+                    "code": "VIL12",
+                    "id": "13",
+                    "boundaryNum": "1",
+                    "localname": "Angargadia"
+                  },
+                  {
+                    "name": "Noorpur, Kasba",
+                    "label": "Locality",
+                    "code": "VIL13",
+                    "id": "14",
+                    "boundaryNum": "1",
+                    "localname": "Noorpur, Kasba"
+                  },
+                  {
+                    "name": "Damodarpur, Puruna School Area & Daudibanga Area",
+                    "label": "Locality",
+                    "code": "VIL14",
+                    "id": "15",
+                    "boundaryNum": "1",
+                    "localname": "Damodarpur, Puruna School Area & Daudibanga Area"
+                  },
+                  {
+                    "name": "Suelpur (P), Annapurna Lane, Bagbrundaban (P)",
+                    "label": "Locality",
+                    "code": "VIL15",
+                    "id": "16",
+                    "boundaryNum": "1",
+                    "localname": "Suelpur (P), Annapurna Lane, Bagbrundaban (P)"
+                  },
+                  {
+                    "name": "Bateswar(P) Suelpur(P) Bagbrundaban(P) Tantisahi Lane, Congress Office Lane",
+                    "label": "Locality",
+                    "code": "VIL16",
+                    "id": "17",
+                    "boundaryNum": "1",
+                    "localname": "Bateswar(P) Suelpur(P) Bagbrundaban(P) Tantisahi Lane, Congress Office Lane"
+                  },
+                  {
+                    "name": "Nalamganj (P), Mallikashpur(P),G.C. Patnaik Road & Bairam Nagar Road",
+                    "label": "Locality",
+                    "code": "VIL17",
+                    "id": "18",
+                    "boundaryNum": "1",
+                    "localname": "Nalamganj (P), Mallikashpur(P),G.C. Patnaik Road & Bairam Nagar Road"
+                  },
+                  {
+                    "name": "Mallikaspur(P) Chandragadi(P),F.M. College Area, Jail Road",
+                    "label": "Locality",
+                    "code": "VIL18",
+                    "id": "19",
+                    "boundaryNum": "1",
+                    "localname": "Mallikaspur(P) Chandragadi(P),F.M. College Area, Jail Road"
+                  },
+                  {
+                    "name": "Bagbrundaban, Raja Bagicha, Chandragadi(P), Bhaskarganj",
+                    "label": "Locality",
+                    "code": "VIL19",
+                    "id": "20",
+                    "boundaryNum": "1",
+                    "localname": "Bagbrundaban, Raja Bagicha, Chandragadi(P), Bhaskarganj"
+                  },
+                  {
+                    "name": "Bhaskarganj (P), Padhuanpada(P), Station Area, Telengasahi Area",
+                    "label": "Locality",
+                    "code": "VIL20",
+                    "id": "21",
+                    "boundaryNum": "1",
+                    "localname": "Bhaskarganj (P), Padhuanpada(P), Station Area, Telengasahi Area"
+                  },
+                  {
+                    "name": "Angargadia(P), Boss Colony",
+                    "label": "Locality",
+                    "code": "VIL21",
+                    "id": "22",
+                    "boundaryNum": "1",
+                    "localname": "Angargadia(P), Boss Colony"
+                  },
+                  {
+                    "name": "Sovarampur, Uttam NagarArea, D.A.V School Area, Thermal Colony & Gudipada Area",
+                    "label": "Locality",
+                    "code": "VIL22",
+                    "id": "23",
+                    "boundaryNum": "1",
+                    "localname": "Sovarampur, Uttam NagarArea, D.A.V School Area, Thermal Colony & Gudipada Area"
+                  },
+                  {
+                    "name": "Sahadevkhunta(P),Gudipada Area, Bhaskarganj",
+                    "label": "Locality",
+                    "code": "VIL23",
+                    "id": "24",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta(P),Gudipada Area, Bhaskarganj"
+                  },
+                  {
+                    "name": "Sahadevkhunta(P), Bhaskarganj, Gudhibasa Area, Bus Stand Area & Balasharm Area",
+                    "label": "Locality",
+                    "code": "VIL24",
+                    "id": "25",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta(P), Bhaskarganj, Gudhibasa Area, Bus Stand Area & Balasharm Area"
+                  },
+                  {
+                    "name": "Sahadevkhunta (P) & Chandmari Area",
+                    "label": "Locality",
+                    "code": "VIL25",
+                    "id": "26",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta (P) & Chandmari Area"
+                  },
+                  {
+                    "name": "Sahadevkhunta , Jadpur(P)",
+                    "label": "Locality",
+                    "code": "VIL26",
+                    "id": "27",
+                    "boundaryNum": "1",
+                    "localname": "Sahadevkhunta , Jadpur(P)"
+                  },
+                  {
+                    "name": "Jadpur(P), Bank Colony Area",
+                    "label": "Locality",
+                    "code": "VIL27",
+                    "id": "28",
+                    "boundaryNum": "1",
+                    "localname": "Jadpur(P), Bank Colony Area"
+                  },
+                  {
+                    "name": "Jadpur Area, Jahdeswar Mandir Area, Nayabazar Area",
+                    "label": "Locality",
+                    "code": "VIL28",
+                    "id": "29",
+                    "boundaryNum": "1",
+                    "localname": "Jadpur Area, Jahdeswar Mandir Area, Nayabazar Area"
+                  },
+                  {
+                    "name": "Bagbrundaban(P), Old stadium area, Hospital Area, Convent school Area & permit Field Area",
+                    "label": "Locality",
+                    "code": "VIL29",
+                    "id": "30",
+                    "boundaryNum": "1",
+                    "localname": "Bagbrundaban(P), Old stadium area, Hospital Area, Convent school Area & permit Field Area"
+                  },
+                  {
+                    "name": "Bagbrundaban(P), Manikhamb(p), Mirzapokhari Area, Daftari Sahi Area",
+                    "label": "Locality",
+                    "code": "VIL30",
+                    "id": "31",
+                    "boundaryNum": "1",
+                    "localname": "Bagbrundaban(P), Manikhamb(p), Mirzapokhari Area, Daftari Sahi Area"
+                  },
+                  {
+                    "name": "Barabati, Manikhamb(P), Damodarpur(P) & Barabati Girls High School area, Balighat Area",
+                    "label": "Locality",
+                    "code": "VIL31",
+                    "id": "32",
+                    "boundaryNum": "1",
+                    "localname": "Barabati, Manikhamb(P), Damodarpur(P) & Barabati Girls High School area, Balighat Area"
+                  },
+                  {
+                    "name": "Manikhamb(P), RN Dey Street, Dingamardinga Area",
+                    "label": "Locality",
+                    "code": "VIL32",
+                    "id": "33",
+                    "boundaryNum": "1",
+                    "localname": "Manikhamb(P), RN Dey Street, Dingamardinga Area"
+                  },
+                  {
+                    "name": "Gopalgaon, Srikanthapur(P) Sabitri School Area, Chunabhati Area",
+                    "label": "Locality",
+                    "code": "VIL33",
+                    "id": "34",
+                    "boundaryNum": "1",
+                    "localname": "Gopalgaon, Srikanthapur(P) Sabitri School Area, Chunabhati Area"
+                  },
+                  {
+                    "name": "Srikanthapur(P), Jadpur(P), Vetenary Hospital Area & Darjo Pokhari Area",
+                    "label": "Locality",
+                    "code": "VIL34",
+                    "id": "35",
+                    "boundaryNum": "1",
+                    "localname": "Srikanthapur(P), Jadpur(P), Vetenary Hospital Area & Darjo Pokhari Area"
+                  },
+                  {
+                    "name": "Jadpur(P) Arad Bazar Area, Golapolo Area",
+                    "label": "Locality",
+                    "code": "VIL35",
+                    "id": "36",
+                    "boundaryNum": "1",
+                    "localname": "Jadpur(P) Arad Bazar Area, Golapolo Area"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
