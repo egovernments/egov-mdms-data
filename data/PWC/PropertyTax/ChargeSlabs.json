@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg",
+    "moduleName": "PropertyTax",
+    "ChargeSlabs": [
+      {
+        "name": "2 / Sq.Yards",
+        "code": "PT_CHARGE_SLAB_0",
+        "floorNo": 0,
+        "active": true
+      }
+    ]
+  }

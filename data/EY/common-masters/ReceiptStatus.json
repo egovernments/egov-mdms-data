@@ -1,0 +1,19 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "ReceiptStatus":
+    [
+      {
+        "code": "DEPOSITED",
+        "active": true
+      },
+      {
+        "code": "CANCELLED",
+        "active": true
+      },
+      {
+        "code": "NEW",
+        "active": true
+      }
+    ]
+  } 

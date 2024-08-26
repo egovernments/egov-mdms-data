@@ -1,0 +1,24 @@
+{
+    "tenantId": "pg",
+    "moduleName": "FSM",
+    "ApplicationChannel": [
+        {
+            "name": "Telephone",
+            "code": "TELEPHONE",
+            "active": true,
+            "citizenOnly": false
+        },
+        {
+            "name": "Counter",
+            "code": "COUNTER",
+            "active": true,
+            "citizenOnly": false
+        },
+        {
+            "name": "Online",
+            "code": "ONLINE",
+            "active": true,
+            "citizenOnly": true
+        }
+    ]
+}

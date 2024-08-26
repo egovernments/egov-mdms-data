@@ -1,0 +1,139 @@
+{
+  "tenantId":"pg",
+  "moduleName":"BPA",
+  "OccupancyType":[
+     {
+        "name":"Residential",
+        "code":"A",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":3.0,
+        "maxFar":4.0,
+        "orderNumber":1,
+        "description":"Residential",
+        "colorCode":null
+     },
+     {
+        "name":"Commercial",
+        "code":"F",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":3.0,
+        "maxFar":3.0,
+        "orderNumber":1,
+        "description":"Commercial - F",
+        "colorCode":null
+     },
+     {
+        "name":"Educational",
+        "code":"B",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":2.5,
+        "maxFar":2.5,
+        "orderNumber":1,
+        "description":"Educational - B1",
+        "colorCode":null
+     },
+     {
+        "name":"Industrial",
+        "code":"G",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":2.5,
+        "maxFar":2.5,
+        "orderNumber":1,
+        "description":"Industrial - G1",
+        "colorCode":null
+     },
+     {
+        "name":"Heatlh services",
+        "code":"C",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":2.5,
+        "maxFar":2.5,
+        "orderNumber":1,
+        "description":"Heatlh services - C",
+        "colorCode":null
+     },
+     {
+        "name":"Assembly",
+        "code":"D",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":1.5,
+        "maxFar":1.5,
+        "orderNumber":1,
+        "description":"Assembly - D",
+        "colorCode":null
+     },
+     {
+        "name":"Public Buildings",
+        "code":"H",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":3.0,
+        "maxFar":3.0,
+        "orderNumber":1,
+        "description":"Public Buildings - H",
+        "colorCode":null
+     },
+     {
+        "name":"Hazardous",
+        "code":"I",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":2.0,
+        "maxFar":2.0,
+        "orderNumber":1,
+        "description":"Hazardous - I1",
+        "colorCode":null
+     },
+     {
+        "name":"Transportation",
+        "code":"J",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":1.5,
+        "maxFar":1.5,
+        "orderNumber":1,
+        "description":"Transportation - J",
+        "colorCode":null
+     },
+     {
+        "name":"Sports",
+        "code":"K",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":3.0,
+        "maxFar":4.0,
+        "orderNumber":1,
+        "description":"Sports - K",
+        "colorCode":null
+     },
+     {
+        "name":"Socio culture",
+        "code":"E",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":3.0,
+        "maxFar":3.0,
+        "orderNumber":1,
+        "description":"Socio culture - E",
+        "colorCode":null
+     },
+     {
+        "name":"Religious",
+        "code":"L",
+        "active":true,
+        "maxCoverage":65.0,
+        "minFar":1.5,
+        "maxFar":1.5,
+        "orderNumber":1,
+        "description":"Religious - L",
+        "colorCode":null
+     }
+     
+  ]
+}

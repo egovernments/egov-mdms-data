@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg",
+    "moduleName": "inbox-dss",
+    "ElasticSearchQueries":[
+      {
+        "indexKey":"userLogin",
+        "indexName":"privacy-audit-data",
+        "query":"{\"from\":\"$offset\",\"size\":\"$limit\",\"sort\":[{\"Data.timestamp\":{\"order\":\"$sortOrder\"}}],\"query\":{\"bool\":{\"must\":[{\"exists\":{\"field\":\"Data.plainAccessRequest.plainRequestFields\"}},{\"multi_match\":{\"query\":\"$uuid\",\"fields\":[\"Data.plainAccessRequest.recordId\"]}},{\"range\":{\"Data.timestamp\":{\"gte\":\"$fromDate\",\"lte\":\"$toDate\"}}}],\"must_not\":[],\"should\":[]}}}",
+        "placeHolders":["$uuid", "$fromDate", "$toDate", "$offset", "$limit", "$sortOrder"]
+      }
+    ]
+  }
