@@ -79,8 +79,8 @@
       "idname": "campaign.number"
     },
     {
-      "format": "EMP-[SEQ_EG_CMP_ID]",
-      "idname": "user.name"
+      "format": "USR-[SEQ_EG_CMP_ID]",
+      "idname": "username.name"
     }
   ]
 }
