@@ -202,6 +202,135 @@
       },
       "address": "State Municipal Corporation",
       "contactNumber": "0978-7645345"
+    },
+    {
+      "code": "pg.addisababa",
+      "name": "City A",
+      "description": "City A",
+      "pincode": [143001,143002,143003,143004,143005],
+      "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/ethopia/logos/addisababa.jpeg",
+      "imageId": null,
+      "domainUrl": "https://www.egovernments.org",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "citya@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "City A",
+        "localName": null,
+        "districtCode": "CITYA",
+        "districtName": null,
+        "districtTenantCode":"pg.addisababa",
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1013",
+        "ddrName": "DDR A"
+      },
+      "address": "City A Municipal Corporation",
+      "contactNumber": "001-2345876"
+    },{
+      "code": "pg.amhara",
+      "name": "City A",
+      "description": "City A",
+      "pincode": [143001,143002,143003,143004,143005],
+      "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/ethopia/logos/amhara.jpeg",
+      "imageId": null,
+      "domainUrl": "https://www.egovernments.org",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "citya@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "City A",
+        "localName": null,
+        "districtCode": "CITYA",
+        "districtName": null,
+        "districtTenantCode": "pg.addisababa",
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1013",
+        "ddrName": "DDR A"
+      },
+      "address": "City A Municipal Corporation",
+      "contactNumber": "001-2345876"
+    },{
+      "code": "pg.diredawa",
+      "name": "City A",
+      "description": "City A",
+      "pincode": [143001,143002,143003,143004,143005],
+      "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/ethopia/logos/diredawa.jpeg",
+      "imageId": null,
+      "domainUrl": "https://www.egovernments.org",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "citya@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "City A",
+        "localName": null,
+        "districtCode": "CITYA",
+        "districtName": null,
+        "districtTenantCode":"pg.addisababa",
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1013",
+        "ddrName": "DDR A"
+      },
+      "address": "City A Municipal Corporation",
+      "contactNumber": "001-2345876"
+    },{
+      "code": "pg.oromia",
+      "name": "City A",
+      "description": "City A",
+      "pincode": [143001,143002,143003,143004,143005],
+      "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/ethopia/logos/oromia.png",
+      "imageId": null,
+      "domainUrl": "https://www.egovernments.org",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "citya@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "city": {
+        "name": "City A",
+        "localName": null,
+        "districtCode": "CITYA",
+        "districtName": null,
+        "districtTenantCode": "pg.addisababa",
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 75.5761829,
+        "latitude": 31.3260152,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1013",
+        "ddrName": "DDR A"
+      },
+      "address": "City A Municipal Corporation",
+      "contactNumber": "001-2345876"
     }
    ]
 }
