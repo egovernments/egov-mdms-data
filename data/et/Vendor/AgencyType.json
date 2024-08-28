@@ -1,0 +1,15 @@
+{
+    "tenantId": "et",
+    "moduleName": "Vendor",
+    "AgencyType": [{
+            "name": "ULB",
+            "code": "ULB",
+            "active": true
+        },
+        {
+            "name": "Private",
+            "code": "Private",
+            "active": true
+        }
+    ]
+}
