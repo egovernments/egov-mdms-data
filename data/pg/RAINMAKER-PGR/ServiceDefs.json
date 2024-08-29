@@ -12,6 +12,132 @@
       "active": true
     },
     {
+        "serviceCode": "GoodGovernance",
+        "name": "Good Governance",
+        "keywords": "governance, transparency, accountability, management, policy, compliance, regulations, administration, oversight",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Governance",
+        "active": true
+    },
+    {
+        "serviceCode": "Justice",
+        "name": "Justice",
+        "keywords": "justice, legal, court, law, case, adjudication, tribunal, fairness, litigation, rights",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Legal",
+        "active": true
+    },
+    {
+        "serviceCode": "Retirement",
+        "name": "Retirement",
+        "keywords": "retirement, pension, benefits, retirement plan, retirement fund, social security, end of service, annuity",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Pensions",
+        "active": true
+    },
+    {
+        "serviceCode": "LaborDispute",
+        "name": "Labor Dispute",
+        "keywords": "labor dispute, employment, conflict, grievance, arbitration, workplace issue, mediation, labor law",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Labor",
+        "active": true
+    },
+    {
+        "serviceCode": "TaxRate",
+        "name": "Tax Rate",
+        "keywords": "tax rate, taxation, income tax, VAT, corporate tax, tax policy, revenue, fiscal, tax regulation",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Finance",
+        "active": true
+    },
+    {
+        "serviceCode": "PossessionDispute",
+        "name": "Possession Dispute",
+        "keywords": "possession dispute, property, ownership, land dispute, real estate, claim, rights, legal, settlement",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Property",
+        "active": true
+    },
+    {
+        "serviceCode": "BoundaryStructureIdentity",
+        "name": "Boundary, Structure & Identity",
+        "keywords": "boundary, structure, identity, land, demarcation, zoning, infrastructure, identity verification, property",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Infrastructure",
+        "active": true
+    },
+    {
+        "serviceCode": "Compensation",
+        "name": "Compensation (Redevelopment & Damaged Property)",
+        "keywords": "compensation, redevelopment, damaged property, restitution, indemnity, claims, insurance, property damage",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Compensation",
+        "active": true
+    },
+    {
+        "serviceCode": "Displacement",
+        "name": "Displacement (Insecurity)",
+        "keywords": "displacement, insecurity, relocation, refugees, migration, crisis, safety, emergency, humanitarian",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Displacement",
+        "active": true
+    },
+    {
+        "serviceCode": "CustomsDuty",
+        "name": "Customs Duty",
+        "keywords": "customs duty, tariffs, import, export, trade, regulation, duty, customs, border, fees",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Customs",
+        "active": true
+    },
+    {
+        "serviceCode": "HouseDebate",
+        "name": "House Debate (Kebele House & Proclamation 47/67)",
+        "keywords": "house debate, kebele house, proclamation 47/67, property, housing, legislation, regulation, policy, local governance",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Housing",
+        "active": true
+    },
+    {
+        "serviceCode": "Proposal",
+        "name": "Proposal",
+        "keywords": "proposal, suggestion, plan, idea, recommendation, project, submission, proposal document",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Proposals",
+        "active": true
+    },
+    {
+        "serviceCode": "SupportHelp",
+        "name": "Support / Help",
+        "keywords": "support, help, assistance, aid, guidance, service, customer service, support request, helpdesk",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Support",
+        "active": true
+    },
+    {
+        "serviceCode": "Suggestion",
+        "name": "Suggestion",
+        "keywords": "suggestion, feedback, recommendation, idea, proposal, improvement, advice, input, comment",
+        "department": "DEPT_1",
+        "slaHours": 336,
+        "menuPath": "Suggestions",
+        "active": true
+    },
+    {
       "serviceCode": "NonSweepingOfRoad",
       "name": "Non sweeping of road",
       "active": true,
