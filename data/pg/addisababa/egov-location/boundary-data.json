@@ -1,5 +1,6 @@
 {
-  "tenantId": "pg.amhara",
+  "tenantId":  "pg.addisababa",
+
   "moduleName": "egov-location",
   "TenantBoundary": [
   
@@ -17,7 +18,7 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pg.amhara",
+        "code":"pg.addisababa",
         "children": [
           {
             "id": "1c5dbabd-e04a-44e1-ac27-1fea19fac28f",
