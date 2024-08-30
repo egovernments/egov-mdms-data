@@ -14676,5 +14676,18 @@
       "serviceCode": "MDMS v2",
       "code": "null",
       "path": ""
-    }    ]
+    },
+    {
+      "id": 2512,
+      "name": "Boundary relation search",
+      "url": "/boundary-service/boundary-relationships/_search",
+      "parentModule": "",
+      "displayName": "Boundary",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "Boundary",
+      "code": "null",
+      "path": ""
+    }   
+    ]
 }
