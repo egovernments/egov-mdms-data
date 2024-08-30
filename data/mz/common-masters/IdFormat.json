@@ -77,6 +77,10 @@
     {
       "format": "CMP-[cy:yyyy-MM-dd]-[SEQ_EG_CMP_ID]",
       "idname": "campaign.number"
-    }
+    },
+    {
+      "format": "USR-[SEQ_EG_USER_NAME]",
+      "idname": "username.name"
+  }
   ]
 }
