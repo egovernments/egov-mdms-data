@@ -358,7 +358,7 @@
       "active": true,
       "order":6,
       "tenants": [
-        {
+      {
           "code": "pg.citya"
         },
         {
@@ -372,6 +372,18 @@
         },
         {
           "code": "pg.citye"
+        },
+        {
+          "code": "pg.addisababa"
+        },
+        {
+          "code": "pg.diradawa"
+        },
+        {
+          "code": "pg.amhara"
+        },
+        {
+          "code": "pg.oromia"
         }
       ]
     },
@@ -427,7 +439,7 @@
       "active": true,
       "order":2,
       "tenants": [
-        {
+       {
           "code": "pg.citya"
         },
         {
@@ -441,6 +453,18 @@
         },
         {
           "code": "pg.citye"
+        },
+        {
+          "code": "pg.addisababa"
+        },
+        {
+          "code": "pg.diradawa"
+        },
+        {
+          "code": "pg.amhara"
+        },
+        {
+          "code": "pg.oromia"
         }
       ]
     },
