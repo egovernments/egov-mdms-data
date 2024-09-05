@@ -2982,7 +2982,7 @@
     {
       "id": 1556,
       "name": "Home",
-      "url": "url",
+      "url": "link",
       "displayName": "Home",
       "orderNumber": 1,
       "parentModule": "rainmaker-pgr",
@@ -2997,7 +2997,7 @@
     {
       "id": 1557,
       "name": "OpenComplaints",
-      "url": "url",
+      "url": "link",
       "displayName": "Open Complaints",
       "orderNumber": 1,
       "parentModule": "rainmaker-pgr",
@@ -3027,7 +3027,7 @@
     {
       "id": 1559,
       "name": "CreateComplaint",
-      "url": "url",
+      "url": "link",
       "displayName": "Create Complaint",
       "orderNumber": 1,
       "parentModule": "rainmaker-pgr",
@@ -5571,14 +5571,14 @@
     {
       "id": 1773,
       "name": "HRMS",
-      "url": "url",
+      "url": "link",
       "displayName": "Search Employee",
       "orderNumber": 2,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "HRMS",
       "code": "null",
-      "navigationURL": "/digit-ui/employee/hrms/inbox",
+      "navigationURL": "/core-ui/employee/hrms/inbox",
       "path": "HRMS.Search",
       "leftIcon": "social:people"
     },
@@ -7584,7 +7584,7 @@
     {
       "id": 1923,
       "name": "Dashboard PGR",
-      "url": "url",
+      "url": "link",
       "displayName": "PGR",
       "orderNumber": 6,
       "parentModule": "dss-dashboard",
