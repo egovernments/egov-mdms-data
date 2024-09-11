@@ -1,0 +1,125 @@
+{
+  "tenantId": "pg",
+  "moduleName": "mseva",
+  "Program": [
+    {
+      "code": "PROG0001",
+      "name": "UBP",
+      "description": "",
+      "eligibility": [
+        {
+          "type": "income",
+          "value": "50000",
+          "condition": "lessthan"
+        }
+      ],
+      "documents": [
+        {
+          "id": "CAST_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        },
+        {
+          "id": "INCOME_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        }
+      ],
+      "benefit_amount": 5000
+    },
+    {
+      "code": "PROG0002",
+      "name": "UBP",
+      "description": "",
+      "eligibility": [
+        {
+          "type": "gender",
+          "value": "FEMALE",
+          "condition": "equal"
+        }
+      ],
+      "documents": [
+        {
+          "id": "CAST_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        },
+        {
+          "id": "INCOME_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        }
+      ],
+      "benefit_amount": 5000
+    },
+    {
+      "code": "PROG0003",
+      "name": "UBP",
+      "description": "",
+      "eligibility": [
+        {
+          "type": "caste",
+          "value": "OBC",
+          "condition": "equal"
+        }
+      ],
+      "documents": [
+        {
+          "id": "CAST_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        },
+        {
+          "id": "INCOME_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        }
+      ],
+      "benefit_amount": 20000
+    },
+    {
+      "code": "PROG0004",
+      "name": "UBP",
+      "description": "",
+      "eligibility": [
+        {
+          "type": "caste",
+          "value": "SC",
+          "condition": "equal"
+        }
+      ],
+      "documents": [
+        {
+          "id": "CAST_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        },
+        {
+          "id": "INCOME_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        }
+      ],
+      "benefit_amount": 10000
+    },
+    {
+      "code": "PROG0005",
+      "name": "UBP",
+      "description": "",
+      "eligibility": [],
+      "documents": [
+        {
+          "id": "CAST_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        },
+        {
+          "id": "INCOME_CERTIFICATE",
+          "name": "Cast Certificate",
+          "mendatory": true
+        }
+      ],
+      "benefit_amount": 10000
+    }
+  ]
+}
