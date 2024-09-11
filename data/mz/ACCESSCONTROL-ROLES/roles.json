@@ -43,6 +43,11 @@
       "description": "Supervisor who can view Field health dashboard"
     },
     {
+      "code": "TEAM_SUPERVISOR",
+      "name": "Team Lead",
+      "description": "Supervisor who can view Team health dashboard"
+    },
+    {
       "code": "SUPERVISOR",
       "name": "Supervisor",
       "description": "Supervisor"
