@@ -18,6 +18,12 @@
         "hierarchy": "Health",
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
+        "isActive": false
+      },
+      {
+        "hierarchy": "MICROPLAN",
+        "lowestHierarchy": "Locality",
+        "splitBoundariesOn" : "District",
         "isActive": true
       }
     ]
