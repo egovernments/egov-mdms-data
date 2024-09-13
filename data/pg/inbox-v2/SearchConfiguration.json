@@ -919,17 +919,6 @@
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
           "isMandatory": false
-        },
-        {
-          "name": "paymentStatus",
-          "path": "Data.paymentStatus.keyword",
-          "isMandatory": false
-        },
-        {
-          "name": "referenceId",
-          "path": "Data.billDetails.referenceId.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
         }
       ],
       "sortBy": {
