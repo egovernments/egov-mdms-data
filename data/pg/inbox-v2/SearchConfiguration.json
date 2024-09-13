@@ -868,6 +868,75 @@
         "Data.contract.additionalDetails"
         
       ]
+    },
+    {
+      "module": "payment-tracker",
+      "index": "expense-bill-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "billType",
+          "path": "Data.businessService.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "projectId",
+          "path": "Data.additionalDetails.projectId.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.additionalDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.additionalDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "paymentStatus",
+          "path": "Data.paymentStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.billDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.additionalDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": []
     }
   ]
 }
