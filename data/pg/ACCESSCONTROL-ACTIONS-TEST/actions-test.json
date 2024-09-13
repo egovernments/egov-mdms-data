@@ -5214,6 +5214,18 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2030,
+      "name": "Fetch Payment tracker",
+      "url": "/wms/report/payment_tracker",
+      "displayName": "Fetch Payment tracker",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
