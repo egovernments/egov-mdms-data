@@ -905,13 +905,13 @@
         },
         {
           "name": "createdFrom",
-          "path": "Data.additionalDetails.createdTime",
+          "path": "Data.additionalDetails.projectCreatedTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "createdTo",
-          "path": "Data.additionalDetails.createdTime",
+          "path": "Data.additionalDetails.projectCreatedTime",
           "isMandatory": false,
           "operator": "LTE"
         },
