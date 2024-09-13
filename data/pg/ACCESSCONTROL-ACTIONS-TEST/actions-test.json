@@ -5226,6 +5226,30 @@
       "serviceCode": "wms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2031,
+      "name": "Create Payment tracker report",
+      "url": "/wms/report/payment-tracker/_create",
+      "displayName": "Create Payment tracker report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2032,
+      "name": "Search Payment tracker report",
+      "url": "/wms/report/payment-tracker/_search",
+      "displayName": "Search Payment tracker report",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
