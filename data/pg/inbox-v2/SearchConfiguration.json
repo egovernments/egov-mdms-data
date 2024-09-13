@@ -880,12 +880,6 @@
           "operator": "EQUAL"
         },
         {
-          "name": "billType",
-          "path": "Data.businessService.keyword",
-          "operator": "IN",
-          "isMandatory": false
-        },
-        {
           "name": "projectName",
           "path": "Data.additionalDetails.projectName.keyword",
           "isMandatory": false,
