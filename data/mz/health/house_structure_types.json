@@ -17,9 +17,14 @@
             "name": "Clay",
             "active": true
         },
-         {
-            "code": "METAL_OR_GLASS",
-            "name": "Metal/Glass",
+        {
+            "code": "METAL",
+            "name": "Metal",
+            "active": true
+        },
+        {
+            "code": "GLASS",
+            "name": "Glass",
             "active": true
         }
     ]
