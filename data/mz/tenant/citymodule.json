@@ -89,6 +89,17 @@
           "code": "mz"
         }
       ]
+    },
+    {
+      "module": "Microplan",
+      "code": "Microplan",
+      "active": true,
+      "order": 1,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
     }
 ]
 }
