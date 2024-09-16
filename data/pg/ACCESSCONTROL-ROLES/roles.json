@@ -336,9 +336,12 @@
       "code": "ANONYMOUS",
       "name": "Anonymous User",
       "description": "Anonymous User to be used in case of no auth"
+    },
+    {
+      "code": "REPORT_VIEWER",
+      "name": "Report Viewer User",
+      "description": "Default role for accessing reports"
     }
-    
-    
   ]
 }
   
