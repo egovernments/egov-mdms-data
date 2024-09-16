@@ -913,6 +913,7 @@
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
           "isMandatory": false
+          "operator": "FUZZY"
         }
       ],
       "sortBy": {
