@@ -912,7 +912,7 @@
         {
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
-          "isMandatory": false
+          "isMandatory": false,
           "operator": "FUZZY"
         }
       ],
