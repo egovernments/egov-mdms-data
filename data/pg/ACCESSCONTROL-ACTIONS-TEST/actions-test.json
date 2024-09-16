@@ -5742,6 +5742,18 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 477,
+      "name": "Payment Tracker Report Search",
+      "url": "/wms/report/payment_tracker",
+      "parentModule": "",
+      "displayName": "Payment Tracker Report Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
