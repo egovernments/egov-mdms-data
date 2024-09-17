@@ -42,9 +42,6 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "name": "boundaryCode",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -61,7 +58,6 @@
                 "populators": {
                   "name": "type",
                   "optionsKey": "name",
-                  "optionsCustomStyle": { "top": "2.3rem" },
                   "mdmsConfig": {
                     "masterName": "OrgType",
                     "moduleName": "common-masters",

@@ -128,9 +128,6 @@
                   "name": "funDetails_orgType",
                   "optionsKey": "name",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "options": []
                 }
               },
@@ -149,9 +146,6 @@
                   "name": "funDetails_orgSubType",
                   "optionsKey": "name",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "options": []
                 }
               },
@@ -170,9 +164,6 @@
                   "name": "funDetails_category",
                   "optionsKey": "name",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "options": []
                 }
               },
@@ -186,9 +177,6 @@
                   "name": "funDetails_classRank",
                   "optionsKey": "name",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "mdmsConfig": {
                     "masterName": "OrgFunctionClass",
                     "moduleName": "common-masters",
@@ -250,9 +238,6 @@
                   "name": "locDetails_city",
                   "optionsKey": "i18nKey",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "options": []
                 }
               },
@@ -271,9 +256,6 @@
                   "name": "locDetails_ward",
                   "optionsKey": "i18nKey",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "options": []
                 }
               },
@@ -292,9 +274,6 @@
                   "name": "locDetails_locality",
                   "optionsKey": "i18nKey",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "options": []
                 }
               },
@@ -441,9 +420,6 @@
                   "name": "financeDetails_accountType",
                   "optionsKey": "name",
                   "error": "WORKS_REQUIRED_ERR",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "mdmsConfig": {
                     "masterName": "BankAccType",
                     "moduleName": "works",
