@@ -4,6 +4,7 @@
     "GeoJsonMapping":
     [
       {
+        "tenantId": "mz",
         "gaza": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/gaza.json",
         "rivercess": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/gaza.json"
       }
