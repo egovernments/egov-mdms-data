@@ -104,9 +104,6 @@
                 "name": "basicDetails_relationShip",
                 "optionsKey": "name",
                 "error": "WORKS_REQUIRED_ERR",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "mdmsConfig": {
                   "masterName": "Relationship",
                   "moduleName": "common-masters",
@@ -145,9 +142,6 @@
                 "name": "basicDetails_gender",
                 "optionsKey": "name",
                 "error": "WORKS_REQUIRED_ERR",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "mdmsConfig": {
                   "masterName": "GenderType",
                   "moduleName": "common-masters",
@@ -179,9 +173,6 @@
               "populators": {
                 "name": "basicDetails_socialCategory",
                 "optionsKey": "name",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "mdmsConfig": {
                   "masterName": "SocialCategory",
                   "moduleName": "common-masters",
@@ -257,9 +248,6 @@
                 "name": "locDetails_city",
                 "optionsKey": "i18nKey",
                 "error": "WORKS_REQUIRED_ERR",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "options": []
               }
             },
@@ -278,9 +266,6 @@
                 "name": "locDetails_ward",
                 "optionsKey": "i18nKey",
                 "error": "WORKS_REQUIRED_ERR",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "options": []
               }
             },
@@ -299,9 +284,6 @@
                 "name": "locDetails_locality",
                 "optionsKey": "i18nKey",
                 "error": "WORKS_REQUIRED_ERR",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "options": []
               }
             },
@@ -404,9 +386,6 @@
                 "name": "financeDetails_accountType",
                 "optionsKey": "name",
                 "error": "WORKS_REQUIRED_ERR",
-                "optionsCustomStyle": {
-                  "top": "2.3rem"
-                },
                 "mdmsConfig": {
                   "masterName": "BankAccType",
                   "moduleName": "works",

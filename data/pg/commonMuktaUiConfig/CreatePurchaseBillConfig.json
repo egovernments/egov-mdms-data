@@ -109,9 +109,6 @@
                       "name": "invoiceDetails_organisationType",
                       "optionsKey": "name",
                       "error": "WORKS_REQUIRED_ERR",
-                      "optionsCustomStyle": {
-                          "top": "2.3rem"
-                      },
                       "options": []
                   }
                 },
@@ -130,9 +127,6 @@
                       "name": "invoiceDetails_vendor",
                       "optionsKey": "name",
                       "error": "WORKS_REQUIRED_ERR",
-                      "optionsCustomStyle": {
-                          "top": "2.3rem"
-                      },
                       "options": []
                   }
                 },

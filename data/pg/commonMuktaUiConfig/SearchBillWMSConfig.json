@@ -48,10 +48,7 @@
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
-                  "allowMultiSelect": false,
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  }
+                  "allowMultiSelect": false
                 }
               },
               {
@@ -62,9 +59,6 @@
                 "populators": {
                   "name": "billType",
                   "optionsKey": "name",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "mdmsConfig": {
                     "masterName": "BusinessService",
                     "moduleName": "expense",
@@ -112,9 +106,6 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "name": "status",
                   "optionsKey": "i18nKey",
                   "allowMultiSelect": false,

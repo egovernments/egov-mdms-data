@@ -56,9 +56,6 @@
                       "populators": {
                         "name": "department",
                         "optionsKey": "name",
-                        "optionsCustomStyle": {
-                          "top": "2.3rem"
-                        },
                         "mdmsConfig": {
                           "masterName": "Department",
                           "moduleName": "common-masters",
@@ -74,9 +71,6 @@
                       "populators": {
                         "name": "projectType",
                         "optionsKey": "name",
-                        "optionsCustomStyle": {
-                          "top": "2.3rem"
-                        },
                         "mdmsConfig": {
                           "masterName": "ProjectType",
                           "moduleName": "works",
@@ -161,9 +155,6 @@
                       "populators": {
                         "name": "createdBy",
                         "optionsKey": "name",
-                        "optionsCustomStyle": {
-                          "top": "2.3rem"
-                        },
                         "mdmsConfig": {
                           "masterName": "NatureOfWork",
                           "moduleName": "works",
@@ -179,9 +170,6 @@
                       "populators": {
                         "name": "status",
                         "optionsKey": "name",
-                        "optionsCustomStyle": {
-                          "top": "2.3rem"
-                        },
                         "mdmsConfig": {
                           "masterName": "NatureOfWork",
                           "moduleName": "works",
