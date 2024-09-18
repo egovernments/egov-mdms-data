@@ -5871,6 +5871,12 @@
       "tenantid": "mz"
     },
     {
+      "rolecode": "MICROPLAN_ADMIN",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantid": "mz"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 606,
       "actioncode": "",
@@ -8650,6 +8656,12 @@
     },
     {
       "rolecode": "SUPERUSER",
+      "actionid": 870,
+      "actioncode": "",
+      "tenantid": "mz"
+    },
+    {
+      "rolecode": "MICROPLAN_ADMIN",
       "actionid": 870,
       "actioncode": "",
       "tenantid": "mz"
