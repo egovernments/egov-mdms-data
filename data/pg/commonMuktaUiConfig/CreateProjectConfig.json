@@ -131,9 +131,6 @@
                 "optionsKey": "name",
                 "error": "WORKS_REQUIRED_ERR",
                 "required": true,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                },
                 "mdmsConfig": {
                   "masterName": "ProjectType",
                   "moduleName": "works",
@@ -152,9 +149,6 @@
                 "optionsKey": "name",
                 "error": "WORKS_REQUIRED_ERR",
                 "required": false,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                },
                 "mdmsConfig": {
                   "masterName": "TargetDemography",
                   "moduleName": "works",
@@ -214,10 +208,7 @@
                 "optionsKey": "i18nKey",
                 "options": [],
                 "error": "WORKS_REQUIRED_ERR",
-                "required": true,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                }
+                "required": true
               }
             },
             {
@@ -236,9 +227,6 @@
                 "optionsKey": "i18nKey",
                 "error": "WORKS_REQUIRED_ERR",
                 "required": false,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                },
                 "options": []
               }
             },
@@ -258,9 +246,6 @@
                 "optionsKey": "i18nKey",
                 "error": "WORKS_REQUIRED_ERR",
                 "required": false,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                },
                 "options": []
               }
             }
