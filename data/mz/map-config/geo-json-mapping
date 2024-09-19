@@ -1,12 +1,14 @@
 {
-    "tenantId": "mz",
-    "moduleName": "map-config",
-    "GeoJsonMapping":
-    [
-      {
-        "tenantId": "mz",
+  "tenantId": "mz",
+  "moduleName": "map-config",
+  "GeoJsonMapping": [
+    {
+      "tenantId": "mz",
+      "geojsons": {
         "gaza": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/gaza.json",
-        "rivercess": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/gaza.json"
+        "rivercess": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/gaza.json",
+        "national-map": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/national-map.json"
       }
-    ]
-  }
+    }
+  ]
+}
