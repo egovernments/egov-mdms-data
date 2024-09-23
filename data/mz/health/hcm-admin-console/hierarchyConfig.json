@@ -6,7 +6,7 @@
         "hierarchy": "Workbench",
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
-        "isActive": false
+        "isActive": true
       },
         {
         "hierarchy": "ADMIN",
@@ -18,7 +18,7 @@
         "hierarchy": "Health",
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
-        "isActive": true
+        "isActive": false
       },
       {
         "hierarchy": "MICROPLAN",
