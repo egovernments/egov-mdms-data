@@ -6,7 +6,7 @@
         "hierarchy": "Workbench",
         "lowestHierarchy": "Post Administrative",
         "splitBoundariesOn" : "District",
-        "isActive": true
+        "isActive": false
       },
         {
         "hierarchy": "ADMIN",
@@ -22,9 +22,9 @@
       },
       {
         "hierarchy": "MICROPLAN",
-        "lowestHierarchy": "Locality",
+        "lowestHierarchy": "Village",
         "splitBoundariesOn" : "District",
-        "isActive": false
+        "isActive": true
       }
     ]
   }
