@@ -1,0 +1,21 @@
+{
+    "tenantId": "pg",
+    "moduleName": "ubp",
+    "BankAccType": [
+      {
+        "name": "Savings",
+        "code": "SAVINGS",      
+        "active": true
+      },
+      {
+        "name": "Current",
+        "code": "CURRENT",      
+        "active": true
+      },
+      {
+        "name": "Loan",
+        "code": "LOAN",      
+        "active": true
+      }
+    ]
+}
