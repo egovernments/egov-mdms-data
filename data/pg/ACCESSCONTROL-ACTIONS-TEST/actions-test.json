@@ -5363,7 +5363,7 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Mukta",
-      "navigationURL": "/mukta-works-ui/employee/dss/dashboard/mukta",
+      "navigationURL": "/kibana-v8/login?next=%2Fkibana-v8%2Fapp%2Fdashboards#/view/c8d7e730-2252-11ef-98df-3bbfa2125b2b?_g=(filters:!(),time:(from:now-1y,to:now))",
       "leftIcon": "DashboardIcon",
       "rightIcon": ""
     },
@@ -5766,6 +5766,21 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 479,
+      "name": "Rollout Dashboard",
+      "url": "url",
+      "displayName": "Rollout Dashboard",
+      "orderNumber": 1,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.RolloutDashboard",
+      "navigationURL": "/kibana-v8/login?next=%2Fkibana-v8%2Fapp%2Fdashboards#/view/261cb0b0-fbde-11ee-b08d-8b505ceea182?_g=[…]use:!t,value:60000),time:(from:now-1y,to:now))",
+      "leftIcon": "DashboardIcon",
+      "rightIcon": ""
     }
   ]
 }
