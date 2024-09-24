@@ -1,0 +1,24 @@
+{
+  "tenantId": "pg",
+  "moduleName": "ubp",
+  "DocumentConfig": [ 
+    {
+      "module": "Application",
+      "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+      "maxSizeInMB": 5,
+      "bannerLabel": "PROJECT_BANNER",
+      "documents": [
+        {
+          "code": "SAMPLE_CODE",
+          "name" : "sample",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
+    }
+  ]
+}
