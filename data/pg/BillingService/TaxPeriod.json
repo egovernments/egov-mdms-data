@@ -5,6 +5,22 @@
     {
       "fromDate": 1711909800000,
       "toDate": 1743445799000,
+      "periodCycle": "TWOYEARS",
+      "service": "WS",
+      "code": "WC2024",
+      "financialYear": "2024-25"
+    },
+    {
+      "fromDate": 1711909800000,
+      "toDate": 1743445799000,
+      "periodCycle": "TWOYEARS",
+      "service": "SW",
+      "code": "SC2024",
+      "financialYear": "2024-25"
+    },
+    {
+      "fromDate": 1711909800000,
+      "toDate": 1743445799000,
       "periodCycle": "ANNUAL",
       "service": "FIRENOC",
       "code": "FIRENOCAN2024",
