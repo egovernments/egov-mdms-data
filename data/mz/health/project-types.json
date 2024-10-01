@@ -13,6 +13,23 @@
       "customAttribute": true,
       "productCountHide": true,
       "IsCycleDisable": true,
+      "distributionStrategy": [
+        {
+          "code": "STRAT_FIXED_POST",
+          "name": "Fixed Post",
+          "description": "resources will be distributed fixed points"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE",
+          "name": "House to House",
+          "description": "resources will be distributed door to door"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
+          "name": "Fixed post & House-to-House",
+          "description": "resources will be distributed Fixed post & House-to-House"
+        }
+      ],
       "eligibilityCriteria": [
         "All households are eligible.",
         "Prison inmates are eligible."
@@ -101,6 +118,23 @@
         {
           "productVariantId": "PVAR-2024-05-09-000332",
           "isBaseUnitVariant": true
+        }
+      ],
+      "distributionStrategy": [
+        {
+          "code": "STRAT_FIXED_POST",
+          "name": "Fixed Post",
+          "description": "resources will be distributed fixed points"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE",
+          "name": "House to House",
+          "description": "resources will be distributed door to door"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
+          "name": "Fixed post & House-to-House",
+          "description": "resources will be distributed Fixed post & House-to-House"
         }
       ],
       "observationStrategy": "DOT1",
