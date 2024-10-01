@@ -5,24 +5,28 @@
       {
         "hierarchy": "Workbench",
         "lowestHierarchy": "Post Administrative",
+        "highestHierarchy": "Country",
         "splitBoundariesOn" : "District",
         "isActive": false
       },
         {
         "hierarchy": "ADMIN",
         "lowestHierarchy": "Post Administrative",
+        "highestHierarchy": "Country",
         "splitBoundariesOn" : "District",
         "isActive": false
       },
       {
         "hierarchy": "Health",
         "lowestHierarchy": "Post Administrative",
+        "highestHierarchy": "Country",
         "splitBoundariesOn" : "District",
         "isActive": false
       },
       {
         "hierarchy": "MICROPLAN",
         "lowestHierarchy": "Village",
+        "highestHierarchy": "Country",
         "splitBoundariesOn" : "District",
         "isActive": true
       }
