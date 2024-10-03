@@ -5781,6 +5781,72 @@
       "navigationURL": "/kibana-v8/login?next=%2Fkibana-v8%2Fapp%2Fdashboards#/view/261cb0b0-fbde-11ee-b08d-8b505ceea182?_g=[…]use:!t,value:60000),time:(from:now-1y,to:now))",
       "leftIcon": "DashboardIcon",
       "rightIcon": ""
+    },
+    {
+      "id": 480,
+      "name": "Create boundary hierarchy",
+      "url": "/boundary-service/boundary-hierarchy-definition/_create",
+      "displayName": "Create boundary hierarchy",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 481,
+      "name": "Search boundary hierarchy",
+      "url": "/boundary-service/boundary-hierarchy-definition/_search",
+      "displayName": "Search boundary hierarchy",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 482,
+      "name": "Create boundary entity",
+      "url": "/boundary-service/boundary/_create",
+      "displayName": "Create boundary entity",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 483,
+      "name": "Search boundary entity",
+      "url": "/boundary-service/boundary/_search",
+      "displayName": "Search boundary entity",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 484,
+      "name": "Create boundary relationship",
+      "url": "/boundary-service/boundary-relationships/_create",
+      "displayName": "Create boundary relationship",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 485,
+      "name": "Search boundary relationship",
+      "url": "/boundary-service/boundary-relationships/_search",
+      "displayName": "Search boundary relationship",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "boundary-hierarchy",
+      "code": "null",
+      "path": ""
     }
   ]
 }
