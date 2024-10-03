@@ -10,7 +10,6 @@
       "beneficiaryType": "HOUSEHOLD",
       "attrAddDisable": true,
       "deliveryAddDisable": true,
-      "customAttribute": true,
       "productCountHide": true,
       "IsCycleDisable": true,
       "distributionStrategy": [
@@ -63,10 +62,8 @@
               "mandatoryWaitSinceLastDeliveryInDays": null,
               "doseCriteria": [
                 {
-                  "condition": 1.8,
-                  "attrValue": "CAMPAIGN_BEDNET_HOUSEHOLD_LABEL",
+                  "condition": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL<=1.8",
                   "attrType": "text",
-                  "operatorValue": "LESS_THAN_EQUAL_TO",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000333",
@@ -76,10 +73,8 @@
                   ]
                 },
                 {
-                  "condition": 3,
+                  "condition": "CAMPAIGN_BEDNET_HOUSEHOLD_LABEL<=3",
                   "attrType": "text",
-                  "attrValue": "CAMPAIGN_BEDNET_HOUSEHOLD_LABEL",
-                  "operatorValue": "LESS_THAN_EQUAL_TO",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000333",
@@ -369,7 +364,6 @@
       "beneficiaryType": "HOUSEHOLD",
       "attrAddDisable": true,
       "deliveryAddDisable": false,
-      "customAttribute": true,
       "productCountHide": true,
       "IsCycleDisable": true,
       "eligibilityCriteria": ["All households are eligible."],
@@ -422,14 +416,11 @@
               "mandatoryWaitSinceLastDeliveryInDays": null,
               "doseCriteria": [
                 {
-                  "condition": "CEMENT",
-                  "attrValue": "TYPE_OF_STRUCTURE",
+                  "condition": "TYPE_OF_STRUCTURE=CEMENT",
                   "attrType": "text",
-                  "operatorValue": "EQUAL_TO",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-07-08-000373",
-                      "quantity": 1,
                       "name": "Bendiocarb"
                     }
                   ]
