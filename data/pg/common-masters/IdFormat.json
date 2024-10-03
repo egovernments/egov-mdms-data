@@ -173,6 +173,14 @@
     {
       "idname": "works.report.number",
       "format": "REPORT-[SEQ_REPORT_NUM]"
+    },
+    {
+      "idname": "ubp.application.number",
+      "format": "UB-APPL-[cy:yyyy-MM-dd]-[UBP_APPLICATION_SR]"
+    },
+    {
+      "idname": "ubp.disbursal.number",
+      "format": "UB-DISB-[cy:yyyy-MM-dd]-[UBP_DISBURSAL_SR]"
     }
   ]
 }
