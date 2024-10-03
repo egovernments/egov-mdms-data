@@ -868,6 +868,59 @@
         "Data.contract.additionalDetails"
         
       ]
+    },
+    {
+      "module": "payment-tracker",
+      "index": "expense-bill-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "projectId",
+          "path": "Data.additionalDetails.projectId.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.additionalDetails.projectCreatedTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.additionalDetails.projectCreatedTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.lastModifiedTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": []
     }
   ]
 }
