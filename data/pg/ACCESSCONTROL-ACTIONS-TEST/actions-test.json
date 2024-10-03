@@ -5847,6 +5847,30 @@
       "serviceCode": "boundary-hierarchy",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 486,
+      "name": "Payment Tracker Excel Create",
+      "url": "/wms/report/payment-tracker/_create",
+      "parentModule": "works-management-service",
+      "displayName": "Payment Tracker Excel Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 487,
+      "name": "Payment Tracker Excel Search",
+      "url": "/wms/report/payment-tracker/_search",
+      "parentModule": "works-management-service",
+      "displayName": "Payment Tracker Excel Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
