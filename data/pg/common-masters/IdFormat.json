@@ -138,6 +138,10 @@
     {
       "idname": "works.project.type.number",
       "format": "P[SEQ_PROJ_TYPE_NUM]"
+    },
+    {
+      "idname": "works.report.number",
+      "format": "REPORT-[SEQ_REPORT_NUM]"
     }
   ]
 }
