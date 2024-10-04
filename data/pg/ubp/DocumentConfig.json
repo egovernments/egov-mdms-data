@@ -4,7 +4,7 @@
   "DocumentConfig": [ 
     {
       "module": "Application",
-      "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+      "allowedFileTypes": ["pdf","doc","docx","jpeg","jpg","png"],
       "maxSizeInMB": 5,
       "bannerLabel": "PROJECT_BANNER",
       "documents": [
@@ -14,7 +14,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "allowedFileTypes": ["pdf","doc","docx","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         }
