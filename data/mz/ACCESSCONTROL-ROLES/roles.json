@@ -126,6 +126,42 @@
       "code": "MDMS_ADMIN",
       "name": "MDMS Admin",
       "description": "MDMS Admin"
-    }
+    },
+    {
+      "code": "MICROPLAN_VIEWER",
+      "name": "Microplan viewer",
+      "description": "Microplan viewer"
+  },
+  {
+    "code": "ROOT_FACILITY_CATCHMENT_MAPPER",
+    "name": "Root facility catchment mapper",
+    "description": "Root facility catchment mapper"
+  },
+  {
+    "code": "FACILITY_CATCHMENT_MAPPER",
+    "name": "facility catchment mapper",
+    "description": "facility catchment mapper"
+  },
+  {
+    "code": "ROOT_POPULATION_DATA_APPROVER",
+    "name": "Root population data approver",
+    "description": "Root population data approver"
+  },
+  {
+      "code": "POPULATION_DATA_APPROVER",
+      "name": "Population data approver",
+      "description": "Population data approver"
+  },
+  {
+    "code": "ROOT_RESOURCE_ESTIMATION_APPROVER",
+    "name": "Root resource estimation approver",
+    "description": "Root resource estimation approver"
+  },
+  {
+    "code": "RESOURCE_ESTIMATION_APPROVER",
+    "name": "resource estimation approver",
+    "description": "resource estimation approver"
+  }
+    
   ]
 }
