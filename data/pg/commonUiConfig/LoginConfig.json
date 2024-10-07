@@ -36,11 +36,12 @@
           "isMandatory": true
         },
         {
-          "isMandatory": true,
           "type": "dropdown",
           "key": "city",
           "label": "CORE_COMMON_CITY",
-          "disable": false,
+          "disable" :true,
+          "isMandatory" : false,
+          "defaultValue" :"pg.amhara",
           "populators": {
             "name": "city",
             "optionsKey": "name",
