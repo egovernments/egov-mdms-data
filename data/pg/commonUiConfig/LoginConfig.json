@@ -39,15 +39,18 @@
           "type": "dropdown",
           "key": "city",
           "label": "CORE_COMMON_CITY",
-          "disable" :false,
-          "isMandatory" : true,
+          "disable" :true,
+          "isMandatory" : false,
           "populators": {
             "name": "city",
             "optionsKey": "name",
             "error": "ERR_HRMS_INVALID_CITY",
-             "disable" :false,
-          "isMandatory" : true,
-          "defaultValue" :"pg.amhara",
+            "disable" :true,
+            "isMandatory" : false,
+            "defaultValue" :{
+            "code": "pg.amhara",
+            "name": "TENANT_TENANTS_PG_AMHARA"
+          },
             "mdmsConfig": {
               "masterName": "tenants",
               "moduleName": "tenant",
