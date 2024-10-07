@@ -14849,6 +14849,39 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1914,
+      "name": "plan employee assignment create API",
+      "url": "/plan-service/employee/_create",
+      "displayName": "plan employee assignment create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1915,
+      "name": "plan employee assignment search API",
+      "url": "/plan-service/employee/_search",
+      "displayName": "plan employee assignment search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1916,
+      "name": "plan employee assignment update API",
+      "url": "/plan-service/employee/_update",
+      "displayName": "plan employee assignment update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
