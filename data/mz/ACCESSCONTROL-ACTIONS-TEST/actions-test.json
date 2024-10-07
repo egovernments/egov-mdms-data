@@ -14761,6 +14761,17 @@
       "serviceCode": "null",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 1884,
+      "url": "/plan-service/plan/facility/_create",
+      "code": "null",
+      "name": "plan search API",
+      "path": "",
+      "enabled": true,
+      "displayName": "plan Facility create API",
+      "orderNumber": 0,
+      "serviceCode": "plan-service"
+  }
   ]
 }
