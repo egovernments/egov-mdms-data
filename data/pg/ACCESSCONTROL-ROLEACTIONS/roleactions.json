@@ -6446,6 +6446,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 488,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 489,
       "actioncode": "",
@@ -6453,6 +6459,12 @@
     },
     {
       "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 489,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 489,
       "actioncode": "",
       "tenantId": "pg"
