@@ -62,24 +62,10 @@
               "mandatoryWaitSinceLastDeliveryInDays": null,
               "doseCriteria": [
                 {
-                  "condition": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL<=1.8",
-                  "attrType": "text",
+                  "condition": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL<=1.8andCAMPAIGN_BEDNET_HOUSEHOLD_LABEL<=3",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2024-05-09-000333",
-                      "quantity": 1,
-                      "name": "Bednet"
-                    }
-                  ]
-                },
-                {
-                  "condition": "CAMPAIGN_BEDNET_HOUSEHOLD_LABEL<=3",
-                  "attrType": "text",
-                  "ProductVariants": [
-                    {
-                      "productVariantId": "PVAR-2024-05-09-000333",
-                      "quantity": 1,
-                      "name": "Bednet"
+                      "productVariantId": "PVAR-2024-05-09-000333"
                     }
                   ]
                 }
@@ -149,9 +135,6 @@
               "doseCriteria": [
                 {
                   "condition": "3<=age<11",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -165,9 +148,6 @@
                 },
                 {
                   "condition": "12<=age<60",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -188,9 +168,6 @@
               "doseCriteria": [
                 {
                   "condition": "3<=age<11",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -200,9 +177,6 @@
                 },
                 {
                   "condition": "12<=age<60",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000332",
@@ -219,9 +193,6 @@
               "doseCriteria": [
                 {
                   "condition": "3<=age<11",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -231,9 +202,6 @@
                 },
                 {
                   "condition": "12<=age<60",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000332",
@@ -258,9 +226,6 @@
               "doseCriteria": [
                 {
                   "condition": "3<=age<11",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -274,9 +239,6 @@
                 },
                 {
                   "condition": "12<=age<60",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -297,9 +259,6 @@
               "doseCriteria": [
                 {
                   "condition": "3<=age<11",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -309,9 +268,6 @@
                 },
                 {
                   "condition": "12<=age<60",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000332",
@@ -328,9 +284,6 @@
               "doseCriteria": [
                 {
                   "condition": "3<=age<11",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000331",
@@ -340,9 +293,6 @@
                 },
                 {
                   "condition": "12<=age<60",
-                  "attrType": "dropdown",
-                  "attrValue": "Age",
-                  "operatorValue": "IN_BETWEEN",
                   "ProductVariants": [
                     {
                       "productVariantId": "PVAR-2024-05-09-000332",
@@ -417,11 +367,9 @@
               "doseCriteria": [
                 {
                   "condition": "TYPE_OF_STRUCTURE=CEMENT",
-                  "attrType": "text",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2024-07-08-000373",
-                      "name": "Bendiocarb"
+                      "productVariantId": "PVAR-2024-07-08-000373"
                     }
                   ]
                 }
