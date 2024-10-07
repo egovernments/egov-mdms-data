@@ -766,7 +766,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/works/checklistinbox",
       "path": "CHECKLIST.Inbox",
-      "leftIcon": "dynamic:HRIcon"
+      "leftIcon": "HRIcon"
     },
     {
       "id": 63,
@@ -780,7 +780,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/works/checklist",
       "path": "CHECKLIST.Create",
-      "leftIcon": "dynamic:HRIcon"
+      "leftIcon": "HRIcon"
     },
     {
       "id": 62,
@@ -5107,7 +5107,7 @@
       "serviceCode": "WORKS",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/project/search-project",
-      "path": "ESTIMATE.CreateEstimate",
+      "path": "Estimates.CreateEstimate",
       "leftIcon": "EstimateIcon"
     },
     {
@@ -5121,7 +5121,7 @@
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/project/create-project",
-      "path": "PROJECT.Create",
+      "path": "Projects.Create",
       "leftIcon": "ProjectIcon"
     },
     {
@@ -5135,7 +5135,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/estimate/search-estimate",
-      "path": "ESTIMATE.SearchEstimate",
+      "path": "Estimates.SearchEstimate",
       "leftIcon": "EstimateIcon"
     },
     {
@@ -5149,21 +5149,21 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/estimate/inbox",
-      "path": "ESTIMATE.EstimateInbox",
+      "path": "Estimates.EstimateInbox",
       "leftIcon": "EstimateIcon"
     },
     {
       "id": 433,
       "name": "PROJECT",
       "url": "url",
-      "displayName": "PROJECT Search",
+      "displayName": "Search Project",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/project/search-project",
-      "path": "PROJECT.search",
+      "path": "Projects.search",
       "leftIcon": "ProjectIcon"
     },
     {
@@ -5195,7 +5195,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/expenditure/billinbox",
-      "path": "BILLS.BillInbox",
+      "path": "Bills.BillInbox",
       "leftIcon": "ExpenditureIcon"
     },
     {
@@ -5209,7 +5209,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/contracts/search-contract?status=ACCEPTED",
-      "path": "BILLS.CreratePurchaseBill",
+      "path": "Bills.CreratePurchaseBill",
       "leftIcon": "ExpenditureIcon"
     },
     {
@@ -5342,7 +5342,7 @@
       "id": 446,
       "name": "WAGESEEKER",
       "url": "url",
-      "displayName": "Masters Search Wageseeker",
+      "displayName": "Search Wageseeker",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
@@ -5356,7 +5356,7 @@
       "id": 447,
       "name": "Dashboard Mukta",
       "url": "url",
-      "displayName": "Mukta Dashboard",
+      "displayName": "MUKTA Dashboard",
       "orderNumber": 1,
       "parentModule": "dss-dashboard",
       "enabled": true,
@@ -5462,7 +5462,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/expenditure/search-bill",
-      "path": "BILLS.BillSearch",
+      "path": "Bills.BillSearch",
       "leftIcon": "ExpenditureIcon"
     },
     {
@@ -5476,21 +5476,21 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/contracts/search-contract",
-      "path": "BILLS.BillView",
+      "path": "Bills.BillView",
       "leftIcon": "ExpenditureIcon"
     },
     {
       "id": 456,
       "name": "PAYMENTINSTRUCTION",
       "url": "url",
-      "displayName": "PAYMENTINSTRUCTION",
+      "displayName": "Search Payment Instruction",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "PAYMENTINSTRUCTION",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/expenditure/search-payment-instruction",
-      "path": "PAYMENTINSTRUCTION.SEARCHPAYMENTINSTRUCTION",
+      "path": "Payment Instruction.SEARCHPAYMENTINSTRUCTION",
       "leftIcon": "ExpenditureIcon"
     },
     {
@@ -5504,7 +5504,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/contracts/search-contract?status=ACCEPTED",
-      "path": "MEASUREMENT.Create",
+      "path": "MeasurementBooks.Create",
       "leftIcon": "MeasurementMuktaIcon"
     },
     {
@@ -5518,7 +5518,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/measurement/inbox",
-      "path": "MEASUREMENT.Inbox",
+      "path": "MeasurementBooks.Inbox",
       "leftIcon": "MeasurementMuktaIcon"
     },
     {
@@ -5532,7 +5532,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/measurement/search",
-      "path": "MEASUREMENT.Search",
+      "path": "MeasurementBooks.Search",
       "leftIcon": "MeasurementMuktaIcon"
     },
     {
@@ -5546,7 +5546,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/mukta-works-ui/employee/estimate/search-estimate?status=APPROVED",
-      "path": "ESTIMATE.CreateRevisedEstimate",
+      "path": "Estimates.CreateRevisedEstimate",
       "leftIcon": "EstimateIcon"
     },
     {
