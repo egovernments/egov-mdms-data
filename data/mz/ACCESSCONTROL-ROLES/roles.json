@@ -153,15 +153,14 @@
       "description": "Population data approver"
   },
   {
-    "code": "ROOT_RESOURCE_ESTIMATION_APPROVER",
-    "name": "Root resource estimation approver",
-    "description": "Root resource estimation approver"
+    "code": "ROOT_PLAN_ESTIMATION_APPROVER",
+    "name": "Root plan estimation approver",
+    "description": "Root plan estimation approver"
   },
   {
-    "code": "RESOURCE_ESTIMATION_APPROVER",
-    "name": "resource estimation approver",
-    "description": "resource estimation approver"
+    "code": "PLAN_ESTIMATION_APPROVER",
+    "name": "plan estimation approver",
+    "description": "plan estimation approver"
   }
-    
   ]
 }
