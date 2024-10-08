@@ -14,7 +14,14 @@
                             "Supervisor",
                             "Help Desk",
                             "Monitor Local",
-                            "Logistical officer"
+                            "Logistical officer",
+                            "National Supervisor",
+                            "Provincial Supervisor",
+                            "District Supervisor",
+                            "Field Supervisor",
+                            "Team Lead",
+                            "Warehouse Manager",
+                            "Health Facilty Worker"
                         ],
                         "name": "HCM_ADMIN_CONSOLE_USER_ROLE",
                         "isRequired": true,
