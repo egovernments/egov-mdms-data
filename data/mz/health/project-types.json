@@ -2,12 +2,33 @@
   "tenantId": "mz",
   "moduleName": "HCM-PROJECT-TYPES",
   "projectTypes": [
-    {
+   {
       "id": "84e28a7b-8c6d-4505-a7ef-5d714e0361f6",
       "name": "mz project type configuration for LLIN Campaigns",
       "code": "LLIN-mz",
       "group": "MALARIA",
       "beneficiaryType": "HOUSEHOLD",
+      "attrAddDisable": true,
+      "deliveryAddDisable": true,
+      "productCountHide": true,
+      "IsCycleDisable": true,
+      "distributionStrategy": [
+        {
+          "code": "STRAT_FIXED_POST",
+          "name": "Fixed Post",
+          "description": "resources will be distributed fixed points"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE",
+          "name": "House to House",
+          "description": "resources will be distributed door to door"
+        },
+        {
+          "code": "STRAT_HOUSE_TO_HOUSE_FIXED_POST",
+          "name": "Fixed post & House-to-House",
+          "description": "resources will be distributed Fixed post & House-to-House"
+        }
+      ],
       "eligibilityCriteria": [
         "All households are eligible.",
         "Prison inmates are eligible."
@@ -26,6 +47,31 @@
         {
           "productVariantId": "PVAR-2024-05-09-000333",
           "isBaseUnitVariant": false
+        }
+      ],
+      "cycles": [
+        {
+          "mandatoryWaitSinceLastCycleInDays": null,
+          "startDate": 1714329000000,
+          "endDate": 1715279400000,
+          "id": 1,
+          "deliveries": [
+            {
+              "id": 1,
+              "deliveryStrategy": "DIRECT",
+              "mandatoryWaitSinceLastDeliveryInDays": null,
+              "doseCriteria": [
+                {
+                  "condition": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL<=1.8andCAMPAIGN_BEDNET_HOUSEHOLD_LABEL<=3",
+                  "ProductVariants": [
+                    {
+                      "productVariantId": "PVAR-2024-05-09-000333"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
