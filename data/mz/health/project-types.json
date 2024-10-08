@@ -8,6 +8,10 @@
       "code": "LLIN-mz",
       "group": "MALARIA",
       "beneficiaryType": "HOUSEHOLD",
+      "attrAddDisable": true,
+      "deliveryAddDisable": true,
+      "productCountHide": true,
+      "IsCycleDisable": true,
       "eligibilityCriteria": [
         "All households are eligible.",
         "Prison inmates are eligible."
@@ -26,6 +30,31 @@
         {
           "productVariantId": "PVAR-2024-05-09-000333",
           "isBaseUnitVariant": false
+        }
+      ],
+      "cycles": [
+        {
+          "mandatoryWaitSinceLastCycleInDays": null,
+          "startDate": 1714329000000,
+          "endDate": 1715279400000,
+          "id": 1,
+          "deliveries": [
+            {
+              "id": 1,
+              "deliveryStrategy": "DIRECT",
+              "mandatoryWaitSinceLastDeliveryInDays": null,
+              "doseCriteria": [
+                {
+                  "condition": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL<=1.8andCAMPAIGN_BEDNET_HOUSEHOLD_LABEL<=3",
+                  "ProductVariants": [
+                    {
+                      "productVariantId": "PVAR-2024-05-09-000333"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
