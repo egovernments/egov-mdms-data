@@ -14882,6 +14882,28 @@
       "serviceCode": "plan-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1917,
+      "name": "Employee Search API",
+      "url": "/egov-hrms/employees/_search",
+      "displayName": "Employee Search API",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "HRMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1918,
+      "name": "Employee Search API",
+      "url": "/health-hrms/employees/_search",
+      "displayName": "Employee Search API",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "HRMS",
+      "code": "null",
+      "path": ""
     }
   ]
 }
