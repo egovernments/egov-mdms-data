@@ -1293,7 +1293,7 @@
     {
       "id": 104,
       "name": "Nominal Muster Roll Pdf",
-      "url": "/egov-pdf/download/musterRoll/muster-roll",
+      "url": "/mukta-egov-pdf/download/musterRoll/muster-roll",
       "displayName": "musterrolls search",
       "orderNumber": 1,
       "enabled": false,
@@ -1364,7 +1364,7 @@
     {
       "id": 110,
       "name": "Work Order Pdf",
-      "url": "/egov-pdf/download/workOrder/work-order",
+      "url": "/mukta-egov-pdf/download/workOrder/work-order",
       "displayName": "contract search",
       "orderNumber": 1,
       "enabled": false,
@@ -1411,7 +1411,7 @@
     {
       "id": 114,
       "name": "Search Expense Bill PDF API",
-      "url": "/egov-pdf/bill/_search",
+      "url": "/mukta-egov-pdf/bill/_search",
       "parentModule": "expense-calculator",
       "displayName": "Expense Bill PDF Search API",
       "orderNumber": 0,
@@ -1423,7 +1423,7 @@
     {
       "id": 115,
       "name": "Generate Expense Bill PDF API",
-      "url": "/egov-pdf/bill/_generate",
+      "url": "/mukta-egov-pdf/bill/_generate",
       "parentModule": "expense-calculator",
       "displayName": "Expense Bill PDF generate API",
       "orderNumber": 0,
@@ -4535,7 +4535,7 @@
     {
       "id": 383,    
       "name": "Deviation Pdf",
-      "url": "/egov-pdf/download/deviationStatement/deviation-statement",
+      "url": "/mukta-egov-pdf/download/deviationStatement/deviation-statement",
       "displayName": "estimates search",
       "orderNumber": 1,
       "enabled": false,
@@ -4546,7 +4546,7 @@
     {
       "id": 384,    
       "name": "DetailedEstimate pdf",
-      "url": "/egov-pdf/download/detailedEstimate/detailed-estimate",
+      "url": "/mukta-egov-pdf/download/detailedEstimate/detailed-estimate",
       "displayName": "estimates search",
       "orderNumber": 1,
       "enabled": false,
@@ -4557,7 +4557,7 @@
     {
       "id": 385,
       "name": "Measurement Book Pdf",
-      "url": "/egov-pdf/download/measurementBook/measurement-book",
+      "url": "/mukta-egov-pdf/download/measurementBook/measurement-book",
       "displayName": "estimates search",
       "orderNumber": 1,
       "enabled": false,
@@ -4709,7 +4709,7 @@
     {
       "id": 397,
       "name": "Estimate Pdf",
-      "url": "/egov-pdf/download/mukta-estimate/estimates",
+      "url": "/mukta-egov-pdf/download/mukta-estimate/estimates",
       "displayName": "estimates search",
       "orderNumber": 1,
       "enabled": false,
@@ -5919,6 +5919,17 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "mukta-ifix-adapter",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 491,
+      "name": "Project Detail Pdf",
+      "url": "/mukta-egov-pdf/download/project/project-details",
+      "displayName": "projectdetails search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
     }
