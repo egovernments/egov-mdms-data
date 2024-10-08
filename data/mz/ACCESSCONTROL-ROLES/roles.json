@@ -118,11 +118,6 @@
         "description": "Microplan viewer"
     },
     {
-        "code": "NATIONAL_FACILITY_CATCHMENT_ASSIGNER",
-        "name": "National facility catchment assigner",
-        "description": "National facility catchment assigner"
-    },
-    {
       "code": "ROOT_FACILITY_CATCHMENT_MAPPER",
       "name": "Root facility catchment mapper",
       "description": "Root facility catchment mapper"
@@ -131,16 +126,6 @@
       "code": "FACILITY_CATCHMENT_MAPPER",
       "name": "facility catchment mapper",
       "description": "facility catchment mapper"
-    },
-    {
-        "code": "FACILITY_CATCHMENT_ASSIGNER",
-        "name": "Facility Catchment Assigner",
-        "description": "Facility Catchment Assigner"
-    },
-    {
-        "code": "NATIONAL_POPULATION_DATA_APPROVER",
-        "name": "National population data approver",
-        "description": "National population data approver"
     },
     {
       "code": "ROOT_POPULATION_DATA_APPROVER",
@@ -153,24 +138,14 @@
         "description": "Population data approver"
     },
     {
-        "code": "NATIONAL_MICROPLAN_APPROVER",
-        "name": "National microplan approver",
-        "description": "National microplan approver"
+      "code": "ROOT_PLAN_ESTIMATION_APPROVER",
+      "name": "Root plan estimation approver",
+      "description": "Root plan estimation approver"
     },
     {
-      "code": "ROOT_RESOURCE_ESTIMATION_APPROVER",
-      "name": "Root resource estimation approver",
-      "description": "Root resource estimation approver"
-    },
-    {
-      "code": "RESOURCE_ESTIMATION_APPROVER",
-      "name": "resource estimation approver",
-      "description": "resource estimation approver"
-    },
-    {
-        "code": "MICROPLAN_APPROVER",
-        "name": "Microplan approver",
-        "description": "Microplan approver"
+      "code": "PLAN_ESTIMATION_APPROVER",
+      "name": "plan estimation approver",
+      "description": "plan estimation approver"
     }
   ]
 }
