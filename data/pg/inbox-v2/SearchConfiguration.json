@@ -683,6 +683,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "projectId",
+          "path": "Data.additionalDetails.projectId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "createdFrom",
           "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
