@@ -3,8 +3,8 @@
     "moduleName": "HCM-ADMIN-CONSOLE",
     "rolesForChecklist": [
       {
-        "code": 1,
-        "value": "DISTRIBUTOR"
+        "key": 1,
+        "code": "DISTRIBUTOR"
       },
       {
         "key": 2,
