@@ -3,11 +3,11 @@
     "moduleName": "HCM-ADMIN-CONSOLE",
     "rolesForChecklist": [
       {
-        "code": 1,
+        "key": 1,
         "value": "DISTRIBUTOR"
       },
       {
-        "key": 2,
+        "code": 2,
         "code": "WAREHOUSE_MANAGER"
       },
       {
