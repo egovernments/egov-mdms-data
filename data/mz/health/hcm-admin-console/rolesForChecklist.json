@@ -1,0 +1,22 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-ADMIN-CONSOLE",
+    "rolesForChecklist": [
+      {
+        "code": 1,
+        "value": "DISTRIBUTOR"
+      },
+      {
+        "key": 2,
+        "code": "WAREHOUSE_MANAGER"
+      },
+      {
+        "key": 3,
+        "code": "HEALTH_FACILITY_WORKER"
+      },
+      {
+        "key": 4,
+        "code": "DISTRICT_SUPERVISOR"
+      }
+    ]
+  }
