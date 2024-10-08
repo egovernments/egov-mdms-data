@@ -272,15 +272,17 @@
         }
       ]
     },
-    {
+     {
       "id": "192a20d1-0edd-4108-925a-f37bf544d6c4",
       "name": "Project type configuration for IRS - Campaigns",
       "code": "IRS-mz",
       "group": "IRS Campaign",
       "beneficiaryType": "HOUSEHOLD",
-      "eligibilityCriteria": [
-        "All households are eligible."
-      ],
+      "attrAddDisable": true,
+      "deliveryAddDisable": false,
+      "productCountHide": true,
+      "IsCycleDisable": true,
+      "eligibilityCriteria": ["All households are eligible."],
       "dashboardUrls": {
         "NATIONAL_SUPERVISOR": "/digit-ui/employee/dss/landing/national-health-dashboard",
         "PROVINCIAL_SUPERVISOR": "/digit-ui/employee/dss/dashboard/provincial-health-dashboard",
@@ -315,6 +317,31 @@
         {
           "productVariantId": "PVAR-2024-07-08-000373",
           "isBaseUnitVariant": true
+        }
+      ],
+      "cycles": [
+        {
+          "mandatoryWaitSinceLastCycleInDays": null,
+          "startDate": 1714329000000,
+          "endDate": 1715279400000,
+          "id": 1,
+          "deliveries": [
+            {
+              "id": 1,
+              "deliveryStrategy": "DIRECT",
+              "mandatoryWaitSinceLastDeliveryInDays": null,
+              "doseCriteria": [
+                {
+                  "condition": "TYPE_OF_STRUCTURE=CEMENT",
+                  "ProductVariants": [
+                    {
+                      "productVariantId": "PVAR-2024-07-08-000373"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
