@@ -1571,7 +1571,7 @@
     {
       "id": 127,
       "name": "IFMS PI search",
-      "url": "/ifms/pi/v1/_search",
+      "url": "/ifms-adapter/pi/v1/_search",
       "parentModule": "ifms-adapter",
       "displayName": "IFMS-PI Search",
       "orderNumber": 0,
@@ -1583,7 +1583,7 @@
     {
       "id": 128,
       "name": "IFMS PI create",
-      "url": "/ifms/pi/v1/_create",
+      "url": "/ifms-adapter/pi/v1/_create",
       "parentModule": "ifms-adapter",
       "displayName": "IFMS-PI Create",
       "orderNumber": 0,
@@ -1595,7 +1595,7 @@
     {
       "id": 129,
       "name": "IFMS funds search",
-      "url": "/ifms/funds/v1/_search",
+      "url": "/ifms-adapter/funds/v1/_search",
       "parentModule": "ifms-adapter",
       "displayName": "IFMS-Funds search",
       "orderNumber": 0,
