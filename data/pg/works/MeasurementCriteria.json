@@ -1,14 +1,15 @@
 {
-    "tenantId": "pg",
-    "moduleName": "works",
-    "MeasurementCriteria": [
-      {
-        "reference": "CONTRACT",
-        "period": 7,
-        "contractStatus":"ACTIVE",
-        "measurementWorkflowStatus": "APPROVED",
-        "enableMeasurementAfterContractEndDate":false,
-        "active": true
-      }
-    ]
+  "tenantId": "pg",
+  "moduleName": "works",
+  "MeasurementCriteria": [
+    {
+      "reference": "CONTRACT",
+      "period": 7,
+      "contractStatus":"ACTIVE",
+      "measurementWorkflowStatus": "APPROVED",
+      "enableMeasurementAfterContractEndDate":false,
+      "active": true,
+      "measurementBookStartDate":1708367400000
+    }
+  ]
 }
