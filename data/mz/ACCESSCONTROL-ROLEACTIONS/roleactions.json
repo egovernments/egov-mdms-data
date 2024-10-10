@@ -15782,13 +15782,13 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "DISTRIBUTOR",
       "actionid": 1685,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "WAREHOUSE_MANAGER",
       "actionid": 1685,
       "actioncode": "",
@@ -16958,7 +16958,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "NATIONAL_SUPERVISOR",
       "actionid": 1708,
       "actioncode": "",
@@ -18362,13 +18362,13 @@
       "actioncode": "",
       "tenantid": "mz"
     },
-     {
+    {
       "rolecode": "NATIONAL_SUPERVISOR",
       "actionid": 1774,
       "actioncode": "",
       "tenantid": "mz"
     },
-     {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 1774,
       "actioncode": "",
@@ -18925,7 +18925,8 @@
       "actionid": 1871,
       "actioncode": "",
       "tenantid": "mz"
-    } ,{
+    },
+    {
       "rolecode": "MDMS_ADMIN",
       "actionid": 1872,
       "actioncode": "",
@@ -18955,25 +18956,25 @@
       "actioncode": "",
       "tenantid": "mz"
     },
-     {
+    {
       "rolecode": "CAMPAIGN_MANAGER",
       "actionid": 1544,
       "actioncode": "",
       "tenantid": "mz"
     },
-     {
+    {
       "rolecode": "CAMPAIGN_MANAGER",
       "actionid": 1537,
       "actioncode": "",
       "tenantid": "mz"
     },
-     {
+    {
       "rolecode": "CAMPAIGN_MANAGER",
       "actionid": 1536,
       "actioncode": "",
       "tenantid": "mz"
     },
-     {
+    {
       "rolecode": "CAMPAIGN_MANAGER",
       "actionid": 1875,
       "actioncode": "",
@@ -19183,7 +19184,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "TEAM_SUPERVISOR",
       "actionid": 1729,
       "actioncode": "",
@@ -19237,25 +19238,25 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "NATIONAL_SUPERVISOR",
       "actionid": 1683,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 1683,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "NATIONAL_SUPERVISOR",
       "actionid": 1634,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 1634,
       "actioncode": "",
@@ -19315,30 +19316,53 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "CAMPAIGN_MANAGER",
       "actionid": 1630,
       "actioncode": "",
       "tenantId": "mz"
     },
     {
-     "rolecode": "MDMS_ADMIN",
-     "actionid": 1885,
-     "actioncode": "",
-     "tenantId": "mz"
-   },
-   {
-    "rolecode": "MDMS_ADMIN",
-    "actionid": 1886,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-     {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 1885,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 1886,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
       "rolecode": "CAMPAIGN_MANAGER",
       "actionid": 1734,
       "actioncode": "",
       "tenantId": "mz"
+    },
+    {
+      "rolecode": "FACILITY_CATCHMENT_MAPPER",
+      "actionid": 1887,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "ROOT_FACILITY_CATCHMENT_MAPPER",
+      "actionid": 1887,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "FACILITY_CATCHMENT_MAPPER",
+      "actionid": 1888,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "ROOT_FACILITY_CATCHMENT_MAPPER",
+      "actionid": 1888,
+      "actioncode": "",
+      "tenantId": "mz"
     }
-
   ]
 }
