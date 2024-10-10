@@ -14794,6 +14794,28 @@
     "serviceCode": "mdms",
     "code": "null",
     "path": ""
+  },
+  {
+    "id": 1887,
+    "url": "/plan-service/plan/facility/_search",
+    "code": "null",
+    "name": "plan Facility search API",
+    "path": "",
+    "enabled": true,
+    "displayName": "plan Facility search API",
+    "orderNumber": 0,
+    "serviceCode": "plan-service"
+  },
+  {
+    "id": 1888,
+    "url": "/plan-service/plan/facility/_update",
+    "code": "null",
+    "name": "plan Facility update API",
+    "path": "",
+    "enabled": true,
+    "displayName": "plan Facility update API",
+    "orderNumber": 0,
+    "serviceCode": "plan-service"
   }
   ]
 }
