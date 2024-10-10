@@ -1,0 +1,217 @@
+{
+    "tenantId": "mz",
+    "moduleName": "commonHCMUiConfig",
+    "SearchProjectConfig": [
+        {
+          "type": "search",
+          "label": "SEARCH_PROJECT",
+          "sections": {
+            "search": {
+              "show": true,
+              "label": "",
+              "uiConfig": {
+                "fields": [
+                  {
+                    "key": "ID",
+                    "type": "text",
+                    "label": "ID",
+                    "disable": false,
+                    "populators": {
+                      "name": "id",
+                      "error": "PROJECT_ID_ERROR_MESSAGE",
+                      "validation": {
+                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                      }
+                    },
+                    "preProcess": {
+                      "convertStringToRegEx": [
+                        "populators.validation.pattern"
+                      ]
+                    },
+                    "isMandatory": false
+                  },
+                  {
+                    "key": "PROJECT_TYPE",
+                    "type": "text",
+                    "label": "PROJECT_TYPE",
+                    "disable": false,
+                    "populators": {
+                      "name": "projectType",
+                      "error": "PROJECT_TYPE_ERR_MSG",
+                      "validation": {
+                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                      }
+                    },
+                    "preProcess": {
+                      "convertStringToRegEx": [
+                        "populators.validation.pattern"
+                      ]
+                    },
+                    "isMandatory": false
+                  },
+                  {
+                    "key": "PROJECT_BOUNDARY_CODE",
+                    "type": "text",
+                    "label": "PROJECT_BOUNDARY_CODE",
+                    "disable": false,
+                    "populators": {
+                      "name": "boundary",
+                      "error": "PROJECT_BOUNDARY_CODE_ERR_MSG",
+                      "validation": {
+                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                      }
+                    },
+                    "preProcess": {
+                      "convertStringToRegEx": [
+                        "populators.validation.pattern"
+                      ]
+                    },
+                    "isMandatory": false
+                  },
+                  {
+                    "key": "PROJECT_NAME",
+                    "type": "text",
+                    "label": "PROJECT_NAME",
+                    "disable": false,
+                    "populators": {
+                      "name": "name",
+                      "error": "PROJECT_NAME_ERR_MSG",
+                      "validation": {
+                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                      }
+                    },
+                    "preProcess": {
+                      "convertStringToRegEx": [
+                        "populators.validation.pattern"
+                      ]
+                    },
+                    "isMandatory": false
+                  },
+                  {
+                    "key": "PROJECT_NUMBER",
+                    "type": "text",
+                    "label": "PROJECT_NUMBER",
+                    "disable": false,
+                    "populators": {
+                      "name": "projectNumber",
+                      "error": "PROJECT_NUMBER_ERR_MSG",
+                      "validation": {
+                        "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$"
+                      }
+                    },
+                    "preProcess": {
+                      "convertStringToRegEx": [
+                        "populators.validation.pattern"
+                      ]
+                    },
+                    "isMandatory": false
+                  },
+                  {
+                    "key": "START_DATE",
+                    "type": "date",
+                    "label": "START_DATE",
+                    "disable": false,
+                    "populators": {
+                      "name": "startDate",
+                      "error": "PROJECT_START_DATE_ERR_MSG",
+                      "validation": {}
+                    },
+                    "isMandatory": false
+                  },
+                  {
+                    "key": "END_DATE",
+                    "type": "date",
+                    "label": "END_DATE",
+                    "disable": false,
+                    "populators": {
+                      "name": "endDate",
+                      "error": "PROJECT_END_DATE_ERR_MSG",
+                      "validation": {}
+                    },
+                    "isMandatory": false
+                  }
+                ],
+                "headerStyle": null,
+                "minReqFields": 0,
+                "primaryLabel": "ES_COMMON_SEARCH",
+                "defaultValues": {
+                  "id": "",
+                  "name": "",
+                  "endDate": "",
+                  "boundary": "",
+                  "startDate": "",
+                  "projectType": "",
+                  "projectNumber": ""
+                },
+                "formClassName": "custom-both-clear-search",
+                "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
+              }
+            },
+            "searchResult": {
+              "show": true,
+              "label": "",
+              "children": {},
+              "uiConfig": {
+                "columns": [
+                  {
+                    "label": "PROJECT_NUMBER",
+                    "jsonPath": "projectNumber",
+                    "additionalCustomization": true
+                  },
+                  {
+                    "label": "PROJECT_NAME",
+                    "jsonPath": "name"
+                  },
+                  {
+                    "label": "PROJECT_TYPE",
+                    "jsonPath": "projectType"
+                  },
+                  {
+                    "label": "PROJECT_BOUNDARY_TYPE",
+                    "jsonPath": "address.boundaryType"
+                  },
+                  {
+                    "label": "PROJECT_BOUNDARY",
+                    "jsonPath": "address.boundary"
+                  },
+                  {
+                    "label": "PROJECT_CREATED_TIME",
+                    "jsonPath": "auditDetails.createdTime",
+                    "additionalCustomization": true
+                  }
+                ],
+                "resultsJsonPath": "Project",
+                "enableColumnSort": true,
+                "enableGlobalSearch": false
+              }
+            }
+          },
+          "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=Project",
+          "actionRole": "SYSTEM_ADMINISTRATOR",
+          "apiDetails": {
+            "masterName": "commonUiConfig",
+            "moduleName": "SearchDefaultConfig",
+            "requestBody": {
+              "limit": 10,
+              "offset": 0,
+              "Projects": {
+                "tenantId": "mz"
+              },
+              "tenantId": "mz",
+              "apiOperation": "SEARCH"
+            },
+            "serviceName": "/health-project/v1/_search",
+            "requestParam": {
+              "limit": 10,
+              "offset": 0,
+              "tenantId": "mz"
+            },
+            "tableFormJsonPath": "requestParam",
+            "filterFormJsonPath": "requestBody.Projects",
+            "searchFormJsonPath": "requestBody.Projects",
+            "minParametersForSearchForm": 0
+          },
+          "actionLabel": "HCM_ADD_PROJECT"
+        }
+      ]
+}

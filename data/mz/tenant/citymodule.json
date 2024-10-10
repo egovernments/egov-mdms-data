@@ -79,6 +79,17 @@
         }
       ]
     },
+     {
+      "module": "HCMWORKBENCH",
+      "code": "HCMWORKBENCH",
+      "active": true,
+      "order": 11,
+      "tenants": [
+        {
+          "code": "mz"
+        }
+      ]
+    },
     {
       "module": "Microplanning",
       "code": "Microplanning",

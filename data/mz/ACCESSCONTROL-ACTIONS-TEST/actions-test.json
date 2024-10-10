@@ -14772,6 +14772,28 @@
       "displayName": "plan Facility create API",
       "orderNumber": 0,
       "serviceCode": "plan-service"
+  },
+  {
+    "id": 1885,
+    "name": "create data for schema",
+    "url": "/mdms-v2/v2/_create/commonHCMUiConfig.MasterLandingScreen",
+    "displayName": "mdms commonHCMUiConfig.MasterLandingScreen data API",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "mdms",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 1886,
+    "name": "create data for schema",
+    "url": "/mdms-v2/v2/_update/commonHCMUiConfig.MasterLandingScreen",
+    "displayName": "mdms commonHCMUiConfig.MasterLandingScreen data API",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "mdms",
+    "code": "null",
+    "path": ""
   }
   ]
 }

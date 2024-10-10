@@ -1,0 +1,166 @@
+{
+    "tenantId": "mz",
+    "moduleName": "commonHCMUiConfig",
+    "SearchFacilityConfig": [
+      {
+        "type": "search",
+        "label": "SEARCH_FACILITY",
+        "sections": {
+          "search": {
+            "show": true,
+            "label": "",
+            "children": {},
+            "uiConfig": {
+              "fields": [
+                {
+                  "key": "FACILITY_ID",
+                  "type": "text",
+                  "label": "FACILITY_ID",
+                  "disable": false,
+                  "populators": {
+                    "name": "id",
+                    "error": "PROJECT_PATTERN_ERR_MSG",
+                    "validation": {
+                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                    }
+                  },
+                  "preProcess": {
+                    "convertStringToRegEx": [
+                      "populators.validation.pattern"
+                    ]
+                  },
+                  "isMandatory": false
+                },
+                {
+                  "key": "FACILITY_USAGE",
+                  "type": "text",
+                  "label": "FACILITY_USAGE",
+                  "disable": false,
+                  "populators": {
+                    "name": "usage",
+                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "validation": {
+                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                    }
+                  },
+                  "preProcess": {
+                    "convertStringToRegEx": [
+                      "populators.validation.pattern"
+                    ]
+                  },
+                  "isMandatory": false
+                },
+                {
+                  "key": "FACILITY_STORAGE_CAPACITY",
+                  "type": "text",
+                  "label": "FACILITY_STORAGE_CAPACITY",
+                  "disable": false,
+                  "populators": {
+                    "name": "storageCapacity",
+                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "validation": {
+                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                    }
+                  },
+                  "preProcess": {
+                    "convertStringToRegEx": [
+                      "populators.validation.pattern"
+                    ]
+                  },
+                  "isMandatory": false
+                },
+                {
+                  "key": "FACILITY_LOCALITY_CODE",
+                  "type": "text",
+                  "label": "FACILITY_LOCALITY_CODE",
+                  "disable": false,
+                  "populators": {
+                    "name": "boundaryCode",
+                    "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
+                    "validation": {
+                      "pattern": "^[^\\$<>?\\\\~!@$%^()+={}\\[\\]*:;“”‘’]{1,100}$"
+                    }
+                  },
+                  "preProcess": {
+                    "convertStringToRegEx": [
+                      "populators.validation.pattern"
+                    ]
+                  },
+                  "isMandatory": false
+                }
+              ],
+              "headerStyle": null,
+              "minReqFields": 0,
+              "primaryLabel": "ES_COMMON_SEARCH",
+              "defaultValues": {
+                "id": "",
+                "usage": "",
+                "boundaryCode": "",
+                "storageCapacity": ""
+              },
+              "formClassName": " ",
+              "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
+            }
+          },
+          "searchResult": {
+            "show": true,
+            "label": "Facility",
+            "children": {},
+            "uiConfig": {
+              "columns": [
+                {
+                  "label": "FACILITY_ID",
+                  "jsonPath": "id"
+                },
+                {
+                  "label": "FACILITY_NAME",
+                  "jsonPath": "name"
+                },
+                {
+                  "label": "FACILITY_IS_PERMANENT",
+                  "jsonPath": "isPermanent"
+                },
+                {
+                  "label": "FACILITY_USAGE",
+                  "jsonPath": "usage"
+                },
+                {
+                  "label": "FACILITY_STORAGE_CAPACITY",
+                  "jsonPath": "storageCapacity"
+                },
+                {
+                  "label": "FACILITY_LOCALITY_CODE",
+                  "jsonPath": "address.locality.code"
+                }
+              ],
+              "resultsJsonPath": "Facilities",
+              "enableColumnSort": true,
+              "enableGlobalSearch": false
+            }
+          }
+        },
+        "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=Facility",
+        "actionRole": "SYSTEM_ADMINISTRATOR",
+        "apiDetails": {
+          "masterName": "commonUiConfig",
+          "moduleName": "SearchDefaultConfig",
+          "requestBody": {
+            "Facility": {}
+          },
+          "serviceName": "/facility/v1/_search",
+          "requestParam": {
+            "limit": 1,
+            "offset": 0,
+            "tenantId": "mz"
+          },
+          "tableFormJsonPath": "requestParam",
+          "filterFormJsonPath": "requestBody.Facility",
+          "searchFormJsonPath": "requestBody.Facility",
+          "minParametersForSearchForm": 0
+        },
+        "actionLabel": "HCM_ADD_FACILITY",
+        "additionalSections": {}
+      }
+    ]
+
+}
