@@ -5921,6 +5921,30 @@
       "serviceCode": "mukta-ifix-adapter",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 491,
+      "name": "MB_WORK_ORDERS",
+      "url": "",
+      "displayName": "MB_WORK_ORDERS",
+      "orderNumber": 2,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+      },
+      {
+      "id": 492,
+      "name": "ACTION_TEST_5MEASUREMENT",
+      "url": "",
+      "displayName": "ACTION_TEST_5MEASUREMENT",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+      }
   ]
 }

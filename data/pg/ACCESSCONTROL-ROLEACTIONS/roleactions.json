@@ -6492,6 +6492,42 @@
       "actionid": 461,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MB_CREATOR",
+      "actionid": 491,
+      "actioncode": "",
+      "tenantId": "od"
+    },
+    {
+        "rolecode": "MB_APPROVER",
+        "actionid": 492,
+        "actioncode": "",
+        "tenantId": "od"
+    },
+    {
+        "rolecode": "MB_VERIFIER",
+        "actionid": 492,
+        "actioncode": "",
+        "tenantId": "od"
+    },
+    {
+          "rolecode": "MB_CREATOR",
+          "actionid": 492,
+          "actioncode": "",
+          "tenantId": "od"
+    },
+    {
+      "rolecode": "EMP_ORG_ADMIN",
+      "actionid": 50,
+      "actioncode": "",
+      "tenantId": "od"
+    },
+    {
+      "rolecode": "EMP_ORG_ADMIN",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "od"
     }
   ]
 }
