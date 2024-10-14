@@ -14816,6 +14816,50 @@
     "displayName": "plan Facility update API",
     "orderNumber": 0,
     "serviceCode": "plan-service"
-  }
+  },
+  {
+      "id": 1889,
+      "name": "plan employee assignment create API",
+      "url": "/plan-service/employee/_create",
+      "displayName": "plan employee assignment create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1890,
+      "name": "plan employee assignment search API",
+      "url": "/plan-service/employee/_search",
+      "displayName": "plan employee assignment search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1891,
+      "name": "plan employee assignment update API",
+      "url": "/plan-service/employee/_update",
+      "displayName": "plan employee assignment update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1892,
+      "name": "Employee Search API",
+      "url": "/health-hrms/employees/_search",
+      "displayName": "Employee Search API",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "HRMS",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
