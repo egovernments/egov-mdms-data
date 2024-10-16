@@ -2,7 +2,7 @@
     "tenantId": "mz",
     "moduleName": "HCM-ADMIN-CONSOLE",
     "hierarchyConfig": [
-     {
+      {
         "hierarchy": "ADMIN",
         "lowestHierarchy": "Posto Administrativo",
         "splitBoundariesOn" : "Distrito",
@@ -14,11 +14,18 @@
         "splitBoundariesOn" : "District",
         "isActive": false
       },
-        {
+      {
         "hierarchy": "HIERARCHYTEST",
         "lowestHierarchy": "ADMINISTRATIVEPOST",
         "splitBoundariesOn" : "DISTRICT",
+        "isActive": false
+      },
+      {
+        "hierarchy": "MICROPLAN",
+        "lowestHierarchy": "Village",
+        "highestHierarchy": "Country",
+        "splitBoundariesOn" : "District",
         "isActive": true
-        }
+      }
     ]
   }
