@@ -18,14 +18,14 @@
         "hierarchy": "HIERARCHYTEST",
         "lowestHierarchy": "ADMINISTRATIVEPOST",
         "splitBoundariesOn" : "DISTRICT",
-        "isActive": true
+        "isActive": false
       },
       {
         "hierarchy": "MICROPLAN",
         "lowestHierarchy": "Village",
         "highestHierarchy": "Country",
         "splitBoundariesOn" : "District",
-        "isActive": false
+        "isActive": true
       }
     ]
   }
