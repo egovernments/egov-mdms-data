@@ -29,6 +29,7 @@
       "resources": [
         {
           "productVariantId": "PVAR-2024-05-09-000333",
+          "name": "Bednet",
           "isBaseUnitVariant": false
         }
       ],
@@ -48,7 +49,8 @@
                   "condition": "CAMPAIGN_BEDNET_INDIVIDUAL_LABEL<=1.8andCAMPAIGN_BEDNET_HOUSEHOLD_LABEL<=3",
                   "ProductVariants": [
                     {
-                      "productVariantId": "PVAR-2024-05-09-000333"
+                      "productVariantId": "PVAR-2024-05-09-000333",
+                      "name": "Bednet"
                     }
                   ]
                 }
