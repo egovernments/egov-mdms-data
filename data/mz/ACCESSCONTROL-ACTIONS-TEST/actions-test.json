@@ -14893,6 +14893,72 @@
       "serviceCode": "HRMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1918,
+      "name": "plan facility create API",
+      "url": "/plan-service/plan/facility/_create",
+      "displayName": "plan facility create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1919,
+      "name": "plan facility search API",
+      "url": "/plan-service/plan/facility/_search",
+      "displayName": "plan facility search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1920,
+      "name": "plan facility update API",
+      "url": "/plan-service/plan/facility/_update",
+      "displayName": "plan facility update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "plan-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1921,
+      "name": "census create API",
+      "url": "/census-service/_create",
+      "displayName": "census create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "census-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1922,
+      "name": "census search API",
+      "url": "/census-service/_search",
+      "displayName": "census search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "census-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1923,
+      "name": "census update API",
+      "url": "/census-service/_update",
+      "displayName": "census update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "census-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
