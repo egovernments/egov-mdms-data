@@ -14974,7 +14974,7 @@
   {
       "id": 1925,
       "name": "health hrms employees create",
-      "url": "/health-hrms/employees/_create?tenantId=mz",
+      "url": "/health-hrms/employees/_create",
       "displayName": "health hrms employees create",
       "orderNumber": 0,
       "enabled": false,
@@ -15179,7 +15179,73 @@
       "serviceCode": "mdms-v2",
       "code": "null",
       "path": ""
+  },
+  {
+    "id": 1944,
+    "name": "plan service facility create",
+    "url": "/plan-service/plan/facility/_create",
+    "displayName": "plan service facility create",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "plan-service",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 1945,
+    "name": "plan service facility search",
+    "url": "/plan-service/plan/facility/_search",
+    "displayName": "plan service facility search",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "plan-service",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 1946,
+    "name": "plan service facility update",
+    "url": "/plan-service/plan/facility/_update",
+    "displayName": "plan service facility update",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "plan-service",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 1947,
+    "name": "census service create",
+    "url": "/census-service/_create",
+    "displayName": "census service create",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "census-service",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 1948,
+    "name": "census service search",
+    "url": "/census-service/_search",
+    "displayName": "census service search",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "census-service",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 1949,
+    "name": "census service update",
+    "url": "/census-service/_update",
+    "displayName": "census service update",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "census-service",
+    "code": "null",
+    "path": ""
   }
-  
+    
   ]
 }
