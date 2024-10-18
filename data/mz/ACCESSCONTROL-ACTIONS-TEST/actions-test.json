@@ -10993,8 +10993,8 @@
       "serviceCode": "",
       "code": "",
       "path": "Localization",
-      "navigationURL": "integration/ui-localisation/localization",
-      "leftIcon": "places:business-center",
+      "navigationURL": "/workbench-ui/employee/workbench/localisation-search",
+      "leftIcon": "ContractIcon",
       "rightIcon": "",
       "queryParams": ""
     },
@@ -12366,7 +12366,7 @@
       "code": "null",
       "path": "0Home",
       "navigationURL": "/workbench-ui/employee/",
-      "leftIcon": "dynamic:MuktaHomeIcon",
+      "leftIcon": "Home",
       "rightIcon": ""
     },
     {
@@ -12381,7 +12381,7 @@
       "code": "",
       "path": "1Campaign.Createcampaign",
       "navigationURL": "/workbench-ui/employee/campaign/setup-campaign",
-      "leftIcon": "dynamic:ProjectIcon",
+      "leftIcon": "ProjectIcon",
       "rightIcon": ""
     },
     {
@@ -13932,7 +13932,7 @@
       "code": "",
       "path": "1Campaign.Mycampaign",
       "navigationURL": "/workbench-ui/employee/campaign/my-campaign",
-      "leftIcon": "dynamic:EstimateIcon",
+      "leftIcon": "EstimateIcon",
       "rightIcon": ""
     },
     {
