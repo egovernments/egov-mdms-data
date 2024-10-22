@@ -6,7 +6,7 @@
       "name": "Demo",
       "code": "pg",
       "qrCodeURL":"https://lh3.googleusercontent.com/-311gz2-xcHw/X6KRNSQTkWI/AAAAAAAAAKU/JmHSj-6rKPMVFbo6oL5x4JhYTTg8-UHmwCK8BGAsYHg/s0/2020-11-04.png",
-      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
+      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/egov-bucket/images.png.jpg",
       "logoUrl": "https://staging.digit.org/pg-egov-assets/mseva-logo-colored.png",
       "logoUrlWhite": "https://staging.digit.org/pg-egov-assets/mseva-logo-white.png",
       "statelogo":"https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.citya/logo.png",
@@ -21,8 +21,8 @@
           "value": "en_IN"
         },
         {
-          "label": "हिंदी",
-          "value": "hi_IN"
+          "label": "FRANÇAIS",
+          "value": "fr_FR"
         }
       ],
       "localizationModules": [
