@@ -15245,7 +15245,52 @@
     "serviceCode": "census-service",
     "code": "null",
     "path": ""
-  }
+  },
+  {
+    "id": 1950,
+    "name": "MicroplanBoundary",
+    "url": "url",
+    "displayName": "MicroplanBoundary",
+    "orderNumber": 2,
+    "parentModule": "HCM",
+    "enabled": true,
+    "serviceCode": "HCM",
+    "code": "",
+    "path": "Boundary.MicroplanBoundary",
+    "navigationURL": "/workbench-ui/employee/campaign/boundary/home?type=microplan",
+    "leftIcon": "ProjectIcon",
+    "rightIcon": ""
+  },   
+      {
+    "id": 1951,
+    "name": "CampaignBoundary",
+    "url": "url",
+    "displayName": "CampaignBoundary",
+    "orderNumber": 2,
+    "parentModule": "HCM",
+    "enabled": true,
+    "serviceCode": "HCM",
+    "code": "",
+    "path": "Boundary.CampaignBoundary",
+    "navigationURL": "/workbench-ui/employee/campaign/boundary/home?type=campaign",
+    "leftIcon": "ProjectIcon",
+    "rightIcon": ""
+  }    ,  
+       {
+    "id": 1952,
+    "name": "OthersBoundary",
+    "url": "url",
+    "displayName": "OthersBoundary",
+    "orderNumber": 2,
+    "parentModule": "HCM",
+    "enabled": true,
+    "serviceCode": "HCM",
+    "code": "",
+    "path": "Boundary.OthersBoundary",
+    "navigationURL": "/workbench-ui/employee/campaign/boundary/home?type=others&hierarchyType=campaign",
+    "leftIcon": "ProjectIcon",
+    "rightIcon": ""
+  }   
     
   ]
 }
