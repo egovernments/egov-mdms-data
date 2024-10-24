@@ -2,70 +2,17 @@
     "tenantId": "pg",
     "moduleName": "common-masters",
     "StaticData": [
-        {
-            "PT" : {
-                "payViaWhatsApp": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva",
-                "helpline": 
-                { 
-                  "contactOne": "7878787878",
-                  "contactTwo": "7979797979"
-                },
-                "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
-                "staticDataOne": "7-10",
-                "staticDataTwo": "₹500",
-                "viewMapLocation": "https://www.google.com/maps/place/eGovernments+Foundation/@12.928746,77.6257499,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15ded4726555:0xe85af37e345d61bb!8m2!3d12.9287543!4d77.6279401"
-            },
-
-            "TL" : {
-                "helpline": 
-                { 
-                  "contactOne": "7878787878",
-                  "contactTwo": "7979797979"
-                },
-                "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
-                "viewMapLocation": "https://www.google.com/maps/place/eGovernments+Foundation/@12.928746,77.6257499,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15ded4726555:0xe85af37e345d61bb!8m2!3d12.9287543!4d77.6279401"
-            },
-
-            "MCOLLECT" : {
-                "helpline": 
-                { 
-                  "contactOne": "7878787878",
-                  "contactTwo": "7979797979"
-                },
-                "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
-                "viewMapLocation": "https://www.google.com/maps/place/eGovernments+Foundation/@12.928746,77.6257499,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15ded4726555:0xe85af37e345d61bb!8m2!3d12.9287543!4d77.6279401"
-            },
-            "PGR" : {
-              "helpline": 
-              { 
-                "contactOne": "7878787878",
-                "contactTwo": "7979797979"
-              },
-              "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
-              "viewMapLocation": "https://www.google.com/maps/place/eGovernments+Foundation/@12.928746,77.6257499,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15ded4726555:0xe85af37e345d61bb!8m2!3d12.9287543!4d77.6279401"
-          },
-          "OBPS" : {
+      {  
+      "OBPS" : {
             "helpline": 
               { 
-                "contactOne": "7878787878",
-                "contactTwo": "7979797979"
+                "contactOne": "+253 21 35 60 34"
               },
-              "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
+              "serviceCenter": "Direction de l'aménagement du territoire et de l'Habitat (DATUH) H5H5+QF6 Z. Ind. sud Boulaos, Djibout",
               "validity": "1",
-              "viewMapLocation": "https://www.google.com/maps/place/eGovernments+Foundation/@12.928746,77.6257499,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15ded4726555:0xe85af37e345d61bb!8m2!3d12.9287543!4d77.6279401"
-        },
-        "WS" : {
-          "payViaWhatsApp": "https://api.whatsapp.com/send?phone=918744060444&text=mSeva",
-          "helpline": 
-              { 
-                "contactOne": "7878787878",
-                "contactTwo": "7979797979"
-              },
-              "serviceCenter": "#44, Sharath Complex, 2nd Cross, 3rd Main, Rajpur Road, Dehradun, UK",
-              "staticDataOne": "30",
-              "staticDataTwo": "25-30",
-              "viewMapLocation": "https://www.google.com/maps/place/eGovernments+Foundation/@12.928746,77.6257499,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae15ded4726555:0xe85af37e345d61bb!8m2!3d12.9287543!4d77.6279401"
+              "viewMapLocation": "https://www.google.com/maps/place/Direction+de+l'am%C3%A9nagement+du+territoire+et+de+l'Habitat+(+DATUH+)/@11.5789951,43.1580731,15z/data=!4m6!3m5!1s0x162301005793b911:0x9f9275a81d8804e7!8m2!3d11.5789951!4d43.1580731!16s%2Fg%2F11vsyqlvzz?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D"
         }
-          }
+       
+      }
     ]
 }
