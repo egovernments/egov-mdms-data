@@ -15312,7 +15312,19 @@
     "serviceCode": "census-service",
     "code": "null",
     "path": "/census-service/census/bulk/_update"
-  }
+  },
+  {
+    "id": 1955,
+    "name": "census service bulk update",
+    "url": "/census-service/bulk/_update",
+    "displayName": "census service bulk update",
+    "orderNumber": 0,
+    "enabled": false,
+    "serviceCode": "census-service",
+    "code": "null",
+    "path": "/census-service/bulk/_update"
+}
+
     
   ]
 }
