@@ -1,0 +1,216 @@
+{
+    "tenantId": "pg",
+    "moduleName": "dss-dashboard",
+    "FAQs": [
+        {
+            "DSS": {
+                "FAQs":  [
+                    {
+                        "question": "QUES_ONE_VARIOUS_ACRYNOMS_DSS_STAND",
+                        "answer": [
+                            {
+                                "ans": "ACRYNOMS_LISTED_BELOW"
+                            }
+                        ],
+                        "acrynom": [
+                            {
+                                "acr":"DSS_#",
+                                "fullForm": "DSS_NUMBER"
+                            },
+                            {
+                                "acr":"DSS_AVG",
+                                "fullForm": "DSS_AVERAGE"
+                            },
+                            {
+                                "acr":"DSS_BPA",
+                                "fullForm": "DSS_BUILDING_PLAN_APPROVAL"
+                            },
+                            {
+                                "acr":"DSS_CSC",
+                                "fullForm": "DSS_CITIZEN_SERVICE_CENTER"
+                            },
+                            {
+                                "acr":"DSS_DSS",
+                                "fullForm": "DSS_DECISION_SUPPORT_SYSTEM"
+                            },
+                            {
+                                "acr":"DSS_LY",
+                                "fullForm": "DSS_LAST_YEAR"
+                            },
+                            {
+                                "acr":"DSS_NOC",
+                                "fullForm": "DSS_NO_OBJECTION_CERTIFICATE"
+                            },
+                            {
+                                "acr":"DSS_OBPA",
+                                "fullForm": "DSS_ONLINE_BUILDING_PLAN_APPROVAL_SYSTEM"
+                            },
+                            {
+                                "acr":"DSS_OC",
+                                "fullForm": "DSS_OCCUPANCY_CERTIFICATE"
+                            },
+                            {
+                                "acr":"DSS_POS",
+                                "fullForm": "DSS_POINT_OF_SALE"
+                            },
+                            {
+                                "acr":"DSS_PT",
+                                "fullForm": "DSS_PROPERTY_TAX"
+                            },
+                            {
+                                "acr":"DSS_SLA",
+                                "fullForm": "DSS_SERVICE_LEVEL_AGREEMENT"
+                            },
+                            {
+                                "acr":"DSS_SM",
+                                "fullForm": "DSS_SQUARE_METER"
+                            },
+                            {
+                                "acr":"DSS_UPI",
+                                "fullForm": "DSS_UNIFIED_PAYMENT_INTERFACE"
+                            },
+                            {
+                                "acr":"DSS_W&S",
+                                "fullForm": "DSS_WATER_AND_SEWERAGE"
+                            }
+                        ]
+                    },
+                    {
+                        "question": "QUES_TWO_HOW_CAN_I_SEE_THE_TOTAL_TAX_COLLECTION",
+                        "answer": [
+                            {
+                                "point": "CLICK_ON_PROPERTY_TAX"
+                            },
+                            {
+                                "point": "TOP_OF_THE_SCREEN"
+                            },
+                            {
+                                "point": "CLICK_ON_THE_DROPDOWN"
+                            },
+                            {
+                                "point": "TO_VIEW_THE_DATA"
+                            },
+                            {
+                                "point": "TOTAL_COLLECTION"
+                            }
+                        ]
+                    },
+                    {
+                        "question": "QUES_THREE_HOW_CAN_I_VIEW_VALUES_GRAPH",
+                        "answer": [
+                            {
+                                "ans": "FOR_PIE_CHARTS"
+                            },
+                            {
+                                "point": "HOVER_OVER_THE_INDIVIDUAL_SLICES"
+                            }
+                        ],
+                        "subAnswer" : [
+                          {
+                            "ans": "FOR_LINE/BAR_GRAPHS"
+                        },
+                        {
+                            "point": "HOVER_OVER_HE_INE/BAR"
+                        }
+                        ]
+                      },
+                    {
+                        "question": "QUES_FOUR_HOW_CAN_I_COMPARE_THE_METRICS",
+                        "answer":[
+                            {
+                              "ans": "VALUES_OF_EACH_METRIC_CORRESPONDING_SAME_TIME"
+                            }
+                            ]
+                    },
+                    {
+                        "question": "QUES_FIVE_CAN_I_DOWNLOAD_THE_DASHBOARD",
+                        "answer":[
+                            {
+                              "ans": "THE_DASHBOARD_CAN_BE_DOWNLOADED"
+                            },
+                            {
+                                "ans":"TO_DOWNLOAD_ANY_INDIVIDUAL_CARDS"
+                            }
+                            ]
+                    },
+                    {
+                        "question": "QUES_SIX_CAN_I_DOWNLOAD_THE_TABULAR_CHARTS",
+                        "answer":[
+                            {
+                              "ans": "THE_TABULAR_CHARTS_ARE_DOWNLOADED"
+                            }
+                            ]
+                    },
+                    {
+                        "question": "QUES_SEVEN_HOW_CAN_I_SEE_PERFORMANCE_RANKING",
+                        "answer":[
+                            {
+                              "ans": "BELOW_THE_TOP"
+                            }
+                            ]
+                    },
+                    {
+                        "question": "QUES_EIGHT_HOW_PERFORMING_STATES_ASSESSED",
+                        "answer":[
+                            {
+                              "ans": "PERFORMING_STATES_IN_THE_REVENUE_TABS"
+                            }
+                            ]
+                    },
+                    {
+                        "question": "QUES_NINE_HOW_CAN_I_VIEW_IMPLEMENTATION_STATUS_PROGRAM",
+                        "answer": [
+                            {
+                                "point": "MAP_OF_INDIA_ON_THE_LANDING_PAGE"
+                            },
+                            {
+                                "point": "CLICK_ON_ANY_ONE_LIVE_STATE"
+                            }
+                        ]
+                    },
+                    {
+                        "question": "QUES_TEN_CAN_I_VIEW_DATA_MULTIPLE_STATES",
+                        "answer": [
+                            {
+                                "point": "FIND_THE_FILTER_BOX"
+                            },
+                            {
+                                "point": "CLICK_ON_THE_DROPDOWN_ARROW"
+                            },
+                            {
+                                "point": "VIEW_THE_DATA_FOR_ANY_PARTICULAR_ULBS"
+                            }
+                        ]
+                    },
+                    {
+                        "question": "QUES_ELEVEN_CAN_I_SHARE_INDIVIDUAL_CARDS",
+                        "answer":[
+                            {
+                              "ans": "SHARE_ANY_INDIVIDUAL_CARDS_SUCH_AS_OVERVIEW"
+                            }
+                            ]
+                    },
+                    {
+                        "question": "QUES_TWELVE_HOW_CAN_I_SEE_WHICH_MODULES_ARE_LIVE",
+                        "answer": [
+                            {
+                                "point": "ON_THE_MAP_OF_INDIA_ON_THE_LANDING_PAGE"
+                            },
+                            {
+                                "point": "CLICK_ON_THE_ANY_ONE_LIVE_STATE"
+                            }
+                        ]
+                    },
+                    {
+                        "question": "QUES_THIRTEEN_WHERE_CAN_I_FIND_DEFINITIONS_FOR_VARIOUS_KPIS",
+                        "answer":[
+                            {
+                              "ans": "VARIOUS_KPIS_CAN_BE_VIEWED_BY_HOVERING"
+                            }
+                            ]
+                    }
+                ]
+            }
+        }
+    ]
+}

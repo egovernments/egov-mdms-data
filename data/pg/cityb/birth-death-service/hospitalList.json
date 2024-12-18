@@ -1,0 +1,31 @@
+{
+	"tenantId": "pg.cityb",
+	"moduleName": "birth-death-service",
+	"hospitalList": [
+		{
+			"hospitalName": "Karanveer Hospital",
+			"hospitalAddress": "Main Road, Near Amar Sweets Haibowal Kalan, Ludhiana - 141001",
+			"active": "true"
+		},
+		{
+			"hospitalName": "S P S Apollo Hospitals",
+			"hospitalAddress": "G T Road, Sherpur Chowk , Ludhiana - 141010",
+			"active": "true"
+		},
+		{
+			"hospitalName": "Guru Teg Bahadur Charitable Hospital",
+			"hospitalAddress": "Shastri Nagar Model Town, Ludhiana - 141002",
+			"active": "true"
+		},
+		{
+			"hospitalName": "Max City Hospital and Trauma Centre",
+			"hospitalAddress": "Jalandhar By Pass Road, Near Silver Kunj Main Road Vill. Bhaoura, Ludhiana - 141008",
+			"active": "true"
+		},
+		{
+			"hospitalName": "Dayanand Medical College And Hospital",
+			"hospitalAddress": "Tagore Nagar, Bharat Nagar, Main Road Civil Lines, Ludhiana - 141001",
+			"active": "true"
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "faqs": [
+        {
+
+            "PT" : {
+              "faqs": [
+                { 
+                  "question": "PT_FAQ_QUES_ONE",
+                  "answer": "PT_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "PT_FAQ_QUES_TWO",
+                  "answer": "PT_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "PT_FAQ_QUES_THREE",
+                  "answer": "PT_FAQ_ANS_THREE"
+                }
+              ]
+            },
+
+            "TL" : {
+              "faqs": [
+                { 
+                  "question": "TL_FAQ_QUES_ONE",
+                  "answer": "TL_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "TL_FAQ_QUES_TWO",
+                  "answer": "TL_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "TL_FAQ_QUES_THREE",
+                  "answer": "TL_FAQ_ANS_THREE",
+                  "subAnswer": "TL_FAQ_ANS_THREE_APP_ACKNOWLEDGE"
+                }
+              ]
+            },
+            "MCOLLECT" : {
+              "faqs": [
+                { 
+                  "question": "MCOLLECT_FAQ_QUES_ONE",
+                  "answer": "MCOLLECT_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "MCOLLECT_FAQ_QUES_TWO",
+                  "answer": "MCOLLECT_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "MCOLLECT_FAQ_QUES_THREE",
+                  "answer": "MCOLLECT_FAQ_ANS_THREE"
+                }
+              ]
+            },
+
+            "OBPS" : {
+              "faqs": [
+                { 
+                  "question": "BPA_FAQ_QUES_ONE",
+                  "answer": "BPA_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "BPA_FAQ_QUES_TWO",
+                  "answer": "BPA_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "BPA_FAQ_QUES_THREE",
+                  "answer": "BPA_FAQ_ANS_THREE"
+                }
+              ]
+            },
+            "WS":{
+              "faqs": [
+                { 
+                  "question": "WS_FAQ_QUES_ONE",
+                  "answer": "WS_FAQ_ANS_ONE"
+                },
+                {
+                  "question": "WS_FAQ_QUES_TWO",
+                  "answer": "WS_FAQ_ANS_TWO"
+                },
+                {
+                  "question": "WS_FAQ_QUES_THREE",
+                  "answer": "WS_FAQ_ANS_THREE"
+                }
+              ]
+            }
+          }
+    ]
+}

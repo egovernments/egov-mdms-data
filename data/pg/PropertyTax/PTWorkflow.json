@@ -1,0 +1,19 @@
+{
+    "tenantId": "pg",
+    "moduleName": "PropertyTax",
+    "PTWorkflow":[
+        {
+            "businessService":"PT.CREATEWITHWNS",
+            "initialAction":"OPEN",
+            "inWorkflowStatusAllowed":false,
+            "enable":false
+        },
+        {
+         "businessService":"PT.CREATE",
+         "initialAction":"open",
+         "inWorkflowStatusAllowed":true,
+         "enable":true
+     }
+   
+    ]
+   }

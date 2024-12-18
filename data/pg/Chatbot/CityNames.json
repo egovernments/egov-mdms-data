@@ -1,0 +1,26 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Chatbot",
+    "CityNames": [
+        {
+            "locale": "en",
+            "cities": [
+                "City A",
+                "City B",
+                "City C",
+                "City D",
+                "City E"
+            ]
+        },
+        {
+            "locale": "hi",
+            "cities": [
+                "शहर अ",
+                "शहर ब",
+                "शहर स",
+                "शहर डी",
+                "शहर ई"
+            ]
+        }
+    ]
+}
