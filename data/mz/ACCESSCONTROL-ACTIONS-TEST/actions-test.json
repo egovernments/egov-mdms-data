@@ -15354,6 +15354,20 @@
       "serviceCode": "null",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 2036,
+      "name": "Payments",
+      "url": "url",
+      "displayName": "ATTENDANCE_REGISTERS",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "payments",
+      "code": "null",
+      "navigationURL": "/payments-ui/employee/payments/project-selection",
+      "path": "Payments.ATTENDANCE_REGISTERS",
+      "leftIcon": "Payments"
     }
   ]
 }
