@@ -691,6 +691,11 @@
       "code": "FIRENOC_REPORT_VIEWER",
       "name": "FireNOC Report Viewer",
       "description": "FireNOC User that can view FireNOC reports"
+    },
+    {
+      "code": "PT_REPORT_VIEWER",
+      "name": "PT Report Viewer",
+      "description": "PT User that can view PT reports"
     }
   ]
 }
