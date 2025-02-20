@@ -1,0 +1,63 @@
+{
+  "tenantId": "uae",
+  "moduleName": "tenant",
+  "nationalInfo": [
+    {
+      "stateCode": "Abu-Dhabi",
+      "stateName": "Abu-Dhabi",
+      "code": "uae.Abu-Dhabi",
+      "name": "uae.Abu-Dhabi",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Dubai",
+      "stateName": "Dubai",
+      "code": "uae.Dubai",
+      "name": "uae.Dubai",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Sharjah",
+      "stateName": "Sharjah",
+      "code": "uae.Sharjah",
+      "name": "uae.Sharjah",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Ajman",
+      "stateName": "Ajman",
+      "code": "uae.Ajman",
+      "name": "uae.Ajman",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Fujairah",
+      "stateName": "Fujairah",
+      "code": "uae.Fujairah",
+      "name": "uae.Fujairah",
+      "active": true,
+      "module": "NationalDashboard"
+    }
+    ,
+    {
+      "stateCode": "Ras Al Khaimah",
+      "stateName": "Ras Al Khaimah",
+      "code": "uae.Ras_Al_Khaimah",
+      "name": "uae.Ras_Al_Khaimah.",
+      "active": true,
+      "module": "NationalDashboard"
+    },
+    {
+      "stateCode": "Umm Al Qaiwain",
+      "stateName": "Umm Al Qaiwain",
+      "code": "uae.Umm_Al_Qaiwain",
+      "name": "uae.Umm_Al_Qaiwain",
+      "active": true,
+      "module": "NationalDashboard"
+    }
+  ]
+}

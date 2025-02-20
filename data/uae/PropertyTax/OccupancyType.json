@@ -1,0 +1,22 @@
+{
+  "tenantId": "uae",
+  "moduleName": "PropertyTax",
+  "OccupancyType":
+  [
+    {
+      "name": "Tenanted/ Rented",
+      "code": "RENTED",
+      "active": true
+    },
+    {
+      "name": "Self-Occupied",
+      "code": "SELFOCCUPIED",
+      "active": true
+    },
+    {
+      "name": "Unoccupied",
+      "code": "UNOCCUPIED",
+      "active": true
+    }
+  ]
+}
