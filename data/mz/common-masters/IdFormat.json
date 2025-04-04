@@ -89,6 +89,14 @@
     {
       "format": "MR/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_MUSTER_NUM]",
       "idname": "muster.number"
+    },
+    {
+      "format": "[d{12}]",
+      "idname": "id.pool.number.random"
+    },
+    {
+      "format": "[SEQ_ID_POOL_NUM]",
+      "idname": "id.pool.number"
     }
   ]
 }
