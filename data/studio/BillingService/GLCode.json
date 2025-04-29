@@ -1,0 +1,16 @@
+{
+	"tenantId": "studio",
+	"moduleName": "BillingService",
+	"GLCode": [
+	{
+		"code": "BIRTH_CERT",
+		"glcode": null,
+		"cb": "studio.citya"
+	},
+	{
+		"code": "DEATH_CERT",
+		"glcode": null,
+		"cb": "studio.citya"
+	}
+	]
+}
