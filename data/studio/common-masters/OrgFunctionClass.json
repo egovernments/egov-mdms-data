@@ -1,0 +1,41 @@
+{
+  "tenantId": "studio",
+  "moduleName": "common-masters",
+  "OrgFunctionClass": [
+    {
+      "code": "CA",
+      "description": "Class A",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CB",
+      "description": "Class B",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CC",
+      "description": "Class C",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CD",
+      "description": "Class D",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "NA",
+      "description": "Not Applicable",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}
