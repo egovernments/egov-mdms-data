@@ -17,6 +17,10 @@
           {
             "code": "nampula",
             "url": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/nampula.json"
+          },
+          {
+            "code": "hierarchytest_mo",
+            "url": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/test-mo-map.json"
           }
       ]
 }
