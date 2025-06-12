@@ -156,6 +156,11 @@
       "code": "CAMPAIGN_SUPERVISOR",
       "name": "Campaign Supervisor",
       "description": "Campaign Supervisor- Bill Generator"
+    },
+    {
+      "code": "ANONYMOUS",
+      "name": "Anonymous User",
+      "description": "Anonymous User to be used in case of no auth"
     }
   ]
 }
