@@ -3220,12 +3220,6 @@
     },
     {
       "rolecode": "FSM_ADMIN",
-      "actionid": 219,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_ADMIN",
       "actionid": 305,
       "actioncode": "",
       "tenantId": "pg"
@@ -3244,31 +3238,13 @@
     },
     {
       "rolecode": "FSM_DSO",
-      "actionid": 219,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_DSO",
       "actionid": 306,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "FSM_EDITOR_EMP",
-      "actionid": 219,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EDITOR_EMP",
       "actionid": 306,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_VIEW_EMP",
-      "actionid": 219,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -3287,12 +3263,6 @@
     {
       "rolecode": "FSM_VIEW_EMP",
       "actionid": 296,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 219,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -3363,36 +3333,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "FSM_ADMIN",
-      "actionid": 224,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 225,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EDITOR_EMP",
-      "actionid": 225,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_ADMIN",
-      "actionid": 225,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_DSO",
-      "actionid": 225,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 329,
       "actioncode": "",
@@ -3424,43 +3364,7 @@
     },
     {
       "rolecode": "FSM_DSO",
-      "actionid": 339,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_DSO",
-      "actionid": 340,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_DSO",
-      "actionid": 341,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_DSO",
       "actionid": 342,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 339,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 340,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 341,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -3550,12 +3454,6 @@
     },
     {
       "rolecode": "FSM_EDITOR_EMP",
-      "actionid": 255,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EDITOR_EMP",
       "actionid": 259,
       "actioncode": "",
       "tenantId": "pg"
@@ -3574,12 +3472,6 @@
     },
     {
       "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 257,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_CREATOR_EMP",
       "actionid": 259,
       "actioncode": "",
       "tenantId": "pg"
@@ -3587,18 +3479,6 @@
     {
       "rolecode": "FSM_COLLECTOR",
       "actionid": 254,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_COLLECTOR",
-      "actionid": 256,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_COLLECTOR",
-      "actionid": 257,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -3617,12 +3497,6 @@
     {
       "rolecode": "FSM_EMP_FSTPO",
       "actionid": 258,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 219,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -4323,12 +4197,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 230,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "FSM_EDITOR_EMP",
       "actionid": 323,
       "actioncode": "",
@@ -4364,18 +4232,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 288,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 289,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
+   
     {
       "rolecode": "FSM_DASHBOARD_VIEWER",
       "actionid": 1889,
@@ -4451,42 +4308,6 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 22,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_ADMIN",
-      "actionid": 229,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 229,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 229,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_ADMIN",
-      "actionid": 226,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 226,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 226,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -24302,12 +24123,6 @@
       "tenantId": "pg"
   },
   {
-      "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 5076,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
       "rolecode": "FSM_DSO",
       "actionid": 5077,
       "actioncode": "",
@@ -24328,30 +24143,6 @@
   {
       "rolecode": "FSM_COLLECTOR",
       "actionid": 5077,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_EDITOR_EMP",
-      "actionid": 5078,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_COLLECTOR",
-      "actionid": 5079,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_CREATOR_EMP",
-      "actionid": 5080,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_COLLECTOR",
-      "actionid": 5080,
       "actioncode": "",
       "tenantId": "pg"
   },
@@ -24466,30 +24257,6 @@
   {
       "rolecode": "FSM_DSO",
       "actionid": 4743,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_DSO",
-      "actionid": 4737,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 4737,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_DSO",
-      "actionid": 4748,
-      "actioncode": "",
-      "tenantId": "pg"
-  },
-  {
-      "rolecode": "FSM_EMP_FSTPO",
-      "actionid": 4748,
       "actioncode": "",
       "tenantId": "pg"
   },
@@ -32710,42 +32477,6 @@
     {
       "rolecode": "FSM_REPORT_VIEWER",
       "actionid": 498,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 288,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 289,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 290,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 275,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 275,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PQM_TP_OPERATOR",
-      "actionid": 275,
       "actioncode": "",
       "tenantId": "pg"
     },
