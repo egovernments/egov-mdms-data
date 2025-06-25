@@ -2,254 +2,269 @@
   "tenantId": "pg.citya",
   "moduleName": "egov-location",
   "TenantBoundary": [
-      {
-          "hierarchyType": {
-              "code": "REVENUE",
-              "name": "REVENUE"
-          },
-          "boundary": {
-              "id": 1,
-              "boundaryNum": 1,
-              "name": "CityA",
-              "localname": "CityA",
-              "longitude": null,
-              "latitude": null,
-              "label": "City",
-              "code": "pg.citya",
-              "children": [
-                  {
-                      "id": 2,
-                      "boundaryNum": 1,
-                      "name": "Zone 1",
-                      "localname": "Zone1",
-                      "longitude": null,
-                      "latitude": null,
-                      "label": "Zone",
-                      "code": "Z1",
-                      "children": [
-                          {
-                              "id": 3,
-                              "boundaryNum": 1,
-                              "name": "Block 1",
-                              "localname": "Block1",
-                              "longitude": null,
-                              "latitude": null,
-                              "label": "Block",
-                              "code": "B1",
-                              "children": [
-                                  {
-                                      "id": 4,
-                                      "boundaryNum": 1,
-                                      "name": "Heritage Square",
-                                      "localname": "Heritage Square",
-                                      "longitude": 74.871552,
-                                      "latitude": 31.63089,
-                                      "label": "Locality",
-                                      "code": "SUN01",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 5,
-                                      "boundaryNum": 1,
-                                      "name": "Evergreen Park",
-                                      "localname": "Evergreen Park",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN02",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 6,
-                                      "boundaryNum": 1,
-                                      "name": "Maplewood",
-                                      "localname": "Maplewood",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN03",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 7,
-                                      "boundaryNum": 1,
-                                      "name": "Central Plaza",
-                                      "localname": "Central Plaza",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN04",
-                                      "area": "Area3",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 8,
-                                      "boundaryNum": 1,
-                                      "name": "Innovation Park",
-                                      "localname": "Innovation Park",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN05",
-                                      "area": "Area3",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 9,
-                                      "boundaryNum": 1,
-                                      "name": "Financial District",
-                                      "localname": "Financial District",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN06",
-                                      "area": "Area3",
-                                      "children": []
-                                  }
-                              ]
-                          }
-                      ]
-                  }
-              ]
-          }
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
       },
-      {
-          "hierarchyType": {
-              "code": "ADMIN",
-              "name": "ADMIN"
-          },
-          "boundary": {
-              "id": 1,
-              "boundaryNum": 1,
-              "name": "CityA",
-              "localname": "CityA",
-              "longitude": null,
-              "latitude": null,
-              "label": "City",
-              "code": "pg.citya",
-              "children": [
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "CityA",
+        "localname": "CityA",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.citya",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Zone 1",
+            "localname": "Zone1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z1",
+            "children": [
+              {
+                "id": 3,
+                "boundaryNum": 1,
+                "name": "Block 1",
+                "localname": "Block1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B1",
+                "children": [
                   {
-                      "id": 2,
-                      "boundaryNum": 1,
-                      "name": "Zone 1",
-                      "localname": "Zone1",
-                      "longitude": null,
-                      "latitude": null,
-                      "label": "Zone",
-                      "code": "Z1",
-                      "children": [
-                          {
-                              "id": 3,
-                              "boundaryNum": 1,
-                              "name": "Block 1",
-                              "localname": "Block1",
-                              "longitude": null,
-                              "latitude": null,
-                              "label": "Block",
-                              "code": "B1",
-                              "children": [
-                                  {
-                                      "id": 4,
-                                      "boundaryNum": 1,
-                                      "name": "Heritage Square",
-                                      "localname": "Heritage Square",
-                                      "longitude": 74.871552,
-                                      "latitude": 31.63089,
-                                      "label": "Locality",
-                                      "code": "SUN01",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 5,
-                                      "boundaryNum": 1,
-                                      "name": "Evergreen Park",
-                                      "localname": "Evergreen Park",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN02",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 6,
-                                      "boundaryNum": 1,
-                                      "name": "Maplewood",
-                                      "localname": "Maplewood",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN03",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 7,
-                                      "boundaryNum": 1,
-                                      "name": "Central Plaza",
-                                      "localname": "Central Plaza",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN04",
-                                      "pincode": [
-                                          143001
-                                      ],
-                                      "area": "Area1",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 8,
-                                      "boundaryNum": 1,
-                                      "name": "Innovation Park",
-                                      "localname": "Innovation Park",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN05",
-                                      "area": "Area3",
-                                      "children": []
-                                  },
-                                  {
-                                      "id": 9,
-                                      "boundaryNum": 1,
-                                      "name": "Financial District",
-                                      "localname": "Financial District",
-                                      "longitude": null,
-                                      "latitude": null,
-                                      "label": "Locality",
-                                      "code": "SUN06",
-                                      "area": "Area3",
-                                      "children": []
-                                  }
-                              ]
-                          }
-                      ]
+                    "id": 4,
+                    "boundaryNum": 1,
+                    "name": "Heritage Square",
+                    "localname": "Heritage Square",
+                    "longitude": 74.871552,
+                    "latitude": 31.63089,
+                    "label": "Locality",
+                    "code": "SUN01",
+                    "pincode": [
+                      144001
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 5,
+                    "boundaryNum": 1,
+                    "name": "Evergreen Park",
+                    "localname": "Evergreen Park",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN02",
+                    "pincode": [
+                      144002
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 6,
+                    "boundaryNum": 1,
+                    "name": "Maplewood",
+                    "localname": "Maplewood",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN03",
+                    "pincode": [
+                      144003
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 7,
+                    "boundaryNum": 1,
+                    "name": "Central Plaza",
+                    "localname": "Central Plaza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN04",
+                    "pincode": [
+                      144004
+                    ],
+                    "area": "Area3",
+                    "children": []
+                  },
+                  {
+                    "id": 8,
+                    "boundaryNum": 1,
+                    "name": "Innovation Park",
+                    "localname": "Innovation Park",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN05",
+                    "pincode": [
+                      144005
+                    ],
+                    "area": "Area3",
+                    "children": []
+                  },
+                  {
+                    "id": 9,
+                    "boundaryNum": 1,
+                    "name": "Financial District",
+                    "localname": "Financial District",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN06",
+                    "pincode": [
+                      144006
+                    ],
+                    "area": "Area3",
+                    "children": []
                   }
-              ]
+                ]
+              }
+            ]
           }
+        ]
       }
+    },
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "CityA",
+        "localname": "CityA",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "pg.citya",
+        "children": [
+          {
+            "id": 2,
+            "boundaryNum": 1,
+            "name": "Zone 1",
+            "localname": "Zone1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Zone",
+            "code": "Z1",
+            "children": [
+              {
+                "id": 3,
+                "boundaryNum": 1,
+                "name": "Block 1",
+                "localname": "Block1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "B1",
+                "children": [
+                  {
+                    "id": 4,
+                    "boundaryNum": 1,
+                    "name": "Heritage Square",
+                    "localname": "Heritage Square",
+                    "longitude": 74.871552,
+                    "latitude": 31.63089,
+                    "label": "Locality",
+                    "code": "SUN01",
+                    "pincode": [
+                      144001
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 5,
+                    "boundaryNum": 1,
+                    "name": "Evergreen Park",
+                    "localname": "Evergreen Park",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN02",
+                    "pincode": [
+                      144002
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 6,
+                    "boundaryNum": 1,
+                    "name": "Maplewood",
+                    "localname": "Maplewood",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN03",
+                    "pincode": [
+                      144003
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 7,
+                    "boundaryNum": 1,
+                    "name": "Central Plaza",
+                    "localname": "Central Plaza",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN04",
+                    "pincode": [
+                      144004
+                    ],
+                    "area": "Area1",
+                    "children": []
+                  },
+                  {
+                    "id": 8,
+                    "boundaryNum": 1,
+                    "name": "Innovation Park",
+                    "localname": "Innovation Park",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN05",
+                    "pincode": [
+                      144005
+                    ],
+                    "area": "Area3",
+                    "children": []
+                  },
+                  {
+                    "id": 9,
+                    "boundaryNum": 1,
+                    "name": "Financial District",
+                    "localname": "Financial District",
+                    "longitude": null,
+                    "latitude": null,
+                    "label": "Locality",
+                    "code": "SUN06",
+                    "pincode": [
+                      144006
+                    ],
+                    "area": "Area3",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   ]
 }
