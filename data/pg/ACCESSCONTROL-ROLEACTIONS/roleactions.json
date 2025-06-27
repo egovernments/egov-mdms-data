@@ -22773,6 +22773,12 @@
       "tenantId": "pg"
   },
   {
+      "rolecode": "BPA_CITIZEN",
+      "actionid": 5042,
+      "actioncode": "",
+      "tenantId": "pg"
+  },
+  {
       "rolecode": "BPA_ARCHITECT",
       "actionid": 5043,
       "actioncode": "",
@@ -32877,7 +32883,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "BPA_CITIZEN",
+      "rolecode": "BPA_ARCHITECT",
       "actionid": 4924,
       "actioncode": "",
       "tenantId": "pg"
