@@ -33607,7 +33607,19 @@
       "actionid": 5041,
       "actioncode": "",
       "tenantId": "pg"
-  }
+  },
+    {
+      "rolecode": "FN_CITIZEN",
+      "actionid": 4817,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "FN_CITIZEN",
+      "actionid": 4801,
+      "actioncode": "",
+      "tenantId": "pg"
+    } 
   ]
 }
  
