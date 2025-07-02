@@ -15650,6 +15650,18 @@
       "displayName": "Template Generate",
       "orderNumber": 0,
       "serviceCode": "mdms"
+    },
+     {
+      "id": 2061,
+      "name": "Share Data",
+      "url": "",
+      "displayName": "HOME_DATA_SHARE_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
     }
   ]
 }
