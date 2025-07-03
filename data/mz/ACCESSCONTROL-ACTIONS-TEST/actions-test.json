@@ -15662,6 +15662,17 @@
       "serviceCode": "null",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 2062,
+      "name": "Update tag",
+      "url": "/health-attendance/attendee/v1/_updateTag",
+      "displayName": "Update tag",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "health-attendance",
+      "code": "null",
+      "path": ""
     }
   ]
 }
