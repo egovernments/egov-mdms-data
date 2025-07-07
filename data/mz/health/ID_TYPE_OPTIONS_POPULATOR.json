@@ -1,0 +1,18 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM",
+  "ID_TYPE_OPTIONS_POPULATOR": [
+    {
+                    "code": "UNIQUE_BENEFICIARY_ID",
+                    "name": "UNIQUE_BENEFICIARY_ID"
+                },
+                {
+                    "code": "DEFAULT",
+                    "name": "DEFAULT"
+                },
+                {
+                    "code": "PAN",
+                    "name": "PAN"
+                }
+  ]
+}

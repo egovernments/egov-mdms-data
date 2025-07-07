@@ -15558,6 +15558,157 @@
       "orderNumber": 0,
       "serviceCode": "DSS",
       "parentModule": ""
+     },
+    {
+      "id": 2050,
+      "name": "Create HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+    {
+      "id": 2051,
+      "name": "Update HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
+      "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+     {
+      "id": 2052,
+      "name": "Create HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FieldTypeMappingConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+    {
+      "id": 2053,
+      "name": "Update HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
+      "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FieldTypeMappingConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+     {
+      "id": 2054,
+      "name": "Create HCM-ADMIN-CONSOLE.FormConfigTemplate",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FormConfigTemplate",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FormConfigTemplate update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+    {
+      "id": 2055,
+      "name": "Update HCM-ADMIN-CONSOLE.FormConfigTemplate",
+      "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.FormConfigTemplate",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FormConfigTemplate update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+     {
+      "id": 2056,
+      "name": "Create HCM-ADMIN-CONSOLE.FormConfig",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FormConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FormConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+    {
+      "id": 2057,
+      "name": "Update HCM-ADMIN-CONSOLE.FormConfig",
+      "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.FormConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.FormConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+     },
+     {
+      "id": 2058,
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.AppConfigCache",
+      "code": "null",
+      "name": "create data for schema",
+      "path": "",
+      "enabled": true,
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "serviceCode": "mdms"
+    },
+      {
+      "id": 2059,
+      "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.AppConfigCache",
+      "code": "null",
+      "name": "Update data for schema",
+      "path": "",
+      "enabled": true,
+      "displayName": "schema create data API",
+      "orderNumber": 0,
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 2060,
+      "url": "/project-factory/v2/data/_process",
+      "code": "null",
+      "name": "Template Generate V2",
+      "enabled": true,
+      "displayName": "Template Generate",
+      "orderNumber": 0,
+      "serviceCode": "mdms"
+    },
+     {
+      "id": 2061,
+      "name": "Share Data",
+      "url": "",
+      "displayName": "HOME_DATA_SHARE_LABEL",
+      "orderNumber": 1,
+      "parentModule": "cards",
+      "enabled": true,
+      "serviceCode": "null",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 2062,
+      "name": "Update tag",
+      "url": "/health-attendance/attendee/v1/_updateTag",
+      "displayName": "Update tag",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "health-attendance",
+      "code": "null",
+      "path": ""
     }
   ]
 }
