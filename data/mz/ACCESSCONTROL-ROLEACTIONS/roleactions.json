@@ -1,4 +1,4 @@
- {
+{
   "tenantId": "mz",
   "moduleName": "ACCESSCONTROL-ROLEACTIONS",
   "roleactions": [
@@ -14,19 +14,19 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PGR-ADMIN",
       "actionid": 1640,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PGR-ADMIN",
       "actionid": 1641,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PGR-ADMIN",
       "actionid": 1642,
       "actioncode": "",
@@ -17288,7 +17288,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 1725,
       "actioncode": "",
@@ -19399,19 +19399,19 @@
       "actionid": 1888,
       "actioncode": "",
       "tenantId": "mz"
-    },    
+    },
     {
       "rolecode": "MICROPLAN_ADMIN",
       "actionid": 2000,
       "actioncode": "",
       "tenantId": "mz"
-    },   
+    },
     {
       "rolecode": "MICROPLAN_ADMIN",
       "actionid": 2001,
       "actioncode": "",
       "tenantId": "mz"
-    },   
+    },
     {
       "rolecode": "MICROPLAN_ADMIN",
       "actionid": 2002,
@@ -19658,13 +19658,13 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 2013,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 2014,
       "actioncode": "",
@@ -20096,7 +20096,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "SYSTEM_ADMINISTRATOR",
       "actionid": 2017,
       "actioncode": "",
@@ -20174,13 +20174,13 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "BOUNDARY_MANAGER",
       "actionid": 1734,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "BOUNDARY_MANAGER",
       "actionid": 1774,
       "actioncode": "",
@@ -20348,102 +20348,102 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1696,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1697,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1698,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1699,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1700,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1701,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1702,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1703,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1704,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1705,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1708,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1729,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 604,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1748,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1753,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "PROXIMITY_SUPERVISOR",
-    "actionid": 1754,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1696,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1697,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1698,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1699,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1700,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1701,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1702,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1703,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1704,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1705,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1708,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1748,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1753,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 1754,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
     {
       "rolecode": "PROXIMITY_SUPERVISOR",
       "actionid": 1960,
@@ -20486,102 +20486,102 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1696,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1697,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1698,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1699,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1700,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1701,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1702,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1703,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1704,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1705,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1708,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1729,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 604,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1748,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1753,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "CAMPAIGN_SUPERVISOR",
-    "actionid": 1754,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1696,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1697,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1698,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1699,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1700,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1701,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1702,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1703,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1704,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1705,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1708,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1748,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1753,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_SUPERVISOR",
+      "actionid": 1754,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
     {
       "rolecode": "CAMPAIGN_SUPERVISOR",
       "actionid": 1960,
@@ -20642,30 +20642,30 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-  {
-    "rolecode": "COMMUNITY_CREATOR",
-    "actionid": 1546,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-   {
-    "rolecode": "COMMUNITY_CREATOR",
-    "actionid": 2025,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-  {
-    "rolecode": "DISTRIBUTOR",
-    "actionid": 2026,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
-   {
-    "rolecode": "COMMUNITY_CREATOR",
-    "actionid": 2027,
-    "actioncode": "",
-    "tenantId": "mz"
-  },
+    {
+      "rolecode": "COMMUNITY_CREATOR",
+      "actionid": 1546,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "COMMUNITY_CREATOR",
+      "actionid": 2025,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "DISTRIBUTOR",
+      "actionid": 2026,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+    {
+      "rolecode": "COMMUNITY_CREATOR",
+      "actionid": 2027,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
     {
       "rolecode": "MICROPLAN_ADMIN",
       "actionid": 698,
@@ -20720,7 +20720,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "CAMPAIGN_SUPERVISOR",
       "actionid": 1774,
       "actioncode": "",
@@ -20732,24 +20732,24 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "DISTRICT_SUPERVISOR",
       "actionid": 1747,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PROXIMITY_SUPERVISOR",
       "actionid": 1747,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "MDMS_ADMIN",
       "actionid": 2028,
       "actioncode": "",
       "tenantId": "mz"
-   },
+    },
     {
       "rolecode": "NATIONAL_SUPERVISOR",
       "actionid": 2029,
@@ -20858,7 +20858,7 @@
       "actioncode": "",
       "tenantid": "mz"
     },
-   {
+    {
       "rolecode": "ROOT_POPULATION_DATA_APPROVER",
       "actionid": 701,
       "actioncode": "",
@@ -20912,7 +20912,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "SYSTEM_ADMINISTRATOR",
       "actionid": 2036,
       "actioncode": "",
@@ -20954,19 +20954,19 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "NATIONAL_SUPERVISOR",
       "actionid": 2036,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 2036,
       "actioncode": "",
       "tenantId": "mz"
     },
-     {
+    {
       "rolecode": "DISTRICT_SUPERVISOR",
       "actionid": 2036,
       "actioncode": "",
@@ -21020,7 +21020,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "DISTRIBUTOR",
       "actionid": 870,
       "actioncode": "",
@@ -21032,7 +21032,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PROVINCIAL_SUPERVISOR",
       "actionid": 870,
       "actioncode": "",
@@ -21044,7 +21044,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "WAREHOUSE_MANAGER",
       "actionid": 870,
       "actioncode": "",
@@ -21056,7 +21056,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PROXIMITY_SUPERVISOR",
       "actionid": 870,
       "actioncode": "",
@@ -21068,7 +21068,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "COMMUNITY_CREATOR",
       "actionid": 870,
       "actioncode": "",
@@ -21098,7 +21098,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "L2_SUPPORT",
       "actionid": 1650,
       "actioncode": "",
@@ -21116,7 +21116,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PGR_ADMIN",
       "actionid": 1708,
       "actioncode": "",
@@ -21128,13 +21128,13 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 1729,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PGR_ADMIN",
       "actionid": 1729,
       "actioncode": "",
@@ -21146,13 +21146,13 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 1774,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "PGR_ADMIN",
       "actionid": 1774,
       "actioncode": "",
@@ -21164,25 +21164,25 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "SYSTEM_ADMINISTRATOR",
       "actionid": 2039,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "DISTRIBUTOR",
       "actionid": 2040,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 1726,
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 1723,
       "actioncode": "",
@@ -21200,7 +21200,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "DISTRIBUTOR",
       "actionid": 2043,
       "actioncode": "",
@@ -21224,7 +21224,7 @@
       "actioncode": "",
       "tenantId": "mz"
     },
-   {
+    {
       "rolecode": "TRANSIT_POST_VACCINATOR",
       "actionid": 2035,
       "actioncode": "",
@@ -21248,6 +21248,23 @@
       "actioncode": "",
       "tenantId": "mz"
     },
+    {
+      "rolecode": "SUPERVISOR",
+      "actionid": 2050,
+      "actioncode": "",
+      "tenantid": "mz"
+    },
+    {
+      "rolecode": "SUPERVISOR",
+      "actionid": 2051,
+      "actioncode": "",
+      "tenantid": "mz"
+    },
+    {
+      "rolecode": "SUPERVISOR",
+      "actionid": 2052,
+      "actioncode": "",
+      "tenantid": "mz"
   {
     "rolecode": "MDMS_ADMIN",
     "actionid": 2050,
