@@ -14655,7 +14655,7 @@
       "url": "/mdms-v2/v2/_create/Health.SearchProjectBeneficiaries",
       "serviceCode": "mdms"
     },
-     {
+    {
       "id": 1875,
       "name": "Product Search",
       "url": "/product/v1/_search",
@@ -14772,51 +14772,51 @@
       "displayName": "plan Facility create API",
       "orderNumber": 0,
       "serviceCode": "plan-service"
-  },
-  {
-    "id": 1885,
-    "name": "create data for schema",
-    "url": "/mdms-v2/v2/_create/commonHCMUiConfig.MasterLandingScreen",
-    "displayName": "mdms commonHCMUiConfig.MasterLandingScreen data API",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "mdms",
-    "code": "null",
-    "path": ""
-  },
-  {
-    "id": 1886,
-    "name": "create data for schema",
-    "url": "/mdms-v2/v2/_update/commonHCMUiConfig.MasterLandingScreen",
-    "displayName": "mdms commonHCMUiConfig.MasterLandingScreen data API",
-    "orderNumber": 0,
-    "enabled": false,
-    "serviceCode": "mdms",
-    "code": "null",
-    "path": ""
-  },
-  {
-    "id": 1887,
-    "url": "/plan-service/plan/facility/_search",
-    "code": "null",
-    "name": "plan Facility search API",
-    "path": "",
-    "enabled": true,
-    "displayName": "plan Facility search API",
-    "orderNumber": 0,
-    "serviceCode": "plan-service"
-  },
-  {
-    "id": 1888,
-    "url": "/plan-service/plan/facility/_update",
-    "code": "null",
-    "name": "plan Facility update API",
-    "path": "",
-    "enabled": true,
-    "displayName": "plan Facility update API",
-    "orderNumber": 0,
-    "serviceCode": "plan-service"
-  },
+    },
+    {
+      "id": 1885,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_create/commonHCMUiConfig.MasterLandingScreen",
+      "displayName": "mdms commonHCMUiConfig.MasterLandingScreen data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1886,
+      "name": "create data for schema",
+      "url": "/mdms-v2/v2/_update/commonHCMUiConfig.MasterLandingScreen",
+      "displayName": "mdms commonHCMUiConfig.MasterLandingScreen data API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1887,
+      "url": "/plan-service/plan/facility/_search",
+      "code": "null",
+      "name": "plan Facility search API",
+      "path": "",
+      "enabled": true,
+      "displayName": "plan Facility search API",
+      "orderNumber": 0,
+      "serviceCode": "plan-service"
+    },
+    {
+      "id": 1888,
+      "url": "/plan-service/plan/facility/_update",
+      "code": "null",
+      "name": "plan Facility update API",
+      "path": "",
+      "enabled": true,
+      "displayName": "plan Facility update API",
+      "orderNumber": 0,
+      "serviceCode": "plan-service"
+    },
     {
       "id": 1960,
       "name": "Create muster roll",
@@ -14937,7 +14937,7 @@
       "code": "null",
       "path": ""
     },
-  {
+    {
       "id": 2000,
       "name": "plan employee assignment create API",
       "url": "/plan-service/employee/_create",
@@ -14984,8 +14984,8 @@
       "navigationURL": "/workbench-ui/employee/campaign/boundary/home?type=microplan",
       "leftIcon": "ProjectIcon",
       "rightIcon": ""
-    },   
-        {
+    },
+    {
       "id": 2004,
       "name": "CampaignBoundary",
       "url": "url",
@@ -14999,8 +14999,8 @@
       "navigationURL": "/workbench-ui/employee/campaign/boundary/home?type=campaign",
       "leftIcon": "ProjectIcon",
       "rightIcon": ""
-    }    ,  
-         {
+    },
+    {
       "id": 2005,
       "name": "OthersBoundary",
       "url": "url",
@@ -15066,7 +15066,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2012,
       "name": "DSS Dashboard Config National IRS Health Dashboard",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/national-health-dashboard-irs",
@@ -15202,7 +15202,7 @@
       "code": "null",
       "path": "/project-factory/v1/project-type/fetch-from-microplan"
     },
-     {
+    {
       "id": 2023,
       "name": "create data for schema",
       "url": "/mdms-v2/v2/_create/HCM.REGISTRATION_DELIVERY_CONFIGS",
@@ -15213,7 +15213,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2024,
       "name": "update data for schema",
       "url": "/mdms-v2/v2/_update/HCM.REGISTRATION_DELIVERY_CONFIGS",
@@ -15295,7 +15295,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2031,
       "name": "DSS Dashboard Config Provincial LLIN Health Dashboard",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/provincial-health-dashboard-llin",
@@ -15319,7 +15319,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2033,
       "name": "DSS Dashboard Config Provincial SMC Health Dashboard",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/provincial-health-dashboard-smc",
@@ -15439,7 +15439,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2043,
       "name": "Service Update",
       "url": "/health-service-request/service/v1/_update",
@@ -15510,6 +15510,54 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     }
+    },
+    {
+      "id": 2049,
+      "name": "Create HCM-ADMIN-CONSOLE.SimpleAppConfiguratio",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.SimpleAppConfiguration",
+      "parentModule": "",
+      "displayName": " HCM-ADMIN-CONSOLE.SimpleAppConfiguratio update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2050,
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-three-dashboard",
+      "code": "null",
+      "name": "DSS Dashboard Config Level Three Health Dashboard",
+      "path": "",
+      "enabled": false,
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "serviceCode": "DSS",
+      "parentModule": ""
+    },
+    {
+      "id": 2051,
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-two-dashboard",
+      "code": "null",
+      "name": "DSS Dashboard Config Level Two Health Dashboard",
+      "path": "",
+      "enabled": false,
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "serviceCode": "DSS",
+      "parentModule": ""
+    },
+    {
+      "id": 2052,
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-one-dashboard",
+      "code": "null",
+      "name": "DSS Dashboard Config Level One Health Dashboard",
+      "path": "",
+      "enabled": false,
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "serviceCode": "DSS",
+      "parentModule": ""
+    }
   ]
 }
