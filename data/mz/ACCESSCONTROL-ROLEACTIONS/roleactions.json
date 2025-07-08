@@ -21349,6 +21349,42 @@
       "actionid": 2062,
       "actioncode": "",
       "tenantId": "mz"
-    }
+    },
+     {
+      "rolecode": "CAMPAIGN_MANAGER",
+      "actionid": 1632,
+      "actioncode": "",
+      "tenantId": "mz"
+    },
+     {
+    "rolecode": "HRMS_ADMIN",
+    "actionid": 1761,
+    "actioncode": "",
+    "tenantId": "mz"
+  },
+    {
+    "rolecode": "HRMS_ADMIN",
+    "actionid": 1708,
+    "actioncode": "",
+    "tenantId": "mz"
+  },
+    {
+    "rolecode": "HRMS_ADMIN",
+    "actionid": 1706,
+    "actioncode": "",
+    "tenantId": "mz"
+  },
+  {
+    "rolecode": "PGR-ADMIN",
+    "actionid": 1761,
+    "actioncode": "",
+    "tenantId": "mz"
+  },
+  {
+    "rolecode": "PGR-ADMIN",
+    "actionid": 1650,
+    "actioncode": "",
+    "tenantId": "mz"
+  }
   ]
 }
