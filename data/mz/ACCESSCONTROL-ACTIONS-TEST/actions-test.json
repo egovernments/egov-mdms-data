@@ -15525,42 +15525,6 @@
     },
     {
       "id": 2050,
-      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-three-dashboard",
-      "code": "null",
-      "name": "DSS Dashboard Config Level Three Health Dashboard",
-      "path": "",
-      "enabled": false,
-      "displayName": "DSS",
-      "orderNumber": 0,
-      "serviceCode": "DSS",
-      "parentModule": ""
-    },
-    {
-      "id": 2051,
-      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-two-dashboard",
-      "code": "null",
-      "name": "DSS Dashboard Config Level Two Health Dashboard",
-      "path": "",
-      "enabled": false,
-      "displayName": "DSS",
-      "orderNumber": 0,
-      "serviceCode": "DSS",
-      "parentModule": ""
-    },
-    {
-      "id": 2052,
-      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-one-dashboard",
-      "code": "null",
-      "name": "DSS Dashboard Config Level One Health Dashboard",
-      "path": "",
-      "enabled": false,
-      "displayName": "DSS",
-      "orderNumber": 0,
-      "serviceCode": "DSS",
-      "parentModule": ""
-     },
-    {
-      "id": 2050,
       "name": "Create HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
       "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
       "parentModule": "",
@@ -15709,6 +15673,42 @@
       "serviceCode": "health-attendance",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 2063,
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-three-dashboard",
+      "code": "null",
+      "name": "DSS Dashboard Config Level Three Health Dashboard",
+      "path": "",
+      "enabled": false,
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "serviceCode": "DSS",
+      "parentModule": ""
+    },
+    {
+      "id": 2064,
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-two-dashboard",
+      "code": "null",
+      "name": "DSS Dashboard Config Level Two Health Dashboard",
+      "path": "",
+      "enabled": false,
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "serviceCode": "DSS",
+      "parentModule": ""
+    },
+    {
+      "id": 2065,
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/level-one-dashboard",
+      "code": "null",
+      "name": "DSS Dashboard Config Level One Health Dashboard",
+      "path": "",
+      "enabled": false,
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "serviceCode": "DSS",
+      "parentModule": ""
+     }
   ]
 }
