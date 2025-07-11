@@ -15534,7 +15534,7 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
+    },
     {
       "id": 2051,
       "name": "Update HCM-ADMIN-CONSOLE.FieldPropertiesPanelConfig",
@@ -15546,8 +15546,8 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
-     {
+    },
+    {
       "id": 2052,
       "name": "Create HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
       "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
@@ -15558,7 +15558,7 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
+    },
     {
       "id": 2053,
       "name": "Update HCM-ADMIN-CONSOLE.FieldTypeMappingConfig",
@@ -15570,8 +15570,8 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
-     {
+    },
+    {
       "id": 2054,
       "name": "Create HCM-ADMIN-CONSOLE.FormConfigTemplate",
       "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FormConfigTemplate",
@@ -15582,7 +15582,7 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
+    },
     {
       "id": 2055,
       "name": "Update HCM-ADMIN-CONSOLE.FormConfigTemplate",
@@ -15594,8 +15594,8 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
-     {
+    },
+    {
       "id": 2056,
       "name": "Create HCM-ADMIN-CONSOLE.FormConfig",
       "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.FormConfig",
@@ -15606,7 +15606,7 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
+    },
     {
       "id": 2057,
       "name": "Update HCM-ADMIN-CONSOLE.FormConfig",
@@ -15618,8 +15618,8 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
-     },
-     {
+    },
+    {
       "id": 2058,
       "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.AppConfigCache",
       "code": "null",
@@ -15630,7 +15630,7 @@
       "orderNumber": 0,
       "serviceCode": "mdms"
     },
-      {
+    {
       "id": 2059,
       "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.AppConfigCache",
       "code": "null",
@@ -15651,7 +15651,7 @@
       "orderNumber": 0,
       "serviceCode": "mdms"
     },
-     {
+    {
       "id": 2061,
       "name": "Share Data",
       "url": "",
@@ -15663,7 +15663,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 2062,
       "name": "Update tag",
       "url": "/health-attendance/attendee/v1/_updateTag",
@@ -15709,6 +15709,6 @@
       "orderNumber": 0,
       "serviceCode": "DSS",
       "parentModule": ""
-     }
+    }
   ]
 }
