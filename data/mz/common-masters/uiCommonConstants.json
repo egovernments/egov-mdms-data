@@ -126,10 +126,7 @@
                                 "routePath": "/kibana/app/dashboards#/view/95cef51b-9ec0-4ca0-aee0-d312ffbf3f23?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))"
                             }
                         }
-                    }
-                },
-                {
-                    "id": "common-masters.uiCommonConstants.iccd.maps",
+                    },
                     "iccd-maps": {
                         "iframe-routes": {
                             "checklist-filled-map": {
