@@ -127,6 +127,37 @@
                             }
                         }
                     }
+                },
+                {
+                    "id": "common-masters.uiCommonConstants.iccd.maps",
+                    "iccd-maps": {
+                        "iframe-routes": {
+                            "checklist-filled-map": {
+                                "title": "DASHBOARD_MAPS_CHECKLIST_FILLED",
+                                "isOrigin": true,
+                                "routePath": "/kibana/s/iccd/app/dashboards?auth_provider_hint=anonymous1#/view/df46b330-1e68-11f0-84d3-47fc81e4fdef?embed=true&_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))&_a=()&hide-filter-bar=true",
+                                "Authorization": false,
+                                "base-kibana-path": "/kibana/",
+                                "overwriteTimeFilter": true
+                            },
+                            "successful-administrations-map": {
+                                "title": "DASHBOARD_MAP_SUCCESSFUL_ADMINISTRATIONS",
+                                "isOrigin": true,
+                                "routePath": "/kibana/s/iccd/app/dashboards?auth_provider_hint=anonymous1#/view/d9d49880-1b44-11f0-b361-5fc98388291f?embed=true&_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))&_a=()&hide-filter-bar=true",
+                                "Authorization": false,
+                                "base-kibana-path": "/kibana/",
+                                "overwriteTimeFilter": true
+                            },
+                            "unsuccessful-administrations-map": {
+                                "title": "DASHBOARD_MAP_UNSUCCESSFUL_ADMINISTRATIONS",
+                                "isOrigin": true,
+                                "routePath": "/kibana/s/iccd/app/dashboards?auth_provider_hint=anonymous1#/view/43d1db60-1b47-11f0-b361-5fc98388291f?embed=true&_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))&_a=()&hide-filter-bar=true",
+                                "Authorization": false,
+                                "base-kibana-path": "/kibana/",
+                                "overwriteTimeFilter": true
+                            }
+                        }
+                    }
                 }
             ]
 }
