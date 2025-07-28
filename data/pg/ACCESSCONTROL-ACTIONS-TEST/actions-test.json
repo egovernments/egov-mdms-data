@@ -20940,6 +20940,26 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+        "id": 5560,
+        "name": "Download Birth Certificate",
+        "url": "digit-ui-card",
+        "displayName": "Download Birth Certificate",
+        "i18nKey":"Download Birth Certificate"
+        "orderNumber": 1,
+        "parentModule": "Birth",
+        "enabled": true,
+        "serviceCode": "",
+        "code": "",
+        "path": "",
+        "navigationURL": "/digit-ui/citizen/birth/birth-citizen/myApplications",
+        "link": "/digit-ui/citizen/birth/birth-citizen/myApplications"
+        "leftIcon": "BirthIcon",
+        "rightIcon": "",
+        "queryParams": "",
+        "sidebar": "digit-ui-links",
+        "sidebarURL": "/digit-ui/citizen/birth-home"
     }
   ]
 }
