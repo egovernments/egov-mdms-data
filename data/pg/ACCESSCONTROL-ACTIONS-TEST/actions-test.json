@@ -19223,7 +19223,7 @@
         "serviceCode": "",
         "code": "",
         "path": "",
-        "navigationURL": "/citizen/birth-citizen/home",
+        "navigationURL": "/digit-ui/citizen/birth",
         "leftIcon": "BirthIcon",
         "rightIcon": "",
         "queryParams": "",
@@ -20945,8 +20945,7 @@
         "id": 5560,
         "name": "DownloadBirthCertificate",
         "url": "digit-ui-card",
-        "displayName": "DownloadBirthCertificate",
-        "i18nKey":"DownloadBirthCertificate"
+        "displayName": "Download Birth Certificate",
         "orderNumber": 1,
         "parentModule": "Birth",
         "enabled": true,
@@ -20954,12 +20953,11 @@
         "code": "",
         "path": "",
         "navigationURL": "/digit-ui/citizen/birth/birth-citizen/myApplications",
-        "link": "/digit-ui/citizen/birth/birth-citizen/myApplications"
         "leftIcon": "BirthIcon",
         "rightIcon": "",
         "queryParams": "",
         "sidebar": "digit-ui-links",
-        "sidebarURL": "/digit-ui/citizen/birth-home"
+        "sidebarURL": "/digit-ui/citizen/birth/birth-citizen/myApplications"
     }
   ]
 }
