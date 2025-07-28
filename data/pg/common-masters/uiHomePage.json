@@ -74,14 +74,14 @@
           "name": "Birth Certificate",
           "label": "ACTION_TEST_BIRTH_CERTIFICATE",
           "enabled": true,
-          "navigationUrl": "/digit-ui/citizen/birth-citizen/home"
+          "navigationUrl": "/digit-ui/citizen/birth"
         },
         {
           "code": "ACTION_TEST_DEATH_CERTIFICATE",
           "name": "Death Certificate",
           "label": "ACTION_TEST_DEATH_CERTIFICATE",
           "enabled": true,
-          "navigationUrl": "/digit-ui/citizen/death-citizen/home"
+          "navigationUrl": "/digit-ui/citizen/death"
         }
       ]
     },
