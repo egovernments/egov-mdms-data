@@ -18561,7 +18561,7 @@
         "serviceCode": "Birth-Death",
         "code": "null",
         "path": "birth-certificate.new-registration",
-        "navigationURL": "digit-ui/employee/birth/birth-common/create-birth",
+        "navigationURL": "/digit-ui/employee/birth/birth-common/create-birth",
         "leftIcon": "custom:library-books",
         "rightIcon": ""
     },
@@ -18576,7 +18576,7 @@
         "serviceCode": "Birth-Death",
         "code": "null",
         "path": "death-certificate.new-registration",
-        "navigationURL": "digit-ui/employee/death/death-common/create-death",
+        "navigationURL": "/digit-ui/employee/death/death-common/create-death",
         "leftIcon": "custom:library-books",
         "rightIcon": ""
     },
@@ -18591,7 +18591,7 @@
         "serviceCode": "Birth-Death",
         "code": "null",
         "path": "birth-certificate.search-certificate",
-        "navigationURL": "digit-ui/employee/birth/birth-common/getCertificate",
+        "navigationURL": "/digit-ui/employee/birth/birth-common/getCertificate",
         "leftIcon": "custom:library-books",
         "rightIcon": ""
     },
@@ -18606,7 +18606,7 @@
         "serviceCode": "Birth-Death",
         "code": "null",
         "path": "death-certificate.search-certificate",
-        "navigationURL": "digit-ui/employee/death/death-common/getCertificate",
+        "navigationURL": "/digit-ui/employee/death/death-common/getCertificate",
         "leftIcon": "custom:library-books",
         "rightIcon": ""
     },
