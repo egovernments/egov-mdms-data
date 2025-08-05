@@ -268,16 +268,16 @@
                 "required": true,
                 "addSelectAllCheck": true,
                 "isSearchable": true,
-                "allowMultiselect" : true,
+                "allowMultiselect": true,
                 "isDropdownWithChip": true,
                 "chipsKey": "name",
                 "mdmsv2": true,
                 "mdmsConfig": {
                   "masterName": "roles",
                   "moduleName": "ACCESSCONTROL-ROLES",
-                  "localePrefix": "ACCESSCONTROL_ROLES_ROLES",
-                },
-              },
+                  "localePrefix": "ACCESSCONTROL_ROLES_ROLES"
+                }
+              }
             },
             {
               "type": "component",
@@ -286,8 +286,8 @@
               "key": "Jurisdictions",
               "withoutLabel": true,
               "populators": {
-                "name": "Jurisdictions",
-              },
+                "name": "Jurisdictions"
+              }
             }
           ]
         }
