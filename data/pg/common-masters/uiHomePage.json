@@ -68,20 +68,6 @@
           "label": "ACTION_TEST_FIRE_NOC",
           "enabled": true,
           "navigationUrl": "/citizen/fire-noc/home"
-        },
-        {
-          "code": "ACTION_TEST_BIRTH_CERTIFICATE",
-          "name": "Birth Certificate",
-          "label": "ACTION_TEST_BIRTH_CERTIFICATE",
-          "enabled": true,
-          "navigationUrl": "/digit-ui/citizen/birth"
-        },
-        {
-          "code": "ACTION_TEST_DEATH_CERTIFICATE",
-          "name": "Death Certificate",
-          "label": "ACTION_TEST_DEATH_CERTIFICATE",
-          "enabled": true,
-          "navigationUrl": "/digit-ui/citizen/death"
         }
       ]
     },
