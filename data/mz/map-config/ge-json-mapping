@@ -1,0 +1,13 @@
+{
+  "tenantId": "mz",
+  "moduleName": "map-config",
+  "GeoJsonMapping": [
+    {
+      "tenantId": "mz",
+      "geojsons": {
+        "nampula": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/nampula.json",
+        "national-map": "https://egov-qa-assets.s3.ap-south-1.amazonaws.com/health/map/national-map.json"
+      }
+    }
+  ]
+}
