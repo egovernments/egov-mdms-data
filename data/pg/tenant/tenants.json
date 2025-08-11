@@ -3,41 +3,6 @@
   "moduleName": "tenant",
   "tenants": [
     {
-      "code": "pg",
-      "name": "Demo",
-      "description": "Demo",
-      "logoId": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/pg/logo.png",
-      "imageId": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/pg/logo.png",
-      "domainUrl": "www.mccitya.in",
-      "type": "CITY",
-      "twitterUrl": "https://twitter.com/search?q=%23citya",
-      "facebookUrl": "https://www.facebook.com/city/citya-Demo",
-      "emailId": "complaints.mcj@gmail.com",
-      "OfficeTimings": {
-        "Mon - Fri": "9.00 AM - 6.00 PM"
-      },
-      "city": {
-        "name": "Demo",
-        "localName": "Demo",
-        "districtCode": "0",
-        "districtName": "Demo",
-        "districtTenantCode": "pg",
-        "regionName": "Demo",
-        "ulbGrade": "ST",
-        "longitude": 75.3412,
-        "latitude": 31.1471,
-        "shapeFileLocation": null,
-        "captcha": null,
-        "code": "0",
-        "ddrName": "citya"
-      },
-      "address": "5 Demo Municipal Bhawan, 3, Dakshin Marg, 35A, Sector 35A, Chandigarh, 160022",
-      "pincode": [],
-      "contactNumber": "0181-2227015",
-      "pdfHeader": "PG_PDF_HEADER",
-      "pdfContactDetails": "PG_CONTACT_DETAILS"
-    },
-    {
       "code": "pg.citya",
       "name": "Victoria",
       "description": "Victoria",
