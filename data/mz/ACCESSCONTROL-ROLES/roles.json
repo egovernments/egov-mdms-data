@@ -113,9 +113,9 @@
       "description": "MDMS Admin"
     },
     {
-        "code": "MICROPLAN_VIEWER",
-        "name": "Microplan viewer",
-        "description": "Microplan viewer"
+      "code": "MICROPLAN_VIEWER",
+      "name": "Microplan viewer",
+      "description": "Microplan viewer"
     },
     {
       "code": "ROOT_FACILITY_CATCHMENT_MAPPER",
@@ -133,9 +133,9 @@
       "description": "Root population data approver"
     },
     {
-        "code": "POPULATION_DATA_APPROVER",
-        "name": "Population data approver",
-        "description": "Population data approver"
+      "code": "POPULATION_DATA_APPROVER",
+      "name": "Population data approver",
+      "description": "Population data approver"
     },
     {
       "code": "ROOT_PLAN_ESTIMATION_APPROVER",
@@ -161,6 +161,11 @@
       "code": "ANONYMOUS",
       "name": "Anonymous User",
       "description": "Anonymous User to be used in case of no auth"
+    },
+    {
+      "code": "FIELD_SUPPORT",
+      "name": "Field support",
+      "description": "Field support"
     }
   ]
 }
