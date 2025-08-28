@@ -3,6 +3,7 @@
   "moduleName": "RAINMAKER-PGR",
   "ServiceDefs": [
     {
+      "code": "Other",
       "name": "Other",
       "order": 1,
       "active": true,
@@ -13,6 +14,7 @@
       "serviceCode": "Other"
     },
     {
+      "code": "PerformanceIssue",
       "name": "Performance Issue",
       "order": 1,
       "active": true,
@@ -23,6 +25,7 @@
       "serviceCode": "PerformanceIssue"
     },
     {
+      "code": "SecurityIssues",
       "name": "Security Issues",
       "order": 1,
       "active": true,
@@ -33,6 +36,7 @@
       "serviceCode": "SecurityIssues"
     },
     {
+      "code": "DataIssues",
       "name": "Data Issues",
       "order": 1,
       "active": true,
@@ -43,6 +47,7 @@
       "serviceCode": "DataIssues"
     },
     {
+      "code": "UserAccountIssues",
       "name": "User Account Issues",
       "order": 1,
       "active": true,
@@ -53,6 +58,7 @@
       "serviceCode": "UserAccountIssues"
     },
     {
+      "code": "TechnicalIssues",
       "name": "Technical Issues",
       "serviceCode": "TechnicalIssues",
       "keywords": "technical, tech",
@@ -63,6 +69,7 @@
       "order": 1
     },
     {
+      "code": "SyncNotWorking",
       "serviceCode": "SyncNotWorking",
       "name": "Sync Not Working",
       "keywords": "sync, not, working",
@@ -73,20 +80,11 @@
       "order": 1
     },
     {
+      "code": "NotEnoughStock",
       "serviceCode": "NotEnoughStock",
       "name": "Not Enough Stock",
       "keywords": "not, enough, stock",
       "department": "WAREHOUSE",
-      "slaHours": 336,
-      "menuPath": "Sync",
-      "active": true,
-      "order": 1
-    },
-    {
-      "serviceCode": "Other",
-      "name": "Other",
-      "keywords": "other",
-      "department": "ADM",
       "slaHours": 336,
       "menuPath": "Sync",
       "active": true,
