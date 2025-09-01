@@ -15709,6 +15709,18 @@
       "orderNumber": 0,
       "serviceCode": "DSS",
       "parentModule": ""
+    },
+     {
+      "id": 2066,
+      "url": "/project-factory/v1/project-type/cancel-campaign",
+      "code": "null",
+      "name": "cancel campaign",
+      "path": "",
+      "enabled": false,
+      "displayName": "project-factory",
+      "orderNumber": 0,
+      "serviceCode": "project-factory",
+      "parentModule": ""
     }
   ]
 }
