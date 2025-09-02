@@ -20887,6 +20887,18 @@
         "queryParams": "",
         "sidebar": "digit-ui-links",
         "sidebarURL": "/digit-ui/citizen/death"
-    }
+    },
+    {
+                "id": 5553,
+                "url": "/public-service/v1/service",
+                "code": "null",
+                "name": "service create",
+                "path": "",
+                "enabled": false,
+                "displayName": "create service",
+                "orderNumber": 1,
+                "serviceCode": "public-service",
+                "parentModule": ""
+      }
   ]
 }
