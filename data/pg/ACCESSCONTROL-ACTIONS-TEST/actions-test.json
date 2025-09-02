@@ -20899,6 +20899,30 @@
                 "orderNumber": 1,
                 "serviceCode": "public-service",
                 "parentModule": ""
+      },
+      {
+                "id": 5554,
+                "url": "/mdms-v2/v2/_create/Studio.Checklists",
+                "code": "null",
+                "name": "create data for schema",
+                "path": "",
+                "enabled": true,
+                "leftIcon": "dynamic:ContractIcon",
+                "displayName": "schema create data API",
+                "orderNumber": 0,
+                "serviceCode": "mdms"
+      },
+      {
+                "id": 55555,
+                "url": "/mdms-v2/v2/_update/Studio.Checklists",
+                "code": "null",
+                "name": "create data for studio roles",
+                "path": "",
+                "enabled": true,
+                "leftIcon": "dynamic:ContractIcon",
+                "displayName": "create data for studio roles",
+                "orderNumber": 0,
+                "serviceCode": "mdms"
       }
   ]
 }
