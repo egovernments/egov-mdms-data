@@ -1032,7 +1032,17 @@
       "code": "BD_CITIZEN",
       "name": "Birth and Death Citizen",
       "description": "Birth and Death citizen"
-    }
+    },
+   {
+                "code": "STUDIO_ADMIN",
+                "name": "STUDIO ADMIN",
+                "description": "studio service admin"
+  },
+ {
+                "code": "STUDIO_DESIGNER",
+                "name": "Studio Designer",
+                "description": "studio service designer"
+  }
   ]
 }
   
