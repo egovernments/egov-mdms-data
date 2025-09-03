@@ -21033,6 +21033,18 @@
                 "orderNumber": 1,
                 "serviceCode": "studio-pdf-helper",
                 "parentModule": ""
+            },
+            {
+                "id": 5566,
+                "url": "/egov-mdms-service/v2/_create/Studio.ServiceConfiguration",
+                "code": "null",
+                "name": "create service Config mdms",
+                "path": "",
+                "enabled": false,
+                "displayName": "create service Config mdms",
+                "orderNumber": 1,
+                "serviceCode": "mdms-service",
+                "parentModule": ""
             }
   ]
 }
