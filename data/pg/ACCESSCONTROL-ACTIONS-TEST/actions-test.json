@@ -20913,7 +20913,7 @@
                 "serviceCode": "mdms"
       },
       {
-                "id": 55555,
+                "id": 5555,
                 "url": "/mdms-v2/v2/_update/Studio.Checklists",
                 "code": "null",
                 "name": "create data for studio roles",
@@ -20923,6 +20923,116 @@
                 "displayName": "create data for studio roles",
                 "orderNumber": 0,
                 "serviceCode": "mdms"
-      }
+      },
+      {
+                "id": 5556,
+                "url": "/inbox/v2/_search",
+                "code": "null",
+                "name": "Inbox Search",
+                "enabled": true,
+                "serviceCode": "mdms"
+            },
+          {
+                "id": 5557,
+                "url": "/boundary-service/boundary-relationships/_update",
+                "code": "null",
+                "name": "Boundary relationship update",
+                "path": "",
+                "enabled": true,
+                "displayName": "Boundary relationship update",
+                "orderNumber": 0,
+                "serviceCode": "mdms"
+            },
+            {
+                "id": 5558,
+                "url": "/health-service-request/service/v1/_search",
+                "code": "null",
+                "name": "checklist",
+                "path": "",
+                "enabled": false,
+                "displayName": "checklist",
+                "orderNumber": 0,
+                "serviceCode": "CHECKLIST"
+            },{
+                "id": 5559,
+                "url": "/health-service-request/service/definition/v1/_create",
+                "code": "null",
+                "name": "Service Definition Create",
+                "path": "",
+                "enabled": false,
+                "displayName": "Service Definition Create",
+                "orderNumber": 0,
+                "serviceCode": "health-service-request",
+                "parentModule": ""
+            },
+            {
+                "id": 5560,
+                "url": "/health-service-request/service/v1/_create",
+                "code": "121212",
+                "name": "Service Create",
+                "path": "some address",
+                "enabled": false,
+                "leftIcon": "dynamic:ContractIcon",
+                "displayName": "Service Create",
+                "orderNumber": 0,
+                "serviceCode": "health-service-requestk",
+                "parentModule": "21"
+            },
+            {
+                "id": 5561,
+                "url": "/egov-mdms-service/v2/_search",
+                "code": "null",
+                "name": "search data for schema",
+                "path": "",
+                "enabled": true,
+                "leftIcon": "dynamic:ContractIcon",
+                "displayName": "schema search data API",
+                "orderNumber": 0,
+                "serviceCode": "mdms"
+            },{
+                "id": 5562,
+                "url": "/studio-pdf-helper/_data-config",
+                "code": "null",
+                "name": "create data config ",
+                "path": "",
+                "enabled": false,
+                "displayName": "Create data config ",
+                "orderNumber": 1,
+                "serviceCode": "studio-pdf-helper",
+                "parentModule": ""
+            },{
+                "id": 5563,
+                "url": "/studio-pdf-helper/_format-config",
+                "code": "null",
+                "name": "create data config ",
+                "path": "",
+                "enabled": false,
+                "displayName": "Create data config ",
+                "orderNumber": 1,
+                "serviceCode": "studio-pdf-helper",
+                "parentModule": ""
+            },{
+                "id": 5564,
+                "url": "/studio-pdf-helper/_scanQR",
+                "code": "null",
+                "name": "create data config ",
+                "path": "",
+                "enabled": false,
+                "displayName": "Create data config ",
+                "orderNumber": 1,
+                "serviceCode": "studio-pdf-helper",
+                "parentModule": ""
+            },{
+                "id": 5565,
+                "url": "/studio-pdf-helper/_generateQR",
+                "code": "null",
+                "name": "create data config ",
+                "path": "",
+                "enabled": false,
+                "displayName": "Create data config ",
+                "orderNumber": 1,
+                "serviceCode": "studio-pdf-helper",
+                "parentModule": ""
+            }
   ]
 }
