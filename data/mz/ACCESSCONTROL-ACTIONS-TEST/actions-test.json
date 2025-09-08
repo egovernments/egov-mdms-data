@@ -15721,6 +15721,30 @@
       "orderNumber": 0,
       "serviceCode": "project-factory",
       "parentModule": ""
+    },
+    {
+      "id": 2067,
+      "url": "/excel-ingestion/v1/data/_generate",
+      "code": "null",
+      "name": "Excel ingestion data generate",
+      "path": "",
+      "enabled": false,
+      "displayName": "Excel ingestion data generate",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    },
+    {
+      "id": 2068,
+      "url": "/excel-ingestion/v1/data/_process",
+      "code": "null",
+      "name": "Excel ingestion data process",
+      "path": "",
+      "enabled": false,
+      "displayName": "Excel ingestion data process",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
     }
   ]
 }
