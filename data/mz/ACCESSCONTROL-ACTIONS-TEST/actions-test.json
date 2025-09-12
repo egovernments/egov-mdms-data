@@ -15745,6 +15745,30 @@
       "orderNumber": 0,
       "serviceCode": "",
       "parentModule": ""
-    }
+    },
+    {
+      "id": 2069,
+      "url": "/excel-ingestion/v1/data/_generationSearch",
+      "code": "null",
+      "name": "Excel ingestion data generation search",
+      "path": "",
+      "enabled": false,
+      "displayName": "Excel ingestion data generation search",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    },
+    {
+      "id": 2070,
+      "url": "/excel-ingestion/v1/data/_processSearch",
+      "code": "null",
+      "name": "Excel ingestion data process search",
+      "path": "",
+      "enabled": false,
+      "displayName": "Excel ingestion data process search",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    }   
   ]
 }
