@@ -20964,6 +20964,24 @@
         "queryParams": "",
         "sidebar": "digit-ui-links",
         "sidebarURL": "/digit-ui/citizen/death-home"
-    }   
+    },
+    {
+        "id": 5564,
+        "name": "DSS Inbox",
+        "url": "DSS",
+        "displayName": "DSS Search",
+        "orderNumber": 2,
+        "parentModule": "DSS",
+        "enabled": true,
+        "serviceCode": "",
+        "code": "",
+        "path": "",
+        "navigationURL": "/inbox/v1/dss/_search",
+        "leftIcon": "DSSIcon",
+        "rightIcon": "",
+        "queryParams": "",
+        "sidebar": "digit-ui-links",
+        "sidebarURL": ""
+    }  
   ]
 }
