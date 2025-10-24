@@ -15769,6 +15769,54 @@
       "orderNumber": 0,
       "serviceCode": "",
       "parentModule": ""
-    }   
+    },
+      {
+      "id": 2071,
+      "url": "/boundary-management/v1/_generate",
+      "code": "null",
+      "name": "Boundary management generate",
+      "path": "",
+      "enabled": false,
+      "displayName": "Boundary management generate",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    },
+    {
+      "id": 2072,
+      "url": "/boundary-management/v1/_generate-search",
+      "code": "null",
+      "name": "Boundary management generate search",
+      "path": "",
+      "enabled": false,
+      "displayName": "Boundary management generate search",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    },
+     {
+      "id": 2072,
+      "url": "/boundary-management/v1/_process",
+      "code": "null",
+      "name": "Boundary management process",
+      "path": "",
+      "enabled": false,
+      "displayName": "Boundary management process",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    },
+     {
+      "id": 2072,
+      "url": "/boundary-management/v1/_process-search",
+      "code": "null",
+      "name": "Boundary management process search",
+      "path": "",
+      "enabled": false,
+      "displayName": "Boundary management process search",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
+    }
   ]
 }
