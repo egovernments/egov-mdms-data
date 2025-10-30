@@ -1,0 +1,90 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-BILLING-CONFIG-PAYMENT-SETUP",
+    "CampaignTypeskills": [
+        {
+            "campaignType": "LLIN-mz",
+            "rateBreakupSchema": {
+                "FOOD": "Wage",
+                "TRAVEL": "transportation",
+                "PER_DAY": "perdiem"
+            },
+            "skills": [
+                {
+                    "code": "DISTRIBUTOR",
+                    "name": "Distributor",
+                    "description": "Distributor",
+                    "defaultWageRate": 0
+                },
+                {
+                    "code": "SUPERUSER",
+                    "name": "Super User",
+                    "description": "Super User. Can change all master data and has access to all the system screens.",
+                    "defaultWageRate": 0
+                },
+                {
+                    "code": "WAREHOUSE_MANAGER",
+                    "name": "Warehouse Manager",
+                    "description": "Warehouse manager",
+                    "defaultWageRate": 0
+                }
+            ]
+        },
+        {
+            "campaignType": "MR-DN",
+            "rateBreakupSchema": {
+                "FOOD": "Wage",
+                "TRAVEL": "transportation",
+                "PER_DAY": "perdiem"
+            },
+            "skills": [
+                {
+                    "code": "DISTRIBUTOR",
+                    "name": "Distributor",
+                    "description": "Distributor",
+                    "defaultWageRate": 0
+                },
+                {
+                    "code": "SUPERUSER",
+                    "name": "Super User",
+                    "description": "Super User. Can change all master data and has access to all the system screens.",
+                    "defaultWageRate": 0
+                },
+                {
+                    "code": "WAREHOUSE_MANAGER",
+                    "name": "Warehouse Manager",
+                    "description": "Warehouse manager",
+                    "defaultWageRate": 0
+                }
+            ]
+        },
+        {
+            "campaignType": "IRS-mz",
+            "rateBreakupSchema": {
+                "FOOD": "Wage",
+                "TRAVEL": "transportation",
+                "PER_DAY": "perdiem"
+            },
+            "skills": [
+                {
+                    "code": "DISTRIBUTOR",
+                    "name": "Distributor",
+                    "description": "Distributor",
+                    "defaultWageRate": 0
+                },
+                {
+                    "code": "SUPERUSER",
+                    "name": "Super User",
+                    "description": "Super User. Can change all master data and has access to all the system screens.",
+                    "defaultWageRate": 0
+                },
+                {
+                    "code": "WAREHOUSE_MANAGER",
+                    "name": "Warehouse Manager",
+                    "description": "Warehouse manager",
+                    "defaultWageRate": 0
+                }
+            ]
+        }
+    ]
+}

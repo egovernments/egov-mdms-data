@@ -1,0 +1,49 @@
+{
+  "tenantId": "mz",
+  "moduleName": "HCM-BILLING-CONFIG-PAYMENT-SETUP",
+  "BillingCycle": [
+    {
+      "id": "CYCLE_WEEKLY_001",
+      "code": "WEEKLY",
+      "name": "Weekly Billing Cycle",
+      "duration": 7,
+      "durationUnit": "DAYS",
+      "description": "7 days billing cycle",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "CYCLE_BIWEEKLY_001",
+      "code": "BIWEEKLY",
+      "name": "Bi-Weekly Billing Cycle",
+      "duration": 14,
+      "durationUnit": "DAYS",
+      "description": "14 days billing cycle",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "CYCLE_MONTHLY_001",
+      "code": "MONTHLY",
+      "name": "Monthly Billing Cycle",
+      "duration": 30,
+      "durationUnit": "DAYS",
+      "description": "30 days billing cycle",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "CYCLE_CUSTOM_001",
+      "code": "CUSTOM",
+      "name": "Custom Billing Cycle",
+      "duration": null,
+      "durationUnit": "DAYS",
+      "description": "Custom duration defined per campaign",
+      "active": true,
+      "allowCustomDuration": true,
+      "minDuration": 3,
+      "maxDuration": 90,
+      "order": 4
+    }
+  ]
+}
