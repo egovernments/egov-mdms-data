@@ -3,8 +3,16 @@
   "moduleName": "RAINMAKER-PGR",
   "RejectionReasons": [
     {
-      "code": "REASON1",
+      "code": "INVALID_COMPLAINT",
       "name": "Invalid Complaint"
+    },
+    {
+      "code": "DUPLICATE_COMPLAINT",
+      "name": "Duplicate Complaint"
+    },
+    {
+      "code": "OTHER",
+      "name": "Other"
     }
   ]
 }
