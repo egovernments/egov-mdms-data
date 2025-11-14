@@ -1,0 +1,133 @@
+{
+    "tenantId": "mz",
+    "moduleName": "HCM-ADMIN-CONSOLE",
+    "LabelFieldPairConfig":     [
+    {
+                "entity": "StockModel",
+                "labelFields": [
+                    {
+                        "name": "RESOURCE",
+                        "fieldKey": "sku",
+                        "jsonPath": "{{item.additionalFields.fields.sku}}",
+                        "mandatory": "false",
+                        "additionalField": "true"
+                    },
+                    {
+                        "name":  "RECEIVED_FROM",
+                        "fieldKey": "receiverId",
+                        "jsonPath": "{{item.receiverId}}",
+                        "mandatory": "false"
+                    },
+                    {
+                        "name": "MRN_NUMBER",
+                        "fieldKey": "mrnNumber",
+                        "jsonPath": "{{item.additionalFields.fields.mrnNumber}}",
+                        "mandatory": "false"
+                    },
+                    {
+                        "name": "WAYBILL_NUMBER",
+                        "fieldKey": "wayBillNumber",
+                        "jsonPath": "{{item.wayBillNumber}}",
+                        "mandatory": "false",
+                        "additionalField": "true"
+                    },
+                         {
+                        "name": "BATCH_NUMBER",
+                        "fieldKey": "wayBillNumber",
+                        "jsonPath": "{{item.wayBillNumber}}",
+                        "mandatory": "false",
+                        "additionalField": "true"
+                    }
+                ]
+            },
+            {
+                "entity": "IndividualModel",
+                "labelFields": [
+                    {
+                        "name": "HOUSEHOLD_HEAD_NAME",
+                        "fieldKey": "givenName",
+                        "jsonPath": "{{contextData.0.headIndividual.IndividualModel.name.givenName}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "ID_TYPE",
+                        "fieldKey": "givenName",
+                        "jsonPath": "{{contextData.0.individuals.IndividualModel.name.givenName}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "NAME_OF_INDIVIDUAL",
+                        "fieldKey": "givenName",
+                        "jsonPath": "{{contextData.0.individuals.IndividualModel.name.givenName}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "NAME_OF_INDIVIDUAL",
+                        "fieldKey": "givenName",
+                        "jsonPath": "{{contextData.0.individuals.IndividualModel.name.givenName}}",
+                        "mandatory": "false"
+                    }
+                                 
+                ]
+            },
+              {
+                "entity": "HouseholdModel",
+                "labelFields": [
+                      {
+                        "name":  "HOUSEHOLD_LOCALITY",
+                        "fieldKey": "receiverId",
+                        "jsonPath": "{{contextData.0.household.HouseholdModel.address.locality.code}}",
+                        "mandatory": "false"
+                    },
+                    {
+                        "name": "MEMBER_COUNT",
+                        "fieldKey": "memberCount",
+                        "jsonPath": "{{contextData.0.household.HouseholdModel.memberCount}}",
+                        "mandatory": "false"
+                    }          
+                ]
+            },
+             {
+                "entity": "ComplaintModel",
+                "labelFields": [
+                    {
+                        "name": "COMPLAINT_INBOX_COMPLAINT_NUMBER",
+                        "fieldKey": "inboxComplaintNumber",
+                        "jsonPath": "{{item.PgrServiceModel.serviceRequestId}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "COMPLAINT_INBOX_COMPLAINT_TYPE",
+                        "fieldKey": "inboxComplaintType",
+                        "jsonPath": "{{item.PgrServiceModel.serviceCode}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "COMPLAINT_INBOX_COMPLAINT_DATE",
+                        "fieldKey": "complaintDate",
+                        "jsonPath": "{{fn:formatDate(item.PgrServiceModel.auditDetails.createdTime, dateTime, dd MMM yyyy)}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "COMPLAINT_INBOX_COMPLAINT_AREA",
+                        "fieldKey": "complaintArea",
+                        "jsonPath": "{{item.PgrServiceModel.address.locality.code}}",
+                        "mandatory": "false"
+                    },
+                     {
+                        "name": "COMPLAINT_INBOX_COMPLAINT_STATUS",
+                        "fieldKey": "complaintStatus",
+                        "jsonPath": "{{item.PgrServiceModel.applicationStatus}}",
+                        "mandatory": "false"
+                    },
+                    {
+                        "name": "COMPLAINT_VIEW_COMPLAINANT_CONTACT",
+                        "fieldKey": "complaintStatus",
+                        "jsonPath": "{{item.PgrServiceModel.user.mobileNumber}}",
+                        "mandatory": "false"
+                    }
+                                 
+                ]
+            }
+]
+}
