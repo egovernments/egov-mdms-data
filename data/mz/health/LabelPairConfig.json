@@ -1,7 +1,7 @@
 {
     "tenantId": "mz",
     "moduleName": "HCM-ADMIN-CONSOLE",
-    "LabelFieldPairConfig":     [
+    "LabelFieldPairConfig":        [
     {
                 "entity": "StockModel",
                 "labelFields": [
@@ -38,6 +38,9 @@
                         "mandatory": "false",
                         "additionalField": "true"
                     }
+                ],
+                "modules": [
+                    "INVENTORY"
                 ]
             },
             {
@@ -45,14 +48,14 @@
                 "labelFields": [
                     {
                         "name": "HOUSEHOLD_HEAD_NAME",
-                        "fieldKey": "givenName",
+                        "fieldKey": "headName",
                         "jsonPath": "{{contextData.0.headIndividual.IndividualModel.name.givenName}}",
                         "mandatory": "false"
                     },
                      {
                         "name": "ID_TYPE",
-                        "fieldKey": "givenName",
-                        "jsonPath": "{{contextData.0.individuals.IndividualModel.name.givenName}}",
+                        "fieldKey": "idType",
+                        "jsonPath": "{{contextData.0.individuals.IndividualModel.identifiers.0.identifierType}}",
                         "mandatory": "false"
                     },
                      {
@@ -62,12 +65,34 @@
                         "mandatory": "false"
                     },
                      {
-                        "name": "NAME_OF_INDIVIDUAL",
-                        "fieldKey": "givenName",
-                        "jsonPath": "{{contextData.0.individuals.IndividualModel.name.givenName}}",
+                        "name": "ID_NUMBER",
+                        "fieldKey": "idNumber",
+                        "jsonPath": "{{contextData.0.individuals.IndividualModel.identifiers.0.identifierId}}",
+                        "mandatory": "false"
+                    },
+                      {
+                        "name": "AGE",
+                        "fieldKey": "age",
+                        "jsonPath": "{{fn:formatDate(contextData.0.individuals.IndividualModel.dateOfBirth, age)}}",
+                        "mandatory": "false"
+                    },
+                    {
+                        "name": "GENDER",
+                        "fieldKey": "gender",
+                        "jsonPath": "{{contextData.0.individuals.IndividualModel.gender}}",
+                        "mandatory": "false"
+                    },
+                    {
+                        "name": "DATE_OF_REGISTRATION",
+                        "fieldKey": "dateOfRegistration",
+                        "jsonPath": "{{fn:formatDate(contextData.0.projectBeneficiaries.ProjectBeneficiaryModel.dateOfRegistration, date, dd MMMM yyyy)}}",
                         "mandatory": "false"
                     }
+                    
                                  
+                ],
+                "modules": [
+                    "REGISTRATION"
                 ]
             },
               {
@@ -75,7 +100,7 @@
                 "labelFields": [
                       {
                         "name":  "HOUSEHOLD_LOCALITY",
-                        "fieldKey": "receiverId",
+                        "fieldKey": "locality",
                         "jsonPath": "{{contextData.0.household.HouseholdModel.address.locality.code}}",
                         "mandatory": "false"
                     },
@@ -85,6 +110,9 @@
                         "jsonPath": "{{contextData.0.household.HouseholdModel.memberCount}}",
                         "mandatory": "false"
                     }          
+                ],
+                "modules": [
+                    "REGISTRATION"
                 ]
             },
              {
@@ -127,6 +155,9 @@
                         "mandatory": "false"
                     }
                                  
+                ],
+                "modules": [
+                    "COMPLAINTS"
                 ]
             }
 ]
