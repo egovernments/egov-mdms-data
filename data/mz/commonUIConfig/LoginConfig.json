@@ -1,73 +1,99 @@
 {
-    "tenantId": "mz",
-    "moduleName": "commonUiConfig",
-    "LoginConfig": [
-      {
-        "texts": {
-          "header": "CORE_COMMON_LOGIN",
-          "submitButtonLabel": "CORE_COMMON_CONTINUE",
-          "secondaryButtonLabel": "CORE_COMMON_FORGOT_PASSWORD"
+  "tenantId": "mz",
+  "moduleName": "commonUiConfig",
+  "LoginConfig": [
+    {
+      "texts": {
+        "header": "CORE_COMMON_LOGIN",
+        "submitButtonLabel": "CORE_COMMON_CONTINUE",
+        "secondaryButtonLabel": "CORE_COMMON_FORGOT_PASSWORD"
+      },
+      "inputs": [
+        {
+          "label": "CORE_LOGIN_USERNAME",
+          "type": "text",
+          "key": "username",
+          "isMandatory": true,
+          "populators": {
+            "name": "username",
+            "validation": {
+              "required": true
+            },
+            "error": "ERR_USERNAME_REQUIRED"
+          }
         },
-        "inputs": [
-          {
-            "label": "CORE_LOGIN_USERNAME",
-            "type": "text",
-            "key": "username",
-            "isMandatory": true,
-            "populators": {
-              "name": "username",
-              "validation": {
-                "required": true
-              },
-              "error": "ERR_USERNAME_REQUIRED"
-            }
-          },
-          {
-            "label": "CORE_LOGIN_PASSWORD",
-            "type": "password",
-            "key": "password",
-            "populators": {
-              "name": "password",
-              "validation": {
-                "required": true
-              },
-              "error": "ERR_PASSWORD_REQUIRED"
+        {
+          "label": "CORE_LOGIN_PASSWORD",
+          "type": "password",
+          "key": "password",
+          "populators": {
+            "name": "password",
+            "validation": {
+              "required": true
             },
-            "isMandatory": true
+            "error": "ERR_PASSWORD_REQUIRED"
           },
-          {
-            "isMandatory": true,
-            "type": "dropdown",
-            "key": "city",
-            "label": "CORE_COMMON_CITY",
-            "disable": false,
-            "populators": {
-              "name": "city",
-              "optionsKey": "name",
-              "error": "ERR_HRMS_INVALID_CITY",
-              "mdmsConfig": {
-                "masterName": "tenants",
-                "moduleName": "tenant",
-                "localePrefix": "TENANT_TENANTS",
-                "select": "(data)=>{ return Array.isArray(data['tenant'].tenants) && Digit.Utils.getUnique(data['tenant'].tenants).map(ele=>({code:ele.code,name:Digit.Utils.locale.getTransformedLocale('TENANT_TENANTS_'+ele.code)}))}"
-              }
-            }
-          },
-          {
-            "isMandatory": false,
-            "key": "check",
-            "type": "component",
-            "component": "PrivacyComponent",
-            "withoutLabel": true,
-            "disable": false,
-            "customProps": {
-              "module": "HCM"
-            },
-            "populators": {
-              "name": "check"
+          "isMandatory": true
+        },
+        {
+          "isMandatory": true,
+          "type": "dropdown",
+          "key": "city",
+          "label": "CORE_COMMON_CITY",
+          "disable": false,
+          "populators": {
+            "name": "city",
+            "optionsKey": "name",
+            "error": "ERR_HRMS_INVALID_CITY",
+            "mdmsConfig": {
+              "masterName": "tenants",
+              "moduleName": "tenant",
+              "localePrefix": "TENANT_TENANTS",
+              "select": "(data)=>{ return Array.isArray(data['tenant'].tenants) && Digit.Utils.getUnique(data['tenant'].tenants).map(ele=>({code:ele.code,name:Digit.Utils.locale.getTransformedLocale('TENANT_TENANTS_'+ele.code)}))}"
             }
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "isMandatory": false,
+          "key": "check",
+          "type": "component",
+          "component": "PrivacyComponent",
+          "withoutLabel": true,
+          "disable": false,
+          "customProps": {
+            "module": "HCM"
+          },
+          "populators": {
+            "name": "check"
+          }
+        }
+      ],
+      "bannerImages": [
+        {
+          "id": 1,
+          "image": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/hcm/banner/Pageone.png",
+          "title": "CORE_HCM_DASHBOARD_TITLE_ONE",
+          "description": "CORE_HCM_DASHBOARD_DESCRIPTION_ONE"
+        },
+        {
+          "id": 2,
+          "image": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/hcm/banner/Pagetwo.png",
+          "title": "CORE_HCM_DASHBOARD_TITLE_SEVEN",
+          "description": "CORE_HCM_DASHBOARD_DESCRIPTION_SEVEN"
+        },
+        {
+          "id": 3,
+          "image": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/hcm/banner/Pagethree.png",
+          "title": "CORE_HCM_DASHBOARD_TITLE_TWO",
+          "description": "CORE_HCM_DASHBOARD_DESCRIPTION_TWO"
+        },
+        {
+          "id": 4,
+          "image": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/hcm/banner/pagefour.jpeg",
+          "title": "CORE_HCM_DASHBOARD_TITLE_THREE",
+          "description": "CORE_HCM_DASHBOARD_DESCRIPTION_THREE"
+        }
+      ]
+    }
+  ]
+}
