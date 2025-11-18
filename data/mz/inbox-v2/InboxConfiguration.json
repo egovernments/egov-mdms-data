@@ -62,11 +62,11 @@
           "operator": "EQUAL"
         },
         {
-        "name": "boundaryCode",                               // <-- added
-        "path": "Data.service.additionalDetail.boundaryCode.keyword", // <-- added
-        "operator": "EQUAL",                                  // <-- added
-        "isMandatory": false                                  // <-- added
-      }
+        "name": "additionalDetail",                              
+        "path": "Data.service.additionalDetail", 
+        "operator": "EQUAL",                                  
+        "isMandatory": false                                  
+        }
       ],
       "sortBy": {
         "path": "Data.service.auditDetails.createdTime",
