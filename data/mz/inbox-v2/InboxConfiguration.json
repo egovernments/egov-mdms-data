@@ -60,7 +60,13 @@
           "path": "Data.service.user.mobileNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
-        }
+        },
+        {
+        "name": "boundaryCode",                               // <-- added
+        "path": "Data.service.additionalDetail.boundaryCode.keyword", // <-- added
+        "operator": "EQUAL",                                  // <-- added
+        "isMandatory": false                                  // <-- added
+      }
       ],
       "sortBy": {
         "path": "Data.service.auditDetails.createdTime",
@@ -76,6 +82,7 @@
         "Data.auditDetails",
         "Data.service.additionalDetails",
         "Data.tenantId",
+        "Data.service.additionalDetail",
         "Data.currentProcessInstance"
       ]
     }
