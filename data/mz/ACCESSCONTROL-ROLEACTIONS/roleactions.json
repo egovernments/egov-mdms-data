@@ -21740,6 +21740,24 @@
       "actionid": 1639,
       "actioncode": "",
       "tenantId": "mz"
+    },
+    {
+      "rolecode": "PROXIMITY_SUPERVISOR",
+      "actionid": 2075,
+      "actioncode": "",
+      "tenantid": "mz"
+    },
+    {
+      "rolecode": "DISTRICT_SUPERVISOR",
+      "actionid": 2075,
+      "actioncode": "",
+      "tenantid": "mz"
+    },
+    {
+      "rolecode": "CAMPAIGN_MANAGER",
+      "actionid": 2075,
+      "actioncode": "",
+      "tenantid": "mz"
     }
   ]
 }
