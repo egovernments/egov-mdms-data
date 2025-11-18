@@ -15817,6 +15817,66 @@
       "orderNumber": 0,
       "serviceCode": "",
       "parentModule": ""
+    },
+    {
+      "id": 2075,
+      "url": "/health-expense-calculator/billing-config/v1/_create",
+      "code": "null",
+      "name": "Billing config create",
+      "path": "",
+      "enabled": false,
+      "displayName": "Billing config create",
+      "orderNumber": 0,
+      "serviceCode": "hec",
+      "parentModule": ""
+    },
+    {
+      "id": 2076,
+      "url": "/health-expense-calculator/billing-config/v1/_search",
+      "code": "null",
+      "name": "Billing config search",
+      "path": "",
+      "enabled": false,
+      "displayName": "Billing config search",
+      "orderNumber": 0,
+      "serviceCode": "hec",
+      "parentModule": ""
+    },
+    {
+      "id": 2077,
+      "url": "/health-expense-calculator/billing-config/v1/_update",
+      "code": "null",
+      "name": "Billing config update",
+      "path": "",
+      "enabled": false,
+      "displayName": "Billing config update",
+      "orderNumber": 0,
+      "serviceCode": "hec",
+      "parentModule": ""
+    },
+    {
+      "id": 2078,
+      "url": "/mdms-v2/v2/_create/HCM.WORKER_RATES",
+      "code": "null",
+      "name": "worker rate create",
+      "path": "",
+      "enabled": false,
+      "displayName": "worker rate create",
+      "orderNumber": 0,
+      "serviceCode": "hec",
+      "parentModule": ""
+    },
+    {
+      "id": 2079,
+      "url": "/mdms-v2/v2/_update/HCM.WORKER_RATES",
+      "code": "null",
+      "name": "worker rate update",
+      "path": "",
+      "enabled": false,
+      "displayName": "worker rate update",
+      "orderNumber": 0,
+      "serviceCode": "hec",
+      "parentModule": ""
     }
   ]
 }
