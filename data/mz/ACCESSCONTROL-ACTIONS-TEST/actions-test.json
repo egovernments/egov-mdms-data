@@ -15817,6 +15817,18 @@
       "orderNumber": 0,
       "serviceCode": "",
       "parentModule": ""
+    },
+    {
+      "id": 2075,
+      "url": "/health-expense-calculator/billing-config/v1/_search",
+      "code": "null",
+      "name": "User location search",
+      "path": "",
+      "enabled": false,
+      "displayName": "User location search",
+      "orderNumber": 0,
+      "serviceCode": "hec",
+      "parentModule": ""
     }
   ]
 }
