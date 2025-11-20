@@ -10,7 +10,7 @@
           "name": "area",
           "path": "Data.service.address.locality.code",
           "isMandatory": false,
-          "operator": "MATCH"
+          "operator": "WILDCARD"
         },
         {
           "name": "status",
