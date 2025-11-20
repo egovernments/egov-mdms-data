@@ -10,7 +10,7 @@
           "name": "area",
           "path": "Data.service.address.locality.code.keyword",
           "isMandatory": false,
-          "operator": "EQUAL"
+          "operator": "ANY"
         },
         {
           "name": "status",
