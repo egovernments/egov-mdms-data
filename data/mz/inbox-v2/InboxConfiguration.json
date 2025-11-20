@@ -8,7 +8,7 @@
       "allowedSearchCriteria": [
         {
           "name": "area",
-          "path": "Data.service.address.locality.code.keyword",
+          "path": "Data.service.address.locality.code",
           "isMandatory": false,
           "operator": "MATCH"
         },
