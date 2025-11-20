@@ -8,7 +8,7 @@
       "allowedSearchCriteria": [
         {
           "name": "area",
-          "path": "Data.service.address.locality.code",
+          "path": "Data.service.address.locality.code.keyword",
           "isMandatory": false,
           "operator": "WILDCARD"
         },
