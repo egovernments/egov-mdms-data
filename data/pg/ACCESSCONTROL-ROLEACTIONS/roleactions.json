@@ -23827,6 +23827,24 @@
       "actioncode": "",
       "tenantId": "pg"
     },
+	{
+      "rolecode": "SUPERUSER",
+      "actionid": 2345,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+	{
+      "rolecode": "PT_APPROVER",
+      "actionid": 2345,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+	{
+      "rolecode": "PTADMIN",
+      "actionid": 2345,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
     {
       "rolecode": "UC_EMP",
       "actionid": 2346,
