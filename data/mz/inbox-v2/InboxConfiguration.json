@@ -10,7 +10,7 @@
           "name": "area",
           "path": "Data.service.address.locality.code.keyword",
           "isMandatory": false,
-          "operator": "EQUAL"
+          "operator": "WILDCARD"
         },
         {
           "name": "status",
@@ -48,6 +48,12 @@
           "path": "Data.service.user.mobileNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
+        },
+        {
+        "name": "additionalDetail",                              
+        "path": "Data.service.additionalDetail", 
+        "operator": "EQUAL",                                  
+        "isMandatory": false                                  
         }
       ],
       "sortBy": {
