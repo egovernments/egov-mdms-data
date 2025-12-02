@@ -30075,6 +30075,24 @@
       "tenantId": "pg"
   },
   {
+    "rolecode": "SUPERUSER",
+    "actionid": 5345,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+  {
+    "rolecode": "PT_APPROVER",
+    "actionid": 5345,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+  {
+    "rolecode": "PTADMIN",
+    "actionid": 5345,
+    "actioncode": "",
+    "tenantId": "pg"
+  },
+  {
       "rolecode": "UC_EMP",
       "actionid": 5346,
       "actioncode": "",
