@@ -13,7 +13,7 @@
                     {
                         "body": [
                             {
-                                "icon": "Assessment",
+                                "icon": "FileUpload",
                                 "type": "template",
                                 "format": "menu_card",
                                 "heading": "STOCKREPORTS_VIEW_REPORTS_STOCK_RECIEVE_HEADING",
@@ -42,12 +42,12 @@
                                 ],
                                 "mandatory": true,
                                 "properties": {
-                                    "icon": "Assessment"
+                                    "icon": "FileUpload"
                                 },
                                 "description": "STOCKREPORTS_VIEW_REPORTS_STOCK_RECIEVE_DESCRIPTION"
                             },
                             {
-                                "icon": "Assessment",
+                                "icon": "FileDownload",
                                 "type": "template",
                                 "format": "menu_card",
                                 "heading": "STOCKREPORTS_VIEW_REPORTS_STOCK_ISSUED_HEADING",
@@ -75,12 +75,12 @@
                                     }
                                 ],
                                 "properties": {
-                                    "icon": "Assessment"
+                                    "icon": "FileDownload"
                                 },
                                 "description": "STOCKREPORTS_VIEW_REPORTS_STOCK_ISSUED_DESCRIPTION"
                             },
                             {
-                                "icon": "Assessment",
+                                "icon": "Restore",
                                 "type": "template",
                                 "format": "menu_card",
                                 "heading": "STOCKREPORTS_VIEW_REPORTS_STOCK_RETURNED_HEADING",
@@ -108,12 +108,12 @@
                                     }
                                 ],
                                 "properties": {
-                                    "icon": "Assessment"
+                                    "icon": "Restore"
                                 },
                                 "description": "STOCKREPORTS_VIEW_REPORTS_STOCK_RETURNED_DESCRIPTION"
                             },
                             {
-                                "icon": "Assessment",
+                                "icon": "Store",
                                 "type": "template",
                                 "format": "menu_card",
                                 "heading": "STOCKREPORTS_VIEW_REPORTS_STOCK_DAMAGED_HEADING",
@@ -141,12 +141,12 @@
                                     }
                                 ],
                                 "properties": {
-                                    "icon": "Assessment"
+                                    "icon": "Store"
                                 },
                                 "description": "STOCKREPORTS_VIEW_REPORTS_STOCK_DAMAGED_DESCRIPTION"
                             },
                             {
-                                "icon": "Assessment",
+                                "icon": "Store",
                                 "type": "template",
                                 "format": "menu_card",
                                 "heading": "STOCKREPORTS_VIEW_REPORTS_STOCK_LOSS_HEADING",
@@ -174,12 +174,12 @@
                                     }
                                 ],
                                 "properties": {
-                                    "icon": "Assessment"
+                                    "icon": "Store"
                                 },
                                 "description": "STOCKREPORTS_VIEW_REPORTS_STOCK_LOSS_DESCRIPTION"
                             },
                             {
-                                "icon": "Assessment",
+                                "icon": "SyncAlt",
                                 "type": "template",
                                 "format": "menu_card",
                                 "heading": "STOCKREPORTS_VIEW_REPORTS_STOCK_RECON_HEADING",
@@ -207,7 +207,7 @@
                                     }
                                 ],
                                 "properties": {
-                                    "icon": "Assessment"
+                                    "icon": "SyncAlt"
                                 },
                                 "description": "STOCKREPORTS_VIEW_REPORTS_STOCK_RECON_DESCRIPTION"
                             }
