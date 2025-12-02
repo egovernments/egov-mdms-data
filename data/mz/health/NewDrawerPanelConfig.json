@@ -430,44 +430,6 @@
                         ]
                     },
                     {
-                        "id": "primaryAction",
-                        "label": "primaryAction",
-                        "order": 16,
-                        "bindTo": "primaryAction.hidden",
-                        "fieldType": "toggle",
-                        "defaultValue": "",
-                        "conditionalField": [
-                            {
-                                "type": "text",
-                                "bindTo": "primaryActionLabel",
-                                "isLocalisable": true
-                            }
-                        ],
-                        "showFieldOnToggle": true,
-                        "visibilityEnabledFor": [
-                            "panelCard"
-                        ]
-                    },
-                    {
-                        "id": "secondaryAction",
-                        "label": "secondaryAction",
-                        "order": 16,
-                        "bindTo": "secondaryAction.hidden",
-                        "fieldType": "toggle",
-                        "defaultValue": "",
-                        "conditionalField": [
-                            {
-                                "type": "text",
-                                "bindTo": "secondaryActionLabel",
-                                "isLocalisable": true
-                            }
-                        ],
-                        "showFieldOnToggle": true,
-                        "visibilityEnabledFor": [
-                            "panelCard"
-                        ]
-                    },
-                    {
                         "id": "infoDescription",
                         "label": "infoDescription",
                         "order": 16,
