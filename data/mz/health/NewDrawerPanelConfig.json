@@ -394,7 +394,7 @@
                         "id": "panelTitle",
                         "label": "panelTitle",
                         "order": 16,
-                        "bindTo": "heading",
+                        "bindTo": "label",
                         "fieldType": "text",
                         "defaultValue": "",
                         "conditionalField": [],
