@@ -4,7 +4,7 @@
   "InboxQueryConfiguration": [
     {
       "module": "estimate-service",
-      "index": "mukta-estimate-inbox-v3",
+      "index": "estimate-inbox-v3",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
@@ -147,7 +147,7 @@
     },
     {
       "module": "contract-service",
-      "index": "mukta-contract-inbox",
+      "index": "contract-inbox",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
@@ -224,7 +224,7 @@
     },
     {
       "module": "expense",
-      "index": "mukta-expense-bill-index",
+      "index": "expense-bill-index",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
