@@ -163,9 +163,54 @@
       "description": "Project Viewer"
     },
     {
+      "name": "Revision of rates",
+      "code": "REVISION_OF_RATES",
+      "description": "Revision of rates"
+    },
+    {
+      "code": "VIEW_DED_UNMASKED",
+      "name": "View DED Unmasked",
+      "description": "View deduction Unmasked"
+    },
+    {
+      "code": "MDMS_CITY_VIEW_ADMIN",
+      "name": "MDMS CITY VIEW ADMIN",
+      "description": "Mdms City View Admin"
+    },
+    {
+      "code": "MDMS_STATE_VIEW_ADMIN",
+      "name": "MDMS STATE VIEW ADMIN",
+      "description": "Mdms State View Admin"
+    },
+    {
+      "code": "ORG_VIEWER",
+      "name": "Organization viewer",
+      "description": "Organization viewer"
+    },
+    {
+      "code": "VIEW_ORG_UNMASKED",
+      "name": "View ORG Unmasked",
+      "description": "View organization Unmasked"
+    },
+    {
+      "code": "VIEW_WS_UNMASKED",
+      "name": "View Ws Unmasked",
+      "description": "View Wageseeker Unmasked"
+    },
+    {
       "code": "MUSTER_ROLL_VERIFIER",
       "name": "MUSTER ROLL VERIFIER",
+      "description": "Muster Roll Verifier"
+    },
+    {
+      "name": "MUSTER ROLL VIEWER",
+      "code": "MUSTER_ROLL_VIEWER",
       "description": "Muster Roll Viewer"
+    },
+    {
+      "code": "DASHBOARD_VIEWER",
+      "name": "Dashboard Viewer",
+      "description": "Default role for Dashboard viewer"
     },
     {
       "code": "MUSTER_ROLL_APPROVER",
