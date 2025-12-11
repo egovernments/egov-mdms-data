@@ -15724,7 +15724,7 @@
     },
     {
       "id": 2067,
-      "url": "/excel-ingestion/v1/data/_generate",
+      "url": "/excel-ingestion/v1/data/generate/_init",
       "code": "null",
       "name": "Excel ingestion data generate",
       "path": "",
@@ -15736,7 +15736,7 @@
     },
     {
       "id": 2068,
-      "url": "/excel-ingestion/v1/data/_process",
+      "url": "/excel-ingestion/v1/data/process/_validation",
       "code": "null",
       "name": "Excel ingestion data process",
       "path": "",
@@ -15748,7 +15748,7 @@
     },
     {
       "id": 2069,
-      "url": "/excel-ingestion/v1/data/_generationSearch",
+      "url": "/excel-ingestion/v1/data/generate/_search",
       "code": "null",
       "name": "Excel ingestion data generation search",
       "path": "",
@@ -15760,7 +15760,7 @@
     },
     {
       "id": 2070,
-      "url": "/excel-ingestion/v1/data/_processSearch",
+      "url": "/excel-ingestion/v1/data/process/_search",
       "code": "null",
       "name": "Excel ingestion data process search",
       "path": "",
