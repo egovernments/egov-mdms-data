@@ -15877,6 +15877,18 @@
       "orderNumber": 0,
       "serviceCode": "hec",
       "parentModule": ""
+    },
+     {
+      "id": 2080,
+      "url": "/excel-ingestion/v1/data/process/_create",
+      "code": "null",
+      "name": "excel ingestion create",
+      "path": "",
+      "enabled": false,
+      "displayName": "excel ingestion create",
+      "orderNumber": 0,
+      "serviceCode": "",
+      "parentModule": ""
     }
   ]
 }
