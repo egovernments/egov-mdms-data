@@ -1033,16 +1033,26 @@
       "name": "Birth and Death Citizen",
       "description": "Birth and Death citizen"
     },
-   {
-                "code": "STUDIO_ADMIN",
-                "name": "STUDIO ADMIN",
-                "description": "studio service admin"
-  },
- {
-                "code": "STUDIO_DESIGNER",
-                "name": "Studio Designer",
-                "description": "studio service designer"
-  }
+    {
+      "code": "STUDIO_ADMIN",
+      "name": "STUDIO ADMIN",
+      "description": "studio service admin"
+    },
+    { 
+      "code": "STUDIO_DESIGNER",
+      "name": "Studio Designer",
+      "description": "studio service designer"
+    },
+    {
+      "code": "WORKFLOW_ADMIN",
+      "name": "WORKFLOW ADMIN",
+      "description": "WORKFLOW User that can create and search Workflow"
+    },
+    {
+      "code": "PGR_VIEWER",
+      "name": "PGR Viewer role",
+      "description": " "
+    }
   ]
 }
   
