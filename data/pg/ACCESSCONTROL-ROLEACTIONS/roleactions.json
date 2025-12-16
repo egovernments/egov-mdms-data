@@ -1719,6 +1719,24 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 911,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 911,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 911,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 27,
       "actioncode": "",
@@ -34197,6 +34215,12 @@
       "actioncode": ""
     },
     {
+      "actionid": 911,
+      "rolecode": "WORKS_SUPER_USER",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
       "actionid": 90,
       "rolecode": "WORKS_SUPER_USER",
       "tenantId": "pg",
@@ -34786,6 +34810,12 @@
     },
     {
       "actionid": 91,
+      "rolecode": "ORG_VIEWER",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
+      "actionid": 911,
       "rolecode": "ORG_VIEWER",
       "tenantId": "pg",
       "actioncode": ""
