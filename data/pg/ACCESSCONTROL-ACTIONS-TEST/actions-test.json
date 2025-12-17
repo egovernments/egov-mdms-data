@@ -20530,6 +20530,18 @@
         "queryParams": "",
         "sidebar": "digit-ui-links",
         "sidebarURL": ""
-    }  
+    },  
+    {
+      "id": 5565,
+      "name": "org  Search",
+      "url": "/mukta-services/org-services/organisation/v1/_search",
+      "displayName": "Search org",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
+  } 
   ]
 }
