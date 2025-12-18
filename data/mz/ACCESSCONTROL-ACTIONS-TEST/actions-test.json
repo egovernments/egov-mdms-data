@@ -15913,6 +15913,18 @@
       "serviceCode": "mdms",
       "code": "null",
       "path": ""
+    },
+           {
+      "id": 2083,
+      "name": "Update HCM-ADMIN-CONSOLE.TransformedFormConfig",
+      "url": "/mdms-v2/v2/_update/HCM-ADMIN-CONSOLE.TransformedFormConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.TransformedFormConfig update API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
     }
   ]
 }
