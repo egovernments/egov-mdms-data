@@ -15889,6 +15889,30 @@
       "orderNumber": 0,
       "serviceCode": "",
       "parentModule": ""
-    }
+    },
+      {
+      "id": 2081,
+      "name": "Create HCM-ADMIN-CONSOLE.TransformedFormConfig",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.TransformedFormConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.TransformedFormConfig create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
+       {
+      "id": 2082,
+      "name": "Create HCM-ADMIN-CONSOLE.AppFlowConfig",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.AppFlowConfig",
+      "parentModule": "",
+      "displayName": "HCM-ADMIN-CONSOLE.AppFlowConfig create API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mdms",
+      "code": "null",
+      "path": ""
+    },
   ]
 }
