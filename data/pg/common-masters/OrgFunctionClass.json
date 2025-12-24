@@ -31,11 +31,39 @@
       "effectiveTo": null
     },
     {
-      "code": "NA",
-      "description": "Not Applicable",
-      "active": true,
-      "effectiveFrom": 1677044852,
-      "effectiveTo": null
-    }
+    "code": "A",
+    "active": true,
+    "description": "Class A",
+    "effectiveTo": null,
+    "effectiveFrom": 1677044852
+  },
+  {
+    "code": "B",
+    "active": true,
+    "description": "Class B",
+    "effectiveTo": null,
+    "effectiveFrom": 1677044852
+  },
+  {
+    "code": "C",
+    "active": true,
+    "description": "Class C",
+    "effectiveTo": null,
+    "effectiveFrom": 1677044852
+  },
+  {
+    "code": "D",
+    "active": true,
+    "description": "Class D",
+    "effectiveTo": null,
+    "effectiveFrom": 1677044852
+  },
+  {
+    "code": "NA",
+    "description": "Not Applicable",
+     "active": true,
+     "effectiveFrom": 1677044852,
+     "effectiveTo": null
+  }
   ]
 }
