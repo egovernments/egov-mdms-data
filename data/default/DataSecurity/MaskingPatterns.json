@@ -1,0 +1,38 @@
+{
+  "tenantId" : "default",
+  "moduleName" : "DataSecurity",
+  "MaskingPatterns":[
+    {
+      "patternId": "001",
+      "pattern": ".(?=.{4})"
+    },
+    {
+      "patternId": "002",
+      "pattern": "\\B[a-zA-Z0-9]"
+    },
+    {
+      "patternId": "003",
+      "pattern": ".(?=.{2})"
+    },
+    {
+      "patternId": "004",
+      "pattern": "(?<=.)[^@\\n](?=[^@\\n]*?@)|(?:(?<=@.)|(?!^)\\G(?=[^@\\n]*$)).(?!$)"
+    },
+    {
+      "patternId": "005",
+      "pattern": "[A-Za-zÀ-ȕ0-9(),-_., ]"
+    },
+    {
+      "patternId": "006",
+      "pattern": "\\w(?=(?:[ \\w]*\\w){2}$)"
+    },
+    {
+      "patternId": "007",
+      "pattern": "(?<=.).(?=.{3})"
+    },
+    {
+      "patternId": "008",
+      "pattern": "(?<=.).(?=.{2})"
+    }
+  ]
+}
