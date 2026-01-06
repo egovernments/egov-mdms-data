@@ -20542,6 +20542,18 @@
       "serviceCode": "organisation",
       "code": "null",
       "path": ""
-  } 
+  },
+    {
+      "id": 5566,
+      "name": "individual  Search",
+      "url": "/mukta-services/individual/v1/_search",
+      "displayName": "Search individual",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "individual",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
