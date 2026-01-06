@@ -341,11 +341,14 @@
     {
       "module": "PGR.WHATSAPP",
       "code": "PGR.WHATSAPP",
-      "active": false,
+      "active": true,
       "order":4,
       "tenants": [
         {
           "code": "pg.citya"
+        },
+        {
+          "code": "pg.cityb"
         }
       ]
     },
