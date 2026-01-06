@@ -20535,11 +20535,11 @@
       "id": 5565,
       "name": "org  Search",
       "url": "/mukta-services/org-services/organisation/v1/_search",
-      "displayName": "Search org",
+      "displayName": "Search organisation",
       "orderNumber": 1,
-      "parentModule": "",
+      "parentModule": "mukta-services",
       "enabled": true,
-      "serviceCode": "organisation",
+      "serviceCode": "mukta-services",
       "code": "null",
       "path": ""
   },
@@ -20549,9 +20549,21 @@
       "url": "/mukta-services/individual/v1/_search",
       "displayName": "Search individual",
       "orderNumber": 1,
-      "parentModule": "",
+      "parentModule": "mukta-services",
       "enabled": true,
-      "serviceCode": "individual",
+      "serviceCode": "mukta-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 5567,
+      "name": "Validate Muster With Measurement Book",
+      "url": "/mukta-services/musterRollValidations/_validate",
+      "parentModule": "mukta-services",
+      "displayName": "Validate Muster Roll With Measurement Book",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mukta-services",
       "code": "null",
       "path": ""
     }
