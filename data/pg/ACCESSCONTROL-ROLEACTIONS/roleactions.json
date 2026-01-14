@@ -970,6 +970,30 @@
     },
     {
       "rolecode": "MUKTA_ADMIN",
+      "actionid": 478,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "actionid": 478,
+      "rolecode": "WORKS_SUPER_USER",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 478,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 478,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 5566,
       "actioncode": "",
       "tenantId": "pg"
