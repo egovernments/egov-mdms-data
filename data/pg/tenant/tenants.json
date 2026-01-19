@@ -81,6 +81,65 @@
       "contactNumber": "0000-0000000",
       "pdfHeader": "PG_JALANDHAR_PDF_HEADER",
       "pdfContactDetails": "PG_JALANDHAR_CONTACT_DETAILS"
+    },
+    {
+      "city": {
+        "code": "pg.cityb",
+        "name": "CityB",
+        "ddrName": "CityB-MC",
+        "latitude": 31.634,
+        "ulbGrade": "MC Class I",
+        "longitude": 74.8723,
+        "regionName": "CityB Region",
+        "districtCode": "107",
+        "districtName": "cityB",
+        "districtTenantCode": ""
+      },
+      "code": "pg.cityb",
+      "name": "CityB",
+      "type": "CITY",
+      "logoId": "https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/kar/state-images/250px-Seal_of_Karnataka.svg.png",
+      "address": "",
+      "emailId": "",
+      "imageId": "",
+      "domainUrl": "",
+      "twitterUrl": "",
+      "description": "cityA",
+      "facebookUrl": "",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 6.00 PM"
+      },
+      "contactNumber": "9980770587",
+      "helpLineNumber": "9980770587",
+      "integrateProjectService": true
+    },
+    {
+      "city": {
+        "code": "pg.cityc",
+        "name": "CityC",
+        "ddrName": "CityA-DDR",
+        "latitude": 31.0913,
+        "ulbGrade": "MC Class I",
+        "longitude": 76.0392,
+        "regionName": "CityA Region",
+        "districtCode": "1703",
+        "districtName": "CityC",
+        "districtTenantCode": ""
+      },
+      "code": "pg.cityc",
+      "name": "CityC",
+      "type": "CITY",
+      "logoId": "https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/kar/state-images/250px-Seal_of_Karnataka.svg.png",
+      "address": "",
+      "emailId": "",
+      "imageId": "",
+      "domainUrl": "",
+      "twitterUrl": "",
+      "description": "cityA",
+      "facebookUrl": "",
+      "contactNumber": "9980770587",
+      "helpLineNumber": "9980770587",
+      "integrateProjectService": true
     }
   ]
 }
