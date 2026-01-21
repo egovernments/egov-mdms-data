@@ -1,151 +1,142 @@
 {
-    "tenantId": "mz",
-    "moduleName": "commonHCMUiConfig",
-    "SearchProductVariantConfig": [
-      {
-        "label": "SEARCH_PRODUCT_VARIANT",
-        "type": "search",
-        "actionLabel": "HCM_ADD_PRODUCT_VARIANT",
-        "actionRole": "SYSTEM_ADMINISTRATOR",
-        "actionLink": "workbench-ui/employee/workbench/mdms-add-v2?moduleName=Health&masterName=ProductVariant",
-        "apiDetails": {
-          "serviceName": "/product/variant/v1/_search",
-          "requestParam": {
-            "limit": 10,
-            "offset": 0,
-            "tenantId": "mz"
-          },
-          "requestBody": {
-            "tenantId": "mz",
-            "ProductVariant": {
-            }
-          },
-          "minParametersForSearchForm": 0,
-          "masterName": "commonUiConfig",
-          "moduleName": "SearchDefaultConfig",
-          "tableFormJsonPath": "requestParam",
-          "filterFormJsonPath": "requestBody.ProductVariant",
-          "searchFormJsonPath": "requestBody.ProductVariant"
-        },
-        "sections": {
-          "search": {
-            "uiConfig": {
-              "headerStyle": null,
-              "primaryLabel": "ES_COMMON_SEARCH",
-              "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
-              "minReqFields": 0,
-              "formClassName": "custom-both-clear-search",
-              "defaultValues": {
-                "sku": "",
-                "variation": "",
-                "ids": [""],
-                "productId": ""
+  "tenantId": "mz",
+  "moduleName": "commonHCMUiConfig",
+  "SearchProductVariantConfig": [
+    {
+      "type": "search",
+      "label": "SEARCH_PRODUCT_VARIANT",
+      "sections": {
+        "search": {
+          "show": true,
+          "label": "",
+          "children": {},
+          "uiConfig": {
+            "fields": [
+              {
+                "key": "PRODUCT_SKU",
+                "type": "text",
+                "label": "PRODUCT_SKU",
+                "disable": false,
+                "populators": {
+                  "name": "sku",
+                  "error": "PRODUCT_SKU_ERR_MSG",
+                  "validation": {}
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
               },
-              "fields": [
-                {
-                  "key": "PRODUCT_SKU",
-                  "label": "PRODUCT_SKU",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "sku",
-                    "error": "PRODUCT_SKU_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
-                    }
-                  }
+              {
+                "key": "PRODUCT_VARIATION",
+                "type": "text",
+                "label": "PRODUCT_VARIATION",
+                "disable": false,
+                "populators": {
+                  "name": "variation",
+                  "error": "PRODUCT_VARIATION_ERR_MSG",
+                  "validation": {}
                 },
-                {
-                  "key": "PRODUCT_VARIATION",
-                  "label": "PRODUCT_VARIATION",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "variation",
-                    "error": "PRODUCT_VARIATION_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
-                    }
-                  }
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
                 },
-                {
-                  "key": "PRODUCT_IDS",
-                  "label": "PRODUCT_IDS",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "ids",
-                    "error": "PRODUCT_IDS_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
-                    }
-                  }
+                "isMandatory": false
+              },
+              {
+                "key": "PRODUCT_IDS",
+                "type": "text",
+                "label": "PRODUCT_IDS",
+                "disable": false,
+                "populators": {
+                  "name": "id",
+                  "error": "PRODUCT_IDS_ERR_MSG",
+                  "validation": {}
                 },
-                {
-                  "key": "PRODUCT_ID",
-                  "label": "PRODUCT_ID",
-                  "type": "text",
-                  "isMandatory": false,
-                  "disable": false,
-                  "preProcess": {
-                    "convertStringToRegEx": ["populators.validation.pattern"]
-                  },
-                  "populators": {
-                    "name": "productId",
-                    "error": "PRODUCT_ID_ERR_MSG",
-                    "validation": {
-                      "pattern": "^[^\\\\$\\<>?\\\\\\\\~`!@$%^()+={}\\\\[\\\\]*:;“”‘’]{1,100}$`"
-                    }
-                  }
-                }
-              ]
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              },
+              {
+                "key": "PRODUCT_ID",
+                "type": "text",
+                "label": "PRODUCT_ID",
+                "disable": false,
+                "populators": {
+                  "name": "productId",
+                  "error": "PRODUCT_ID_ERR_MSG",
+                  "validation": {}
+                },
+                "preProcess": {
+                  "convertStringToRegEx": ["populators.validation.pattern"]
+                },
+                "isMandatory": false
+              }
+            ],
+            "headerStyle": null,
+            "minReqFields": 0,
+            "primaryLabel": "ES_COMMON_SEARCH",
+            "defaultValues": {
+              "id": "",
+              "sku": "",
+              "productId": "",
+              "variation": ""
             },
-            "label": "",
-            "children": {},
-            "show": true
-          },
-          "searchResult": {
-            "label": "ProductVariant",
-            "uiConfig": {
-              "columns": [
-                {
-                  "label": "PRODUCT_SKU",
-                  "jsonPath": "sku"
-                },
-                {
-                  "label": "PRODUCT_VARIATION",
-                  "jsonPath": "variation"
-                },
-                {
-                  "label": "PRODUCT_IDS",
-                  "jsonPath": "ids"
-                },
-                {
-                  "label": "PRODUCT_ID",
-                  "jsonPath": "productId"
-                }
-              ],
-              "enableGlobalSearch": false,
-              "enableColumnSort": true,
-              "resultsJsonPath": "ProductVariant"
-            },
-            "children": {},
-            "show": true
+            "formClassName": " ",
+            "secondaryLabel": "ES_COMMON_CLEAR_SEARCH"
           }
         },
-        "additionalSections": {}
-      }
-    ]
-  }
+        "searchResult": {
+          "show": true,
+          "label": "ProductVariant",
+          "children": {},
+          "uiConfig": {
+            "columns": [
+              {
+                "label": "PRODUCT_SKU",
+                "jsonPath": "sku"
+              },
+              {
+                "label": "PRODUCT_VARIATION",
+                "jsonPath": "variation"
+              },
+              {
+                "label": "VARIANT_ID",
+                "jsonPath": "id"
+              },
+              {
+                "label": "PRODUCT_ID",
+                "jsonPath": "productId"
+              }
+            ],
+            "resultsJsonPath": "ProductVariant",
+            "enableColumnSort": true,
+            "enableGlobalSearch": false
+          }
+        }
+      },
+      "actionLink": "workbench-ui/employee/workbench/mdms-add-v4?moduleName=Health&masterName=ProductVariant",
+      "actionRole": "SYSTEM_ADMINISTRATOR",
+      "apiDetails": {
+        "masterName": "commonUiConfig",
+        "moduleName": "SearchDefaultConfig",
+        "requestBody": {
+          "tenantId": "mz",
+          "ProductVariant": {}
+        },
+        "serviceName": "/product/variant/v1/_search",
+        "requestParam": {
+          "limit": 10,
+          "offset": 0,
+          "tenantId": "mz"
+        },
+        "tableFormJsonPath": "requestParam",
+        "filterFormJsonPath": "requestBody.ProductVariant",
+        "searchFormJsonPath": "requestBody.ProductVariant",
+        "minParametersForSearchForm": 0
+      },
+      "actionLabel": "HCM_ADD_PRODUCT_VARIANT",
+      "additionalSections": {}
+    }
+  ]
+}
