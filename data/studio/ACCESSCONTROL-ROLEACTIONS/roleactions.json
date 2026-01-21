@@ -1,0 +1,108 @@
+{
+  "tenantId": "studio",
+  "moduleName": "ACCESSCONTROL-ROLEACTIONS",
+  "roleactions": [
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 3,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 97,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 6,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 7,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "LOC_ADMIN",
+      "actionid": 7,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 8,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 9,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "studio"
+    },
+  {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 5547,
+      "actioncode": "",
+      "tenantId": "studio"
+  }
+  ]
+}

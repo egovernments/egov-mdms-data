@@ -1,0 +1,30 @@
+{
+  "tenantId": "studio",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Default role for citizen"
+    },
+    {
+      "code": "SYSTEM",
+      "name": "System",
+      "description": "Default role for system user"
+    },
+    {
+      "code": "EMPLOYEE",
+      "name": "Employee",
+      "description": "Default role for all employees"
+    },
+    {
+      "code": "HRMS_ADMIN",
+      "name": "HRMS Admin",
+      "description": "HRMS Admin"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "SUPER USER",
+      "description": "SUPER USER"
+    }  ]
+}
