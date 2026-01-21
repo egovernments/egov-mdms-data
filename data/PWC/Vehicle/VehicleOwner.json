@@ -1,0 +1,15 @@
+{
+    "tenantId": "PWC",
+    "moduleName": "Vehicle",
+    "VehicleOwner": [{
+            "name": "ULB",
+            "code": "ULB",
+            "active": true
+        },
+        {
+            "name": "Private",
+            "code": "Private",
+            "active": true
+        }
+    ]
+}

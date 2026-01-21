@@ -1,0 +1,13 @@
+{
+  "tenantId": "pg.cityd",
+  "moduleName": "FinanceModule",
+  "BankAccountServiceMapping": [
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001",
+      "tenantId": "pg.cityd"
+    }
+  ]
+}

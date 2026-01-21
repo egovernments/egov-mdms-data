@@ -1,0 +1,10 @@
+{
+    "tenantId": "EY",
+    "moduleName": "common-masters",
+    "TablePaginationOptions": [
+        {
+            "rowsPerPageOptions": [25, 50, 100],
+            "defaultValue": 100
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "tenantId": "KPNG",
+  "moduleName": "FSM",
+  "AdvancePayment": [
+    {
+      "name": "FixedValue",
+      "code": "FIXEDVALUE",
+      "active": false,
+      "advanceAmount":"200"
+    },
+	  {
+      "name": "PercentageValue",
+      "code": "PERCENTAGEVALUE",
+      "active": false,
+      "advancePercentage":"50"
+    }
+  ]  
+}
