@@ -20566,6 +20566,18 @@
       "serviceCode": "mukta-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 5568,
+      "name": "Search Bank Accounts",
+      "url": "/mukta-services/bankaccount/v1/_search",
+      "parentModule": "mukta-services",
+      "displayName": "Search Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mukta-services",
+      "code": "null",
+      "path": ""
     }
   ]
 }
