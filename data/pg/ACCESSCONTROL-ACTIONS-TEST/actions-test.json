@@ -20549,6 +20549,48 @@
       "serviceCode": "mukta-services",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 1931,
+      "url": "url",
+      "code": "null",
+      "name": "MDMS",
+      "path": "ACTION_TEST_9MDMS.WORKS-SOR.EstimateTemplate",
+      "enabled": true,
+      "leftIcon": "ContractIcon",
+      "displayName": "ACTION_TEST_MANAGE_WORKS_ESTIMATE_TEMPLATE",
+      "orderNumber": 1,
+      "serviceCode": "MDMS",
+      "parentModule": "",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS&masterName=EstimateTemplate"
+    },
+    {
+      "id": 2099,
+      "url": "url",
+      "code": "null",
+      "name": "MDMS",
+      "path": "ACTION_TEST_9MDMS.WORKS-SOR.RateAnalysis",
+      "enabled": false,
+      "leftIcon": "ContractIcon",
+      "displayName": "ACTION_TEST_MANAGE_WORKS_SOR_COMPOSITION",
+      "orderNumber": 1,
+      "serviceCode": "MDMS",
+      "parentModule": "",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=Composition"
+    },
+    {
+      "id": 1944,
+      "url": "url",
+      "code": "null",
+      "name": "MDMS",
+      "path": "ACTION_TEST_9MDMS.WORKS-SOR.RevisionOfRates",
+      "enabled": true,
+      "leftIcon": "ContractIcon",
+      "displayName": "ACTION_TEST_MANAGE_WORKS_REVISION_OF_RATES",
+      "orderNumber": 1,
+      "serviceCode": "MDMS",
+      "parentModule": "",
+      "navigationURL": "/works-ui/employee/rateAnalysis/search-sor"
     }
   ]
 }
