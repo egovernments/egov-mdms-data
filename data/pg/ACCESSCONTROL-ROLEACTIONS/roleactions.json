@@ -33775,6 +33775,72 @@
       "actionid": 1,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 267,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 2081,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 2081,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_VIEW_ADMIN",
+      "actionid": 1577,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_VIEW_ADMIN",
+      "actionid": 1577,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 1577,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_VIEW_ADMIN",
+      "actionid": 1511,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 1511,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 1488,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_VIEW_ADMIN",
+      "actionid": 1488,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
