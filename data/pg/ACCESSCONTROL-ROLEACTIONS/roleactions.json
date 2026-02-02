@@ -1684,12 +1684,6 @@
     },
     {
       "rolecode": "PROJECT_CREATOR",
-      "actionid": 15,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "PROJECT_CREATOR",
       "actionid": 18,
       "actioncode": "",
       "tenantId": "pg"
@@ -1713,26 +1707,8 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "PROJECT_VIEWER",
-      "actionid": 18,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "MUSTER_ROLL_VERIFIER",
-      "actionid": 59,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "MUSTER_ROLL_VERIFIER",
       "actionid": 90,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "MUSTER_ROLL_APPROVER",
-      "actionid": 59,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -5253,12 +5229,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "TECHNICAL_SANCTIONER",
-      "actionid": 396,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "ESTIMATE_VIEWER",
       "actionid": 396,
       "actioncode": "",
@@ -5434,12 +5404,6 @@
     },
     {
       "rolecode": "BILL_CREATOR",
-      "actionid": 406,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BILL_VIEWER",
       "actionid": 406,
       "actioncode": "",
       "tenantId": "pg"
@@ -33772,12 +33736,6 @@
     },
     {
       "rolecode": "EMPLOYEE_COMMON",
-      "actionid": 1,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 267,
       "actioncode": "",
       "tenantId": "pg"
@@ -33841,10 +33799,94 @@
       "actionid": 37,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 475,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 476,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 2081,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 2081,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_VIEW_ADMIN",
+      "actionid": 1577,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_VIEW_ADMIN",
+      "actionid": 1577,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 1577,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_VIEW_ADMIN",
+      "actionid": 1511,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 1511,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 1488,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_VIEW_ADMIN",
+      "actionid": 1488,
+      "actioncode": "",
+      "tenantId": "pg"
+    }, {
+      "actionid": 461,
+      "rolecode": "REVISION_OF_RATES",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
+      "actionid": 465,
+      "rolecode": "REVISION_OF_RATES",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
+      "actionid": 464,
+      "rolecode": "REVISION_OF_RATES",
+      "tenantId": "pg",
+      "actioncode": ""
+    }, {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 466,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
- 
-
-
-
