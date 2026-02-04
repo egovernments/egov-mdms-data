@@ -33699,7 +33699,19 @@
       "actioncode": ""
     },
     {
+      "actionid": 2099,
+      "rolecode": "MDMS_CITY_ADMIN",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
       "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 2099,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "REVISION_OF_RATES",
       "actionid": 2099,
       "actioncode": "",
       "tenantId": "pg"
@@ -33885,6 +33897,24 @@
     }, {
       "rolecode": "MDMS_CITY_ADMIN",
       "actionid": 466,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_VIEW_ADMIN",
+      "actionid": 1944,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 1944,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 1944,
       "actioncode": "",
       "tenantId": "pg"
     }
