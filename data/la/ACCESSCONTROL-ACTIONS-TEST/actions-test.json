@@ -22011,6 +22011,300 @@
       "displayName": "Profile Update",
       "orderNumber": 1,
       "serviceCode": "ADMIN"
+    },
+    {
+      "id": 11601,
+      "name": "create data for Studio.ServiceConfiguration schema",
+      "url": "/mdms-v2/v2/_create/Studio.ServiceConfiguration",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11602,
+      "name": "create data for Studio.ServiceConfigurationDrafts schema",
+      "url": "/mdms-v2/v2/_create/Studio.ServiceConfigurationDrafts",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11603,
+      "name": "create data for common-masters.uiHomePage schema",
+      "url": "/mdms-v2/v2/_create/common-masters.uiHomePage",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11604,
+      "name": "create data for Workflow.BusinessServiceMasterConfig schema",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessServiceMasterConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11605,
+      "name": "create data for Workflow.BusinessServiceConfig schema",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessServiceConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11606,
+      "name": "create data for Workflow.BusinessService schema",
+      "url": "/mdms-v2/v2/_create/Workflow.BusinessService",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11607,
+      "name": "create data for Workflow.AutoEscalationStatesToIgnore schema",
+      "url": "/mdms-v2/v2/_create/Workflow.AutoEscalationStatesToIgnore",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11608,
+      "name": "create data for Workflow.AutoEscalation schema",
+      "url": "/mdms-v2/v2/_create/Workflow.AutoEscalation",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11609,
+      "name": "create data for Studio.FormConfig schema",
+      "url": "/mdms-v2/v2/_create/Studio.FormConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11610,
+      "name": "create data for Studio.FormBuilder schema",
+      "url": "/mdms-v2/v2/_create/Studio.FormBuilder",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11611,
+      "name": "create data for Studio.FieldTypeMappingConfig schema",
+      "url": "/mdms-v2/v2/_create/Studio.FieldTypeMappingConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11612,
+      "name": "create data for Studio.FieldPropertiesPanelConfig schema",
+      "url": "/mdms-v2/v2/_create/Studio.FieldPropertiesPanelConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11613,
+      "name": "create data for Studio.Checklists schema",
+      "url": "/mdms-v2/v2/_create/Studio.Checklists",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11614,
+      "name": "create data for Studio.AppScreenLocalisationConfig schema",
+      "url": "/mdms-v2/v2/_create/Studio.AppScreenLocalisationConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11615,
+      "name": "create data for INBOX.InboxQueryConfiguration schema",
+      "url": "/mdms-v2/v2/_create/INBOX.InboxQueryConfiguration",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11616,
+      "name": "create data for egov-hrms.Specalization schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.Specalization",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11617,
+      "name": "create data for egov-hrms.InboxConfig schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.InboxConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11618,
+      "name": "create data for egov-hrms.EmploymentTest schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmploymentTest",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11619,
+      "name": "create data for egov-hrms.EmployeeType schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmployeeType",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11620,
+      "name": "create data for egov-hrms.EmployeeStatus schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmployeeStatus",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11621,
+      "name": "create data for egov-hrms.Degree schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.Degree",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11622,
+      "name": "create data for egov-hrms.DeactivationReason schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.DeactivationReason",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11623,
+      "name": "create data for egov-hrms.CommonFieldsConfig schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.CommonFieldsConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11624,
+      "name": "create data for egov-hrms.CampaignAssignmentFieldsConfig schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.CampaignAssignmentFieldsConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11625,
+      "name": "create data for DIGIT-UI.ApiCachingSettings schema",
+      "url": "/mdms-v2/v2/_create/DIGIT-UI.ApiCachingSettings",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11626,
+      "name": "create data for DataSecurity.SecurityPolicy schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.SecurityPolicy",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11627,
+      "name": "create data for DataSecurity.MaskingPatterns schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.MaskingPatterns",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11628,
+      "name": "create data for DataSecurity.EncryptionPolicy schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.EncryptionPolicy",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11629,
+      "name": "create data for DataSecurity.DecryptionABAC schema",
+      "url": "/mdms-v2/v2/_create/DataSecurity.DecryptionABAC",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11630,
+      "name": "create data for commonUiConfig.PrivacyPolicy schema",
+      "url": "/mdms-v2/v2/_create/commonUiConfig.PrivacyPolicy",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11631,
+      "name": "create data for commonUiConfig.LoginConfig schema",
+      "url": "/mdms-v2/v2/_create/commonUiConfig.LoginConfig",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11632,
+      "name": "create data for commonUiConfig.HelpTutorial schema",
+      "url": "/mdms-v2/v2/_create/commonUiConfig.HelpTutorial",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11633,
+      "name": "create data for commonUiConfig.HelpInfo schema",
+      "url": "/mdms-v2/v2/_create/commonUiConfig.HelpInfo",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11634,
+      "name": "create data for common-masters.uiCommonConstants schema",
+      "url": "/mdms-v2/v2/_create/common-masters.uiCommonConstants",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11635,
+      "name": "create data for common-masters.StateInfo schema",
+      "url": "/mdms-v2/v2/_create/common-masters.StateInfo",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11636,
+      "name": "create data for common-masters.IdFormat schema",
+      "url": "/mdms-v2/v2/_create/common-masters.IdFormat",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11637,
+      "name": "create data for common-masters.GenderType schema",
+      "url": "/mdms-v2/v2/_create/common-masters.GenderType",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11638,
+      "name": "create data for common-masters.Designation schema",
+      "url": "/mdms-v2/v2/_create/common-masters.Designation",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11639,
+      "name": "create data for common-masters.Department schema",
+      "url": "/mdms-v2/v2/_create/common-masters.Department",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11640,
+      "name": "create data for BillingService.TaxPeriod schema",
+      "url": "/mdms-v2/v2/_create/BillingService.TaxPeriod",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11641,
+      "name": "create data for BillingService.TaxHeadMaster schema",
+      "url": "/mdms-v2/v2/_create/BillingService.TaxHeadMaster",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11642,
+      "name": "create data for BillingService.BusinessService schema",
+      "url": "/mdms-v2/v2/_create/BillingService.BusinessService",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11643,
+      "name": "create data for ACCESSCONTROL-ROLES.roles schema",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11644,
+      "name": "create data for ACCESSCONTROL-ROLEACTIONS.roleactions schema",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLEACTIONS.roleactions",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11645,
+      "name": "create data for ACCESSCONTROL-ACTIONS-TEST.actions-test schema",
+      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ACTIONS-TEST.actions-test",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11646,
+      "name": "create data for tenant.citymodule schema",
+      "url": "/mdms-v2/v2/_create/tenant.citymodule",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11647,
+      "name": "create data for tenant.tenants schema",
+      "url": "/mdms-v2/v2/_create/tenant.tenants",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11648,
+      "name": "create data for egov-hrms.EmployeeDepartment schema",
+      "url": "/mdms-v2/v2/_create/egov-hrms.EmployeeDepartment",
+      "serviceCode": "mdms"
+    },
+    {
+      "id": 11649,
+      "name": "create data for HCM-ADMIN-CONSOLE.attributeConfig schema",
+      "url": "/mdms-v2/v2/_create/HCM-ADMIN-CONSOLE.attributeConfig",
+      "serviceCode": "mdms"
     }
   ]
 }
