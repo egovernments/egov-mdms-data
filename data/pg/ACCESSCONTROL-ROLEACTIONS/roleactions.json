@@ -850,12 +850,6 @@
     },
     {
       "rolecode": "BILL_VIEWER",
-      "actionid": 56,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BILL_VIEWER",
       "actionid": 57,
       "actioncode": "",
       "tenantId": "pg"
@@ -5981,6 +5975,12 @@
     {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 488,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 79,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -33699,7 +33699,19 @@
       "actioncode": ""
     },
     {
+      "actionid": 2099,
+      "rolecode": "MDMS_CITY_ADMIN",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
       "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 2099,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "REVISION_OF_RATES",
       "actionid": 2099,
       "actioncode": "",
       "tenantId": "pg"
@@ -33865,7 +33877,8 @@
       "actionid": 1488,
       "actioncode": "",
       "tenantId": "pg"
-    }, {
+    },
+    {
       "actionid": 461,
       "rolecode": "REVISION_OF_RATES",
       "tenantId": "pg",
@@ -33882,9 +33895,64 @@
       "rolecode": "REVISION_OF_RATES",
       "tenantId": "pg",
       "actioncode": ""
-    }, {
+    },
+    {
       "rolecode": "MDMS_CITY_ADMIN",
       "actionid": 466,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_VIEW_ADMIN",
+      "actionid": 1944,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_CITY_ADMIN",
+      "actionid": 1944,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MDMS_STATE_ADMIN",
+      "actionid": 1944,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 456,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 64,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 2081,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 78,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 1931,
       "actioncode": "",
       "tenantId": "pg"
     }
