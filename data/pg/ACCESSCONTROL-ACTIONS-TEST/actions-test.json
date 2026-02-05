@@ -64,7 +64,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/inbox",
-      "path": "9HRMS.Search",
+      "path": "12.HRMS.Search",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -162,7 +162,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/create",
-      "path": "9HRMS.Create",
+      "path": "12.HRMS.Create",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -176,7 +176,7 @@
       "serviceCode": "WORKS",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
-      "path": "2ESTIMATE.CreateEstimate",
+      "path": "02.Estimate.CreateEstimate",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -190,7 +190,7 @@
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/create-project",
-      "path": "1PROJECT.Create",
+      "path": "01.Project.Create",
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
@@ -204,7 +204,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/search-estimate",
-      "path": "2ESTIMATE.SearchEstimate",
+      "path": "02.Estimate.SearchEstimate",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -218,7 +218,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/inbox",
-      "path": "2ESTIMATE.EstimateInbox",
+      "path": "02.Estimate.EstimateInbox",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -232,7 +232,7 @@
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
-      "path": "1PROJECT.search",
+      "path": "01.Project.search",
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
@@ -641,7 +641,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/billinbox",
-      "path": "5BILLS.BillInbox",
+      "path": "06.Bills.BillInbox",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -655,7 +655,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
-      "path": "5BILLS.CreratePurchaseBill",
+      "path": "06.Bills.CreratePurchaseBill",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -683,7 +683,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/view-bills/menu",
-      "path": "5BILLS.BillView",
+      "path": "06.Bills.BillView",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -697,7 +697,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/inbox",
-      "path": "3CONTRACTS.Inbox",
+      "path": "03.Contracts.Inbox",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -711,7 +711,7 @@
       "serviceCode": "ATTENDENCEMGMT",
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/inbox",
-      "path": "4ATTENDENCEMGMT.Inbox",
+      "path": "05.AttendanceManagement.Inbox",
       "leftIcon": "dynamic:AttendanceIcon"
     },
     {
@@ -725,7 +725,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/search-estimate?status=APPROVED",
-      "path": "3CONTRACTS.Create",
+      "path": "03.Contracts.Create",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -739,7 +739,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract",
-      "path": "3CONTRACTS.Search",
+      "path": "03.Contracts.Search",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -771,7 +771,7 @@
       "leftIcon": "HRIcon"
     },
     {
-      "id": 62,
+      "id": 622,
       "name": "MASTERS",
       "url": "url",
       "displayName": "Masters Search Organisation",
@@ -781,7 +781,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "7MASTERS.Search",
+      "path": "10.MDMS.Organisation.Search",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -795,7 +795,7 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "8WageSeeker.CreateWageSeeker",
+      "path": "10.MDMS.WageSeeker.CreateWageSeeker",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -809,7 +809,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-organization",
-      "path": "7MASTERS.CreateOrganisation",
+      "path": "10.MDMS.Oragnisation.CreateOrganisation",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -979,20 +979,20 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-wageseeker",
-      "path": "8WageSeeker.Search",
+      "path": "10.MDMS.WageSeeker.Search",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
       "id": 79,
-      "name": "Dashboard Mukta",
+      "name": "Dashboard Works",
       "url": "url",
-      "displayName": "Mukta Dashboard",
+      "displayName": "Works Dashboard",
       "orderNumber": 4,
       "parentModule": "dss-dashboard",
       "enabled": true,
       "serviceCode": "DSS",
       "code": "null",
-      "path": "6Dashboard.Mukta",
+      "path": "11.Dashboard.Works",
       "navigationURL": "/works-ui/employee/dss/dashboard/mukta",
       "leftIcon": "dynamic:DashboardIcon",
       "rightIcon": ""
@@ -1121,7 +1121,7 @@
       "serviceCode": "ATTENDENCEMGMT",
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
-      "path": "4ATTENDENCEMGMT.Search",
+      "path": "05.AttendanceManagement.Search",
       "leftIcon": "dynamic:AttendanceIcon"
     },
     {
@@ -1487,11 +1487,11 @@
       "displayName": "PAYMENT Generate",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "PAYMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/search-bill?status=APPROVED",
-      "path": "5PAYMENT.GENERATEPAY",
+      "path": "7PAYMENT.GENERATEPAY",
       "leftIcon": "dynamic:PaymentIcon"
     },
     {
@@ -1505,7 +1505,7 @@
       "serviceCode": "PAYMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/download-bill",
-      "path": "5PAYMENT.DOWNLOADPAY",
+      "path": "7PAYMENT.DOWNLOADPAY",
       "leftIcon": "dynamic:PaymentIcon"
     },
     {
@@ -1649,7 +1649,7 @@
       "displayName": "Manage EmployeeType Master",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=hrms&masterName=EmployeeType",
@@ -1687,7 +1687,7 @@
       "displayName": "Manage EmployeeType Master",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=pgr&masterName=RejectionReasons",
@@ -1737,7 +1737,7 @@
       "displayName": "Manage PGR Service Def Master",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PGR&masterName=ServiceDefs",
@@ -1751,7 +1751,7 @@
       "displayName": "Manage UOM Master",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -1817,7 +1817,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SOR",
-      "path": "9MDMS.SORSOR",
+      "path": "09.ScheduleOfRates.SOR",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1855,7 +1855,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORVariant",
-      "path": "9MDMS.SORSORVariant",
+      "path": "09.ScheduleOfRates.Variant",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1953,7 +1953,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORSubType",
-      "path": "9MDMS.SORSORSubType",
+      "path": "09.ScheduleOfRates.SubType",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1991,7 +1991,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORType",
-      "path": "9MDMS.SORSORType",
+      "path": "09.ScheduleOfRates.Type",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -2001,7 +2001,7 @@
       "displayName": "master1",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2015,7 +2015,7 @@
       "displayName": "master2",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2029,7 +2029,7 @@
       "displayName": "master3",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2043,7 +2043,7 @@
       "displayName": "Sub menu option one",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2057,7 +2057,7 @@
       "displayName": "Sub menu option two",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2071,7 +2071,7 @@
       "displayName": "Sub menu option three",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2085,7 +2085,7 @@
       "displayName": "Sub menu option one",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2099,7 +2099,7 @@
       "displayName": "Sub menu option two",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2113,7 +2113,7 @@
       "displayName": "Sub menu option three",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2127,7 +2127,7 @@
       "displayName": "Sub menu option one",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2141,7 +2141,7 @@
       "displayName": "Sub menu option two",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2155,7 +2155,7 @@
       "displayName": "Sub menu option three",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2169,7 +2169,7 @@
       "displayName": "Only",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TEST",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
@@ -2243,7 +2243,7 @@
       "displayName": "Manage Works SOR",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=Type",
@@ -2281,7 +2281,7 @@
       "displayName": "Manage Works SOR SubType",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=SubType",
@@ -2319,7 +2319,7 @@
       "displayName": "Manage Works SOR Variant",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=Variant",
@@ -2357,7 +2357,7 @@
       "displayName": "Manage Works SOR SOR",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=SOR",
@@ -2395,7 +2395,7 @@
       "displayName": "Manage Works SOR Overhead",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=Overhead",
@@ -2433,7 +2433,7 @@
       "displayName": "Manage Works SOR Rates",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=Rates",
@@ -2471,7 +2471,7 @@
       "displayName": "Manage PQM Labs",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=QualityTestLab",
@@ -2509,7 +2509,7 @@
       "displayName": "Manage PQM BenchmarkRule",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=BenchmarkRule",
@@ -2547,7 +2547,7 @@
       "displayName": "Manage PQM Material",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=Material",
@@ -2623,7 +2623,7 @@
       "displayName": "Manage PQM TestType",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=TestType",
@@ -2661,7 +2661,7 @@
       "displayName": "Manage PQM Plant",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=Plant",
@@ -2699,7 +2699,7 @@
       "displayName": "Manage PQM PlantType",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=PlantType",
@@ -2737,7 +2737,7 @@
       "displayName": "Manage PQM Stage",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=Stage",
@@ -2775,7 +2775,7 @@
       "displayName": "Manage PQM TestStandard",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=TestStandard",
@@ -2813,7 +2813,7 @@
       "displayName": "Manage PQM QualityCriteria",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=QualityCriteria",
@@ -2851,7 +2851,7 @@
       "displayName": "Manage PQM Parameter",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=Parameter",
@@ -2889,7 +2889,7 @@
       "displayName": "Manage PQM ProcessType",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=ProcessType",
@@ -2927,7 +2927,7 @@
       "displayName": "Manage PQM ProcessSubType",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=ProcessSubType",
@@ -2965,7 +2965,7 @@
       "displayName": "Manage PQM Process",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=Process",
@@ -3003,7 +3003,7 @@
       "displayName": "Manage PQM PlantConfig",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=PlantConfig",
@@ -3041,7 +3041,7 @@
       "displayName": "Manage PQM PlantAddress",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=PlantAddress",
@@ -3079,7 +3079,7 @@
       "displayName": "Manage PQM WasteType",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PQM&masterName=WasteType",
@@ -4442,7 +4442,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
-      "path": "3MEASUREMENT.Create",
+      "path": "04.Measurement.Create",
       "leftIcon": "dynamic:MeasurementIcon"
     },
     {
@@ -4456,7 +4456,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/measurement/inbox",
-      "path": "3MEASUREMENT.Inbox",
+      "path": "04.Measurement.Inbox",
       "leftIcon": "dynamic:MeasurementIcon"
     },
     {
@@ -4470,7 +4470,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/measurement/search",
-      "path": "3MEASUREMENT.Search",
+      "path": "04.Measurement.Search",
       "leftIcon": "dynamic:MeasurementIcon"
     },
     {
@@ -5013,14 +5013,14 @@
       "id": 456,
       "name": "PAYMENTINSTRUCTION",
       "url": "url",
-      "displayName": "Search Payment Instruction",
+      "displayName": "ACTION_TEST_PAYMENTINSTRUCTION",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "PAYMENTINSTRUCTION",
       "code": "null",
-      "navigationURL": "/mukta-works-ui/employee/expenditure/search-payment-instruction",
-      "path": "Payment Instruction.SEARCHPAYMENTINSTRUCTION",
+      "navigationURL": "/works-ui/employee/expenditure/search-payment-instruction",
+      "path": "07.PaymentInstruction.SearchPaymentInstruction",
       "leftIcon": "ExpenditureIcon"
     },
     {
@@ -5069,7 +5069,7 @@
       "enabled": true,
       "serviceCode": "scheduler",
       "code": "null",
-      "path": ""
+      "path": "08.RevisionOfRates.Create"
     },
      {
       "id": 465,
@@ -5081,7 +5081,7 @@
       "enabled": true,
       "serviceCode": "scheduler",
       "code": "null",
-      "path": ""
+      "path": "08.RevisionOfRates.SEARCH"
     },
     {
       "id": 466,
@@ -5341,7 +5341,11 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "wms",
-      "name": "Mukta iFix PI search",
+      "path": ""
+    },
+    {
+      "id": 1699,
+      "name": "Mukta iFix search",
       "url": "/mukta-ifix-adapter/v1/pi/_search",
       "parentModule": "mukta-ifix-adapter",
       "displayName": "MUKTA-IFIX-PI Search",
@@ -5360,13 +5364,6 @@
       "parentModule": "",
       "enabled": true,
       "serviceCode": "wms",
-      "name": "Mukta iFix PI create",
-      "url": "/mukta-ifix-adapter/v1/pi/_create",
-      "parentModule": "mukta-ifix-adapter",
-      "displayName": "MUKTA-IFIX-PI Create",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "mukta-ifix-adapter",
       "code": "null",
       "path": ""
     },
@@ -19997,7 +19994,7 @@
         "displayName": "Tenant",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=tenant&masterName=tenants",
@@ -20035,7 +20032,7 @@
         "displayName": "Actions test",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ACTIONS-TEST&masterName=actions-test",
@@ -20073,7 +20070,7 @@
         "displayName": "Roles",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLES&masterName=roles",
@@ -20111,7 +20108,7 @@
         "displayName": "Roleactions",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLEACTIONS&masterName=roleactions",
@@ -20149,7 +20146,7 @@
         "displayName": "Roleactions Roles",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=ACCESSCONTROL-ROLES&masterName=rolesroles",
@@ -20187,7 +20184,7 @@
         "displayName": "health field appconfiguration",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=health&masterName=field-app-configuration",
@@ -20237,7 +20234,7 @@
         "displayName": "Default health field appconfiguration",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": true,
+        "enabled": false,
         "serviceCode": "MDMS",
         "code": "null",
         "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=default-health&masterName=field-app-configuration",
@@ -20555,7 +20552,7 @@
       "url": "url",
       "code": "null",
       "name": "MDMS",
-      "path": "ACTION_TEST_9MDMS.WORKS-SOR.EstimateTemplate",
+      "path": "10.MDMS.EstimateTemplate",
       "enabled": true,
       "leftIcon": "ContractIcon",
       "displayName": "ACTION_TEST_MANAGE_WORKS_ESTIMATE_TEMPLATE",
@@ -20597,7 +20594,7 @@
       "url": "url",
       "code": "null",
       "name": "MDMS",
-      "path": "ACTION_TEST_9MDMS.commonmasterProjectType",
+      "path": "10.MDMS.ProjectType",
       "enabled": true,
       "leftIcon": "ContractIcon",
       "displayName": "ACTION_TEST_PROJECT_TYPE_MASTER",
@@ -20647,6 +20644,18 @@
       "serviceCode": "MDMS",
       "parentModule": "",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=WORKS-SOR&masterName=Variant"
+    },
+    {
+      "id": 1701,
+      "name": "Mukta iFix PI create",
+      "url": "/mukta-ifix-adapter/v1/pi/_create",
+      "parentModule": "mukta-ifix-adapter",
+      "displayName": "MUKTA-IFIX-PI Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "mukta-ifix-adapter",
+      "code": "null",
+      "path": ""
     }
   ]
 }
