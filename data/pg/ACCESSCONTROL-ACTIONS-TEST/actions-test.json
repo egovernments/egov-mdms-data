@@ -64,7 +64,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/inbox",
-      "path": "12.HRMS.Search",
+      "path": "12HRMS.Search",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -162,7 +162,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/create",
-      "path": "12.HRMS.Create",
+      "path": "12HRMS.Create",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -641,7 +641,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/billinbox",
-      "path": "06.Bills.BillInbox",
+      "path": "6Bills.BillInbox",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -655,7 +655,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
-      "path": "06.Bills.CreratePurchaseBill",
+      "path": "6Bills.CreratePurchaseBill",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -683,7 +683,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/view-bills/menu",
-      "path": "06.Bills.BillView",
+      "path": "6Bills.BillView",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -711,7 +711,7 @@
       "serviceCode": "ATTENDENCEMGMT",
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/inbox",
-      "path": "05.AttendanceManagement.Inbox",
+      "path": "5AttendanceManagement.Inbox",
       "leftIcon": "dynamic:AttendanceIcon"
     },
     {
@@ -781,7 +781,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "10.MDMS.Organisation.Search",
+      "path": "MDMS.Organisation.OrganisationSearch",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -795,7 +795,7 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "10.MDMS.WageSeeker.CreateWageSeeker",
+      "path": "MDMS.WageSeeker.CreateWageSeeker",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -809,7 +809,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-organization",
-      "path": "10.MDMS.Oragnisation.CreateOrganisation",
+      "path": "MDMS.Organisation.CreateOrganisation",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -979,7 +979,7 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-wageseeker",
-      "path": "10.MDMS.WageSeeker.Search",
+      "path": "10MDMS.WageSeeker.Search",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -1121,7 +1121,7 @@
       "serviceCode": "ATTENDENCEMGMT",
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
-      "path": "05.AttendanceManagement.Search",
+      "path": "5AttendanceManagement.Search",
       "leftIcon": "dynamic:AttendanceIcon"
     },
     {
@@ -1817,7 +1817,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SOR",
-      "path": "09.ScheduleOfRates.SOR",
+      "path": "9ScheduleOfRates.SOR",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1855,7 +1855,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORVariant",
-      "path": "09.ScheduleOfRates.Variant",
+      "path": "9ScheduleOfRates.Variant",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1953,7 +1953,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORSubType",
-      "path": "09.ScheduleOfRates.SubType",
+      "path": "9ScheduleOfRates.SubType",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1991,7 +1991,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORType",
-      "path": "09.ScheduleOfRates.Type",
+      "path": "9ScheduleOfRates.Type",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -4442,7 +4442,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
-      "path": "04.Measurement.Create",
+      "path": "4Measurement.Create",
       "leftIcon": "dynamic:MeasurementIcon"
     },
     {
@@ -4456,7 +4456,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/measurement/inbox",
-      "path": "04.Measurement.Inbox",
+      "path": "4Measurement.Inbox",
       "leftIcon": "dynamic:MeasurementIcon"
     },
     {
@@ -4470,7 +4470,7 @@
       "serviceCode": "MEASUREMENT",
       "code": "null",
       "navigationURL": "/works-ui/employee/measurement/search",
-      "path": "04.Measurement.Search",
+      "path": "4Measurement.Search",
       "leftIcon": "dynamic:MeasurementIcon"
     },
     {
@@ -5020,7 +5020,7 @@
       "serviceCode": "PAYMENTINSTRUCTION",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/search-payment-instruction",
-      "path": "07.PaymentInstruction.SearchPaymentInstruction",
+      "path": "7PaymentInstruction.SearchPaymentInstruction",
       "leftIcon": "ExpenditureIcon"
     },
     {
@@ -5069,7 +5069,7 @@
       "enabled": true,
       "serviceCode": "scheduler",
       "code": "null",
-      "path": "08.RevisionOfRates.Create"
+      "path": "8RevisionOfRates.Create"
     },
      {
       "id": 465,
@@ -5081,7 +5081,7 @@
       "enabled": true,
       "serviceCode": "scheduler",
       "code": "null",
-      "path": "08.RevisionOfRates.SEARCH"
+      "path": "8RevisionOfRates.SEARCH"
     },
     {
       "id": 466,
@@ -20552,7 +20552,7 @@
       "url": "url",
       "code": "null",
       "name": "MDMS",
-      "path": "10.MDMS.EstimateTemplate",
+      "path": "MDMS.EstimateTemplate",
       "enabled": true,
       "leftIcon": "ContractIcon",
       "displayName": "ACTION_TEST_MANAGE_WORKS_ESTIMATE_TEMPLATE",
@@ -20594,7 +20594,7 @@
       "url": "url",
       "code": "null",
       "name": "MDMS",
-      "path": "10.MDMS.ProjectType",
+      "path": "MDMS.ProjectType",
       "enabled": true,
       "leftIcon": "ContractIcon",
       "displayName": "ACTION_TEST_PROJECT_TYPE_MASTER",
