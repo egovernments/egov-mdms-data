@@ -176,7 +176,7 @@
       "serviceCode": "WORKS",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
-      "path": "02.Estimate.CreateEstimate",
+      "path": "2Estimate.CreateEstimate",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -190,7 +190,7 @@
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/create-project",
-      "path": "01.Project.Create",
+      "path": "1Project.Create",
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
@@ -204,7 +204,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/search-estimate",
-      "path": "02.Estimate.SearchEstimate",
+      "path": "2Estimate.SearchEstimate",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -218,21 +218,21 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/inbox",
-      "path": "02.Estimate.EstimateInbox",
+      "path": "2Estimate.EstimateInbox",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
       "id": 18,
       "name": "PROJECT",
       "url": "url",
-      "displayName": "PROJECT Search",
+      "displayName": "Project Search",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
-      "path": "01.Project.search",
+      "path": "1Project.search",
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
@@ -697,14 +697,14 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/inbox",
-      "path": "03.Contracts.Inbox",
+      "path": "3Contracts.Inbox",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
       "id": 59,
       "name": "ATTENDENCEMGMT",
       "url": "url",
-      "displayName": "ATTENDENCEMGMT Inbox",
+      "displayName": "AttendanceManagement Inbox",
       "orderNumber": 3,
       "parentModule": "",
       "enabled": true,
@@ -725,7 +725,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/search-estimate?status=APPROVED",
-      "path": "03.Contracts.Create",
+      "path": "3Contracts.Create",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -739,7 +739,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract",
-      "path": "03.Contracts.Search",
+      "path": "3Contracts.Search",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -979,7 +979,7 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-wageseeker",
-      "path": "10MDMS.WageSeeker.Search",
+      "path": "MDMS.WageSeeker.Search",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -1114,7 +1114,7 @@
       "id": 90,
       "name": "ATTENDENCEMGMT",
       "url": "url",
-      "displayName": "ATTENDENCEMGMT Search",
+      "displayName": "AttendanceManagement Search",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
@@ -1817,7 +1817,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SOR",
-      "path": "9ScheduleOfRates.SOR",
+      "path": "ScheduleOfRates.SOR",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1855,7 +1855,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORVariant",
-      "path": "9ScheduleOfRates.Variant",
+      "path": "ScheduleOfRates.Variant",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1953,7 +1953,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORSubType",
-      "path": "9ScheduleOfRates.SubType",
+      "path": "ScheduleOfRates.SubType",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -1991,7 +1991,7 @@
       "serviceCode": "MDMS",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=SOR&masterName=SORType",
-      "path": "9ScheduleOfRates.Type",
+      "path": "ScheduleOfRates.Type",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -5063,13 +5063,13 @@
       "id": 464,
       "name": "Job Schedular create",
       "url": "/rate-analysis/v1/scheduler/_create",
-      "displayName": "Revision of Rate Analysis",
+      "displayName": "Revision of Rates",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "scheduler",
       "code": "null",
-      "path": "8RevisionOfRates.Create"
+      "path": "RevisionOfRates.Create"
     },
      {
       "id": 465,
@@ -5081,7 +5081,7 @@
       "enabled": true,
       "serviceCode": "scheduler",
       "code": "null",
-      "path": "8RevisionOfRates.SEARCH"
+      "path": "RevisionOfRates.Search"
     },
     {
       "id": 466,
