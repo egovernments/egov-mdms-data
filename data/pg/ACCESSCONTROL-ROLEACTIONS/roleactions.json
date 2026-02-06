@@ -2199,6 +2199,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 1699,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 115,
       "actioncode": "",
@@ -5971,6 +5977,18 @@
       "actionid": 488,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 1701,
+      "actioncode": "",
+      "tenantId": "od"
+    },
+    {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 1701,
+      "actioncode": "",
+      "tenantId": "od"
     },
     {
       "rolecode": "EMPLOYEE_COMMON",
@@ -33923,6 +33941,12 @@
     {
       "rolecode": "BILL_CREATOR",
       "actionid": 456,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 1699,
       "actioncode": "",
       "tenantId": "pg"
     },
