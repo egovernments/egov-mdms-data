@@ -64,7 +64,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/inbox",
-      "path": "12HRMS.Search",
+      "path": "HRMS.Search",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -162,7 +162,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/create",
-      "path": "12HRMS.Create",
+      "path": "HRMS.Create",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -781,7 +781,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "MDMS.Organisation.OrganisationSearch",
+      "path": "MDMS.Organisation.SearchOrganisation",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -992,7 +992,7 @@
       "enabled": true,
       "serviceCode": "DSS",
       "code": "null",
-      "path": "11.Dashboard.Works",
+      "path": "Dashboard.Works",
       "navigationURL": "/works-ui/employee/dss/dashboard/mukta",
       "leftIcon": "dynamic:DashboardIcon",
       "rightIcon": ""
@@ -5001,7 +5001,7 @@
       "displayName": "MUKTA Dashboard",
       "orderNumber": 1,
       "parentModule": "dss-dashboard",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Mukta",
