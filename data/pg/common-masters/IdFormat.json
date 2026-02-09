@@ -27,7 +27,7 @@
       "idname": "project.number"
     },
     {
-      "format": "RW/[fy:yyyy-yy]/[SEQ_CONT_SUPPLEMENT_NUM]",
+      "format": "TE/[fy:yyyy-yy]/[SEQ_CONT_SUPPLEMENT_NUM]",
       "idname": "contract.supplement.number"
     },
     {
