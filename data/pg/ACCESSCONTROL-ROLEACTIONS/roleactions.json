@@ -987,25 +987,31 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "MUKTA_ADMIN",
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 5565,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 5566,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "MUKTA_ADMIN",
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 5567,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "MUKTA_ADMIN",
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 5568,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "MUKTA_ADMIN",
+      "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 63,
       "actioncode": "",
       "tenantId": "pg"
@@ -5982,13 +5988,13 @@
       "rolecode": "BILL_CREATOR",
       "actionid": 1701,
       "actioncode": "",
-      "tenantId": "od"
+      "tenantId": "pg"
     },
     {
       "rolecode": "BILL_ACCOUNTANT",
       "actionid": 1701,
       "actioncode": "",
-      "tenantId": "od"
+      "tenantId": "pg"
     },
     {
       "rolecode": "EMPLOYEE_COMMON",
@@ -33639,12 +33645,6 @@
       "actioncode": ""
     },
     {
-      "actionid": 180,
-      "rolecode": "REVISION_OF_RATES",
-      "tenantId": "pg",
-      "actioncode": ""
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 5565,
       "actioncode": "",
@@ -33658,6 +33658,18 @@
     },
     {
       "rolecode": "ORG_ADMIN",
+      "actionid": 5567,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 5567,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 5567,
       "actioncode": "",
       "tenantId": "pg"
@@ -33951,13 +33963,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE_COMMON",
+      "rolecode": "ORG_ADMIN",
       "actionid": 622,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE_COMMON",
+      "rolecode": "ORG_ADMIN",
       "actionid": 64,
       "actioncode": "",
       "tenantId": "pg"
@@ -33969,7 +33981,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE_COMMON",
+      "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 78,
       "actioncode": "",
       "tenantId": "pg"
@@ -33977,6 +33989,96 @@
     {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 1931,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 59,
       "actioncode": "",
       "tenantId": "pg"
     }
