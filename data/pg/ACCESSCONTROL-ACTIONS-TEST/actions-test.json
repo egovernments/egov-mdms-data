@@ -4303,7 +4303,7 @@
       "displayName": "KIBANA HCM DASHBOARD",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "iframe",
       "code": "null",
       "navigationURL": "/workbench-ui/employee/utilities/iframe/elastic/hcm",
@@ -20658,5 +20658,6 @@
       "code": "null",
       "path": ""
     }
+
   ]
 }
