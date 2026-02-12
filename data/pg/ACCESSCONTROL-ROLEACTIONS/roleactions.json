@@ -1239,6 +1239,36 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 78,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 58,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 18,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 69,
       "actioncode": "",
@@ -33615,6 +33645,12 @@
       "actioncode": ""
     },
     {
+      "actionid": 622,
+      "rolecode": "ORG_VIEWER",
+      "tenantId": "pg",
+      "actioncode": ""
+    },
+    {
       "actionid": 94,
       "rolecode": "VIEW_DED_UNMASKED",
       "tenantId": "pg",
@@ -34017,6 +34053,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 78,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VIEWER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "MUSTER_ROLL_VERIFIER",
       "actionid": 76,
       "actioncode": "",
@@ -34037,6 +34085,12 @@
     {
       "rolecode": "MUSTER_ROLL_VERIFIER",
       "actionid": 90,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 78,
       "actioncode": "",
       "tenantId": "pg"
     },
