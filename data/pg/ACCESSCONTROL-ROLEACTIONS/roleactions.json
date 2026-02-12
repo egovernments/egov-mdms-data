@@ -1012,7 +1012,13 @@
     },
     {
       "rolecode": "MUSTER_ROLL_APPROVER",
-      "actionid": 63,
+      "actionid": 622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 64,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -1247,6 +1253,12 @@
     {
       "rolecode": "OFFICER_IN_CHARGE",
       "actionid": 78,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 64,
       "actioncode": "",
       "tenantId": "pg"
     },
