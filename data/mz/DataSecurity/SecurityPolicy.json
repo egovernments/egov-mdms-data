@@ -191,73 +191,73 @@
         {
           "name": "name",
           "jsonPath": "name",
-          "patternId": null,
+          "patternId": 002,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": null,
+          "patternId": 001,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "emailId",
           "jsonPath": "emailId",
-          "patternId": null,
+          "patternId": 004,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "username",
           "jsonPath": "username",
-          "patternId": null,
+          "patternId": 002,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
-          "patternId": null,
+          "patternId": 001,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "alternatemobilenumber",
           "jsonPath": "alternatemobilenumber",
-          "patternId": null,
+          "patternId": 001,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "pan",
           "jsonPath": "pan",
-          "patternId": null,
+          "patternId": 001,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "aadhaarNumber",
           "jsonPath": "aadhaarNumber",
-          "patternId": null,
+          "patternId": 001,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "guardian",
           "jsonPath": "guardian",
-          "patternId": null,
+          "patternId": 002,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
-          "patternId": null,
+          "patternId": 003,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
-          "patternId": null,
+          "patternId": 003,
           "mzVisibility": "PLAIN"
         },
         {
           "name": "fatherOrHusbandName",
           "jsonPath": "fatherOrHusbandName",
-          "patternId": null,
+          "patternId": 002,
           "mzVisibility": "PLAIN"
         }
       ],
