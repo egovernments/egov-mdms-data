@@ -907,21 +907,6 @@
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
-      "id": 79,
-      "name": "Dashboard Mukta",
-      "url": "url",
-      "displayName": "Mukta Dashboard",
-      "orderNumber": 1,
-      "parentModule": "dss-dashboard",
-      "enabled": true,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "6Dashboard.Mukta",
-      "navigationURL": "/works-ui/employee/dss/dashboard/mukta",
-      "leftIcon": "dynamic:DashboardIcon",
-      "rightIcon": ""
-    },
-    {
       "id": 80,
       "name": "DSS Dashboard Config Works",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/mukta",
@@ -932,6 +917,36 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 195,
+      "name": "MUKTA Dashboard",
+      "url": "url",
+      "displayName": "MUKTA Dashboard",
+      "orderNumber": 1,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "6Dashboard.MUKTADashboard",
+      "navigationURL": "/kibana-v8/login?next=%2Fkibana-v8%2Fapp%2Fdashboards#/view/c8d7e730-2252-11ef-98df-3bbfa2125b2b?_g=(filters:!(),time:(from:now-1y,to:now))",
+      "leftIcon": "dynamic:DashboardIcon",
+      "rightIcon": ""
+    },
+    {
+      "id": 196,
+      "name": "Rollout Dashboard",
+      "url": "url",
+      "displayName": "Rollout Dashboard",
+      "orderNumber": 1,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "6Dashboard.RolloutDashboard",
+      "navigationURL": "/kibana-v8/login?next=%2Fkibana-v8%2Fapp%2Fdashboards#/view/261cb0b0-fbde-11ee-b08d-8b505ceea182?_g=[…]use:!t,value:60000),time:(from:now-1y,to:now))",
+      "leftIcon": "dynamic:DashboardIcon",
+      "rightIcon": ""
     },
     {
       "id": 81,
