@@ -56,6 +56,12 @@
           "chartType": "METRIC"
         },
         {
+          "name": "percentTargetAchievementTodaySMC",
+          "active": true,
+          "vizType": "row",
+          "chartType": "METRIC"
+        },
+        {
           "name": "childrenAdministeredCoverageSmc",
           "active": true,
           "vizType": "row",
@@ -88,13 +94,19 @@
           "chartType": "METRIC"
         },
         {
-          "name": "householdsDistributionCoverageLLIN",
+          "name": "percentTargetAchievementTodayLLIN",
           "active": true,
           "vizType": "row",
           "chartType": "TABLE"
         },
         {
-          "name": "bednetsDistributionSummaryLLIN",
+          "name": "householdDistributionCoverageLLIN",
+          "active": true,
+          "vizType": "row",
+          "chartType": "METRIC"
+        },
+        {
+          "name": "householdDistributionSummaryLLIN",
           "active": true,
           "vizType": "null",
           "chartType": "TABLE"
